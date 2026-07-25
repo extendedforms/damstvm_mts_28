@@ -2319,21 +2319,6 @@ window.questions = [
     correctAnswerText:
       "Contrast-enhanced computed tomography of the abdomen helps assess local extent and spread"
   },
-  {
-    id: 165,
-    image: "",
-    question:
-      "A patient is diagnosed with perihilar cholangiocarcinoma involving the biliary bifurcation and extending into both right and left hepatic ducts. According to the Bismuth-Corlette classification, this lesion is best classified as:",
-    options: [
-      "Type I",
-      "Type II",
-      "Type III",
-      "Type IV"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Type IV"
-  },
-
  {
     id: 165,
     image: "",
