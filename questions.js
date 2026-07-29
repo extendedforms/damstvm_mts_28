@@ -3,2558 +3,2343 @@
 window.questions = [
   {
     id: 1,
-    image: "images/IMG_0563.jpeg",
-    question:
-      "A 68-year-old man presents with progressive dysphagia, regurgitation of undigested food, chronic cough, halitosis, and occasional aspiration episodes. He says symptoms are worse several hours after meals and sometimes food comes back into the mouth without nausea. The barium swallow image is given.\n\nWhat is the most likely diagnosis?",
+    image: "images/IMG_0625.jpeg",
+    question: "An elderly woman slips and falls on an outstretched hand. She presents with pain, swelling, and deformity around the wrist. The X-ray image shows an extra-articular fracture of the distal end of radius with dorsal displacement and dorsal angulation of the distal fragment, producing the classical dinner-fork / silver-fork deformity. Which of the following is the most likely diagnosis?",
     options: [
-      "Achalasia cardia",
-      "Zenker diverticulum",
-      "Esophageal carcinoma",
-      "Plummer–Vinson syndrome"
+      "Smith fracture",
+      "Barton fracture",
+      "Chauffeur’s fracture",
+      "Colles fracture"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Zenker diverticulum"
+    answerIndex: 3,
+    correctAnswerText: "Colles fracture"
   },
   {
     id: 2,
-    image: "images/IMG_0564.jpeg",
-    question:
-      "A 42-year-old man presents with recurrent perianal discharge for the past 2 years. He gives a history of a painful swelling near the anal verge that ruptured spontaneously 1 year ago, after which the pain decreased but intermittent purulent discharge persisted. On examination, a small external opening is seen near the anus, as suggested by the image. Which of the following is the most common etiopathogenesis of this condition?",
+    image: "images/IMG_0626.jpeg",
+    question: "An adult presents after being struck on the forearm while trying to protect the face from a blow. The X-ray image shows an isolated fracture of the shaft of the ulna. What is the most likely diagnosis?",
     options: [
-      "Congenital persistence of the anal membrane",
-      "Cryptoglandular infection of anal glands",
-      "Foreign body reaction to ingrown hair",
-      "Squamous cell carcinoma of the anal canal"
+      "Nightstick fracture",
+      "Monteggia fracture",
+      "Galeazzi fracture",
+      "Colles fracture"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Cryptoglandular infection of anal glands"
+    answerIndex: 0,
+    correctAnswerText: "Nightstick fracture"
   },
   {
     id: 3,
-    image: "images/IMG_0565.jpeg",
-    question:
-      "A 48-year-old woman undergoes delayed breast reconstruction after mastectomy. The reconstructive image shows transfer of lower abdominal skin and fat to the breast region while preserving the rectus abdominis muscle, with microvascular anastomosis to recipient chest wall vessels. Which of the following statements regarding this flap is most accurate?",
+    image: "images/IMG_0627.jpeg",
+    question: "A trauma patient has the radiographic lesion shown. Which associated finding most strongly supports the diagnosis seen in this image?",
     options: [
-      "It is a pedicled flap based on the superior epigastric artery and includes rectus abdominis muscle",
-      "It is a free flap based on deep inferior epigastric perforators and spares the rectus abdominis muscle",
-      "It is a musculocutaneous flap based on the thoracoacromial artery",
-      "It is best suited only for reconstruction of the lower inner quadrant of the breast"
+      "Distal radioulnar joint instability",
+      "Isolated distal radius metaphyseal fracture",
+      "Radial head dislocation at the elbow",
+      "Isolated midshaft ulnar fracture without joint injury"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "It is a free flap based on deep inferior epigastric perforators and spares the rectus abdominis muscle"
+    answerIndex: 2,
+    correctAnswerText: "Radial head dislocation at the elbow"
   },
   {
     id: 4,
-    image: "images/IMG_0566.jpeg",
-    question:
-      "A 38-year-old man with a history of intermittent jaundice, pruritus, and fatigue undergoes Magnetic Resonance Cholangiopancreatography. The image shows multifocal short-segment strictures with alternating dilatation involving the intrahepatic and extrahepatic bile ducts, producing a beaded appearance. Which of the following is the most likely associated condition?",
+    image: "images/IMG_0628.jpeg",
+    question: "An adolescent with the radiographic lesion shown is being evaluated for chronic swelling of the hand. Which of the following is the best next principle of management?",
     options: [
-      "Ulcerative colitis",
-      "Chronic pancreatitis",
-      "Gallbladder carcinoma",
-      "Autoimmune hemolytic anemia"
+      "Observation only because the lesion is self-limiting",
+      "Immediate wide resection as for malignant bone tumor",
+      "NSAIDs alone because most lesions resolve spontaneously",
+      "Biopsy confirmation followed by anti-tubercular therapy (ATT)"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Ulcerative colitis"
+    answerIndex: 3,
+    correctAnswerText: "Biopsy confirmation followed by anti-tubercular therapy (ATT)"
   },
   {
     id: 5,
-    image: "images/IMG_0567.jpeg",
-    question:
-      "A 78-year-old man is brought to the emergency department with progressive headache, confusion, and drowsiness for 2 days. He had a minor fall 3 weeks ago and is on antiplatelet therapy for ischemic heart disease. The non-contrast Computed Tomography scan of the head in the image shows a crescent-shaped extra-axial hyperdense collection along the cerebral convexity causing mass effect. Which of the following is the most likely source of bleeding?",
+    image: "images/IMG_0629.jpeg",
+    question: "A patient presents with swelling of a finger bone. The radiograph shows a well-defined lytic lesion involving almost the entire phalanx, with cortical thinning and specks of calcification. Which of the following is the most likely diagnosis?",
     options: [
-      "Rupture of middle meningeal artery",
-      "Tearing of bridging veins",
-      "Rupture of lenticulostriate arteries",
-      "Bleeding from dural venous sinus"
+      "Enchondroma",
+      "Osteoid osteoma",
+      "Giant cell tumor",
+      "Osteosarcoma"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Tearing of bridging veins"
+    answerIndex: 0,
+    correctAnswerText: "Enchondroma"
   },
   {
     id: 6,
-    image: "images/IMG_0568.jpeg",
-    question:
-      "A 56-year-old obese multiparous woman presents with a long-standing umbilical swelling that was previously reducible. Since morning, the swelling has become painful, tense, irreducible, and the overlying skin appears congested and unhealthy, as seen in the image. Which of the following is the most appropriate management?",
+    image: "images/IMG_0630.jpeg",
+    question: "A 14-year-old girl presents with gradually progressive pain and swelling around the knee. The radiograph shows an expansile, aggressive, irregular lytic lesion involving the metaphysis of proximal tibia. Histology reveals multiple blood-filled sinusoidal spaces separated by septa. What is the most likely diagnosis?",
     options: [
-      "Elective mesh hernioplasty after 6 weeks",
-      "Conservative treatment with analgesics and antibiotics",
-      "Urgent surgery with excision of the umbilicus and repair of the hernia",
-      "Incision and drainage of the swelling"
+      "Osteosarcoma",
+      "Aneurysmal bone cyst",
+      "Giant cell tumor",
+      "Ewing sarcoma"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Urgent surgery with excision of the umbilicus and repair of the hernia"
+    answerIndex: 1,
+    correctAnswerText: "Aneurysmal bone cyst"
   },
   {
     id: 7,
-    image: "images/IMG_0569.jpeg",
-    question:
-      "A 34-year-old woman from a sheep-rearing area presents with dull aching pain in the right upper abdomen. Contrast-enhanced Computed Tomography of the abdomen shows a cystic lesion in the liver with internal detached membranes and a few daughter cysts within it, producing a floating membrane appearance. According to the Gharbi classification, which of the following is the most likely type of hydatid cyst?",
-    options: ["Type 1", "Type 2", "Type 3", "Type 5"],
-    answerIndex: 1,
-    correctAnswerText: "Type 2"
+    image: "images/IMG_0631.jpeg",
+    question: "A 28-year-old woman presents with gradually progressive pain and swelling around the knee. The radiograph shows a well-defined geographical lytic lesion, eccentric in location, involving the distal femur, with a classical soap-bubble appearance and egg-shell crackling on examination. What is the most likely diagnosis?",
+    options: [
+      "Aneurysmal bone cyst",
+      "Osteosarcoma",
+      "Giant cell tumor (osteoclastoma)",
+      "Ewing sarcoma"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Giant cell tumor (osteoclastoma)"
   },
   {
     id: 8,
-    image: "images/IMG_0570.jpeg",
-    question:
-      "A 27-year-old hirsute man who works as a driver presents with recurrent pain, swelling, and intermittent seropurulent discharge from the natal cleft. The image shows midline pits in the sacrococcygeal region with surrounding inflamed tissue. Which of the following is the most definitive treatment for this condition in a patient with chronic recurrent disease?",
+    image: "images/IMG_0632.jpeg",
+    question: "A 16-year-old boy presents with progressive pain and swelling around the knee. The radiograph shown demonstrates an aggressive metaphyseal lesion with a classical sun-ray / sunburst appearance due to tumor bone extending along Sharpey fibers. What is the most likely diagnosis?",
     options: [
-      "Repeated incision and drainage only",
-      "Fistulotomy with tract laying open into the anal canal",
-      "Wide excision of the sinus tract with off-midline closure or flap procedure",
-      "Long-term oral antibiotics alone"
+      "Ewing sarcoma",
+      "Giant cell tumor",
+      "Aneurysmal bone cyst",
+      "Osteosarcoma"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Wide excision of the sinus tract with off-midline closure or flap procedure"
+    answerIndex: 3,
+    correctAnswerText: "Osteosarcoma"
   },
   {
     id: 9,
-    image: "images/IMG_0582.jpeg",
-    question:
-      "A 4-year-old child is brought to the emergency department with thermal burns involving the entire back and patchy burns over the anterior trunk, as seen in the image. According to the pediatric modification of the Rule of Nines, which of the following is the most appropriate estimate of the total body surface area burned?",
-    options: ["10–15%", "15–20%", "25–30%", "35–40%"],
-    answerIndex: 2,
-    correctAnswerText: "25–30%"
+    image: "images/IMG_0633.jpeg",
+    question: "A 17-year-old boy presents with persistent pain around the hip, which is worse at night and is dramatically relieved after taking aspirin. The radiograph of the femoral neck shows a small central radiolucent nidus surrounded by thick reactive sclerosis. What is the most likely diagnosis?",
+    options: [
+      "Osteoid osteoma",
+      "Osteoblastoma",
+      "Brodie abscess",
+      "Osteosarcoma"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Osteoid osteoma"
   },
   {
     id: 10,
-    image: "images/IMG_0583.jpeg",
-    question:
-      "A 42-year-old man has long-standing gastroesophageal reflux disease with persistent heartburn and regurgitation despite optimal medical therapy. The image depicts a surgical procedure in which the gastric fundus is wrapped completely around the lower end of the esophagus to reinforce the lower esophageal sphincter. Which of the following is the most likely procedure?",
+    image: "images/IMG_0634.jpeg",
+    question: "A newborn is brought for evaluation of a congenital foot deformity. The image shows the foot in plantar flexion, inversion, and adduction, giving the appearance of clubfoot. Which of the following is the most likely diagnosis?",
     options: [
-      "Nissen fundoplication",
-      "Toupet fundoplication",
-      "Heller myotomy",
-      "Distal gastrectomy"
+      "Calcaneovalgus foot",
+      "Congenital talipes equinovarus (clubfoot)",
+      "Pes planovalgus",
+      "Congenital vertical talus"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Nissen fundoplication"
+    answerIndex: 1,
+    correctAnswerText: "Congenital talipes equinovarus (clubfoot)"
   },
   {
     id: 11,
-    image: "images/IMG_0584.jpeg",
-    question:
-      "A 2-year-old child is brought with sudden-onset dysphagia and drooling after playing unsupervised. The radiograph shows a well-defined round radiopaque shadow in the cervical region, appearing en face on the frontal view. Which of the following is the most appropriate next step in management?",
+    image: "images/IMG_0635.jpeg",
+    question: "A laborer develops sudden severe pain at the base of the neck after forceful pulling activity. The lateral cervical spine image shows an avulsion fracture of the spinous process of a lower cervical vertebra, classically seen in the lower cervical/upper thoracic region. What is the most likely diagnosis?",
     options: [
-      "Observe for 24 hours because most coins pass spontaneously",
-      "Immediate bronchoscopy",
-      "Urgent upper gastrointestinal endoscopic removal",
-      "Reassure because this is most likely an imaging artifact"
+      "Hangman fracture",
+      "Jefferson fracture",
+      "Clay shoveler fracture",
+      "Odontoid fracture"
     ],
     answerIndex: 2,
-    correctAnswerText: "Urgent upper gastrointestinal endoscopic removal"
+    correctAnswerText: "Clay shoveler fracture"
   },
   {
     id: 12,
-    image: "images/IMG_0585.jpeg",
-    question:
-      "A 62-year-old man with upper gastrointestinal bleeding is planned for endoscopic therapy. During evaluation, a blood sample is placed into the device shown in the image to assess the viscoelastic properties of clot formation in whole blood and to guide targeted component therapy. Which of the following is the most likely investigation?",
+    image: "images/IMG_0636.jpeg",
+    question: "The instrument shown in the image is most appropriately used for which of the following purposes?",
     options: [
-      "Thromboelastography",
-      "Platelet aggregometry",
-      "Sonoclot analysis",
-      "Clotting time"
+      "Drilling a track into cortical bone",
+      "Cutting cancellous bone in osteotomy",
+      "Curetting out granulation tissue from bone cavity",
+      "Elevating periosteum from the bone surface during exposure"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Thromboelastography"
+    answerIndex: 3,
+    correctAnswerText: "Elevating periosteum from the bone surface during exposure"
   },
   {
     id: 13,
-    image: "images/IMG_0586.jpeg",
-    question:
-      "A 28-year-old man is brought to the emergency department after a road traffic accident. He is tachypneic, hypotensive, and restless. Examination reveals marked subcutaneous emphysema over the chest, absent breath sounds on the right side, and distended neck veins. The chest radiograph in the image shows a hyperlucent right hemithorax with collapse of the ipsilateral lung and mediastinal shift. What is the most appropriate immediate management?",
+    image: "images/IMG_0637.jpeg",
+    question: "A trauma patient with severe pain and deformity of the thigh is brought to the emergency room. The device shown in the image has an oval ring proximally with inner and outer bars, and is classically used in fracture shaft of femur. Which of the following is the correct identification of this instrument?",
     options: [
-      "Endotracheal intubation with positive pressure ventilation",
-      "Immediate needle decompression in the 2nd intercostal space followed by chest tube insertion",
-      "Extended Focused Assessment with Sonography for Trauma before intervention",
-      "Intravenous fluids alone and observation"
+      "Bohler Braun splint",
+      "Thomas splint",
+      "Cramer wire splint",
+      "Denis Browne splint"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "Immediate needle decompression in the 2nd intercostal space followed by chest tube insertion"
+    correctAnswerText: "Thomas splint"
   },
   {
     id: 14,
-    image: "images/IMG_0587.jpeg",
-    question:
-      "A 48-year-old man with long-standing alcohol-related chronic liver disease presents with hematemesis. Upper gastrointestinal endoscopy shows multiple large, bluish, tortuous submucosal bulges projecting into the lumen of the distal esophagus, as seen in the image. Which of the following is the most appropriate definitive endoscopic management for active bleeding from this lesion?",
+    image: "images/IMG_0638.jpeg",
+    question: "A middle-aged patient presents with diffuse bone pain, proximal muscle weakness, and difficulty walking. The lateral spine image shows biconcave vertebral bodies producing a classical fish mouth vertebra / codfish vertebra appearance. Which of the following is the most likely diagnosis associated with this radiological finding?",
     options: [
-      "Endoscopic variceal ligation",
-      "Argon plasma coagulation",
-      "Radiofrequency ablation",
-      "Endoscopic mucosal resection"
+      "Osteopetrosis",
+      "Ankylosing spondylitis",
+      "Osteomalacia",
+      "Spondylolisthesis"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Endoscopic variceal ligation"
+    answerIndex: 2,
+    correctAnswerText: "Osteomalacia"
   },
   {
     id: 15,
-    image: "images/IMG_0588.jpeg",
-    question:
-      "A 68-year-old man presents with buttock and thigh claudication that occurs after walking a short distance. Angiographic imaging shows extensive aortoiliac occlusive disease involving the distal abdominal aorta and extending into both common iliac arteries, with poor inflow to the femoral vessels. Which of the following is the best surgical management?",
+    image: "images/IMG_0639.jpeg",
+    question: "A patient with chronic bone pain, proximal muscle weakness, and biochemical evidence of increased bone turnover undergoes spine imaging. The vertebral body in the image shows dense sclerosis along all four end plates, giving a classical \"picture frame vertebra\" appearance. Which of the following is the most likely diagnosis?",
     options: [
-      "Percutaneous transluminal angioplasty with stenting",
-      "Femorofemoral crossover bypass",
-      "Aortofemoral bypass",
-      "Isolated aortoiliac endarterectomy"
+      "Osteoporosis",
+      "Osteomalacia",
+      "Ankylosing spondylitis",
+      "Paget disease of bone"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Aortofemoral bypass"
+    answerIndex: 3,
+    correctAnswerText: "Paget disease of bone"
   },
   {
     id: 16,
-    image: "images/IMG_0589.jpeg",
-    question:
-      "A 32-year-old man presents with sudden severe epigastric pain that rapidly becomes generalized, along with abdominal guarding and fever. An erect chest radiograph in the image shows crescentic lucency beneath the right hemidiaphragm, indicating free subdiaphragmatic air. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_0640.jpeg",
+    question: "An elderly patient presents with gradually progressive increase in skull size, dull headache, and a feeling that old headwear has become tight. Skull radiograph shows a well-circumscribed patch of osteoporosis in the calvarium, representing the osteolytic phase of a metabolic bone disorder. What is the most likely diagnosis?",
     options: [
-      "Amoebic liver abscess",
-      "Hollow viscus perforation",
-      "Gastric volvulus",
-      "Right-sided empyema thoracis"
+      "Osteoporosis circumscripta of Paget disease",
+      "Osteopetrosis",
+      "Multiple myeloma",
+      "Fibrous dysplasia"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hollow viscus perforation"
+    answerIndex: 0,
+    correctAnswerText: "Osteoporosis circumscripta of Paget disease"
   },
   {
     id: 17,
-    image: "images/IMG_0590.jpeg",
-    question:
-      "A 46-year-old woman develops persistent bilious drainage from the surgical drain on the third postoperative day after laparoscopic cholecystectomy. The diagram in the image shows a bile duct injury in which an accessory duct or cystic duct leak is present, while the main extrahepatic bile duct remains in continuity. According to the Strasberg classification, which of the following is the most likely type of bile duct injury?",
-    options: ["Type A", "Type C", "Type D", "Type E"],
+    image: "images/IMG_0641.jpeg",
+    question: "The orthopedic device shown in the image is most appropriately used for which of the following purposes?",
+    options: [
+      "Immobilization with traction for shaft femur fracture",
+      "Correction of clubfoot deformity in infants",
+      "Stabilization of cervical spine injury",
+      "External fixation of open tibial fracture"
+    ],
     answerIndex: 0,
-    correctAnswerText: "Type A"
+    correctAnswerText: "Immobilization with traction for shaft femur fracture"
   },
   {
     id: 18,
-    image: "images/IMG_0591.jpeg",
-    question:
-      "A 36-year-old man is brought to the emergency department after a road traffic accident with severe chest pain and respiratory distress. The chest image suggests multiple adjacent rib fractures creating a free-floating segment of the chest wall. On examination, the injured segment moves inward during inspiration and outward during expiration. Which of the following breathing patterns is most likely present in this patient?",
+    image: "images/IMG_0642.jpeg",
+    question: "The image summarizes traction-type osteochondritis with examples involving the tibial tuberosity and calcaneal tuberosity. Which of the following statements is most appropriate?",
     options: [
-      "Cheyne–Stokes respiration",
-      "Biot breathing",
-      "Kussmaul breathing",
-      "Paradoxical breathing"
+      "Osgood-Schlatter disease is a pressure/crushing osteochondritis of femoral condyle",
+      "Sever disease occurs due to compression at the patella",
+      "Osgood-Schlatter and Sever disease are traction osteochondritides caused by repeated tendon pull at apophyses",
+      "Standard treatment is immediate surgical excision in all cases"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Paradoxical breathing"
+    answerIndex: 2,
+    correctAnswerText: "Osgood-Schlatter and Sever disease are traction osteochondritides caused by repeated tendon pull at apophyses"
   },
   {
     id: 19,
-    image: "images/IMG_0592.jpeg",
-    question:
-      "A 5-week-old male infant is brought with progressively increasing non-bilious projectile vomiting after feeds. On examination, he appears hungry after vomiting and has mild dehydration. Ultrasonography shows a target-like appearance. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_0643.jpeg",
+    question: "A 5-year-old child presents with pain over the medial side of the foot, limp, and difficulty in walking. The radiograph shows an abnormal flattened/sclerotic navicular as shown in the image. Which of the following is the most likely diagnosis?",
     options: [
-      "Duodenal atresia",
-      "Annular pancreas",
-      "Hypertrophic pyloric stenosis",
-      "Malrotation with midgut volvulus"
+      "Freiberg disease",
+      "Sever disease",
+      "Osgood-Schlatter disease",
+      "Köhler disease"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Hypertrophic pyloric stenosis"
+    answerIndex: 3,
+    correctAnswerText: "Köhler disease"
   },
   {
     id: 20,
-    image: "",
-    question:
-      "A 42-year-old man is on the fifth postoperative day after emergency surgery for perforated appendicitis. He continues to have fever, tachycardia, persistent leukocytosis, and vague upper abdominal discomfort. Ultrasonography suggests a localized intraperitoneal fluid collection beneath the liver. Which of the following is the most common site for development of an intraperitoneal abscess in a recumbent patient?",
+    image: "images/IMG_0653.jpeg",
+    question: "A young adult presents with chronic dorsal wrist pain, reduced grip strength, and stiffness. The wrist image shows involvement of the lunate bone with changes suggestive of avascular necrosis. Which of the following is the most likely diagnosis?",
     options: [
-      "Supraphepatic space",
-      "Subhepatic space",
-      "Left lobe of liver",
-      "Left subphrenic space"
+      "Kienböck disease",
+      "Köhler disease",
+      "Preiser disease",
+      "Madelung deformity"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Subhepatic space"
+    answerIndex: 0,
+    correctAnswerText: "Kienböck disease"
   },
   {
     id: 21,
-    image: "",
-    question:
-      "A 67-year-old male smoker is found to have an asymptomatic infrarenal abdominal aortic aneurysm measuring 4.8 centimeters on screening ultrasonography. He is hemodynamically stable and has no abdominal or back pain. Which of the following is the most appropriate management?",
+    image: "images/IMG_0654.jpeg",
+    question: "An adult presents after fall on an outstretched hand with snuff box tenderness. The X-ray shown suggests a fracture at the waist of scaphoid. Which of the following is the most appropriate initial treatment?",
     options: [
-      "Immediate open surgical repair",
-      "Endovascular aneurysm repair for all aneurysms more than 4 centimeters",
-      "Regular surveillance with risk-factor modification; elective repair when diameter exceeds 5.5 centimeters or if symptomatic",
-      "Emergency laparotomy because all abdominal aortic aneurysms carry imminent risk of rupture"
+      "Below-elbow slab without thumb immobilization",
+      "Glass-holding cast",
+      "Immediate shoulder spica cast",
+      "Bohler Braun splint"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Regular surveillance with risk-factor modification; elective repair when diameter exceeds 5.5 centimeters or if symptomatic"
+    answerIndex: 1,
+    correctAnswerText: "Glass-holding cast"
   },
   {
     id: 22,
-    image: "",
-    question:
-      "A 28-year-old man is brought to the emergency department after a road traffic accident. He is conscious but restless, with active bleeding from a scalp laceration. The trauma team begins systematic evaluation according to the Advanced Trauma Life Support protocol. Which of the following is NOT a component of the primary survey?",
+    image: "images/IMG_0655.jpeg",
+    question: "A young man presents with wrist pain after trauma. The radiograph shows an intra-articular fracture of the distal end of radius involving the radial styloid, with the radio-scaphoid relationship maintained. Which of the following is the most likely diagnosis?",
     options: [
-      "Assessment of airway patency with cervical spine protection",
-      "Exposure of the patient by removing clothes to inspect for hidden injuries",
-      "Computed Tomography scan of the whole body",
-      "Rapid assessment of circulation including pulse, blood pressure, and external bleeding"
+      "Colles fracture",
+      "Smith fracture",
+      "Chauffeur’s fracture",
+      "Barton fracture"
     ],
     answerIndex: 2,
-    correctAnswerText: "Computed Tomography scan of the whole body"
+    correctAnswerText: "Chauffeur’s fracture"
   },
   {
     id: 23,
-    image: "",
-    question:
-      "A 62-year-old man presents with a gradually increasing reducible swelling in the right groin that becomes more prominent on coughing and straining. On examination, the swelling is medial to the inferior epigastric vessels and is diagnosed as a direct inguinal hernia. Weakness of which of the following structures most likely predisposed to this condition?",
+    image: "images/IMG_0656.jpeg",
+    question: "A young adult presents with wrist pain, swelling, and deformity after trauma. The radiograph shown demonstrates an intra-articular fracture of the distal end of radius associated with radiocarpal / radioscaphoid subluxation-dislocation. Which of the following is the most likely diagnosis?",
     options: [
-      "Pectineal ligament",
-      "Conjoint tendon",
-      "Reflected part of inguinal ligament",
-      "Lacunar ligament"
+      "Colles fracture",
+      "Smith fracture",
+      "Chauffeur’s fracture",
+      "Barton fracture"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Conjoint tendon"
+    answerIndex: 3,
+    correctAnswerText: "Barton fracture"
   },
   {
     id: 24,
     image: "",
-    question:
-      "A 36-year-old man presents with fever, right upper quadrant pain, and mild hepatomegaly for 5 days. One week earlier, he had an episode of loose stools. Contrast-enhanced Computed Tomography of the abdomen shows a solitary liver abscess measuring 4.5 centimeters in diameter. He is hemodynamically stable, with no features of rupture, sepsis, multiloculation, or peritonitis. What is the most appropriate next step in management?",
+    question: "A child with congenital radial-sided hand deformity is being screened for associated anomalies. Which of the following syndrome-association pairs is correctly matched?",
     options: [
-      "Percutaneous drainage immediately",
-      "Surgical drainage",
-      "Initial medical therapy with close clinical and radiological monitoring",
-      "Puncture-Aspiration-Injection-Reaspiration"
+      "Holt-Oram syndrome — ASD + Fanconi anaemia + club hand",
+      "TAR syndrome — anal atresia + tracheoesophageal fistula + renal agenesis",
+      "VACTERS — thrombocytopenia + absent radius",
+      "Radial club hand — usually associated with normal thumb and present scaphoid"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Initial medical therapy with close clinical and radiological monitoring"
+    answerIndex: 0,
+    correctAnswerText: "Holt-Oram syndrome — ASD + Fanconi anaemia + club hand"
   },
   {
     id: 25,
     image: "",
-    question:
-      "A 58-year-old man undergoes distal gastrectomy for adenocarcinoma of the stomach. Six months later, he complains of easy fatigability, numbness in the feet, and glossitis. Which of the following nutritional deficiencies is most likely to require routine supplementation after this surgery?",
-    options: ["Vitamin C", "Vitamin B12", "Vitamin A", "Calcium"],
+    question: "A bone biopsy shows mature cells lying within lacunae, representing the most abundant bone cells in number. These cells are best identified as:",
+    options: [
+      "Osteoblasts",
+      "Osteocytes",
+      "Osteoclasts",
+      "Chondroblasts"
+    ],
     answerIndex: 1,
-    correctAnswerText: "Vitamin B12"
+    correctAnswerText: "Osteocytes"
   },
   {
     id: 26,
     image: "",
-    question:
-      "A 5-year-old child is brought with intermittent painless rectal bleeding. Colonoscopic examination reveals a solitary pedunculated rectal polyp. Histopathology shows cystically dilated mucus-filled glands lined by inflamed epithelium with an edematous lamina propria rich in inflammatory cells. Which of the following best describes this lesion?",
+    question: "A 32-year-old tennis player complains of shoulder pain and inability to start arm abduction after a fall. Clinical suspicion is rotator cuff injury. Which of the following is the most likely injured tendon?",
     options: [
-      "Adenomatous polyp",
-      "Choristoma",
-      "Hamartomatous polyp",
-      "Carcinomatous polyp"
+      "Infraspinatus",
+      "Supraspinatus",
+      "Subscapularis",
+      "Teres minor"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Hamartomatous polyp"
+    answerIndex: 1,
+    correctAnswerText: "Supraspinatus"
   },
   {
     id: 27,
     image: "",
-    question:
-      "A 46-year-old man with long-standing alcohol-related chronic pancreatitis presents with recurrent severe epigastric pain radiating to the back. Imaging shows a diffusely dilated main pancreatic duct measuring 9 millimeters with multiple intraductal calculi, without an inflammatory mass in the head of the pancreas. Which of the following is the most appropriate definitive surgical procedure?",
+    question: "A man presents with an open fracture of the tibia after a road traffic accident. There is a wound larger than 1 cm with moderate soft tissue damage and a comminuted fracture, but no extensive soft tissue loss or vascular injury. According to Gustilo-Anderson classification, this injury is best classified as:",
     options: [
-      "Pancreaticoduodenectomy",
-      "Longitudinal pancreaticojejunostomy",
-      "Endoscopic Retrograde Cholangiopancreatography with sphincterotomy",
-      "Coring out of the pancreatic head"
+      "Type I",
+      "Type IIIA",
+      "Type II",
+      "Type IIIC"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Longitudinal pancreaticojejunostomy"
+    answerIndex: 2,
+    correctAnswerText: "Type II"
   },
   {
     id: 28,
     image: "",
-    question:
-      "A 60-year-old man with chronic alcohol-related liver disease presents with progressive weight loss, early satiety, and dull right upper quadrant pain. Laboratory evaluation shows alpha-fetoprotein of 680 nanograms per milliliter, elevated alkaline phosphatase, and near-normal aspartate aminotransferase and alanine aminotransferase values. Contrast-enhanced triple-phase Computed Tomography demonstrates a liver lesion that shows arterial phase hyperenhancement with portal venous washout. Which of the following is the most likely diagnosis?",
+    question: "A 67-year-old postmenopausal woman with osteoporosis is started on a monoclonal antibody that acts by inhibiting RANK-L and thereby decreases osteoclastic bone resorption. Which of the following drugs has this mechanism of action?",
     options: [
-      "Hepatic adenoma",
-      "Cholangiocarcinoma",
-      "Hepatocellular carcinoma",
-      "Alcoholic hepatitis"
+      "Bisphosphonate",
+      "Teriparatide",
+      "Strontium ranelate",
+      "Denosumab"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Hepatocellular carcinoma"
+    answerIndex: 3,
+    correctAnswerText: "Denosumab"
   },
   {
     id: 29,
     image: "",
-    question:
-      "A 7-day-old neonate is brought with persistent feculent discharge from the umbilicus since birth. On examination, there is a moist red mucosal-looking protrusion at the umbilicus with surrounding skin excoriation. Which of the following is the most likely diagnosis?",
+    question: "A 12-year-old obese boy presents with hip pain and limp. X-ray suggests slipped capital femoral epiphysis. Which type of physeal injury is classically represented by this lesion?",
     options: [
-      "Umbilical cyst",
-      "Patent vitellointestinal duct",
-      "Urachal sinus",
-      "Umbilical granuloma"
+      "Salter-Harris Type I",
+      "Salter-Harris Type II",
+      "Salter-Harris Type III",
+      "Salter-Harris Type IV"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Patent vitellointestinal duct"
+    answerIndex: 0,
+    correctAnswerText: "Salter-Harris Type I"
   },
   {
     id: 30,
     image: "",
-    question:
-      "A full-term neonate develops severe respiratory distress and cyanosis within minutes of birth. On examination, the abdomen appears scaphoid, breath sounds are markedly decreased on the left side, and heart sounds are shifted to the right. Chest radiograph shows bowel loops occupying the left hemithorax with mediastinal shift. Which of the following is the most likely diagnosis?",
+    question: "A patient with a metastatic lytic lesion around the hip has severe pain. According to Mirels score, which of the following factors contributes the highest risk score for impending pathological fracture?",
     options: [
-      "Morgagni hernia",
-      "Eventration of diaphragm",
-      "Bochdalek hernia",
-      "Hiatal hernia"
+      "Upper limb site with mild pain",
+      "Peritrochanteric/around hip lesion with lytic nature and severe pain",
+      "Lower limb site with blastic lesion and mild pain",
+      "Small lesion involving less than one-third of bone diameter"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Bochdalek hernia"
+    answerIndex: 1,
+    correctAnswerText: "Peritrochanteric/around hip lesion with lytic nature and severe pain"
   },
   {
     id: 31,
     image: "",
-    question:
-      "A 24-year-old man presents with fever, hypotension, tachypnea, and altered sensorium. The emergency physician wants to quickly assess the risk of poor outcome using the quick Sequential Organ Failure Assessment score at the bedside. Which of the following components are included in this score?",
+    question: "A 35-year-old man presents with a painless swelling of a finger. X-ray shows a well-defined lytic lesion involving almost the entire phalanx with cortical thinning and specks of calcification. Which of the following is the most likely diagnosis?",
     options: [
-      "Systolic Blood Pressure, Respiratory Rate, and Glasgow Coma Scale",
-      "Pulse Rate, Body Temperature, and Total Leukocyte Count",
-      "Serum Creatinine, Pulse Rate, and Blood Pressure",
-      "Respiratory Rate, Oxygen Saturation, and Serum Bilirubin"
+      "Osteochondroma",
+      "Spina ventosa",
+      "Enchondroma",
+      "Osteosarcoma"
     ],
-    answerIndex: 0,
-    correctAnswerText:
-      "Systolic Blood Pressure, Respiratory Rate, and Glasgow Coma Scale"
+    answerIndex: 2,
+    correctAnswerText: "Enchondroma"
   },
   {
     id: 32,
     image: "",
-    question:
-      "A 45-year-old man presents to the emergency department with massive hematemesis and dizziness. He has a history of chronic epigastric burning pain that is relieved temporarily by food and returns a few hours later. He frequently uses nonsteroidal anti-inflammatory drugs for back pain. Endoscopy confirms a posterior duodenal ulcer with active bleeding. Erosion of which of the following arteries is the most likely cause of this hemorrhage?",
+    question: "A 28-year-old woman presents with pain around the knee. X-ray shows a well-defined eccentric expansile lytic lesion in the distal femur, extending up to the articular margin with cortical thinning and \"soap bubble\" appearance. Which of the following is the most likely diagnosis?",
     options: [
-      "Left gastric artery",
-      "Splenic artery",
-      "Gastroduodenal artery",
-      "Right gastric artery"
+      "Osteosarcoma",
+      "Ewing sarcoma",
+      "Enchondroma",
+      "Giant cell tumor (osteoclastoma)"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Gastroduodenal artery"
+    answerIndex: 3,
+    correctAnswerText: "Giant cell tumor (osteoclastoma)"
   },
   {
     id: 33,
     image: "",
-    question:
-      "A 23-year-old man is brought to the emergency department 4 hours after accidentally ingesting a toilet-cleaning solution containing concentrated alkali. He has severe retrosternal pain, drooling, odynophagia, and is unable to swallow even saliva. Upper gastrointestinal endoscopy shows deep circumferential esophageal burns suggestive of severe corrosive injury. Which of the following is the most appropriate next step in management?",
+    question: "A teenager has an aggressive metaphyseal bone tumor around the knee. X-ray shows a spiculated periosteal reaction radiating outward like rays of sun, along with elevation of periosteum at the tumor margin. Which of the following radiological terms best describes these findings?",
     options: [
-      "Immediate esophagojejunostomy",
-      "Endoscopic esophageal stent placement",
-      "Feeding jejunostomy",
-      "Gastrojejunostomy"
+      "Sunburst appearance with Codman triangle",
+      "Onion-skin appearance with sequestrum",
+      "Soap-bubble appearance with egg-shell cracking",
+      "Ground-glass appearance with cortical tunneling"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Feeding jejunostomy"
+    answerIndex: 0,
+    correctAnswerText: "Sunburst appearance with Codman triangle"
   },
   {
     id: 34,
     image: "",
-    question:
-      "A 24-year-old man is brought after a high-speed road traffic accident. He was briefly conscious at the scene but rapidly became comatose. Non-contrast Computed Tomography of the brain shows multiple small punctate hemorrhagic lesions at the gray-white matter junction and in the corpus callosum with diffuse cerebral edema. Which of the following is the most likely diagnosis?",
+    question: "A patient with osteosarcoma is being planned for definitive treatment. Which of the following is the most appropriate management strategy?",
     options: [
-      "Extradural hematoma",
-      "Diffuse axonal injury",
-      "Subdural hematoma",
-      "Basal ganglia hemorrhage"
+      "Radiotherapy alone because the tumor is radiosensitive",
+      "Neoadjuvant chemotherapy followed by limb salvage surgery and postoperative chemotherapy",
+      "Immediate amputation without chemotherapy in all cases",
+      "Antibiotics followed by observation"
     ],
     answerIndex: 1,
-    correctAnswerText: "Diffuse axonal injury"
+    correctAnswerText: "Neoadjuvant chemotherapy followed by limb salvage surgery and postoperative chemotherapy"
   },
   {
     id: 35,
     image: "",
-    question:
-      "A 59-year-old man undergoes abdominoperineal resection for low rectal carcinoma. During pelvic dissection near the origin of the inferior mesenteric artery, autonomic nerve injury occurs. Postoperatively, he complains of inability to ejaculate and difficulty emptying the bladder, while erectile function is relatively preserved. Which part of the autonomic nervous system is most likely injured?",
+    question: "A 28-year-old man has persistent back pain due to a bone tumor involving the posterior elements of the spine. Imaging shows a lesion larger than 2 cm. Pain is present at night, but relief with aspirin is incomplete. Which of the following is the most likely diagnosis?",
     options: [
-      "Parasympathetic fibers from pelvic splanchnic nerves",
-      "Sympathetic fibers in the superior hypogastric plexus",
-      "Pudendal nerve",
-      "Inferior rectal nerve"
+      "Osteoid osteoma",
+      "Enchondroma",
+      "Osteoblastoma",
+      "Chondroblastoma"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Sympathetic fibers in the superior hypogastric plexus"
+    answerIndex: 2,
+    correctAnswerText: "Osteoblastoma"
   },
   {
     id: 36,
     image: "",
-    question:
-      "A 64-year-old man presents with progressive painless jaundice, anorexia, and significant weight loss over 3 months. On examination, the gallbladder is palpable, enlarged, and non-tender. Contrast-enhanced Computed Tomography shows a mass in the head of the pancreas causing distal common bile duct obstruction. Which of the following additional findings is most likely to be associated with this condition?",
+    question: "A 13-year-old boy presents with mild knee pain and swelling. X-ray shows an eccentric, slightly expansile lesion in the epiphysis of the distal femur. Biopsy reveals characteristic chicken-wire calcification. Which of the following is the most likely diagnosis?",
     options: [
-      "Alpha-fetoprotein markedly elevated",
-      "Courvoisier sign",
-      "Pain relieved by meals with recurrent melena",
-      "Multiple hepatic cysts with daughter cysts"
+      "Osteochondroma",
+      "Giant cell tumor",
+      "Aneurysmal bone cyst",
+      "Chondroblastoma (Codman tumor)"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Courvoisier sign"
+    answerIndex: 3,
+    correctAnswerText: "Chondroblastoma (Codman tumor)"
   },
   {
     id: 37,
     image: "",
-    question:
-      "A 48-year-old woman underwent laparoscopic cholecystectomy 4 years ago. She now presents with recurrent right upper quadrant pain, fever, and jaundice. Ultrasonography shows a dilated common bile duct with an intraductal calculus. Which of the following best describes the most likely nature of this stone?",
+    question: "A basketball player lands awkwardly and develops pain over the lateral border of the foot. X-ray shows an avulsion fracture of the tuberosity at the base of the 5th metatarsal caused by pull of the peroneus brevis tendon. Which of the following is the correct diagnosis?",
     options: [
-      "Secondary common bile duct stone",
-      "Primary common bile duct stone",
-      "Tertiary common bile duct stone",
-      "Residual cystic duct stump stone"
+      "Pseudo-Jones fracture",
+      "Jones fracture",
+      "March fracture",
+      "Lisfranc fracture"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Tertiary common bile duct stone"
+    answerIndex: 0,
+    correctAnswerText: "Pseudo-Jones fracture"
   },
   {
     id: 38,
     image: "",
-    question:
-      "A 58-year-old man presents with high-grade fever, chills, right upper quadrant pain, and jaundice for 3 days. He is confused and hypotensive. Ultrasonography shows a dilated common bile duct with multiple calculi. Which of the following is the most appropriate next step in management?",
+    question: "A pilot meets with an air crash and sustains a fracture of the talus. Four weeks later, the orthopedic team monitors for avascular necrosis because of the retrograde blood supply of this bone. Which of the following fractures is classically called \"aviator's fracture\"?",
     options: [
-      "Immediate elective cholecystectomy",
-      "Endoscopic Retrograde Cholangiopancreatography with biliary decompression",
-      "Oral antibiotics and outpatient follow-up",
-      "Percutaneous liver biopsy"
+      "Fracture of body of talus",
+      "Fracture of neck of talus",
+      "Fracture of lateral malleolus",
+      "Fracture of calcaneum"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "Endoscopic Retrograde Cholangiopancreatography with biliary decompression"
+    correctAnswerText: "Fracture of neck of talus"
   },
   {
     id: 39,
     image: "",
-    question:
-      "A 62-year-old man presents with persistent vomiting, early satiety, weight loss, and abdominal discomfort. Endoscopy reveals an antral carcinoma causing gastric outlet obstruction. Contrast-enhanced Computed Tomography shows direct invasion into the pancreas and multiple metastatic deposits in the liver. Which of the following is the most appropriate management?",
+    question: "A 9-year-old child with neglected CTEV requires salvage surgery. The surgeon plans triple arthrodesis. Which of the following joints is included in triple arthrodesis?",
     options: [
-      "Radical distal gastrectomy with D2 lymphadenectomy",
-      "Pancreaticoduodenectomy with curative intent",
-      "Palliative gastrojejunostomy followed by systemic chemotherapy",
-      "Total gastrectomy with hepatic metastasectomy"
+      "Tibiotalar joint",
+      "Superior tibiofibular joint",
+      "Talonavicular joint",
+      "First tarsometatarsal joint"
     ],
     answerIndex: 2,
-    correctAnswerText:
-      "Palliative gastrojejunostomy followed by systemic chemotherapy"
+    correctAnswerText: "Talonavicular joint"
   },
   {
     id: 40,
     image: "",
-    question:
-      "A 27-year-old man is brought after a motorcycle accident. He is conscious, pulse is 92 per minute, blood pressure is 118/76 millimeters of mercury, and oxygen saturation is normal. He has tenderness and guarding in the left upper abdomen but no signs of peritonitis or shock. Which of the following is the most appropriate investigation of choice to evaluate intra-abdominal injury in this hemodynamically stable patient?",
+    question: "A 2-week-old infant is started on Ponseti treatment for clubfoot. Which of the following statements regarding the manipulation and casting sequence is correct?",
     options: [
-      "Focused Assessment with Sonography for Trauma alone",
-      "Contrast-enhanced Computed Tomography of the abdomen",
-      "Diagnostic peritoneal lavage",
-      "Immediate exploratory laparotomy"
+      "Mother should perform daily forceful correction and equinus is corrected first",
+      "First cast is applied immediately before the umbilical stump falls off, with simultaneous correction of all deformities",
+      "Weekly casting is avoided in infancy and manipulation begins after 1 year",
+      "Manipulation is done by the doctor, correction starts as early as possible after birth, cavus and varus are corrected first, and equinus is corrected last"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Contrast-enhanced Computed Tomography of the abdomen"
+    answerIndex: 3,
+    correctAnswerText: "Manipulation is done by the doctor, correction starts as early as possible after birth, cavus and varus are corrected first, and equinus is corrected last"
   },
   {
     id: 41,
     image: "",
-    question:
-      "A 26-year-old man is brought to the emergency department after a road traffic accident. On examination, he opens his eyes to speech, utters incomprehensible sounds, and shows abnormal flexion of the upper limbs in response to painful stimulus. Which of the following is the correct Glasgow Coma Scale score?",
-    options: ["E3V2M3", "E2V3M4", "E3V3M2", "E4V2M3"],
+    question: "A football player sustains a midfoot injury. Imaging shows disruption at the tarsometatarsal articulation. Which of the following joints is involved?",
+    options: [
+      "Lisfranc joint",
+      "Chopart joint",
+      "Talocalcaneal joint",
+      "Tibiotalar joint"
+    ],
     answerIndex: 0,
-    correctAnswerText: "E3V2M3"
+    correctAnswerText: "Lisfranc joint"
   },
   {
     id: 42,
     image: "",
-    question:
-      "A 54-year-old man presents with a swelling in the groin that appears above and medial to the pubic tubercle. On examination, the swelling lies medial to the inferior epigastric vessels and protrudes through the posterior wall of the inguinal canal. Which of the following operative repairs is classically most appropriate for this hernia?",
+    question: "A patient with Pott’s paraplegia has no awareness of neurological deficit but on examination shows increased deep tendon reflexes and ankle clonus, which is the earliest sign. According to Tuli’s clinical staging, this patient is in:",
     options: [
-      "Bassini repair",
-      "Lichtenstein tension-free mesh repair",
-      "McVay repair only for all cases",
-      "Shouldice repair only in children"
+      "Stage II",
+      "Stage I",
+      "Stage III",
+      "Stage IV"
     ],
     answerIndex: 1,
-    correctAnswerText: "Lichtenstein tension-free mesh repair"
+    correctAnswerText: "Stage I"
   },
   {
     id: 43,
     image: "",
-    question:
-      "A 46-year-old man with chronic alcohol use presents with severe epigastric pain radiating to the back, vomiting, and abdominal distension. Plain radiograph of the abdomen shows a localized loop of dilated proximal jejunum in the left upper quadrant near the pancreas, without generalized small bowel dilatation. Which of the following radiological signs is most likely being described?",
+    question: "A patient with advanced spinal tuberculosis develops angular spinal deformity due to prominent spinous processes. Involvement of two to three vertebrae produces which classical deformity?",
     options: [
-      "Ground glass appearance",
-      "Sentinel loop sign",
-      "Rigler sign",
-      "String sign of Kantor"
+      "Knuckle deformity",
+      "Scoliosis",
+      "Gibbus deformity",
+      "Lordosis"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Sentinel loop sign"
+    answerIndex: 2,
+    correctAnswerText: "Gibbus deformity"
   },
   {
     id: 44,
     image: "",
-    question:
-      "A 43-year-old man undergoes laparoscopic mesh repair for bilateral inguinal hernia. One week later, he complains of burning pain and numbness over the upper medial thigh and root of the scrotum. There is no quadriceps weakness and no sensory loss over the lateral thigh. Which of the following nerves is most likely injured?",
+    question: "A patient with Pott’s spine develops vertebral body involvement adjacent to the intervertebral disc due to arterial spread. This is the commonest lesion type and is also the lesion most likely to complicate into Pott’s paraplegia. Which type of spinal TB is this?",
     options: [
-      "Lateral cutaneous nerve of thigh",
-      "Femoral nerve",
-      "Genital branch of genitofemoral nerve",
-      "Iliohypogastric nerve"
+      "Central TB",
+      "Anterior TB",
+      "Posterior/appendiceal TB",
+      "Paradiscal TB"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Genital branch of genitofemoral nerve"
+    answerIndex: 3,
+    correctAnswerText: "Paradiscal TB"
   },
   {
     id: 45,
     image: "",
-    question:
-      "A 62-year-old man develops profuse watery diarrhea and lower abdominal cramps 6 days after receiving clindamycin for a dental infection. Colonoscopy reveals multiple elevated yellow-white plaques scattered over an erythematous colonic mucosa. Which of the following is the most likely etiological organism?",
+    question: "A 32-year-old man falls asleep with his arm hanging over a chair after alcohol intoxication. He wakes up with wrist drop. Nerve conduction is blocked, but the axon and nerve sheaths are intact. Which of the following is the most likely diagnosis?",
     options: [
-      "Entamoeba histolytica",
-      "Clostridioides difficile",
-      "Salmonella typhi",
-      "Cytomegalovirus"
+      "Neurapraxia",
+      "Axonotmesis",
+      "Neurotmesis",
+      "Wallerian degeneration"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Clostridioides difficile"
+    answerIndex: 0,
+    correctAnswerText: "Neurapraxia"
   },
   {
     id: 46,
     image: "",
-    question:
-      "A 48-year-old man with chronic alcohol-related liver disease presents to the emergency department with profuse hematemesis and dizziness. He is pale, tachycardic, and hypotensive. Intravenous proton pump inhibitor therapy has already been started. Ultrasonography shows features of portal hypertension. Which of the following is the most appropriate immediate next step in management?",
+    question: "A teenager with scoliosis is found to have a double curve pattern. Which of the following statements is correct regarding this type of scoliosis?",
     options: [
-      "Emergency upper gastrointestinal endoscopy before resuscitation",
-      "Intravenous fluid resuscitation and blood product support as needed",
-      "Liver biopsy to confirm cirrhosis",
-      "Start oral non-selective beta blocker immediately"
+      "It is more common and has better prognosis",
+      "It progresses earlier and has worse prognosis",
+      "It is always lumbar and non-progressive",
+      "It is treated only with exercises irrespective of Cobb’s angle"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "Intravenous fluid resuscitation and blood product support as needed"
+    correctAnswerText: "It progresses earlier and has worse prognosis"
   },
   {
     id: 47,
     image: "",
-    question:
-      "A 63-year-old man with postoperative sepsis is in the intensive care unit and is being maintained on total parenteral nutrition because of prolonged paralytic ileus. On daily monitoring, the team is most concerned about a common metabolic complication related to the high dextrose load of parenteral feeding, especially in the setting of stress-induced insulin resistance. Which of the following is the most likely complication?",
+    question: "A 2-month-old infant is brought with the head tilted to the right and chin pointing to the left. Examination reveals a firm swelling in the right sternocleidomastoid muscle near the junction of its upper two-third and lower one-third. Which of the following is the most likely diagnosis?",
     options: [
-      "Hypocalcemia",
-      "Hyperglycemia",
-      "Hyponatremia",
-      "Metabolic alkalosis"
+      "Klippel-Feil syndrome",
+      "Cervical lymphadenopathy",
+      "Congenital muscular torticollis",
+      "Atlantoaxial rotatory subluxation"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hyperglycemia"
+    answerIndex: 2,
+    correctAnswerText: "Congenital muscular torticollis"
   },
   {
     id: 48,
     image: "",
-    question:
-      "A 28-year-old woman sustains deep dermal and full-thickness flame burns over 35 percent of the total body surface area. After excision of the burn wound, the reconstructive surgeon wants a graft that can cover a large area, can be meshed, and allows the donor site to heal spontaneously for repeated harvesting if needed. Which of the following is the most appropriate graft?",
+    question: "A young man is brought after a road traffic accident. He is unconscious, hypotensive, and bradycardic, with absent superficial and deep reflexes. The team suspects spinal cord injury with associated shock. Which of the following best explains this hemodynamic picture?",
     options: [
-      "Full-thickness skin graft",
-      "Split-thickness skin graft",
-      "Composite graft",
-      "Pedicled flap"
+      "Hypovolemic shock due to occult bleeding",
+      "Septic shock due to aspiration pneumonia",
+      "Cardiogenic shock due to blunt cardiac injury",
+      "Neurogenic / spinal shock due to spinal cord injury"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Split-thickness skin graft"
+    answerIndex: 3,
+    correctAnswerText: "Neurogenic / spinal shock due to spinal cord injury"
   },
   {
     id: 49,
     image: "",
-    question:
-      "A 29-year-old man is brought to the emergency department after a knife assault to the abdomen. He is pale, restless, and hypotensive. On examination, there is a penetrating wound in the left lower abdomen with diffuse abdominal tenderness, guarding, and rebound tenderness. Which of the following is the most appropriate next step in management?",
+    question: "A restrained passenger in a high-speed motor vehicle accident complains of thoracolumbar pain. Imaging shows a horizontal splitting injury through all three columns of the spine caused by flexion-distraction. Which of the following is the most likely diagnosis?",
     options: [
-      "Contrast-enhanced Computed Tomography of the abdomen",
-      "Diagnostic laparoscopy",
-      "Emergency exploratory laparotomy",
-      "Focused Assessment with Sonography for Trauma only"
+      "Chance fracture",
+      "Clay shoveler fracture",
+      "Spondylolysis",
+      "Compression wedge fracture"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Emergency exploratory laparotomy"
+    answerIndex: 0,
+    correctAnswerText: "Chance fracture"
   },
   {
     id: 50,
     image: "",
-    question:
-      "A 61-year-old man with known sigmoid diverticular disease presents with fever, severe lower abdominal pain, abdominal rigidity, and septic shock. Emergency laparotomy reveals generalized purulent contamination of the peritoneal cavity without obvious fecal matter. According to the modified Hinchey classification, which stage best describes this condition?",
-    options: ["Stage 1", "Stage 2", "Stage 3", "Stage 4"],
-    answerIndex: 2,
-    correctAnswerText: "Stage 3"
+    question: "A resident is asked to identify the components of the posterior column in Denis classification. Which of the following structures correctly belongs to the posterior column?",
+    options: [
+      "Anterior annulus fibrosus and anterior longitudinal ligament",
+      "Posterior ligament complex with neural arch elements such as pedicle, lamina, articular processes, transverse process, and spinous process",
+      "Posterior one-third of vertebral body and posterior one-third of disc",
+      "Posterior longitudinal ligament only"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Posterior ligament complex with neural arch elements such as pedicle, lamina, articular processes, transverse process, and spinous process"
   },
   {
     id: 51,
     image: "",
-    question:
-      "A 68-year-old woman presents with obstructive jaundice, pruritus, and right upper quadrant discomfort. Ultrasonography shows a distended gallbladder and a dilated common bile duct with an obstructing stone in its distal part. She is hemodynamically stable and has no generalized peritonitis. Which of the following is the most appropriate next step in management?",
+    question: "During an orthopedic procedure, the surgeon wants to remove small bites of bone rather than cleanly divide the bone in one stroke. Which of the following instruments is most appropriate?",
     options: [
-      "Immediate cholecystectomy",
-      "Endoscopic Retrograde Cholangiopancreatography with stone extraction",
-      "Contrast-enhanced Computed Tomography scan only",
-      "Observation with analgesics and review after 1 week"
+      "Bone cutter",
+      "Farabeuf periosteal elevator",
+      "Bone nibbler",
+      "Bristol bone lever"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Endoscopic Retrograde Cholangiopancreatography with stone extraction"
+    answerIndex: 2,
+    correctAnswerText: "Bone nibbler"
   },
   {
     id: 52,
     image: "",
-    question:
-      "A 68-year-old man with carcinoma lung is being evaluated before major thoracic surgery. The team decides to use the Thoracoscore for preoperative risk stratification. Which of the following parameters is included in the Thoracoscore?",
+    question: "A patient with a supracondylar femur fracture is planned for skeletal traction through cancellous bone. The surgeon chooses the most commonly used implant for skeletal traction in cancellous bone, characterized by a central groove, one pointed end and one blunt end, usually 4–6 mm in diameter. Which of the following is the correct implant?",
     options: [
-      "Postoperative air leak duration",
-      "American Society of Anesthesiologists (ASA) classification",
-      "Need for postoperative ventilatory support",
-      "Intraoperative blood loss"
+      "Kirschner wire",
+      "Steinmann pin",
+      "Rush nail",
+      "Denham pin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "American Society of Anesthesiologists (ASA) classification"
+    answerIndex: 3,
+    correctAnswerText: "Denham pin"
   },
   {
     id: 53,
     image: "",
-    question:
-      "A 9-year-old child with acute liver failure due to Wilson disease is being evaluated for urgent liver transplantation. The treating team applies the Nazer prognostic index. Which of the following findings is most strongly suggestive of a poor prognosis and supports the need for liver transplantation?",
+    question: "A 24-year-old man presents after a fall on an outstretched hand with pain and swelling over the distal radius. The orthopedic resident asks for the classical cast position used for this fracture, in which the hand is kept as if giving a greeting. Which of the following is the most appropriate cast?",
     options: [
-      "Serum bilirubin 3 mg/dL, prothrombin time 18 seconds, aspartate aminotransferase 60 IU/L",
-      "Serum bilirubin 8 mg/dL, prothrombin time 55 seconds, aspartate aminotransferase 180 IU/L",
-      "Nazer prognostic score of 9 or more",
-      "Presence of mild hepatomegaly without coagulopathy"
+      "Glass-holding cast",
+      "Cylinder cast",
+      "Minerva cast",
+      "Hand-shake cast"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Nazer prognostic score of 9 or more"
+    answerIndex: 3,
+    correctAnswerText: "Hand-shake cast"
   },
   {
     id: 54,
     image: "",
-    question:
-      "A 27-year-old man is brought to the emergency department after a road traffic accident. He is conscious, blood pressure is stable, and pulse rate is normal. He has abdominal pain and tenderness over the left flank. Chest X-ray shows no hemothorax or pneumothorax. What is the most appropriate next step in evaluation?",
+    question: "A newborn develops weakness of the upper limb after difficult delivery. The affected limb is being maintained in an abducted, externally rotated position using a special splint. Which of the following is the most appropriate splint used in this condition?",
     options: [
-      "Immediate contrast-enhanced computed tomography (CECT) of chest",
-      "Extended Focused Assessment with Sonography for Trauma (eFAST)",
-      "Diagnostic peritoneal lavage",
-      "Tube thoracostomy"
+      "Aeroplane splint",
+      "Bohler Braun splint",
+      "U-slab",
+      "Cock-up splint"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Extended Focused Assessment with Sonography for Trauma (eFAST)"
+    answerIndex: 0,
+    correctAnswerText: "Aeroplane splint"
   },
   {
     id: 55,
     image: "",
-    question:
-      "A 52-year-old man presents to the emergency department with severe retrosternal chest pain after repeated forceful vomiting following an episode of binge eating and alcohol intake. On examination, he has tachycardia, subcutaneous crepitus over the neck, and mild respiratory distress. Chest X-ray shows left-sided pleural effusion with pneumomediastinum. What is the most likely diagnosis?",
+    question: "A trauma patient with cervical spine injury requires external immobilisation using a device that supports the sternum, occiput, and mandible. Which of the following is the correct splint?",
     options: [
-      "Mallory–Weiss tear",
-      "Spontaneous esophageal rupture",
-      "Acute pancreatitis",
-      "Perforated peptic ulcer"
+      "Milwaukee brace",
+      "SOMI / four-post collar",
+      "Taylor’s brace",
+      "Sling and swathe"
     ],
     answerIndex: 1,
-    correctAnswerText: "Spontaneous esophageal rupture"
+    correctAnswerText: "SOMI / four-post collar"
   },
   {
     id: 56,
     image: "",
-    question:
-      "A 34-year-old woman presents with recurrent episodes of sweating, palpitations, confusion, and blurred vision, especially when she skips meals. Her symptoms improve rapidly after taking glucose. During a supervised fast, her blood glucose is found to be low with inappropriately elevated insulin levels. Which of the following is the most likely diagnosis?",
-    options: ["Gastrinoma", "Insulinoma", "Somatostatinoma", "VIPoma"],
-    answerIndex: 1,
-    correctAnswerText: "Insulinoma"
+    question: "A 58-year-old woman presents with nodular swelling over the proximal interphalangeal joints of both hands due to osteoarthritis. Which of the following is the correct name for these swellings?",
+    options: [
+      "Heberden’s nodes",
+      "Rheumatoid nodules",
+      "Bouchard’s nodes",
+      "Tophi"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Bouchard’s nodes"
   },
   {
     id: 57,
     image: "",
-    question:
-      "A 40-year-old man presents with progressive dysphagia for both solids and liquids along with regurgitation of undigested food. High-resolution esophageal manometry shows elevated Integrated Relaxation Pressure (IRP), 100% failed peristalsis, and panesophageal pressurization in more than 20% of swallows. According to the Chicago classification, which type of achalasia is most likely?",
+    question: "A 58-year-old woman presents with chronic knee pain, reduced walking distance, bony crepitus, and progressive bowing of the legs. X-ray of both knees in standing AP view shows medial compartment involvement. Which of the following is the most likely deformity seen in this condition?",
     options: [
-      "Type I achalasia",
-      "Type II achalasia",
-      "Type III achalasia",
-      "Distal esophageal spasm"
+      "Genu valgum",
+      "Recurvatum",
+      "Flexion deformity alone",
+      "Genu varum"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Type II achalasia"
+    answerIndex: 3,
+    correctAnswerText: "Genu varum"
   },
   {
     id: 58,
     image: "",
-    question:
-      "A 58-year-old chronic smoker presents with progressive pain in both buttocks while walking, erectile dysfunction, and diminished pulses in both lower limbs. On examination, femoral pulses are absent bilaterally. Which of the following is the most likely site of arterial occlusion?",
+    question: "A 23-year-old football player sustains a twisting knee injury and presents within a few hours with pain, swelling, and suspected acute anterior cruciate ligament tear. Which of the following is the test of choice in the acute setting?",
     options: [
-      "External iliac artery",
-      "Common femoral artery",
-      "Aortic bifurcation",
-      "Popliteal artery"
+      "Lachman test",
+      "Anterior drawer test",
+      "Posterior drawer test",
+      "McMurray test"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Aortic bifurcation"
+    answerIndex: 0,
+    correctAnswerText: "Lachman test"
   },
   {
     id: 59,
     image: "",
-    question:
-      "A bus carrying factory workers meets with an accident, and multiple victims are brought to the emergency department. One injured patient is awake, able to walk without assistance, has superficial lacerations over the forearm, and complains only of mild pain. His airway, breathing, and circulation are stable. Under mass-casualty triage, how should this patient be categorized?",
+    question: "A football player sustains a knee injury after sudden hyperextension while trying to stop abruptly. He later complains of instability while walking downstairs. Which of the following structures is most likely injured?",
     options: [
-      "Red category",
-      "Yellow category",
-      "Green category",
-      "Black category"
+      "Posterior cruciate ligament",
+      "Anterior cruciate ligament",
+      "Medial collateral ligament",
+      "Lateral collateral ligament"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Green category"
+    answerIndex: 1,
+    correctAnswerText: "Anterior cruciate ligament"
   },
   {
     id: 60,
     image: "",
-    question:
-      "A 26-year-old man is brought to the emergency department after a road traffic accident. He is conscious but tachypneic, with bruising over the chest and abdomen. The trauma team begins evaluation according to the Advanced Trauma Life Support approach. Which of the following is most appropriately performed during the secondary survey rather than the primary survey?",
+    question: "A 24-year-old football player sustains a twisting injury to the knee. He presents with joint line pain and locking sensation. On examination, the clinician performs the diagnostic test of choice for meniscal tear. Which of the following is the correct answer?",
     options: [
-      "Assessment of airway patency with cervical spine protection",
-      "Exposure of the patient with prevention of hypothermia",
-      "Focused neurological assessment using Glasgow Coma Scale",
-      "Detailed history using the AMPLE mnemonic"
+      "Apley’s grinding test",
+      "Lachman test",
+      "McMurray test",
+      "Posterior drawer test"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Detailed history using the AMPLE mnemonic"
+    answerIndex: 2,
+    correctAnswerText: "McMurray test"
   },
   {
     id: 61,
     image: "",
-    question:
-      "A 67-year-old man with a history of smoking and hypertension is found to have an incidental infrarenal abdominal aortic aneurysm measuring 4.8 cm on ultrasonography. He has no abdominal pain, back pain, or signs of rupture. What is the most appropriate management?",
+    question: "During the final phase of knee extension while standing, the examiner explains that the knee becomes stable by a locking mechanism. Which of the following correctly describes this locking movement?",
     options: [
-      "Immediate open surgical repair",
-      "Endovascular aneurysm repair for all aneurysms more than 4 cm",
-      "Regular surveillance with risk factor modification",
-      "Emergency laparotomy"
+      "Femur rotates laterally over tibia",
+      "Tibia rotates laterally over femur in all situations",
+      "Popliteus causes locking in extension",
+      "Femur rotates medially over tibia"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Regular surveillance with risk factor modification"
+    answerIndex: 3,
+    correctAnswerText: "Femur rotates medially over tibia"
   },
   {
     id: 62,
     image: "",
-    question:
-      "A 46-year-old man develops fever, persistent abdominal pain, and leukocytosis 8 days after surgery for perforation peritonitis. He has been lying supine for most of his postoperative period. Ultrasound abdomen is planned to look for a localized intraperitoneal collection. In a recumbent patient, which of the following is the most likely site for intraperitoneal abscess formation?",
+    question: "A 15-year-old overweight adolescent presents with antalgic limp and hip pain. On examination, there is obligatory external rotation during hip flexion. The surgeon decides to treat the lesion definitively while preserving the capital epiphysis in the acetabulum. Which of the following is the most appropriate treatment?",
     options: [
-      "Left subphrenic space",
-      "Right subhepatic space",
-      "Lesser sac",
-      "Left paracolic gutter"
+      "In situ pinning after closed reduction",
+      "Total hip replacement",
+      "Hip spica alone",
+      "Open excision of femoral head"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Right subhepatic space"
+    answerIndex: 0,
+    correctAnswerText: "In situ pinning after closed reduction"
   },
-
   {
     id: 63,
     image: "",
-    question:
-      "A 46-year-old man undergoes upper gastrointestinal endoscopy for progressive dysphagia. The endoscopist notes that the scope passes a normal constriction at 15 centimeters from the upper incisors, then another narrowing near the level of the aortic arch and left main bronchus, and finally through the diaphragmatic hiatus before entering the stomach. Which of the following is the correct statement regarding the anatomy of the esophagus?",
+    question: "A 7-year-old boy is brought with limp, hip pain, and difficulty sitting cross-legged. The pain is sometimes felt in the groin and sometimes referred to the knee. Examination shows painful restriction of abduction. MRI confirms idiopathic osteonecrosis of the femoral head. Which of the following is the most likely diagnosis?",
     options: [
-      "The esophagus begins at the level of fifth cervical vertebra and is 15 centimeters long",
-      "The esophagus is about 25 centimeters long, begins at sixth cervical vertebra, and has normal constrictions at about 15 centimeters, 23.5 centimeters, and at the diaphragmatic hiatus",
-      "The gastroesophageal junction is at tenth thoracic vertebra and the aortic constriction is caused by the right main bronchus",
-      "The diaphragmatic opening for the esophagus is at twelfth thoracic vertebra along with aorta and thoracic duct"
+      "Slipped capital femoral epiphysis",
+      "Legg-Calvé-Perthes disease",
+      "Septic arthritis of hip",
+      "Developmental dysplasia of hip"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "The esophagus is about 25 centimeters long, begins at sixth cervical vertebra, and has normal constrictions at about 15 centimeters, 23.5 centimeters, and at the diaphragmatic hiatus"
+    correctAnswerText: "Legg-Calvé-Perthes disease"
   },
   {
     id: 64,
     image: "",
-    question:
-      "A 55-year-old man with long-standing Gastroesophageal Reflux Disease (GERD) undergoes endoscopy. The lower esophagus shows replacement of normal squamous epithelium by columnar-lined mucosa with intestinal metaplasia. Which of the following statements is most accurate?",
+    question: "A 2-month-old infant is brought for screening. On examination, the hip is already dislocated, and when the examiner abducts the hip while applying gentle traction, a palpable \"clunk\" is felt as the femoral head enters the acetabulum. Which of the following test is being performed?",
     options: [
-      "Normal esophageal mucosa is keratinizing stratified squamous epithelium and Barrett esophagus predisposes mainly to squamous cell carcinoma",
-      "Barrett esophagus is diagnosed when columnar epithelium undergoes intestinal metaplasia, and long-segment disease is more than 3 centimeters",
-      "The upper one-third of esophagus is lined by simple columnar epithelium and commonly develops adenocarcinoma",
-      "Methlyene blue is the best histological stain for Barrett esophagus, whereas Lugol iodine stains columnar epithelium selectively"
+      "Barlow’s test",
+      "Galeazzi test",
+      "Ortolani’s test",
+      "Trendelenburg test"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Barrett esophagus is diagnosed when columnar epithelium undergoes intestinal metaplasia, and long-segment disease is more than 3 centimeters"
+    answerIndex: 2,
+    correctAnswerText: "Ortolani’s test"
   },
   {
     id: 65,
     image: "",
-    question:
-      "A 48-year-old man presents with intermittent dysphagia for solid food for 8 months. He has no difficulty swallowing liquids. Symptoms are mild, episodic, and occasionally worsen when eating meat. Barium swallow shows a symmetrical concentric narrowing at the gastroesophageal junction just above the diaphragm. Which of the following is the most likely diagnosis?",
+    question: "A neonate with risk factors for DDH is being evaluated. The mother asks which risk profile classically favors this condition the most. Which of the following best represents the typical high-risk child?",
     options: [
-      "Esophageal web in post-cricoid region",
-      "Schatzki ring",
-      "Zenker diverticulum",
-      "Achalasia cardia"
+      "Male, later-born, dark-complexioned, cephalic baby",
+      "Female, multiparous mother, low relaxin state, Asian baby",
+      "Male, breech with flexed hips, no family history",
+      "Female first-born breech baby with family history and faulty intrauterine position"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Schatzki ring"
+    answerIndex: 3,
+    correctAnswerText: "Female first-born breech baby with family history and faulty intrauterine position"
   },
   {
     id: 66,
     image: "",
-    question:
-      "A 43-year-old woman presents with fatigue, dysphagia, and angular cheilitis. Examination reveals pallor, glossitis, and koilonychia. Barium swallow shows a thin mucosal shelf in the post-cricoid region of the cervical esophagus. Which of the following is the most likely diagnosis?",
+    question: "A patient has difficulty climbing stairs. When he stands on the left lower limb, the pelvis on the right side drops. Which of the following nerves is most likely injured?",
     options: [
-      "Schatzki ring",
-      "Esophageal web associated with Plummer-Vinson syndrome",
-      "Zenker diverticulum",
-      "Lower esophageal peptic stricture"
+      "Left superior gluteal nerve",
+      "Right superior gluteal nerve",
+      "Left inferior gluteal nerve",
+      "Right inferior gluteal nerve"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Esophageal web associated with Plummer-Vinson syndrome"
+    answerIndex: 0,
+    correctAnswerText: "Left superior gluteal nerve"
   },
   {
     id: 67,
     image: "",
-    question:
-      "A 70-year-old man is diagnosed with Zenker diverticulum measuring 5 centimeters on barium swallow. He has significant regurgitation and recurrent aspiration. Which of the following is the most appropriate treatment?",
+    question: "A 2-year-old boy is brought with acute fever, limp, severe hip pain, and refusal to move the limb. The hip is held in flexion, abduction, and external rotation. Which of the following is the most likely diagnosis?",
     options: [
-      "Iron therapy and balloon dilatation",
-      "Proton pump inhibitor therapy alone",
-      "Diverticulectomy with cricopharyngeal myotomy",
-      "Observation only because malignancy risk is absent"
+      "Transient synovitis",
+      "Septic arthritis of hip",
+      "Perthes disease",
+      "Slipped capital femoral epiphysis"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Diverticulectomy with cricopharyngeal myotomy"
+    answerIndex: 1,
+    correctAnswerText: "Septic arthritis of hip"
   },
   {
     id: 68,
     image: "",
-    question:
-      "A term newborn develops excessive salivation soon after birth and has repeated choking and coughing episodes during feeds. A radiopaque infant feeding tube cannot be advanced into the stomach and coils in the upper mediastinum on X-ray. The abdomen is distended with gas shadows in the bowel. Which of the following is the most likely diagnosis?",
+    question: "A patient with suspected tuberculous arthritis of the hip undergoes X-ray. The orthopedician mentions that the radiograph shows the classical triad of juxta-articular osteopenia, periarticular erosions, and reduced joint space. What is this radiological triad called?",
     options: [
-      "Pure esophageal atresia without fistula",
-      "Esophageal atresia with distal tracheoesophageal fistula",
-      "Isolated H-type tracheoesophageal fistula",
-      "Congenital hypertrophic pyloric stenosis"
+      "Trethowan triad",
+      "Charcot triad",
+      "Phemister triad",
+      "Codman triad"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Esophageal atresia with distal tracheoesophageal fistula"
+    answerIndex: 2,
+    correctAnswerText: "Phemister triad"
   },
   {
     id: 69,
     image: "",
-    question:
-      "A patient with suspected Boerhaave syndrome undergoes chest examination. A crunching, rasping sound synchronous with the heartbeat is heard over the precordium. Which of the following best describes this sign?",
+    question: "A 28-year-old man presents with mild to moderate pain and swelling around the proximal tibia. Imaging shows a localized cavity, and the lesion is described as a subacute osteomyelitis where the organism is trapped within fibrous tissue proliferation. Which of the following is the most likely diagnosis?",
     options: [
-      "Murphy sign, suggestive of diaphragmatic irritation",
-      "Hamman crunch, suggestive of pneumomediastinum",
-      "Cullen sign, suggestive of retroperitoneal hemorrhage",
-      "Succussion splash, suggestive of gastric outlet obstruction"
+      "Garré’s sclerosing osteomyelitis",
+      "Acute hematogenous osteomyelitis",
+      "Tuberculous osteomyelitis",
+      "Brodie’s abscess"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Hamman crunch, suggestive of pneumomediastinum"
+    answerIndex: 3,
+    correctAnswerText: "Brodie’s abscess"
   },
   {
     id: 70,
     image: "",
-    question:
-      "A 50-year-old woman develops a small iatrogenic cervical esophageal perforation during flexible endoscopy. She is hemodynamically stable and has minimal contamination. Which of the following is the best next step?",
+    question: "A 2-year-old child from a rural background presents with acute onset pain, swelling, warmth, redness, and refusal to use the limb for the last 2 days. The most common site involved is just above the knee. Which of the following is the earliest X-ray sign of acute osteomyelitis?",
     options: [
-      "Conservative management",
-      "Immediate esophagectomy",
-      "Left posterolateral thoracotomy in all cases",
-      "Total gastrectomy with feeding jejunostomy"
+      "Soft tissue shadow",
+      "Periosteal reaction",
+      "Sequestrum formation",
+      "Cloaca formation"
     ],
     answerIndex: 0,
-    correctAnswerText: "Conservative management"
+    correctAnswerText: "Soft tissue shadow"
   },
   {
     id: 71,
     image: "",
-    question:
-      "A 32-year-old pregnant woman presents with hematemesis after repeated episodes of vomiting. Endoscopy shows a longitudinal mucosal tear just below the gastroesophageal junction, usually on the right side. Which of the following is the most likely diagnosis?",
+    question: "A 14-year-old boy with sickle cell disease develops acute osteomyelitis. Which of the following organisms is classically associated with this setting?",
     options: [
-      "Boerhaave syndrome",
-      "Mallory-Weiss tear",
-      "Esophageal varix rupture",
-      "Barrett esophagus"
+      "Staphylococcus aureus",
+      "Salmonella",
+      "Pseudomonas",
+      "Eikenella"
     ],
     answerIndex: 1,
-    correctAnswerText: "Mallory-Weiss tear"
+    correctAnswerText: "Salmonella"
   },
   {
     id: 72,
     image: "",
-    question:
-      "A 28-year-old woman presents with progressive dysphagia for both liquids and solids, regurgitation of retained food, nocturnal aspiration, and weight loss. Manometry shows failure of Lower Esophageal Sphincter (LES) relaxation with absent peristalsis. Which of the following is the most likely underlying pathology in primary achalasia cardia?",
+    question: "Which of the following drug regimens is correctly matched with its bisphosphonate dosing schedule?",
     options: [
-      "Hypertrophy of Meissner plexus with excessive inhibitory input",
-      "Absence of inhibitory ganglion cells in Auerbach plexus",
-      "Fibrosis of upper esophageal sphincter with preserved myenteric plexus",
-      "Hyperplasia of submucosal ganglia causing high resting pressure"
+      "Zoledronate 35 mg tablet weekly",
+      "Risedronate 5 mg IV yearly",
+      "Ibandronate 150 mg tablet monthly",
+      "Ibandronate 35 mg tablet weekly"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Absence of inhibitory ganglion cells in Auerbach plexus"
+    answerIndex: 2,
+    correctAnswerText: "Ibandronate 150 mg tablet monthly"
   },
   {
     id: 73,
     image: "",
-    question:
-      "A 52-year-old obese man presents with chronic heartburn and regurgitation. Endoscopy shows upward displacement of the gastroesophageal junction above the diaphragm. Which of the following is the most likely diagnosis and the most appropriate general management approach?",
+    question: "A 65-year-old woman is evaluated for low bone density. The orthopedician orders the investigation of choice for diagnosing osteoporosis. Which of the following is the correct test?",
     options: [
-      "Rolling hiatus hernia; surgery is always indicated",
-      "Sliding hiatus hernia; usually managed conservatively and surgery is rarely needed",
-      "Mixed hiatus hernia; only endoscopic injection is indicated",
-      "Congenital diaphragmatic hernia; urgent thoracotomy in all cases"
+      "DEXA scan",
+      "MRI spine",
+      "Bone biopsy",
+      "Skeletal survey X-ray"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Sliding hiatus hernia; usually managed conservatively and surgery is rarely needed"
+    answerIndex: 0,
+    correctAnswerText: "DEXA scan"
   },
   {
     id: 74,
     image: "",
-    question:
-      "A 64-year-old woman presents with postprandial chest discomfort, dysphagia, and epigastric pain. Imaging reveals herniation of only the gastric fundus through the esophageal hiatus while the gastroesophageal junction remains near its normal position. Which of the following complications is she most at risk for?",
+    question: "A 70-year-old man is incidentally found to have a high-turnover bone disease involving the pelvis. He later develops back pain and progressive sensorineural hearing loss due to cranial nerve compression. Which of the following is the most likely diagnosis?",
     options: [
-      "Cameron ulcer, ischemia, gangrene, and volvulus",
-      "Barrett esophagus only",
-      "Diffuse esophageal spasm",
-      "Achalasia cardia"
+      "Osteopetrosis",
+      "Fibrous dysplasia",
+      "Paget’s disease of bone",
+      "Osteomalacia"
     ],
-    answerIndex: 0,
-    correctAnswerText:
-      "Cameron ulcer, ischemia, gangrene, and volvulus"
+    answerIndex: 2,
+    correctAnswerText: "Paget’s disease of bone"
   },
   {
     id: 75,
     image: "",
-    question:
-      "A 45-year-old man with severe chronic reflux symptoms undergoes ambulatory pH monitoring. A pH probe is placed 5 centimeters above the gastroesophageal junction. Which of the following findings is diagnostic of pathological reflux, and which score is commonly used?",
+    question: "A child presents with recurrent infections, hepatosplenomegaly, bleeding episodes, and pancytopenia. X-ray shows dense sclerotic bones with Erlenmeyer flask deformity. Which of the following is the most likely diagnosis?",
     options: [
-      "pH more than 7 for 5 minutes; Glasgow score",
-      "pH less than 4 for 5 minutes; DeMeester score",
-      "pH less than 6 for 30 minutes; MELD score",
-      "pH more than 4 for 5 minutes; Chicago score"
+      "Osteomalacia",
+      "Osteoporosis",
+      "Osteopetrosis",
+      "Paget’s disease of bone"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "pH less than 4 for 5 minutes; DeMeester score"
+    answerIndex: 2,
+    correctAnswerText: "Osteopetrosis"
   },
   {
     id: 76,
     image: "",
-    question:
-      "A 56-year-old man with severe reflux and a short esophagus is undergoing surgery. The surgeon plans an esophageal-lengthening procedure before wrapping the fundus. Which of the following is the correct procedure, and which newer endoscopic or device-based modalities are also used in reflux management?",
+    question: "A child with brittle bone disease has repeated diaphyseal fractures and limb deformities. The orthopedician plans standard supportive management. Which of the following is the most appropriate treatment approach?",
     options: [
-      "Collis gastroplasty; Stretta, LINX, and Transoral Incisionless Fundoplication",
-      "Heller myotomy; POEM and balloon dilatation",
-      "Foker procedure; endoscopic clipping and SEMS",
-      "Dor myotomy; radiofrequency ablation only"
+      "Only prolonged immobilization in plaster casts",
+      "Bone marrow transplantation",
+      "High-dose steroids and traction",
+      "Braces and bisphosphonates"
     ],
-    answerIndex: 0,
-    correctAnswerText:
-      "Collis gastroplasty; Stretta, LINX, and Transoral Incisionless Fundoplication"
+    answerIndex: 3,
+    correctAnswerText: "Braces and bisphosphonates"
   },
   {
     id: 77,
     image: "",
-    question:
-      "A 62-year-old man with progressive dysphagia is diagnosed with esophageal malignancy. Which of the following site–histology pairs is most commonly seen?",
+    question: "A patient with suspected carpal tunnel syndrome undergoes bedside clinical testing. Which of the following tests is considered more specific and more diagnostic for this condition?",
     options: [
-      "Upper one-third – Adenocarcinoma",
-      "Mid one-third – Squamous cell carcinoma",
-      "Lower one-third – Squamous cell carcinoma",
-      "Cervical esophagus – Adenocarcinoma"
+      "Durkan test",
+      "Tinel sign",
+      "Froment sign",
+      "Book test"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Mid one-third – Squamous cell carcinoma"
+    answerIndex: 0,
+    correctAnswerText: "Durkan test"
   },
   {
     id: 78,
     image: "",
-    question:
-      "A patient with biopsy-proven esophageal carcinoma is being evaluated for locoregional staging. Which investigation is best for assessing depth of tumor invasion and regional lymph node status?",
+    question: "A patient with suspected thoracic outlet syndrome is asked to extend the neck fully, rotate the head toward the examined side, and take a deep breath while the examiner looks for reduction in radial pulse amplitude. Which of the following test is being performed?",
     options: [
-      "Barium swallow",
-      "Endoscopic ultrasound",
-      "Plain computed tomography",
-      "Positron emission tomography only"
+      "Tinel sign",
+      "Adson test",
+      "Egawa test",
+      "Card test"
     ],
     answerIndex: 1,
-    correctAnswerText: "Endoscopic ultrasound"
+    correctAnswerText: "Adson test"
   },
   {
     id: 79,
     image: "",
-    question:
-      "A 5-week-old infant with suspected congenital hypertrophic pyloric stenosis undergoes evaluation. Which of the following is the investigation of choice, and which sonographic criterion is most supportive of the diagnosis?",
+    question: "Which of the following terms is correctly matched with its definition?",
     options: [
-      "Barium meal; pyloric length less than 10 millimeters",
-      "Ultrasonography; pyloric muscle thickness more than 4 millimeters",
-      "X-ray abdomen; double-bubble sign",
-      "Contrast-enhanced computed tomography; pyloric width less than 5 millimeters"
+      "Arthrodesis – surgical replacement of a joint",
+      "Arthroscopy – aspiration of a joint",
+      "Arthrotomy – surgical opening of a joint via wide incision",
+      "Ankylosis – minimally invasive inspection of a joint"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Ultrasonography; pyloric muscle thickness more than 4 millimeters"
+    answerIndex: 2,
+    correctAnswerText: "Arthrotomy – surgical opening of a joint via wide incision"
   },
   {
     id: 80,
     image: "",
-    question:
-      "A 3-year-old child presents with recurrent upper abdominal fullness, intermittent non-bilious vomiting, and chronic symptoms. Imaging reveals rotation of the stomach around an axis connecting the greater and lesser curvatures. Which of the following is the most likely diagnosis?",
+    question: "A patient is unable to hold a card between adjacent fingers when the examiner tries to pull it away. The involved muscle action is adduction of fingers, and the responsible nerve is the ulnar nerve. Which of the following structure is primarily being tested?",
     options: [
-      "Organo-axial gastric volvulus",
-      "Mesentero-axial gastric volvulus",
-      "Trichobezoar",
-      "Menetrier disease"
+      "Dorsal interossei",
+      "Thenar muscles",
+      "Lumbicals",
+      "Palmar interossei"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Mesentero-axial gastric volvulus"
+    answerIndex: 3,
+    correctAnswerText: "Palmar interossei"
   },
   {
     id: 81,
     image: "",
-    question:
-      "A 16-year-old girl with psychiatric illness presents with abdominal pain, vomiting, and a firm mobile epigastric mass with indentation on palpation. She has a history of eating hair. Which of the following is the most likely diagnosis?",
+    question: "A 13-year-old child presents with wrist trauma. The teacher asks which carpal bone is the largest, first to ossify, and centrally located. Which of the following is correct?",
     options: [
-      "Phytobezoar",
-      "Pharmacobezoar",
-      "Trichobezoar",
-      "Metal bezoar"
+      "Capitate",
+      "Scaphoid",
+      "Pisiform",
+      "Lunate"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Trichobezoar"
+    answerIndex: 0,
+    correctAnswerText: "Capitate"
   },
   {
     id: 82,
     image: "",
-    question:
-      "A 54-year-old man presents with epigastric pain, diarrhea, weight loss, and edema. Endoscopy shows giant rugal folds predominantly involving the proximal stomach. Laboratory evaluation reveals hypoproteinemia. Which of the following is the most likely diagnosis and best associated pathophysiology?",
+    question: "A young man punches a wall and develops pain and swelling over the ulnar side of the hand. X-ray shows fracture at the neck of the fifth metacarpal. Which of the following is the most likely diagnosis?",
     options: [
-      "Zollinger-Ellison syndrome; parietal cell hyperplasia with acid hypersecretion",
-      "Menetrier disease; foveolar hyperplasia causing protein-losing gastropathy",
-      "Gastric lymphoma; transmural lymphoid infiltration with hyperchlorhydria",
-      "Peptic ulcer disease; mucosal atrophy with decreased mucus production"
+      "Bennett fracture",
+      "Boxer’s fracture",
+      "Rolando fracture",
+      "Jersey finger"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "Menetrier disease; foveolar hyperplasia causing protein-losing gastropathy"
+    correctAnswerText: "Boxer’s fracture"
   },
   {
     id: 83,
     image: "",
-    question:
-      "A patient with a gastric phytobezoar asks which component of vegetable fiber is indigestible and contributes most to bezoar persistence. Which of the following is correct?",
+    question: "A man falls on the dorsum of his flexed wrist and sustains an extra-articular fracture of the distal radius. Imaging shows volar/anterior displacement of the distal fragment. Which of the following is the most likely diagnosis?",
     options: [
-      "Pectin is completely indigestible",
-      "Cellulose is fully digested in humans",
-      "Lignin is indigestible",
-      "Starch polymerization forms all phytobezoars"
+      "Colles fracture",
+      "Monteggia fracture",
+      "Smith fracture",
+      "Galeazzi fracture"
     ],
     answerIndex: 2,
-    correctAnswerText: "Lignin is indigestible"
+    correctAnswerText: "Smith fracture"
   },
   {
     id: 84,
     image: "",
-    question:
-      "A patient with chronic recurrent duodenal ulcer is planned for acid-reducing surgery. The surgeon wants to preserve gastric motor innervation to the pylorus so that a drainage procedure is not required. Which of the following is the best option?",
+    question: "A 5-year-old child presents after minor trauma with wrist pain. X-ray shows a metaphyseal, complete, bicortical compression injury without concavo-convex deformity. It is less common than greenstick fracture. Which of the following is the most likely diagnosis?",
     options: [
-      "Truncal vagotomy",
-      "Selective vagotomy",
-      "Highly selective vagotomy",
-      "Billroth II gastrectomy"
+      "Greenstick fracture",
+      "Holstein-Lewis fracture",
+      "Stress fracture",
+      "Torus fracture"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Highly selective vagotomy"
+    answerIndex: 3,
+    correctAnswerText: "Torus fracture"
   },
   {
     id: 85,
     image: "",
-    question:
-      "A 60-year-old man underwent distal gastrectomy with gastrojejunostomy for peptic ulcer disease 1 month ago. He now develops palpitations, abdominal discomfort, bloating, tachycardia, diarrhea, and flushing within 15 minutes of meals. Two hours later, he often experiences sweating and weakness that improve after eating again. Which of the following is the most appropriate dietary advice?",
+    question: "A 9-year-old child treated for supracondylar fracture of humerus undergoes repeated passive massage and forceful mobilization. A few weeks later, he develops painful restriction of elbow movement, and X-ray shows ectopic benign pathological bone formation in front of the elbow. Which of the following is the most likely diagnosis?",
     options: [
-      "Increase simple carbohydrate intake during meals",
-      "Large frequent liquid-rich meals",
-      "Small frequent dry meals with low carbohydrate and high protein intake",
-      "High fiber only, without change in meal frequency"
+      "Myositis ossificans",
+      "Volkmann ischemic contracture",
+      "Osteochondroma",
+      "Septic arthritis of elbow"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Small frequent dry meals with low carbohydrate and high protein intake"
+    answerIndex: 0,
+    correctAnswerText: "Myositis ossificans"
   },
   {
     id: 86,
     image: "",
-    question:
-      "A 58-year-old man presents with hematemesis and melena. After stabilization, endoscopy shows a peptic ulcer with a nonbleeding visible vessel. Which of the following is the correct interpretation and management implication?",
+    question: "A 7-year-old child presents after a supracondylar fracture of humerus with severe forearm pain. The pain worsens markedly when the examiner passively stretches the fingers. Which of the following is the earliest clinical sign of compartment syndrome?",
     options: [
-      "Forrest III lesion; low risk of rebleeding; discharge without therapy",
-      "Forrest IIA lesion; past bleeding with high rebleeding risk; requires endoscopic therapy",
-      "Forrest IB lesion; active oozing; no need for intervention",
-      "Forrest IIC lesion; spurting arterial bleed with highest risk of rebleeding"
+      "Pulselessness",
+      "Pain on passive stretching of fingers",
+      "Paralysis",
+      "Pallor"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "Forrest IIA lesion; past bleeding with high rebleeding risk; requires endoscopic therapy"
+    correctAnswerText: "Pain on passive stretching of fingers"
   },
   {
     id: 87,
     image: "",
-    question:
-      "A 62-year-old man is found to have a tumor centered 1 centimeter above the gastroesophageal junction. According to the Siewert classification, this lesion is best classified as:",
+    question: "A patient with recurrent anterior shoulder dislocation has a bony defect over the posterolateral aspect of the head of humerus seen on imaging. Which of the following lesions is most likely present?",
     options: [
-      "Type I, and it is considered gastric carcinoma",
-      "Type II, and it is considered true cardia carcinoma",
-      "Type III, and it is considered esophageal carcinoma",
-      "Type II, and it is considered distal gastric carcinoma"
+      "Bankart lesion",
+      "SLAP lesion",
+      "Hill-Sachs lesion",
+      "Reverse Bankart lesion"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Type II, and it is considered true cardia carcinoma"
+    answerIndex: 2,
+    correctAnswerText: "Hill-Sachs lesion"
   },
   {
     id: 88,
     image: "",
-    question:
-      "A 58-year-old man presents with anorexia, weight loss, progressive dyspepsia, vomiting, and anemia. On examination, he has a hard left supraclavicular lymph node. Upper gastrointestinal endoscopy with biopsy confirms gastric adenocarcinoma involving the distal stomach. Which of the following statements is most accurate regarding the spread and prognosis of this malignancy?",
+    question: "A child with an old uncorrected supracondylar fracture humerus develops a gunstock deformity of the elbow due to malunion. Which of the following is the most likely deformity?",
     options: [
-      "The most important prognostic indicator is tumor size alone",
-      "Left supraclavicular nodal enlargement represents Irish node",
-      "Depth of tumor invasion is the most important indicator of metastatic potential",
-      "Best prognosis is seen in diffusely infiltrative linitis plastica type"
+      "Cubitus valgus",
+      "Volkmann contracture",
+      "Tardy ulnar palsy",
+      "Cubitus varus"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Depth of tumor invasion is the most important indicator of metastatic potential"
+    answerIndex: 3,
+    correctAnswerText: "Cubitus varus"
   },
   {
     id: 89,
     image: "",
-    question:
-      "A 58-year-old man presents with upper gastrointestinal bleeding and vague abdominal discomfort. Contrast-Enhanced Computed Tomography reveals a large exophytic gastric mass. Biopsy is planned. Which of the following statements regarding Gastrointestinal Stromal Tumor is most accurate?",
+    question: "A patient is examined for elbow trauma. In flexion, the olecranon, medial condyle, and lateral condyle form a triangle, while in extension they lie in a straight line. Which of the following structures together form this three bony point relationship?",
     options: [
-      "It is a true smooth muscle tumor arising from the muscularis propria and is best called leiomyosarcoma",
-      "Lymph node metastasis is common, and routine lymphadenectomy is mandatory",
-      "It arises from mesenchymal tissue related to the interstitial cells of Cajal, and the liver is the most common site of metastasis",
-      "The ileum is the most common site, and peritoneal dissemination is rare"
+      "Olecranon, medial condyle, and lateral condyle",
+      "Olecranon, capitulum, and trochlea",
+      "Coronoid process, radial head, and olecranon",
+      "Medial epicondyle, radial head, and lateral condyle"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "It arises from mesenchymal tissue related to the interstitial cells of Cajal, and the liver is the most common site of metastasis"
+    answerIndex: 0,
+    correctAnswerText: "Olecranon, medial condyle, and lateral condyle"
   },
   {
     id: 90,
     image: "",
-    question:
-      "A 9-month-old infant is brought with recurrent episodes of severe crying, drawing up of legs, and vomiting. Between episodes the child appears relatively comfortable. On examination, there is an empty right iliac fossa and a sausage-shaped lump in the abdomen. The stool passed in the emergency room is mixed with blood and mucus. What is the most likely diagnosis?",
+    question: "A patient with anterior shoulder dislocation undergoes closed reduction. The orthopedician chooses the method of choice and performs the sequence: Traction → External rotation → Adduction → Internal rotation. Which of the following techniques is being used?",
     options: [
-      "Hypertrophic pyloric stenosis",
-      "Intussusception",
-      "Rectal prolapse",
-      "Hirschsprung disease"
+      "Hippocratic technique",
+      "Modified Kocher’s technique",
+      "Stimson’s gravity method",
+      "Milch technique"
     ],
     answerIndex: 1,
-    correctAnswerText: "Intussusception"
+    correctAnswerText: "Modified Kocher’s technique"
   },
   {
     id: 91,
     image: "",
-    question:
-      "A 1-year-old child is diagnosed with ileo-colic intussusception. There are no signs of perforation, shock, or gangrene. What is the best initial management?",
+    question: "A 24-year-old volleyball player has recurrent shoulder instability after repeated overhead activity. During teaching rounds, the examiner asks which of the following is a dynamic stabilizer of the shoulder joint. Which is the best answer?",
     options: [
-      "Immediate resection and anastomosis in all cases",
-      "Reduction by air or enema",
-      "Only intravenous antibiotics and observation",
-      "Manual reduction by squeezing the proximal loop first"
+      "Glenoid labrum",
+      "Glenohumeral ligaments",
+      "Rotator cuff",
+      "Negative intra-articular pressure"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Reduction by air or enema"
+    answerIndex: 2,
+    correctAnswerText: "Rotator cuff"
   },
   {
     id: 92,
     image: "",
-    question:
-      "A patient with suspected midgut carcinoid has episodic flushing, diarrhea, and features of right-sided valvular heart disease. Which of the following is the investigation of choice for localization of this tumor?",
+    question: "A 40-year-old patient is asked to initiate abduction of the shoulder from the resting position. Which of the following muscles is primarily responsible for the first 0–15 degrees of abduction?",
     options: [
-      "Contrast-enhanced computed tomography only",
-      "Somatostatin receptor scintigraphy using radiolabeled octreotide or related agents",
-      "Plain abdominal radiograph",
-      "Diagnostic laparoscopy as the first test"
+      "Deltoid",
+      "Infraspinatus",
+      "Teres minor",
+      "Supraspinatus"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Somatostatin receptor scintigraphy using radiolabeled octreotide or related agents"
+    answerIndex: 3,
+    correctAnswerText: "Supraspinatus"
   },
   {
     id: 93,
-    image: "",
-    question:
-      "A 42-year-old man with a previous history of laparotomy presents with colicky abdominal pain, repeated vomiting, abdominal distension, and absolute constipation. On examination, bowel sounds are exaggerated. Which of the following best describes the type of obstruction in this patient?",
+    image: "images/IMG_0657.jpeg",
+    question: "A young adult presents after trauma to the forearm. The X-ray image shows a fracture of the shaft of the radius at the junction of middle and distal one-third with distal radioulnar joint (DRUJ) dislocation. Which of the following is the most likely diagnosis?",
     options: [
-      "Adynamic obstruction due to ileus",
-      "Dynamic obstruction due to mechanical cause",
-      "Colonic pseudo-obstruction",
-      "Mesenteric ischemia without obstruction"
+      "Monteggia fracture-dislocation",
+      "Galeazzi fracture-dislocation",
+      "Nightstick fracture",
+      "Colles fracture"
     ],
     answerIndex: 1,
-    correctAnswerText: "Dynamic obstruction due to mechanical cause"
+    correctAnswerText: "Galeazzi fracture-dislocation"
   },
   {
     id: 94,
-    image: "",
-    question:
-      "A 72-year-old hospitalized man develops progressive abdominal distension and constipation. Pain is mild and late. Imaging shows a dilated colon with air present in the rectum and marked cecal dilatation. There is no mechanical lesion. Which of the following is the best next pharmacologic treatment?",
-    options: ["Octreotide", "Neostigmine", "Loperamide", "Bisacodyl"],
-    answerIndex: 1,
-    correctAnswerText: "Neostigmine"
+    image: "images/IMG_0658.jpeg",
+    question: "What is the function of the muscle marked below? (The marked muscle is seen on the medial aspect of the mandibular ramus, with superficial and deep heads, representing the medial pterygoid muscle.)",
+    options: [
+      "Elevation and protrusion of the mandible",
+      "Depression and protrusion of the mandible",
+      "Retraction and protrusion of the mandible",
+      "Depression and elevation of the mandible"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Elevation and protrusion of the mandible"
   },
   {
     id: 95,
-    image: "",
-    question:
-      "A 24-year-old woman presents with chronic diarrhea, abdominal bloating, steatorrhea, weight loss, and an intensely pruritic vesicular rash over the extensor surfaces. Serology is positive for Immunoglobulin A anti-tissue transglutaminase antibodies. Which of the following is the most likely underlying diagnosis?",
+    image: "images/IMG_0659.jpeg",
+    question: "The normal pattern of venous and lymphatic drainage of the superficial tissues of the anterior abdominal wall is arranged around a horizontal reference plane. Above this plane, drainage is in a cranial direction. Below this plane, drainage is in a caudal direction. This reference plane corresponds to:",
     options: [
-      "Tropical sprue",
-      "Celiac disease",
-      "Crohn disease",
-      "Ulcerative colitis"
+      "Zone B",
+      "Zone A",
+      "Zone C",
+      "Zone D"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Celiac disease"
+    answerIndex: 0,
+    correctAnswerText: "Zone B"
   },
   {
     id: 96,
-    image: "",
-    question:
-      "A 38-year-old man undergoes extensive small bowel resection for mesenteric ischemia. After recovery, he develops chronic diarrhea, steatorrhea, bloating, and nutritional deficiencies. Which of the following additional complications is especially expected after ileal resection?",
+    image: "images/IMG_0660.jpeg",
+    question: "Identify the marked muscle.",
     options: [
-      "Copper excess and uric acid stones",
-      "Bile salt deficiency leading to gallstones and oxalate renal stones",
-      "Iron overload and calcium phosphate stones",
-      "Increased bile salt pool with prevention of steatorrhea"
+      "Medial pterygoid",
+      "Lateral pterygoid",
+      "Head of temporalis",
+      "Masseter"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "Bile salt deficiency leading to gallstones and oxalate renal stones"
+    correctAnswerText: "Lateral pterygoid"
   },
   {
     id: 97,
     image: "",
-    question:
-      "A patient with short bowel syndrome is being considered for medical therapy to enhance intestinal adaptation and reduce parenteral nutritional dependence. Which of the following is the drug of choice?",
-    options: ["Neostigmine", "Teduglutide", "Octreotide", "Mesalamine"],
-    answerIndex: 1,
-    correctAnswerText: "Teduglutide"
+    question: "A 68-year-old woman on long-term bisphosphonate therapy for osteoporosis presents with vague thigh and hip pain. X-ray shows an atypical subtrochanteric femur fracture with lateral cortical thickening, medial spike, transverse fracture line, and no comminution. Which of the following is the most likely underlying diagnosis?",
+    options: [
+      "Osteomalacia",
+      "Paget disease flare",
+      "Adynamic bone syndrome",
+      "Osteogenesis imperfecta"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Adynamic bone syndrome"
   },
   {
     id: 98,
     image: "",
-    question:
-      "A child presents with a painless mid-abdominal swelling. On examination, the swelling is mobile at a right angle to the root of the mesentery and a band of resonance is present in front of the swelling. Which of the following best describes this clinical picture?",
+    question: "A 9-year-old child presents with fever, severe pain, and swelling around the lower end of femur. The orthopedician explains that in children, the most common route of spread is through blood and the most common site is the metaphysis of distal femur. Which of the following best describes the usual pathogenesis of osteomyelitis in children?",
     options: [
-      "Courvoisier sign",
-      "Tillaux triad of mesenteric cyst",
-      "Grey Turner sign",
-      "Dance sign of intussusception"
+      "Direct inoculation into epiphysis through open wound",
+      "Hematogenous spread to the metaphysis of distal femur",
+      "Lymphatic spread to the diaphysis of tibia",
+      "Contiguous spread to the acetabulum as the commonest route"
     ],
     answerIndex: 1,
-    correctAnswerText: "Tillaux triad of mesenteric cyst"
+    correctAnswerText: "Hematogenous spread to the metaphysis of distal femur"
   },
   {
     id: 99,
     image: "",
-    question:
-      "A 2-month-old infant presents with sudden onset bilious vomiting, abdominal distension, excessive crying, and features of acute small bowel obstruction. Imaging with contrast study shows a corkscrew appearance of the bowel, and Computed Tomography scan demonstrates a whirlpool sign. Which of the following is the most appropriate definitive management?",
+    question: "A postmenopausal woman with osteoporosis is started on a drug that inhibits the mevalonate pathway, thereby reducing ATP supply for osteoclastic bone resorption. Which of the following class of drugs is being described?",
     options: [
-      "Simple adhesiolysis only",
-      "Ladd’s operation",
-      "Right hemicolectomy",
-      "Gastrojejunostomy"
+      "SERMs",
+      "Calcitonin",
+      "Bisphosphonates",
+      "Teriparatide"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Ladd’s operation"
+    answerIndex: 2,
+    correctAnswerText: "Bisphosphonates"
   },
   {
     id: 100,
-    image: "",
-    question:
-      "A 22-year-old man presents with abdominal pain that started around the umbilicus and later shifted to the right iliac fossa. He has vomiting and low-grade fever. On examination, there is guarding, tenderness, and muscular rigidity in the right iliac fossa. Which of the following best explains the classical migration of pain in acute appendicitis?",
+    image: "images/IMG_0661.jpeg",
+    question: "You were asked to assist in a surgical operation on a young patient to treat an ulcer in the first part of the duodenum. You would expect that the surgeon would approach the ulcer by doing an anterior abdominal wall incision in the following region:",
     options: [
-      "Initial pain is somatic due to parietal peritoneal irritation and later becomes visceral",
-      "Initial pain is visceral due to appendicular distension and later becomes somatic due to parietal peritoneal involvement",
-      "Initial pain is referred from the gallbladder and later localizes to the appendix",
-      "Initial pain is due to mesenteric adenitis and later shifts because of psoas spasm"
+      "B",
+      "C",
+      "A",
+      "D"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "Initial pain is visceral due to appendicular distension and later becomes somatic due to parietal peritoneal involvement"
+    correctAnswerText: "C"
   },
   {
     id: 101,
-    image: "",
-    question:
-      "A 10-year-old child presents with anorexia, migratory right iliac fossa pain, nausea, tenderness, rebound tenderness, leukocytosis, and neutrophilic shift to the left. Which of the following statements regarding the Alvarado score is correct?",
+    image: "images/IMG_0662.jpeg",
+    question: "What type of synovial joints are represented by structures 1 and 2 in the image below, respectively?",
     options: [
-      "Score less than 4 strongly suggests appendicitis",
-      "Score 5 to 6 confirms appendicitis and mandates immediate surgery",
-      "Score greater than 7 is strongly suggestive of appendicitis",
-      "Ultrasound finding is included in the Alvarado score"
+      "Ball and socket, Saddle joint",
+      "Hinge joint, Pivot joint",
+      "Saddle joint, Ball and socket joint",
+      "Hinge joint, Ball and socket joint"
     ],
     answerIndex: 2,
-    correctAnswerText:
-      "Score greater than 7 is strongly suggestive of appendicitis"
+    correctAnswerText: "Saddle joint, Ball and socket joint"
   },
   {
     id: 102,
-    image: "",
-    question:
-      "A 48-year-old woman is found to have a mucinous neoplasm of the appendix that ruptures into the peritoneal cavity, producing gelatinous deposits throughout the abdomen. Which of the following is the most appropriate treatment?",
+    image: "images/IMG_0663.jpeg",
+    question: "Which of the following is a true statement regarding this structure?",
     options: [
-      "Appendicectomy alone",
-      "Right hemicolectomy only",
-      "Hyperthermic intraperitoneal chemotherapy",
-      "Ochsner-Sherren regimen"
+      "It is made of elastic cartilage",
+      "It is supplied only by epiphyseal arteries",
+      "It separates epiphysis from diaphysis",
+      "It is the site for enchondral ossification"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Hyperthermic intraperitoneal chemotherapy"
+    answerIndex: 3,
+    correctAnswerText: "It is the site for enchondral ossification"
   },
   {
     id: 103,
-    image: "",
-    question:
-      "A 72-year-old man with chronic constipation presents with progressive abdominal distension, non-colicky abdominal pain, and features of large bowel obstruction. Abdominal X-ray shows a massively dilated loop of colon with a coffee bean appearance. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_0664.jpeg",
+    question: "Which of the following muscles aids in forceful expulsion of air from the mouth?",
     options: [
-      "Cecal volvulus",
-      "Sigmoid volvulus",
-      "Compound volvulus",
-      "Cecal bascule"
+      "A",
+      "B",
+      "C",
+      "D"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Sigmoid volvulus"
+    answerIndex: 3,
+    correctAnswerText: "D"
   },
   {
     id: 104,
-    image: "",
-    question:
-      "A 65-year-old man has recurrent painless episodes of lower gastrointestinal bleeding. Colonoscopy shows multiple diverticula in the colon. Which of the following statements regarding diverticular disease is most accurate?",
+    image: "images/IMG_0752.jpeg",
+    question: "Identify the functions of the muscles marked below",
     options: [
-      "Diverticulosis is more common in India because fiber increases risk",
-      "The most common site is the rectum",
-      "Diverticulosis is the most common cause of colonic bleeding",
-      "Diverticulitis refers to congenital colonic outpouchings"
+      "A - Elevation and retraction of mandible B - Protrusion C - Elevation D - Elevation and side to side movements of mandible",
+      "A - Elevation B - Protrusion C - Elevation and side to side movements of mandible D - Elevation and retraction of mandible",
+      "A - Elevation and side to side movements of mandible B - Protrusion C - Elevation and retraction of mandible D - Elevation",
+      "A - Protrusion B - Elevation and retraction of mandible C - Elevation and side to side movements of mandible D - Elevation"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Diverticulosis is the most common cause of colonic bleeding"
+    answerIndex: 0,
+    correctAnswerText: "A - Elevation and retraction of mandible B - Protrusion C - Elevation D - Elevation and side to side movements of mandible"
   },
   {
     id: 105,
-    image: "",
-    question:
-      "A 70-year-old patient presents with intermittent painless lower gastrointestinal bleeding. Colonoscopy reveals dilated mucosal and submucosal vascular lesions in the ascending colon. He also has a history of aortic stenosis. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_0753.jpeg",
+    question: "Which ligament limits extension at the hip joint?",
     options: [
-      "Diverticulitis",
-      "Angiodysplasia",
-      "Ulcerative colitis",
-      "Colorectal carcinoma"
+      "B",
+      "C",
+      "D",
+      "A"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Angiodysplasia"
+    answerIndex: 0,
+    correctAnswerText: "B"
   },
   {
     id: 106,
-    image: "",
-    question:
-      "A full-term neonate has delayed passage of meconium beyond 48 hours, abdominal distension, vomiting, a collapsed rectum on examination, and explosive passage of stool after withdrawal of the examining finger. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_0754.jpeg",
+    question: "Which of the following bones forms the marked foramen?",
     options: [
-      "Meconium ileus",
-      "Hirschsprung disease",
-      "Intussusception",
-      "Necrotizing enterocolitis"
+      "Temporal, Sphenoid and occipital bones",
+      "Temporal, Ethmoid and occipital bones",
+      "Temporal, Frontal and occipital bones",
+      "Temporal, Parietal and occipital bones"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hirschsprung disease"
+    answerIndex: 0,
+    correctAnswerText: "Temporal, Sphenoid and occipital bones"
   },
   {
     id: 107,
-    image: "",
-    question:
-      "A 19-year-old man is found on screening colonoscopy to have hundreds of colorectal adenomatous polyps. Genetic testing reveals a mutation in the Adenomatous Polyposis Coli gene on chromosome 5q. Which of the following is the most appropriate definitive management?",
+    image: "images/IMG_0755.jpeg",
+    question: "The joint shown in the image is also known as:",
     options: [
-      "Annual colonoscopic polypectomy alone",
-      "Segmental colectomy",
-      "Total proctocolectomy with ileal pouch-anal anastomosis",
-      "Only observation until symptoms develop"
+      "Syndesmosis",
+      "Peg and socket joint",
+      "Hinge joint",
+      "Pivot joint"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Total proctocolectomy with ileal pouch-anal anastomosis"
+    answerIndex: 1,
+    correctAnswerText: "Peg and socket joint"
   },
   {
     id: 108,
-    image: "",
-    question:
-      "A 42-year-old woman has a strong family history of right-sided colon cancer. Her mother had endometrial carcinoma, and her uncle had upper urinary tract transitional cell carcinoma. Genetic testing reveals a mismatch repair gene defect. Which of the following statements is most accurate?",
+    image: "images/IMG_0756.jpeg",
+    question: "What type of joint is involved in the deformity shown in the image?",
     options: [
-      "This is Familial Adenomatous Polyposis and acts through the WNT pathway",
-      "This is Hereditary Nonpolyposis Colorectal Cancer with microsatellite instability and better prognosis",
-      "This is Peutz-Jeghers syndrome caused by PTEN mutation on chromosome 10",
-      "This is Cowden syndrome with highest colon cancer risk"
+      "Saddle joint",
+      "Ellipsoid joint",
+      "Pivot joint",
+      "Hinge joint"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "This is Hereditary Nonpolyposis Colorectal Cancer with microsatellite instability and better prognosis"
+    correctAnswerText: "Ellipsoid joint"
   },
   {
     id: 109,
-    image: "",
-    question:
-      "A 58-year-old man presents with altered bowel habits and weight loss. Digital rectal examination is suspicious for a rectal mass. Which of the following is the best next investigation to establish the diagnosis?",
+    image: "images/IMG_0757.jpeg",
+    question: "A soldier developed \"fallen arches\" from marching with a heavy pack in boots that lacked arch support. The ligament that normally supports the head of the talus and is primarily responsible for holding up the medial longitudinal arch of the foot is the:",
     options: [
-      "Barium enema",
-      "Full colonoscopy with biopsy",
-      "Flexible sigmoidoscopy alone",
-      "Contrast-enhanced Computed Tomography abdomen alone"
+      "B",
+      "C",
+      "A",
+      "D"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Full colonoscopy with biopsy"
+    answerIndex: 0,
+    correctAnswerText: "B"
   },
   {
     id: 110,
-    image: "",
-    question:
-      "A patient is diagnosed with carcinoma at the hepatic flexure extending into the proximal transverse colon. Which of the following is the most appropriate standard resection?",
+    image: "images/IMG_0758.jpeg",
+    question: "In an auto accident, the patient’s knee strikes the dashboard, which in turn pushes the head of the femur posteriorly out of its socket. Which ligament is most likely ruptured by this posterior dislocation?",
     options: [
-      "Sigmoid colectomy",
-      "Left hemicolectomy",
-      "Extended right hemicolectomy",
-      "Abdominoperineal resection"
+      "C",
+      "A",
+      "B",
+      "A & C"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Extended right hemicolectomy"
+    answerIndex: 1,
+    correctAnswerText: "A"
   },
   {
     id: 111,
-    image: "",
-    question:
-      "A lesion is located above the dentate line in the anal canal. Which of the following combinations is correct?",
+    image: "images/IMG_0759.jpeg",
+    question: "What are the muscles attached to the marked area?",
     options: [
-      "Squamous epithelium, somatic pain, inguinal lymph node drainage",
-      "Columnar epithelium, autonomic innervation, internal iliac lymph node drainage",
-      "Stratified squamous epithelium, autonomic innervation, superficial inguinal node drainage",
-      "Transitional epithelium, somatic innervation, external iliac node drainage"
+      "Buccinator, Temporalis, Masseter",
+      "Masseter, Temporalis, Two Pterygoids",
+      "Two Pterygoids, Temporalis, Buccinator",
+      "Lateral Pterygoid, Buccinator, Masseter"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "Columnar epithelium, autonomic innervation, internal iliac lymph node drainage"
+    correctAnswerText: "Masseter, Temporalis, Two Pterygoids"
   },
   {
     id: 112,
-    image: "",
-    question:
-      "A 42-year-old patient has bleeding during defecation. On examination, prolapsing hemorrhoids are seen during straining, but they reduce spontaneously. What is the grade of hemorrhoids?",
+    image: "images/IMG_0760.jpeg",
+    question: "The given joint is functionally classified as:",
     options: [
-      "First-degree hemorrhoids",
-      "Second-degree hemorrhoids",
-      "Third-degree hemorrhoids",
-      "Fourth-degree hemorrhoids"
+      "Diarthroses",
+      "Synarthroses",
+      "Amphiarthroses",
+      "Syndesmosis"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Second-degree hemorrhoids"
+    answerIndex: 0,
+    correctAnswerText: "Diarthroses"
   },
   {
     id: 113,
-    image: "",
-    question:
-      "A 30-year-old man presents with severe pain during and after defecation, streaks of blood on stool, and constipation due to fear of passing stool. On examination, a linear tear is seen in the anoderm, and a sentinel pile is present. What is the most likely diagnosis?",
+    image: "images/IMG_0761.jpeg",
+    question: "Which compartment of TMJ (Temporomandibular joint) allows the following movements?",
     options: [
-      "Internal hemorrhoids",
-      "Fissure in ano",
-      "Fistula in ano",
-      "Rectal prolapse"
+      "Superior compartment",
+      "Medial compartment",
+      "Inferior compartment",
+      "Anterior compartment"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Fissure in ano"
+    answerIndex: 2,
+    correctAnswerText: "Inferior compartment"
   },
   {
     id: 114,
-    image: "",
-    question:
-      "An elderly frail woman presents with a full-thickness rectal prolapse. She has chronic constipation and a protruding circumferential mass with concentric mucosal folds that requires manual reduction. She is a poor candidate for major abdominal surgery. Which of the following is the most appropriate operation?",
+    image: "images/IMG_0762.jpeg",
+    question: "What is the type of cartilage in the structure marked in the following image?",
     options: [
-      "Delorme procedure",
-      "Altemeier procedure",
-      "Laparoscopic mesh rectopexy",
-      "Ripstein procedure"
+      "Fibrocartilage",
+      "Elastic cartilage",
+      "Calcified cartilage",
+      "Hyaline cartilage"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Altemeier procedure"
+    answerIndex: 0,
+    correctAnswerText: "Fibrocartilage"
   },
   {
     id: 115,
-    image: "",
-    question:
-      "A 42-year-old man presents with chronic constipation, straining during defecation, passage of mucus, and intermittent rectal bleeding. Colonoscopy shows a solitary ulcer on the anterior rectal wall, about 6 to 8 centimeters above the anal verge. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_0763.jpeg",
+    question: "The marked ligament shown below arises and runs along?",
     options: [
-      "Ulcerative colitis",
-      "Solitary rectal ulcer syndrome",
-      "Rectal carcinoma",
-      "Anal fissure"
+      "Anterior malleolar ligament",
+      "Stylomandibular ligament",
+      "Discomalleolar ligament",
+      "Temporomandibular ligament"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Solitary rectal ulcer syndrome"
+    answerIndex: 2,
+    correctAnswerText: "Discomalleolar ligament"
   },
   {
     id: 116,
-    image: "",
-    question:
-      "A 3-year-old boy is brought with a painless, cystic swelling in the inguinal region. The swelling is separate from the testis and does not show expansile cough impulse. It is found to be due to persistence of a segment of the processus vaginalis with no communication with the peritoneal cavity. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_0764.jpeg",
+    question: "Which compartment and its content is correctly matched to the marked foramen?",
     options: [
-      "Congenital hydrocele",
-      "Infantile hydrocele",
-      "Encysted hydrocele of the spermatic cord",
-      "Vaginal hydrocele"
+      "Anterior compartment — Inferior petrosal sinus",
+      "Posterior compartment — Accessory nerve",
+      "Intermediate compartment — Ascending pharyngeal artery",
+      "Anterior compartment — Vagus nerve"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Encysted hydrocele of the spermatic cord"
+    answerIndex: 0,
+    correctAnswerText: "Anterior compartment — Inferior petrosal sinus"
   },
   {
     id: 117,
-    image: "",
-    question:
-      "A 68-year-old man presents with a reducible groin swelling. On examination, the swelling appears medial to the inferior epigastric vessels, has a broad neck, and rarely descends into the scrotum. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_0765.jpeg",
+    question: "The type of joint marked in the image below is:",
     options: [
-      "Indirect inguinal hernia",
-      "Direct inguinal hernia",
-      "Femoral hernia",
-      "Obturator hernia"
+      "Synarthrosis",
+      "Syndesmosis",
+      "Synovial",
+      "Synchondrosis"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Direct inguinal hernia"
+    answerIndex: 2,
+    correctAnswerText: "Synovial"
   },
   {
     id: 118,
-    image: "",
-    question:
-      "A patient with a long-standing groin hernia develops abdominal pain and vomiting. On exploration, only part of the bowel wall is trapped in the hernial defect, while the intestinal lumen remains partially patent. Which of the following best describes this condition?",
+    image: "images/IMG_0766.jpeg",
+    question: "Which of the following arteries passes through the foramen marked in the image below in a case of extradural hemorrhage?",
     options: [
-      "Pantaloon hernia",
-      "Sliding hernia",
-      "Richter hernia",
-      "Maydl hernia"
+      "Middle meningeal artery",
+      "Superficial temporal artery",
+      "Maxillary artery",
+      "Superficial petrosal artery"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Richter hernia"
+    answerIndex: 0,
+    correctAnswerText: "Middle meningeal artery"
   },
   {
     id: 119,
     image: "",
-    question:
-      "A 2-year-old boy is brought with an intermittent right inguinoscrotal swelling that increases on crying and reduces on lying down. At surgery, the sac is found to be due to persistence of the processus vaginalis. Which of the following is the most appropriate operative treatment in this child?",
+    question: "A 32-year-old man presents with loss of facial sensation over the lower jaw, weakness of muscles of mastication, and absent jaw jerk after a lesion at the skull base. Which foramen is most likely involved?",
     options: [
-      "Lichtenstein hernioplasty with polypropylene mesh",
-      "Herniotomy alone",
-      "Bassini herniorrhaphy",
-      "Shouldice repair"
+      "Foramen rotundum",
+      "Superior orbital fissure",
+      "Foramen spinosum",
+      "Foramen ovale"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Herniotomy alone"
+    answerIndex: 3,
+    correctAnswerText: "Foramen ovale"
   },
   {
     id: 120,
     image: "",
-    question:
-      "A patient with a groin swelling is being evaluated clinically. On invagination test, the examiner’s finger enters the scrotum and is directed upwards along the spermatic cord toward the superficial inguinal ring. On coughing, an impulse is felt at the tip of the finger. Which of the following is the most likely diagnosis?",
+    question: "A 28-year-old man develops loss of corneal reflex (afferent limb intact over forehead), ptosis, diplopia, and ophthalmoplegia after a lesion in the middle cranial fossa. Which opening is most likely involved?",
     options: [
-      "Direct inguinal hernia",
-      "Indirect inguinal hernia",
-      "Femoral hernia",
-      "Obturator hernia"
+      "Optic canal",
+      "Foramen rotundum",
+      "Superior orbital fissure",
+      "Foramen ovale"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Indirect inguinal hernia"
+    answerIndex: 2,
+    correctAnswerText: "Superior orbital fissure"
   },
   {
     id: 121,
     image: "",
-    question:
-      "A 72-year-old thin multiparous woman presents with features of small bowel obstruction and pain radiating along the medial aspect of the thigh to the knee. On examination, there is no obvious external groin swelling. Which of the following is the most likely diagnosis?",
+    question: "A patient has a lesion involving the mandibular division of trigeminal nerve distal to the trigeminal ganglion. He develops difficulty chewing and deviation of jaw to the affected side on opening the mouth. Which statement about this nerve is correct?",
     options: [
-      "Femoral hernia",
-      "Obturator hernia",
-      "Sciatic hernia",
-      "Spigelian hernia"
+      "It is purely sensory and exits through foramen rotundum",
+      "It carries postganglionic parasympathetic fibers but no motor fibers",
+      "It passes through superior orbital fissure and supplies lacrimal gland sensation",
+      "It is a mixed nerve that exits through foramen ovale"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Obturator hernia"
+    answerIndex: 3,
+    correctAnswerText: "It is a mixed nerve that exits through foramen ovale"
   },
   {
     id: 122,
     image: "",
-    question:
-      "A patient develops a hernia through the abdominal wall along the semilunar line, usually at or below the arcuate line. Which of the following is the most likely diagnosis?",
+    question: "A patient with a carotid triangle injury has weakness in depressing the hyoid after swallowing, but thyrohyoid muscle is spared. The damaged loop was formed by cervical roots in the neck. Which nerve structure is most likely involved?",
     options: [
-      "Lumbar hernia",
-      "Femoral hernia",
-      "Spigelian hernia",
-      "Obturator hernia"
+      "Hypoglossal nerve",
+      "Ansa cervicalis",
+      "Glossopharyngeal nerve",
+      "Recurrent laryngeal nerve"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Spigelian hernia"
+    answerIndex: 1,
+    correctAnswerText: "Ansa cervicalis"
   },
   {
     id: 123,
     image: "",
-    question:
-      "A 58-year-old woman presents with a painful groin swelling located below and lateral to the pubic tubercle and below the inguinal ligament. The swelling has become irreducible and tender. Which of the following is the most likely diagnosis?",
+    question: "A patient with unilateral vagus nerve palsy says “aaaah,” and the examiner notices deviation of the uvula. Which statement is correct?",
     options: [
-      "Direct inguinal hernia",
-      "Indirect inguinal hernia",
-      "Femoral hernia",
-      "Richter hernia"
+      "Uvula deviates toward the abnormal side because tensor veli palatini is weak",
+      "Uvula does not deviate because both sides contract equally",
+      "Uvula deviates toward the abnormal side because glossopharyngeus is paralyzed",
+      "Uvula deviates toward the normal side due to unopposed pull of the intact palate muscles"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Femoral hernia"
+    answerIndex: 3,
+    correctAnswerText: "Uvula deviates toward the normal side due to unopposed pull of the intact palate muscles"
   },
   {
     id: 124,
     image: "",
-    question:
-      "A patient presents with a swelling in the superior lumbar triangle. Which of the following boundaries correctly corresponds to the superior lumbar triangle of Grynfeltt–Lesshaft?",
+    question: "A 14-year-old boy develops a scalp infection after a contaminated injury. A few days later, he presents with signs of intracranial spread of infection. Which layer of the scalp is called the dangerous layer because it contains emissary veins connecting extracranial veins with intracranial venous channels?",
     options: [
-      "Iliac crest, latissimus dorsi, external oblique",
-      "Twelfth rib, internal oblique, quadratus lumborum",
-      "Inguinal ligament, femoral vein, lacunar ligament",
-      "Rectus abdominis, semilunar line, inguinal ligament"
+      "Loose areolar tissue",
+      "Skin",
+      "Connective tissue",
+      "Aponeurotic layer"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Twelfth rib, internal oblique, quadratus lumborum"
+    answerIndex: 0,
+    correctAnswerText: "Loose areolar tissue"
   },
   {
     id: 125,
     image: "",
-    question:
-      "A 55-year-old man develops a swelling at the site of a previous midline laparotomy scar that increases on coughing and standing. Which of the following is the most likely diagnosis?",
+    question: "A patient with facial nerve palsy is unable to wrinkle the forehead on the affected side and cannot produce the expression of surprise / horror / fright. Which muscle is most likely paralyzed?",
     options: [
-      "Umbilical hernia",
-      "Incisional hernia",
-      "Epigastric hernia",
-      "Richter hernia"
+      "Procerus",
+      "Corrugator supercilii",
+      "Orbicularis oculi",
+      "Frontalis"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Incisional hernia"
+    answerIndex: 3,
+    correctAnswerText: "Frontalis"
   },
   {
     id: 126,
     image: "",
-    question:
-      "A 3-year-old child is brought with a small swelling at the umbilicus that becomes prominent on crying. There is no pain or skin change. Which of the following is the best management?",
+    question: "A patient suffers a deep cut near the angle of the mouth, injuring a branch of the facial artery in its facial part. Which of the following is a branch of the facial artery in the face?",
     options: [
-      "Immediate mesh repair in all cases",
-      "Observation because many close spontaneously",
-      "Emergency laparotomy",
-      "Femoral hernia repair"
+      "Submental artery",
+      "Tonsillar artery",
+      "Ascending palatine artery",
+      "Superior labial artery"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Observation because many close spontaneously"
+    answerIndex: 3,
+    correctAnswerText: "Superior labial artery"
   },
   {
     id: 127,
     image: "",
-    question:
-      "A 48-year-old woman undergoes bariatric surgery in which a small proximal gastric pouch is created and an alimentary limb of jejunum is anastomosed to it, bypassing the duodenum and proximal jejunum. Which of the following procedures has most likely been performed?",
+    question: "A 38-year-old woman undergoes thyroidectomy for multinodular goiter. During ligation of the superior thyroid artery near the upper pole of the gland, the surgeon is particularly careful to avoid injury to a nearby nerve that would cause loss of high-pitched phonation. Which nerve is most closely related here?",
     options: [
-      "Adjustable gastric banding",
-      "Sleeve gastrectomy",
-      "Roux-en-Y gastric bypass",
-      "Vertical banded gastroplasty"
+      "Recurrent laryngeal nerve",
+      "Internal laryngeal nerve",
+      "External laryngeal nerve",
+      "Hypoglossal nerve"
     ],
     answerIndex: 2,
-    correctAnswerText: "Roux-en-Y gastric bypass"
+    correctAnswerText: "External laryngeal nerve"
   },
   {
     id: 128,
     image: "",
-    question:
-      "A severely obese patient with poorly controlled diabetes undergoes a bariatric procedure that combines sleeve gastrectomy with diversion of biliopancreatic secretions and a very short common channel, producing the greatest malabsorptive effect among common bariatric operations. Which of the following is the most likely procedure?",
+    question: "A 24-year-old man presents with recurrent sinusitis. Endoscopy shows blockage in the hiatus semilunaris of the middle meatus. As a result, drainage from the frontal sinus, anterior ethmoidal air cells, and maxillary sinus is impaired. Which meatus is involved?",
     options: [
-      "Adjustable gastric banding",
-      "Sleeve gastrectomy",
-      "Biliopancreatic diversion with duodenal switch",
-      "Intragastric balloon placement"
+      "Sphenoethmoidal recess",
+      "Superior meatus",
+      "Inferior meatus",
+      "Middle meatus"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Biliopancreatic diversion with duodenal switch"
+    answerIndex: 3,
+    correctAnswerText: "Middle meatus"
   },
-
   {
     id: 129,
     image: "",
-    question:
-      "A restrained driver involved in a road traffic accident has bruising across the lower chest and abdomen in the distribution of the seat belt. He is conscious and hemodynamically stable. Which of the following hidden injuries should be actively searched for in this patient despite the obvious external mark?",
+    question: "A 35-year-old woman has fixation of the stapes footplate causing conductive hearing loss. The stapes normally transmits vibrations to which structure on the medial wall of the middle ear?",
     options: [
-      "Posterior dislocation of hip and duodenal disruption",
-      "Patellar fracture and scalp laceration",
-      "Clavicle fracture and pneumothorax only",
-      "Mandibular fracture and splenic rupture only"
+      "Round window",
+      "Typanic membrane",
+      "Eustachian tube",
+      "Oval window"
     ],
-    answerIndex: 0,
-    correctAnswerText:
-      "Posterior dislocation of hip and duodenal disruption"
+    answerIndex: 3,
+    correctAnswerText: "Oval window"
   },
   {
     id: 130,
     image: "",
-    question:
-      "A polytrauma patient is brought to the emergency department with massive hemorrhage from pelvic vascular trauma. According to the current trauma sequence, which of the following best describes the modified primary survey and early hemorrhage control strategy?",
+    question: "A patient is examined for a lesion involving the hard palate. Which statement about the hard palate is correct?",
     options: [
-      "ABCDE with hemorrhage control after airway stabilization only",
-      "CABCDE with early control of exsanguinating hemorrhage; options include Resuscitative Endovascular Balloon Occlusion of the Aorta and emergency resuscitative thoracotomy",
-      "BACDE with immediate definitive orthopedic fixation first",
-      "EDCBA with detailed secondary survey before resuscitation"
+      "It is formed entirely by palatine bones",
+      "Its anterior 3/4 is formed by maxilla and posterior 1/4 by palatine bone",
+      "It lies between palatoglossus and palatopharyngeus",
+      "It is formed by palatine aponeurosis and soft tissue only"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "CABCDE with early control of exsanguinating hemorrhage; options include Resuscitative Endovascular Balloon Occlusion of the Aorta and emergency resuscitative thoracotomy"
+    correctAnswerText: "Its anterior 3/4 is formed by maxilla and posterior 1/4 by palatine bone"
   },
   {
     id: 131,
     image: "",
-    question:
-      "A hypotensive trauma patient requires urgent vascular access during the circulation step of primary survey. Peripheral wide-bore intravenous access is difficult. Which of the following is the most appropriate next step and supporting trauma principle?",
+    question: "A 9-year-old child undergoes tonsillectomy for recurrent tonsillitis. During dissection, brisk bleeding occurs from the vessel that is classically considered the main arterial supply to the palatine tonsil and is a branch of the facial artery. Which artery is most likely injured?",
     options: [
-      "Delay resuscitation until a subclavian central line is secured under fluoroscopy",
-      "Establish two peripheral wide-bore cannulas if possible; if not, use alternatives such as central venous access, surgical cutdown, or intraosseous access, and begin warm crystalloid resuscitation",
-      "Give only oral fluids because intravenous fluids may worsen shock",
-      "Perform arterial cannulation first because it is faster than venous access for resuscitation"
+      "Tonsillar artery",
+      "Dorsalis linguae artery",
+      "Ascending pharyngeal artery",
+      "Descending palatine artery"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Establish two peripheral wide-bore cannulas if possible; if not, use alternatives such as central venous access, surgical cutdown, or intraosseous access, and begin warm crystalloid resuscitation"
+    answerIndex: 0,
+    correctAnswerText: "Tonsillar artery"
   },
   {
     id: 132,
     image: "",
-    question:
-      "A 28-year-old man with polytrauma is brought after a road traffic accident. He is hypotensive from ongoing hemorrhage. The trauma team plans damage control resuscitation. Which of the following best represents the core principle of modern damage control resuscitation?",
+    question: "A thyroid surgery patient develops stridor and inability to abduct the vocal cords. Laryngoscopy shows both cords failing to open during inspiration. Which muscle is the only abductor of the vocal cords?",
     options: [
-      "Rapid normalization of blood pressure with large-volume crystalloids before bleeding control",
-      "Permissive hypotension, avoidance of large-volume crystalloids, early correction of acute traumatic coagulopathy, and early blood product administration",
-      "Immediate vasopressors as first-line treatment in hemorrhagic shock",
-      "Delayed transfusion until all laboratory reports are available"
+      "Lateral cricoarytenoid",
+      "Transverse arytenoid",
+      "Thyroarytenoid",
+      "Posterior cricoarytenoid"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Permissive hypotension, avoidance of large-volume crystalloids, early correction of acute traumatic coagulopathy, and early blood product administration"
+    answerIndex: 3,
+    correctAnswerText: "Posterior cricoarytenoid"
   },
   {
     id: 133,
     image: "",
-    question:
-      "A patient with severe head injury develops hypertension, bradycardia, and irregular respiration. Which of the following best explains this clinical picture?",
+    question: "A mandibular fracture near the neck of mandible causes injury to a branch arising from the 1st part of maxillary artery, producing an epidural hematoma after rupture inside the cranial cavity. Which artery is involved?",
     options: [
-      "Decreased intracranial pressure causing medullary ischemia",
-      "Increased intracranial pressure causing reduced cerebral perfusion pressure with brainstem compression",
-      "Isolated cerebellar injury without effect on perfusion",
-      "Hypovolemia causing reflex tachycardia and hyperventilation"
+      "Deep auricular artery",
+      "Accessory meningeal artery",
+      "Middle meningeal artery",
+      "Inferior alveolar artery"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Increased intracranial pressure causing reduced cerebral perfusion pressure with brainstem compression"
+    answerIndex: 2,
+    correctAnswerText: "Middle meningeal artery"
   },
   {
     id: 134,
     image: "",
-    question:
-      "A patient with head trauma has periorbital ecchymosis, cerebrospinal fluid rhinorrhea, and hemotympanum. He is conscious with Glasgow Coma Scale 15 and no focal neurological deficit. Which of the following is the most appropriate statement?",
+    question: "A patient with parotid swelling complains of pain over the angle of mandible and numbness of skin over the gland after dissection of the parotid fascia. Which nerve is most likely responsible for the sensory supply of the fascia and overlying skin?",
     options: [
-      "This is most likely a linear skull fracture and prophylactic nasogastric tube insertion is recommended",
-      "This is suggestive of basilar skull fracture; nasogastric tube insertion is contraindicated and management is usually conservative unless complications occur",
-      "This is diffuse axonal injury and urgent craniotomy is always required",
-      "Antibiotics are mandatory in every case of mild head injury with no imaging findings"
+      "Facial nerve",
+      "Great auricular nerve",
+      "Glossopharyngeal nerve",
+      "Lingual nerve"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "This is suggestive of basilar skull fracture; nasogastric tube insertion is contraindicated and management is usually conservative unless complications occur"
+    correctAnswerText: "Great auricular nerve"
   },
   {
     id: 135,
     image: "",
-    question:
-      "A 24-year-old man is brought to the emergency department after a road traffic accident. He initially had a brief loss of consciousness, then became normal and talking, but deteriorated again after 2 hours. Computed tomography of the brain shows a biconvex, hyperdense extra-axial collection that does not cross suture lines. Which of the following is the most likely diagnosis and the usual source of bleeding?",
+    question: "A 24-year-old boxer receives repeated blows over the lateral chest wall and later develops winging of scapula that becomes prominent during forward pushing against a wall. Which nerve is most likely injured?",
     options: [
-      "Acute subdural hematoma due to rupture of bridging veins",
-      "Epidural hematoma due to middle meningeal artery injury",
-      "Chronic subdural hematoma due to cortical vein ooze",
-      "Traumatic subarachnoid hemorrhage due to berry aneurysm rupture"
+      "Long thoracic nerve",
+      "Dorsal scapular nerve",
+      "Suprascapular nerve",
+      "Thoracodorsal nerve"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Epidural hematoma due to middle meningeal artery injury"
+    answerIndex: 0,
+    correctAnswerText: "Long thoracic nerve"
   },
   {
     id: 136,
     image: "",
-    question:
-      "A 26-year-old man is brought after a road traffic accident with blunt abdominal trauma. He is hemodynamically unstable. A bedside ultrasound is planned as the first investigation. Which of the following statements regarding Focused Assessment with Sonology for Trauma is most accurate?",
+    question: "A newborn delivered after difficult shoulder traction is unable to abduct the arm, laterally rotate the shoulder, and supinate the forearm. The upper limb is held in the classic “waiter’s tip / policeman tip” posture. Which part of the brachial plexus is most likely injured?",
     options: [
-      "It is indicated only in hemodynamically stable abdominal trauma patients",
-      "It has 100% sensitivity for hollow viscus injury",
-      "It is a rapid bedside tool useful in both stable and unstable abdominal trauma, but its sensitivity is not 100%",
-      "It is mainly used to grade solid organ injury severity"
+      "Posterior cord",
+      "Medial cord",
+      "Lower trunk",
+      "Upper trunk (C5, C6)"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "It is a rapid bedside tool useful in both stable and unstable abdominal trauma, but its sensitivity is not 100%"
+    answerIndex: 3,
+    correctAnswerText: "Upper trunk (C5, C6)"
   },
   {
     id: 137,
     image: "",
-    question:
-      "A trauma patient is suspected to have thoracoabdominal injury. The emergency team performs an Extended Focused Assessment with Sonology for Trauma examination. Which of the following best describes Extended Focused Assessment with Sonology for Trauma?",
+    question: "A 34-year-old man develops inability to extend the thumb at the interphalangeal joint after a deep posterior forearm injury. Which muscle is most likely paralyzed?",
     options: [
-      "Focused Assessment with Sonology for Trauma plus bilateral thoracic cavity assessment for hemothorax and pneumothorax",
-      "Focused Assessment with Sonology for Trauma plus computed tomography of thorax",
-      "Focused Assessment with Sonology for Trauma with contrast enhancement to detect bowel injury",
-      "Focused Assessment with Sonology for Trauma used only for penetrating chest trauma"
+      "Abductor pollicis longus",
+      "Extensor pollicis brevis",
+      "Extensor pollicis longus",
+      "Extensor indicis"
     ],
-    answerIndex: 0,
-    correctAnswerText:
-      "Focused Assessment with Sonology for Trauma plus bilateral thoracic cavity assessment for hemothorax and pneumothorax"
+    answerIndex: 2,
+    correctAnswerText: "Extensor pollicis longus"
   },
   {
     id: 138,
     image: "",
-    question:
-      "A hemodynamically stable patient with blunt abdominal trauma undergoes contrast-enhanced computed tomography. It reveals an isolated splenic injury with subcapsular hematoma involving less than 10% of the surface area. Which of the following is the most likely grade and preferred management approach?",
+    question: "A 52-year-old woman with advanced carcinoma breast has nipple retraction. Which mechanism best explains this finding?",
     options: [
-      "Grade I injury; intensive care monitoring with conservative management",
-      "Grade III injury; immediate splenectomy in all cases",
-      "Grade IV injury; diagnostic laparoscopy only",
-      "Grade V injury; discharge after observation"
+      "Obstruction of superficial lymphatics",
+      "Infiltration and fibrosis of lactiferous ducts",
+      "Infiltration of suspensory ligaments of Cooper",
+      "Metastasis to parasternal nodes"
     ],
-    answerIndex: 0,
-    correctAnswerText:
-      "Grade I injury; intensive care monitoring with conservative management"
+    answerIndex: 1,
+    correctAnswerText: "Infiltration and fibrosis of lactiferous ducts"
   },
   {
     id: 139,
     image: "",
-    question:
-      "A 28-year-old man sustains a stab injury to the right upper abdomen. At laparotomy, the liver is found to be the major injured organ. Which of the following statements is most accurate regarding liver trauma?",
+    question: "A 40-year-old man is asked to hold a sheet of paper between his fingers and also between the thumb and index finger. He cannot adduct or abduct the fingers, and he shows weak thumb adduction due to paralysis of interossei and adductor pollicis. Which nerve is injured?",
     options: [
-      "Spleen is the most commonly involved organ in penetrating abdominal trauma",
-      "Liver is the most commonly involved organ in penetrating abdominal trauma",
-      "Kidney is the most commonly involved organ in penetrating abdominal trauma",
-      "Pancreas is the most commonly involved organ in penetrating abdominal trauma"
+      "Ulnar nerve",
+      "Median nerve",
+      "Radial nerve",
+      "Axillary nerve"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Liver is the most commonly involved organ in penetrating abdominal trauma"
+    answerIndex: 0,
+    correctAnswerText: "Ulnar nerve"
   },
   {
     id: 140,
     image: "",
-    question:
-      "During laparotomy for severe liver trauma, the surgeon performs a maneuver by compressing the hepatoduodenal ligament along the free border of the lesser omentum. What is the purpose of this maneuver?",
+    question: "A patient undergoing upper abdominal surgery has a question raised about the opening in the central tendon of the diaphragm. Which structure passes through this opening?",
     options: [
-      "To occlude hepatic venous outflow",
-      "To occlude hepatic inflow",
-      "To occlude inferior mesenteric artery flow",
-      "To decompress the portal vein permanently"
+      "Esophagus",
+      "Aorta",
+      "Thoracic duct",
+      "Inferior vena cava"
     ],
-    answerIndex: 1,
-    correctAnswerText: "To occlude hepatic inflow"
+    answerIndex: 3,
+    correctAnswerText: "Inferior vena cava"
   },
   {
     id: 141,
     image: "",
-    question:
-      "A patient with penetrating gastric trauma is found to have a small gastric laceration without tissue loss or devascularization. What is the most appropriate management?",
+    question: "During thoracic surgery, the surgeon inspects the right lung hilum and identifies the highest structure at the hilum. Which structure is normally seen at the highest level on the right side?",
     options: [
-      "Conservative management alone in all cases",
-      "Two-layer closure",
-      "Total gastrectomy",
-      "Feeding jejunostomy only"
+      "Pulmonary artery",
+      "Superior pulmonary vein",
+      "Eparterial bronchus",
+      "Hyparterial bronchus"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Two-layer closure"
+    answerIndex: 2,
+    correctAnswerText: "Eparterial bronchus"
   },
   {
     id: 142,
     image: "",
-    question:
-      "A patient has pancreatic trauma with distal pancreatic duct injury. Which of the following is the most appropriate management?",
+    question: "A patient has hoarseness due to compression of the left recurrent laryngeal nerve by a vascular structure near the ligamentum arteriosum. This nerve loops around a derivative of which pharyngeal arch artery?",
     options: [
-      "Observation only because all pancreatic injuries are treated conservatively",
-      "Distal pancreatectomy",
-      "Whipple procedure in every case",
-      "Only external drainage without dealing with the duct"
+      "Left 3rd arch artery",
+      "Left 4th arch artery",
+      "Right 4th arch artery",
+      "Left 6th arch artery"
     ],
     answerIndex: 1,
-    correctAnswerText: "Distal pancreatectomy"
+    correctAnswerText: "Left 4th arch artery"
   },
   {
     id: 143,
     image: "",
-    question:
-      "A 26-year-old male with traumatic hemopneumothorax requires tube thoracostomy. The most appropriate site for insertion of the intercostal drainage tube in a stable emergency setup is:",
+    question: "A 24-year-old man is being evaluated for thoracic outlet symptoms due to compression at the root of the neck. The rib involved is described as the shortest, broadest, and most curved rib, with a single facet on the head, no costal groove, and a shaft that is flattened from above downward. Which rib is this?",
     options: [
-      "Second intercostal space, parasternal line",
-      "Fifth intercostal space, mid-axillary line, within the triangle of safety",
-      "Eighth intercostal space, posterior axillary line",
-      "First intercostal space, midclavicular line"
+      "First rib",
+      "Second rib",
+      "Tenth rib",
+      "Twelfth rib"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Fifth intercostal space, mid-axillary line, within the triangle of safety"
+    answerIndex: 0,
+    correctAnswerText: "First rib"
   },
   {
     id: 144,
     image: "",
-    question:
-      "A patient with severe thoracic trauma is taken for emergency chest exploration. Which of the following statements regarding thoracotomy approaches is most accurate?",
+    question: "A 46,XY infant has female-type external genitalia, but imaging shows presence of epididymis, vas deferens, and seminal vesicles. Which factor was most likely absent during development?",
     options: [
-      "Clamshell thoracotomy is mainly for midline mediastinal structures only",
-      "Anterolateral thoracotomy is the most common emergency exploration approach",
-      "Posterolateral thoracotomy is preferred for bilateral pleural exploration in unstable trauma",
-      "Median sternotomy is the best approach for unilateral esophageal trauma"
+      "Testosterone",
+      "Müllerian inhibiting substance",
+      "SRY gene",
+      "Dihydrotestosterone (DHT)"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Anterolateral thoracotomy is the most common emergency exploration approach"
+    answerIndex: 3,
+    correctAnswerText: "Dihydrotestosterone (DHT)"
   },
   {
     id: 145,
     image: "",
-    question:
-      "A 28-year-old man is brought after a high-speed motor vehicle collision with severe blunt chest trauma. After a symptom-free interval of a few hours, he develops worsening dyspnea and hypoxemia. Computed tomography of the chest shows patchy parenchymal hyperdensities within the lung, while pleural space blood is absent. Which of the following is the most likely diagnosis?",
+    question: "A 3-year-old child presents with intermittent feculent discharge from the umbilicus since birth. Imaging suggests persistence of the entire connection between ileum and umbilicus. Which anomaly is most likely present?",
     options: [
-      "Pulmonary contusion",
-      "Lung laceration",
-      "Massive hemothorax",
-      "Tension pneumothorax"
+      "Vitellointestinal fistula due to patent vitellointestinal duct",
+      "Meckel diverticulum",
+      "Vitellointestinal cyst",
+      "Umbilical sinus"
     ],
     answerIndex: 0,
-    correctAnswerText: "Pulmonary contusion"
+    correctAnswerText: "Vitellointestinal fistula due to patent vitellointestinal duct"
   },
   {
     id: 146,
     image: "",
-    question:
-      "A 42-year-old man is involved in a high-speed deceleration injury. Chest X-ray shows widened mediastinum with loss of the aortic knob. Blunt traumatic aortic injury is suspected near the aortic isthmus, distal to the origin of the left subclavian artery. Which of the following pairs correctly matches the grade with the preferred treatment?",
+    question: "A newborn has severe respiratory distress, characteristic flattened facies, limb deformities, and marked oligohydramnios on antenatal history. Ultrasound had shown bilateral renal agenesis. What is the most likely underlying sequence?",
     options: [
-      "Grade I intimal tear — beta blockers and medical management",
-      "Grade II intramural hematoma — immediate open surgery in all cases",
-      "Grade III pseudoaneurysm — observation only",
-      "Grade IV transection — beta blockers alone"
+      "VACTERL association",
+      "Potter sequence due to renal agenesis causing oligohydramnios",
+      "CHARGE syndrome",
+      "Meckel syndrome"
     ],
-    answerIndex: 0,
-    correctAnswerText:
-      "Grade I intimal tear — beta blockers and medical management"
+    answerIndex: 1,
+    correctAnswerText: "Potter sequence due to renal agenesis causing oligohydramnios"
   },
   {
     id: 147,
     image: "",
-    question:
-      "A 30-year-old polytrauma patient is assessed in the emergency department. The clinician calculates a trauma score using the sum of the squares of the highest Abbreviated Injury Scale scores in the three most severely injured body regions. Which scoring system is being used?",
+    question: "During hysterectomy, the surgeon carefully ligates the uterine artery while avoiding injury to the structure passing just below it. Which relation is classically described here?",
     options: [
-      "Revised Trauma Score",
-      "Trauma and Injury Severity Score",
-      "Injury Severity Score",
-      "Mangled Extremity Severity Score"
+      "Uterine artery passes below the ureter",
+      "Ovarian artery passes below the ureter",
+      "Ureter passes below the uterine artery",
+      "Uterine tube passes below the uterine artery"
     ],
     answerIndex: 2,
-    correctAnswerText: "Injury Severity Score"
+    correctAnswerText: "Ureter passes below the uterine artery"
   },
   {
     id: 148,
     image: "",
-    question:
-      "A 26-year-old man is injured in an explosion. He develops ear pain and later is found to have tympanic membrane perforation. Another victim from the same incident has bowel injury without external wounds. Which of the following statements is most accurate regarding blast trauma?",
+    question: "A woman develops a third-degree perineal tear during childbirth. The obstetrician explains that damage to the perineal body is serious because many muscles converge here. Which of the following muscles is classically attached to the perineal body?",
     options: [
-      "Primary blast injury is caused by bomb fragments and most commonly affects the skin",
-      "Secondary blast injury is due to blast wind and typically causes tympanic membrane rupture",
-      "Primary blast injury is due to the blast wave and commonly affects the tympanic membrane and gastrointestinal tract",
-      "Quinary blast injury refers only to crush syndrome after building collapse"
+      "Ischiocavernosus",
+      "Obturator internus",
+      "Piriformis",
+      "Bulbospongiosus"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Primary blast injury is due to the blast wave and commonly affects the tympanic membrane and gastrointestinal tract"
+    answerIndex: 3,
+    correctAnswerText: "Bulbospongiosus"
   },
-
   {
     id: 149,
     image: "",
-    question:
-      "A 28-year-old woman sustains a scald injury over the forearm. On examination, the burn has blisters, is painful, erythematous, and shows blanching on pressure. Lateral pressure causes the epidermis to peel away. Which of the following is the most likely diagnosis?",
+    question: "A 72-year-old man has benign enlargement of the prostate causing urinary obstruction. Imaging shows enlargement of the lobe that projects upward near the bladder neck and produces a postprostatic pouch of stagnant urine. Which part is most likely enlarged?",
     options: [
-      "Superficial burn involving only epidermis",
-      "Superficial partial-thickness burn",
-      "Deep partial-thickness burn",
-      "Full-thickness burn"
+      "Median (middle) lobe of prostate",
+      "Posterior lobe of prostate",
+      "Anterior fibromuscular stroma",
+      "Peripheral zone only"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Superficial partial-thickness burn"
+    answerIndex: 0,
+    correctAnswerText: "Median (middle) lobe of prostate"
   },
   {
     id: 150,
     image: "",
-    question:
-      "A 50-kilogram adult sustains 50% total body surface area burns. Using the Parkland formula, what is the total fluid requirement in the first 24 hours?",
+    question: "A surgeon exploring the suprarenal region identifies a gland that is crescentic / semilunar and related anteriorly to the stomach superiorly and pancreas with splenic vessels inferiorly. Which gland is being described?",
     options: [
-      "5,000 milliliters",
-      "8,000 milliliters",
-      "10,000 milliliters",
-      "20,000 milliliters"
+      "Right suprarenal gland",
+      "Left suprarenal gland",
+      "Right kidney",
+      "Left renal vein"
     ],
-    answerIndex: 2,
-    correctAnswerText: "10,000 milliliters"
+    answerIndex: 1,
+    correctAnswerText: "Left suprarenal gland"
   },
   {
     id: 151,
     image: "",
-    question:
-      "A burn patient has singed facial hair, hoarseness, suspected inhalational injury, and circumferential full-thickness burn of the forearm with a tight black eschar. Distal pulses are becoming weak. Which of the following is the best next step?",
+    question: "A hepatobiliary surgeon plans a segmental liver resection for a lesion located in the caudate lobe, which is known to have independent bilateral vascular supply and behaves as a separate functional unit. Which Couinaud segment is this?",
     options: [
-      "Reassure and continue open dressing only",
-      "Immediate escharotomy of the circumferential burn",
-      "Wait for spontaneous eschar separation",
-      "Start intramuscular antibiotics and review after 24 hours"
+      "Segment II",
+      "Segment IVb",
+      "Segment I",
+      "Segment VI"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Immediate escharotomy of the circumferential burn"
+    answerIndex: 2,
+    correctAnswerText: "Segment I"
   },
   {
     id: 152,
     image: "",
-    question:
-      "A patient with a thermal burn has a central area of irreversible tissue necrosis surrounded by an ischemic but potentially salvageable zone, and an outermost area of vasodilatation with increased perfusion. Which of the following correctly identifies the zone that is most likely to convert into full-thickness tissue loss if resuscitation is inadequate?",
+    question: "A surgeon mobilizing the uncinate process during pancreatic surgery recalls that it lies in a very important vascular relation. Which statement is correct?",
     options: [
-      "Zone of hyperaemia",
-      "Zone of stasis",
-      "Zone of coagulation",
-      "Zone of epithelialization"
+      "It lies posterior to the abdominal aorta only",
+      "It lies anterior to the portal vein and posterior to IVC",
+      "It lies lateral to splenic vessels and superior to left renal vein",
+      "It lies posterior to superior mesenteric vessels and anterior to the abdominal aorta"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Zone of stasis"
+    answerIndex: 3,
+    correctAnswerText: "It lies posterior to superior mesenteric vessels and anterior to the abdominal aorta"
   },
   {
     id: 153,
     image: "",
-    question:
-      "A worker sustains a chemical burn after exposure to hydrofluoric acid. He develops severe pain, local tissue injury, and later systemic toxicity. Which of the following is the most appropriate specific treatment principle?",
+    question: "A 58-year-old man with a posterior gastric ulcer develops severe back pain. At surgery, the ulcer is found to be eroding a structure that forms the stomach bed and lies directly posterior to the stomach. Which of the following is a true component of the stomach bed?",
     options: [
-      "Neutralize the acid with an alkali immediately",
-      "Apply topical calcium gluconate because fluoride ions chelate calcium and magnesium",
-      "Cover the wound with dry dressing and observe only",
-      "Give intravenous sodium bicarbonate as the universal antidote"
+      "Pancreas",
+      "Splenic vein",
+      "Left lobe of liver",
+      "Gallbladder"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Apply topical calcium gluconate because fluoride ions chelate calcium and magnesium"
+    answerIndex: 0,
+    correctAnswerText: "Pancreas"
   },
   {
     id: 154,
     image: "",
-    question:
-      "A mountaineer presents with pale, numb fingers after prolonged cold exposure. On rewarming, blisters develop. Another patient with severe frostbite later develops black, demarcated distal tissue. Which of the following statements is most accurate?",
+    question: "During a Pringle maneuver, the surgeon compresses the free right margin of the lesser omentum to control hepatic bleeding. Which structure lies in this margin and forms the anterior boundary of the epiploic foramen?",
     options: [
-      "Frostbite commonly affects the trunk first and requires immediate early amputation",
-      "Hemorrhagic blisters indicate superficial frostbite, and debridement should be immediate in all cases",
-      "Frostbite commonly affects extremities; treatment is rewarming, and debridement is usually delayed until clear demarcation occurs",
-      "Passive cooling is the mainstay of treatment after rescue"
+      "Inferior vena cava",
+      "Portal triad in the hepatoduodenal ligament",
+      "Caudate lobe of liver",
+      "First part of duodenum"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "Frostbite commonly affects extremities; treatment is rewarming, and debridement is usually delayed until clear demarcation occurs"
+    answerIndex: 1,
+    correctAnswerText: "Portal triad in the hepatoduodenal ligament"
   },
-
   {
     id: 155,
     image: "",
-    question:
-      "A 36-year-old man with history of travel to an endemic area presents with fever, right upper abdominal pain, and recent loose stools. Imaging shows a solitary liver abscess in the right lobe. Serology is positive, and isotope scan is negative. Which of the following is the most likely diagnosis and the most appropriate first-line treatment?",
+    question: "A 64-year-old man has an abdominal aortic aneurysm just above its bifurcation. During surgery, the resident is asked at which vertebral level the abdominal aorta normally ends by dividing into right and left common iliac arteries. What is the correct answer?",
     options: [
-      "Pyogenic liver abscess; broad-spectrum antibiotics with pus culture-guided therapy",
-      "Amoebic liver abscess; metronidazole followed by diloxanide furoate",
-      "Hydatid cyst of liver; immediate Percutaneous Aspiration Injection Reaspiration without antihelminthic cover",
-      "Pyogenic liver abscess; albendazole for 7 to 10 days followed by aspiration"
+      "L3",
+      "L5",
+      "L4",
+      "T12"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Amoebic liver abscess; metronidazole followed by diloxanide furoate"
+    answerIndex: 2,
+    correctAnswerText: "L4"
   },
   {
     id: 156,
     image: "",
-    question:
-      "A 36-year-old woman undergoes ultrasonography for vague abdominal discomfort, and an incidental liver lesion is found. Contrast-enhanced computed tomography shows peripheral nodular enhancement in the arterial phase with progressive centripetal fill-in on delayed images. Magnetic resonance imaging shows a markedly hyperintense lesion on T2-weighted imaging, described as a “light bulb sign.” What is the most likely diagnosis?",
+    question: "A 35-year-old man undergoes surgery for varicocele. The surgeon isolates the spermatic cord within the inguinal canal. Which of the following is a normal content of the spermatic cord?",
     options: [
-      "Focal nodular hyperplasia",
-      "Hepatic hemangioma",
-      "Hepatic adenoma",
-      "Hepatocellular carcinoma"
+      "Ilioinguinal nerve as a cord content",
+      "Round ligament of uterus",
+      "Ureter",
+      "Pampiniform plexus of veins"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hepatic hemangioma"
+    answerIndex: 3,
+    correctAnswerText: "Pampiniform plexus of veins"
   },
   {
     id: 157,
     image: "",
-    question:
-      "A 28-year-old woman taking oral contraceptive pills is found to have a liver mass. Computed tomography shows a hypervascular encapsulated tumor with heterogeneous enhancement. Sulfur colloid isotope scan is negative, suggesting absence of Kupffer cells. Which of the following is the most likely diagnosis?",
+    question: "A cricketer presents after knee trauma with a positive anterior drawer test and positive Lachman test. Which ligament is most likely torn?",
     options: [
-      "Focal nodular hyperplasia",
-      "Hepatic adenoma",
-      "Cavernous hemangioma",
-      "Fibrolamellar hepatocellular carcinoma"
+      "Anterior cruciate ligament (ACL)",
+      "Posterior cruciate ligament (PCL)",
+      "Meniscofemoral ligament of Humphrey",
+      "Meniscofemoral ligament of Wrisberg"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hepatic adenoma"
+    answerIndex: 0,
+    correctAnswerText: "Anterior cruciate ligament (ACL)"
   },
   {
     id: 158,
     image: "",
-    question:
-      "A patient with hepatocellular carcinoma is being evaluated for liver transplantation. Which of the following best represents the Milan criteria?",
+    question: "A patient with hip pathology complains mainly of pain in the knee despite minimal local knee findings. This is explained by referred pain due to shared nerve supply. Which statement is most appropriate?",
     options: [
-      "One nodule up to 8 centimeters or up to three nodules each less than 5 centimeters",
-      "One nodule up to 5 centimeters or up to three nodules each up to 3 centimeters",
-      "Two nodules each less than 4 centimeters with any vascular invasion absent",
-      "Any number of nodules if there is no extrahepatic spread"
+      "Knee pain excludes hip disease",
+      "Hip joint disease may present as referred pain in the knee",
+      "Referred pain from hip always goes to ankle",
+      "Knee joint and hip joint have completely different nerve supply"
     ],
     answerIndex: 1,
-    correctAnswerText:
-      "One nodule up to 5 centimeters or up to three nodules each up to 3 centimeters"
+    correctAnswerText: "Hip joint disease may present as referred pain in the knee"
   },
   {
     id: 159,
     image: "",
-    question:
-      "A 42-year-old obese woman presents with recurrent postprandial right upper abdominal pain. Ultrasonography of the abdomen shows mobile echogenic foci in the gallbladder with posterior acoustic shadowing. Which of the following is the most appropriate definitive treatment?",
+    question: "A 42-year-old woman with varicose veins is planned for surgical harvesting of the great saphenous vein. While making an incision near the ankle, the surgeon is careful to avoid a nerve that accompanies this vein and runs anterior to the medial malleolus. Which nerve is most closely related to the great saphenous vein?",
     options: [
-      "Oral dissolution therapy for all patients with gallstones",
-      "Laparoscopic cholecystectomy",
-      "Observation only because most stones are asymptomatic",
-      "Endoscopic retrograde cholangiopancreatography as first-line treatment"
+      "Sural nerve",
+      "Superficial peroneal nerve",
+      "Saphenous nerve",
+      "Deep peroneal nerve"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Laparoscopic cholecystectomy"
+    answerIndex: 2,
+    correctAnswerText: "Saphenous nerve"
   },
   {
     id: 160,
     image: "",
-    question:
-      "A patient is found to have multiple small black pigment gallstones. Which of the following conditions is most strongly associated with this type of gallstone?",
+    question: "A 35-year-old man with chronic standing-related foot pain is found to have weakness of the structures maintaining the lateral longitudinal arch. Which joint acts as the characteristic saddle joint of the lateral arch?",
     options: [
-      "Obesity with supersaturation of bile by cholesterol",
-      "Hereditary spherocytosis",
-      "Prolonged fasting after vagotomy",
-      "Oral contraceptive pill use during pregnancy"
+      "Talonavicular joint",
+      "Calcaneocuboid joint",
+      "Subtalar joint",
+      "First tarsometatarsal joint"
     ],
     answerIndex: 1,
-    correctAnswerText: "Hereditary spherocytosis"
+    correctAnswerText: "Calcaneocuboid joint"
   },
   {
     id: 161,
     image: "",
-    question:
-      "A 52-year-old woman presents with fever, nausea, vomiting, and severe pain in the right upper quadrant of the abdomen. On examination, deep palpation just below the right ninth costal cartilage during inspiration causes sudden arrest of inspiration due to pain. What is this sign called?",
+    question: "A patient with posterior leg trauma cannot properly unlock the knee while starting flexion from full extension. Which muscle is most likely affected?",
     options: [
-      "Boas sign",
-      "Murphy sign",
-      "Courvoisier sign",
-      "Rovsing sign"
+      "Soleus",
+      "Gastrocnemius",
+      "Plantaris",
+      "Popliteus"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Murphy sign"
+    answerIndex: 3,
+    correctAnswerText: "Popliteus"
   },
   {
     id: 162,
     image: "",
-    question:
-      "A 52-year-old woman with long-standing gallstone disease presents with progressive obstructive jaundice. Imaging suggests a stone impacted in the neck of the gallbladder causing external compression of the common hepatic duct without any cholecysto-biliary fistula. Which of the following is the most likely diagnosis?",
+    question: "A patient with a tibial nerve injury in the popliteal fossa cannot stand on tiptoes and has marked weakness of plantarflexion. Distal branches to the sole will also be affected. Which nerve is injured?",
     options: [
-      "Type I Mirizzi syndrome",
-      "Type II Mirizzi syndrome",
-      "Type III Mirizzi syndrome",
-      "Type V Mirizzi syndrome"
+      "Tibial nerve",
+      "Deep peroneal nerve",
+      "Superficial peroneal nerve",
+      "Common peroneal nerve"
     ],
     answerIndex: 0,
-    correctAnswerText: "Type I Mirizzi syndrome"
+    correctAnswerText: "Tibial nerve"
   },
   {
     id: 163,
     image: "",
-    question:
-      "A patient is found to have retained common bile duct stones through a mature T-tube tract after surgery. The stones are removed through the same tract under radiologic guidance. This method is known as:",
+    question: "During dissection of the gluteal region, the surgeon identifies the sciatic nerve lying on a group of short lateral rotators. Which of the following is a component of the sciatic bed?",
     options: [
-      "Burhenne technique",
-      "Whipple procedure",
-      "Pringle maneuver",
-      "Seldinger biliary bypass"
+      "Piriformis",
+      "Quadratus femoris",
+      "Gluteus medius",
+      "Gemellus superior only"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Burhenne technique"
+    answerIndex: 1,
+    correctAnswerText: "Quadratus femoris"
   },
   {
     id: 164,
     image: "",
-    question:
-      "Which of the following statements regarding evaluation and staging of gallbladder malignancy is most accurate?",
+    question: "During femoral vessel cannulation, the resident is asked which structure lies in the most medial compartment of the femoral sheath and is clinically important in femoral hernia. What is the correct answer?",
     options: [
-      "Magnetic resonance cholangiopancreatography is the best test for distant metastasis",
-      "Contrast-enhanced computed tomography of the abdomen helps assess local extent and spread",
-      "Positron emission tomography-computed tomography is primarily used for common bile duct anatomy",
-      "T1 disease means tumor has invaded the liver directly"
+      "Femoral artery",
+      "Femoral vein",
+      "Femoral canal",
+      "Femoral nerve"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Contrast-enhanced computed tomography of the abdomen helps assess local extent and spread"
+    answerIndex: 2,
+    correctAnswerText: "Femoral canal"
   },
- {
+  {
     id: 165,
     image: "",
-    question:
-      "A 28-year-old man presents with recurrent episodes of upper abdominal pain radiating to the back for the past 1 year. He has had multiple admissions for acute pancreatitis, but evaluation shows no gallstones, no history of alcohol use, and normal serum triglyceride levels. Magnetic Resonance Cholangiopancreatography reveals failure of fusion of the dorsal and ventral pancreatic ducts, with most of the pancreatic secretions draining through the minor papilla.\n\nWhat is the most likely diagnosis?",
+    question: "A 45-year-old man presents with localized pain over the anterior chest wall near the sternum. The clinician recalls that most costosternal joints are plane synovial joints, except one which is a primary cartilaginous joint (synchondrosis). Which joint is this?",
     options: [
-      "Annular pancreas",
-      "Pancreas divisum",
-      "Choledochal cyst",
-      "Pancreatic pseudocyst"
+      "2nd costosternal joint",
+      "3rd costosternal joint",
+      "7th costosternal joint",
+      "1st costosternal joint"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Pancreas divisum"
+    answerIndex: 3,
+    correctAnswerText: "1st costosternal joint"
   },
   {
     id: 166,
     image: "",
-    question:
-      "A 42-year-old woman presents with recurrent episodes of severe right upper abdominal pain for 8 months. She underwent cholecystectomy 1 year ago, but her pain persists. The pain is episodic, lasts for more than 30 minutes, and is associated with transient elevation of liver enzymes. Ultrasonography shows no retained gallstones. Endoscopic Retrograde Cholangiopancreatography demonstrates delayed drainage of contrast from the Common Bile Duct, and sphincter of Oddi manometry shows a resting pressure greater than 40 millimeters of mercury.\n\nWhat is the most likely diagnosis?",
+    question: "A neurohistology specimen from the cerebral cortex shows six layers. The layer that contains the characteristic large pyramidal cells of motor cortex is:",
     options: [
-      "Biliary stricture",
-      "Sphincter of Oddi dysfunction Type I",
-      "Chronic calculous cholecystitis",
-      "Carcinoma head of pancreas"
+      "Internal pyramidal layer (Layer V)",
+      "External granular layer (Layer II)",
+      "Internal granular layer (Layer IV)",
+      "Multiform layer (Layer VI)"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Sphincter of Oddi dysfunction Type I"
+    answerIndex: 0,
+    correctAnswerText: "Internal pyramidal layer (Layer V)"
   },
   {
     id: 167,
     image: "",
-    question:
-      "A 48-year-old man with a history of chronic alcohol use presents to the emergency department with sudden onset severe epigastric pain radiating to the back. He has repeated vomiting and prefers to sit leaning forward because it slightly relieves the pain. On examination, he has abdominal tenderness with guarding and bluish discoloration around the umbilicus. Serum lipase is markedly elevated.\n\nWhich of the following physical signs is represented by the periumbilical ecchymosis seen in this patient?",
+    question: "A pathology resident examines an islet of Langerhans and notes that the centrally placed cells, which form the majority of the islet, secrete a hormone important in lowering blood glucose. These cells are:",
     options: [
-      "Grey Turner sign",
-      "Cullen sign",
-      "Fox sign",
-      "Bryant sign"
+      "Alpha cells",
+      "Beta cells",
+      "Delta cells",
+      "Acinar cells"
     ],
     answerIndex: 1,
-    correctAnswerText: "Cullen sign"
+    correctAnswerText: "Beta cells"
   },
   {
     id: 168,
     image: "",
-    question:
-      "A 52-year-old man presents with acute onset severe epigastric pain radiating to the back, vomiting, and abdominal distension. Serum lipase is markedly elevated, and he is diagnosed with acute biliary pancreatitis. Ultrasonography reveals gallstones with a dilated Common Bile Duct, suggesting persistent biliary obstruction. He is hemodynamically stable after initial resuscitation.\n\nWhich of the following is the most appropriate next step in management?",
+    question: "A histology slide from the dorsum of tongue shows a large papilla surrounded by a trench-like cleft. Numerous taste buds are seen in the lateral wall of the cleft, and serous glands open into this area. Which papilla is being identified?",
     options: [
-      "Start prophylactic antibiotics in all cases of acute pancreatitis",
-      "Keep the patient nil per oral for many days and avoid enteral nutrition",
-      "Perform Endoscopic Retrograde Cholangiopancreatography for biliary pancreatitis with suspected Common Bile Duct obstruction",
-      "Delay cholecystectomy for 6 months in all patients with biliary pancreatitis"
+      "Filiform papilla",
+      "Fungiform papilla",
+      "Circumvallate papilla",
+      "Foliate papilla"
     ],
     answerIndex: 2,
-    correctAnswerText:
-      "Perform Endoscopic Retrograde Cholangiopancreatography for biliary pancreatitis with suspected Common Bile Duct obstruction"
+    correctAnswerText: "Circumvallate papilla"
   },
   {
     id: 169,
     image: "",
-    question:
-      "A 46-year-old man with a long history of alcohol use presents with recurrent epigastric pain radiating to the back for several years. He now reports weight loss, bulky foul-smelling stools, and difficulty controlling his blood glucose levels despite insulin therapy. On evaluation, stool elastase is markedly reduced to less than 100 micrograms per gram of stool, and fasting C-peptide levels are low.\n\nWhich of the following is the most appropriate interpretation of these findings?",
+    question: "A pathologist examines a spindle-shaped muscle cell from a visceral organ. The cell is non-striated, involuntary, has a single central oval nucleus, and lacks intercalated discs. Which muscle type is being described?",
     options: [
-      "Acute pancreatitis with preserved exocrine and endocrine function",
-      "Chronic pancreatitis with exocrine insufficiency and endocrine insufficiency",
-      "Pancreatic pseudocyst causing only mass effect without pancreatic failure",
-      "Carcinoma head of pancreas with isolated obstructive jaundice"
+      "Skeletal muscle",
+      "Cardiac muscle",
+      "Striated visceral muscle",
+      "Smooth muscle"
     ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Chronic pancreatitis with exocrine insufficiency and endocrine insufficiency"
+    answerIndex: 3,
+    correctAnswerText: "Smooth muscle"
   },
   {
     id: 170,
     image: "",
-    question:
-      "A 68-year-old man presents with recurrent abdominal pain, weight loss, and new-onset diabetes mellitus. Magnetic resonance cholangiopancreatography shows a dilated main pancreatic duct with mural nodules. Endoscopic retrograde cholangiopancreatography reveals a patulous ampulla with mucin extruding from it, producing a “fish mouth” appearance. Which of the following statements is most accurate regarding this condition?",
+    question: "A specimen taken from the epiglottis shows cartilage with numerous fibers, preserved flexibility, and perichondrium present. Which type of cartilage is this?",
     options: [
-      "It is a benign lesion with no malignant potential and is best managed by observation alone",
-      "It is most likely mucinous cystic neoplasm, which classically occurs in the tail with ovarian-type stroma",
-      "It is intraductal papillary mucinous neoplasm, and all main duct lesions require resection",
-      "It is serous cystadenoma, and glycogen-rich epithelium is the defining feature"
+      "Elastic cartilage",
+      "Hyaline cartilage",
+      "Fibrocartilage",
+      "Calcified cartilage"
     ],
-    answerIndex: 2,
-    correctAnswerText:
-      "It is intraductal papillary mucinous neoplasm, and all main duct lesions require resection"
+    answerIndex: 0,
+    correctAnswerText: "Elastic cartilage"
   },
   {
     id: 171,
     image: "",
-    question:
-      "A 64-year-old man presents with progressive jaundice, weight loss, dull upper abdominal pain, and recent-onset diabetes mellitus. On examination, he has a palpable distended gallbladder. Contrast-enhanced computed tomography shows a mass in the head of the pancreas causing obstruction of both the common bile duct and the pancreatic duct. Which of the following is the most likely diagnosis?",
+    question: "A newborn is diagnosed with congenital adrenal insufficiency involving only the cortex, while the medulla is preserved. From which embryological source is the adrenal cortex derived?",
     options: [
-      "Carcinoma of head of pancreas",
-      "Carcinoma of body of pancreas",
-      "Cholangiocarcinoma",
-      "Chronic calcific pancreatitis"
+      "Neural crest cells",
+      "Mesoderm",
+      "Surface ectoderm",
+      "Endoderm"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Carcinoma of head of pancreas"
+    answerIndex: 1,
+    correctAnswerText: "Mesoderm"
   },
   {
     id: 172,
     image: "",
-    question:
-      "A patient with carcinoma head of pancreas is being staged for operability. The tumor shows less than 180 degrees contact with the portal vein and superior mesenteric vein, and there is no involvement of the superior mesenteric artery. Which of the following best describes this tumor?",
+    question: "A histology slide shows an ovarian follicle with a primary oocyte, surrounding granulosa cells, and the beginning of zona pellucida formation, but no well-developed antrum. Which follicular stage is this?",
     options: [
-      "Metastatic",
-      "Borderline resectable",
-      "Resectable",
-      "Unresectable"
+      "Primordial follicle",
+      "Secondary follicle",
+      "Primary follicle",
+      "Tertiary follicle"
     ],
     answerIndex: 2,
-    correctAnswerText: "Resectable"
+    correctAnswerText: "Primary follicle"
   },
-
   {
     id: 173,
-    image: "images/IMG_0593.jpeg",
-    question:
-      "A 36-year-old woman presents with progressive dysphagia, easy fatigability, and reduced exercise tolerance. On examination, she has pallor, angular cheilitis, and spoon-shaped nails. A barium swallow image shows a thin, shelf-like intraluminal filling defect in the upper esophagus.\n\nWhich of the following is the most likely diagnosis associated with this radiological finding?",
+    image: "",
+    question: "A 58-year-old patient has loss of lacrimation and salivation after a pontine lesion involving a general visceral efferent (parasympathetic) nucleus. Which of the following nuclei is located in the pons and belongs to this column?",
     options: [
-      "Schatzki ring in gastroesophageal reflux disease",
-      "Esophageal web in Plummer–Vinson syndrome",
-      "Achalasia cardia due to degeneration of Auerbach plexus",
-      "Esophageal diverticulum in diffuse esophageal spasm"
+      "Edinger–Westphal nucleus",
+      "Dorsal motor nucleus of vagus",
+      "Nucleus ambiguus",
+      "Superior salivatory nucleus"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Esophageal web in Plummer–Vinson syndrome"
+    answerIndex: 3,
+    correctAnswerText: "Superior salivatory nucleus"
   },
-
   {
     id: 174,
-    image: "images/IMG_0594.jpeg",
-    question:
-      "A 78-year-old frail man with long-standing complete rectal prolapse undergoes a perineal procedure because he is a poor candidate for major abdominal surgery. In the postoperative image, a circumferential purse-string suture has been placed around the anal canal to narrow the outlet and prevent recurrent prolapse.\n\nWhich of the following procedures is most likely being shown?",
+    image: "",
+    question: "A coronal section through the cerebrum shows the roof of the lateral ventricle. Which structure forms the major roof of the central part of the lateral ventricle?",
     options: [
-      "Stapled hemorrhoidopexy",
-      "Wells procedure",
-      "Thiersch wiring",
-      "Altemeier repair"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Thiersch wiring"
-  },
-
-  {
-    id: 175,
-    image: "images/IMG_0595.jpeg",
-    question:
-      "A 19-year-old man presents with recurrent abdominal pain and episodes of intestinal obstruction. On examination, multiple dark-brown pigmented macules are seen over the lips and buccal mucosa. Endoscopy reveals multiple gastrointestinal polyps, and histopathology shows an arborizing network of smooth muscle extending into polyp fronds lined by normal intestinal epithelium.\n\nWhich of the following is the most likely underlying diagnosis?",
-    options: [
-      "Familial adenomatous polyposis due to adenomatous polyps from adenomatous polyposis coli gene mutation",
-      "Peutz–Jeghers syndrome due to hamartomatous polyps associated with serine threonine kinase 11 gene mutation",
-      "Juvenile polyposis syndrome due to inflammatory polyps associated with Kirsten rat sarcoma mutation",
-      "Cowden syndrome due to hyperplastic polyps associated with ret proto-oncogene mutation"
-    ],
-    answerIndex: 1,
-    correctAnswerText:
-      "Peutz–Jeghers syndrome due to hamartomatous polyps associated with serine threonine kinase 11 gene mutation"
-  },
-
-  {
-    id: 176,
-    image: "images/IMG_0596.jpeg",
-    question:
-      "A 48-year-old man with pancytopenia is planned for bone marrow examination. The hematologist asks for the instrument shown in the image, which is a reusable bone marrow biopsy needle with an adjustable guard placed about 2 centimeters from the tip and a side screw to control depth.\n\nWhich of the following instruments is being shown?",
-    options: [
-      "Klima needle",
-      "Salah’s needle",
-      "Vim–Silverman needle",
-      "Von Graefe knife"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Salah’s needle"
-  },
-
-  {
-    id: 177,
-    image: "images/IMG_0597.jpeg",
-    question:
-      "A 58-year-old man is undergoing open inguinal hernia repair. After the skin and superficial fascia are divided, the surgeon asks for the instrument shown in the image to maintain exposure of the wound without requiring an assistant to hold the edges apart continuously.\n\nWhich of the following instruments is being shown?",
-    options: [
-      "Langenbeck retractor",
-      "Volkmann retractor",
-      "Balfour retractor",
-      "Travers retractor"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Travers retractor"
-  },
-
-  {
-    id: 178,
-    image: "images/IMG_0598.jpeg",
-    question:
-      "A 24-year-old man is brought to the emergency department after a high-velocity road traffic accident. He is tachypneic, hypotensive, and has diminished breath sounds on the right side. Chest radiograph shows a near-complete homogeneous white-out of the right hemithorax with loss of normal aeration of the underlying lung.\n\nWhat is the most likely diagnosis?",
-    options: [
-      "Right hemothorax",
-      "Right pneumothorax",
-      "Right hydropneumothorax",
-      "Right lung abscess"
+      "Corpus callosum",
+      "Fornix",
+      "Thalamus",
+      "Septum pellucidum"
     ],
     answerIndex: 0,
-    correctAnswerText: "Right hemothorax"
+    correctAnswerText: "Corpus callosum"
   },
-
   {
-    id: 179,
-    image: "images/IMG_0599.jpeg",
-    question:
-      "A 10-day-old preterm neonate develops abdominal distension, feeding intolerance, bilious vomiting, and lethargy. On examination, the abdomen is tense and tender. An abdominal radiograph shows multiple lucent, bubbly, linear collections of gas outlining the bowel wall.\n\nWhich of the following is the most likely radiological diagnosis?",
+    id: 175,
+    image: "",
+    question: "A patient with a memory circuit lesion is found to have damage to a white matter tract carrying efferent fibers from the hippocampus to the mammillary body. Which tract is involved?",
     options: [
-      "Pneumoperitoneum due to intestinal perforation",
-      "Portal venous gas due to neonatal sepsis",
-      "Double-bubble sign due to duodenal atresia",
-      "Pneumatosis intestinalis due to necrotizing enterocolitis"
+      "Mammillothalamic tract",
+      "Fornix",
+      "Stria terminalis",
+      "Internal capsule"
     ],
-    answerIndex: 3,
-    correctAnswerText:
-      "Pneumatosis intestinalis due to necrotizing enterocolitis"
+    answerIndex: 1,
+    correctAnswerText: "Fornix"
   },
-
   {
-    id: 180,
-    image: "images/IMG_0600.jpeg",
-    question:
-      "A 42-year-old woman presents with a slowly progressive swelling over the forehead and scalp region causing facial disfigurement. On examination, the lesion is tortuous, compressible, and pulsatile. A bruit is heard on auscultation. She also reports occasional headache and tinnitus. The clinical image is shown above.\n\nWhat is the most likely diagnosis?",
+    id: 176,
+    image: "",
+    question: "A patient has lesions involving the posterior lobe of cerebellum and shows impaired fine, skilled, coordinated voluntary movement without major balance disturbance. Which functional division of cerebellum is predominantly affected?",
     options: [
-      "Plexiform neurofibroma",
-      "Cavernous hemangioma",
-      "Cirsoid aneurysm",
-      "Dermoid cyst"
+      "Archicerebellum",
+      "Paleocerebellum",
+      "Neocerebellum",
+      "Flocculonodular lobe only"
     ],
     answerIndex: 2,
-    correctAnswerText: "Cirsoid aneurysm"
+    correctAnswerText: "Neocerebellum"
+  },
+  {
+    id: 177,
+    image: "",
+    question: "A patient with neurosyphilis has difficulty maintaining posture when standing with feet together and tends to fall when the eyes are closed, but can compensate when the eyes are open. Which clinical sign is being demonstrated?",
+    options: [
+      "Babinski sign",
+      "Lhermitte sign",
+      "Kernig sign",
+      "Romberg sign"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Romberg sign"
+  },
+  {
+    id: 178,
+    image: "",
+    question: "A surgeon performing mediastinal dissection in a patient lying supine wants to identify the level of the carina. In an adult in the supine position, the trachea typically bifurcates at:",
+    options: [
+      "T4",
+      "T3",
+      "T6",
+      "C6"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "T4"
+  },
+  {
+    id: 179,
+    image: "",
+    question: "A patient with portal hypertension presents with hematemesis due to esophageal varices. Which venous channel forms the portal side of the portocaval anastomosis at the lower end of the esophagus?",
+    options: [
+      "Azygos vein",
+      "Left gastric vein",
+      "Inferior thyroid vein",
+      "Hemiazygos vein"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Left gastric vein"
+  },
+  {
+    id: 180,
+    image: "",
+    question: "A patient with tracheal compression is being evaluated. Which statement about the trachea is correct?",
+    options: [
+      "The posterior gap between the C-shaped tracheal cartilages is bridged by trachealis muscle and fibroelastic tissue, allowing esophageal expansion during swallowing.",
+      "The trachea is supported by complete circular rings of elastic cartilage.",
+      "The trachea begins at T4 and ends at T6 in all individuals.",
+      "Its blood supply is mainly from the internal thoracic artery."
+    ],
+    answerIndex: 0,
+    correctAnswerText: "The posterior gap between the C-shaped tracheal cartilages is bridged by trachealis muscle and fibroelastic tissue, allowing esophageal expansion during swallowing."
   },
 
 ];
