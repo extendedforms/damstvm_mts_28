@@ -3,7 +3,7 @@
 window.questions = [
   {
     id: 1,
-    image: "",
+    image: "images/IMG_1142.jpeg",
     question: "A histology student is shown an image in which one cell releases signaling molecules that diffuse across a short distance through the extracellular space and act on a nearby target cell. There is no transport through blood, no direct cell-to-cell junction, and the signaling cell is not acting on itself. Which type of cell signaling is best represented?",
     options: [
       "Endocrine signaling",
@@ -16,7 +16,7 @@ window.questions = [
   },
   {
     id: 2,
-    image: "",
+    image: "images/IMG_1143.jpeg",
     question: "A 32-year-old man undergoes urodynamic evaluation. The image shows a cystometrogram plotting intravesical pressure against intravesical volume. The tracing has an initial small rise in pressure, followed by a long plateau as bladder volume increases, and then a sudden steep rise in pressure near a volume of about 400 milliliters, indicating the onset of the micturition reflex. Which of the following best explains the near-constant pressure during the long plateau segment of the graph?",
     options: [
       "Continuous relaxation of the internal urethral sphincter causing urine leakage",
@@ -29,7 +29,7 @@ window.questions = [
   },
   {
     id: 3,
-    image: "",
+    image: "images/IMG_1144.jpeg",
     question: "A physiology student is shown a graph of percent filtered load remaining along different segments of the nephron from Bowman’s space to urine. In the graph, line C remains constant at 100%, line D rises above 100%, line A falls rapidly to nearly zero within the proximal tubule, and line B decreases substantially but not to zero. Which of the following is the most accurate interpretation?",
     options: [
       "Line C represents a substance that is filtered and neither reabsorbed nor secreted, such as inulin",
@@ -42,7 +42,7 @@ window.questions = [
   },
   {
     id: 4,
-    image: "",
+    image: "images/IMG_1145.jpeg",
     question: "A cell physiology diagram shows solute particles moving across the plasma membrane through specific carrier proteins from an area of higher concentration in the extracellular space to an area of lower concentration in the intracellular space. No hydrolysis of adenosine triphosphate is shown, and movement occurs down the concentration gradient. Which of the following substances is most classically transported by the mechanism depicted in the image?",
     options: [
       "Sodium ion by sodium-potassium adenosine triphosphatase",
@@ -55,7 +55,7 @@ window.questions = [
   },
   {
     id: 5,
-    image: "",
+    image: "images/IMG_1146.jpeg",
     question: "A 26-year-old man develops fever due to infection. The image shows that the hypothalamic temperature set-point suddenly rises, after which actual body temperature is initially below the new set-point and then gradually increases. Later, when the set-point returns to normal, body temperature is temporarily higher than the set-point and then falls. During the phase immediately after the set-point is raised, which of the following responses is most likely to occur?",
     options: [
       "Sweating and cutaneous vasodilation",
@@ -68,7 +68,7 @@ window.questions = [
   },
   {
     id: 6,
-    image: "",
+    image: "images/IMG_1147.jpeg",
     question: "A 58-year-old man suddenly develops pleuritic chest pain and breathlessness. Imaging later confirms an acute embolic obstruction of blood flow to a part of the lung. In the given ventilation-perfusion graph, which labeled point best represents pulmonary embolism?",
     options: [
       "A",
@@ -81,7 +81,7 @@ window.questions = [
   },
   {
     id: 7,
-    image: "",
+    image: "images/IMG_1148.jpeg",
     question: "A spirometry tracing shows normal tidal oscillations around the end-expiratory level. In the image, Which of the following best identifies the marked region?",
     options: [
       "Residual volume",
@@ -94,7 +94,7 @@ window.questions = [
   },
   {
     id: 8,
-    image: "",
+    image: "images/IMG_1149.jpeg",
     question: "A 24-year-old man is studying the ventricular myocardial action potential. In the given graph, the red horizontal segment represents the plateau phase. Which of the following best explains the physiological importance of this phase?",
     options: [
       "It allows rapid repetitive firing by shortening the refractory period",
@@ -107,7 +107,7 @@ window.questions = [
   },
   {
     id: 9,
-    image: "",
+    image: "images/IMG_1150.jpeg",
     question: "A healthy 16-year-old boy is asked to take slow deep breaths during pulse recording. The tracing shows cyclical increase in heart rate during inspiration and decrease in heart rate during expiration, with preservation of sinus origin of each beat. Which of the following best explains this physiological phenomenon?",
     options: [
       "Premature atrial depolarizations arising from an ectopic atrial focus",
@@ -120,7 +120,7 @@ window.questions = [
   },
   {
     id: 10,
-    image: "",
+    image: "images/IMG_1151.jpeg",
     question: "A 40-year-old man undergoes a routine electrocardiographic examination. On the rhythm strip, the interval between two consecutive normal R waves is approximately 4 large squares. What is the most likely heart rate?",
     options: [
       "50 beats per minute",
@@ -133,7 +133,7 @@ window.questions = [
   },
   {
     id: 11,
-    image: "",
+    image: "images/IMG_1152.jpeg",
     question: "A physiology student is shown an image of fluid flowing through a tube that narrows in the middle. The vertical side tubes indicate that the fluid column height is lowest at the narrowest segment, showing a fall in lateral pressure where flow velocity is greatest. Which of the following clinical situations is best explained by the same principle demonstrated in the image?",
     options: [
       "Airway collapse caused by increased intraluminal pressure in a narrowed airway",
@@ -146,7 +146,7 @@ window.questions = [
   },
   {
     id: 12,
-    image: "",
+    image: "images/IMG_1153.jpeg",
     question: "A 24-year-old man with type 1 diabetes mellitus is brought to the emergency department with vomiting, abdominal pain, dehydration, and altered sensorium. On examination, he has deep, labored, rapid breathing as shown in the image. Arterial blood gas analysis reveals metabolic acidosis. Which of the following is the most likely explanation for this breathing pattern?",
     options: [
       "It is a form of periodic breathing seen in congestive heart failure due to delayed respiratory center response",
@@ -159,7 +159,7 @@ window.questions = [
   },
   {
     id: 13,
-    image: "",
+    image: "images/IMG_1154.jpeg",
     question: "A 58-year-old man is brought to the emergency department after severe head trauma. He is drowsy, has irregular episodes of breathing, and develops intermittent pauses in respiration. The breathing pattern is as shown in the image. Which of the following is the most likely diagnosis?",
     options: [
       "Kussmaul breathing due to metabolic acidosis",
@@ -172,7 +172,7 @@ window.questions = [
   },
   {
     id: 14,
-    image: "",
+    image: "images/IMG_1155.jpeg",
     question: "A 14-year-old boy with type 1 diabetes mellitus is brought to the outpatient department because of repeated early morning hyperglycemia despite adherence to insulin therapy. His overnight blood glucose measured at 3 am is normal. A teaching chart shown to him demonstrates a hormone secreted in pulsatile bursts, with a major rise during sleep and after strenuous exercise. Which of the following is the most likely explanation for his early morning hyperglycemia?",
     options: [
       "Excess bedtime insulin causing nocturnal hypoglycemia followed by rebound hyperglycemia",
@@ -185,7 +185,7 @@ window.questions = [
   },
   {
     id: 15,
-    image: "",
+    image: "images/IMG_1156.jpeg",
     question: "A 26-year-old healthy man rapidly receives an intravenous fluid bolus during a physiology demonstration. His venous return increases, and the instructor shows the pressure-volume loop in the image. Which of the following best explains the change shown in the loop?",
     options: [
       "Decreased preload causing reduced end-diastolic volume and reduced stroke volume",
@@ -198,7 +198,7 @@ window.questions = [
   },
   {
     id: 16,
-    image: "",
+    image: "images/IMG_1157.jpeg",
     question: "A 20-year-old man is evaluated after sustaining a lateral medullary region injury. On neurological examination, he has impaired unconscious proprioceptive coordination of the lower limb. During an anatomy viva, he is shown the highlighted cerebellar peduncle in the image and is asked which ascending pathway enters the cerebellum through this structure. Which of the following is the correct answer?",
     options: [
       "Dorsal spinocerebellar tract",
@@ -211,7 +211,7 @@ window.questions = [
   },
   {
     id: 17,
-    image: "",
+    image: "images/IMG_1158.jpeg",
     question: "A 22-year-old man is brought to the emergency department after strenuous exercise with severe muscle pain. During discussion of oxygen storage and delivery to muscle, he is shown the oxygen dissociation curves in the image. Which of the following best represents curve A?",
     options: [
       "Myoglobin",
@@ -224,7 +224,7 @@ window.questions = [
   },
   {
     id: 18,
-    image: "",
+    image: "images/IMG_1159.jpeg",
     question: "A 24-year-old man is brought to the emergency department after a road traffic accident and requires urgent blood grouping before transfusion.His slide agglutination is given. Which of the following is the most likely blood group?",
     options: [
       "A positive",
@@ -237,7 +237,7 @@ window.questions = [
   },
   {
     id: 19,
-    image: "",
+    image: "images/IMG_1160.jpeg",
     question: "A 27-year-old man steps on a sharp object with his right foot and immediately withdraws the limb. In the physiology laboratory, a myogram similar to the image is shown, demonstrating a prolonged contraction that continues briefly even after the stimulus is removed, followed later by decline due to fatigue. Which of the following best explains the persistence of contraction after cessation of the stimulus in this reflex?",
     options: [
       "Monosynaptic activation of alpha motor neuron causing immediate sustained contraction",
@@ -250,7 +250,7 @@ window.questions = [
   },
   {
     id: 20,
-    image: "",
+    image: "images/IMG_1161.jpeg",
     question: "A 7-year-old girl is brought with early breast development, intermittent vaginal bleeding, and rapid increase in height. Examination shows an irregularly bordered hyperpigmented skin lesion over the body, as seen in the image. Genetic analysis reveals a gain-of-function mutation involving the stimulatory G protein alpha subunit. Which of the following is the most likely diagnosis?",
     options: [
       "Neurofibromatosis type 1",
@@ -263,7 +263,7 @@ window.questions = [
   },
   {
     id: 21,
-    image: "",
+    image: "images/IMG_1162.jpeg",
     question: "A 61-year-old man with small cell lung carcinoma is brought with headache, nausea, confusion, and a recent episode of generalized seizure. He is euvolemic on examination. Laboratory testing shows low serum sodium, low plasma osmolarity, inappropriately concentrated urine, and high urine sodium. The fluid compartment change corresponding to the image is most likely which of the following?",
     options: [
       "Iso-osmotic volume contraction with reduction only in extracellular fluid, as seen in diarrhea",
@@ -273,6 +273,539 @@ window.questions = [
     ],
     answerIndex: 2,
     correctAnswerText: "Hypo-osmotic volume expansion with increase in both intracellular and extracellular fluid, as seen in syndrome of inappropriate antidiuretic hormone secretion"
+  },
+  {
+    id: 22,
+    image: "images/IMG_1163.jpeg",
+    question: "A 55-year-old chronic smoker with progressive exertional dyspnea is sent to the pulmonary function laboratory. A technician performs the following test shown in the image. The pulmonologist asks which of the following parameters cannot be measured directly by this instrument. Which is the correct answer?",
+    options: [
+      "Tidal volume",
+      "Residual volume",
+      "Vital capacity",
+      "Inspiratory reserve volume"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Residual volume"
+  },
+  {
+    id: 23,
+    image: "images/IMG_1164.jpeg",
+    question: "A 15-year-old obese adolescent presents with hyperphagia and progressive weight gain. He is being evaluated for hormonal regulation of appetite and energy balance. During a physiology seminar, he is shown the signaling pathway in the image. Which of the following hormones acts predominantly via this pathway?",
+    options: [
+      "Calcitonin",
+      "Vasopressin",
+      "Aldosterone",
+      "Leptin"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Leptin"
+  },
+  {
+    id: 24,
+    image: "images/IMG_1165.jpeg",
+    question: "A 34-year-old woman is evaluated for hypertension, central obesity, and mild hirsutism. During endocrine histology teaching, she is shown the adrenal gland section in the image with zones labeled A, B, C, and D from outer to inner region. Which of the following correctly matches the labeled zones with their principal hormone products?",
+    options: [
+      "A–cortisol, B–aldosterone, C–androgens, D–epinephrine",
+      "A–epinephrine, B–cortisol, C–aldosterone, D–androgens",
+      "A–aldosterone, B–epinephrine, C–androgens, D–cortisol",
+      "A–aldosterone, B–cortisol, C–androgens, D–epinephrine"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "A–aldosterone, B–cortisol, C–androgens, D–epinephrine"
+  },
+  {
+    id: 25,
+    image: "images/IMG_1166.jpeg",
+    question: "A 32-year-old man undergoes neurological sensory testing after a hand injury. A receptor shown in the image is identified as a lamellated corpuscle that responds best to vibration and rapidly changing pressure. Which of the following best describes this receptor?",
+    options: [
+      "Slow adapting and not encapsulated",
+      "Fast adapting and encapsulated",
+      "Fast adapting and not encapsulated",
+      "Slow adapting and encapsulated"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Fast adapting and encapsulated"
+  },
+  {
+    id: 26,
+    image: "",
+    question: "A 24-year-old medical student donates blood and, within seconds, his arterial blood pressure falls slightly. Stretch receptors in the carotid sinus detect the change and trigger autonomic responses that increase heart rate and peripheral vascular resistance, restoring blood pressure toward normal. Which of the following best describes the control mechanism operating in this situation?",
+    options: [
+      "Positive feedback, because the initial stimulus is amplified",
+      "Feedforward control, because the response occurs before the disturbance",
+      "Negative feedback, because the response opposes the initial change",
+      "Open-loop regulation, because no sensor is involved"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Negative feedback, because the response opposes the initial change"
+  },
+  {
+    id: 27,
+    image: "",
+    question: "A researcher is studying a eukaryotic cell that shows abundant membrane turnover, active protein synthesis for secretion, intracellular digestion of bacteria, detoxification of hydrogen peroxide, and ATP generation. The cell also demonstrates vesicular transport along hollow cytoskeletal tracks and maintains membrane fluidity through a major sterol component. Which of the following combinations is most accurate?",
+    options: [
+      "Rough endoplasmic reticulum synthesizes lipids, Golgi apparatus generates ATP, lysosomes contain catalase, peroxisomes mediate intracellular digestion, and microfilaments form the mitotic spindle",
+      "Rough endoplasmic reticulum synthesizes proteins, Golgi apparatus processes and packages proteins, lysosomes contain acid hydrolases, peroxisomes contain oxidases and catalase, and microtubules participate in vesicular transport and spindle formation",
+      "Smooth endoplasmic reticulum synthesizes ribosomal proteins, Golgi apparatus digests bacteria, lysosomes produce hydrogen peroxide, peroxisomes contain ribosomes, and intermediate filaments are responsible for amoeboid movement",
+      "Rough endoplasmic reticulum synthesizes cholesterol, Golgi apparatus contains its own DNA, lysosomes are alkaline vesicles, peroxisomes mainly synthesize ATP, and cholesterol decreases membrane fluidity by making all membranes rigid"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Rough endoplasmic reticulum synthesizes proteins, Golgi apparatus processes and packages proteins, lysosomes contain acid hydrolases, peroxisomes contain oxidases and catalase, and microtubules participate in vesicular transport and spindle formation"
+  },
+  {
+    id: 28,
+    image: "",
+    question: "A 62-year-old man develops multiple tense blisters over the trunk and flexor surfaces. Oral mucosa is spared, and Nikolsky sign is negative. Direct immunofluorescence shows linear deposition of immunoglobulin G along the dermoepidermal junction. Inflammatory cells subsequently remove antibody-coated tissue fragments by engulfing them into vesicles, followed by fusion with lysosomes for degradation. Which of the following combinations is most accurate?",
+    options: [
+      "Bullous pemphigoid due to antibodies against hemidesmosomes; phagocytosis is the uptake of large particles by macrophages and other white blood cells",
+      "Pemphigus vulgaris due to antibodies against hemidesmosomes; pinocytosis is the uptake of large particles by macrophages at the highest rate in all cells",
+      "Bullous pemphigoid due to antibodies against desmosomes; receptor-mediated endocytosis does not require adenosine triphosphate or calcium",
+      "Pemphigus vulgaris due to antibodies against desmoglein; exocytosis is always independent of cytoplasmic calcium and is the main mechanism for bacterial uptake"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Bullous pemphigoid due to antibodies against hemidesmosomes; phagocytosis is the uptake of large particles by macrophages and other white blood cells"
+  },
+  {
+    id: 29,
+    image: "",
+    question: "A child has recurrent respiratory infections due to defective ciliary movement. Electron microscopy shows abnormal motile cilia. Which of the following proteins is most directly responsible for the sliding movement of microtubules in cilia and also functions as a motor protein moving cargo toward the minus end of microtubules inside cells?",
+    options: [
+      "Kinesin",
+      "Dynein",
+      "Myosin",
+      "Claudin"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Dynein"
+  },
+  {
+    id: 30,
+    image: "",
+    question: "A researcher compares two ways by which glucose can cross a cell membrane. In one pathway, transport increases linearly with concentration difference and does not require a carrier. In the other, transport uses a membrane carrier and shows saturation at high substrate concentration. Which of the following is correct?",
+    options: [
+      "Both are simple diffusion and neither can saturate",
+      "Carrier-mediated transport is facilitated diffusion and can show transport maximum",
+      "Simple diffusion requires adenosine triphosphate and is unidirectional",
+      "Facilitated diffusion occurs only through lipid bilayer without proteins"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Carrier-mediated transport is facilitated diffusion and can show transport maximum"
+  },
+  {
+    id: 31,
+    image: "",
+    question: "A physiologist studies membrane transport in a resting cell. She notes that the rate of simple diffusion increases with concentration gradient and membrane surface area, decreases with membrane thickness, and that the cell maintains low intracellular sodium and high intracellular potassium using a primary active transporter inhibited by digoxin. Which of the following transporters is most likely being described?",
+    options: [
+      "Calcium adenosine triphosphatase of sarcoplasmic reticulum",
+      "Sodium-potassium adenosine triphosphatase",
+      "Cystic fibrosis transmembrane conductance regulator",
+      "Mitochondrial adenosine triphosphate synthase"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Sodium-potassium adenosine triphosphatase"
+  },
+  {
+    id: 32,
+    image: "",
+    question: "A 30-year-old man develops acute blood loss after trauma. Within minutes, his body attempts to conserve water by increasing secretion of a hormone synthesized mainly in the supraoptic and paraventricular nuclei of the hypothalamus and released from the posterior pituitary. Which of the following is the most important immediate stimulus for this hormone release in this setting?",
+    options: [
+      "Decreased plasma osmolarity",
+      "Increased blood volume",
+      "Decreased blood pressure",
+      "Increased atrial stretch"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Decreased blood pressure"
+  },
+  {
+    id: 33,
+    image: "",
+    question: "A healthy person drinks a large amount of water in a short time. Which of the following changes is most likely to occur as an early response?",
+    options: [
+      "Increased antidiuretic hormone secretion and increased thirst",
+      "Decreased antidiuretic hormone secretion and increased urine output",
+      "Increased renin release and increased aldosterone secretion",
+      "Increased plasma osmolarity and concentrated urine"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Decreased antidiuretic hormone secretion and increased urine output"
+  },
+  {
+    id: 34,
+    image: "",
+    question: "A patient with severe watery diarrhea loses large amounts of fluid from the extracellular fluid (ECF) compartment. The lost fluid is approximately isotonic to plasma. Which of the following is the most likely change in body fluid compartments?",
+    options: [
+      "Decreased ECF volume with no change in osmolarity and no major shift of water into or out of cells",
+      "Increased ECF osmolarity with movement of water from intracellular fluid (ICF) to ECF",
+      "Decreased ECF osmolarity with movement of water from ECF to ICF",
+      "Increased ICF volume with decreased ECF volume due to addition of pure water"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Decreased ECF volume with no change in osmolarity and no major shift of water into or out of cells"
+  },
+  {
+    id: 35,
+    image: "",
+    question: "A beaker contains 100 millimoles per liter of sodium chloride and another contains 100 millimoles per liter of urea. Which of the following is correct regarding their osmolarity?",
+    options: [
+      "Both have the same osmolarity because both are 100 millimoles per liter",
+      "Sodium chloride has osmolarity about 200 milliosmoles per liter, while urea has osmolarity about 100 milliosmoles per liter",
+      "Urea has osmolarity about 200 milliosmoles per liter, while sodium chloride has osmolarity about 100 milliosmoles per liter",
+      "Neither contributes to osmolarity because only proteins act as osmoles"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Sodium chloride has osmolarity about 200 milliosmoles per liter, while urea has osmolarity about 100 milliosmoles per liter"
+  },
+  {
+    id: 36,
+    image: "",
+    question: "A man is exposed to a hot environment. His hypothalamus responds by activating mechanisms that increase heat loss. Which of the following hypothalamic areas is most directly responsible for sensing warmth and promoting sweating and cutaneous vasodilation?",
+    options: [
+      "Posterior hypothalamic nucleus",
+      "Anterior preoptic area of hypothalamus",
+      "Mammillary body",
+      "Lateral hypothalamic area"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Anterior preoptic area of hypothalamus"
+  },
+  {
+    id: 37,
+    image: "",
+    question: "A person who has recently moved to a hot climate becomes acclimatized after several days. Which of the following changes is most likely to be seen in this person compared with an unacclimatized individual?",
+    options: [
+      "Decreased sweating and increased salt concentration in sweat",
+      "Increased sweating and decreased sodium chloride loss in sweat",
+      "Increased shivering and peripheral vasoconstriction",
+      "Decreased aldosterone secretion with more concentrated sweat"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Increased sweating and decreased sodium chloride loss in sweat"
+  },
+  {
+    id: 38,
+    image: "",
+    question: "A patient with uncontrolled diabetes mellitus develops hyperkalemia even though total body potassium is not increased. Which of the following is the most likely immediate mechanism for the rise in extracellular potassium concentration?",
+    options: [
+      "Insulin deficiency causes potassium to shift out of cells",
+      "Aldosterone excess causes potassium to shift out of cells",
+      "Beta-adrenergic stimulation causes potassium to shift out of cells",
+      "Alkalosis causes potassium to shift out of cells"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Insulin deficiency causes potassium to shift out of cells"
+  },
+  {
+    id: 39,
+    image: "",
+    question: "In day-to-day potassium homeostasis, the final regulation of potassium excretion occurs mainly in the distal nephron. Which of the following renal cells is primarily responsible for potassium secretion under the influence of aldosterone?",
+    options: [
+      "Principal cells",
+      "Type A intercalated cells",
+      "Podocytes",
+      "Proximal convoluted tubular cells"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Principal cells"
+  },
+  {
+    id: 40,
+    image: "",
+    question: "A 24-year-old woman is evaluated during the follicular phase of the menstrual cycle. A diagram of ovarian steroidogenesis shows that one ovarian cell type responds mainly to luteinizing hormone (LH) and produces androgens, while another responds mainly to follicle-stimulating hormone (FSH) and converts these androgens into estradiol by the enzyme aromatase. Which of the following is the correct pairing?",
+    options: [
+      "Granulosa cells produce androgens under luteinizing hormone; theca cells convert them to estradiol under follicle-stimulating hormone",
+      "Theca interna cells produce androgens under luteinizing hormone; granulosa cells convert them to estradiol under follicle-stimulating hormone",
+      "Corpus luteum produces androgens under follicle-stimulating hormone; granulosa cells convert them to progesterone under luteinizing hormone",
+      "Theca externa cells produce estradiol directly under prolactin; granulosa cells convert it to estrone under oxytocin"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Theca interna cells produce androgens under luteinizing hormone; granulosa cells convert them to estradiol under follicle-stimulating hormone"
+  },
+  {
+    id: 41,
+    image: "",
+    question: "A 29-year-old woman in the luteal phase has a slight rise in basal body temperature. The dominant ovarian hormone at this time also reduces myometrial sensitivity to oxytocin and supports lobuloalveolar development of the breast. Which of the following hormones is most likely responsible?",
+    options: [
+      "Estradiol",
+      "Progesterone",
+      "Prolactin",
+      "Relaxin"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Progesterone"
+  },
+  {
+    id: 42,
+    image: "",
+    question: "A 16-year-old boy is evaluated for delayed puberty. Testicular biopsy shows preserved spermatogonia but failure of progression beyond the spermatocyte stage. Serum androgen level is low-normal, and Sertoli cell function is relatively preserved. Which of the following hormones is most directly required for progression of spermatogenesis beyond this stage?",
+    options: [
+      "Follicle-stimulating hormone",
+      "Luteinizing hormone",
+      "Prolactin",
+      "Oxytocin"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Luteinizing hormone"
+  },
+  {
+    id: 43,
+    image: "",
+    question: "A man with infertility evaluation has normal testicular volume but low sperm motility. Semen analysis reveals normal sperm count and normal fructose content. Which of the following events normally occurs in the female reproductive tract and enables sperm to fertilize the ovum?",
+    options: [
+      "Capacitation",
+      "Spermiation",
+      "Conversion of testosterone to dihydrotestosterone",
+      "Secretion of androgen-binding protein"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Capacitation"
+  },
+  {
+    id: 44,
+    image: "",
+    question: "A 45-year-old woman with hypocalcemia is found to have elevated parathyroid hormone (PTH) levels. Which of the following is the most likely immediate renal action of parathyroid hormone?",
+    options: [
+      "Increased phosphate reabsorption in the proximal convoluted tubule",
+      "Decreased calcium reabsorption in the distal nephron",
+      "Decreased phosphate reabsorption in the proximal convoluted tubule",
+      "Decreased formation of active vitamin D3 in the kidney"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Decreased phosphate reabsorption in the proximal convoluted tubule"
+  },
+  {
+    id: 45,
+    image: "",
+    question: "A healthy person is exposed to sunlight, and vitamin D metabolism proceeds normally. Which of the following correctly describes the pathway and major action of active vitamin D3?",
+    options: [
+      "Skin converts 7-dehydrocholesterol to cholecalciferol, liver forms 25-hydroxycholecalciferol, kidney forms 1,25-dihydroxycholecalciferol, which increases intestinal calcium and phosphate absorption",
+      "Skin converts cholesterol directly to calcitriol, which decreases intestinal calcium absorption and increases renal calcium loss",
+      "Liver converts 7-dehydrocholesterol to cholecalciferol, kidney converts it to calcitonin, which promotes phosphate excretion",
+      "Kidney forms 25-hydroxycholecalciferol first, and liver converts it into inactive vitamin D, which mainly lowers serum calcium"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Skin converts 7-dehydrocholesterol to cholecalciferol, liver forms 25-hydroxycholecalciferol, kidney forms 1,25-dihydroxycholecalciferol, which increases intestinal calcium and phosphate absorption"
+  },
+  {
+    id: 46,
+    image: "",
+    question: "A 22-year-old healthy student has just eaten a carbohydrate-rich meal. A pancreatic hormone is released from cells that contain zinc-rich granules and acts through a receptor tyrosine kinase to promote glycogen synthesis, glycolysis, lipogenesis, and potassium entry into cells. Which of the following best identifies this hormone and its receptor mechanism?",
+    options: [
+      "Glucagon acting through Gs protein-coupled receptor",
+      "Insulin acting through receptor tyrosine kinase",
+      "Somatostatin acting through Gi protein-coupled receptor",
+      "Cortisol acting through intracellular nuclear receptor"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Insulin acting through receptor tyrosine kinase"
+  },
+  {
+    id: 47,
+    image: "",
+    question: "A fasting patient develops hypoglycemia. A pancreatic hormone is released that acts mainly on the liver to increase blood glucose by stimulating glycogen breakdown, gluconeogenesis, and lipolysis. Which of the following hormones is most likely responsible?",
+    options: [
+      "Insulin",
+      "Glucagon",
+      "Somatostatin",
+      "C-peptide"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Glucagon"
+  },
+  {
+    id: 48,
+    image: "",
+    question: "A 32-year-old man with primary hyperaldosteronism has hypertension and hypokalemia. Which of the following adrenal cortical zones is the source of the excess hormone?",
+    options: [
+      "Zona glomerulosa",
+      "Zona fasciculata",
+      "Zona reticularis",
+      "Adrenal medulla"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Zona glomerulosa"
+  },
+  {
+    id: 49,
+    image: "",
+    question: "A healthy adult has a hormone that reaches its highest plasma concentration in the early morning and lowest concentration around midnight. This hormone also increases blood glucose by stimulating gluconeogenesis and antagonizing insulin action in peripheral tissues. Which hormone is being described?",
+    options: [
+      "Aldosterone",
+      "Cortisol",
+      "Dehydroepiandrosterone",
+      "Epinephrine"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Cortisol"
+  },
+  {
+    id: 50,
+    image: "",
+    question: "A physiologist wants to calculate intracellular fluid volume in a normal adult by using two indicator dilution methods and then deriving the value indirectly. Which pair of indicators is most appropriate?",
+    options: [
+      "Heavy water and inulin",
+      "Inulin and radioiodinated albumin",
+      "Sodium-22 and inulin",
+      "Radioiodinated albumin and Evans blue"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Heavy water and inulin"
+  },
+  {
+    id: 51,
+    image: "",
+    question: "Which of the following best describes the function of the renal outer medullary potassium channel (ROMK) in renal tubular physiology?",
+    options: [
+      "It secretes potassium through a selective potassium channel",
+      "It cotransports sodium and potassium together across the apical membrane",
+      "It exchanges sodium for potassium across the basolateral membrane",
+      "It acts as a water channel regulated by antidiuretic hormone"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "It secretes potassium through a selective potassium channel"
+  },
+  {
+    id: 52,
+    image: "",
+    question: "A 28-year-old woman with Graves disease is started on a drug that inhibits thyroid peroxidase and thereby blocks iodide oxidation and organification within the thyroid follicular cell-colloid interface. Which of the following drugs acts by this mechanism?",
+    options: [
+      "Propranolol",
+      "Carbimazole",
+      "Levothyroxine",
+      "Potassium iodide in physiologic dose"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Carbimazole"
+  },
+  {
+    id: 53,
+    image: "",
+    question: "A healthy adult is exposed to prolonged cold. Which of the following endocrine responses is most likely to occur to help increase heat production?",
+    options: [
+      "Decreased thyrotropin-releasing hormone secretion",
+      "Increased thyrotropin-releasing hormone secretion",
+      "Decreased conversion of thyroxine to triiodothyronine in peripheral tissues",
+      "Increased thyroxine-binding globulin causing rise in free thyroxine"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Increased thyrotropin-releasing hormone secretion"
+  },
+  {
+    id: 54,
+    image: "",
+    question: "A child with growth failure is found to have isolated deficiency of a pituitary hormone that normally increases amino acid uptake, promotes protein synthesis, mobilizes fat for energy use, decreases glucose utilization, and stimulates the liver to produce insulin-like growth factor 1. Which of the following hormones is most likely deficient?",
+    options: [
+      "Adrenocorticotropic hormone",
+      "Growth hormone",
+      "Oxytocin",
+      "Vasopressin"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Growth hormone"
+  },
+  {
+    id: 55,
+    image: "",
+    question: "A patient with dehydration has increased plasma osmolarity. Which of the following posterior pituitary hormone-receptor combinations is most responsible for increasing water reabsorption in the kidney?",
+    options: [
+      "Oxytocin acting on Gq-coupled receptors in uterine smooth muscle",
+      "Vasopressin acting on V2 receptors to increase cyclic adenosine monophosphate and aquaporin-2 insertion",
+      "Vasopressin acting on V1 receptors to increase aquaporin-2 insertion in collecting ducts",
+      "Oxytocin acting on V2 receptors in the renal medulla"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Vasopressin acting on V2 receptors to increase cyclic adenosine monophosphate and aquaporin-2 insertion"
+  },
+  {
+    id: 56,
+    image: "",
+    question: "A healthy person is dehydrated after prolonged water deprivation. Which of the following renal mechanisms is most important for generating the hyperosmotic renal medulla required for concentrated urine formation?",
+    options: [
+      "Active sodium chloride reabsorption in the thick ascending limb of loop of Henle",
+      "Active water reabsorption in the thick ascending limb of loop of Henle",
+      "Secretion of urea into the proximal convoluted tubule",
+      "Passive sodium reabsorption in the descending limb of loop of Henle"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Active sodium chloride reabsorption in the thick ascending limb of loop of Henle"
+  },
+  {
+    id: 57,
+    image: "",
+    question: "A healthy person is quietly resting and then suddenly starts running. Which of the following brainstem regions is the primary rhythm generator for normal quiet inspiration?",
+    options: [
+      "Pneumotaxic center in the upper pons",
+      "Apneustic center in the lower pons",
+      "Dorsal respiratory group in the medulla",
+      "Peripheral chemoreceptors in the carotid body"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Dorsal respiratory group in the medulla"
+  },
+  {
+    id: 58,
+    image: "",
+    question: "A patient with chronic obstructive pulmonary disease develops a marked fall in arterial partial pressure of oxygen. Which of the following receptors is most strongly stimulated to increase ventilation in this situation?",
+    options: [
+      "Central chemoreceptors responding to cerebrospinal fluid hydrogen ion only",
+      "Peripheral chemoreceptors in the carotid body",
+      "Pulmonary stretch receptors in bronchi",
+      "Juxtacapillary receptors in alveolar walls"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Peripheral chemoreceptors in the carotid body"
+  },
+  {
+    id: 59,
+    image: "",
+    question: "A healthy person is exercising vigorously. In the active skeletal muscles, increased carbon dioxide, increased hydrogen ion concentration, increased temperature, and increased 2,3-bisphosphoglycerate shift the oxyhemoglobin dissociation curve to the right. What is the main effect of this shift?",
+    options: [
+      "Increased affinity of hemoglobin for oxygen, reducing oxygen unloading",
+      "Decreased affinity of hemoglobin for oxygen, promoting oxygen unloading",
+      "Increased oxygen binding only in the lungs with no tissue effect",
+      "Conversion of most oxygen transport from hemoglobin-bound form to dissolved form"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Decreased affinity of hemoglobin for oxygen, promoting oxygen unloading"
+  },
+  {
+    id: 60,
+    image: "",
+    question: "Most carbon dioxide produced by tissues is transported in venous blood in which of the following forms?",
+    options: [
+      "Dissolved carbon dioxide in plasma",
+      "Carbaminohemoglobin",
+      "Bicarbonate ion",
+      "Carbon monoxide bound to hemoglobin"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Bicarbonate ion"
+  },
+  {
+    id: 61,
+    image: "",
+    question: "A healthy person breathes room air at sea level. After humidification in the airways and mixing with residual alveolar gas, the partial pressure of oxygen in the alveoli becomes much lower than that in dry atmospheric air. Which of the following is the most likely normal alveolar partial pressure of oxygen?",
+    options: [
+      "40 millimeters of mercury",
+      "60 millimeters of mercury",
+      "104 millimeters of mercury",
+      "159 millimeters of mercury"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "104 millimeters of mercury"
+  },
+  {
+    id: 62,
+    image: "",
+    question: "A patient with pulmonary fibrosis develops thickening of the alveolar-capillary membrane. Which of the following changes would most directly reduce the rate of diffusion of oxygen across the respiratory membrane according to Fick’s law?",
+    options: [
+      "Increased surface area of alveoli",
+      "Increased pressure gradient for oxygen",
+      "Decreased membrane thickness",
+      "Increased membrane thickness"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Increased membrane thickness"
   },
   {
     id: 63,
