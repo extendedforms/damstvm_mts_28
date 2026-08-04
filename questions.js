@@ -1,2346 +1,2344 @@
-// Format: { id, image, question, options[], answerIndex, correctAnswerText }
+// Format: { id, image?, question, options[], answerIndex, correctAnswerText }
 
 window.questions = [
   {
     id: 1,
-    image: "images/IMG_1142.jpeg",
-    question: "A histology student is shown an image in which one cell releases signaling molecules that diffuse across a short distance through the extracellular space and act on a nearby target cell. There is no transport through blood, no direct cell-to-cell junction, and the signaling cell is not acting on itself. Which type of cell signaling is best represented?",
+    image: "",
+    question: "A 50-year-old diabetic male with gastroparesis is prescribed a first-line prokinetic agent. Days later, he presents with resting tremors and rigidity. This drug primarily acts via which of the following mechanisms?",
     options: [
-      "Endocrine signaling",
-      "Paracrine signaling",
-      "Autocrine signaling",
-      "Merocrine secretion"
+      "Dopamine receptor antagonism",
+      "Serotonin (5HT4) receptor antagonism",
+      "Serotonin (5HT3) receptor agonism",
+      "Muscarinic receptor blockade"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Paracrine signaling"
+    answerIndex: 0,
+    correctAnswerText: "Dopamine receptor antagonism"
   },
   {
     id: 2,
-    image: "images/IMG_1143.jpeg",
-    question: "A 32-year-old man undergoes urodynamic evaluation. The image shows a cystometrogram plotting intravesical pressure against intravesical volume. The tracing has an initial small rise in pressure, followed by a long plateau as bladder volume increases, and then a sudden steep rise in pressure near a volume of about 400 milliliters, indicating the onset of the micturition reflex. Which of the following best explains the near-constant pressure during the long plateau segment of the graph?",
+    image: "",
+    question: "A 55-year-old male with chronic kidney disease (CKD) is evaluated for fatigue. Investigations reveal severe anemia, and he is started on a once-weekly injection of Darbepoetin alfa. Which of the following is a potential serious adverse effect that requires close monitoring in this patient?",
     options: [
-      "Continuous relaxation of the internal urethral sphincter causing urine leakage",
-      "High bladder compliance due to stress-relaxation and receptive relaxation of the detrusor muscle",
-      "Absence of parasympathetic innervation to the urinary bladder during filling",
-      "Persistent contraction of the detrusor muscle preventing pressure rise"
+      "Severe hypotension",
+      "Hypertensive episodes",
+      "Decreased blood viscosity",
+      "Diffuse hemorrhage"
     ],
     answerIndex: 1,
-    correctAnswerText: "High bladder compliance due to stress-relaxation and receptive relaxation of the detrusor muscle"
+    correctAnswerText: "Hypertensive episodes"
   },
   {
     id: 3,
-    image: "images/IMG_1144.jpeg",
-    question: "A physiology student is shown a graph of percent filtered load remaining along different segments of the nephron from Bowman’s space to urine. In the graph, line C remains constant at 100%, line D rises above 100%, line A falls rapidly to nearly zero within the proximal tubule, and line B decreases substantially but not to zero. Which of the following is the most accurate interpretation?",
+    image: "",
+    question: "A patient admitted to the ICU with a life-threatening arrhythmia is prescribed a drug with a very long elimination half-life. To promptly achieve the target therapeutic plasma concentration, the physician administers a loading dose. Which of the following pharmacokinetic parameters primarily determines this initial dose?",
     options: [
-      "Line C represents a substance that is filtered and neither reabsorbed nor secreted, such as inulin",
-      "Line D represents a substance that is completely reabsorbed in the proximal tubule, such as glucose",
-      "Line A represents a substance that is secreted into the tubule, such as para-aminohippuric acid",
-      "Line B represents a substance that is neither filtered nor secreted"
+      "Rate of clearance",
+      "Elimination half-life",
+      "Volume of distribution",
+      "Oral bioavailability"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Line C represents a substance that is filtered and neither reabsorbed nor secreted, such as inulin"
+    answerIndex: 2,
+    correctAnswerText: "Volume of distribution"
   },
   {
     id: 4,
-    image: "images/IMG_1145.jpeg",
-    question: "A cell physiology diagram shows solute particles moving across the plasma membrane through specific carrier proteins from an area of higher concentration in the extracellular space to an area of lower concentration in the intracellular space. No hydrolysis of adenosine triphosphate is shown, and movement occurs down the concentration gradient. Which of the following substances is most classically transported by the mechanism depicted in the image?",
+    image: "images/IMG_8854.jpeg",
+    question: "A 35-year-old HIV patient on a nevirapine-based antiretroviral regimen is diagnosed with pulmonary tuberculosis. His XRay is given below. Which of the following is the preferred drug to substitute in the anti-TB regimen to minimize the risk of ART failure?",
     options: [
-      "Sodium ion by sodium-potassium adenosine triphosphatase",
-      "Glucose into skeletal muscle via glucose transporter type 4",
-      "Calcium ion out of the cell by calcium adenosine triphosphatase",
-      "Hydrogen ion secretion in renal tubules by primary proton pump"
+      "Rifampicin",
+      "Rifapentine",
+      "Rifaximin",
+      "Rifabutin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Glucose into skeletal muscle via glucose transporter type 4"
+    answerIndex: 3,
+    correctAnswerText: "Rifabutin"
   },
   {
     id: 5,
-    image: "images/IMG_1146.jpeg",
-    question: "A 26-year-old man develops fever due to infection. The image shows that the hypothalamic temperature set-point suddenly rises, after which actual body temperature is initially below the new set-point and then gradually increases. Later, when the set-point returns to normal, body temperature is temporarily higher than the set-point and then falls. During the phase immediately after the set-point is raised, which of the following responses is most likely to occur?",
+    image: "",
+    question: "A 32-year-old female with Irritable Bowel Syndrome presents with chronic, distressing diarrhea. Which of the following drugs acts via 5-HT3 receptor antagonism to specifically treat her condition?",
     options: [
-      "Sweating and cutaneous vasodilation",
-      "Shivering and cutaneous vasoconstriction",
-      "Increased heat loss through radiation and convection",
-      "Suppression of sympathetic activity to skin blood vessels"
+      "Alosetron",
+      "Lubiprostone",
+      "Linaclotide",
+      "Tegaserod"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Shivering and cutaneous vasoconstriction"
+    answerIndex: 0,
+    correctAnswerText: "Alosetron"
   },
   {
     id: 6,
-    image: "images/IMG_1147.jpeg",
-    question: "A 58-year-old man suddenly develops pleuritic chest pain and breathlessness. Imaging later confirms an acute embolic obstruction of blood flow to a part of the lung. In the given ventilation-perfusion graph, which labeled point best represents pulmonary embolism?",
+    image: "images/IMG_8856.jpeg",
+    question: "A patient is rushed to the emergency department with a severe traumatic brain injury following a road traffic accident and the CT Image is given below. His intracranial pressure is significantly elevated. Which of the following is the immediate diuretic of choice to reduce his brain edema?",
     options: [
-      "A",
-      "B",
-      "C",
-      "E"
+      "Furosemide",
+      "Mannitol",
+      "Acetazolamide",
+      "Spironolactone"
     ],
-    answerIndex: 3,
-    correctAnswerText: "E"
+    answerIndex: 1,
+    correctAnswerText: "Mannitol"
   },
   {
     id: 7,
-    image: "images/IMG_1148.jpeg",
-    question: "A spirometry tracing shows normal tidal oscillations around the end-expiratory level. In the image, Which of the following best identifies the marked region?",
+    image: "images/IMG_8857.jpeg",
+    question: "A 30-year-old male with a known history of bronchial asthma presents with sudden palpitations. ECG reveals regular, narrow QRS complexes at 160 bpm with absent P waves. Vagal maneuvers are attempted but fail to restore normal sinus rhythm. Which of the following is the preferred intravenous drug to terminate this arrhythmia?",
     options: [
-      "Residual volume",
-      "Functional residual capacity",
-      "Inspiratory capacity",
-      "Vital capacity"
+      "Adenosine",
+      "Amiodarone",
+      "Verapamil",
+      "Lignocaine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Functional residual capacity"
+    answerIndex: 2,
+    correctAnswerText: "Verapamil"
   },
   {
     id: 8,
-    image: "images/IMG_1149.jpeg",
-    question: "A 24-year-old man is studying the ventricular myocardial action potential. In the given graph, the red horizontal segment represents the plateau phase. Which of the following best explains the physiological importance of this phase?",
+    image: "",
+    question: "A 55-year-old hypertensive male complains of severe dry mouth and sedation while on his current medication. He abruptly stops taking his pills. Two days later, he presents to the emergency department with severe restlessness, sweating, and a dangerous rebound rise in blood pressure. The drug he was previously taking acts primarily via which of the following mechanisms?",
     options: [
-      "It allows rapid repetitive firing by shortening the refractory period",
-      "It prolongs the refractory period, preventing tetanization of cardiac muscle",
-      "It is caused mainly by opening of fast sodium channels throughout the phase",
-      "It occurs due to activation of sodium-potassium adenosine triphosphatase alone"
+      "Alpha-1 receptor antagonism",
+      "Beta-1 receptor antagonism",
+      "Presynaptic alpha-2 receptor antagonism",
+      "Presynaptic alpha-2 receptor agonism"
     ],
-    answerIndex: 1,
-    correctAnswerText: "It prolongs the refractory period, preventing tetanization of cardiac muscle"
+    answerIndex: 3,
+    correctAnswerText: "Presynaptic alpha-2 receptor agonism"
   },
   {
     id: 9,
-    image: "images/IMG_1150.jpeg",
-    question: "A healthy 16-year-old boy is asked to take slow deep breaths during pulse recording. The tracing shows cyclical increase in heart rate during inspiration and decrease in heart rate during expiration, with preservation of sinus origin of each beat. Which of the following best explains this physiological phenomenon?",
+    image: "images/IMG_8858.jpeg",
+    question: "A 65-year-old male on chronic antiarrhythmic therapy for atrial fibrillation presents with progressive dyspnea and a dry cough. Chest imaging reveals bilateral interstitial changes indicative of rapidly progressive pulmonary fibrosis. Which of the following drugs is most likely responsible for this fatal complication?",
     options: [
-      "Premature atrial depolarizations arising from an ectopic atrial focus",
-      "Respiratory modulation of vagal tone causing phasic variation in sinoatrial node firing",
-      "Persistent sympathetic overactivity producing sustained sinus tachycardia",
-      "Depressed sinoatrial node automaticity causing sinus bradycardia"
+      "Amiodarone",
+      "Sotalol",
+      "Flecainide",
+      "Verapamil"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Respiratory modulation of vagal tone causing phasic variation in sinoatrial node firing"
+    answerIndex: 0,
+    correctAnswerText: "Amiodarone"
   },
   {
     id: 10,
-    image: "images/IMG_1151.jpeg",
-    question: "A 40-year-old man undergoes a routine electrocardiographic examination. On the rhythm strip, the interval between two consecutive normal R waves is approximately 4 large squares. What is the most likely heart rate?",
+    image: "",
+    question: "A 45-year-old male with a hematological malignancy is scheduled to undergo chemotherapy. To prevent hyperuricemia, a purine antimetabolite is added to his regimen. While the parent drug is a competitive inhibitor of its target enzyme, its active metabolite acts via which of the following mechanisms?",
     options: [
-      "50 beats per minute",
-      "75 beats per minute",
-      "100 beats per minute",
-      "150 beats per minute"
+      "Competitive inhibition of xanthine oxidase",
+      "Non-competitive inhibition of xanthine oxidase",
+      "Irreversible inhibition of cyclooxygenase",
+      "Increased renal excretion of uric acid"
     ],
     answerIndex: 1,
-    correctAnswerText: "75 beats per minute"
+    correctAnswerText: "Non-competitive inhibition of xanthine oxidase"
   },
   {
     id: 11,
-    image: "images/IMG_1152.jpeg",
-    question: "A physiology student is shown an image of fluid flowing through a tube that narrows in the middle. The vertical side tubes indicate that the fluid column height is lowest at the narrowest segment, showing a fall in lateral pressure where flow velocity is greatest. Which of the following clinical situations is best explained by the same principle demonstrated in the image?",
+    image: "",
+    question: "A palliative care patient is prescribed oral Morphine (an alkaline drug) for severe pain management. To efficiently cross cellular membranes and enter the systemic circulation, the drug must remain predominantly in a non-ionized state. This specific optimal condition for its absorption primarily occurs in which of the following gastrointestinal environments?",
     options: [
-      "Airway collapse caused by increased intraluminal pressure in a narrowed airway",
-      "Suction effect that contributes to collapse of a partially narrowed airway during rapid airflow",
-      "Increase in blood pressure across a stenosis because flow velocity decreases",
-      "Reduced flow velocity through a narrow segment due to conservation of pressure alone"
+      "Acidic medium of the stomach",
+      "Neutral medium of the esophagus",
+      "Basic medium of the small intestine",
+      "Acidic medium of the large intestine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Suction effect that contributes to collapse of a partially narrowed airway during rapid airflow"
+    answerIndex: 2,
+    correctAnswerText: "Basic medium of the small intestine"
   },
   {
     id: 12,
-    image: "images/IMG_1153.jpeg",
-    question: "A 24-year-old man with type 1 diabetes mellitus is brought to the emergency department with vomiting, abdominal pain, dehydration, and altered sensorium. On examination, he has deep, labored, rapid breathing as shown in the image. Arterial blood gas analysis reveals metabolic acidosis. Which of the following is the most likely explanation for this breathing pattern?",
+    image: "",
+    question: "A heart failure patient stabilized on digoxin is treated for a new arrhythmia. He shortly develops nausea, vomiting, and visual halos indicative of digoxin toxicity. The newly added drug caused this by inhibiting the MDR-1 efflux pump, directly interfering with digoxin's renal excretion. Which of the following drugs was most likely added?",
     options: [
-      "It is a form of periodic breathing seen in congestive heart failure due to delayed respiratory center response",
-      "It is compensatory hyperventilation classically seen in metabolic acidosis, especially diabetic ketoacidosis",
-      "It is an ataxic breathing pattern caused by medullary respiratory center damage",
-      "It is apneustic breathing due to pontine lesion causing prolonged inspiratory spasm"
+      "Rifampicin",
+      "Phenytoin",
+      "Carbamazepine",
+      "Quinidine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "It is compensatory hyperventilation classically seen in metabolic acidosis, especially diabetic ketoacidosis"
+    answerIndex: 3,
+    correctAnswerText: "Quinidine"
   },
   {
     id: 13,
-    image: "images/IMG_1154.jpeg",
-    question: "A 58-year-old man is brought to the emergency department after severe head trauma. He is drowsy, has irregular episodes of breathing, and develops intermittent pauses in respiration. The breathing pattern is as shown in the image. Which of the following is the most likely diagnosis?",
+    image: "",
+    question: "A 45-year-old male presents to the emergency room with severe visual disturbances and high anion gap metabolic acidosis after consuming adulterated illicit liquor (methyl alcohol). To halt the progression of toxicity, the physician administers a specific orphan drug. Which of the following agents acts by directly inhibiting the enzyme alcohol dehydrogenase?",
     options: [
-      "Kussmaul breathing due to metabolic acidosis",
-      "Cheyne–Stokes respiration due to congestive heart failure",
-      "Biot’s respiration due to medullary dysfunction",
-      "Apneustic breathing due to pontine lesion causing prolonged inspiratory spasm"
+      "Fomepizole",
+      "Protamine sulfate",
+      "Digibind",
+      "Liothyronine"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Biot’s respiration due to medullary dysfunction"
+    answerIndex: 0,
+    correctAnswerText: "Fomepizole"
   },
   {
     id: 14,
-    image: "images/IMG_1155.jpeg",
-    question: "A 14-year-old boy with type 1 diabetes mellitus is brought to the outpatient department because of repeated early morning hyperglycemia despite adherence to insulin therapy. His overnight blood glucose measured at 3 am is normal. A teaching chart shown to him demonstrates a hormone secreted in pulsatile bursts, with a major rise during sleep and after strenuous exercise. Which of the following is the most likely explanation for his early morning hyperglycemia?",
+    image: "",
+    question: "A 70-year-old male is recovering from general anesthesia. The anesthetist decides to administer an agent that will block muscarinic receptors peripherally but strictly avoid causing central postoperative delirium, as the chosen drug cannot cross the blood-brain barrier. Which of the following agents was most likely administered?",
     options: [
-      "Excess bedtime insulin causing nocturnal hypoglycemia followed by rebound hyperglycemia",
-      "Early morning surge of growth hormone and cortisol causing dawn phenomenon",
-      "Continuous daytime hypersecretion of cortisol causing Cushing syndrome",
-      "Postprandial insulin excess causing reactive hypoglycemia before sunrise"
+      "Atropine",
+      "Glycopyrrolate",
+      "Physostigmine",
+      "Scopolamine"
     ],
     answerIndex: 1,
-    correctAnswerText: "Early morning surge of growth hormone and cortisol causing dawn phenomenon"
+    correctAnswerText: "Glycopyrrolate"
   },
   {
     id: 15,
-    image: "images/IMG_1156.jpeg",
-    question: "A 26-year-old healthy man rapidly receives an intravenous fluid bolus during a physiology demonstration. His venous return increases, and the instructor shows the pressure-volume loop in the image. Which of the following best explains the change shown in the loop?",
+    image: "images/IMG_8859.jpeg",
+    question: "A patient on long-term anti-arrhythmic therapy presents with a new-onset malar rash, sun sensitivity, and severe arthralgia. The drug most likely responsible for this adverse effect is primarily metabolized by which of the following phase II hepatic pathways?",
     options: [
-      "Decreased preload causing reduced end-diastolic volume and reduced stroke volume",
-      "Increased preload causing increased end-diastolic volume and increased stroke volume by Frank-Starling mechanism",
-      "Increased afterload causing increased end-systolic volume with reduced stroke volume",
-      "Increased contractility causing reduced end-systolic volume without change in end-diastolic volume"
+      "Glucuronidation",
+      "Hydrolysis",
+      "Acetylation",
+      "Methylation"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Increased preload causing increased end-diastolic volume and increased stroke volume by Frank-Starling mechanism"
+    answerIndex: 2,
+    correctAnswerText: "Acetylation"
   },
   {
     id: 16,
-    image: "images/IMG_1157.jpeg",
-    question: "A 20-year-old man is evaluated after sustaining a lateral medullary region injury. On neurological examination, he has impaired unconscious proprioceptive coordination of the lower limb. During an anatomy viva, he is shown the highlighted cerebellar peduncle in the image and is asked which ascending pathway enters the cerebellum through this structure. Which of the following is the correct answer?",
+    image: "",
+    question: "A cardiac patient on dual antiplatelet therapy (Aspirin and Clopidogrel) develops severe gastritis. To prevent interference with the hepatic activation of his antiplatelet therapy, which proton pump inhibitor is preferred due to its minimal drug interactions?",
     options: [
-      "Dorsal spinocerebellar tract",
-      "Cuneocerebellar tract",
-      "Anterior spinocerebellar tract",
-      "Pontocerebellar fibers"
+      "Omeprazole",
+      "Lansoprazole",
+      "Rabeprazole",
+      "Pantoprazole"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Anterior spinocerebellar tract"
+    answerIndex: 3,
+    correctAnswerText: "Pantoprazole"
   },
   {
     id: 17,
-    image: "images/IMG_1158.jpeg",
-    question: "A 22-year-old man is brought to the emergency department after strenuous exercise with severe muscle pain. During discussion of oxygen storage and delivery to muscle, he is shown the oxygen dissociation curves in the image. Which of the following best represents curve A?",
+    image: "",
+    question: "A 60-year-old male with acute renal failure and advanced liver cirrhosis requires intubation for mechanical ventilation. Which of the following neuromuscular blockers is the safest choice for this patient because its clearance is independent of organ function?",
     options: [
-      "Myoglobin",
-      "Carboxyhemoglobinemia",
-      "Methemoglobin",
-      "Fetal hemoglobin"
+      "Atracurium",
+      "Vecuronium",
+      "Rocuronium",
+      "Pancuronium"
     ],
     answerIndex: 0,
-    correctAnswerText: "Myoglobin"
+    correctAnswerText: "Atracurium"
   },
   {
     id: 18,
-    image: "images/IMG_1159.jpeg",
-    question: "A 24-year-old man is brought to the emergency department after a road traffic accident and requires urgent blood grouping before transfusion.His slide agglutination is given. Which of the following is the most likely blood group?",
+    image: "",
+    question: "A 12-year-old boy develops severe bronchospasm and profound hypotension following a bee sting. Intramuscular adrenaline is administered immediately to reverse the life-threatening effects of massive histamine release. This specific therapeutic interaction between adrenaline and histamine represents which of the following?",
     options: [
-      "A positive",
-      "B positive",
-      "O positive",
-      "AB positive"
+      "Chemical antagonism",
+      "Physiological antagonism",
+      "Competitive antagonism",
+      "Pharmacokinetic antagonism"
     ],
-    answerIndex: 2,
-    correctAnswerText: "O positive"
+    answerIndex: 1,
+    correctAnswerText: "Physiological antagonism"
   },
   {
     id: 19,
-    image: "images/IMG_1160.jpeg",
-    question: "A 27-year-old man steps on a sharp object with his right foot and immediately withdraws the limb. In the physiology laboratory, a myogram similar to the image is shown, demonstrating a prolonged contraction that continues briefly even after the stimulus is removed, followed later by decline due to fatigue. Which of the following best explains the persistence of contraction after cessation of the stimulus in this reflex?",
+    image: "",
+    question: "A 40-year-old female is prescribed Lithium for bipolar disorder. The physician orders routine blood tests for Therapeutic Drug Monitoring (TDM) because the drug has a narrow therapeutic index. This index, which is the primary pharmacological indicator of a drug's overall safety, is calculated using which of the following mathematical ratios?",
     options: [
-      "Monosynaptic activation of alpha motor neuron causing immediate sustained contraction",
-      "Reverberating interneuronal circuits producing after-discharge in a polysynaptic reflex",
-      "Muscle spindle activation causing a stretch reflex through group Ia afferent fibers",
-      "Golgi tendon organ inhibition producing inverse myotatic reflex"
+      "Effective Dose 50 (ED50) divided by Lethal Dose 50 (LD50)",
+      "Toxic Dose 50 (TD50) divided by Effective Dose 50 (ED50)",
+      "Lethal Dose 50 (LD50) divided by Effective Dose 50 (ED50)",
+      "Lethal Dose 50 (LD50) minus Effective Dose 50 (ED50)"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Reverberating interneuronal circuits producing after-discharge in a polysynaptic reflex"
+    answerIndex: 2,
+    correctAnswerText: "Lethal Dose 50 (LD50) divided by Effective Dose 50 (ED50)"
   },
   {
     id: 20,
-    image: "images/IMG_1161.jpeg",
-    question: "A 7-year-old girl is brought with early breast development, intermittent vaginal bleeding, and rapid increase in height. Examination shows an irregularly bordered hyperpigmented skin lesion over the body, as seen in the image. Genetic analysis reveals a gain-of-function mutation involving the stimulatory G protein alpha subunit. Which of the following is the most likely diagnosis?",
+    image: "images/IMG_8861.jpeg",
+    question: "A newborn presents with severe shortening of the upper and lower limbs, resembling flippers. History reveals the mother took an unprescribed antiemetic during the first trimester of pregnancy. The drug responsible for this classic \"seal limb\" deformity exerts its teratogenic effect primarily via which of the following mechanisms?",
     options: [
-      "Neurofibromatosis type 1",
-      "Congenital adrenal hyperplasia",
-      "McCune-Albright syndrome",
-      "Turner syndrome"
+      "Folate antagonism",
+      "Inhibition of topoisomerase II",
+      "Retinoic acid receptor activation",
+      "VGFR antagonism"
     ],
-    answerIndex: 2,
-    correctAnswerText: "McCune-Albright syndrome"
+    answerIndex: 3,
+    correctAnswerText: "VGFR antagonism"
   },
   {
     id: 21,
-    image: "images/IMG_1162.jpeg",
-    question: "A 61-year-old man with small cell lung carcinoma is brought with headache, nausea, confusion, and a recent episode of generalized seizure. He is euvolemic on examination. Laboratory testing shows low serum sodium, low plasma osmolarity, inappropriately concentrated urine, and high urine sodium. The fluid compartment change corresponding to the image is most likely which of the following?",
+    image: "images/IMG_8862.jpeg",
+    question: "A newborn presents with prominent nasal hypoplasia and stippled epiphyses (Conradi syndrome) on X-ray. The mother took a chronic oral medication for a mechanical heart valve throughout her first trimester. The responsible teratogenic drug acts via which of the following mechanisms?",
     options: [
-      "Iso-osmotic volume contraction with reduction only in extracellular fluid, as seen in diarrhea",
-      "Hyperosmotic volume contraction with reduction in both intracellular and extracellular fluid, as seen in water deprivation",
-      "Hypo-osmotic volume expansion with increase in both intracellular and extracellular fluid, as seen in syndrome of inappropriate antidiuretic hormone secretion",
-      "Hyperosmotic volume expansion with extracellular fluid expansion and intracellular fluid contraction, as seen after excessive sodium chloride intake"
+      "Vitamin K antagonism",
+      "Direct thrombin inhibition",
+      "Factor Xa inhibition",
+      "Activation of antithrombin III"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Hypo-osmotic volume expansion with increase in both intracellular and extracellular fluid, as seen in syndrome of inappropriate antidiuretic hormone secretion"
+    answerIndex: 0,
+    correctAnswerText: "Vitamin K antagonism"
   },
   {
     id: 22,
-    image: "images/IMG_1163.jpeg",
-    question: "A 55-year-old chronic smoker with progressive exertional dyspnea is sent to the pulmonary function laboratory. A technician performs the following test shown in the image. The pulmonologist asks which of the following parameters cannot be measured directly by this instrument. Which is the correct answer?",
+    image: "images/IMG_8863.jpeg",
+    question: "A 28-year-old female with bipolar disorder delivers a neonate who develops cyanosis shortly after birth. Echocardiography reveals downward displacement of the tricuspid valve leaflets and \"atrialization\" of the right ventricle. The mother most likely took which of the following medications during her first trimester?",
     options: [
-      "Tidal volume",
-      "Residual volume",
-      "Vital capacity",
-      "Inspiratory reserve volume"
+      "Valproate",
+      "Lithium",
+      "Phenytoin",
+      "Carbamazepine"
     ],
     answerIndex: 1,
-    correctAnswerText: "Residual volume"
+    correctAnswerText: "Lithium"
   },
   {
     id: 23,
-    image: "images/IMG_1164.jpeg",
-    question: "A 15-year-old obese adolescent presents with hyperphagia and progressive weight gain. He is being evaluated for hormonal regulation of appetite and energy balance. During a physiology seminar, he is shown the signaling pathway in the image. Which of the following hormones acts predominantly via this pathway?",
+    image: "images/IMG_8865.jpeg",
+    question: "A 24-year-old female with a history of generalized tonic-clonic seizures delivers a neonate with a visible lumbosacral myelomeningocele (spina bifida). The mother admits to taking a broad-spectrum antiepileptic drug without folic acid supplementation during her first trimester. Which of the following agents, globally recognized as the most teratogenic antiepileptic, is most likely responsible?",
     options: [
-      "Calcitonin",
-      "Vasopressin",
-      "Aldosterone",
-      "Leptin"
+      "Lamotrigine",
+      "Phenytoin",
+      "Sodium Valproate",
+      "Levetiracetam"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Leptin"
+    answerIndex: 2,
+    correctAnswerText: "Sodium Valproate"
   },
   {
     id: 24,
-    image: "images/IMG_1165.jpeg",
-    question: "A 34-year-old woman is evaluated for hypertension, central obesity, and mild hirsutism. During endocrine histology teaching, she is shown the adrenal gland section in the image with zones labeled A, B, C, and D from outer to inner region. Which of the following correctly matches the labeled zones with their principal hormone products?",
+    image: "images/IMG_8866.jpeg",
+    question: "A neonate presents with microcephaly, a uniquely smooth philtrum, and a thin upper lip. Echocardiography reveals a ventricular septal defect (VSD). Maternal history is significant for chronic substance abuse. Which of the following is the most likely diagnosis?",
     options: [
-      "A–cortisol, B–aldosterone, C–androgens, D–epinephrine",
-      "A–epinephrine, B–cortisol, C–aldosterone, D–androgens",
-      "A–aldosterone, B–epinephrine, C–androgens, D–cortisol",
-      "A–aldosterone, B–cortisol, C–androgens, D–epinephrine"
+      "Fetal Warfarin Syndrome",
+      "Fetal Hydantoin Syndrome",
+      "Fetal Valproate Syndrome",
+      "Fetal Alcohol Syndrome"
     ],
     answerIndex: 3,
-    correctAnswerText: "A–aldosterone, B–cortisol, C–androgens, D–epinephrine"
+    correctAnswerText: "Fetal Alcohol Syndrome"
   },
   {
     id: 25,
-    image: "images/IMG_1166.jpeg",
-    question: "A 32-year-old man undergoes neurological sensory testing after a hand injury. A receptor shown in the image is identified as a lamellated corpuscle that responds best to vibration and rapidly changing pressure. Which of the following best describes this receptor?",
+    image: "images/IMG_8867.jpeg",
+    question: "A neonate presents with a mask-like, expressionless face and an inability to abduct both eyes. The mother admits to taking a specific medication during the first trimester for severe NSAID-induced gastric ulcers. Which of the following drugs is most likely responsible for this abnormal development of cranial nerves VI and VII?",
     options: [
-      "Slow adapting and not encapsulated",
-      "Fast adapting and encapsulated",
-      "Fast adapting and not encapsulated",
-      "Slow adapting and encapsulated"
+      "Misoprostol",
+      "Methotrexate",
+      "Mifepristone",
+      "Methimazole"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Fast adapting and encapsulated"
+    answerIndex: 0,
+    correctAnswerText: "Misoprostol"
   },
   {
     id: 26,
     image: "",
-    question: "A 24-year-old medical student donates blood and, within seconds, his arterial blood pressure falls slightly. Stretch receptors in the carotid sinus detect the change and trigger autonomic responses that increase heart rate and peripheral vascular resistance, restoring blood pressure toward normal. Which of the following best describes the control mechanism operating in this situation?",
+    question: "A physician observes a rare, severe skin reaction in a patient newly started on a novel antiepileptic drug. To ensure global drug safety monitoring, the national coordination center forwards this reported adverse drug reaction to the primary WHO international database. Where is this global monitoring center located?",
     options: [
-      "Positive feedback, because the initial stimulus is amplified",
-      "Feedforward control, because the response occurs before the disturbance",
-      "Negative feedback, because the response opposes the initial change",
-      "Open-loop regulation, because no sensor is involved"
+      "Geneva",
+      "Uppsala",
+      "Ghaziabad",
+      "New York"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Negative feedback, because the response opposes the initial change"
+    answerIndex: 1,
+    correctAnswerText: "Uppsala"
   },
   {
     id: 27,
     image: "",
-    question: "A researcher is studying a eukaryotic cell that shows abundant membrane turnover, active protein synthesis for secretion, intracellular digestion of bacteria, detoxification of hydrogen peroxide, and ATP generation. The cell also demonstrates vesicular transport along hollow cytoskeletal tracks and maintains membrane fluidity through a major sterol component. Which of the following combinations is most accurate?",
+    question: "A 60-year-old male with small cell lung cancer presents with proximal muscle weakness that paradoxically improves with repetitive exercise. He is diagnosed with a paraneoplastic syndrome mediated by autoantibodies against presynaptic calcium channels. Which of the following drugs is used to specifically treat his condition by blocking potassium channels to prolong action potentials?",
     options: [
-      "Rough endoplasmic reticulum synthesizes lipids, Golgi apparatus generates ATP, lysosomes contain catalase, peroxisomes mediate intracellular digestion, and microfilaments form the mitotic spindle",
-      "Rough endoplasmic reticulum synthesizes proteins, Golgi apparatus processes and packages proteins, lysosomes contain acid hydrolases, peroxisomes contain oxidases and catalase, and microtubules participate in vesicular transport and spindle formation",
-      "Smooth endoplasmic reticulum synthesizes ribosomal proteins, Golgi apparatus digests bacteria, lysosomes produce hydrogen peroxide, peroxisomes contain ribosomes, and intermediate filaments are responsible for amoeboid movement",
-      "Rough endoplasmic reticulum synthesizes cholesterol, Golgi apparatus contains its own DNA, lysosomes are alkaline vesicles, peroxisomes mainly synthesize ATP, and cholesterol decreases membrane fluidity by making all membranes rigid"
+      "Hemicholinium",
+      "Vesamicol",
+      "Dalfamipridine",
+      "Botulinum toxin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Rough endoplasmic reticulum synthesizes proteins, Golgi apparatus processes and packages proteins, lysosomes contain acid hydrolases, peroxisomes contain oxidases and catalase, and microtubules participate in vesicular transport and spindle formation"
+    answerIndex: 2,
+    correctAnswerText: "Dalfamipridine"
   },
   {
     id: 28,
     image: "",
-    question: "A 62-year-old man develops multiple tense blisters over the trunk and flexor surfaces. Oral mucosa is spared, and Nikolsky sign is negative. Direct immunofluorescence shows linear deposition of immunoglobulin G along the dermoepidermal junction. Inflammatory cells subsequently remove antibody-coated tissue fragments by engulfing them into vesicles, followed by fusion with lysosomes for degradation. Which of the following combinations is most accurate?",
+    question: "A 45-year-old female with a known history of Sjögren's syndrome presents with severe xerostomia and excessively dry eyes. Which of the following drugs acts specifically on the exocrine glands to rapidly relieve her symptoms?",
     options: [
-      "Bullous pemphigoid due to antibodies against hemidesmosomes; phagocytosis is the uptake of large particles by macrophages and other white blood cells",
-      "Pemphigus vulgaris due to antibodies against hemidesmosomes; pinocytosis is the uptake of large particles by macrophages at the highest rate in all cells",
-      "Bullous pemphigoid due to antibodies against desmosomes; receptor-mediated endocytosis does not require adenosine triphosphate or calcium",
-      "Pemphigus vulgaris due to antibodies against desmoglein; exocytosis is always independent of cytoplasmic calcium and is the main mechanism for bacterial uptake"
+      "Atropine",
+      "Darifenacin",
+      "Tropicamide",
+      "Cevimeline"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Bullous pemphigoid due to antibodies against hemidesmosomes; phagocytosis is the uptake of large particles by macrophages and other white blood cells"
+    answerIndex: 3,
+    correctAnswerText: "Cevimeline"
   },
   {
     id: 29,
     image: "",
-    question: "A child has recurrent respiratory infections due to defective ciliary movement. Electron microscopy shows abnormal motile cilia. Which of the following proteins is most directly responsible for the sliding movement of microtubules in cilia and also functions as a motor protein moving cargo toward the minus end of microtubules inside cells?",
+    question: "A 10-year-old boy is brought to the emergency department with severe acute delirium, hyperthermia, dry flushed skin, and widely dilated pupils after accidentally ingesting Datura seeds. Which of the following lipid-soluble agents is the specific drug of choice to reverse both his central and peripheral symptoms?",
     options: [
-      "Kinesin",
-      "Dynein",
-      "Myosin",
-      "Claudin"
+      "Physostigmine",
+      "Neostigmine",
+      "Pyridostigmine",
+      "Edrophonium"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Dynein"
+    answerIndex: 0,
+    correctAnswerText: "Physostigmine"
   },
   {
     id: 30,
     image: "",
-    question: "A researcher compares two ways by which glucose can cross a cell membrane. In one pathway, transport increases linearly with concentration difference and does not require a carrier. In the other, transport uses a membrane carrier and shows saturation at high substrate concentration. Which of the following is correct?",
+    question: "A 45-year-old chronic smoker seeks medical assistance to quit. He is prescribed a first-line pharmacological therapy that carries a known risk of adverse drug reactions, including suicidal thoughts and increased cardiovascular (CVD) risk. What is the primary mechanism of action of this specific drug?",
     options: [
-      "Both are simple diffusion and neither can saturate",
-      "Carrier-mediated transport is facilitated diffusion and can show transport maximum",
-      "Simple diffusion requires adenosine triphosphate and is unidirectional",
-      "Facilitated diffusion occurs only through lipid bilayer without proteins"
+      "Norepinephrine-dopamine reuptake inhibition",
+      "α4 β2 nicotinic receptor agonism",
+      "Cannabinoid 1 receptor inverse agonism",
+      "Central α2 adrenergic receptor agonism"
     ],
     answerIndex: 1,
-    correctAnswerText: "Carrier-mediated transport is facilitated diffusion and can show transport maximum"
+    correctAnswerText: "α4 β2 nicotinic receptor agonism"
   },
   {
     id: 31,
     image: "",
-    question: "A physiologist studies membrane transport in a resting cell. She notes that the rate of simple diffusion increases with concentration gradient and membrane surface area, decreases with membrane thickness, and that the cell maintains low intracellular sodium and high intracellular potassium using a primary active transporter inhibited by digoxin. Which of the following transporters is most likely being described?",
+    question: "A 65-year-old male presents with urinary hesitancy, a poor urinary stream, and a newly diagnosed blood pressure of 160/95 mmHg. Which of the following antihypertensive agents is specifically preferred for this patient to simultaneously manage both of his conditions?",
     options: [
-      "Calcium adenosine triphosphatase of sarcoplasmic reticulum",
-      "Sodium-potassium adenosine triphosphatase",
-      "Cystic fibrosis transmembrane conductance regulator",
-      "Mitochondrial adenosine triphosphate synthase"
+      "Metoprolol",
+      "Hydrochlorothiazide",
+      "Prazosin",
+      "Amlodipine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Sodium-potassium adenosine triphosphatase"
+    answerIndex: 2,
+    correctAnswerText: "Prazosin"
   },
   {
     id: 32,
     image: "",
-    question: "A 30-year-old man develops acute blood loss after trauma. Within minutes, his body attempts to conserve water by increasing secretion of a hormone synthesized mainly in the supraoptic and paraventricular nuclei of the hypothalamus and released from the posterior pituitary. Which of the following is the most important immediate stimulus for this hormone release in this setting?",
+    question: "A 24-year-old male presents to the emergency room with an acute asthma exacerbation. He is immediately treated with continuous salbutamol nebulization. One hour later, he reports severe muscle weakness and palpitations. Which of the following metabolic derangements is most likely responsible for his new symptoms?",
     options: [
-      "Decreased plasma osmolarity",
-      "Increased blood volume",
-      "Decreased blood pressure",
-      "Increased atrial stretch"
+      "Hyponatremia",
+      "Hyperkalemia",
+      "Hypoglycemia",
+      "Hypokalemia"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Decreased blood pressure"
+    answerIndex: 3,
+    correctAnswerText: "Hypokalemia"
   },
   {
     id: 33,
     image: "",
-    question: "A healthy person drinks a large amount of water in a short time. Which of the following changes is most likely to occur as an early response?",
+    question: "A 55-year-old patient with cirrhosis presents for the management of portal hypertension to prevent the primary bleeding of esophageal varices. Which of the following beta-blockers is the drug of choice for this indication?",
     options: [
-      "Increased antidiuretic hormone secretion and increased thirst",
-      "Decreased antidiuretic hormone secretion and increased urine output",
-      "Increased renin release and increased aldosterone secretion",
-      "Increased plasma osmolarity and concentrated urine"
+      "Atenolol",
+      "Propranolol",
+      "Metoprolol",
+      "Bisoprolol"
     ],
     answerIndex: 1,
-    correctAnswerText: "Decreased antidiuretic hormone secretion and increased urine output"
+    correctAnswerText: "Propranolol"
   },
   {
     id: 34,
     image: "",
-    question: "A patient with severe watery diarrhea loses large amounts of fluid from the extracellular fluid (ECF) compartment. The lost fluid is approximately isotonic to plasma. Which of the following is the most likely change in body fluid compartments?",
+    question: "A 60-year-old male with stable angina takes a sublingual nitroglycerin tablet for an acute episode of chest pain. The primary mechanism by which this drug reduces his myocardial oxygen demand is via the accumulation of intracellular cGMP, leading predominantly to which of the following physiological changes?",
     options: [
-      "Decreased ECF volume with no change in osmolarity and no major shift of water into or out of cells",
-      "Increased ECF osmolarity with movement of water from intracellular fluid (ICF) to ECF",
-      "Decreased ECF osmolarity with movement of water from ECF to ICF",
-      "Increased ICF volume with decreased ECF volume due to addition of pure water"
+      "Arteriolar dilation causing decreased afterload",
+      "Direct relaxation of ureteric smooth muscle",
+      "Venodilation causing decreased preload",
+      "Depletion of intracellular cysteine stores"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Decreased ECF volume with no change in osmolarity and no major shift of water into or out of cells"
+    answerIndex: 2,
+    correctAnswerText: "Venodilation causing decreased preload"
   },
   {
     id: 35,
     image: "",
-    question: "A beaker contains 100 millimoles per liter of sodium chloride and another contains 100 millimoles per liter of urea. Which of the following is correct regarding their osmolarity?",
+    question: "A 62-year-old male with a history of stable angina is currently maintained on daily isosorbide mononitrate. He visits his physician seeking pharmacological treatment for recent-onset erectile dysfunction. Which of the following drugs is strictly contraindicated in this patient due to the risk of life-threatening, synergistic hypotension?",
     options: [
-      "Both have the same osmolarity because both are 100 millimoles per liter",
-      "Sodium chloride has osmolarity about 200 milliosmoles per liter, while urea has osmolarity about 100 milliosmoles per liter",
-      "Urea has osmolarity about 200 milliosmoles per liter, while sodium chloride has osmolarity about 100 milliosmoles per liter",
-      "Neither contributes to osmolarity because only proteins act as osmoles"
+      "Finasteride",
+      "Tamsulosin",
+      "Alprostadil",
+      "Sildenafil"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Sodium chloride has osmolarity about 200 milliosmoles per liter, while urea has osmolarity about 100 milliosmoles per liter"
+    answerIndex: 3,
+    correctAnswerText: "Sildenafil"
   },
   {
     id: 36,
     image: "",
-    question: "A man is exposed to a hot environment. His hypothalamus responds by activating mechanisms that increase heat loss. Which of the following hypothalamic areas is most directly responsible for sensing warmth and promoting sweating and cutaneous vasodilation?",
+    question: "A 35-year-old male with a documented history of Wolff-Parkinson-White (WPW) syndrome presents to the emergency room with a rapid heart rate. The physician decides to avoid a specific antiarrhythmic medication that could dangerously accelerate conduction down his accessory pathway. Based on its primary site of action on the AV and SA nodes, which of the following calcium channel blockers is strictly contraindicated in this patient?",
     options: [
-      "Posterior hypothalamic nucleus",
-      "Anterior preoptic area of hypothalamus",
-      "Mammillary body",
-      "Lateral hypothalamic area"
+      "Verapamil",
+      "Amlodipine",
+      "Nifedipine",
+      "Felodipine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Anterior preoptic area of hypothalamus"
+    answerIndex: 0,
+    correctAnswerText: "Verapamil"
   },
   {
     id: 37,
     image: "",
-    question: "A person who has recently moved to a hot climate becomes acclimatized after several days. Which of the following changes is most likely to be seen in this person compared with an unacclimatized individual?",
+    question: "A 62-year-old male with chronic stable angina is started on a novel heart rate-lowering medication. During his follow-up visit, he complains of spontaneously seeing bright spots, flashes of light, and halos, especially when moving from a dark room to a bright room. Which of the following drugs is most likely responsible for this specific visual disturbance?",
     options: [
-      "Decreased sweating and increased salt concentration in sweat",
-      "Increased sweating and decreased sodium chloride loss in sweat",
-      "Increased shivering and peripheral vasoconstriction",
-      "Decreased aldosterone secretion with more concentrated sweat"
+      "Ranolazine",
+      "Ivabradine",
+      "Trimetazidine",
+      "Nicorandil"
     ],
     answerIndex: 1,
-    correctAnswerText: "Increased sweating and decreased sodium chloride loss in sweat"
+    correctAnswerText: "Ivabradine"
   },
   {
     id: 38,
     image: "",
-    question: "A patient with uncontrolled diabetes mellitus develops hyperkalemia even though total body potassium is not increased. Which of the following is the most likely immediate mechanism for the rise in extracellular potassium concentration?",
+    question: "A 60-year-old male presents to the emergency department with severe, crushing chest pain. His ECG reveals ST-segment depressions and T-wave inversions in leads V1-V4, and his cardiac troponins are significantly elevated. He is immediately started on dual antiplatelet therapy, high-dose statins, and low molecular weight heparin (LMWH). Which of the following interventions is strictly contraindicated in the management of this specific patient?",
     options: [
-      "Insulin deficiency causes potassium to shift out of cells",
-      "Aldosterone excess causes potassium to shift out of cells",
-      "Beta-adrenergic stimulation causes potassium to shift out of cells",
-      "Alkalosis causes potassium to shift out of cells"
+      "Early coronary angiography",
+      "Morphine sulfate",
+      "Fibrinolytic therapy",
+      "Sublingual nitroglycerin"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Insulin deficiency causes potassium to shift out of cells"
+    answerIndex: 2,
+    correctAnswerText: "Fibrinolytic therapy"
   },
   {
     id: 39,
     image: "",
-    question: "In day-to-day potassium homeostasis, the final regulation of potassium excretion occurs mainly in the distal nephron. Which of the following renal cells is primarily responsible for potassium secretion under the influence of aldosterone?",
+    question: "A 68-year-old male with severe intermittent claudication is evaluated in the outpatient clinic. The physician considers prescribing a specific phosphodiesterase-3 (PDE-3) inhibitor that improves symptoms via targeted vasodilation and antiplatelet action. However, upon reviewing the patient's chart, the drug is immediately withheld due to a documented history of congestive heart failure. Which of the following drugs was most likely considered?",
     options: [
-      "Principal cells",
-      "Type A intercalated cells",
-      "Podocytes",
-      "Proximal convoluted tubular cells"
+      "Pentoxifylline",
+      "Dipyridamole",
+      "Clopidogrel",
+      "Cilostazol"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Principal cells"
+    answerIndex: 3,
+    correctAnswerText: "Cilostazol"
   },
   {
     id: 40,
     image: "",
-    question: "A 24-year-old woman is evaluated during the follicular phase of the menstrual cycle. A diagram of ovarian steroidogenesis shows that one ovarian cell type responds mainly to luteinizing hormone (LH) and produces androgens, while another responds mainly to follicle-stimulating hormone (FSH) and converts these androgens into estradiol by the enzyme aromatase. Which of the following is the correct pairing?",
+    question: "A 25-year-old male with Wolff-Parkinson-White (WPW) syndrome requires pharmacological management. Which of the following Class Ic agents is the medical drug of choice, despite carrying a maximum pro-arrhythmic risk and potentially causing blurred vision?",
     options: [
-      "Granulosa cells produce androgens under luteinizing hormone; theca cells convert them to estradiol under follicle-stimulating hormone",
-      "Theca interna cells produce androgens under luteinizing hormone; granulosa cells convert them to estradiol under follicle-stimulating hormone",
-      "Corpus luteum produces androgens under follicle-stimulating hormone; granulosa cells convert them to progesterone under luteinizing hormone",
-      "Theca externa cells produce estradiol directly under prolactin; granulosa cells convert it to estrone under oxytocin"
+      "Flecainide",
+      "Procainamide",
+      "Lignocaine",
+      "Quinidine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Theca interna cells produce androgens under luteinizing hormone; granulosa cells convert them to estradiol under follicle-stimulating hormone"
+    answerIndex: 0,
+    correctAnswerText: "Flecainide"
   },
   {
     id: 41,
-    image: "",
-    question: "A 29-year-old woman in the luteal phase has a slight rise in basal body temperature. The dominant ovarian hormone at this time also reduces myometrial sensitivity to oxytocin and supports lobuloalveolar development of the breast. Which of the following hormones is most likely responsible?",
+    image: "images/IMG_8868.jpeg",
+    question: "A 62-year-old male with a history of recurrent ventricular tachycardia is currently maintained on a broad-spectrum, iodine-containing antiarrhythmic. During a follow-up visit, the physician notes a distinct grayish-blue discoloration of his sun-exposed skin. A routine slit-lamp examination in this patient is most likely to reveal which of the following findings?",
     options: [
-      "Estradiol",
-      "Progesterone",
-      "Prolactin",
-      "Relaxin"
+      "Posterior subcapsular cataracts",
+      "Whorl-like corneal deposits",
+      "Glaucomatous optic cupping",
+      "Cherry-red spot at the macula"
     ],
     answerIndex: 1,
-    correctAnswerText: "Progesterone"
+    correctAnswerText: "Whorl-like corneal deposits"
   },
   {
     id: 42,
     image: "",
-    question: "A 16-year-old boy is evaluated for delayed puberty. Testicular biopsy shows preserved spermatogonia but failure of progression beyond the spermatocyte stage. Serum androgen level is low-normal, and Sertoli cell function is relatively preserved. Which of the following hormones is most directly required for progression of spermatogenesis beyond this stage?",
+    question: "A 32-year-old female presents to the emergency department with sudden-onset palpitations. Her ECG reveals a narrow-complex Supraventricular Tachycardia (SVT). The physician prepares to administer the pharmacological drug of choice, strictly instructing the nurse to push it as a rapid intravenous bolus followed immediately by a saline flush. Which of the following best explains the necessity of this specific administration technique?",
     options: [
-      "Follicle-stimulating hormone",
-      "Luteinizing hormone",
-      "Prolactin",
-      "Oxytocin"
+      "It undergoes massive hepatic first-pass metabolism",
+      "It is rapidly excreted unchanged by the kidneys",
+      "It undergoes rapid endothelial uptake and metabolism by adenosine deaminase",
+      "It is quickly neutralized by circulating plasma pseudocholinesterases"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Luteinizing hormone"
+    answerIndex: 2,
+    correctAnswerText: "It undergoes rapid endothelial uptake and metabolism by adenosine deaminase"
   },
   {
     id: 43,
     image: "",
-    question: "A man with infertility evaluation has normal testicular volume but low sperm motility. Semen analysis reveals normal sperm count and normal fructose content. Which of the following events normally occurs in the female reproductive tract and enables sperm to fertilize the ovum?",
+    question: "A 65-year-old male treated for low-output congestive heart failure presents to the emergency room with severe nausea, vomiting, and yellow-tinted vision (xanthopsia). An ECG is ordered to evaluate for drug toxicity. Which of the following is the most characteristic arrhythmia associated with his condition?",
     options: [
-      "Capacitation",
-      "Spermiation",
-      "Conversion of testosterone to dihydrotestosterone",
-      "Secretion of androgen-binding protein"
+      "Mobitz Type II AV block",
+      "Ventricular bigeminy",
+      "Atrial flutter with 2:1 block",
+      "Non-paroxysmal atrial tachycardia with variable AV block"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Capacitation"
+    answerIndex: 3,
+    correctAnswerText: "Non-paroxysmal atrial tachycardia with variable AV block"
   },
   {
     id: 44,
     image: "",
-    question: "A 45-year-old woman with hypocalcemia is found to have elevated parathyroid hormone (PTH) levels. Which of the following is the most likely immediate renal action of parathyroid hormone?",
+    question: "A 60-year-old male with chronic congestive cardiac failure remains symptomatic on standard medical therapy. His cardiologist decides to initiate a highly effective ARNI combination drug to significantly reduce his morbidity and mortality. Which of the following correctly identifies the two specific drug components of this therapy?",
     options: [
-      "Increased phosphate reabsorption in the proximal convoluted tubule",
-      "Decreased calcium reabsorption in the distal nephron",
-      "Decreased phosphate reabsorption in the proximal convoluted tubule",
-      "Decreased formation of active vitamin D3 in the kidney"
+      "Valsartan + Sacubitril",
+      "Omapatrilat + Sacubitril",
+      "Valsartan + Ecadotril",
+      "Enalapril + Sacubitril"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Decreased phosphate reabsorption in the proximal convoluted tubule"
+    answerIndex: 0,
+    correctAnswerText: "Valsartan + Sacubitril"
   },
   {
     id: 45,
     image: "",
-    question: "A healthy person is exposed to sunlight, and vitamin D metabolism proceeds normally. Which of the following correctly describes the pathway and major action of active vitamin D3?",
+    question: "A 65-year-old male with chronic heart failure is prescribed a disease-modifying drug. This specific agent blunts the neurohumoral cascade by directly inhibiting the sympathetic release of renin from the juxtaglomerular (JG) cells in the kidney. Which of the following drugs acts via this precise mechanism?",
     options: [
-      "Skin converts 7-dehydrocholesterol to cholecalciferol, liver forms 25-hydroxycholecalciferol, kidney forms 1,25-dihydroxycholecalciferol, which increases intestinal calcium and phosphate absorption",
-      "Skin converts cholesterol directly to calcitriol, which decreases intestinal calcium absorption and increases renal calcium loss",
-      "Liver converts 7-dehydrocholesterol to cholecalciferol, kidney converts it to calcitonin, which promotes phosphate excretion",
-      "Kidney forms 25-hydroxycholecalciferol first, and liver converts it into inactive vitamin D, which mainly lowers serum calcium"
+      "Aliskiren",
+      "Metoprolol",
+      "Ramipril",
+      "Spironolactone"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Skin converts 7-dehydrocholesterol to cholecalciferol, liver forms 25-hydroxycholecalciferol, kidney forms 1,25-dihydroxycholecalciferol, which increases intestinal calcium and phosphate absorption"
+    answerIndex: 1,
+    correctAnswerText: "Metoprolol"
   },
   {
     id: 46,
     image: "",
-    question: "A 22-year-old healthy student has just eaten a carbohydrate-rich meal. A pancreatic hormone is released from cells that contain zinc-rich granules and acts through a receptor tyrosine kinase to promote glycogen synthesis, glycolysis, lipogenesis, and potassium entry into cells. Which of the following best identifies this hormone and its receptor mechanism?",
+    question: "A 55-year-old obese male presents with newly diagnosed hypertension. He also has a documented history of type 2 diabetes mellitus with significant insulin resistance. His physician prescribes a specific Angiotensin Receptor Blocker (ARB) that provides an added metabolic benefit by acting as a partial agonist at PPAR-γ receptors. Which of the following drugs was most likely prescribed?",
     options: [
-      "Glucagon acting through Gs protein-coupled receptor",
-      "Insulin acting through receptor tyrosine kinase",
-      "Somatostatin acting through Gi protein-coupled receptor",
-      "Cortisol acting through intracellular nuclear receptor"
+      "Losartan",
+      "Irbesartan",
+      "Telmisartan",
+      "Candesartan"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Insulin acting through receptor tyrosine kinase"
+    answerIndex: 2,
+    correctAnswerText: "Telmisartan"
   },
   {
     id: 47,
     image: "",
-    question: "A fasting patient develops hypoglycemia. A pancreatic hormone is released that acts mainly on the liver to increase blood glucose by stimulating glycogen breakdown, gluconeogenesis, and lipolysis. Which of the following hormones is most likely responsible?",
+    question: "A 45-year-old male with an inoperable insulinoma presents with recurrent episodes of severe hypoglycemia. Which of the following arterial vasodilators is uniquely indicated to medically manage his condition by directly inhibiting pancreatic insulin release?",
     options: [
-      "Insulin",
-      "Glucagon",
-      "Somatostatin",
-      "C-peptide"
+      "Hydralazine",
+      "Minoxidil",
+      "Sodium nitroprusside",
+      "Diazoxide"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Glucagon"
+    answerIndex: 3,
+    correctAnswerText: "Diazoxide"
   },
   {
     id: 48,
     image: "",
-    question: "A 32-year-old man with primary hyperaldosteronism has hypertension and hypokalemia. Which of the following adrenal cortical zones is the source of the excess hormone?",
+    question: "A pregnant patient in a hypertensive crisis requires rapid blood pressure reduction. Which of the following continuous intravenous drugs is strictly contraindicated due to its light-sensitivity and risk of fetal cyanide toxicity?",
     options: [
-      "Zona glomerulosa",
-      "Zona fasciculata",
-      "Zona reticularis",
-      "Adrenal medulla"
+      "Sodium nitroprusside",
+      "Labetalol",
+      "Hydralazine",
+      "Methyldopa"
     ],
     answerIndex: 0,
-    correctAnswerText: "Zona glomerulosa"
+    correctAnswerText: "Sodium nitroprusside"
   },
   {
     id: 49,
     image: "",
-    question: "A healthy adult has a hormone that reaches its highest plasma concentration in the early morning and lowest concentration around midnight. This hormone also increases blood glucose by stimulating gluconeogenesis and antagonizing insulin action in peripheral tissues. Which hormone is being described?",
+    question: "A 40-year-old male recently started on pharmacological therapy for primary pulmonary arterial hypertension presents to the clinic complaining of visual disturbances. Specifically, he reports seeing distinct \"blue halos\" around objects. Inadvertent inhibition of which of the following targets is responsible for this specific adverse effect?",
     options: [
-      "Aldosterone",
-      "Cortisol",
-      "Dehydroepiandrosterone",
-      "Epinephrine"
+      "Phosphodiesterase-3",
+      "Phosphodiesterase-6",
+      "Rho kinase",
+      "Extra-cellular elastase"
     ],
     answerIndex: 1,
-    correctAnswerText: "Cortisol"
+    correctAnswerText: "Phosphodiesterase-6"
   },
   {
     id: 50,
     image: "",
-    question: "A physiologist wants to calculate intracellular fluid volume in a normal adult by using two indicator dilution methods and then deriving the value indirectly. Which pair of indicators is most appropriate?",
+    question: "A 45-year-old male with a known history of advanced liver cirrhosis seeks medical advice before a high-altitude expedition. He requests the standard pharmacological prophylaxis to prevent acute mountain sickness. Which of the following drugs is strictly contraindicated in this patient due to the high risk of precipitating a hepatic coma?",
     options: [
-      "Heavy water and inulin",
-      "Inulin and radioiodinated albumin",
-      "Sodium-22 and inulin",
-      "Radioiodinated albumin and Evans blue"
+      "Dexamethasone",
+      "Nifedipine",
+      "Acetazolamide",
+      "Sildenafil"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Heavy water and inulin"
+    answerIndex: 2,
+    correctAnswerText: "Acetazolamide"
   },
   {
     id: 51,
     image: "",
-    question: "Which of the following best describes the function of the renal outer medullary potassium channel (ROMK) in renal tubular physiology?",
+    question: "A 65-year-old male presents to the emergency department with acute severe pulmonary edema secondary to congestive heart failure. Intravenous furosemide is administered, and his dyspnea remarkably improves within 5 minutes, significantly prior to the onset of increased urine output. Which of the following is the primary pharmacological mechanism responsible for this immediate clinical relief?",
     options: [
-      "It secretes potassium through a selective potassium channel",
-      "It cotransports sodium and potassium together across the apical membrane",
-      "It exchanges sodium for potassium across the basolateral membrane",
-      "It acts as a water channel regulated by antidiuretic hormone"
+      "Positive inotropy",
+      "Alveolar fluid shift",
+      "Immediate diuresis",
+      "Systemic vasodilation"
     ],
-    answerIndex: 0,
-    correctAnswerText: "It secretes potassium through a selective potassium channel"
+    answerIndex: 3,
+    correctAnswerText: "Systemic vasodilation"
   },
   {
     id: 52,
     image: "",
-    question: "A 28-year-old woman with Graves disease is started on a drug that inhibits thyroid peroxidase and thereby blocks iodide oxidation and organification within the thyroid follicular cell-colloid interface. Which of the following drugs acts by this mechanism?",
+    question: "A 45-year-old male with uncomplicated essential hypertension presents to the urology clinic with a history of recurrent calcium oxalate nephrolithiasis. A 24-hour urine analysis confirms idiopathic hypercalciuria. Which of the following diuretics is the most appropriate pharmacological choice to manage his blood pressure while simultaneously preventing future stone formation?",
     options: [
-      "Propranolol",
-      "Carbimazole",
-      "Levothyroxine",
-      "Potassium iodide in physiologic dose"
+      "Hydrochlorothiazide",
+      "Furosemide",
+      "Acetazolamide",
+      "Spironolactone"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Carbimazole"
+    answerIndex: 0,
+    correctAnswerText: "Hydrochlorothiazide"
   },
   {
     id: 53,
     image: "",
-    question: "A healthy adult is exposed to prolonged cold. Which of the following endocrine responses is most likely to occur to help increase heat production?",
+    question: "A 55-year-old male with severe liver cirrhosis and ascites is started on a targeted diuretic therapy. Several weeks later, he presents to the clinic complaining of painful bilateral breast enlargement and impotence. Based on the drug most likely responsible for these side effects, which of the following metabolic derangements is this patient at the highest risk of developing?",
     options: [
-      "Decreased thyrotropin-releasing hormone secretion",
-      "Increased thyrotropin-releasing hormone secretion",
-      "Decreased conversion of thyroxine to triiodothyronine in peripheral tissues",
-      "Increased thyroxine-binding globulin causing rise in free thyroxine"
+      "Metabolic alkalosis",
+      "Hyperkalemia",
+      "Hypokalemia",
+      "Hypernatremia"
     ],
     answerIndex: 1,
-    correctAnswerText: "Increased thyrotropin-releasing hormone secretion"
+    correctAnswerText: "Hyperkalemia"
   },
   {
     id: 54,
     image: "",
-    question: "A child with growth failure is found to have isolated deficiency of a pituitary hormone that normally increases amino acid uptake, promotes protein synthesis, mobilizes fat for energy use, decreases glucose utilization, and stimulates the liver to produce insulin-like growth factor 1. Which of the following hormones is most likely deficient?",
+    question: "A 60-year-old male with severe cerebral edema requires urgent reduction of his intracranial pressure. However, the physician strictly avoids using the standard first-line osmotic diuretic upon auscultating bilateral basal crepitations and noting a history of acute left ventricular failure. Which of the following drugs was most likely withheld?",
     options: [
-      "Adrenocorticotropic hormone",
-      "Growth hormone",
-      "Oxytocin",
-      "Vasopressin"
+      "Dexamethasone",
+      "Acetazolamide",
+      "Mannitol",
+      "Furosemide"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Growth hormone"
+    answerIndex: 2,
+    correctAnswerText: "Mannitol"
   },
   {
     id: 55,
     image: "",
-    question: "A patient with dehydration has increased plasma osmolarity. Which of the following posterior pituitary hormone-receptor combinations is most responsible for increasing water reabsorption in the kidney?",
+    question: "A 28-year-old male with a history of lithium-induced polyuria is evaluated for persistent symptoms. After establishing that his condition is secondary to chronic lithium therapy, which of the following pharmacological agents is the most appropriate choice to manage his diuretic resistance?",
     options: [
-      "Oxytocin acting on Gq-coupled receptors in uterine smooth muscle",
-      "Vasopressin acting on V2 receptors to increase cyclic adenosine monophosphate and aquaporin-2 insertion",
-      "Vasopressin acting on V1 receptors to increase aquaporin-2 insertion in collecting ducts",
-      "Oxytocin acting on V2 receptors in the renal medulla"
+      "Desmopressin",
+      "Amiloride",
+      "Thiazides",
+      "Conivaptan"
     ],
     answerIndex: 1,
-    correctAnswerText: "Vasopressin acting on V2 receptors to increase cyclic adenosine monophosphate and aquaporin-2 insertion"
+    correctAnswerText: "Amiloride"
   },
   {
     id: 56,
     image: "",
-    question: "A healthy person is dehydrated after prolonged water deprivation. Which of the following renal mechanisms is most important for generating the hyperosmotic renal medulla required for concentrated urine formation?",
+    question: "A 55-year-old male with acute severe pulmonary embolism requires immediate reperfusion therapy. The physician prepares to administer a fibrinolytic agent but must first rule out absolute contraindications. Which of the following parameters represents an absolute contraindication to the initiation of this therapy?",
     options: [
-      "Active sodium chloride reabsorption in the thick ascending limb of loop of Henle",
-      "Active water reabsorption in the thick ascending limb of loop of Henle",
-      "Secretion of urea into the proximal convoluted tubule",
-      "Passive sodium reabsorption in the descending limb of loop of Henle"
+      "Active peptic ulcer disease",
+      "Blood pressure of 190/115 mmHg",
+      "Ischemic stroke 6 months ago",
+      "Current use of oral anticoagulants"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Active sodium chloride reabsorption in the thick ascending limb of loop of Henle"
+    answerIndex: 1,
+    correctAnswerText: "Blood pressure of 190/115 mmHg"
   },
   {
     id: 57,
-    image: "",
-    question: "A healthy person is quietly resting and then suddenly starts running. Which of the following brainstem regions is the primary rhythm generator for normal quiet inspiration?",
+    image: "images/IMG_8871.jpeg",
+    question: "A 65-year-old patient on long-term oral anticoagulation therapy presents with painful, dusky-purple discoloration of both feet. Examination reveals no signs of peripheral neuropathy, but the patient reports recent initiation of a new cholesterol-lowering medication. Which of the following is the most likely diagnosis for this dermatological finding?",
     options: [
-      "Pneumotaxic center in the upper pons",
-      "Apneustic center in the lower pons",
-      "Dorsal respiratory group in the medulla",
-      "Peripheral chemoreceptors in the carotid body"
+      "Warfarin-induced skin necrosis",
+      "Purple toe syndrome",
+      "Cholesterol embolization syndrome",
+      "Drug-induced vasculitis"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Dorsal respiratory group in the medulla"
+    answerIndex: 1,
+    correctAnswerText: "Purple toe syndrome"
   },
   {
     id: 58,
     image: "",
-    question: "A patient with chronic obstructive pulmonary disease develops a marked fall in arterial partial pressure of oxygen. Which of the following receptors is most strongly stimulated to increase ventilation in this situation?",
+    question: "A 50-year-old male is scheduled for urgent coronary artery bypass graft (CABG) surgery. Which of the following parenteral anticoagulants is the drug of choice to maintain anticoagulation during the procedure, primarily due to its ability to inhibit both factor IIa and factor Xa by activating Antithrombin III?",
     options: [
-      "Central chemoreceptors responding to cerebrospinal fluid hydrogen ion only",
-      "Peripheral chemoreceptors in the carotid body",
-      "Pulmonary stretch receptors in bronchi",
-      "Juxtacapillary receptors in alveolar walls"
+      "Heparin",
+      "Enoxaparin",
+      "Fondaparinux",
+      "Idraparinux"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Peripheral chemoreceptors in the carotid body"
+    answerIndex: 0,
+    correctAnswerText: "Heparin"
   },
   {
     id: 59,
     image: "",
-    question: "A healthy person is exercising vigorously. In the active skeletal muscles, increased carbon dioxide, increased hydrogen ion concentration, increased temperature, and increased 2,3-bisphosphoglycerate shift the oxyhemoglobin dissociation curve to the right. What is the main effect of this shift?",
+    question: "A 60-year-old male with a recent myocardial infarction is prescribed Clopidogrel for secondary prevention. He also has a history of gastroesophageal reflux disease and is taking Omeprazole for symptom control. Which of the following best describes the pharmacological interaction between these two agents?",
     options: [
-      "Increased affinity of hemoglobin for oxygen, reducing oxygen unloading",
-      "Decreased affinity of hemoglobin for oxygen, promoting oxygen unloading",
-      "Increased oxygen binding only in the lungs with no tissue effect",
-      "Conversion of most oxygen transport from hemoglobin-bound form to dissolved form"
+      "Omeprazole competitively inhibits the P2Y12 receptor",
+      "Omeprazole inhibits CYP2C19, preventing Clopidogrel activation",
+      "Clopidogrel decreases the gastric bioavailability of Omeprazole",
+      "Both agents synergistically block platelet aggregation"
     ],
     answerIndex: 1,
-    correctAnswerText: "Decreased affinity of hemoglobin for oxygen, promoting oxygen unloading"
+    correctAnswerText: "Omeprazole inhibits CYP2C19, preventing Clopidogrel activation"
   },
   {
     id: 60,
     image: "",
-    question: "Most carbon dioxide produced by tissues is transported in venous blood in which of the following forms?",
+    question: "A 58-year-old male with dyslipidemia requires high-intensity statin therapy. He has a known history of severe myalgia when taking other statins and is very concerned about recurrence. Which of the following statins would be most appropriate for this patient, given its favorable profile of low myopathy risk and minimal hepatic metabolism-related drug interactions?",
     options: [
-      "Dissolved carbon dioxide in plasma",
-      "Carbaminohemoglobin",
-      "Bicarbonate ion",
-      "Carbon monoxide bound to hemoglobin"
+      "Atorvastatin",
+      "Pravastatin",
+      "Lovastatin",
+      "Fluvastatin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Bicarbonate ion"
+    answerIndex: 1,
+    correctAnswerText: "Pravastatin"
   },
   {
     id: 61,
     image: "",
-    question: "A healthy person breathes room air at sea level. After humidification in the airways and mixing with residual alveolar gas, the partial pressure of oxygen in the alveoli becomes much lower than that in dry atmospheric air. Which of the following is the most likely normal alveolar partial pressure of oxygen?",
+    question: "A 28-year-old pregnant woman presents with significant hypercholesterolemia. She requires pharmacological intervention that is effective but safe for use during pregnancy and lactation. Which of the following hypolipidemic agents is considered the safest and most appropriate choice for this patient?",
     options: [
-      "40 millimeters of mercury",
-      "60 millimeters of mercury",
-      "104 millimeters of mercury",
-      "159 millimeters of mercury"
+      "Cholestyramine",
+      "Alirocumab",
+      "Inclisiran",
+      "Lomitapide"
     ],
-    answerIndex: 2,
-    correctAnswerText: "104 millimeters of mercury"
+    answerIndex: 0,
+    correctAnswerText: "Cholestyramine"
   },
   {
     id: 62,
     image: "",
-    question: "A patient with pulmonary fibrosis develops thickening of the alveolar-capillary membrane. Which of the following changes would most directly reduce the rate of diffusion of oxygen across the respiratory membrane according to Fick’s law?",
+    question: "A 30-year-old patient is brought to the emergency department in a state of status epilepticus. The treating physician must select the most appropriate intravenous benzodiazepine that provides a sustained anticonvulsant effect lasting 6–12 hours. Which of the following is the drug of choice for this condition?",
     options: [
-      "Increased surface area of alveoli",
-      "Increased pressure gradient for oxygen",
-      "Decreased membrane thickness",
-      "Increased membrane thickness"
+      "Lorazepam",
+      "Clonazepam",
+      "Clobazam",
+      "Midazolam"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Increased membrane thickness"
+    answerIndex: 0,
+    correctAnswerText: "Lorazepam"
   },
   {
     id: 63,
     image: "",
-    question: "A healthy person standing upright has the greatest alveolar ventilation at the base of the lung, but the ventilation-perfusion ratio is highest at the apex. Which of the following best explains why the apex has a higher ventilation-perfusion ratio?",
+    question: "A pregnant patient with epilepsy requires initiation of anticonvulsant therapy to manage her seizures. Which of the following barbiturates is the most appropriate agent for use in this specific population?",
     options: [
-      "Ventilation is absent at the apex while blood flow is normal",
-      "Both ventilation and blood flow are highest at the apex",
-      "Blood flow falls more than ventilation toward the apex",
-      "Perfusion is greater than ventilation at the apex"
+      "Methohexitone",
+      "Phenobarbitone",
+      "Thiopentone",
+      "Secobarbitone"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Blood flow falls more than ventilation toward the apex"
+    answerIndex: 1,
+    correctAnswerText: "Phenobarbitone"
   },
   {
     id: 64,
     image: "",
-    question: "In an upright person, the lower part of the lung normally shows continuous pulmonary blood flow because arterial pressure and venous pressure both exceed alveolar pressure. Which of the following West lung zones does this represent?",
+    question: "A 6-month-old infant is brought to the clinic by concerned parents who describe frequent, brief episodes of symmetric contraction of the neck, trunk, and extremities, typically occurring upon awakening. Which of the following is the therapeutic agent of choice indicated for the management of this specific epilepsy syndrome?",
     options: [
-      "Zone 1",
-      "Zone 2",
-      "Zone 3",
-      "Zone 4"
+      "ACTH",
+      "Diazepam",
+      "Lorazepam",
+      "Clonazepam"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Zone 3"
+    answerIndex: 0,
+    correctAnswerText: "ACTH"
   },
   {
     id: 65,
     image: "",
-    question: "A 68-year-old man with long-standing smoking history has hyperinflated lungs and reduced elastic recoil. His lungs inflate easily with a small change in transpulmonary pressure. Which of the following best describes the change in lung compliance in this patient?",
+    question: "A 35-year-old female with a history of chronic migraine and obesity presents for pharmacological management. She requires a single agent that can provide both migraine prophylaxis and assist in weight loss. Which of the following antiepileptic drugs would be the most suitable choice?",
     options: [
-      "Decreased compliance because elastic recoil is increased",
-      "Increased compliance because elastic tissue is lost",
-      "Normal compliance because surface tension is unchanged",
-      "Decreased compliance because airway resistance is increased"
+      "Topiramate",
+      "Lamotrigine",
+      "Felbamate",
+      "Magnesium sulphate"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Increased compliance because elastic tissue is lost"
+    answerIndex: 0,
+    correctAnswerText: "Topiramate"
   },
   {
     id: 66,
     image: "",
-    question: "During a physiology demonstration, a saline-filled lung is compared with an air-filled lung. The saline-filled lung is much easier to inflate. Which of the following best explains this finding?",
+    question: "A 30-year-old female patient on long-term anticonvulsant therapy presents with gingival enlargement, hirsutism, and mild megaloblastic anemia. Which of the following drugs is most likely responsible for this constellation of adverse effects?",
     options: [
-      "Saline increases elastic recoil of the lung tissue",
-      "Saline eliminates alveolar surface tension",
-      "Saline decreases chest wall compliance",
-      "Saline increases airway resistance"
+      "Phenytoin",
+      "Carbamazepine",
+      "Valproate",
+      "Ethosuximide"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Saline eliminates alveolar surface tension"
+    answerIndex: 0,
+    correctAnswerText: "Phenytoin"
   },
   {
     id: 67,
     image: "",
-    question: "A patient with xerostomia is evaluated for salivary gland function. Which of the following statements about normal saliva is correct?",
+    question: "A 40-year-old patient diagnosed with trigeminal neuralgia is prescribed a medication for pain control. After several weeks, a routine blood test reveals a significant decrease in leukocyte and platelet counts. Which of the following drugs is most likely responsible for this hematological adverse effect?",
     options: [
-      "Saliva is acidic, with pH usually around 3 to 4",
-      "Saliva is secreted only by the parotid gland",
-      "Saliva contains potassium concentration higher than plasma and is usually hypotonic",
-      "Salivary secretion is stimulated only by sympathetic fibers"
+      "Carbamazepine",
+      "Oxcarbazepine",
+      "Topiramate",
+      "Phenytoin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Saliva contains potassium concentration higher than plasma and is usually hypotonic"
+    answerIndex: 0,
+    correctAnswerText: "Carbamazepine"
   },
   {
     id: 68,
     image: "",
-    question: "A patient with peptic ulcer disease has increased gastric acid secretion. Which of the following is the strongest direct stimulant of parietal cell hydrochloric acid secretion through the histamine H2 receptor pathway?",
+    question: "A 10-year-old patient with mixed seizure disorder (myoclonic, tonic, and atonic seizures) requires broad-spectrum antiepileptic therapy. Given his seizure profile, which of the following is the drug of choice, and what is its primary metabolic mechanism?",
     options: [
-      "Somatostatin",
-      "Secretin",
-      "Histamine released from enterochromaffin-like cells",
-      "Intrinsic factor"
+      "Valproate; Microsomal enzyme inhibitor",
+      "Phenytoin; Microsomal enzyme inducer",
+      "Carbamazepine; Microsomal enzyme inducer",
+      "Topiramate; Carbonic anhydrase inhibitor"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Histamine released from enterochromaffin-like cells"
+    answerIndex: 0,
+    correctAnswerText: "Valproate; Microsomal enzyme inhibitor"
   },
   {
     id: 69,
     image: "",
-    question: "A patient with difficulty swallowing undergoes a barium swallow study. The bolus enters the pharynx, and swallowing is then completed automatically even without conscious effort. Which of the following best explains this process?",
+    question: "A 10-year-old child with a diagnosis of Lennox-Gastaut syndrome is currently uncontrolled on multiple conventional antiepileptic regimens. The physician considers introducing a newer pharmacological agent that is also indicated for Dravet syndrome and Tuberous sclerosis complex. Which of the following is the most appropriate choice?",
     options: [
-      "The pharyngeal phase of swallowing is voluntary and controlled by the cerebral cortex alone",
-      "The pharyngeal phase of swallowing is involuntary and is coordinated by a swallowing center in the medulla and lower pons",
-      "The esophageal phase begins before the pharyngeal phase is completed and is mediated only by the enteric nervous system",
-      "Deglutition occurs only by primary peristalsis and never involves secondary peristalsis"
+      "Cannabidiol",
+      "Stiripentol",
+      "Retigabine",
+      "Vigabatrin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "The pharyngeal phase of swallowing is involuntary and is coordinated by a swallowing center in the medulla and lower pons"
+    answerIndex: 0,
+    correctAnswerText: "Cannabidiol"
   },
   {
     id: 70,
     image: "",
-    question: "A patient is admitted after a cervical spinal cord injury. During evaluation of anorectal function, rectal distension produces relaxation of the internal anal sphincter, but voluntary control of defecation is lost. Which of the following structures is composed of smooth muscle and normally remains tonically contracted until the defecation reflex is activated?",
+    question: "A patient initiated on high-dose typical antipsychotic therapy for schizophrenia presents with bilateral breast discharge (galactorrhea) and masked facial expressions with resting tremors. Which dopaminergic pathway blockade is primarily responsible for the development of galactorrhea in this patient?",
     options: [
-      "External anal sphincter",
-      "Internal anal sphincter",
-      "Puborectalis muscle",
-      "Diaphragm"
+      "Mesolimbic pathway",
+      "Tubero-infundibular pathway",
+      "Nigrostriatal pathway",
+      "Mesocortical pathway"
     ],
     answerIndex: 1,
-    correctAnswerText: "Internal anal sphincter"
+    correctAnswerText: "Tubero-infundibular pathway"
   },
   {
     id: 71,
     image: "",
-    question: "A healthy adult is studied for gastrointestinal motility. Rhythmic contractions of the gut are found to depend on slow waves generated by pacemaker cells, and the highest basal electrical rhythm is recorded in the duodenum. Which of the following is the most likely frequency of the basal electrical rhythm in the duodenum?",
+    question: "A 55-year-old male with Parkinson's disease, previously well-controlled on non-ergot D2 agonist therapy, presents to his psychiatrist. His family expresses grave concern over his recent development of inexplicable impulsive behaviors, including repeated incidents of kleptomania and compulsive shopping. Which of the following drugs is the most likely cause?",
     options: [
-      "3 per minute",
-      "6 per minute",
-      "9 per minute",
-      "12 per minute"
+      "Pramipexole",
+      "Bromocriptine",
+      "Pergolide",
+      "Cabergoline"
     ],
-    answerIndex: 3,
-    correctAnswerText: "12 per minute"
+    answerIndex: 0,
+    correctAnswerText: "Pramipexole"
   },
   {
     id: 72,
     image: "",
-    question: "A patient eats a large meal, causing distension of the stomach. Soon afterward, peristaltic activity increases in the ileum, helping propel intestinal contents toward the cecum. Which of the following reflexes best explains this response?",
+    question: "A 45-year-old patient with schizophrenia is started on a high-potency typical antipsychotic. After several days, the patient develops severe extrapyramidal symptoms (EPS), including rigidity and tremor. Which of the following drugs is most likely responsible for this high incidence of EPS due to its potent D2 receptor blockade?",
     options: [
-      "Enterogastric reflex",
-      "Gastroileal reflex",
-      "Colonoileal reflex",
-      "Renointestinal reflex"
+      "Haloperidol",
+      "Chlorpromazine",
+      "Thioridazine",
+      "Thiothixene"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Gastroileal reflex"
+    answerIndex: 0,
+    correctAnswerText: "Haloperidol"
   },
   {
     id: 73,
     image: "",
-    question: "A healthy adult suddenly stands up from a lying position. Within seconds, stretch receptors in the carotid sinus detect the fall in arterial pressure and trigger reflex sympathetic activation. Which of the following changes is most likely to occur in the baroreceptor reflex?",
+    question: "A 35-year-old patient with treatment-refractory schizophrenia is initiated on Clozapine. Given the risk of a serious, life-threatening hematological adverse effect, which of the following monitoring protocols is strictly mandatory for this patient?",
     options: [
-      "Increased carotid sinus firing with increased vagal discharge",
-      "Decreased carotid sinus firing with increased sympathetic outflow",
-      "Increased aortic arch firing with decreased heart rate",
-      "Decreased medullary vasomotor center activity with vasodilation"
+      "Weekly Complete Blood Count (CBC)",
+      "Monthly liver function tests",
+      "Bi-weekly serum electrolytes",
+      "Daily fasting blood glucose"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Decreased carotid sinus firing with increased sympathetic outflow"
+    answerIndex: 0,
+    correctAnswerText: "Weekly Complete Blood Count (CBC)"
   },
   {
     id: 74,
     image: "",
-    question: "A patient develops increased venous return after rapid intravenous fluid infusion. Stretch receptors in the right atrium are activated, producing a reflex increase in heart rate. Which of the following best identifies this reflex?",
+    question: "A 28-year-old female presents with an acute, severe migraine attack. She desires a medication with the fastest onset of action and highest efficacy to resume her daily activities immediately. Which of the following 5HT1B/D agonists is the most appropriate choice?",
     options: [
-      "Baroreceptor reflex",
-      "Bainbridge reflex",
-      "Cushing reflex",
-      "Chemoreceptor reflex"
+      "Frovatriptan",
+      "Rizatriptan",
+      "Almotriptan",
+      "Sumatriptan"
     ],
     answerIndex: 1,
-    correctAnswerText: "Bainbridge reflex"
+    correctAnswerText: "Rizatriptan"
   },
   {
     id: 75,
     image: "",
-    question: "A medium-sized artery develops a 50 percent reduction in radius due to vasoconstriction. According to Poiseuille’s law, which of the following changes is most likely to occur if all other factors remain constant?",
+    question: "A 30-year-old patient on long-term Fluoxetine therapy is mistakenly prescribed Phenelzine by another physician. Within hours of the first dose, he presents to the emergency department with severe agitation, hyperreflexia, tremors, and autonomic instability. Which of the following agents is the specific antidote of choice for this life-threatening toxidrome?",
     options: [
-      "Resistance decreases to one-fourth",
-      "Resistance increases 16-fold",
-      "Flow increases 16-fold",
-      "Conductance increases 8-fold"
+      "Phentolamine",
+      "Dantrolene",
+      "Cyproheptadine",
+      "Bromocriptine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Resistance increases 16-fold"
+    answerIndex: 2,
+    correctAnswerText: "Cyproheptadine"
   },
   {
     id: 76,
     image: "",
-    question: "A dilated blood vessel has increased radius without a proportional increase in wall thickness. According to Laplace law, which of the following changes is most likely?",
+    question: "A 35-year-old female treated for severe depression develops bilateral breast discharge and resting tremors. Her physician suspects an adverse effect from her antidepressant, which uniquely possesses D2 receptor blocking activity. Which of the following is the most likely offending agent?",
     options: [
-      "Wall tension decreases",
-      "Wall tension remains unchanged",
-      "Wall tension increases",
-      "Resistance increases because radius has increased"
+      "Clomipramine",
+      "Doxepin",
+      "Amitriptyline",
+      "Amoxapine"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Wall tension increases"
+    answerIndex: 3,
+    correctAnswerText: "Amoxapine"
   },
   {
     id: 77,
     image: "",
-    question: "A 60-year-old man with long-standing hypertension is found to have a stiff aorta on vascular assessment. Compared with a healthy young adult, his aorta shows less change in volume for a given rise in pressure. Which of the following best describes this vascular property?",
+    question: "A 28-year-old female taking oral contraceptives presents with an unintended pregnancy. She reports strictly adhering to her pills but recently started an over-the-counter \"natural\" herbal medicine for mild depression. This supplement most likely caused therapeutic failure by acting as a microsomal enzyme inducer. Which of the following is the active ingredient of this supplement?",
     options: [
-      "Increased compliance",
-      "Decreased compliance",
-      "Increased conductance",
-      "Decreased Reynolds number"
+      "Hyperforin",
+      "Fluoxetine",
+      "Reserpine",
+      "Selegiline"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Decreased compliance"
+    answerIndex: 0,
+    correctAnswerText: "Hyperforin"
   },
   {
     id: 78,
     image: "",
-    question: "A pulse wave generated in the aorta reaches the radial artery later and often becomes sharper as it travels toward the periphery. Which of the following best explains why the pulse in smaller peripheral arteries is delayed relative to the aorta?",
+    question: "A 26-year-old female presents with severe postpartum depression. She is admitted for treatment with a novel antidepressant administered as a continuous intravenous infusion with a 60-hour half-life. What is the primary mechanism of action of this specific agent?",
     options: [
-      "Blood itself takes a long time to flow from the aorta to the radial artery",
-      "Peripheral arteries have lower resistance than the aorta",
-      "A pressure wave is transmitted progressively along the arterial wall",
-      "Capillary blood flow directly determines arterial pulse timing"
+      "NMDA receptor blockade",
+      "Neurosteroid GABA agonism",
+      "5HT reuptake enhancement",
+      "Presynaptic alpha-2 inhibition"
     ],
-    answerIndex: 2,
-    correctAnswerText: "A pressure wave is transmitted progressively along the arterial wall"
+    answerIndex: 1,
+    correctAnswerText: "Neurosteroid GABA agonism"
   },
   {
     id: 79,
     image: "",
-    question: "A healthy adult is undergoing cardiac catheterization. At the beginning of ventricular systole, both the atrioventricular and semilunar valves are closed, ventricular pressure rises rapidly, and ventricular volume remains constant. Which phase of the cardiac cycle is this?",
+    question: "A 32-year-old female managed on a mood stabilizer for bipolar disorder is brought to the emergency department with altered sensorium, coarse tremors, and ataxia. A stat serum drug level is ordered. For this specific drug, at what plasma concentration is hemodialysis strictly indicated?",
     options: [
-      "Rapid ventricular filling",
-      "Isovolumetric contraction",
-      "Rapid ejection",
-      "Isovolumetric relaxation"
+      "> 0.8 mEq/L",
+      "> 1.5 mEq/L",
+      "> 4 mEq/L",
+      "> 0.5 mEq/L"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Isovolumetric contraction"
+    answerIndex: 2,
+    correctAnswerText: "> 4 mEq/L"
   },
   {
     id: 80,
     image: "",
-    question: "A healthy young adult has a left ventricular end-diastolic volume (EDV) of 120 milliliters and an end-systolic volume (ESV) of 50 milliliters. What is the stroke volume?",
+    question: "A 40-year-old male is scheduled for a brief day-care surgical procedure. The anesthetist plans to use an opioid that allows for rapid recovery due to its ultra-short duration of action. Which of the following agents is the most appropriate choice?",
     options: [
-      "50 milliliters",
-      "60 milliliters",
-      "70 milliliters",
-      "120 milliliters"
+      "Fentanyl",
+      "Sufentanil",
+      "Alfentanil",
+      "Remifentanil"
     ],
-    answerIndex: 2,
-    correctAnswerText: "70 milliliters"
+    answerIndex: 3,
+    correctAnswerText: "Remifentanil"
   },
   {
     id: 81,
     image: "",
-    question: "A patient is found to have a mutation in the funny current (If) channel of sinoatrial nodal cells. Which phase of the pacemaker action potential is most directly affected by this abnormality?",
+    question: "A 55-year-old male presents to the emergency department with crushing chest pain and is diagnosed with an acute myocardial infarction. Which of the following opioids is strictly contraindicated for managing his chest pain due to its sympathetic stimulating action?",
     options: [
-      "Phase 0 depolarization",
-      "Phase 3 repolarization",
-      "Phase 4 spontaneous diastolic depolarization",
-      "Plateau phase"
+      "Pentazocine",
+      "Morphine",
+      "Buprenorphine",
+      "Butorphanol"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Phase 4 spontaneous diastolic depolarization"
+    answerIndex: 0,
+    correctAnswerText: "Pentazocine"
   },
   {
     id: 82,
     image: "",
-    question: "A patient develops complete atrioventricular block. Which part of the cardiac conducting system normally shows the slowest conduction velocity, thereby allowing time for ventricular filling before ventricular contraction?",
+    question: "A 65-year-old male on chronic high-dose morphine therapy for malignant pain develops severe, intractable constipation that is refractory to conventional laxatives. The physician decides to add an agent that targets the underlying mechanism without compromising the patient's central analgesia. Which of the following is the most appropriate drug?",
     options: [
-      "Sinoatrial node",
-      "Atrioventricular node",
-      "Purkinje fibers",
-      "Bundle branches"
+      "Naltrexone",
+      "Methylnaltrexone",
+      "Methadone",
+      "Buprenorphine"
     ],
     answerIndex: 1,
-    correctAnswerText: "Atrioventricular node"
+    correctAnswerText: "Methylnaltrexone"
   },
   {
     id: 83,
     image: "",
-    question: "A patient drinks a large volume of water rapidly, producing very dilute urine. In this setting, the free water clearance is most likely to be:",
+    question: "A 40-year-old man is brought to the emergency department with severe high-anion gap metabolic acidosis and profound blurring of vision after consuming illicit, homemade liquor. Which of the following is the specific antidote of choice to halt the progression of his ocular damage?",
     options: [
-      "Negative, because excess solute is excreted relative to water",
-      "Zero, because water excretion always equals solute excretion",
-      "Positive, because solute-free water is being excreted",
-      "Unchanged, because free water clearance depends only on glomerular filtration rate"
+      "Naloxone",
+      "Flumazenil",
+      "Fomepizole",
+      "N-acetylcysteine"
     ],
     answerIndex: 2,
-    correctAnswerText: "Positive, because solute-free water is being excreted"
+    correctAnswerText: "Fomepizole"
   },
   {
     id: 84,
     image: "",
-    question: "A cell at rest has a negative potential inside the cytoplasm relative to the extracellular fluid. This resting distribution of ions is influenced by intracellular non-diffusible proteins causing unequal distribution of diffusible ions across the membrane. Which of the following best explains this phenomenon?",
+    question: "A 45-year-old male with a long history of chronic alcohol dependence has successfully completed his acute detoxification phase. To help maintain abstinence and prevent relapse by modulating hyperactive glutamatergic pathways, his psychiatrist prescribes an agent that acts specifically as an NMDA receptor blocker. Which of the following drugs was most likely prescribed?",
     options: [
-      "Gibbs-Donnan effect",
-      "Facilitated diffusion",
-      "Secondary active transport",
-      "Simple osmosis"
+      "Disulfiram",
+      "Naltrexone",
+      "Baclofen",
+      "Acamprosate"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Gibbs-Donnan effect"
+    answerIndex: 3,
+    correctAnswerText: "Acamprosate"
   },
   {
     id: 85,
     image: "",
-    question: "A 24-year-old man has severe dehydration after acute gastroenteritis. His kidneys respond by increasing sodium and water conservation. Which of the following is the most important immediate renal change that helps increase tubular sodium reabsorption?",
+    question: "A 50-year-old obese male with type 2 diabetes and a recent history of myocardial infarction requires add-on therapy. His physician selects a subcutaneous agent that reduces appetite, decreases gastric emptying, and is specifically FDA-approved for obesity while also reducing the risk of cardiovascular death. Which of the following once-daily medications was most likely prescribed?",
     options: [
-      "Increased glomerular hydrostatic pressure causing increased sodium excretion",
-      "Increased filtration fraction raising peritubular capillary oncotic pressure",
-      "Decreased angiotensin II causing reduced proximal tubular sodium reabsorption",
-      "Decreased aldosterone causing reduced distal sodium reabsorption"
+      "Liraglutide",
+      "Albiglutide",
+      "Semaglutide",
+      "Repaglinide"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Increased filtration fraction raising peritubular capillary oncotic pressure"
+    answerIndex: 0,
+    correctAnswerText: "Liraglutide"
   },
   {
     id: 86,
     image: "",
-    question: "A patient with adrenal insufficiency develops salt wasting and volume depletion. Which of the following hormones normally acts on the distal nephron to increase epithelial sodium channel activity and sodium-potassium adenosine triphosphatase activity, thereby increasing sodium reabsorption?",
+    question: "A 45-year-old female on first-line oral therapy for Type 2 Diabetes Mellitus is scheduled for a contrast-enhanced CT scan. Her physician strictly advises withholding her antidiabetic medication one day prior to the procedure. What is the primary risk of continuing this specific drug during the scan, and which chronic vitamin deficiency is it most commonly associated with?",
     options: [
-      "Atrial natriuretic peptide",
-      "Aldosterone",
-      "Angiotensin II",
-      "Norepinephrine"
+      "Hepatotoxicity; Vitamin C deficiency",
+      "Nephrotoxicity; Vitamin B12 deficiency",
+      "Cardiotoxicity; Vitamin D deficiency",
+      "Neurotoxicity; Vitamin B6 deficiency"
     ],
     answerIndex: 1,
-    correctAnswerText: "Aldosterone"
+    correctAnswerText: "Nephrotoxicity; Vitamin B12 deficiency"
   },
   {
     id: 87,
     image: "",
-    question: "A healthy person has a substance in tubular fluid whose tubular fluid to plasma concentration ratio (TF/P ratio) falls rapidly toward zero in the proximal tubule because it is almost completely reabsorbed early. Which of the following substances best fits this description?",
+    question: "A 55-year-old diabetic male on oral hypoglycemic therapy presents with diminished vision and is diagnosed with macular edema. His physician identifies the offending drug, which acts primarily as a PPAR-gamma agonist. Which of the following pre-existing conditions is a strict contraindication for the use of this specific medication?",
     options: [
-      "Inulin",
-      "Para-aminohippuric acid",
-      "Glucose",
-      "Creatinine"
+      "Chronic kidney disease",
+      "Vitamin B12 deficiency",
+      "Moderate to severe heart failure",
+      "Hypertriglyceridemia"
     ],
     answerIndex: 2,
-    correctAnswerText: "Glucose"
+    correctAnswerText: "Moderate to severe heart failure"
   },
   {
     id: 88,
     image: "",
-    question: "A dehydrated patient has high antidiuretic hormone (ADH) levels. Which of the following nephron segments is normally impermeable to water and is therefore known as an important diluting segment?",
+    question: "A 58-year-old diabetic patient is prescribed a new oral hypoglycemic agent specifically to control his post-prandial blood glucose (PPBG). A week later, he returns complaining of severe flatulence, abdominal bloating, and diarrhea. What is the mechanism of action of the most likely offending drug?",
     options: [
-      "Descending limb of loop of Henle",
-      "Thick ascending limb of loop of Henle",
-      "Medullary collecting duct",
-      "Proximal convoluted tubule"
+      "Activation of PPAR- gamma receptors",
+      "Stimulation of insulin secretion",
+      "Decreased hepatic gluconeogenesis",
+      "Inhibition of polysaccharide breakdown"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Thick ascending limb of loop of Henle"
+    answerIndex: 3,
+    correctAnswerText: "Inhibition of polysaccharide breakdown"
   },
   {
     id: 89,
     image: "",
-    question: "A healthy adult has a mean arterial pressure that suddenly rises from 90 millimeters of mercury to 120 millimeters of mercury. Over a short range, the kidney maintains nearly constant renal blood flow and glomerular filtration rate despite this change. Which intrinsic renal mechanism is primarily responsible for this autoregulation by causing stretch-induced constriction of the afferent arteriole?",
+    question: "A 65-year-old diabetic female on oral hypoglycemic therapy sustains a low-trauma distal radius fracture. Review of her drug chart reveals an agent that specifically increases the risk of both bone fractures and lower extremity amputations. Which of the following drugs is most likely responsible?",
     options: [
-      "Tubuloglomerular feedback",
-      "Myogenic mechanism",
-      "Renin-angiotensin-aldosterone system",
-      "Sympathetic stimulation"
+      "Canagliflozin",
+      "Empagliflozin",
+      "Dapagliflozin",
+      "Pramlintide"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Myogenic mechanism"
+    answerIndex: 0,
+    correctAnswerText: "Canagliflozin"
   },
   {
     id: 90,
     image: "",
-    question: "A patient has a fall in renal perfusion pressure. The macula densa senses reduced sodium chloride delivery and triggers changes that help restore glomerular filtration rate. Which of the following combinations is most likely to occur?",
+    question: "A 25-year-old male with Type 1 Diabetes Mellitus is rushed to the emergency department with Kussmaul breathing, profound dehydration, and peaked T waves on his ECG. He is diagnosed with severe Diabetic Ketoacidosis (DKA) with concurrent hyperkalemia. Which of the following insulin preparations is specifically indicated for intravenous administration in this emergency setting?",
     options: [
-      "Afferent arteriolar constriction with decreased renin release",
-      "Afferent arteriolar dilation with increased renin release",
-      "Efferent arteriolar dilation with decreased filtration fraction",
-      "Afferent arteriolar constriction with increased adenosine release"
+      "Insulin Lispro",
+      "Regular insulin",
+      "NPH insulin",
+      "Insulin Degludec"
     ],
     answerIndex: 1,
-    correctAnswerText: "Afferent arteriolar dilation with increased renin release"
+    correctAnswerText: "Regular insulin"
   },
   {
     id: 91,
-    image: "",
-    question: "A healthy adult has a glomerular filtration rate (GFR) of 125 milliliters per minute and an effective renal plasma flow (RPF) of 625 milliliters per minute. What is the filtration fraction?",
+    image: "images/IMG_8875.jpeg",
+    question: "A 50-year-old male receiving chronic subcutaneous therapy for intractable carcinoid diarrhoea presents with severe right upper quadrant abdominal pain. An ultrasound confirms the presence of newly formed gallstones. Which of the following drugs is most likely responsible for this specific adverse effect?",
     options: [
-      "10 percent",
-      "20 percent",
-      "40 percent",
-      "80 percent"
+      "Loperamide",
+      "Diphenoxylate",
+      "Octreotide",
+      "Cholestyramine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "20 percent"
+    answerIndex: 2,
+    correctAnswerText: "Octreotide"
   },
   {
     id: 92,
     image: "",
-    question: "Which of the following proteins is most important for maintaining the slit diaphragm of podocytes in the glomerular filtration barrier?",
+    question: "A 6-year-old boy presents with severe short stature. Lab evaluation reveals elevated Growth Hormone (GH) but markedly low IGF-1 levels, consistent with Laron syndrome (GH insensitivity). Which of the following drugs is the definitive treatment for this condition, and what is its most critical adverse effect?",
     options: [
-      "Heparan sulfate",
-      "Nephrin",
-      "Collagen type I",
-      "Renin"
+      "Somatropin; Intracranial hypertension",
+      "Pegvisomant; Injection site hypertrophy",
+      "Tesamorelin; Hyperglycemia",
+      "Mecasermin; Hypoglycemia"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Nephrin"
+    answerIndex: 3,
+    correctAnswerText: "Mecasermin; Hypoglycemia"
   },
   {
     id: 93,
     image: "",
-    question: "A patient is brought to the emergency department after a generalized tonic-clonic seizure. During sleep staging later that night, the electroencephalogram shows a pattern of high-amplitude, low-frequency waves typical of deep sleep. Which of the following best describes this sleep stage?",
+    question: "A 26-year-old female presents at 8 weeks of gestation with weight loss, tremors, and a suppressed TSH. She is diagnosed with Graves' disease. To avoid teratogenic risks such as aplastic cutis and choanal atresia, which of the following is the safest antithyroid medication for her at this current stage?",
     options: [
-      "Rapid eye movement sleep with dreaming and muscle atonia",
-      "Non-rapid eye movement stage 3 with delta waves",
-      "Non-rapid eye movement stage 1 with theta waves",
-      "Awake relaxed state with alpha waves"
+      "Propylthiouracil (PTU)",
+      "Methimazole",
+      "Lugol's Iodine",
+      "Potassium Perchlorate"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Non-rapid eye movement stage 3 with delta waves"
+    answerIndex: 0,
+    correctAnswerText: "Propylthiouracil (PTU)"
   },
   {
     id: 94,
     image: "",
-    question: "A patient undergoes a sleep study and is found to have episodes of rapid eye movements, vivid dreaming, loss of muscle tone, irregular heart rate, and irregular respiration. Which of the following is the most likely diagnosis of this sleep phase?",
+    question: "A 50-year-old female with Graves' disease is evaluated for definitive management. She has significant ophthalmopathy and is currently planning for a family. Why is Radioiodine (131I) therapy inappropriate for this patient?",
     options: [
-      "Non-rapid eye movement stage 2 sleep",
-      "Non-rapid eye movement stage 3 sleep",
-      "Rapid eye movement sleep",
-      "Awake state with alpha rhythm"
+      "High risk of breast cancer",
+      "Radiation thyroiditis induction",
+      "Contraindicated in ophthalmopathy",
+      "Short half-life of 8 days"
     ],
     answerIndex: 2,
-    correctAnswerText: "Rapid eye movement sleep"
+    correctAnswerText: "Contraindicated in ophthalmopathy"
   },
   {
     id: 95,
     image: "",
-    question: "A neurologist taps the patellar tendon of a seated patient. The quadriceps contracts immediately through a monosynaptic spinal reflex. Which receptor and afferent fiber are primarily responsible for initiating this response?",
+    question: "A pregnant woman at 30 weeks of gestation is at high risk for preterm labor. The obstetrician plans to administer a long-acting corticosteroid to accelerate fetal lung maturity. Which of the following agents provides maximal glucocorticoid activity with absolutely zero mineralocorticoid activity?",
     options: [
-      "Golgi tendon organ with type Ib afferent fiber",
-      "Muscle spindle with type Ia afferent fiber",
-      "Muscle spindle with type II afferent fiber",
-      "Free nerve ending with type A-delta afferent fiber"
+      "Triamcinolone",
+      "Methylprednisolone",
+      "Betamethasone",
+      "Dexamethasone"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Muscle spindle with type Ia afferent fiber"
+    answerIndex: 3,
+    correctAnswerText: "Dexamethasone"
   },
   {
     id: 96,
     image: "",
-    question: "During a voluntary movement, both alpha and gamma motor neurons are activated together so that muscle spindles remain sensitive even while the muscle shortens. What is this mechanism called?",
+    question: "A patient requires potent anti-inflammatory therapy for an acute rheumatoid arthritis flare. Unlike NSAIDs, which specifically inhibit the cyclo-oxygenase pathway, steroids exert their potent anti-inflammatory effects by inhibiting which initial step in the inflammatory cascade?",
     options: [
-      "Reciprocal inhibition",
-      "Renshaw inhibition",
-      "Alpha-gamma coactivation",
-      "Clasp-knife reflex"
+      "Phospholipase A",
+      "Lipoxygenase",
+      "Cyclo-oxygenase",
+      "Thromboxane synthase"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Alpha-gamma coactivation"
+    answerIndex: 0,
+    correctAnswerText: "Phospholipase A"
   },
   {
     id: 97,
     image: "",
-    question: "A patient steps on a sharp pin and immediately feels a well-localized pricking pain, followed a moment later by a diffuse burning pain. Which of the following combinations best matches the pathway and neurotransmitter responsible for the first sensation?",
+    question: "A pregnant woman at 30 weeks of gestation is at high risk for preterm labor. To accelerate fetal lung maturity, which of the following is the correct intramuscular (i.m.) dosage regimen for Betamethasone?",
     options: [
-      "Paleospinothalamic pathway with C fibers using Substance P",
-      "Neospinothalamic pathway with A-delta fibers using glutamate",
-      "Dorsal column pathway with A-beta fibers using gamma-aminobutyric acid",
-      "Spinocerebellar pathway with C fibers using glycine"
+      "4 doses of 6 mg every 12h",
+      "2 doses of 12 mg every 24h",
+      "4 doses of 12 mg every 24h",
+      "2 doses of 6 mg every 12h"
     ],
     answerIndex: 1,
-    correctAnswerText: "Neospinothalamic pathway with A-delta fibers using glutamate"
+    correctAnswerText: "2 doses of 12 mg every 24h"
   },
   {
     id: 98,
     image: "",
-    question: "A 40-year-old man has loss of vibration sense and conscious proprioception in the right lower limb below a spinal cord lesion. Pain and temperature are preserved. Which of the following pathways is most likely affected?",
+    question: "A 60-year-old male with heart failure on long-term therapy presents with bilateral breast enlargement and tenderness. Which of the following drugs in his medication profile is the most likely culprit for this adverse effect?",
     options: [
-      "Spinothalamic tract",
-      "Dorsal column-medial lemniscus pathway",
-      "Spinocerebellar tract",
-      "Corticospinal tract"
+      "Atenolol",
+      "Hydrochlorothiazide",
+      "Spironolactone",
+      "Amlodipine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Dorsal column-medial lemniscus pathway"
+    answerIndex: 2,
+    correctAnswerText: "Spironolactone"
   },
   {
     id: 99,
     image: "",
-    question: "A patient with Parkinson disease is being taught about the major neurotransmitter pathways in the brain. Degeneration of neurons in a midbrain nucleus has reduced a neurotransmitter that is important for movement control. Which of the following neurotransmitter-nucleus pairs is correctly matched?",
+    question: "A 65-year-old postmenopausal woman on long-term alendronate therapy for osteoporosis presents with severe jaw pain and tooth loosening. Which of the following serious adverse effects is she most likely experiencing?",
     options: [
-      "Serotonin — Locus coeruleus",
-      "Dopamine — Substantia nigra",
-      "Norepinephrine — Median raphe nucleus",
-      "Glycine — Basal ganglia"
+      "Uveitis",
+      "Hypocalcemia",
+      "Renal impairment",
+      "Osteonecrosis of the jaw"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Dopamine — Substantia nigra"
+    answerIndex: 3,
+    correctAnswerText: "Osteonecrosis of the jaw"
   },
   {
     id: 100,
     image: "",
-    question: "A neuron releases a transmitter that is synthesized in the presynaptic terminal cytoplasm, packed into vesicles, and rapidly acts at the neuromuscular junction as well as in all preganglionic autonomic fibers. Which of the following neurotransmitters best fits this description?",
+    question: "A 55-year-old male with acute coronary syndrome is on clopidogrel and requires long-term PPI therapy. Which PPI is the safest choice to avoid therapeutic failure of his antiplatelet medication?",
     options: [
-      "Nitric oxide",
-      "Acetylcholine",
-      "Substance P",
-      "Endorphin"
+      "Pantoprazole",
+      "Omeprazole",
+      "Esomeprazole",
+      "Lansoprazole"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Acetylcholine"
+    answerIndex: 0,
+    correctAnswerText: "Pantoprazole"
   },
   {
     id: 101,
     image: "",
-    question: "A 32-year-old woman develops fluctuating ptosis and diplopia that worsen by evening. Repetitive use of muscles makes weakness more apparent, but strength improves transiently after rest. Which of the following is the most likely underlying defect?",
+    question: "A 45-year-old patient with chronic, treatment-refractory peptic ulcer disease is prescribed a novel H2 receptor antagonist. This specific agent promotes ulcer healing not only by reducing acid secretion but also by enhancing mucosal blood flow via nitric oxide production and stimulating mucus release. Which drug was prescribed?",
     options: [
-      "Antibodies against presynaptic voltage-gated calcium channels",
-      "Antibodies against postsynaptic nicotinic acetylcholine receptors",
-      "Destruction of T-SNARE proteins in inhibitory interneurons",
-      "Block of acetylcholinesterase at the neuromuscular junction"
+      "Cimetidine",
+      "Lafutidine",
+      "Famotidine",
+      "Nizatidine"
     ],
     answerIndex: 1,
-    correctAnswerText: "Antibodies against postsynaptic nicotinic acetylcholine receptors"
+    correctAnswerText: "Lafutidine"
   },
   {
     id: 102,
     image: "",
-    question: "A patient with small cell lung carcinoma develops proximal muscle weakness. Repetitive muscle use temporarily improves strength. The underlying antibodies most likely target which of the following structures?",
+    question: "A 65-year-old female taking over-the-counter antacids for chronic dyspepsia presents with confusion, lethargy, and polyuria. She mentions drinking several glasses of milk daily to help soothe her stomach. Laboratory investigations reveal severe hypercalcemia and worsening renal failure. Which of the following antacid ingredients is most likely responsible for her condition?",
     options: [
-      "Postsynaptic nicotinic acetylcholine receptor",
-      "Presynaptic voltage-gated calcium channel",
-      "Acetylcholinesterase enzyme in synaptic cleft",
-      "Ryanodine receptor in sarcoplasmic reticulum"
+      "Aluminum hydroxide",
+      "Magnesium hydroxide",
+      "Calcium carbonate",
+      "Sodium bicarbonate"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Presynaptic voltage-gated calcium channel"
+    answerIndex: 2,
+    correctAnswerText: "Calcium carbonate"
   },
   {
     id: 103,
     image: "",
-    question: "A skeletal muscle is stimulated repeatedly before it has completely relaxed from the previous contraction, causing a progressive rise in tension. Which of the following best describes this phenomenon?",
+    question: "A 45-year-old male with recurrent peptic ulcers tests positive for Helicobacter pylori. Due to high local macrolide resistance, his physician prescribes a standard 14-day quadruple therapy regimen. Which of the following drugs is a crucial component of this specific regimen?",
     options: [
-      "Complete tetanus",
-      "Incomplete summation",
-      "Isometric contraction",
-      "Refractory relaxation"
+      "Clarithromycin",
+      "Amoxicillin",
+      "Levofloxacin",
+      "Bismuth subsalicylate"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Incomplete summation"
+    answerIndex: 3,
+    correctAnswerText: "Bismuth subsalicylate"
   },
   {
     id: 104,
     image: "",
-    question: "A marathon runner’s calf biopsy shows fibers with high oxidative capacity, abundant myoglobin, small diameter, slow myosin adenosine triphosphatase activity, and marked resistance to fatigue. Which type of muscle fiber is most likely predominant?",
+    question: "A 25-year-old female prescribed a prokinetic drug for severe gastroesophageal reflux disease (GERD) presents to the emergency room with acute neck spasms and torticollis. Which of the following agents is most likely responsible for these extrapyramidal symptoms?",
     options: [
-      "Type I fiber",
-      "Type IIA fiber",
-      "Type IIB fiber",
-      "Type IIX glycolytic-only fiber"
+      "Metoclopramide",
+      "Domperidone",
+      "Ondansetron",
+      "Prucalopride"
     ],
     answerIndex: 0,
-    correctAnswerText: "Type I fiber"
+    correctAnswerText: "Metoclopramide"
   },
   {
     id: 105,
     image: "",
-    question: "A patient sustains a crush injury to a peripheral nerve. Distal to the site of injury, the axon and myelin degenerate, but the endoneurial tube remains intact, allowing a good chance of recovery. According to Seddon classification, which type of nerve injury is this?",
+    question: "A 26-year-old primigravida presents at 8 weeks of gestation complaining of severe, recurrent nausea and vomiting that predominantly occurs immediately upon waking up. Which of the following is the most appropriate first-line pharmacological therapy for this specific condition?",
     options: [
-      "Neurapraxia",
-      "Axonotmesis",
-      "Neurotmesis",
-      "Radiculopathy"
+      "Scopolamine",
+      "Doxylamine + Pyridoxine",
+      "Meclizine",
+      "Acetazolamide"
     ],
     answerIndex: 1,
-    correctAnswerText: "Axonotmesis"
+    correctAnswerText: "Doxylamine + Pyridoxine"
   },
   {
     id: 106,
     image: "",
-    question: "A developing sensory neuron takes up a target-derived growth factor by retrograde transport to its cell body, where it promotes survival and differentiation. Which of the following neurotrophins is most closely associated with survival of sympathetic neurons and pain sensory neurons?",
+    question: "A 40-year-old female with Constipation-predominant Irritable Bowel Syndrome (IBS-C) is prescribed a medication to improve her bowel habits. The chosen drug acts as a Guanylate cyclase-C (GC-C) agonist, leading to increased chloride-rich secretions in the intestinal lumen. Which of the following drugs was most likely prescribed?",
     options: [
-      "Brain-derived neurotrophic factor",
-      "Neurotrophin-3",
-      "Neurotrophin-4/5",
-      "Nerve growth factor"
+      "Lubiprostone",
+      "Tenapanor",
+      "Linaclotide",
+      "Prucalopride"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Nerve growth factor"
+    answerIndex: 2,
+    correctAnswerText: "Linaclotide"
   },
   {
     id: 107,
     image: "",
-    question: "A patient with severe hypocalcemia develops muscle cramps and increased neuromuscular irritability. Which of the following best explains the increase in membrane excitability in this condition?",
+    question: "A 35-year-old female with severe diarrhea-predominant irritable bowel syndrome (IBS-D) is prescribed a new medication. A few weeks later, she presents to the emergency department with acute, severe abdominal pain and bloody diarrhea. Colonoscopy confirms a diagnosis of ischemic colitis. Which of the following drugs is most likely responsible for this adverse event?",
     options: [
-      "Increased opening of voltage-gated sodium channels due to reduced threshold",
-      "Increased resting membrane potential due to more potassium efflux",
-      "Decreased sodium channel opening due to membrane stabilization",
-      "Increased chloride conductance causing hyperpolarization"
+      "Loperamide",
+      "Racecadotril",
+      "Cholestyramine",
+      "Alosetron"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Increased opening of voltage-gated sodium channels due to reduced threshold"
+    answerIndex: 3,
+    correctAnswerText: "Alosetron"
   },
   {
     id: 108,
     image: "",
-    question: "A myelinated peripheral nerve fiber is stimulated at one point. The action potential is regenerated only at the nodes of Ranvier, and conduction becomes much faster than in an unmyelinated fiber. Which of the following best describes this mechanism?",
+    question: "A 35-year-old male with severe, steroid-refractory ulcerative colitis requires targeted biological therapy. The gastroenterologist selects an integrin antagonist that specifically targets the alpha-4 & beta-7 receptors to prevent leukocyte migration exclusively into the intestinal mucosa. Which of the following drugs was most likely prescribed?",
     options: [
-      "Continuous conduction through every segment of membrane",
-      "Saltatory conduction with jumping of action potential from node to node",
-      "Electrotonic spread without regeneration",
-      "Retrograde conduction due to sodium channel inactivation"
+      "Vedolizumab",
+      "Natalizumab",
+      "Ustekinumab",
+      "Infliximab"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Saltatory conduction with jumping of action potential from node to node"
+    answerIndex: 0,
+    correctAnswerText: "Vedolizumab"
   },
   {
     id: 109,
     image: "",
-    question: "A young woman develops recurrent episodes of optic neuritis, sensory symptoms, and weakness. Magnetic resonance imaging shows multiple central nervous system demyelinating plaques. Which of the following cells are primarily responsible for forming myelin in the central nervous system and are therefore the main cells affected in this disorder?",
+    question: "A 60-year-old cancer patient on chronic morphine therapy develops severe, refractory constipation. Which of the following drugs can effectively relieve this targeted condition without compromising his central pain relief?",
     options: [
-      "Schwann cells",
-      "Oligodendrocytes",
-      "Astrocytes",
-      "Microglia"
+      "Loperamide",
+      "Methylnaltrexone",
+      "Naloxone",
+      "Linaclotide"
     ],
     answerIndex: 1,
-    correctAnswerText: "Oligodendrocytes"
+    correctAnswerText: "Methylnaltrexone"
   },
   {
     id: 110,
     image: "",
-    question: "A cutaneous sensory neuron carries a signal from skin to spinal cord through a pseudounipolar neuron. In this type of neuron, the site where the propagated action potential is most likely to begin is:",
+    question: "A 45-year-old male on active antiretroviral therapy for HIV develops chronic, non-infectious secretory diarrhea. Which of the following drugs, acting specifically as a CFTR inhibitor, is the indicated treatment for this adverse effect?",
     options: [
-      "Cell body in the dorsal root ganglion",
-      "Initial segment of the axon near the soma",
-      "First node of Ranvier",
-      "Dendritic receptor ending only"
+      "Octreotide",
+      "Telotristat",
+      "Crofelemer",
+      "Linaclotide"
     ],
     answerIndex: 2,
-    correctAnswerText: "First node of Ranvier"
+    correctAnswerText: "Crofelemer"
   },
   {
     id: 111,
     image: "",
-    question: "A 16-year-old boy is evaluated for delayed virilization. Which of the following hormones is secreted by Leydig cells of the testes in response to luteinizing hormone (LH)?",
+    question: "A 55-year-old male with severe COPD is maintained on oral theophylline. He presents to the emergency room with new-onset generalized epileptic seizures. Drug toxicity is suspected. Which of the following specific molecular mechanisms is responsible for this severe neurological adverse effect?",
     options: [
-      "Dihydrotestosterone",
-      "Testosterone",
-      "Estradiol",
-      "Inhibin B"
+      "Non-selective PDE inhibition",
+      "Activation of histone deacetylase-2",
+      "PDE-4 inhibition",
+      "Adenosine A1 receptor antagonism"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Testosterone"
+    answerIndex: 3,
+    correctAnswerText: "Adenosine A1 receptor antagonism"
   },
   {
     id: 112,
     image: "",
-    question: "A patient feels a specific sensory modality because stimulation travels through a particular afferent pathway to a corresponding sensory area in the brain. This concept is best described by which of the following?",
+    question: "A 12-year-old asthmatic child requires maintenance inhalational corticosteroid (ICS) therapy. To minimize local adverse effects like hoarseness, the pediatrician prescribes a specific \"soft steroid\" that functions as a prodrug and activates strictly in the lungs. Which of the following agents was prescribed?",
     options: [
-      "Law of projection",
-      "Labeled line principle",
-      "Lateral inhibition",
-      "Recruitment"
+      "Ciclesonide",
+      "Fluticasone",
+      "Budesonide",
+      "Beclomethasone"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Labeled line principle"
+    answerIndex: 0,
+    correctAnswerText: "Ciclesonide"
   },
   {
     id: 113,
-    image: "",
-    question: "A child presents with profuse watery diarrhea after consuming contaminated water. The toxin responsible acts by binding to which of the following receptors on intestinal epithelial cells?",
+    image: "images/IMG_8876.jpeg",
+    question: "A 35-year-old asthmatic patient on daily oral prophylactic therapy presents to the clinic with severe recurrent headaches, peripheral eosinophilia, and palpable skin purpura indicative of vasculitis. He is suspected to have developed Churg-Strauss Syndrome. Which of the following drugs is most likely responsible for this condition?",
     options: [
-      "Nicotinic acetylcholine receptor",
-      "GM1 ganglioside receptor",
-      "Epidermal growth factor receptor",
-      "GABA-A receptor"
+      "Zileuton",
+      "Montelukast",
+      "Budesonide",
+      "Theophylline"
     ],
     answerIndex: 1,
-    correctAnswerText: "GM1 ganglioside receptor"
+    correctAnswerText: "Montelukast"
   },
   {
     id: 114,
     image: "",
-    question: "A patient receiving chemotherapy develops repeated vomiting. Which of the following structures acts as the chemoreceptor trigger zone for vomiting?",
+    question: "A 42-year-old female presents with severe, refractory eosinophilic asthma. Her total serum IgE is within normal limits, but her absolute eosinophil count is markedly elevated. Which of the following monoclonal antibodies, acting as a specific Interleukin-5 (IL-5) blocker, is the most appropriate targeted therapy for this patient?",
     options: [
-      "Nucleus accumbens",
-      "Area postrema",
-      "Caudate nucleus",
-      "Substantia nigra"
+      "Omalizumab",
+      "Dupilumab",
+      "Mepolizumab",
+      "Tezepelumab"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Area postrema"
+    answerIndex: 2,
+    correctAnswerText: "Mepolizumab"
   },
   {
     id: 115,
     image: "",
-    question: "A 25-year-old man is asked during a physiology viva which receptor combination mediates the sensation of sweet taste. Which of the following is the correct answer?",
+    question: "A 25-year-old male is prescribed oral amoxicillin for a susceptible bacterial pharyngitis. This beta-lactam antibiotic exerts its bactericidal effect by directly inhibiting which of the following crucial steps in bacterial cell wall synthesis?",
     options: [
-      "T1R2 and T1R3",
-      "Epithelial sodium channel",
-      "T2R only",
-      "Metabotropic glutamate receptor 4"
+      "Synthesis of N-acetylmuramic acid (NAM)",
+      "Transport of precursors across the cell membrane",
+      "Elongation of the peptidoglycan polymer",
+      "Cross-linking of peptide chains via transpeptidase"
     ],
-    answerIndex: 0,
-    correctAnswerText: "T1R2 and T1R3"
+    answerIndex: 3,
+    correctAnswerText: "Cross-linking of peptide chains via transpeptidase"
   },
   {
     id: 116,
     image: "",
-    question: "A man starts a 100-meter sprint from rest. After the very small amount of immediately available adenosine triphosphate is exhausted, which of the following is the next most important immediate source of energy for muscle contraction?",
+    question: "A 65-year-old intubated patient in the intensive care unit develops ventilator-associated pneumonia. Sputum cultures yield heavy growth of both Pseudomonas aeruginosa and Klebsiella pneumoniae. Which of the following extended-spectrum penicillins is the most appropriate choice due to its specific coverage profile for both organisms?",
     options: [
-      "Beta oxidation of fatty acids",
-      "Oxidative phosphorylation",
-      "Phosphocreatine",
-      "Aerobic glycolysis"
+      "Piperacillin",
+      "Ticarcillin",
+      "Carbenicillin",
+      "Amoxicillin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Phosphocreatine"
+    answerIndex: 0,
+    correctAnswerText: "Piperacillin"
   },
   {
     id: 117,
     image: "",
-    question: "A 52-year-old woman with carcinoma breast is started on an anticancer drug that binds to beta-tubulin and stabilizes microtubules, thereby preventing their depolymerization. This causes mitotic arrest in the M phase of the cell cycle. Which of the following drugs is the best answer?",
+    question: "A patient undergoing colorectal surgery requires a 2nd-generation cephalosporin with specific activity against Bacteroides fragilis. Which of the following parenteral drugs is most appropriate?",
     options: [
-      "Vinblastine",
-      "Vincristine",
-      "Paclitaxel",
-      "Colchicine"
+      "Cefazolin",
+      "Cefoxitin",
+      "Cefuroxime",
+      "Ceftriaxone"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Paclitaxel"
+    answerIndex: 1,
+    correctAnswerText: "Cefoxitin"
   },
   {
     id: 118,
     image: "",
-    question: "A 22-year-old medical student is revising the composition and functions of the plasma membrane. He recalls that the membrane contains proteins, phospholipids, cholesterol, other lipids, and carbohydrates. Which of the following statements about the cell membrane is most accurate?",
+    question: "A 60-year-old intubated patient in the intensive care unit develops severe ventilator-associated pneumonia (VAP). Sputum cultures isolate a highly multi-drug resistant Gram-negative bacterium. Based on its specific spectrum of activity, which of the following novel cephalosporins is most appropriate for this patient?",
     options: [
-      "Phospholipids are the least abundant component and mainly act as receptors",
-      "Cholesterol decreases membrane fluidity and has no role in membrane permeability",
-      "Sphingolipids are derived from sphingosine, are abundant in neurons, and help in signal transmission",
-      "Carbohydrates are present only in free form and are not associated with lipids or proteins"
+      "Ceftobiprole",
+      "Ceftaroline",
+      "Cefiderocol",
+      "Ceftolozane/Tazobactam"
     ],
     answerIndex: 2,
-    correctAnswerText: "Sphingolipids are derived from sphingosine, are abundant in neurons, and help in signal transmission"
+    correctAnswerText: "Cefiderocol"
   },
   {
     id: 119,
     image: "",
-    question: "A 24-year-old man is asked about activation of pancreatic proteolytic enzymes in the small intestine. Which of the following zymogens is activated by trypsin?",
+    question: "A 55-year-old patient with chronic kidney disease receives a broad-spectrum atypical beta-lactam antibiotic for a severe intra-abdominal infection. He subsequently develops generalized seizures. Which of the following drugs, known for requiring strict dose reduction in renal disease due to this specific adverse effect, was most likely administered?",
     options: [
-      "Chymotrypsinogen",
-      "Pepsinogen",
-      "Prolipase",
-      "Progastrin"
+      "Meropenem",
+      "Ertapenem",
+      "Doripenem",
+      "Imipenem"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Chymotrypsinogen"
+    answerIndex: 3,
+    correctAnswerText: "Imipenem"
   },
   {
     id: 120,
     image: "",
-    question: "A 65-year-old postmenopausal woman with osteoporosis is treated with a monoclonal antibody that decreases osteoclast formation by acting like the natural decoy receptor produced by osteoblasts. Which of the following molecules normally functions as this decoy receptor?",
+    question: "A 65-year-old hospitalized patient develops severe, watery diarrhea after prolonged antibiotic therapy. Stool tests confirm Clostridioides difficile infection. The physician prescribes a targeted oral glycopeptide antibiotic to treat this pseudomembranous colitis. What is the precise mechanism of action of this specific drug?",
     options: [
-      "Receptor activator of nuclear factor kappa-B ligand",
-      "Osteoprotegerin",
-      "Macrophage colony-stimulating factor",
-      "Parathyroid hormone"
+      "Inhibits transglycosylase by binding D-ala D-ala",
+      "Inhibits transpeptidase via penicillin-binding proteins",
+      "Inhibits the 50S ribosomal subunit",
+      "Inhibits DNA gyrase replication"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Osteoprotegerin"
+    answerIndex: 0,
+    correctAnswerText: "Inhibits transglycosylase by binding D-ala D-ala"
   },
   {
     id: 121,
     image: "",
-    question: "A bright flash of light falls on a rod photoreceptor in the retina. Which of the following occurs immediately after activation of transducin?",
+    question: "A 45-year-old male is being treated with an oral antibiotic for a severe Vancomycin-Resistant Staphylococcus aureus (VRSA) infection. He presents to the emergency department with a sudden hypertensive crisis after consuming a meal rich in aged cheese and cured wine. Which of the following describes the mechanism of action of the drug most likely responsible for this reaction?",
     options: [
-      "Increase in cyclic guanosine monophosphate causing sodium channels to open",
-      "Activation of phosphodiesterase causing cyclic guanosine monophosphate to fall",
-      "Increased sodium influx producing depolarization",
-      "Increased neurotransmitter release from the photoreceptor"
+      "Inhibits cell wall synthesis by inhibiting transglycosylase",
+      "Binds with the 50S ribosome and inhibits protein synthesis",
+      "Binds with the 30S ribosome and inhibits protein synthesis",
+      "Inhibits DNA gyrase to prevent DNA replication"
     ],
     answerIndex: 1,
-    correctAnswerText: "Activation of phosphodiesterase causing cyclic guanosine monophosphate to fall"
+    correctAnswerText: "Binds with the 50S ribosome and inhibits protein synthesis"
   },
   {
     id: 122,
     image: "",
-    question: "A patient undergoes testing of cochlear function. Deflection of stereocilia of an inner hair cell toward the tallest stereocilium causes opening of mechanically gated cation channels. Which of the following is the immediate ionic event that produces depolarization of the hair cell?",
+    question: "A 50-year-old male is diagnosed with severe MRSA pneumonia. Which of the following highly effective anti-MRSA drugs is strictly contraindicated in this specific patient because it is inactivated at the site of infection?",
     options: [
-      "Sodium influx from perilymph into the apical end of the hair cell",
-      "Potassium influx from endolymph into the apical end of the hair cell",
-      "Chloride influx from endolymph into the basal end of the hair cell",
-      "Calcium efflux into endolymph through voltage-gated channels"
+      "Linezolid",
+      "Vancomycin",
+      "Daptomycin",
+      "Quinupristin-Dalfopristin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Potassium influx from endolymph into the apical end of the hair cell"
+    answerIndex: 2,
+    correctAnswerText: "Daptomycin"
   },
   {
     id: 123,
     image: "",
-    question: "A 22-year-old medical student is asked about inhibitory interneurons in the olfactory bulb. Which of the following cells are axonless inhibitory neurons that form dendrodendritic synapses and help produce lateral inhibition?",
+    question: "A 45-year-old patient is admitted with a severe complicated skin and soft tissue infection. Culture reveals Vancomycin-Resistant Staphylococcus aureus (VRSA). He is started on an intravenous antibiotic, Tigecycline. By which of the following mechanisms does this specific drug exert its antimicrobial effect?",
     options: [
-      "Mitral cells",
-      "Tufted cells",
-      "Granule cells",
-      "Olfactory receptor neurons"
+      "Inhibits cell wall synthesis by binding D-ala D-ala",
+      "Binds with the 50S ribosome to inhibit protein synthesis",
+      "Inhibits cell membrane integrity and causes depolarization",
+      "Binds with the 30S ribosome to inhibit protein synthesis"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Granule cells"
+    answerIndex: 3,
+    correctAnswerText: "Binds with the 30S ribosome to inhibit protein synthesis"
   },
   {
     id: 124,
     image: "",
-    question: "A child with normal hearing is asked about the neurotransmitter released from inner hair cells when they depolarize in response to sound. Which of the following is most likely released onto the afferent fibers of the cochlear nerve?",
+    question: "A 65-year-old hospitalized patient develops profuse, foul-smelling diarrhea. Stool analysis confirms a Clostridium difficile supra infection. Which of the following drug classes is most commonly implicated in precipitating this specific condition?",
     options: [
-      "Glycine",
-      "Glutamate",
-      "Gamma-aminobutyric acid",
-      "Acetylcholine"
+      "3rd Generation Cephalosporins",
+      "Aminoglycosides",
+      "Tetracyclines",
+      "Macrolides"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Glutamate"
+    answerIndex: 0,
+    correctAnswerText: "3rd Generation Cephalosporins"
   },
   {
     id: 125,
     image: "",
-    question: "A retinal histology slide is being discussed in class. The teacher asks which structure is present in the outer segment rather than the inner segment of a photoreceptor. Which of the following is the correct answer?",
+    question: "A patient with severe thermal burns is treated with a topical sulfonamide to prevent Pseudomonas infection. He subsequently develops rapid breathing and metabolic acidosis. Which drug was most likely applied?",
     options: [
-      "Golgi apparatus",
-      "Endoplasmic reticulum",
-      "Mitochondria",
-      "Membranous discs"
+      "Silver sulfadiazine",
+      "Mefanide",
+      "Sulfacetamide",
+      "Sulfadoxine"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Membranous discs"
+    answerIndex: 1,
+    correctAnswerText: "Mefanide"
   },
   {
     id: 126,
     image: "",
-    question: "A 26-year-old man is evaluated for persistent hypertension. Investigations show low plasma renin activity and excess autonomous aldosterone secretion from the adrenal cortex. Which of the following findings is most likely present in this patient?",
+    question: "A 26-year-old primigravida presents with fever and cervical lymphadenopathy. Serological testing confirms an acute maternal Toxoplasma gondii infection. To prevent transmission of the parasite to the developing fetus, which of the following is the drug of choice?",
     options: [
-      "Hyperkalemia with metabolic acidosis",
-      "Hypotension with high renin levels",
-      "Hypokalemia with metabolic alkalosis",
-      "Hyponatremia with dehydration"
+      "Sulfadoxine + Pyrimethamine",
+      "Sulfadiazine + Pyrimethamine + Folinic acid",
+      "Spiramycin",
+      "Silver sulfadiazine"
     ],
     answerIndex: 2,
-    correctAnswerText: "Hypokalemia with metabolic alkalosis"
+    correctAnswerText: "Spiramycin"
   },
   {
     id: 127,
     image: "",
-    question: "An 18-year-old boy presents with excessive thirst and passage of large volumes of dilute urine. Laboratory evaluation shows hypernatremia and a very low urine osmolality. His free water clearance is increased. Which of the following is the most likely diagnosis?",
+    question: "A 35-year-old HIV-positive male presents with progressive dyspnea and bilateral interstitial infiltrates. Sputum evaluation confirms Pneumocystis jirovecii pneumonia. He is prescribed a bactericidal fixed-dose combination drug. What is the precise mechanism of action of the trimethoprim component of this therapy?",
     options: [
-      "Diabetes insipidus",
-      "Diabetes mellitus",
-      "Congestive heart failure",
-      "Renal failure"
+      "Inhibits folic acid synthase",
+      "Competes directly with PABA",
+      "Inhibits thymidylate synthase",
+      "Inhibits dihydrofolate reductase"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Diabetes insipidus"
+    answerIndex: 3,
+    correctAnswerText: "Inhibits dihydrofolate reductase"
   },
   {
     id: 128,
     image: "",
-    question: "A fatty meal enters the duodenum and stimulates release of cholecystokinin. Which of the following is NOT an action of cholecystokinin?",
+    question: "A 45-year-old male with a suspected Bacteroides fragilis intra-abdominal abscess is incorrectly started on monotherapy with an aminoglycoside. The therapy fails because aminoglycosides are intrinsically inactive against anaerobes. What is the molecular basis for this resistance?",
     options: [
-      "Contraction of gallbladder",
-      "Increased enzyme-rich pancreatic secretion",
-      "Increased gastric acid secretion",
-      "Relaxation of the sphincter of Oddi"
+      "Intracellular transport of the drug is strictly oxygen-dependent",
+      "Anaerobes lack the 30S ribosomal target subunit",
+      "Anaerobes constitutively produce drug-acetylating enzymes",
+      "The drug cannot penetrate the thick peptidoglycan cell wall"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Increased gastric acid secretion"
+    answerIndex: 0,
+    correctAnswerText: "Intracellular transport of the drug is strictly oxygen-dependent"
   },
   {
     id: 129,
     image: "",
-    question: "A patient is asked about short-chain fatty acids formed in the large intestine. Which of the following statements about short-chain fatty acids is NOT correct?",
+    question: "A 14-year-old male with cystic fibrosis is being evaluated for targeted molecular therapy. To address the underlying pathophysiology by directly activating the defective chloride channels, which of the following agents should be prescribed?",
     options: [
-      "They are produced in the colon by bacterial fermentation of resistant starch and dietary fiber",
-      "Acetate is the most abundant short-chain fatty acid",
-      "They are absorbed in the colon",
-      "They are absorbed mainly by a sodium–short-chain fatty acid cotransporter"
+      "Tobramycin",
+      "Ivacaftor",
+      "Dornase alfa",
+      "N-acetylcysteine"
     ],
-    answerIndex: 3,
-    correctAnswerText: "They are absorbed mainly by a sodium–short-chain fatty acid cotransporter"
+    answerIndex: 1,
+    correctAnswerText: "Ivacaftor"
   },
   {
     id: 130,
     image: "",
-    question: "A healthy person eats a large meal, yet the intragastric pressure rises only minimally despite marked filling of the stomach. Which of the following best explains this phenomenon?",
+    question: "A patient receiving intraperitoneal aminoglycoside lavage during abdominal surgery suddenly develops acute respiratory paralysis. This is a known consequence of aminoglycoside-induced neuromuscular blockade. Which of the following is the definitive intravenous antidote to reverse this specific toxicity?",
     options: [
-      "Peristalsis",
-      "Gastroileal reflex",
-      "Segmentation",
-      "Receptive relaxation"
+      "Potassium chloride",
+      "Neostigmine",
+      "Calcium gluconate",
+      "Magnesium sulfate"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Receptive relaxation"
+    answerIndex: 2,
+    correctAnswerText: "Calcium gluconate"
   },
   {
     id: 131,
     image: "",
-    question: "A 3-year-old child aspirates a small round object that completely blocks the left main bronchus. Which of the following is the most likely consequence in the affected lung?",
+    question: "A 42-year-old male presenting with severe renal failure is diagnosed with Scrub typhus (Orientia tsutsugamushi) after a characteristic eschar is found on his trunk. Which of the following tetracyclines is the safest drug of choice for treating this infection because it is excreted primarily via bile rather than the kidneys?",
     options: [
-      "Ventilation-perfusion ratio becomes zero",
-      "Ventilation-perfusion ratio becomes infinite",
-      "Alveolar gas becomes similar to inspired air",
-      "Alveolar partial pressure of oxygen increases"
+      "Tetracycline",
+      "Oxytetracycline",
+      "Demeclocycline",
+      "Doxycycline"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Ventilation-perfusion ratio becomes zero"
+    answerIndex: 3,
+    correctAnswerText: "Doxycycline"
   },
   {
     id: 132,
     image: "",
-    question: "A lesion study is being discussed in physiology class. Which of the following is most likely to completely abolish spontaneous respiration?",
+    question: "A pregnant patient inadvertently receives an inappropriate antibiotic and subsequently delivers a neonate with depressed bone growth and permanent dental staining. Which of the following severe complications was the mother most at risk of developing from this specific drug?",
     options: [
-      "Transection of the brainstem above the pons",
-      "Transection of the brainstem at the caudal end of the medulla",
-      "Bilateral vagotomy",
-      "Bilateral vagotomy with transection at the superior border of the pons"
+      "Hepatotoxicity",
+      "Nephrogenic diabetes insipidus",
+      "Peripheral neuropathy",
+      "Aplastic anemia"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Transection of the brainstem at the caudal end of the medulla"
+    answerIndex: 0,
+    correctAnswerText: "Hepatotoxicity"
   },
   {
     id: 133,
-    image: "",
-    question: "A 30-year-old man with a small lesion involving the corticospinal tract still retains some gross voluntary movements because another descending motor pathway partly substitutes for cortical output. Which of the following structures serves as this alternate pathway for signals from the motor cortex?",
+    image: "images/IMG_8877.jpeg",
+    question: "A premature neonate treated with chloramphenicol develops progressive cyanosis and vasomotor collapse. This specific toxicity occurs primarily due to a deficiency of which of the following enzymes?",
     options: [
-      "Thalamus",
-      "Red nucleus",
-      "Basilar pontine nuclei",
-      "Caudate nucleus"
+      "Acetyltransferase",
+      "Glucuronyl transferase",
+      "Glucose-6-phosphate dehydrogenase",
+      "Peptidyl transferase"
     ],
     answerIndex: 1,
-    correctAnswerText: "Red nucleus"
+    correctAnswerText: "Glucuronyl transferase"
   },
   {
     id: 134,
     image: "",
-    question: "A comatose patient shows decorticate posturing after a cerebral insult. Which of the following statements is NOT a physiological basis of decorticate posturing?",
+    question: "A 35-year-old HIV-positive male with a CD4 count of 40 cells/mm³ requires routine antimicrobial prophylaxis to prevent disseminated Mycobacterium avium complex (MAC) infection. Which of the following broad-spectrum agents is the drug of choice for this indication?",
     options: [
-      "Dominance of excitatory reticulospinal influences producing extensor rigidity in the lower limbs",
-      "Rubrospinal facilitation of flexor muscles in the upper limbs",
-      "Spasticity occurs due to facilitation of the gamma loop",
-      "Spasticity occurs due to inhibition of the gamma loop"
+      "Isoniazid",
+      "Fluconazole",
+      "Azithromycin",
+      "Cotrimoxazole"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Spasticity occurs due to inhibition of the gamma loop"
+    answerIndex: 2,
+    correctAnswerText: "Azithromycin"
   },
   {
     id: 135,
     image: "",
-    question: "A 25-year-old medical student is asked about the functional difference between cortical nephrons and juxtamedullary nephrons. Which of the following is the most important function of juxtamedullary nephrons?",
+    question: "A 45-year-old male with a confirmed duodenal ulcer and a positive urea breath test is prescribed standard first-line triple therapy. Which of the following macrolide antibiotics is the essential cornerstone of this specific eradication regimen?",
     options: [
-      "Formation and excretion of waste products only",
-      "Concentration of urine",
-      "Glomerular filtration without tubular reabsorption",
-      "Secretion of erythropoietin"
+      "Erythromycin",
+      "Spiramycin",
+      "Azithromycin",
+      "Clarithromycin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Concentration of urine"
+    answerIndex: 3,
+    correctAnswerText: "Clarithromycin"
   },
   {
     id: 136,
     image: "",
-    question: "A healthy young man performs prolonged dynamic exercise for one hour. Blood flow is redistributed to support active tissues and thermoregulation. Which of the following structures shows the maximum increase in blood flow during exercise?",
+    question: "A 3-week-old neonate, recently treated with an antibiotic for pertussis prophylaxis, is brought to the emergency department with severe projectile, non-bilious vomiting. Abdominal examination reveals a palpable olive-shaped mass. Which of the following drugs is most strongly associated with this specific complication?",
     options: [
-      "Kidney",
-      "Intestine",
-      "Exercising skeletal muscles",
-      "Non-exercising muscles"
+      "Erythromycin",
+      "Chloramphenicol",
+      "Cotrimoxazole",
+      "Gentamicin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Exercising skeletal muscles"
+    answerIndex: 0,
+    correctAnswerText: "Erythromycin"
   },
   {
     id: 137,
     image: "",
-    question: "During the cardiac cycle, which of the following occurs immediately after the first heart sound?",
+    question: "A 55-year-old asthmatic patient on chronic theophylline therapy develops typhoid fever and is started on ciprofloxacin. He shortly presents to the emergency department with new-onset generalized seizures. What is the primary pharmacokinetic basis for this specific presentation?",
     options: [
-      "a wave of jugular venous pulse",
-      "c wave of jugular venous pulse",
-      "v wave of jugular venous pulse",
-      "Second heart sound"
+      "Rapid induction of theophylline metabolism",
+      "Inhibition of microsomal enzymes by ciprofloxacin",
+      "Direct central nervous system toxicity of ciprofloxacin",
+      "Displacement of theophylline from plasma proteins"
     ],
     answerIndex: 1,
-    correctAnswerText: "c wave of jugular venous pulse"
+    correctAnswerText: "Inhibition of microsomal enzymes by ciprofloxacin"
   },
   {
     id: 138,
     image: "",
-    question: "A child with a space-occupying intracranial lesion develops marked rise in intracranial pressure (ICP). Which of the following is the most likely associated finding?",
+    question: "A 45-year-old male on first-line anti-tubercular therapy presents with clinical jaundice and elevated liver enzymes. Which of the following specific metabolites is directly responsible for the hepatotoxicity caused by the drug that inhibits mycolic acid synthesis?",
     options: [
-      "Hypotension with tachycardia",
-      "Hypertension with bradycardia",
-      "Hypotension with bradycardia",
-      "Hypertension with tachycardia"
+      "Pyrazinoic acid",
+      "Isonicotinic acid",
+      "Acetyl hydrazine",
+      "Desacetyl rifampicin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hypertension with bradycardia"
+    answerIndex: 2,
+    correctAnswerText: "Acetyl hydrazine"
   },
   {
     id: 139,
     image: "",
-    question: "Which part of the nephron is the major site for antidiuretic hormone (ADH)-dependent urea permeability, helping in medullary hyperosmolarity?",
+    question: "A patient undergoing treatment for active pulmonary tuberculosis remains sputum smear-positive after 2 months of intensive phase therapy. Molecular testing of the Mycobacterium tuberculosis isolate reveals a high-level mutation in the rpoB gene. This specific genetic alteration directly confers resistance to which of the following antimycobacterial agents?",
     options: [
-      "Thick ascending limb of loop of Henle",
-      "Distal convoluted tubule",
-      "Cortical collecting duct",
-      "Inner medullary collecting duct"
+      "Isoniazid",
+      "Pyrazinamide",
+      "Ethambutol",
+      "Rifampicin"
     ],
     answerIndex: 3,
-    correctAnswerText: "Inner medullary collecting duct"
+    correctAnswerText: "Rifampicin"
   },
   {
     id: 140,
     image: "",
-    question: "A young anxious patient develops rapid deep breathing before a minor procedure and soon complains of tingling around the mouth, carpopedal spasm, and muscle twitching. Which of the following is the most likely mechanism?",
+    question: "A 40-year-old male being treated for active pulmonary tuberculosis develops acute, severe pain and swelling in his right first metatarsophalangeal joint. The anti-tubercular drug most likely responsible for this specific adverse effect is a prodrug. Resistance to this medication primarily develops due to a mutation in which of the following mycobacterial genes?",
     options: [
-      "Increase in ionized calcium due to acidosis",
-      "Decrease in ionized calcium due to increased calcium binding to albumin",
-      "Increase in total body calcium due to hyperventilation",
-      "Decrease in sodium channel excitability due to hypercalcemia"
+      "pncA",
+      "rpoB",
+      "katG",
+      "embB"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Decrease in ionized calcium due to increased calcium binding to albumin"
+    answerIndex: 0,
+    correctAnswerText: "pncA"
   },
   {
     id: 141,
     image: "",
-    question: "Which of the following muscle proteins primarily covers the active sites on actin rather than acting as a structural attachment protein?",
+    question: "A 30-year-old patient with multi-drug resistant tuberculosis (MDR-TB) is initiated on a regimen including Bedaquiline. To maximize the therapeutic efficacy and bioavailability of this agent, what is the crucial instruction regarding its administration?",
     options: [
-      "Titin",
-      "Desmin",
-      "Alpha-actinin",
-      "Tropomyosin"
+      "Administer on an empty stomach",
+      "Administer with food",
+      "Administer with high-calcium supplements",
+      "Administer only via intravenous infusion"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Tropomyosin"
+    answerIndex: 1,
+    correctAnswerText: "Administer with food"
   },
   {
     id: 142,
-    image: "",
-    question: "A 24-year-old medical student is undergoing a physiology viva. The examiner asks which ion contributes most to the resting membrane potential of a typical neuron. The student recalls that at rest, the membrane is far more permeable to one specific ion because of abundant leak channels. Which of the following is the most important ion responsible for establishing the resting membrane potential?",
+    image: "images/IMG_8881.jpeg",
+    question: "A patient with lepromatous leprosy develops painful subcutaneous nodules, fever, and arthralgia. Histopathology reveals immune complex deposition (Type III hypersensitivity). Which of the following agents used in this reaction is strictly contraindicated in pregnancy due to profound teratogenicity?",
     options: [
-      "Sodium (Na+)",
-      "Potassium (K+)",
-      "Calcium (Ca2+)",
-      "Chloride (Cl−)"
+      "Prednisone",
+      "Clofazimine",
+      "Thalidomide",
+      "Chloroquine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Potassium (K+)"
+    answerIndex: 2,
+    correctAnswerText: "Thalidomide"
   },
   {
     id: 143,
     image: "",
-    question: "A 62-year-old right-handed man suddenly develops non-fluent, effortful speech after an ischemic stroke. He understands spoken commands well and follows them appropriately, but he is unable to produce fluent language. The lesion most likely involves a cortical region in the dominant hemisphere supplied by the superior division of the middle cerebral artery. Which of the following functional areas is most likely affected?",
+    question: "A patient with multi-drug resistant HIV requires an oral viral entry inhibitor that prevents the attachment of viral gp120 to the CD4 cell. Which of the following agents is the appropriate choice?",
     options: [
-      "Broca’s area",
-      "Wernicke’s area",
-      "Primary auditory cortex",
-      "Primary visual cortex"
+      "Enfuvirtide",
+      "Maraviroc",
+      "Ibalizumab",
+      "Fostemsavir"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Broca’s area"
+    answerIndex: 3,
+    correctAnswerText: "Fostemsavir"
   },
   {
     id: 144,
     image: "",
-    question: "A 48-year-old man is being examined for elevated jugular venous pressure. On inspection of the internal jugular venous pulse, the examiner identifies a prominent positive wave occurring during venous filling of the right atrium when the tricuspid valve remains closed. Which of the following best represents this wave?",
+    question: "A 30-year-old male with HIV is initiated on a new antiretroviral regimen. Which of the following agents requires mandatory genetic screening for the HLA-B*5701 allele prior to initiation to avoid a severe, potentially fatal hypersensitivity reaction?",
     options: [
-      "a wave",
-      "c wave",
-      "v wave",
-      "y descent"
+      "Abacavir",
+      "Tenofovir",
+      "Lamivudine",
+      "Zidovudine"
     ],
-    answerIndex: 2,
-    correctAnswerText: "v wave"
+    answerIndex: 0,
+    correctAnswerText: "Abacavir"
   },
   {
     id: 145,
     image: "",
-    question: "A 2-year-old child is brought to the emergency department with acute watery diarrhea and mild dehydration. The physician advises oral rehydration solution because intestinal sodium and glucose co-transport remains preserved even during most diarrheal illnesses. Which of the following transporters located on the apical membrane of enterocytes is primarily responsible for this mechanism?",
+    question: "A 32-year-old HIV-positive patient initiated on a new antiretroviral regimen presents with severe sleep disturbances, vivid dreams, and bizarre behavioral changes. Which of the following NNRTIs is the most likely cause of these neuropsychiatric symptoms?",
     options: [
-      "Sodium-glucose linked transporter 1 (SGLT1)",
-      "Glucose transporter 2 (GLUT2)",
-      "Sodium-glucose linked transporter 2 (SGLT2)",
-      "Glucose transporter 4 (GLUT4)"
+      "Efavirenz",
+      "Nevirapine",
+      "Rilpivirine",
+      "Etravirine"
     ],
     answerIndex: 0,
-    correctAnswerText: "Sodium-glucose linked transporter 1 (SGLT1)"
+    correctAnswerText: "Efavirenz"
   },
   {
     id: 146,
     image: "",
-    question: "A 45-year-old man undergoes above-elbow amputation of his left upper limb after a traumatic injury. Several months later, he complains of severe pain that he clearly localizes to the absent hand and fingers. Functional neuroimaging demonstrates cortical remapping in the primary somatosensory cortex. Which of the following findings is most likely to be seen?",
+    question: "Which of the following HIV integrase inhibitors requires co-administration with Cobicistat to achieve effective pharmacokinetic boosting?",
     options: [
-      "The cortical area representing adjacent body parts expands into the region that previously represented the amputated hand",
-      "The cortical representation of the amputated hand remains unchanged because peripheral nerves have been severed",
-      "The ipsilateral primary somatosensory cortex becomes hyperactive and takes over perception of the missing limb",
-      "The entire primary motor cortex undergoes uniform enlargement on the side opposite the amputation"
+      "Raltegravir",
+      "Elvitegravir",
+      "Dolutegravir",
+      "Bictegravir"
     ],
-    answerIndex: 0,
-    correctAnswerText: "The cortical area representing adjacent body parts expands into the region that previously represented the amputated hand"
+    answerIndex: 1,
+    correctAnswerText: "Elvitegravir"
   },
   {
     id: 147,
     image: "",
-    question: "A 32-year-old woman is being evaluated for hyperthyroidism. Her endocrinologist explains that the first step in thyroid hormone synthesis is active uptake of iodide from the bloodstream into the thyroid follicular cell across its basolateral membrane. Which of the following transporters is responsible for this step?",
+    question: "A healthcare worker sustains a high-risk needle-stick injury from an HIV-positive patient. What is the recommended duration and maximum time window for initiating the standard PEP regimen (Tenofovir + Emtricitabine + Dolutegravir)?",
     options: [
-      "Pendrin",
-      "Sodium-iodide symporter",
-      "Thyroid peroxidase",
-      "Monocarboxylate transporter 8"
+      "2 weeks; within 48 hours",
+      "6 weeks; within 24 hours",
+      "4 weeks; within 72 hours",
+      "8 weeks; within 96 hours"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Sodium-iodide symporter"
+    answerIndex: 2,
+    correctAnswerText: "4 weeks; within 72 hours"
   },
   {
     id: 148,
     image: "",
-    question: "A 26-year-old postgraduate student consumes multiple cups of coffee at night to stay awake while studying for an examination. He notices delayed sleep onset and reduced sleepiness despite physical fatigue. The stimulant effect of caffeine is primarily due to which of the following mechanisms?",
+    question: "A patient receiving intravenous amphotericin B for invasive mucormycosis develops high fever, rigors, and chills shortly after infusion. Which prophylactic agent should be administered prior to the next dose to prevent this classic infusion-related reaction?",
     options: [
-      "Blockade of adenosine receptors in the central nervous system",
-      "Direct stimulation of gamma-aminobutyric acid receptors in the hypothalamus",
-      "Increased secretion of melatonin from the pineal gland",
-      "Activation of histamine H1 receptors causing sedation"
+      "Potassium chloride",
+      "Epoetin alfa",
+      "Sodium bicarbonate",
+      "Hydrocortisone"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Blockade of adenosine receptors in the central nervous system"
+    answerIndex: 3,
+    correctAnswerText: "Hydrocortisone"
   },
   {
     id: 149,
     image: "",
-    question: "A 29-year-old woman presents with recurrent episodes of blurred vision, limb weakness, and tingling sensations that improve partially over time. Magnetic resonance imaging shows multiple demyelinating plaques in the periventricular white matter of the central nervous system. The primary cell type damaged in this disease is responsible for formation of which of the following?",
+    question: "A 65-year-old patient with a history of chronic heart failure is diagnosed with pulmonary blastomycosis. Which of the following antifungal agents is strictly contraindicated in this patient due to its potent negative inotropic effect and risk of exacerbating heart failure?",
     options: [
-      "Myelin in the central nervous system",
-      "Myelin in the peripheral nervous system",
-      "Cerebrospinal fluid lining of the ventricles",
-      "Phagocytic immune defense within neural tissue"
+      "Itraconazole",
+      "Fluconazole",
+      "Voriconazole",
+      "Posaconazole"
     ],
     answerIndex: 0,
-    correctAnswerText: "Myelin in the central nervous system"
+    correctAnswerText: "Itraconazole"
   },
   {
     id: 150,
     image: "",
-    question: "A 21-year-old man receives a beta-2 adrenergic agonist during an acute asthma exacerbation. Soon after administration, his blood glucose rises because the receptor activates a stimulatory G protein pathway in hepatocytes, increasing intracellular cyclic adenosine monophosphate and promoting glycogenolysis. Which of the following enzymes is directly activated by this receptor signaling pathway?",
+    question: "A patient with chronic dermatophytosis is started on oral Griseofulvin therapy. Which of the following statements regarding the pharmacology of this drug is correct?",
     options: [
-      "Adenylyl cyclase",
-      "Guanylyl cyclase",
-      "Phospholipase C",
-      "Tyrosine kinase"
+      "Requires a low-fat diet to prevent toxicity",
+      "Acts as a potent cytochrome P450 enzyme inducer",
+      "Inhibits fungal ergosterol synthesis",
+      "Common dose-limiting toxicity is nephrotoxicity"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Adenylyl cyclase"
+    answerIndex: 1,
+    correctAnswerText: "Acts as a potent cytochrome P450 enzyme inducer"
   },
   {
     id: 151,
     image: "",
-    question: "A toxin selectively blocks voltage-gated calcium channels at the presynaptic terminal of the neuromuscular junction. Which of the following events will occur first after a normal nerve action potential reaches the motor nerve terminal in an unaffected neuromuscular junction?",
+    question: "A patient with Rheumatoid Arthritis on long-term treatment with chloroquine presents for a routine check-up. Which of the following specific ocular adverse effects necessitates periodic screening in this patient?",
     options: [
-      "Opening of ligand-gated sodium channels on the motor end plate",
-      "Release of acetylcholine into the synaptic cleft",
-      "Entry of calcium into the presynaptic nerve terminal",
-      "Generation of a muscle action potential"
+      "Nephrotoxicity",
+      "Cinchonism",
+      "Bull's eye maculopathy",
+      "Ototoxicity"
     ],
     answerIndex: 2,
-    correctAnswerText: "Entry of calcium into the presynaptic nerve terminal"
+    correctAnswerText: "Bull's eye maculopathy"
   },
   {
     id: 152,
     image: "",
-    question: "A 27-year-old woman presents with galactorrhea, irregular menstrual cycles, and inability to conceive for 1 year. Serum prolactin is markedly elevated, and magnetic resonance imaging reveals a pituitary microadenoma. The infertility in this patient is most likely due to which of the following?",
+    question: "A patient with cerebral malaria is initiated on artesunate. Which of the following is the primary pharmacological rationale for using Artemisinin-based Combination Therapy (ACT) instead of monotherapy?",
     options: [
-      "Increased pulsatile release of gonadotropin-releasing hormone from the hypothalamus",
-      "Suppression of gonadotropin-releasing hormone secretion leading to anovulation",
-      "Direct stimulation of luteinizing hormone surge by prolactin",
-      "Increased follicle-stimulating hormone secretion causing luteal phase defect"
+      "To minimize reversible leucopenia",
+      "To prevent recrudescence due to short half-life",
+      "To overcome multidrug resistance solely",
+      "To enhance CNS penetration"
     ],
     answerIndex: 1,
-    correctAnswerText: "Suppression of gonadotropin-releasing hormone secretion leading to anovulation"
+    correctAnswerText: "To prevent recrudescence due to short half-life"
   },
   {
     id: 153,
     image: "",
-    question: "A 58-year-old man with atrial fibrillation is started on warfarin therapy. The drug interferes with the post-translational gamma-carboxylation of glutamate residues required for calcium binding by certain coagulation factors. Which of the following factors will be most directly affected by this mechanism?",
+    question: "A 25-year-old patient is incidentally found to have Entamoeba histolytica cysts in their stool during a routine check-up. The patient is completely asymptomatic. What is the preferred drug for this specific condition?",
     options: [
-      "Factor IX",
-      "Factor V",
-      "Factor VIII",
-      "Factor XII"
+      "Metronidazole",
+      "Tinidazole",
+      "Diloxanide furoate",
+      "Emetine"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Factor IX"
+    answerIndex: 2,
+    correctAnswerText: "Diloxanide furoate"
   },
   {
     id: 154,
     image: "",
-    question: "A 68-year-old man presents with palpitations, fatigue, and an irregularly irregular pulse. Electrocardiography confirms atrial fibrillation. Which of the following findings is most likely to be seen on examination of the jugular venous pulse?",
+    question: "A patient is diagnosed with an infection caused by Fasciola hepatica. While Praziquantel is the standard drug of choice for most trematode infections, which of the following is the specific drug of choice for this particular exception?",
     options: [
-      "Absent a waves",
-      "Giant v waves",
-      "Cannon a waves",
-      "Slow y descent"
+      "Praziquantel",
+      "Albendazole",
+      "Niclosamide",
+      "Triclobendazole"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Absent a waves"
+    answerIndex: 3,
+    correctAnswerText: "Triclobendazole"
   },
   {
     id: 155,
     image: "",
-    question: "A 60-year-old woman weighing 50 kilograms is admitted with symptomatic hyponatremia. Her serum sodium concentration is 128 milliequivalents per liter. Assuming the target sodium is 140 milliequivalents per liter, what is her approximate sodium deficit?",
+    question: "Which of the following anti-herpetic agents relies on viral thymidine kinase for its initial phosphorylation and subsequent activation?",
     options: [
-      "240 milliequivalents",
-      "300 milliequivalents",
-      "420 milliequivalents",
-      "600 milliequivalents"
+      "Acyclovir",
+      "Docosanol",
+      "Famciclovir",
+      "Foscarnet"
     ],
-    answerIndex: 1,
-    correctAnswerText: "300 milliequivalents"
+    answerIndex: 0,
+    correctAnswerText: "Acyclovir"
   },
   {
     id: 156,
-    image: "",
-    question: "A 52-year-old man with type 2 diabetes mellitus starts a supervised aerobic and resistance exercise program. After several weeks, his fasting glucose improves and skeletal muscle glucose uptake increases because exercise enhances translocation of an insulin-responsive glucose transporter to the cell membrane. Which of the following transporters is primarily responsible for this effect?",
+    image: "images/IMG_8880.jpeg",
+    question: "A patient with AIDS presents with vision loss and is diagnosed with CMV retinitis. Which of the following is the preferred drug of choice and its classic dose-limiting adverse effect?",
     options: [
-      "Glucose transporter 1 (GLUT1)",
-      "Glucose transporter 2 (GLUT2)",
-      "Glucose transporter 4 (GLUT4)",
-      "Sodium-glucose linked transporter 1 (SGLT1)"
+      "Acyclovir; Nephrotoxicity",
+      "Ganciclovir; Myelosuppression",
+      "Foscarnet; Ototoxicity",
+      "Cidofovir; Hepatotoxicity"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Glucose transporter 4 (GLUT4)"
+    answerIndex: 1,
+    correctAnswerText: "Ganciclovir; Myelosuppression"
   },
   {
     id: 157,
     image: "",
-    question: "A 34-year-old woman presents with fatigue, weight loss, postural dizziness, and recurrent vomiting. Laboratory evaluation shows hyponatremia, hyperkalemia, and low serum cortisol. On examination, there is diffuse darkening of the buccal mucosa and skin creases. Which of the following is most directly responsible for this pigmentation?",
+    question: "A patient undergoing allogeneic hematopoietic stem cell transplantation is at high risk for cytomegalovirus (CMV) reactivation. Which of the following agents is specifically indicated for primary prophylaxis against CMV in this transplant setting?",
     options: [
-      "Adrenocorticotropic hormone (ACTH)",
-      "Cortisol",
-      "Aldosterone",
-      "Antidiuretic hormone (ADH)"
+      "Ganciclovir",
+      "Valganciclovir",
+      "Letermovir",
+      "Maribavir"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Adrenocorticotropic hormone (ACTH)"
+    answerIndex: 2,
+    correctAnswerText: "Letermovir"
   },
   {
     id: 158,
     image: "",
-    question: "A 59-year-old man develops a left homonymous hemianopia after a cerebrovascular accident. On testing the pupillary light reflex, illumination of the blind half of the retina fails to produce an adequate constriction response, whereas light shone into the seeing half produces normal constriction. This finding is most suggestive of a lesion at which of the following sites?",
+    question: "A patient with chronic Hepatitis C is initiated on an antiviral regimen that specifically targets the NS5B polymerase enzyme to inhibit viral replication. Which of the following cardiovascular adverse effects is characteristically associated with this class of Direct Acting Antiviral (DAA) agents?",
     options: [
-      "Right optic tract",
-      "Right optic radiation",
-      "Left optic nerve",
-      "Optic chiasma"
+      "Tachycardia",
+      "Hypertension",
+      "QT prolongation",
+      "Bradycardia"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Right optic tract"
+    answerIndex: 3,
+    correctAnswerText: "Bradycardia"
   },
   {
     id: 159,
     image: "",
-    question: "A 48-year-old man with poorly controlled type 2 diabetes mellitus is started on a hormone therapy that binds to a transmembrane receptor with intrinsic enzymatic activity. Binding of the hormone causes autophosphorylation of tyrosine residues on the receptor and activation of downstream insulin receptor substrate proteins. Which of the following hormones acts through this signaling mechanism?",
+    question: "A patient with osteosarcoma receives high-dose methotrexate chemotherapy. Which intervention is specifically used to rescue healthy cells by providing reduced folate that bypasses the enzymatic block caused by the drug?",
     options: [
-      "Insulin-like growth factor 1 (IGF-1)",
-      "Thyroid-stimulating hormone (TSH)",
-      "Corticotropin-releasing hormone (CRH)",
-      "Follicle-stimulating hormone (FSH)"
+      "Leucovorin",
+      "Folic acid",
+      "Glucarpidase",
+      "Folinic acid-binding agents"
     ],
     answerIndex: 0,
-    correctAnswerText: "Insulin-like growth factor 1 (IGF-1)"
+    correctAnswerText: "Leucovorin"
   },
   {
     id: 160,
     image: "",
-    question: "A 40-year-old man complains of a rough sensation over the dorsum of his tongue after recovering from a febrile illness. On examination, the anterior two-thirds of the tongue shows numerous slender, conical projections that are keratinized and mechanical in function, but they are not involved in taste perception. Which of the following papillae is being described?",
+    question: "A patient with acute lymphoblastic leukemia (ALL) receiving 6-mercaptopurine develops acute gout. Which of the following drugs requires a 50-75% reduction in the 6-mercaptopurine dose to prevent fatal toxicity?",
     options: [
-      "Fungiform papillae",
-      "Foliate papillae",
-      "Filiform papillae",
-      "Circumvallate papillae"
+      "Colchicine",
+      "Febuxostat",
+      "Probenecid",
+      "Indomethacin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Filiform papillae"
+    answerIndex: 1,
+    correctAnswerText: "Febuxostat"
   },
   {
     id: 161,
     image: "",
-    question: "A 28-year-old trekker rapidly ascends to a Himalayan campsite at 4200 meters. Within 24 hours, he develops severe headache, vomiting, ataxia, and altered sensorium. Fundus examination shows papilledema. Which of the following best explains the cerebral event responsible for this condition?",
+    question: "A patient receiving long-term doxorubicin therapy develops early signs of congestive heart failure. Which of the following agents acts as the primary iron-chelating antidote to mitigate this cumulative cardiotoxicity?",
     options: [
-      "Hypoxia causes cerebral vasoconstriction, reducing capillary pressure and producing cytotoxic edema",
-      "Hypoxia causes cerebral vasodilation, increasing capillary hydrostatic pressure and causing vasogenic edema",
-      "Hypocapnia causes cerebral vasodilation, leading to intracellular neuronal swelling",
-      "Respiratory alkalosis directly disrupts the blood-brain barrier and produces hemorrhagic infarction"
+      "Vitamin C",
+      "Acetylcysteine",
+      "Dexrazoxane",
+      "Leucovorin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hypoxia causes cerebral vasodilation, increasing capillary hydrostatic pressure and causing vasogenic edema"
+    answerIndex: 2,
+    correctAnswerText: "Dexrazoxane"
   },
   {
     id: 162,
     image: "",
-    question: "A 65-year-old man develops sudden-onset dyspnea after a long-haul flight. Imaging later confirms a large pulmonary embolism. In the affected alveoli, ventilation is preserved but blood flow is absent. What will be the ventilation-perfusion ratio in these alveoli?",
+    question: "A 45-year-old patient undergoing chemotherapy for breast cancer develops gross hematuria and dysuria. Which specific metabolite is responsible for this condition?",
     options: [
-      "Zero",
-      "Less than normal",
-      "Equal to one",
-      "Infinity"
+      "Phosphoramide mustard",
+      "Chloroacetaldehyde",
+      "Dexrazoxane",
+      "Acrolein"
     ],
     answerIndex: 3,
-    correctAnswerText: "Infinity"
+    correctAnswerText: "Acrolein"
   },
   {
     id: 163,
     image: "",
-    question: "A 19-year-old student complains that lemonade tastes markedly less intense after a viral upper respiratory illness, although he can still identify sweet foods normally. Dysfunction of which of the following receptors or channels is most likely responsible for this selective loss of sour taste perception?",
+    question: "A patient with Chronic Myeloid Leukemia (CML) is treated with long-term Busulfan. Which of the following respiratory adverse effects is characteristically associated with this alkylating agent?",
     options: [
-      "T1R2–T1R3 receptor",
-      "T2R receptor",
-      "Epithelial sodium channel (ENaC)",
-      "PKD2L1/otopetrin-associated sour-sensing pathway"
+      "Pulmonary fibrosis",
+      "Bronchospasm",
+      "Pleural effusion",
+      "Pulmonary edema"
     ],
-    answerIndex: 3,
-    correctAnswerText: "PKD2L1/otopetrin-associated sour-sensing pathway"
+    answerIndex: 0,
+    correctAnswerText: "Pulmonary fibrosis"
   },
   {
     id: 164,
     image: "",
-    question: "A fluid sample obtained during an experimental study shows the following electrolyte composition: sodium 145 milliequivalents per liter, potassium 4 milliequivalents per liter, chloride 118 milliequivalents per liter, and very low protein concentration. From which of the following compartments was this sample most likely taken?",
+    question: "A patient treated with a platinum-based chemotherapy agent complains of tingling and discomfort in the throat and extremities, triggered specifically by cold exposure. Which of the following is the most likely culprit?",
     options: [
-      "Intracellular fluid",
-      "Plasma",
-      "Interstitial fluid",
-      "Transcellular fluid"
+      "Cisplatin",
+      "Oxaliplatin",
+      "Carboplatin",
+      "Nedaplatin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Interstitial fluid"
+    answerIndex: 1,
+    correctAnswerText: "Oxaliplatin"
   },
   {
     id: 165,
     image: "",
-    question: "A 72-year-old man is found confused and collapsed during a summer heat wave. On arrival to the emergency department, his core temperature is 41.2 degrees Celsius, pulse is 132 per minute, and blood pressure is low. His skin is hot and flushed. Which of the following findings is least likely to be present in this patient?",
+    question: "A patient undergoing chemotherapy with a vinca alkaloid develops severe constipation, peripheral neuropathy, and signs of SIADH. Which agent is the most likely cause?",
     options: [
-      "Altered mental status",
-      "Tachycardia",
-      "Profuse sweating",
-      "Hypotension"
+      "Vincristine",
+      "Vinblastine",
+      "Vinoralbine",
+      "Vinflunine"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Profuse sweating"
+    answerIndex: 0,
+    correctAnswerText: "Vincristine"
   },
   {
     id: 166,
     image: "",
-    question: "A 35-year-old man with peptic ulcer disease has rapid delivery of acidic chyme into the duodenum. Soon afterward, gastric motility decreases and pyloric sphincter tone increases, thereby slowing the transfer of further gastric contents into the small intestine. Which of the following reflexes best explains this response?",
+    question: "A patient receiving standard paclitaxel chemotherapy develops hypersensitivity reactions, which are attributed to the solvent used for drug delivery. Which formulation of paclitaxel was developed to bypass the need for this solvent and improve the drug's safety profile?",
     options: [
-      "Gastrocolic reflex",
-      "Gastroileal reflex",
-      "Enterogastric reflex",
-      "Intestino-intestinal reflex"
+      "Nab-paclitaxel",
+      "Docetaxel",
+      "Cabazitaxel",
+      "Ixabepilone"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Enterogastric reflex"
+    answerIndex: 0,
+    correctAnswerText: "Nab-paclitaxel"
   },
   {
     id: 167,
     image: "",
-    question: "A preterm neonate develops tachypnea, grunting, nasal flaring, and intercostal retractions soon after birth. Chest radiograph shows diffuse reticulogranular opacities with air bronchograms. The underlying cellular defect most directly involves impaired production of pulmonary surfactant by which of the following cells?",
+    question: "A 60-year-old postmenopausal woman with a history of breast cancer requires an agent to reduce her risk of recurrence. Which of the following SERMs is preferred in this patient specifically to avoid the risk of endometrial cancer?",
     options: [
-      "Type I pneumocytes",
-      "Type II pneumocytes",
-      "Alveolar macrophages",
-      "Ciliated columnar epithelial cells"
+      "Tamoxifen",
+      "Raloxifene",
+      "Fulvestrant",
+      "Toremifene"
     ],
     answerIndex: 1,
-    correctAnswerText: "Type II pneumocytes"
+    correctAnswerText: "Raloxifene"
   },
   {
     id: 168,
     image: "",
-    question: "A 12-year-old boy develops generalized edema and heavy proteinuria. Electron microscopy suggests disruption of the negative charge barrier of the glomerular filtration membrane, allowing increased passage of albumin into the filtrate. Which of the following components of the glomerular basement membrane is primarily responsible for this charge-selective property?",
+    question: "A patient with advanced prostate cancer is initiated on therapy with a GnRH analogue. Which of the following is a characteristic clinical consequence observed during the first few days of therapy, due to the initial stimulation of the pituitary-gonadal axis?",
     options: [
-      "Type IV collagen",
-      "Laminin",
-      "Heparan sulfate",
-      "Nidogen"
+      "Rapid suppression of testosterone",
+      "Initial flare-up of disease",
+      "Permanent receptor downregulation",
+      "Immediate blockage of androgen receptors"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Heparan sulfate"
+    answerIndex: 1,
+    correctAnswerText: "Initial flare-up of disease"
   },
   {
     id: 169,
     image: "",
-    question: "A 30-year-old man closes his eyes while an examiner places a vibrating tuning fork on his fingertip and then lightly presses the same finger with a blunt object. He accurately identifies vibration and deep pressure, but he cannot precisely localize a painful pinprick. Which of the following receptors is most likely responsible for the intact sensations?",
+    question: "A patient undergoing intensive chemotherapy is at risk for severe neutropenia. Which of the following agents is a recombinant Granulocyte-Colony Stimulating Factor (rG-CSF) analog used to accelerate neutrophil recovery?",
     options: [
-      "Meissner corpuscles",
-      "Pacinian corpuscles",
-      "Free nerve endings",
-      "Merkel discs"
+      "Filgrastim",
+      "Sargramostim",
+      "Molgramostim",
+      "Erythropoietin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Pacinian corpuscles"
+    answerIndex: 0,
+    correctAnswerText: "Filgrastim"
   },
   {
     id: 170,
     image: "",
-    question: "A 34-year-old woman presents with progressive weight gain, purple abdominal striae, proximal muscle weakness, hypertension, and easy bruising. Laboratory evaluation reveals elevated serum cortisol that is not suppressed by a low-dose dexamethasone test. Plasma adrenocorticotropic hormone is also elevated. Which of the following endocrine patterns is most consistent with a pituitary corticotroph adenoma?",
+    question: "A pregnant patient presents with persistent morning sickness and vomiting. Which of the following antihistamines is the preferred pharmacological choice for managing this condition due to its established safety profile?",
     options: [
-      "High adrenocorticotropic hormone with high cortisol",
-      "Low adrenocorticotropic hormone with high cortisol",
-      "High adrenocorticotropic hormone with low cortisol",
-      "Low adrenocorticotropic hormone with low cortisol"
+      "Promethazine",
+      "Doxylamine",
+      "Meclizine",
+      "Cinnarizine"
     ],
-    answerIndex: 0,
-    correctAnswerText: "High adrenocorticotropic hormone with high cortisol"
+    answerIndex: 1,
+    correctAnswerText: "Doxylamine"
   },
   {
     id: 171,
-    image: "",
-    question: "A 42-year-old man falls asleep in an awkward position with his leg compressed against a hard surface for several hours. On waking, he notices numbness and weakness in the affected limb. The earliest nerve fibers most likely to be impaired by this pressure-induced conduction block are which of the following?",
+    image: "images/IMG_8853.jpeg",
+    question: "A patient suffering from severe frostbite and peripheral vascular complications is scheduled for treatment with a PGI2 analog. Which of the following drugs is the most preferred agent for this specific condition?",
     options: [
-      "Large myelinated A fibers",
-      "Small myelinated B fibers",
-      "Unmyelinated C fibers",
-      "Postganglionic sympathetic fibers"
+      "Epoprostenol",
+      "Iloprost",
+      "Treprostinil",
+      "Selexipag"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Large myelinated A fibers"
+    answerIndex: 1,
+    correctAnswerText: "Iloprost"
   },
   {
     id: 172,
     image: "",
-    question: "A blood bank resident is comparing acid citrate dextrose (ACD) and citrate phosphate dextrose adenine (CPDA-1) as preservative solutions for packed red cell storage. Which of the following is not an advantage of CPDA-1 over ACD?",
+    question: "Aspirin is characterized by a unique mechanism of action compared to other non-steroidal anti-inflammatory drugs. What is the defining pharmacological classification of Aspirin based on its effect on the COX enzyme?",
     options: [
-      "Better preservation of 2,3-diphosphoglycerate",
-      "Improved adenosine triphosphate maintenance and red cell survival",
-      "Increased extracellular potassium accumulation during storage",
-      "Longer allowable storage period"
+      "Selective COX-2 inhibitor",
+      "Reversible COX-1 inhibitor",
+      "Non-selective irreversible COX inhibitor",
+      "Preferential COX-2 inhibitor"
     ],
     answerIndex: 2,
-    correctAnswerText: "Increased extracellular potassium accumulation during storage"
+    correctAnswerText: "Non-selective irreversible COX inhibitor"
   },
   {
     id: 173,
     image: "",
-    question: "A 26-year-old woman accidentally spills hot tea on the dorsum of her hand. The contact is brief, but for several minutes afterward even a light touch over the affected skin produces marked pain. Which of the following terms best describes this phenomenon?",
+    question: "A patient with rheumatoid arthritis is being evaluated for initiation of TNF-alpha blocking therapy. Which of the following tests is mandatory prior to starting this medication to prevent a major infectious complication?",
     options: [
-      "Hyperesthesia",
-      "Hyperalgesia",
-      "Paresthesia",
-      "Hypoesthesia"
+      "PPD or IFN-gamma release assay",
+      "Liver function tests",
+      "CBC with differential",
+      "Serum creatinine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hyperalgesia"
+    answerIndex: 0,
+    correctAnswerText: "PPD or IFN-gamma release assay"
   },
   {
     id: 174,
     image: "",
-    question: "A patient with repeated vomiting develops metabolic alkalosis with a serum potassium level of 2.8 milliequivalents per liter. Which of the following immediate changes is most likely to occur in the resting membrane potential of skeletal muscle cells?",
+    question: "A patient with B-cell non-Hodgkin's lymphoma is treated with Rituximab. Which of the following cell surface markers is the specific target of this monoclonal antibody?",
     options: [
-      "Depolarization due to reduced potassium gradient",
-      "Hyperpolarization due to increased potassium efflux",
-      "No change because sodium determines resting membrane potential",
-      "Initial depolarization followed by complete inexcitability without membrane potential change"
+      "CD3",
+      "CD20",
+      "CD52",
+      "CD30"
     ],
     answerIndex: 1,
-    correctAnswerText: "Hyperpolarization due to increased potassium efflux"
+    correctAnswerText: "CD20"
   },
   {
     id: 175,
-    image: "",
-    question: "A 14-year-old boy presents with abrupt, irregular, purposeless jerky movements involving his face and distal upper limbs. The movements worsen with voluntary activity and disappear during sleep. There is no muscle weakness or sensory loss. Dysfunction of which of the following structures is most likely responsible for this hyperkinetic movement disorder?",
+    image: "images/IMG_8852.jpeg",
+    question: "A 55-year-old patient with an acute gout attack requires therapy, but the clinician  to avoid aspirin. What is the primary pharmacological reason aspirin is contraindicated in this setting?",
     options: [
-      "Subthalamic nucleus",
-      "Substantia nigra pars compacta",
-      "Cerebellar vermis",
-      "Primary motor cortex"
+      "Causes uric acid retention",
+      "Inhibits phospholipase A2",
+      "Causes severe diarrhea",
+      "Inhibits microtubule assembly"
     ],
     answerIndex: 0,
-    correctAnswerText: "Subthalamic nucleus"
+    correctAnswerText: "Causes uric acid retention"
   },
   {
     id: 176,
-    image: "",
-    question: "A 41-year-old man undergoes surgical resection of the terminal ileum for Crohn disease. Several months later, he develops fatigue, numbness in his feet, and macrocytic anemia. Which of the following nutrients is most specifically malabsorbed because of loss of this intestinal segment?",
+    image: "images/IMG_8851.jpeg",
+    question: "A patient receiving immunosuppressive therapy with Cyclosporine for renal transplantation develops gingival hyperplasia and hirsutism. Which of the following is the most likely mechanism of action of this drug?",
     options: [
-      "Folate",
-      "Vitamin B12",
-      "Iron",
-      "Calcium"
+      "mTOR inhibition",
+      "IL-2 synthesis inhibition",
+      "IL-2 receptor inhibition",
+      "Calcineurin activation"
     ],
     answerIndex: 1,
-    correctAnswerText: "Vitamin B12"
+    correctAnswerText: "IL-2 synthesis inhibition"
   },
   {
     id: 177,
     image: "",
-    question: "A 38-year-old man sustains a penetrating injury involving the posterior part of the cervical spinal cord on the right side. Neurological examination shows loss of vibration sense and impaired joint position sense in the right upper limb below the level of the lesion, while pain and temperature sensation are preserved. Which of the following tracts is most likely affected?",
+    question: "A patient is diagnosed with Wilson's disease and requires a chelating agent for copper reduction. However, the clinician is concerned about the patient developing drug-induced lupus. Which of the following agents is the most likely cause of this adverse effect?",
     options: [
-      "Right fasciculus cuneatus",
-      "Left lateral spinothalamic tract",
-      "Right corticospinal tract",
-      "Left fasciculus gracilis"
+      "D-Penicillamine",
+      "Trientine",
+      "Zinc sulphate",
+      "Potassium sulfide"
     ],
     answerIndex: 0,
-    correctAnswerText: "Right fasciculus cuneatus"
+    correctAnswerText: "D-Penicillamine"
   },
   {
     id: 178,
     image: "",
-    question: "A researcher is analyzing Starling forces across a systemic capillary. At one point, the capillary hydrostatic pressure is 32 millimeters of mercury, capillary oncotic pressure is 25 millimeters of mercury, and interstitial oncotic pressure is 5 millimeters of mercury. If there is no net fluid movement across the capillary wall, what is the interstitial hydrostatic pressure?",
+    question: "A patient undergoing immunosuppressive therapy after a kidney transplant is prescribed Mycophenolate. What is the precise pharmacological mechanism of action of its active form, mycophenolic acid?",
     options: [
-      "2 millimeters of mercury",
-      "6 millimeters of mercury",
-      "12 millimeters of mercury",
-      "18 millimeters of mercury"
+      "Inhbits inosine monophosphate dehydrogenase",
+      "Inhibits dihydrofolate reductase",
+      "Inhibits calcineurin",
+      "Inhibits mTOR"
     ],
-    answerIndex: 2,
-    correctAnswerText: "12 millimeters of mercury"
+    answerIndex: 0,
+    correctAnswerText: "Inhbits inosine monophosphate dehydrogenase"
   },
   {
     id: 179,
     image: "",
-    question: "A student repeatedly rehearses a newly learned fact, and over time it becomes stored for years with synaptic restructuring. Which structure is most important for consolidation of this memory from short-term to long-term storage?",
+    question: "A patient requires iron chelation therapy and prefers an oral formulation for long-term management. Which of the following drugs is the appropriate oral agent?",
     options: [
-      "Hypothalamus",
-      "Hippocampus",
-      "Cerebellum",
-      "Basal ganglia"
+      "Deferiprone",
+      "Desferrioxamine",
+      "Dexrazoxane",
+      "Dimercaprol"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hippocampus"
+    answerIndex: 0,
+    correctAnswerText: "Deferiprone"
   },
   {
     id: 180,
-    image: "",
-    question: "A young man has recurrent sinusitis, chronic bronchitis, bronchiectasis, and situs inversus. He is also infertile due to defective sperm motility. Which of the following is the most likely underlying defect?",
+    image: "images/IMG_8850.jpeg",
+    question: "A patient undergoing chronic treatment for open-angle glaucoma develops increased iris pigmentation (heterochromia iridis) and hypertrichosis of the eyelashes. Which class of medication is responsible for these ocular changes?",
     options: [
-      "Mutation in connexin 32 causing gap junction failure",
-      "Dysfunction of dynein arm causing absent ciliary motility",
-      "Defect in cystic fibrosis transmembrane conductance regulator causing thick mucus",
-      "Deficiency of alpha-1 antitrypsin causing emphysema"
+      "PGF2alpha agonist",
+      "Beta blocker",
+      "Alpha-2 agonist",
+      "Cholinesterase inhibitor"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Dysfunction of dynein arm causing absent ciliary motility"
-
-  },
-
+    answerIndex: 0,
+    correctAnswerText: "PGF2alpha agonist"
+  }
 ];
