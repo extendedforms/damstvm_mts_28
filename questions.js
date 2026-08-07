@@ -523,7 +523,7 @@ window.questions = [
   },
   {
     id: 41,
-    image: "",
+    image: "images/ScreenRecording_08-07-2026 05-18-10_1.mov",
     question: "A 50-year-old chronic alcoholic is brought to the emergency department presenting with an acute onset of global confusion, an unsteady broad-based gait, and bilateral lateral rectus palsy with painful eye movements. What is the most likely clinical diagnosis?",
     options: [
       "Wernicke's encephalopathy",
@@ -913,7 +913,7 @@ window.questions = [
   },
   {
     id: 71,
-    image: "",
+    image: "images/ScreenRecording_08-07-2026 05-28-52_1.mov"
     question: "A 45-year-old cancer patient receiving high-dose metoclopramide for chemotherapy-induced vomiting acutely develops a stiff neck, severe facial grimacing, and upward deviation of the eyes. Which of the following is the primary pathophysiological mechanism responsible for this acute presentation?",
     options: [
       "Antagonism of central dopamine D2 receptors",
