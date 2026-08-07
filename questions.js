@@ -913,7 +913,7 @@ window.questions = [
   },
   {
     id: 71,
-    image: "images/ScreenRecording_08-07-2026 05-28-52_1.mov"
+    image: "images/ScreenRecording_08-07-2026 05-28-52_1.mov",
     question: "A 45-year-old cancer patient receiving high-dose metoclopramide for chemotherapy-induced vomiting acutely develops a stiff neck, severe facial grimacing, and upward deviation of the eyes. Which of the following is the primary pathophysiological mechanism responsible for this acute presentation?",
     options: [
       "Antagonism of central dopamine D2 receptors",
