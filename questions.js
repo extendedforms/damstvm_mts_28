@@ -1614,7 +1614,7 @@ window.questions = [
   },
   {
     id: 125,
-    image: "images/icelinerefrigerator.MOV",
+    image: "images/icelinerefrigerator.mov",
     question: "This video shows a PHC cold-chain unit storing all vaccines in a top-opening cabinet maintaining +2°C to +8°C, even during power cuts. Which equipment is shown?",
     options: [
       "Deep freezer",
