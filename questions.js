@@ -3,2341 +3,2341 @@ window.questions = [
   {
     id: 1,
     image: "",
-    question: "A researcher is analyzing the association between smoking (yes/no) and lung cancer (yes/no) in a case-control study. What is the degree of freedom for this data table?",
+    question: "A 10-year-old child presents with a decline in scholastic performance. Psychometric evaluation reveals an IQ score of 42. What is the severity grade of his intellectual disability?",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Moderate",
+      "Mild",
+      "Severe",
+      "Profound"
     ],
     answerIndex: 0,
-    correctAnswerText: "1"
+    correctAnswerText: "Moderate"
   },
   {
     id: 2,
     image: "",
-    question: "A 45-year-old man undergoes a novel screening test for a severe disease, and the result comes back normal. However, a subsequent biopsy, which is the gold standard, confirms the presence of the disease. What does the initial screening test result represent, and why is it considered the most dangerous outcome?",
+    question: "A patient admitted to the psychiatry ward stubbornly refuses to pass urine for the last 24 hours. Upon evaluation, he states that if he urinates, it will cause a massive flood that will destroy the entire world. What is this specific psychopathology called?",
     options: [
-      "False Positive",
-      "False Negative",
-      "True Negative",
-      "True Positive"
+      "Delusion of nihilism",
+      "Delusion of enormity",
+      "Delusion of reference",
+      "Delusion of persecution"
     ],
     answerIndex: 1,
-    correctAnswerText: "False Negative"
+    correctAnswerText: "Delusion of enormity"
   },
   {
     id: 3,
     image: "",
-    question: "A 50-year-old man tests positive on a newly introduced prostate cancer screening test. He anxiously asks his physician, \"Doctor, since my test result is positive, what are the actual chances that I have prostate cancer?\" Which of the following epidemiological parameters is the physician trying to explain to the patient?",
+    question: "A 28-year-old man presents with severe distress due to repetitive, intrusive thoughts that he forgot to lock his house. He knows these are his own senseless thoughts but cannot resist acting on them. While dirt and contamination represent the most common obsession, what is the most common compulsion seen clinically?",
     options: [
-      "Sensitivity",
-      "Specificity",
-      "Positive Predictive Value",
-      "Positive Likelihood Ratio"
+      "Hand washing",
+      "Mental counting",
+      "Checking",
+      "Ordering and arranging"
     ],
     answerIndex: 2,
-    correctAnswerText: "Positive Predictive Value"
+    correctAnswerText: "Checking"
   },
   {
     id: 4,
     image: "",
-    question: "A new rapid diagnostic test for a respiratory virus is deployed in two different regions. Region X is currently experiencing a severe outbreak of the virus, while Region Y has nearly eradicated it. Which of the following parameters of this diagnostic test will remain exactly the same in both regions regardless of the outbreak status?",
+    question: "A 35-year-old under-trial prisoner is brought for psychiatric evaluation after a recent brawl in his cell. He claims to have sustained a severe head injury. During the interview, when the psychiatrist asks him, \"What is the colour of grass?\", he confidently replies, \"Red.\" When asked, \"How many legs does a cow have?\", he answers, \"Five.\" What is the most appropriate diagnosis?",
     options: [
-      "Positive Predictive Value",
-      "Negative Predictive Value",
-      "Post-test probability",
-      "Specificity"
+      "Factitious disorder",
+      "Malingering",
+      "Depressive pseudodementia",
+      "Ganser syndrome"
     ],
     answerIndex: 3,
-    correctAnswerText: "Specificity"
+    correctAnswerText: "Ganser syndrome"
   },
   {
     id: 5,
     image: "",
-    question: "A hospital protocol for evaluating presumptive tuberculosis requires patients to first undergo a sputum smear. Only those who test positive on the smear proceed to get a chest X-ray. What is the overall effect of this sequential testing strategy on diagnostic parameters compared to using a single test?",
+    question: "A manic patient presents to the emergency room with extreme cheerfulness, heightened confidence, and continuous pacing around the ward. However, on detailed mental status examination, he does not express any false beliefs about possessing supreme wealth or power. Based on the stages of elevated mood, which of the following best describes his current state?",
     options: [
-      "Decreased sensitivity and increased specificity",
-      "Increased sensitivity and decreased specificity",
-      "Increased sensitivity and increased specificity",
-      "Decreased specificity and decreased predictive value"
+      "Elation",
+      "Euphoria",
+      "Exaltation",
+      "Ecstasy"
     ],
     answerIndex: 0,
-    correctAnswerText: "Decreased sensitivity and increased specificity"
+    correctAnswerText: "Elation"
   },
   {
     id: 6,
     image: "",
-    question: "A patient is diagnosed with pancreatic cancer through a novel screening program 8 months earlier than the usual clinical presentation. Despite aggressive early treatment, his overall age at death remains exactly the same as historical controls. Which phenomenon explains this false impression of increased survival time?",
+    question: "A 28-year-old male is evaluated in the psychiatric ward. On examination, the patient keeps his eyes open and visually appears fully awake and alert. However, he exhibits complete mutism and akinesis, showing an absolute inability to initiate any voluntary speech or motor action. Which of the following terms best describes this clinical state?",
     options: [
-      "Length bias",
-      "Lead time bias",
-      "Volunteer bias",
-      "Overdiagnosis bias"
+      "Twilight state",
+      "Stupor",
+      "Oneiroid state",
+      "Sopor"
     ],
     answerIndex: 1,
-    correctAnswerText: "Lead time bias"
+    correctAnswerText: "Stupor"
   },
   {
     id: 7,
-    image: "",
-    question: "According to the Wilson Jungner criteria, a disease must have a latent or early asymptomatic phase to be eligible for a screening program. Which of the following infectious diseases lacks this phase and therefore does NOT exhibit the \"Iceberg Phenomenon\"?",
+    image: "images/ScreenRecording_07-16-2026 23-26-48_1.mov",
+    question: "A psychologist is evaluating a 25-year-old male to assess his underlying defense mechanisms and subconscious drives. The patient is shown a series of cards depicting ambiguous interpersonal scenes featuring human faces and is asked to narrate a story about each picture. Which of the following tests is being administered?",
     options: [
-      "Poliomyelitis",
-      "Tuberculosis",
-      "Rabies",
-      "Hepatitis B"
+      "Minnesota Multiphasic Personality Inventory (MMPI)",
+      "Rorschach Inkblot Test",
+      "Thematic Apperception Test (TAT)",
+      "Wechsler Adult Intelligence Scale (WAIS)"
     ],
     answerIndex: 2,
-    correctAnswerText: "Rabies"
+    correctAnswerText: "Thematic Apperception Test (TAT)"
   },
   {
     id: 8,
     image: "",
-    question: "A health department is introducing a newly developed screening test for a highly fatal, treatable infectious disease. To maximize its screening utility, the researchers intentionally set the diagnostic cutoff value at a very low level. What is the primary epidemiological effect of this adjustment?",
+    question: "A 30-year-old male with a history of social withdrawal presents to the psychiatry OPD complaining of sudden, severe abdominal pain. He firmly believes that this pain is not medical, but rather being actively inflicted upon him by his neighbor using a remote-control device. According to Kurt Schneider, which specific first-rank symptom does this represent?",
     options: [
-      "Decreases Sensitivity",
-      "Decreases False Positives",
-      "Increases Specificity",
-      "Decreases False Negatives"
+      "Delusional perception",
+      "Made affect",
+      "Thought insertion",
+      "Somatic passivity"
     ],
     answerIndex: 3,
-    correctAnswerText: "Decreases False Negatives"
+    correctAnswerText: "Somatic passivity"
   },
   {
     id: 9,
     image: "",
-    question: "A researcher records the hospital stay duration (in days) for 50 patients post-appendectomy. Most patients are discharged within 2 to 4 days, but three patients suffered severe complications and stayed for 28, 32, and 45 days respectively. Which measure of central tendency is the most preferred to accurately summarize this dataset?",
+    question: "A 17-year-old boy is brought to the psychiatry clinic by his parents. They report a gradual change in his behavior over the last year. He has started isolating himself, frequently giggling for no apparent reason, making odd facial grimaces, and spending hours gazing into the mirror. His speech has become highly disjointed. Which of the following subtypes of schizophrenia best fits this clinical picture?",
     options: [
-      "Median",
-      "Arithmetic Mean",
-      "Mode",
-      "Geometric Mean"
+      "Disorganized (Hebephrenic) schizophrenia",
+      "Paranoid schizophrenia",
+      "Catatonic schizophrenia",
+      "Simple schizophrenia"
     ],
     answerIndex: 0,
-    correctAnswerText: "Median"
+    correctAnswerText: "Disorganized (Hebephrenic) schizophrenia"
   },
   {
     id: 10,
     image: "",
-    question: "A researcher is evaluating a cohort of metabolic syndrome patients and wants to compare the variability of their fasting blood sugar (measured in mg/dL) with their systolic blood pressure (measured in mmHg). Which statistical tool is the most appropriate to compare the dispersion of these two dissimilar variables?",
+    question: "A 30-year-old man presents to the emergency room after an intentional overdose of amitriptyline. His ECG reveals significantly widened QRS complexes and ventricular arrhythmias. What is the drug of choice for managing this specific cardiac toxicity?",
     options: [
-      "Standard Error of Mean",
-      "Coefficient of Variation",
-      "Standard Deviation",
-      "Z-score"
+      "Lignocaine",
+      "Physostigmine",
+      "Magnesium sulfate",
+      "Sodium bicarbonate"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Coefficient of Variation"
+    answerIndex: 3,
+    correctAnswerText: "Sodium bicarbonate"
   },
   {
     id: 11,
     image: "",
-    question: "The birth weights of full-term neonates in a community follow a perfect Normal (Gaussian) distribution with a mean of 3.0 kg and a standard deviation (SD) of 0.4 kg. If a pediatrician wants to define the normal clinical reference range for this population covering weights exactly between 2.2 kg and 3.8 kg, what percentage of the neonates will fall into this category?",
+    question: "A 28-year-old male is brought to the psychiatry emergency room by his family. He has been excessively talkative, spending money recklessly, and feels fully energetic despite sleeping only two hours a night. What is the standard minimum duration these symptoms must be present to formally diagnose a manic episode?",
     options: [
-      "68%",
-      "84%",
-      "95%",
-      "99%"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "95%"
-  },
-  {
-    id: 12,
-    image: "",
-    question: "A public health researcher analyzes the age of onset for a specific neurodegenerative disease. The data shows that the vast majority of patients develop symptoms in their late 70s, but a few rare genetic cases present in early childhood. This creates a frequency curve with a long tail extending toward the lower ages. Which of the following correctly represents the relationship between the measures of central tendency in this dataset?",
-    options: [
-      "Mean = Median = Mode",
-      "Mode < Median < Mean",
-      "Mean = Median ≠ Mode",
-      "Mean < Median < Mode"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Mean < Median < Mode"
-  },
-  {
-    id: 13,
-    image: "",
-    question: "An ICU resident records a patient's heart rate as 85 beats/min and systolic blood pressure as 120 mmHg. In biostatistics, how are these specific clinical variables classified based on their underlying measurement scales?",
-    options: [
-      "Heart rate is discrete; Blood pressure is continuous",
-      "Heart rate is continuous; Blood pressure is discrete",
-      "Both are discrete variables",
-      "Both are continuous variables"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Heart rate is discrete; Blood pressure is continuous"
-  },
-  {
-    id: 14,
-    image: "",
-    question: "A physician evaluates postoperative pain in patients using a standard Visual Analogue Scale (VAS) graded from 0 to 10. Which scale of measurement does this represent, and what is the appropriate measure of central tendency to summarize this data?",
-    options: [
-      "Nominal scale; Mode",
-      "Ordinal scale; Median",
-      "Interval scale; Mean",
-      "Ratio scale; Mean"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Ordinal scale; Median"
-  },
-  {
-    id: 15,
-    image: "",
-    question: "A researcher is plotting the hemoglobin levels (measured in g/dL) of 500 pregnant women attending an antenatal clinic. Which graphical representation is the most appropriate for displaying this specific dataset?",
-    options: [
-      "Simple bar diagram",
-      "Spot map",
-      "Histogram",
-      "Scatter diagram"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Histogram"
-  },
-  {
-    id: 16,
-    image: "",
-    question: "A public health official is plotting the cumulative number of vaccinated individuals across different age groups. She constructs a graph by joining the end points of each class interval from her data table. She notices that the resulting curve only moves upwards and never slopes down. Which graphical representation has she created?",
-    options: [
-      "Histogram",
-      "Line diagram",
-      "Frequency polygon",
-      "Ogive"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Ogive"
-  },
-  {
-    id: 17,
-    image: "",
-    question: "A researcher is investigating a novel environmental exposure and its link to a specific cancer. After extensive studies meeting the Doll-Hill criteria, definitive causation is established. Based on the fundamental epidemiological hierarchy, which of the following statements must be unconditionally true?",
-    options: [
-      "A statistical association is definitely present",
-      "The independent variable was plotted on the Y-axis",
-      "The established association guarantees this causation",
-      "The causation was established solely using a p-value"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "A statistical association is definitely present"
-  },
-  {
-    id: 18,
-    image: "",
-    question: "In a study analyzing the effect of a specific antihypertensive drug dosage (x) on systolic blood pressure (y), a linear regression model yields a perfectly negative relationship. If the equation is represented as y = mx + c and the slope (m) equals -1, which of the following is the correct mathematical interpretation?",
-    options: [
-      "A 1 unit increase in x leads to a 1 unit increase in y",
-      "A 1 unit increase in x leads to a 1 unit decrease in y",
-      "The drug dosage (x) is the dependent variable plotted on the Y-axis",
-      "The blood pressure (y) can represent multiple variables simultaneously"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "A 1 unit increase in x leads to a 1 unit decrease in y"
-  },
-  {
-    id: 19,
-    image: "",
-    question: "An epidemiologist is investigating a severe cholera outbreak in a rural district. To convince the local, predominantly illiterate villagers to avoid a specific contaminated well, he decides to visually present the geographical clustering of the affected cases. Which of the following diagrams is most appropriate for this purpose?",
-    options: [
-      "Pictogram",
-      "Venn diagram",
-      "Spot map",
-      "Tree diagram"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Spot map"
-  },
-  {
-    id: 20,
-    image: "",
-    question: "A biostatistician evaluates the post-operative ICU stay duration for a specific cohort of surgical patients. When the data is plotted on a Box and Whisker plot, the visual output shows a much longer whisker extending to the right side of the box. What does this graphical representation indicate about the underlying data distribution?",
-    options: [
-      "It represents a normal Gaussian distribution",
-      "The central line (Q2) represents the arithmetic mean",
-      "It is a negatively skewed distribution",
-      "It is a positively skewed distribution"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "It is a positively skewed distribution"
-  },
-  {
-    id: 21,
-    image: "",
-    question: "A clinician has collected the resting heart rates of 60 patients. The raw data consists of unorganized two-digit numbers, making it tedious to arrange and find the exact middle value manually. Which graphical representation is specifically utilized to organize such data when it is difficult to calculate the median?",
-    options: [
-      "Stem and leaf plot",
-      "Box and whisker plot",
-      "Cumulative frequency ogive",
-      "Frequency polygon"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Stem and leaf plot"
-  },
-  {
-    id: 22,
-    image: "",
-    question: "The probability of a person suffering from a specific disease in a community is 0.2. What is the total probability that three completely unrelated, randomly selected individuals from this community will all suffer from this disease?",
-    options: [
-      "0.6",
-      "0.008",
-      "0.08",
-      "0.002"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "0.008"
-  },
-  {
-    id: 23,
-    image: "",
-    question: "A medical officer is tasked with conducting a cross-sectional study to estimate the prevalence of a newly discovered cutaneous manifestation in a rural population. Because this is the first study of its kind in the region, there is absolutely no prior literature or data regarding its prevalence. What assumed prevalence (p) should the officer input into the formula n=(4pq)/d2 to calculate the required sample size?",
-    options: [
-      "1%",
-      "5%",
-      "50%",
-      "100%"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "50%"
-  },
-  {
-    id: 24,
-    image: "",
-    question: "A medical researcher is studying the prevalence of a specific adverse drug reaction in a busy outpatient department. The clinic registers 500 patients daily, and the researcher needs a sample of 50. He randomly selects the 7th patient of the morning, and thereafter systematically selects every 10th patient who registers (17th, 27th, 37th, etc.). Which sampling technique is being utilized in this study?",
-    options: [
-      "Simple random sampling",
-      "Stratified random sampling",
-      "Cluster random sampling",
-      "Systematic random sampling"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Systematic random sampling"
-  },
-  {
-    id: 25,
-    image: "",
-    question: "A researcher calculating a 95% Confidence Interval for a sample mean. Which formula represents the correct mathematical limit?",
-    options: [
-      "Mean ± 1.96 Standard Deviations",
-      "Mean ± 2 Standard Errors",
-      "Mean ± 3 Standard Errors",
-      "Mean ± 1.96 Standard Errors"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Mean ± 2 Standard Errors"
-  },
-  {
-    id: 26,
-    image: "",
-    question: "An epidemiologist calculates the mean fasting blood sugar from a sample of 100 diabetic patients. To extrapolate these findings and establish the 95% confidence interval for the true mean of the entire diabetic population, which mathematical limits must be applied?",
-    options: [
-      "Mean ± 2 Standard Errors",
-      "Mean ± 2 Standard Deviations",
-      "Mean ± 1 Standard Error",
-      "Mean ± 3 Standard Deviations"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Mean ± 2 Standard Errors"
-  },
-  {
-    id: 27,
-    image: "",
-    question: "A systematic review evaluates the efficacy of five different interventions for a specific disease. The results are displayed on a standard forest plot. Trial B exhibits the widest horizontal confidence interval line among all the plotted studies. Assuming all other variables are constant, what does this wide interval definitively indicate about Trial B?",
-    options: [
-      "It has the maximum statistical significance",
-      "It has the minimum sample size",
-      "It represents a strong protective factor",
-      "Its results are statistically insignificant"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "It has the minimum sample size"
-  },
-  {
-    id: 28,
-    image: "",
-    question: "A researcher is comparing the mean weight gain among three separate groups of participants, each placed on a completely different experimental diet plan. Which statistical test is the most appropriate to analyze this data?",
-    options: [
-      "Chi-square test",
-      "Paired t-test",
-      "ANOVA",
-      "Unpaired t-test"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "ANOVA"
-  },
-  {
-    id: 29,
-    image: "",
-    question: "A clinical trial compares the efficacy of Drug X and Drug Y for hypertension. The researcher sets the alpha error cutoff at 0.05. After statistical analysis, the calculated p-value is determined to be 0.02. What is the correct interpretation of this study's result?",
-    options: [
-      "The results are statistically insignificant",
-      "The Null hypothesis is true",
-      "Both drugs have the exact same efficacy",
-      "The Alternate hypothesis is true"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "The Alternate hypothesis is true"
-  },
-  {
-    id: 30,
-    image: "",
-    question: "A newly purchased automated digital blood pressure monitor consistently reads 150/90 mmHg for a specific patient across five consecutive measurements. However, a simultaneous check with a standard mercury sphygmomanometer confirms the patient's true blood pressure is actually 110/70 mmHg. How is the performance of the digital monitor best described epidemiologically?",
-    options: [
-      "Reliable but not valid",
-      "Valid but not reliable",
-      "Both valid and reliable",
-      "Neither valid nor reliable"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Reliable but not valid"
-  },
-  {
-    id: 31,
-    image: "",
-    question: "A principal investigator of a cardiovascular drug trial decides to drastically increase the study's participant pool from 500 to 5,000 individuals to optimize the data. Which type of epidemiological error is specifically minimized by this action, and which overall parameter of the study does it enhance?",
-    options: [
-      "Systematic error; enhancing validity",
-      "Random error; enhancing reliability",
-      "Systematic error; enhancing reliability",
-      "Random error; enhancing validity"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Random error; enhancing reliability"
-  },
-  {
-    id: 32,
-    image: "",
-    question: "In a randomized controlled trial comparing a new surgical technique to the standard procedure, patients and the surgeons performing the surgery are unaware of which technique is being used. A separate team of researchers independently assesses the postoperative outcomes without knowing which group the patient was assigned to. What is the primary purpose of this blinding strategy?",
-    options: [
-      "Remove selection bias",
-      "Remove interviewer bias",
-      "Make groups comparable at baseline",
-      "Increase external validity"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Remove interviewer bias"
-  },
-  {
-    id: 33,
-    image: "",
-    question: "A researcher is investigating the association between a new experimental diet and the incidence of myocardial infarction. After all the participant data has been collected, the researcher realizes that baseline physical exercise is a major third factor affecting the outcome. Which of the following techniques is most appropriate to control for this third factor at this current stage of the study?",
-    options: [
-      "Stratification",
-      "Randomization",
-      "Matching",
-      "Restriction"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Stratification"
-  },
-  {
-    id: 34,
-    image: "",
-    question: "A medical officer records 50 deaths among 200 patients infected with a novel virus. When formally reporting the Case Fatality \"Rate\" (CFR) for this outbreak, how is this epidemiological indicator strictly classified, and what is its standard multiplication factor?",
-    options: [
-      "True rate; factor of 1000",
-      "Proportion; factor of 100",
-      "Ratio; factor of 100,000",
-      "True rate; factor of 100"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Proportion; factor of 100"
-  },
-  {
-    id: 35,
-    image: "",
-    question: "A novel therapy is introduced for a previously fatal autoimmune condition. The drug successfully prevents mortality and significantly prolongs patient survival, but it does not cure the disease or prevent new cases from occurring. What is the expected long-term epidemiological impact of this specific drug?",
-    options: [
-      "Incidence decreases; Prevalence increases",
-      "Incidence and Prevalence both decrease",
-      "Incidence has no impact; Prevalence increases",
-      "Incidence increases; Prevalence decreases"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Incidence has no impact; Prevalence increases"
-  },
-  {
-    id: 36,
-    image: "",
-    question: "A state health department is analyzing mortality data. They want to measure the clinical virulence (killing power) of a newly emerged viral strain, and simultaneously determine the true burden of this specific viral disease on the community's overall mortality. Which of the following pairs of indicators is most appropriate for these two specific purposes respectively?",
-    options: [
-      "Crude Death Rate and Specific Death Rate",
-      "Proportional Mortality Rate and Case Fatality Rate",
-      "Specific Death Rate and Crude Death Rate",
-      "Case Fatality Rate and Proportional Mortality Rate"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Case Fatality Rate and Proportional Mortality Rate"
-  },
-  {
-    id: 37,
-    image: "",
-    question: "An occupational health physician calculates the Standardized Mortality Ratio (SMR) for coal miners using the indirect standardization method. The calculated SMR is 135. What is the correct interpretation of this finding?",
-    options: [
-      "The occupation poses a significant health hazard",
-      "The occupation has a protective health effect",
-      "The age-specific death rates of the miners are fully known",
-      "The mortality is exactly equal to the standard population"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "The occupation poses a significant health hazard"
-  },
-  {
-    id: 38,
-    image: "",
-    question: "A researcher wants to graphically display and simultaneously compare the varying proportions of mild, moderate, and severe anemia across three different pregnant cohorts. Which specific diagram is most suitable for visualizing this subgroup comparison?",
-    options: [
-      "Simple bar diagram",
-      "Component bar diagram",
-      "Scatter diagram",
-      "Histogram"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Component bar diagram"
-  },
-  {
-    id: 39,
-    image: "images/handhygiene.mov",
-    question: "A physician applies a solution containing 75% isopropyl alcohol and 0.5% chlorhexidine gluconate to unsoiled hands, rubbing them vigorously for 20 seconds immediately prior to palpating a patient's abdomen in the general ward as shown in the video. Although the chemical agents utilized in this solution are capable of rapidly denaturing cellular proteins and disrupting the lipid envelopes of numerous pathogenic viruses, according to standard WHO infection prevention and control guidelines, this specific procedural action is officially classified as which of the following?",
-    options: [
-      "Sterilization",
-      "Disinfection",
-      "Hand hygiene",
-      "Biomedical disposal"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Hand hygiene"
-  },
-  {
-    id: 40,
-    image: "",
-    question: "A biostatistician plots the age distribution of a specific infectious disease. The resulting curve shows two distinct, equally high peaks representing outbreaks in young children and the elderly. Which of the following equations holds true regarding its measures of central tendency?",
-    options: [
-      "Mean < Median < Mode",
-      "Mean = Median = Mode",
-      "Mode < Median < Mean",
-      "Mean = Median ≠ Mode"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Mean = Median ≠ Mode"
-  },
-  {
-    id: 41,
-    image: "",
-    question: "A public health researcher investigates the correlation between the per capita trans-fat consumption and the incidence of coronary artery disease across 40 different countries worldwide. In this specific epidemiological study, what is the fundamental unit of observation?",
-    options: [
-      "Entire populations",
-      "Individual patients",
-      "High-risk communities",
-      "Matched patient cohorts"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Entire populations"
-  },
-  {
-    id: 42,
-    image: "",
-    question: "A global health report reveals that nations with higher per capita meat consumption have higher national rates of colon cancer. Reading this, a medical student concludes that a specific strict vegetarian patient migrating from one of those high-meat consuming countries must also be at an increased risk of colon cancer. Which epidemiological concept represents the logical error made by the student?",
-    options: [
-      "Confounding bias",
-      "Selection bias",
-      "Recall bias",
-      "Ecological fallacy"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Ecological fallacy"
-  },
-  {
-    id: 43,
-    image: "",
-    question: "An occupational physician uses a factory's 10-year-old employment logs to group past workers into those exposed and unexposed to a specific industrial solvent. He then reviews their subsequent medical records up to the present day to determine the incidence of peripheral neuropathy in both groups. By the time this study begins, both the exposure and the disease have already occurred. Which study design is this?",
-    options: [
-      "Retrospective cohort study",
-      "Case-control study",
-      "Ambispective cohort study",
-      "Prospective cohort study"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Retrospective cohort study"
-  },
-  {
-    id: 44,
-    image: "",
-    question: "A public health expert is evaluating the causality of a newly identified multifactorial syndrome using the classic Doll and Hill framework. Which of the following criteria is considered the weakest and is widely regarded as the primary limitation of this causal model?",
-    options: [
-      "Temporality",
-      "Specificity",
-      "Dose-response relationship",
-      "Consistency"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Specificity"
-  },
-  {
-    id: 45,
-    image: "",
-    question: "A public health expert is evaluating the causality of a newly identified multifactorial syndrome using the classic Doll and Hill framework. Which of the following criteria is considered the weakest and is widely regarded as the primary limitation of this causal model?",
-    options: [
-      "Temporality",
-      "Specificity",
-      "Dose-response relationship",
-      "Consistency"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Specificity"
-  },
-  {
-    id: 46,
-    image: "",
-    question: "A researcher is conducting a long-term prospective study on 10,000 healthy individuals to identify novel biomarkers for a rare cancer. Blood samples are drawn and frozen at baseline. After 5 years, 50 participants develop the cancer. For each newly diagnosed case, the researcher immediately selects two healthy participants from the same cohort who are at the exact same time of follow-up. The frozen blood samples of these specific individuals are then analyzed. What type of study design is this?",
-    options: [
-      "Nested case-control study",
-      "Case cohort study",
-      "Retrospective cohort study",
-      "Traditional case-control study"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Nested case-control study"
-  },
-  {
-    id: 47,
-    image: "",
-    question: "A global health committee is evaluating a developing region's standard of living by calculating its Physical Quality of Life Index (PQLI). Which of the following parameters is explicitly excluded from the calculation of PQLI, despite being a core component of the Human Development Index (HDI)?",
-    options: [
-      "Infant mortality rate",
-      "Per capita income",
-      "Basic literacy rate",
-      "Life expectancy at age one"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Per capita income"
-  },
-  {
-    id: 48,
-    image: "",
-    question: "A mechanic sustains a severe crush injury resulting in the traumatic amputation of his right hand. Because he can no longer hold heavy tools, he subsequently loses his job and struggles to financially support his family. According to the standard WHO sequence, what does the loss of his job specifically represent?",
-    options: [
-      "Impairment",
-      "Disability",
-      "Handicap",
-      "Disease"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Handicap"
-  },
-  {
-    id: 49,
-    image: "",
-    question: "A national health ministry is tasked with comprehensively evaluating the impact of morbidity and mortality within its population to optimally allocate future medical funding. They require a single metric that represents the most accurate summary of the population's overall health. Which of the following indices is currently considered the best overall indicator of disease burden?",
-    options: [
-      "Sullivan Index (DFLE)",
-      "Quality Adjusted Life Years (QALY)",
-      "Disability Adjusted Life Years (DALY)",
-      "Healthy Adjusted Life Expectancy (HALE)"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Healthy Adjusted Life Expectancy (HALE)"
-  },
-  {
-    id: 50,
-    image: "",
-    question: "A newly appointed health administrator reviews the annual statistics of a tertiary care public hospital and notes a consistently \"Negative\" bed turnover interval. What does this specific metric indicate about the facility's inpatient wards?",
-    options: [
-      "Overutilization with more than 100% occupancy",
-      "Underutilization with numerous empty beds",
-      "Exceptionally high patient mortality rates",
-      "Perfect equilibrium of admissions and discharges"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Overutilization with more than 100% occupancy"
-  },
-  {
-    id: 51,
-    image: "",
-    question: "A 40-year-old normotensive, apparently healthy male visits a clinic for a routine wellness check. The physician counsels him to actively restrict his daily dietary salt intake to prevent the future onset of hypertension. According to the epidemiological levels of prevention, how is this specific intervention classified?",
-    options: [
-      "Primordial prevention",
-      "Primary prevention",
-      "Secondary prevention",
-      "Tertiary prevention"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Primary prevention"
-  },
-  {
-    id: 52,
-    image: "",
-    question: "A medical officer is planning a mass screening program for central adiposity in a highly diverse community. To streamline the process, he wants to utilize a single anthropometric marker with a universal cut-off that does not require separate reference charts for males and females or different age groups. Which of the following indicators is the best choice?",
-    options: [
-      "Quetelet index",
-      "Waist-hip ratio",
-      "Waist-height ratio",
-      "Harpenden skinfold thickness"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Waist-height ratio"
-  },
-  {
-    id: 53,
-    image: "",
-    question: "A 42-year-old asymptomatic female visits a primary health center for a routine wellness checkup. According to the standard national preventive oncology guidelines, what is the most appropriate breast cancer screening protocol for this patient?",
-    options: [
-      "Monthly self-breast examination and 3-yearly clinical examination",
-      "3-yearly clinical examination and 3-yearly mammography",
-      "Yearly self-breast examination and yearly clinical examination",
-      "Monthly self-breast examination, yearly clinical examination, and yearly mammography"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Monthly self-breast examination, yearly clinical examination, and yearly mammography"
-  },
-  {
-    id: 54,
-    image: "",
-    question: "A 55-year-old chronic smoker presents with oral mucosal lesions. During cessation counseling, he asks about the specific chemicals responsible for his addiction versus those causing cancer. Which of the following components of his cigarette smoke is strictly non-carcinogenic?",
-    options: [
-      "Nicotine",
-      "Polynuclear aromatic hydrocarbon",
-      "Aromatic amine",
-      "Nitrosoamine"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Nicotine"
-  },
-  {
-    id: 55,
-    image: "",
-    question: "A 10-year-old boy is evaluated at a pediatric clinic and is found to have a blood pressure consistently in the 95th percentile for his age and height. The pediatrician counsels the parents that without lifestyle interventions, the child is highly likely to remain hypertensive throughout his adulthood. Which epidemiological concept best describes this predictable trajectory?",
-    options: [
-      "Rule of Halves",
-      "Tracking Phenomenon",
-      "Iceberg Phenomenon",
-      "Lead-time bias"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Tracking Phenomenon"
-  },
-  {
-    id: 56,
-    image: "",
-    question: "A national demographer is evaluating whether a country's population will successfully replace itself in the next generation. Which of the following fertility indicators is strictly considered the best overall index because it specifically adjusts for female mortality and life expectancy?",
-    options: [
-      "Total Fertility Rate",
-      "Gross Reproduction Rate",
-      "Net Reproduction Rate",
-      "General Fertility Rate"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Net Reproduction Rate"
-  },
-  {
-    id: 57,
-    image: "",
-    question: "A developing nation has recently experienced a rapid decline in its crude death rate due to improved public health and sanitation, while its crude birth rate remains consistently high. This resulting disparity has led to an explosive population growth rate. According to the standard demographic transition cycle, this country is currently in which stage?",
-    options: [
-      "Stage I",
-      "Stage II",
-      "Stage III",
-      "Stage IV"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Stage II"
-  },
-  {
-    id: 58,
-    image: "",
-    question: "A public health official is analyzing the methodology behind India's Sample Registration System (SRS) to understand how it ensures high-quality vital event data. Which of the following best describes the core operational mechanism of the SRS?",
-    options: [
-      "Dual record system with continuous counting and periodic cross-checks",
-      "Passive registration system based solely on hospital records",
-      "Complete house-to-house enumeration conducted every ten years",
-      "Voluntary reporting system maintained by local village heads"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Dual record system with continuous counting and periodic cross-checks"
-  },
-  {
-    id: 59,
-    image: "",
-    question: "A pregnant patient at 28 weeks of gestation presents to the district hospital for a routine checkup. According to the current WHO recommended minimum Antenatal Care (ANC) model, this scheduled appointment constitutes which visit number?",
-    options: [
-      "First visit",
-      "Second visit",
-      "Third visit",
-      "Fourth visit"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Third visit"
-  },
-  {
-    id: 60,
-    image: "",
-    question: "A 20-week pregnant female attends her routine antenatal checkup. Her current hemoglobin level is 10.5 g/dL. According to the national guidelines for Iron and Folic Acid (IFA) supplementation, what is the correct daily dosing regimen for this patient?",
-    options: [
-      "One tablet OD",
-      "One tablet BD",
-      "Two tablets BD",
-      "One tablet weekly"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "One tablet BD"
-  },
-  {
-    id: 61,
-    image: "",
-    question: "A 28-year-old female dies 30 days after a complicated vaginal delivery due to severe postpartum hemorrhage. In the context of public health surveillance, which statement accurately classifies this mortality?",
-    options: [
-      "Included as Maternal Mortality",
-      "Excluded as it occurred post-delivery",
-      "Excluded due to obstetric cause",
-      "Included only if death occurred in the hospital"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Included as Maternal Mortality"
-  },
-  {
-    id: 62,
-    image: "",
-    question: "In the standard epidemiological classification of mortality, which of the following time windows defines the \"Early Neonatal\" period?",
-    options: [
-      "From birth up to 7 completed days of life",
-      "From birth up to 28 completed days of life",
-      "From 7 days up to 28 days of life",
-      "From 28 weeks of gestation up to 7 days of life"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "From birth up to 7 completed days of life"
-  },
-  {
-    id: 63,
-    image: "",
-    question: "A public health analyst is reviewing the recent Government of India mortality data to prioritize pediatric health interventions in a rural district. According to the most recent data on the leading causes of mortality in the infant age group, which of the following is the most significant contributor?",
-    options: [
-      "Prematurity and Low Birth Weight (PM & LBW)",
-      "Pneumonia",
-      "Birth Asphyxia and Birth Trauma (BA & BT)",
-      "Diarrhea"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Prematurity and Low Birth Weight (PM & LBW)"
-  },
-  {
-    id: 64,
-    image: "",
-    question: "A neonate is born at a district hospital with a birth weight of 2.2 kg and no clinical signs of acute illness. According to national guidelines, what is the primary eligibility criteria regarding birth weight for initiating Kangaroo Mother Care (KMC)?",
-    options: [
-      "Less than 2.5 kg",
-      "Less than 1.5 kg",
-      "Less than 1.8 kg",
-      "Less than 1.0 kg"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Less than 2.5 kg"
-  },
-  {
-    id: 65,
-    image: "images/muac.mov",
-    question: "A 2-year-old child is screened at a community health camp using Shakir’s tape to assess mid-upper arm circumference (MUAC). The tape shows a reading of 9.0 cm. According to the standard color-coded classification, what is the appropriate management for this child?",
-    options: [
-      "Home management",
-      "OPD management",
-      "Admission in Nutritional Rehabilitation Center (NRC)",
-      "Immediate intravenous fluid resuscitation"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Admission in Nutritional Rehabilitation Center (NRC)"
-  },
-  {
-    id: 66,
-    image: "",
-    question: "A newly established Health and Wellness Centre - Sub Health Centre (HWC-SHC) requires specific staffing to function according to national guidelines. Which of the following accurately represents the mandatory staff composition required at an HWC-SHC?",
-    options: [
-      "1 Community Health Officer (CHO), 1 MPW (Male), and 1 MPW (Female)",
-      "1 Medical Officer (MO), 1 MPW (Male), and 1 Staff Nurse (SN)",
-      "1 Community Health Officer (CHO), 1 Staff Nurse (SN), and 1 MPW (Male)",
-      "1 Medical Officer (MO), 1 MPW (Male), and 1 MPW (Female)"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "1 Community Health Officer (CHO), 1 MPW (Male), and 1 MPW (Female)"
-  },
-  {
-    id: 67,
-    image: "",
-    question: "A public health administrator is evaluating the categorization of rural Sub-centres to determine service delivery capacity based on updated IPHS standards. A Sub-centre that is authorized to perform labor and delivery services is classified under which category?",
-    options: [
-      "Type A",
-      "Type B",
-      "Primary Health Centre (PHC)",
-      "Community Health Centre (CHC)"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Type B"
-  },
-  {
-    id: 68,
-    image: "",
-    question: "A lactating mother in the first 6 months postpartum visits the clinic for dietary advice. According to the updated 2024 National Institute of Nutrition (NIN) guidelines, which of the following nutrients has a significantly higher additional daily requirement during the first 6 months of lactation compared to the requirements during pregnancy?",
-    options: [
-      "Folate",
-      "Calcium",
-      "Iron",
-      "Protein"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Calcium"
-  },
-  {
-    id: 69,
-    image: "images/IMG_9425.jpeg",
-    question: "A 30-year-old male farmer from Chhattisgarh presents with a spastic gait and requires a stick for ambulation. He reports a long-term dietary habit of consuming Arhar Dal, which was likely adulterated with Khesari Dal. Which toxin is responsible for this clinical presentation?",
-    options: [
-      "BOAA (Boxalyl amino alanine)",
-      "Sanguinarine",
-      "Pyrrolizidine",
-      "Aflatoxin"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "BOAA (Boxalyl amino alanine)"
-  },
-  {
-    id: 70,
-    image: "images/IMG_9426.jpeg",
-    question: "A public health laboratory is investigating an outbreak of suspected Epidemic Dropsy linked to contaminated mustard oil. To confirm the presence of the causative toxin, Sanguinarine, in the oil samples, which diagnostic method is recognized as the most sensitive?",
-    options: [
-      "Paper chromatography using nitric acid",
-      "Physical sensory evaluation",
-      "Simple filtration and sieving",
-      "Salt solution density test"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Paper chromatography using nitric acid"
-  },
-  {
-    id: 71,
-    image: "images/IMG_9428.jpeg",
-    question: "A patient from a region heavily dependent on millet consumption presents with rapidly developing abdominal distension and diagnostic findings confirming hepatic damage. The public health investigation reveals the presence of Crotolaria (jhunjhunia) seeds in the local millet supply. Which hepatotoxic toxin is responsible for this condition?",
-    options: [
-      "Pyrrolizidine",
-      "Aflatoxin",
-      "Clavine",
-      "Sanguinarine"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Pyrrolizidine"
-  },
-  {
-    id: 72,
-    image: "images/IMG_9431.jpeg",
-    question: "A group of villagers presents with acute abdominal cramps and pain after consuming a batch of contaminated bajra. A field investigation suspects Ergotism caused by Claviceps fusiformis. Which simple field test is used to detect this contaminant in the grain supply?",
-    options: [
-      "Floating in 20% salt solution",
-      "Paper chromatography with nitric acid",
-      "Filtration and sieving",
-      "Microscopic observation of grain texture"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Floating in 20% salt solution"
-  },
-  {
-    id: 73,
-    image: "",
-    question: "A quality control officer is checking the iodine content of salt samples collected from a manufacturing unit versus those collected from household consumption. According to national iodine deficiency control standards, what is the required amount of iodine at the production level?",
-    options: [
-      "15 ppm",
-      "30 ppm",
-      "40 ppm",
-      "100 ppm"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "30 ppm"
-  },
-  {
-    id: 74,
-    image: "",
-    question: "A public health team is implementing a community-based de-fluoridation program in a region with high fluoride levels in the groundwater. Which of the following is the standard, widely used domestic de-fluoridation method that involves the sequential addition of lime and alum?",
-    options: [
-      "Nalgonda technique",
-      "Reverse osmosis",
-      "Ion exchange method",
-      "Bone charcoal method"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Nalgonda technique"
-  },
-  {
-    id: 75,
-    image: "",
-    question: "In the established criteria for a 'Reference Indian Human', a healthy female is defined within a specific age range and weight to standardize dietary and physiological recommendations. What are these standardized parameters for a female?",
-    options: [
-      "19–39 years and 65 kg",
-      "13–39 years and 55 kg",
-      "19–39 years and 55 kg",
-      "13–39 years and 65 kg"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "13–39 years and 55 kg"
-  },
-  {
-    id: 76,
-    image: "images/dpd.mov",
-    question: "This video shows a health worker checking free residual chlorine in drinking water. Which kit is used?",
-    options: [
-      "DPD kit",
-      "Hardness kit",
-      "Fluoride kit",
-      "Turbidity meter"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "DPD kit"
-  },
-  {
-    id: 77,
-    image: "",
-    question: "In hospital lighting design, an administrator needs to measure the amount of light reaching a specific work surface to ensure optimal visibility. Which unit of measurement should be used for this purpose?",
-    options: [
-      "Lumen",
-      "Lux",
-      "Candela",
-      "Lambert"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Lux"
-  },
-  {
-    id: 78,
-    image: "images/IMG_9434.jpeg",
-    question: "An environmental health officer is tasked with assessing the thermal comfort within a factory setting, specifically to measure the cooling power of air in an area with low wind velocity. Which instrument is specifically designed for this purpose?",
-    options: [
-      "Kata thermometer",
-      "Anemometer",
-      "Psychrometer",
-      "Globe thermometer"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Kata thermometer"
-  },
-  {
-    id: 79,
-    image: "",
-    question: "An environmental scientist is analyzing the atmospheric composition to determine the primary contributors to the greenhouse effect causing global warming. Which of the following is identified as the greenhouse gas present in the highest concentration in the atmosphere that contributes to the greenhouse effect?",
-    options: [
-      "Water vapors",
-      "Carbon dioxide",
-      "Ozone",
-      "Chlorofluorocarbons (CFC)"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Water vapors"
-  },
-  {
-    id: 80,
-    image: "images/gambusia.mov",
-    question: "This short video shows small fish released into a pond to control mosquito breeding. Which biological control method is shown?",
-    options: [
-      "Gambusia fish",
-      "DDT spraying",
-      "Temephos",
-      "Pyrethrum spray"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Gambusia fish"
-  },
-  {
-    id: 81,
-    image: "images/IMG_9435.jpeg",
-    question: "A public health entomologist identifies a mosquito specimen based on its morphological and behavioral characteristics. Which of the following features is uniquely characteristic of the Anopheles mosquito?",
-    options: [
-      "Sits at an angle to the resting surface",
-      "Lays eggs in rafts",
-      "Prefers polluted water for breeding",
-      "Lays eggs with lateral floats"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Sits at an angle to the resting surface"
-  },
-  {
-    id: 82,
-    image: "images/IMG_9436.jpeg",
-    question: "A patient in an endemic region presents with acute fever, severe joint pain, and a maculopapular rash. Epidemiological findings suggest the vector breeds primarily in artificial water collections and lays single, boat-shaped eggs. Which mosquito is the most likely vector?",
-    options: [
-      "Aedes",
-      "Culex",
-      "Mansonoides",
-      "Anopheles"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Aedes"
-  },
-  {
-    id: 83,
-    image: "images/IMG_9437.jpeg",
-    question: "A community health survey is conducted in a rural area experiencing an outbreak of Japanese encephalitis. Image of the primary vector is given below. Which specific breeding environment should the health team target to successfully control the primary vector responsible for this outbreak?",
-    options: [
-      "Dirty/polluted water",
-      "Aquatic plants",
-      "Artificial water collections",
-      "Clean running water"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Dirty/polluted water"
-  },
-  {
-    id: 84,
-    image: "images/IMG_9456.jpeg",
-    question: "A 45-year-old male presents with characteristic subcutaneous nodules, skin depigmentation, and progressive visual impairment leading to \"river blindness.\" Which vector is responsible for transmitting the causative parasite of this condition?",
-    options: [
-      "Sandfly",
-      "Black fly",
-      "Reduviid bug",
-      "Trombiculid mite"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Black fly"
-  },
-  {
-    id: 85,
-    image: "images/IMG_9441.jpeg",
-    question: "A patient presents with high fever, lymphadenopathy, and a history of handling rodents in an endemic region. Laboratory analysis confirms Yersinia pestis infection. Which vector is responsible for transmitting this disease?",
-    options: [
-      "Rat flea",
-      "Soft tick",
-      "Hard tick",
-      "Housefly"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Rat flea"
-  },
-  {
-    id: 86,
-    image: "images/whitecontainer.mov",
-    question: "This video shows a white translucent puncture-proof container used for biomedical waste disposal. Which item should be discarded in it?",
-    options: [
-      "Syringe without needle",
-      "Blood bag",
-      "Glass vial",
-      "Sharp needles"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Sharp needles"
-  },
-  {
-    id: 87,
-    image: "",
-    question: "A national health program manager is assessing the long-term effectiveness of a public health initiative after its completion. According to the classification of evaluation, which type of evaluation is focused on determining these long-term results?",
-    options: [
-      "Process evaluation",
-      "Impact evaluation",
-      "Outcome evaluation",
-      "Monitoring"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Outcome evaluation"
-  },
-  {
-    id: 88,
-    image: "",
-    question: "A hospital administrator is using network analysis to streamline a complex clinical process. In the Critical Path Method (CPM), what is the defining characteristic of the 'critical path' that must be monitored closely to avoid project delay?",
-    options: [
-      "The longest path in the network",
-      "The shortest path in the network",
-      "The path with the most activities",
-      "The path with the fewest dependencies"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "The longest path in the network"
-  },
-  {
-    id: 89,
-    image: "",
-    question: "In a study evaluating the economic impact of two different public health interventions, the researcher expresses both the costs and the outcomes in monetary units to determine which program provides the highest return. Which type of economic evaluation is being utilized?",
-    options: [
-      "Cost Utility Analysis (CUA)",
-      "Cost Benefit Analysis (CBA)",
-      "Cost Minimization Analysis (CMA)",
-      "Cost Effective Analysis (CEA)"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Cost Benefit Analysis (CBA)"
-  },
-  {
-    id: 90,
-    image: "",
-    question: "A cultural anthropologist is studying the social dynamics in a region where individuals from two distinct cultural backgrounds have begun to extensively share customs and habits due to frequent intermarriage and shared educational environments. This phenomenon is best defined as:",
-    options: [
-      "Acculturation",
-      "Custom",
-      "Opinion",
-      "Belief"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Acculturation"
-  },
-  {
-    id: 91,
-    image: "",
-    question: "A medical officer is evaluating the socio-economic status of an urban household using the Modified Kuppuswamy Scale. While education and occupation are assessed specifically for the head of the household, which parameter is calculated for the unit as a whole?",
-    options: [
-      "Occupation",
-      "Income",
-      "Education",
-      "Land ownership"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Income"
-  },
-  {
-    id: 92,
-    image: "",
-    question: "A medical relief team establishes a health camp for local victims displaced by a severe cyclone. While planning the emergency immunization schedule, which of the following vaccines is routinely not recommended for the victims?",
-    options: [
-      "Measles",
-      "Rotavirus",
-      "Cholera",
-      "Chickenpox"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Cholera"
-  },
-  {
-    id: 93,
-    image: "",
-    question: "A medical officer is updating the legal health registry for an industrial plant. According to the provisions of the Factories Act 1948, which of the following respiratory conditions is explicitly exempt from being a notifiable disease?",
-    options: [
-      "Silicosis",
-      "Asbestosis",
-      "Anthracosis",
-      "Bagassosis"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Bagassosis"
-  },
-  {
-    id: 94,
-    image: "images/IMG_9442.jpeg",
-    question: "A 45-year-old agricultural worker presents with a chronic cough and progressive dyspnea. His occupational history reveals long-term exposure to mouldy hay in the barns. Chest XRay is given below. Which of the following is the most likely causative agent for his respiratory condition?",
-    options: [
-      "Micropolyspora",
-      "Thermoactinomyces",
-      "Aspergillus",
-      "Silica"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Micropolyspora"
-  },
-  {
-    id: 95,
-    image: "",
-    question: "A medical officer organizing a community immunization drive faces strong resistance from a local population group. The group refuses vaccination, citing deep-rooted community beliefs and social norms. In the context of health communication, this resistance represents which type of barrier?",
-    options: [
-      "Semantic barrier",
-      "Cultural barrier",
-      "Physiological barrier",
-      "Environmental barrier"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Cultural barrier"
-  },
-  {
-    id: 96,
-    image: "",
-    question: "A medical college organizes an event where four renowned cardiologists present their individual research findings on heart failure to an audience of postgraduate students. Each expert speaks one after the other in a predefined order. They do not interact or debate with one another during their presentations. Which communication method is being utilized?",
-    options: [
-      "Focused Group Discussion",
-      "Panel Discussion",
-      "Symposium",
-      "Workshop"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Symposium"
-  },
-  {
-    id: 97,
-    image: "images/IMG_9443.jpeg",
-    question: "A 40-year-old refugee living in a crowded, unhygienic camp presents with a severe headache, high fever, and a macular rash. He is clinically diagnosed with Epidemic Typhus. Which of the following vectors is specifically responsible for the transmission of this condition?",
-    options: [
-      "Human body louse",
-      "Tse-tse fly",
-      "Reduviid bug",
-      "Black fly"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Human body louse"
-  },
-  {
-    id: 98,
-    image: "",
-    question: "A newly appointed medical officer is taking charge of an Urban Primary Health Centre (U-PHC) established under the National Urban Health Mission (NUHM). While reviewing the facility's operational guidelines, she notes several differences from her previous rural posting. Which of the following is a true characteristic of this urban facility?",
-    options: [
-      "Inpatient department (IPD) services are absent",
-      "It functions on a 3-tier health delivery system",
-      "The standard OPD timing is from 9 AM to 4 PM",
-      "It serves a baseline population of 30,000"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Inpatient department (IPD) services are absent"
-  },
-  {
-    id: 99,
-    image: "",
-    question: "A district health administrator is upgrading a rural health facility to provide Comprehensive Emergency Obstetric Care (CEmOC) under the RMNCHA+N program. Which of the following specific services MUST be added to their existing basic services to achieve this classification?",
-    options: [
-      "Intravenous Magnesium Sulphate",
-      "Blood transfusion facilities",
-      "Manual removal of placenta",
-      "Usage of ventouse/forceps"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Blood transfusion facilities"
-  },
-  {
-    id: 100,
-    image: "",
-    question: "A 26-year-old BPL primigravida is admitted to a district hospital in a High Performing State (HPS). Due to fetal distress, she undergoes an emergency Lower Segment Caesarean Section (LSCS). Under the Janani Suraksha Yojana (JSY), what is the specific cash assistance she is entitled to receive for this delivery?",
-    options: [
-      "Rs 500/-",
-      "Rs 700/-",
-      "Rs 1500/-",
-      "Rs 1400/-"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Rs 1500/-"
-  },
-  {
-    id: 101,
-    image: "",
-    question: "A pregnant woman is admitted to a district hospital and undergoes an uncomplicated normal vaginal delivery (NVD). Under the Janani Shishu Suraksha Karyakram (JSSK) scheme, for how many days is she entitled to receive a free diet at the health facility?",
-    options: [
-      "7 days",
-      "42 days",
-      "1 day",
-      "3 days"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "3 days"
-  },
-  {
-    id: 102,
-    image: "",
-    question: "Under the Anemia Mukt Bharat strategy, which prophylactic Iron and Folic Acid (IFA) preparation is strictly indicated for a 7-year-old school-going child?",
-    options: [
-      "Pink tablet (45 mg Iron + 400 mcg FA)",
-      "Blue tablet (60 mg Iron + 500 mcg FA)",
-      "Red tablet (60 mg Iron + 500 mcg FA)",
-      "Liquid drops (20 mg Iron + 100 mcg FA)"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Pink tablet (45 mg Iron + 400 mcg FA)"
-  },
-  {
-    id: 103,
-    image: "",
-    question: "A 4-month-old infant evaluated by a peripheral health worker is classified into the 'Pink' category according to the Integrated Management of Neonatal and Childhood Illness (IMNCI) guidelines. What is the most appropriate next step in management?",
-    options: [
-      "Initiate Outpatient Department (OPD) based treatment",
-      "Administer injection gentamicin and refer urgently",
-      "Advise home-based care with symptomatic relief",
-      "Prescribe oral amoxicillin and review after 2 days"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Administer injection gentamicin and refer urgently"
-  },
-  {
-    id: 104,
-    image: "",
-    question: "A mother registers her 2-year-old toddler at a local Anganwadi center. Under the Integrated Child Development Services (ICDS) scheme, which of the following core interventions is specifically excluded for a child of this age?",
-    options: [
-      "Supplementary Nutrition",
-      "Immunization",
-      "Non-formal Education",
-      "Referral Services"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Non-formal Education"
-  },
-  {
-    id: 105,
-    image: "",
-    question: "A 12-year-old girl studying in the 7th standard presents to a school health clinic with generalized fatigue. While assessing her dietary intake, the medical officer notes she relies primarily on the PM POSHAN (Mid-Day Meal) scheme at her school. What is the mandated daily protein provision for her specific class group (Upper Primary)?",
-    options: [
-      "12 grams",
-      "15 grams",
-      "18 grams",
-      "20 grams"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "20 grams"
-  },
-  {
-    id: 106,
-    image: "",
-    question: "A female employee covered under the Employees State Insurance (ESI) scheme undergoes a tubectomy procedure. Based on ESI benefit guidelines, for how many days is she entitled to receive enhanced sickness benefit at 100% of her wage?",
-    options: [
-      "7 days",
+      "4 days",
       "14 days",
-      "91 days",
-      "730 days"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "14 days"
-  },
-  {
-    id: 107,
-    image: "",
-    question: "A pregnant woman in a rural village regularly receives 60 to 90-second pre-recorded voice messages on her mobile phone. These messages provide essential maternal and childcare advice in her local language. Which of the following digital health initiatives delivers this specific service?",
-    options: [
-      "ANMOL",
-      "TELEMANAS",
-      "Kilkari",
-      "Mera Aspaatal"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Kilkari"
-  },
-  {
-    id: 108,
-    image: "",
-    question: "A patient is diagnosed with Japanese Encephalitis following a mosquito bite in an endemic agricultural zone. In the natural transmission cycle of this viral infection, humans serve as which specific type of host?",
-    options: [
-      "Definitive host",
-      "Intermediate host",
-      "Obligate host",
-      "Dead-end host"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Dead-end host"
-  },
-  {
-    id: 109,
-    image: "",
-    question: "A district health officer observes a constant, year-round presence of measles in a specific community. The disease exclusively affects the pediatric age group, while adults are entirely spared. This pattern of disease occurrence is best classified as:",
-    options: [
-      "Holoendemic",
-      "Hyperendemic",
-      "Epidemic",
-      "Pandemic"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Holoendemic"
-  },
-  {
-    id: 110,
-    image: "",
-    question: "An epidemiologist plots a disease outbreak on a graph. The epidemic curve demonstrates a rapid rise in cases followed by a rapid fall. All recorded cases cluster strictly within a single incubation period, and there are absolutely no secondary waves. Which of the following is the most likely scenario for this outbreak?",
-    options: [
-      "A commercial sex worker spreading an STD over months",
-      "Food poisoning among guests at a single wedding reception",
-      "Community transmission of COVID-19 during winter",
-      "The rising national incidence of Type 2 Diabetes"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Food poisoning among guests at a single wedding reception"
-  },
-  {
-    id: 111,
-    image: "images/IMG_9444.jpeg",
-    question: "A researcher studying the transmission cycle of Trypanosoma cruzi observes that the infection transmits from infected reservoir animals to humans, and concurrently from infected humans back to susceptible animals. This bidirectional pattern of disease transmission is best classified as:",
-    options: [
-      "Anthropozoonoses",
-      "Zoo-anthroponoses",
-      "Amphixenosis",
-      "Exotic transmission"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Amphixenosis"
-  },
-  {
-    id: 112,
-    image: "",
-    question: "An apparently healthy traveler returning from a Yellow Fever endemic zone is detained at the airport health desk. This preventive separation (Quarantine) must strictly be maintained for which of the following standard epidemiological durations?",
-    options: [
-      "For the entire period of communicability",
-      "Until the onset of clinical symptoms",
-      "Throughout the period of infectivity",
-      "For one maximum incubation period"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "For one maximum incubation period"
-  },
-  {
-    id: 113,
-    image: "",
-    question: "Following an outbreak of Hepatitis A in a densely populated student hostel, local health authorities institute strict control measures. After the last reported case is isolated, what is the standard epidemiological duration the authorities must wait before officially declaring the hostel area free of the epidemic?",
-    options: [
-      "Twice the maximum incubation period",
-      "Once the maximum incubation period",
-      "The entire period of communicability",
-      "Until the first diagnosis of the secondary case"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Twice the maximum incubation period"
-  },
-  {
-    id: 114,
-    image: "",
-    question: "A family of 6, none of whom are vaccinated or previously exposed, faces a varicella outbreak. One child develops the disease first (index case). Within the next maximum incubation period, two more siblings develop the rash. When calculating the Secondary Attack Rate (SAR) for this household, what is the exact denominator to use?",
-    options: [
-      "6",
-      "5",
-      "3",
-      "2"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "5"
-  },
-  {
-    id: 115,
-    image: "",
-    question: "A 5-year-old unvaccinated boy develops a maculopapular rash starting behind the ears, clinically diagnosed as Measles. To prevent community transmission, for how many days after the onset of the rash must he be strictly isolated?",
-    options: [
-      "3 days",
-      "5 days",
       "7 days",
-      "Until lesions crust"
+      "30 days"
     ],
     answerIndex: 2,
     correctAnswerText: "7 days"
   },
   {
-    id: 116,
+    id: 12,
     image: "",
-    question: "A susceptible pregnant woman is evaluated in the outpatient department after being exposed to a nephew with active varicella lesions. To provide effective post-exposure prophylaxis, Varicella Zoster Immunoglobulin (VZIg) must be administered within what maximum timeframe after this exposure?",
+    question: "A 26-year-old pregnant female in her first trimester is brought to the emergency department with severe agitation, decreased need for sleep, and grandiose delusions. She requires immediate pharmacological intervention. Which of the following is the drug of choice for managing this acute manic episode?",
     options: [
-      "24 hours",
-      "48 hours",
-      "96 hours",
-      "72 hours"
+      "Valproate",
+      "Lithium",
+      "Carbamazepine",
+      "Antipsychotics"
     ],
     answerIndex: 3,
-    correctAnswerText: "72 hours"
+    correctAnswerText: "Antipsychotics"
+  },
+  {
+    id: 13,
+    image: "",
+    question: "A 40-year-old female presents with profound, pervasive sadness and anhedonia. A detailed clinical interview reveals absolutely no identifiable preceding stressful life events, such as financial loss, relationship issues, or bereavement. Her psychiatrist suspects a purely biological etiology involving 'trimonoamine depletion'. Which of the following terms best categorizes her condition?",
+    options: [
+      "Endogenous depression",
+      "Exogenous depression",
+      "Reactive depression",
+      "Psychological depression"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Endogenous depression"
+  },
+  {
+    id: 14,
+    image: "",
+    question: "A 45-year-old male presents with pervasive low mood, lethargy, and significant weight loss for the past 3 weeks. He reports severe sleep disturbances. If a polysomnography is performed, which of the following characteristic sleep architecture findings is most likely to be seen?",
+    options: [
+      "Increased REM latency",
+      "Decreased REM latency",
+      "Increased deep NREM sleep",
+      "Decreased sleep latency"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Decreased REM latency"
+  },
+  {
+    id: 15,
+    image: "",
+    question: "A 22-year-old female presents with low mood, excessive sleep, significant weight gain, carbohydrate cravings, and a sensation of extreme heaviness in her limbs. She is also highly emotionally reactive and sensitive to interpersonal rejection. What is the most likely diagnosis?",
+    options: [
+      "Psychotic depression",
+      "Premenstrual dysphoric disorder",
+      "Atypical depression",
+      "Endogenous depression"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Atypical depression"
+  },
+  {
+    id: 16,
+    image: "",
+    question: "A 28-year-old female presents 3 weeks post-delivery with severe agitation and a firm delusional belief that her newborn is evil. She actively expresses thoughts of harming the infant. Along with initiating antipsychotics, what is the most critical immediate management step?",
+    options: [
+      "Supportive psychotherapy",
+      "Administer IV Brexanolone",
+      "Reassure that symptoms will resolve in days",
+      "Immediate mother-to-child separation"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Immediate mother-to-child separation"
+  },
+  {
+    id: 17,
+    image: "",
+    question: "A 65-year-old divorced male with a history of severe depression and a previous suicide attempt is brought to the emergency department after a neighbor found him intoxicated and writing a detailed suicide note. According to his clinical presentation, which of the following biochemical markers in the cerebrospinal fluid (CSF) is most strongly associated with his current high-risk state?",
+    options: [
+      "Decreased 5-HIAA",
+      "Increased Homovanillic acid",
+      "Increased 5-HIAA",
+      "Decreased Vanillylmandelic acid"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Decreased 5-HIAA"
+  },
+  {
+    id: 18,
+    image: "",
+    question: "A 30-year-old female with severe depression presents in a state of clinical stupor with active suicidal tendencies. The psychiatrist immediately schedules her for Modified Electroconvulsive Therapy (ECT). By which primary molecular mechanism does this therapy act as a rapid neurotransmitter booster?",
+    options: [
+      "Targeting and restructuring cognitive distortions",
+      "Increasing Brain-Derived Neurotrophic Factor (BDNF)",
+      "Selective inhibition of serotonin reuptake",
+      "Triggering trimonoamine depletion in the brain"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Increasing Brain-Derived Neurotrophic Factor (BDNF)"
+  },
+  {
+    id: 19,
+    image: "",
+    question: "A 35-year-old male, previously diagnosed with Bipolar Disorder but currently off all medications, presents to the psychiatry outpatient department with a 4-week history of severe pervasive sadness, lethargy, and anhedonia. What is the most appropriate pharmacological management strategy for his current clinical phase?",
+    options: [
+      "Antidepressant alone",
+      "Antipsychotic alone",
+      "Antidepressant + Mood stabilizer",
+      "Mood stabilizer alone"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Antidepressant + Mood stabilizer"
+  },
+  {
+    id: 20,
+    image: "",
+    question: "A 28-year-old male is rushed to the emergency room with sudden, severe palpitations, sweating, and a profound \"feeling of impending doom\". His ECG and cardiac markers are completely normal. These intense, unprovoked paroxysmal episodes have occurred three times this month. What is the most likely psychiatric diagnosis?",
+    options: [
+      "Generalized Anxiety Disorder",
+      "Specific Phobia",
+      "Separation Anxiety Disorder",
+      "Panic Disorder"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Panic Disorder"
+  },
+  {
+    id: 21,
+    image: "",
+    question: "A 40-year-old female presents with severe, paralyzing anxiety whenever she has to go to a crowded market, an open ground, or a closed elevator. She has started avoiding these situations entirely. What is the most appropriate diagnosis?",
+    options: [
+      "Agoraphobia",
+      "Social phobia",
+      "Claustrophobia",
+      "Specific phobia"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Agoraphobia"
+  },
+  {
+    id: 22,
+    image: "images/IMG_9897.jpeg",
+    question: "A 19-year-old female is referred to the psychiatry clinic by her dermatologist after presenting with irregular, asymmetric patches of hair loss on her scalp. She confesses to experiencing an escalating tension that is only relieved by pulling out her own hair. A similar urge is noted for picking at her skin. What is the most effective non-pharmacological treatment of choice for her condition?",
+    options: [
+      "Systemic desensitization",
+      "Habit reversal therapy",
+      "Flooding",
+      "Aversion therapy"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Habit reversal therapy"
+  },
+  {
+    id: 23,
+    image: "",
+    question: "A 35-year-old female presents to the emergency room with severe abdominal pain and recurrent unexplained hypoglycemia. Examination reveals multiple surgical scars on her abdomen. Investigations reveal she has been intentionally injecting herself with insulin. Psychiatric evaluation determines she has no external secondary gain, such as financial compensation or avoiding legal trouble, but simply desires to be hospitalized and cared for by doctors. What is the most appropriate diagnosis?",
+    options: [
+      "Somatization disorder",
+      "Malingering",
+      "Factitious disorder",
+      "Hypochondriasis"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Factitious disorder"
+  },
+  {
+    id: 24,
+    image: "",
+    question: "A 28-year-old female with a history of severe childhood psychological trauma is brought to the psychiatrist by her husband. He reports that she frequently acts like a completely different person, adopting a different name, voice, and set of memories. She is found to have two distinct personality states that alternately control her behavior. What is the most appropriate diagnosis?",
+    options: [
+      "Dissociative fugue",
+      "Dissociative amnesia",
+      "Depersonalization disorder",
+      "Dissociative identity disorder"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Dissociative identity disorder"
+  },
+  {
+    id: 25,
+    image: "images/ScreenRecording_07-16-2026 23-33-30_1.mov",
+    question: "A 70-year-old male is admitted to the ICU following major abdominal surgery. On postoperative day 2, he becomes acutely disoriented and restless. The nursing staff notes that his confusion significantly worsens during the evening hours. He is also observed to be continuously and aimlessly plucking at his bed sheets. What is the specific clinical term for this motor behavior?",
+    options: [
+      "Carphologia",
+      "Stereotypy",
+      "Echopraxia",
+      "Catalepsy"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Carphologia"
+  },
+  {
+    id: 26,
+    image: "",
+    question: "A 50-year-old chronic alcoholic is brought to the casualty with acute global confusion, an unsteady wide-based gait (ataxia), and horizontal gaze palsy. He is immediately diagnosed with Wernicke's encephalopathy. Which of the following is the most appropriate sequence of emergency pharmacological management?",
+    options: [
+      "IV Dextrose followed by IV Thiamine",
+      "IV Thiamine followed by IV Dextrose",
+      "Normal Saline followed by IV Haloperidol",
+      "Oral Thiamine followed by IV Dextrose"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "IV Thiamine followed by IV Dextrose"
+  },
+  {
+    id: 27,
+    image: "",
+    question: "A 22-year-old male is brought to the casualty in an unconscious state with a respiratory rate of 6 breaths/min. On physical examination, he exhibits severe CNS depression and bilateral pinpoint pupils. His friends report he recently injected a substance known locally as \"brown sugar\". Which of the following is the immediate drug of choice for this patient?",
+    options: [
+      "Buprenorphine",
+      "Clonidine",
+      "IV Naloxone",
+      "Methadone"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "IV Naloxone"
+  },
+  {
+    id: 28,
+    image: "images/ScreenRecording_07-16-2026 23-40-31_1.mov",
+    question: "An 15-year-old girl is brought to the pediatrician by his parents due to sudden, repetitive eye blinking and facial grimacing. Over the last few months, he has also developed involuntary vocalizations, including throat clearing, grunting, and occasionally shouting obscene words in public. Which of the following is the first-line drug of choice for managing this condition?",
+    options: [
+      "Fluoxetine",
+      "Methylphenidate",
+      "Haloperidol",
+      "Clonidine"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Clonidine"
+  },
+  {
+    id: 29,
+    image: "images/ScreenRecording_07-16-2026 23-47-40_1.mov",
+    question: "A 2-year-old girl with a history of normal development until 6 months of age presents with a recent loss of acquired speech and purposeful hand skills. On examination, the pediatrician notes an acquired microcephaly and constant, repetitive hand-wringing movements. What is the most likely diagnosis?",
+    options: [
+      "Rett's syndrome",
+      "Heller's syndrome",
+      "Asperger's syndrome",
+      "Childhood autism"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Rett's syndrome"
+  },
+  {
+    id: 30,
+    image: "images/ScreenRecording_07-16-2026 23-51-51_1.mov",
+    question: "A 24-year-old man presents with irresistible daytime sleep attacks. He describes terrifying episodes of being completely unable to move just as he is falling asleep. Furthermore, he often collapses to the floor without losing consciousness whenever he laughs heartily. Which of the following terms strictly defines the pathognomonic symptom he experiences while laughing?",
+    options: [
+      "Hypnagogic hallucination",
+      "Cataplexy",
+      "Sleep paralysis",
+      "Somnambulism"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Cataplexy"
+  },
+  {
+    id: 31,
+    image: "",
+    question: "A 25-year-old female presents with a history of frequent relationship breakups, chronic feelings of inner emptiness, and impulsive self-harm gestures (parasuicide). During therapy, she exhibits extreme mood swings and views her friends and family as strictly \"all good\" or \"all bad.\" What is the most likely diagnosis?",
+    options: [
+      "Histrionic personality disorder",
+      "Narcissistic personality disorder",
+      "Borderline personality disorder",
+      "Dissocial personality disorder"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Borderline personality disorder"
+  },
+  {
+    id: 32,
+    image: "",
+    question: "A 30-year-old patient with severe dissociative amnesia following a traumatic event is unable to recall the incident. To resolve the unconscious conflict, the psychiatrist administers intravenous Thiopentone sodium to facilitate the recollection of these repressed memories along with their appropriate emotional response. What is this specific psychoanalytical technique called?",
+    options: [
+      "Free association",
+      "Parapraxes",
+      "Dream work",
+      "Abreaction"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Abreaction"
+  },
+  {
+    id: 33,
+    image: "",
+    question: "A bank employee is held hostage for three days during a robbery. Following her rescue, she actively defends the bank robbers' motives and expresses deep affection toward them. Which defense mechanism best explains her behavior?",
+    options: [
+      "Introjection",
+      "Projection",
+      "Reaction formation",
+      "Displacement"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Introjection"
+  },
+  {
+    id: 34,
+    image: "",
+    question: "A patient with treatment-resistant schizophrenia is started on a new atypical antipsychotic. A few weeks later, he complains of severe nighttime drooling, frequently waking up with a soaked pillow. Which of the following is a key pharmacological characteristic of this specific drug?",
+    options: [
+      "Highest risk of extrapyramidal movement disorders",
+      "Predominantly blocks D4 rather than D2 receptors",
+      "High risk of causing hyperprolactinemia",
+      "Partial agonist action at dopamine D2 receptors"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Predominantly blocks D4 rather than D2 receptors"
+  },
+  {
+    id: 35,
+    image: "",
+    question: "A 30-year-old male being treated for major depression expresses a strong desire to quit smoking. He specifically requests a medication that will not cause weight gain or sexual dysfunction, having experienced both issues with previous medications. Which of the following is the most appropriate antidepressant choice for this patient?",
+    options: [
+      "Mirtazapine",
+      "Fluoxetine",
+      "Bupropion",
+      "Trazodone"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Bupropion"
+  },
+  {
+    id: 36,
+    image: "",
+    question: "A 26-year-old schizophrenia patient presents to the psychiatry OPD. During the mental status examination, the resident notes that the patient experiences severe obsessions, delusions of persecution, and thought insertion. Furthermore, his speech constantly shifts between entirely unrelated topics. Which of these specific symptoms is classified strictly as a formal thought disorder?",
+    options: [
+      "Obsessions",
+      "Delusions of persecution",
+      "Thought insertion",
+      "Derailment"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Derailment"
+  },
+  {
+    id: 37,
+    image: "",
+    question: "An 18-year-old male is brought to the psychiatry emergency room. When the psychiatrist asks him to describe his current mood, the patient replies, \"My mood is flextitating, I am up and down.\" Which of the following thought disorders is he actively exhibiting?",
+    options: [
+      "Neologism",
+      "Clang association",
+      "Tangentiality",
+      "Thought blocking"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Neologism"
+  },
+  {
+    id: 38,
+    image: "",
+    question: "A 42-year-old male with schizophrenia is treated with Risperidone 8 mg/day for 6 weeks with no clinical improvement. He is subsequently switched to Haloperidol 20 mg/day for another 6 weeks, but he continues to be severely symptomatic. What is the most appropriate next step in pharmacological management?",
+    options: [
+      "Add a second typical antipsychotic",
+      "Initiate Clozapine therapy",
+      "Electroconvulsive therapy",
+      "Combine an atypical and typical antipsychotic"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Initiate Clozapine therapy"
+  },
+  {
+    id: 39,
+    image: "images/ScreenRecording_07-16-2026 23-59-28_1.mov",
+    question: "A 45-year-old male being treated for schizophrenia with triflupromazine presents to the clinic with a newly developed resting tremor, cogwheel rigidity, and a slow, shuffling gait. What is the most appropriate pharmacological treatment for this specific adverse effect?",
+    options: [
+      "Rasagiline",
+      "Pramipexole",
+      "Trihexyphenidyl",
+      "Levodopa"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Trihexyphenidyl"
+  },
+  {
+    id: 40,
+    image: "",
+    question: "An 85-year-old man presents with a 4-month history of daily crying spells, severe insomnia, significant weight loss, and active suicidal ideation following his son's death. His medical history includes benign prostatic hyperplasia (BPH) and a recent myocardial infarction. Which of the following is the safest and most appropriate pharmacotherapy for this patient?",
+    options: [
+      "Amitriptyline",
+      "Doxepin",
+      "Clonazepam",
+      "Sertraline"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Sertraline"
+  },
+  {
+  id: 41,
+  image: "",
+  question: "A 60-year-old glaucoma suspect is counseled on lifestyle modifications to prevent ocular pressure spikes. Which of the following physiological states or activities is most likely to decrease his intraocular pressure?",
+  options: [
+    "Sustained aerobic exercise",
+    "Sleeping in a prone position",
+    "Performing the Valsalva maneuver",
+    "Rapidly drinking large volumes of water"
+  ],
+  answerIndex: 0,
+  correctAnswerText: "Sustained aerobic exercise"
+  },
+  {
+    id: 42,
+    image: "",
+    question: "A 16-year-old female presents with irresistible cravings for food, leading to episodes of eating excessively large amounts. This is strictly followed by self-induced vomiting and the use of over-the-counter appetite suppressants. She currently maintains a normal body weight. What is the most likely diagnosis?",
+    options: [
+      "Anorexia nervosa",
+      "Bulimia nervosa",
+      "Binge eating disorder",
+      "Atypical depression"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Bulimia nervosa"
+  },
+  {
+    id: 43,
+    image: "",
+    question: "A 14-year-old female recounts her history of childhood trauma to her psychiatrist. During the session, the psychiatrist begins to experience strong protective and parental feelings toward the young girl, wishing he could have saved her. Which psychoanalytic term best describes the physician's emotional reaction?",
+    options: [
+      "Transference",
+      "Sublimation",
+      "Countertransference",
+      "Projection"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Countertransference"
+  },
+  {
+    id: 44,
+    image: "",
+    question: "A 45-year-old male with bipolar disorder, maintained on long-term lithium, presents with excessive thirst (polydipsia) and frequent urination (polyuria). His serum lithium level is 1.2 mEq/L, and thyroid function tests are normal. What is the most likely cause of his current symptoms?",
+    options: [
+      "Lithium toxicity",
+      "Diabetes insipidus",
+      "Urinary tract infection",
+      "Hyperthyroidism"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Diabetes insipidus"
+  },
+  {
+    id: 45,
+    image: "",
+    question: "A patient in the psychiatric ward exhibits an extremely rapid, pressured speech pattern. He frequently jumps from one topic to another based on subtle sound similarities or coincidental connections between words, though his speech remains partially understandable. What is the most likely diagnosis for this thought disorder?",
+    options: [
+      "Mania",
+      "Depression",
+      "Schizophrenia",
+      "Anxiety"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Mania"
+  },
+  {
+    id: 46,
+    image: "",
+    question: "A patient reports that whenever he hears the sound of running water from a tap, he simultaneously hears voices scolding him. When the water is turned off, the voices cease immediately. Which of the following is the most accurate classification for this specific perceptual phenomenon?",
+    options: [
+      "True hallucination",
+      "Functional hallucination",
+      "Reflex hallucination",
+      "Pseudo-hallucination"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Functional hallucination"
+  },
+  {
+    id: 47,
+    image: "",
+    question: "A patient is evaluated for cognitive decline. When asked to subtract 7 repeatedly from 100, the patient becomes visibly confused and is unable to continue past the first step. Which cognitive domain is most likely impaired in this patient?",
+    options: [
+      "Immediate recall",
+      "Recent memory",
+      "Remote memory",
+      "Attention and concentration"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Attention and concentration"
+  },
+  {
+    id: 48,
+    image: "",
+    question: "A patient is asked to explain the similarity between an \"apple\" and an \"orange.\" The patient replies, \"Both are round and have a skin.\" What type of thinking is the patient exhibiting?",
+    options: [
+      "Abstract thinking",
+      "Concrete thinking",
+      "Procedural memory",
+      "Semantic memory"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Concrete thinking"
+  },
+  {
+    id: 49,
+    image: "",
+    question: "A patient with a chronic psychiatric condition acknowledges that he has a mental illness, but he does not believe he requires any form of treatment, stating, \"I am fine and can manage this on my own.\" What is the grade of insight exhibited by this patient?",
+    options: [
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 4"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Grade 4"
+  },
+  {
+    id: 50,
+    image: "",
+    question: "A 25-year-old male with schizophrenia has recently achieved clinical remission after his first psychotic episode. According to established management guidelines, how long should he continue his maintenance antipsychotic therapy to minimize the risk of relapse?",
+    options: [
+      "3 to 6 months",
+      "1 to 2 years",
+      "5 years",
+      "Lifelong"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "1 to 2 years"
+  },
+  {
+    id: 51,
+    image: "",
+    question: "A patient presents with a chronic, persistent low mood that has lasted for the past 2.5 years, never symptom-free for more than two months. Recently, they have experienced a significant, acute worsening of depressive symptoms. Which of the following is the most accurate diagnostic term for this clinical presentation?",
+    options: [
+      "Major Depressive Disorder (MDD)",
+      "Dysthymia",
+      "Double Depression",
+      "Seasonal Affective Disorder"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Double Depression"
+  },
+  {
+    id: 52,
+    image: "",
+    question: "A patient with severe depression, previously incapacitated by extreme lethargy, is now undergoing treatment and shows initial signs of improvement. Specifically, the patient has regained physical energy while still harboring intense suicidal ideation. This clinical scenario places the patient at the highest risk for which of the following?",
+    options: [
+      "Cognitive dysfunction",
+      "Paradoxical suicide",
+      "Somatic syndrome",
+      "Omega sign development"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Paradoxical suicide"
+  },
+  {
+    id: 53,
+    image: "",
+    question: "A 50-year-old patient with treatment-resistant depression is scheduled for their first session of Electroconvulsive Therapy (ECT). To ensure the procedure is therapeutically effective in relieving psychotic symptoms, what is the minimum required duration for the induced seizure?",
+    options: [
+      "15 seconds",
+      "25 seconds",
+      "60 seconds",
+      "180 seconds"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "25 seconds"
+  },
+  {
+    id: 54,
+    image: "",
+    question: "A patient presents with a history of recurrent episodes of elevated, expansive mood and increased energy, alternating with periods of low mood and loss of interest. However, the patient has never experienced a formal episode of mania. Based on the clinical spectrum of mood disorders, which diagnosis is most consistent with this presentation?",
+    options: [
+      "Bipolar Affective Disorder-1",
+      "Bipolar Affective Disorder-2",
+      "Cyclothymia",
+      "Major Depressive Disorder"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Bipolar Affective Disorder-2"
+  },
+  {
+    id: 55,
+    image: "images/IMG_9969.jpeg",
+    question: "A 25-year-old male with severe, repetitive contamination obsessions undergoes neuroimaging. Overactivation of the cortico-striatal-thalamic-cortical (CSTC) loop is identified. Which specific anatomical brain finding is classically associated with this condition?",
+    options: [
+      "Enlarged lateral ventricles",
+      "Amygdala hypertrophy",
+      "Bilateral caudate atrophy",
+      "Hippocampal sclerosis"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Bilateral caudate atrophy"
+  },
+  {
+    id: 56,
+    image: "",
+    question: "A 30-year-old man survives a severe train accident. Three weeks later, he presents with intense flashbacks, an exaggerated startle response, and severe insomnia. What is the most appropriate diagnosis and its pharmacological drug of choice?",
+    options: [
+      "Post-Traumatic Stress Disorder; SSRI",
+      "Post-Traumatic Stress Disorder; Benzodiazepine",
+      "Adjustment Disorder; SSRI",
+      "Acute Stress Disorder; Benzodiazepine"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Acute Stress Disorder; Benzodiazepine"
+  },
+  {
+    id: 57,
+    image: "",
+    question: "A 22-year-old female is brought to the emergency department with generalized abnormal body movements following a severe verbal altercation with her family. Which of the following clinical features most strongly points towards a diagnosis of a pseudoseizure rather than true epilepsy?",
+    options: [
+      "Out-of-phase limb movements",
+      "Episodes occurring during sleep",
+      "Presence of a lateral tongue bite",
+      "Loss of bowel or bladder control"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Out-of-phase limb movements"
+  },
+  {
+    id: 58,
+    image: "",
+    question: "An 80-year-old hospitalized patient develops sudden agitation and confusion. The attending physician is evaluating the patient to differentiate an acute delirium episode from underlying progressive dementia. Based on classic clinical parameters, which of the following is the single best indicator pointing towards a diagnosis of delirium?",
+    options: [
+      "Intact remote memory",
+      "Altered sensorium",
+      "Fluctuating symptom severity",
+      "Chronic progressive course"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Altered sensorium"
+  },
+  {
+    id: 59,
+    image: "",
+    question: "A 35-year-old male with chronic alcohol use reports to his physician that he now needs to drink a gradually increasing amount of liquor each month just to achieve the same desired \"buzz\" he used to get from a few drinks. Which specific phenomenon of substance use disorder is he exhibiting?",
+    options: [
+      "Psychological dependence",
+      "Craving",
+      "Tolerance",
+      "Withdrawal"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Tolerance"
+  },
+  {
+    id: 60,
+    image: "",
+    question: "A 22-year-old male is brought to the emergency department experiencing a severe, panic-like \"bad trip.\" He bizarrely claims that he is able to \"see sounds and hear colors.\" Which of the following is a true characteristic regarding the dependence profile of the substance he most likely consumed?",
+    options: [
+      "Causes severe physical withdrawal",
+      "Withdrawal presents with bradycardia",
+      "Produces life-threatening DTs",
+      "Lacks physical withdrawal symptoms"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Lacks physical withdrawal symptoms"
+  },
+  {
+    id: 61,
+    image: "",
+    question: "A 50-year-old male with chronic alcohol dependence seeks pharmacological treatment to reduce his cravings and maintain abstinence. His baseline laboratory investigations reveal significantly elevated serum creatinine levels indicating severe renal impairment, while his liver function tests are completely normal. Which of the following anti-craving medications is strictly contraindicated in this patient?",
+    options: [
+      "Acamprosate",
+      "Naltrexone",
+      "Disulfiram",
+      "Buprenorphine"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Acamprosate"
+  },
+{
+  id: 62,
+  image: "",
+  question: "A 28-year-old patient with schizophrenia tells the psychiatrist, \"I don't even need to open my mouth. People around me can already hear what I am thinking because my thoughts are radiating out of my head.\" Which of the following specific thought phenomena is the patient experiencing?",
+  options: [
+    "Thought insertion",
+    "Thought withdrawal",
+    "Thought broadcasting",
+    "Thought echo"
+  ],
+  answerIndex: 2,
+  correctAnswerText: "Thought broadcasting"
+},
+  {
+    id: 63,
+    image: "",
+    question: "A 28-year-old male with a history of recurrent incarcerations is evaluated in the psychiatric outpatient department. He exhibits aggressive behavior, a blatant love for breaking rules, and an absolute lack of remorse for his actions. His childhood medical records reveal a previous diagnosis of conduct disorder. Which of the following is the most accurate diagnosis?",
+    options: [
+      "Schizoid personality disorder",
+      "Paranoid personality disorder",
+      "Dissocial personality disorder",
+      "Schizotypal personality disorder"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Dissocial personality disorder"
+  },
+  {
+    id: 64,
+    image: "",
+    question: "A biological male regularly wears women's clothing. During psychiatric evaluation, he admits that this behavior is strictly intended to achieve sexual arousal and masturbatory gratification. He identifies as a male and has absolutely no desire for sex reassignment surgery. What is the most appropriate diagnosis?",
+    options: [
+      "Transsexualism",
+      "Gender Dysphoria",
+      "Dual Role Transvestism",
+      "Transvestic fetishism"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Transvestic fetishism"
+  },
+  {
+    id: 65,
+    image: "",
+    question: "A 35-year-old man is evaluated by a psychiatrist and found to be excessively stubborn, rigid, and pathologically frugal. He displays a high need for control and strict orderliness. According to classical psychoanalytic theory, these specific personality traits are most likely the result of fixation and regression at which of the following developmental stages?",
+    options: [
+      "Anal stage",
+      "Oral stage",
+      "Phallic stage",
+      "Latency stage"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Anal stage"
+  },
+  {
+    id: 66,
+    image: "",
+    question: "A 35-year-old man, currently asymptomatic and of sound mind, visits a psychiatrist. Having witnessed his father's severe struggles with schizophrenia, he wishes to draft a formal, legal document specifying that he refuses to undergo Electroconvulsive Therapy (ECT) should he ever develop a severe psychotic episode and lose his capacity to make medical decisions. Under the Mental Healthcare Act (MHCA) 2017, what is this specific legal provision called?",
+    options: [
+      "Nominated representative",
+      "Advance directive",
+      "Supported admission",
+      "Covert treatment"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Advance directive"
+  },
+  {
+    id: 67,
+    image: "",
+    question: "A patient with a severe dissociative disorder is started on a long-term psychotherapeutic intervention. The therapist's primary goal is to bring deep-seated unconscious conflicts into the patient's awareness to achieve overall personality growth and development. Which specific class of psychotherapy is being utilized?",
+    options: [
+      "Supportive psychotherapy",
+      "Re-educative psychotherapy",
+      "Reconstructive psychotherapy",
+      "Dialectical behavior therapy"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Reconstructive psychotherapy"
+  },
+  {
+    id: 68,
+    image: "",
+    question: "A 26-year-old female with Bipolar Affective Disorder, maintained stably on Lithium therapy, presents to the clinic after confirming an early unplanned pregnancy. Which of the following is the most appropriate management strategy for this patient?",
+    options: [
+      "Discontinue all psychiatric medications completely",
+      "Maintain the current dose of Lithium unchanged",
+      "Increase the Lithium dosage immediately",
+      "Replace Lithium with an atypical antipsychotic"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Replace Lithium with an atypical antipsychotic"
+  },
+  {
+    id: 69,
+    image: "",
+    question: "A patient presents with disorientation, confusion, and impaired consciousness. He describes experiencing panoramic, complex visual hallucinations, reporting that he feels as though he is \"living in a dream world\" alternating between terror and enjoyment. Which state is this?",
+    options: [
+      "Delirium",
+      "Fugue state",
+      "Oneiroid state",
+      "Twilight state"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Oneiroid state"
+  },
+  {
+    id: 70,
+    image: "",
+    question: "A 30-year-old man presents with a firm 2-month belief that his wife is having an affair with his boss. Despite friends providing logical proof to the contrary, he remains entirely unconvinced. His daily functioning is otherwise completely normal, and he exhibits absolutely no thought disorders, hallucinations, or bizarre behavior. What is the most likely diagnosis?",
+    options: [
+      "Schizophrenia",
+      "Persistent delusional disorder",
+      "Paranoid personality disorder",
+      "Acute and transient psychosis"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Persistent delusional disorder"
+  },
+  {
+    id: 71,
+    image: "",
+    question: "A 45-year-old man with a known history of severe psychotic illness is arrested for assault. While in police custody, he exhibits active paranoid delusions and severely impaired judgment. Before the court can proceed with the legal trial, what is the most immediate medico-legal priority for the consulting psychiatrist?",
+    options: [
+      "Establishing the presence of mens rea",
+      "Applying the McNaughten Rule",
+      "Assessing fitness to stand trial",
+      "Invoking Section 22 of Bharatiya Nyaya Sanhita"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Assessing fitness to stand trial"
+  },
+  {
+    id: 72,
+    image: "",
+    question: "A patient with advanced metastatic breast cancer develops severe respiratory distress. The treating team deems further active treatment medically futile. However, the family demands immediate ICU admission and mechanical ventilation. What is the most appropriate next step?",
+    options: [
+      "Comply with the family's demands for ICU admission",
+      "Unilaterally refuse the admission without discussion",
+      "Immediately consult the hospital legal and ethics committee",
+      "Conduct a structured family meeting for shared decision-making"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Conduct a structured family meeting for shared decision-making"
+  },
+  {
+    id: 73,
+    image: "images/ScreenRecording_07-17-2026 00-07-31_1.mov",
+    question: "A 44-year-old patient on haloperidol therapy for 2 years develops involuntary lip-smacking, chewing movements, and grimacing. Which of the following mechanisms explains this condition?",
+    options: [
+      "Dopamine D2 receptor upregulation",
+      "Nigrostriatal dopamine depletion",
+      "Cholinergic receptor hyperactivation",
+      "GABAergic pathway overactivation"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Dopamine D2 receptor upregulation"
+  },
+  {
+    id: 74,
+    image: "",
+    question: "A 30-year-old man is found wandering in a city 500 miles from his home a week after surviving a devastating earthquake. He has absolutely no memory of his name, his past, or how he arrived there, although his general cognition and neurological exams are completely normal. According to DSM-5 criteria, how is this specific presentation currently classified?",
+    options: [
+      "Independent dissociative fugue disorder",
+      "Specifier of dissociative amnesia",
+      "Subtype of post-traumatic stress disorder",
+      "Depersonalization-derealization disorder"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Specifier of dissociative amnesia"
+  },
+  {
+    id: 75,
+    image: "",
+    question: "A 25-year-old woman is evaluated in the psychiatric clinic after witnessing a fatal road traffic accident involving her father. For the past two weeks, she has been experiencing intense flashbacks of the accident, severe nightmares, and active avoidance of any vehicles. What is the most likely diagnosis?",
+    options: [
+      "Post-traumatic stress disorder",
+      "Adjustment disorder",
+      "Acute stress disorder",
+      "Normal bereavement"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Acute stress disorder"
+  },
+  {
+    id: 76,
+    image: "",
+    question: "A 42-year-old manager consistently misses project deadlines due to an excessive preoccupation with minor details and formatting rules. He stubbornly refuses to delegate work unless his subordinates follow his exact methods. When confronted by HR, he defends his behavior, claiming he simply has \"high standards\" and sees absolutely no problem with his rigid approach. Which of the following best describes the nature of his psychiatric condition?",
+    options: [
+      "Presence of true intrusive obsessions",
+      "Classified as a Cluster A disorder",
+      "The symptoms are ego-dystonic",
+      "The symptoms are ego-syntonic"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "The symptoms are ego-syntonic"
+  },
+  {
+    id: 77,
+    image: "",
+    question: "A 35-year-old man looks out his window and hears a bird chirping. Immediately upon hearing this, he develops a firm, unshakable belief that the chirping is a direct message from God instructing him to follow the bird, and that he will be severely harmed if he does not comply. Which of the following psychopathological phenomena is he exhibiting?",
+    options: [
+      "Delusional perception",
+      "Illusion",
+      "Functional hallucination",
+      "Autochthonous delusion"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Delusional perception"
+  },
+  {
+    id: 78,
+    image: "",
+    question: "A 35-year-old woman with a 7-month history of excessive, uncontrollable daily worry presents to the outpatient department. She complains of chronic muscle tension, fatigue, and bothersome tingling sensations in her hands and feet. Extensive neurological and medical workups are completely normal. What is the most likely physiological cause of her tingling sensations?",
+    options: [
+      "Demyelinating peripheral neuropathy",
+      "Autonomic arousal with hyperventilation",
+      "Cervical nerve root compression",
+      "Localized cortical serotonin depletion"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Autonomic arousal with hyperventilation"
+  },
+  {
+    id: 79,
+    image: "",
+    question: "A 28-year-old male with severe heroin dependence is enrolled in a deaddiction program and started on maintenance pharmacotherapy. The prescribed medication is administered sublingually and possesses a unique \"ceiling effect,\" making it significantly safer in cases of accidental overdose compared to other agents. Which of the following best describes the pharmacological mechanism of this specific drug?",
+    options: [
+      "Full opioid receptor agonist",
+      "Opioid receptor antagonist",
+      "Partial opioid receptor agonist",
+      "NMDA receptor antagonist"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Partial opioid receptor agonist"
+  },
+  {
+    id: 80,
+    image: "",
+    question: "A 10-year-old boy diagnosed with ADHD requires pharmacological intervention to improve attention. However, he has a comorbid diagnosis of Tourette's syndrome, and his parents are concerned about the abuse potential of stimulant medications. Which of the following is an appropriate non-stimulant pharmacotherapy for this patient?",
+    options: [
+      "Atomoxetine",
+      "Reboxetine",
+      "Methylphenidate",
+      "Amphetamine"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Reboxetine"
+  },
+  {
+    id: 81,
+    image: "",
+    question: "A patient presents to the emergency department with severe agitation, hypertension, tachycardia, hyperthermia, and dilated pupils after using an illicit substance. Which of the following best describes the fundamental pharmacological mechanism of this toxicity?",
+    options: [
+      "Serotonin receptor agonist activity",
+      "Direct adrenergic receptor stimulation",
+      "Blockade of monoamine neurotransmitter reuptake",
+      "Competitive GABA receptor inhibition"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Blockade of monoamine neurotransmitter reuptake"
+  },
+  {
+    id: 82,
+    image: "",
+    question: "A 22-year-old male is evaluated for a history of frequent legal conflicts, persistent deceitful behavior, physical aggression, and a total lack of remorse for his actions. He admits to a similar pattern of behavior starting at age 14, including chronic truancy and vandalism. What is the most likely diagnosis?",
+    options: [
+      "Antisocial personality disorder",
+      "Borderline personality disorder",
+      "Narcissistic personality disorder",
+      "Histrionic personality disorder"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Antisocial personality disorder"
+  },
+  {
+    id: 83,
+    image: "",
+    question: "A 24-year-old female presents with severe distress regarding a minor, perceived facial flaw. She frequently engages in mirror-checking and has consulted multiple plastic surgeons, but remains dissatisfied with the results. What is the most appropriate first-line pharmacological intervention for this patient?",
+    options: [
+      "Benzodiazepines",
+      "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+      "Atypical Antipsychotics",
+      "Tricyclic Antidepressants (TCAs)"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Selective Serotonin Reuptake Inhibitors (SSRIs)"
+  },
+  {
+    id: 84,
+    image: "images/IMG_9903.jpeg",
+    question: "A patient is diagnosed with inflammation of the middle vascular coat of the eye (Uveitis). Which of the following structures is primarily involved in this layer?",
+    options: [
+      "Sclera",
+      "Retina",
+      "Choroid",
+      "Cornea"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Choroid"
+  },
+  {
+    id: 85,
+    image: "",
+    question: "Which of the following is the predominant type of collagen found in the vitreous humor?",
+    options: [
+      "Type I",
+      "Type III",
+      "Type IV",
+      "Type II"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Type II"
+  },
+  {
+    id: 86,
+    image: "images/IMG_9904.jpeg",
+    question: "A newborn is evaluated for bilateral microphthalmia. A mutation in which of the following genes is most likely responsible for this developmental anomaly?",
+    options: [
+      "PAX-6",
+      "PAX-2",
+      "SOX-2",
+      "SHH"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "PAX-6"
+  },
+  {
+    id: 87,
+    image: "images/IMG_9905.jpeg",
+    question: "An asymptomatic 20-year-old undergoes a routine fundus examination. The ophthalmologist observes a small, benign glial tissue tuft extending from the optic disc into the vitreous cavity. This clinical finding represents the persistence of which of the following embryological structures?",
+    options: [
+      "Anterior part of hyaloid vessel",
+      "Posterior part of hyaloid vessel",
+      "Tunica vasculosa lentis",
+      "Entire primary vitreous"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Posterior part of hyaloid vessel"
+  },
+  {
+    id: 88,
+    image: "images/IMG_9906.jpeg",
+    question: "A 40-year-old female presents with severe, deep eye pain and intense redness. Instillation of topical phenylephrine fails to blanch the engorged vessels on the ocular surface. Inflammation of which of the following vascular layers is most likely responsible for this clinical presentation?",
+    options: [
+      "Conjunctival plexus",
+      "Superficial episcleral plexus",
+      "Deep episcleral plexus",
+      "Major arterial circle"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Deep episcleral plexus"
+  },
+  {
+    id: 89,
+    image: "images/IMG_9908.jpeg",
+    question: "A young male presents to the emergency room with restricted upgaze and diplopia after sustaining a direct punch to his right eye. A CT scan reveals a blow-out fracture. Which of the following bones is most likely involved, representing the weakest point of the bony orbit?",
+    options: [
+      "Frontal bone",
+      "Zygomatic bone",
+      "Ethmoid bone",
+      "Maxillary bone"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Maxillary bone"
+  },
+  {
+    id: 90,
+    image: "",
+    question: "A 65-year-old patient with primary open-angle glaucoma is being evaluated for targeted therapy to improve aqueous outflow. The therapy aims to alter the specific anatomical site that physiologically offers the highest resistance to aqueous drainage. Which of the following structures is the primary target?",
+    options: [
+      "Juxtacanalicular trabecular meshwork",
+      "Corneoscleral meshwork",
+      "Uveal meshwork",
+      "Episcleral veins"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Juxtacanalicular trabecular meshwork"
+  },
+  {
+    id: 91,
+    image: "",
+    question: "A 30-year-old male is being evaluated in an ophthalmology clinic. During the examination, a bright light is shone into his eyes to test pupillary reflexes and retinal function. According to Wald's visual cycle, which of the following physiological events primarily occurs at the level of his photoreceptors in response to this light stimulus?",
+    options: [
+      "Cellular depolarization",
+      "Cellular hyperpolarization",
+      "Increased glutamate release",
+      "Synthesis of 11-cis-retinal"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Cellular hyperpolarization"
+  },
+  {
+    id: 92,
+    image: "images/ScreenRecording_07-17-2026 00-12-02_1.mov",
+    question: "A young female with suspected unilateral optic neuritis undergoes a swinging flashlight test. When the light is swung from her healthy eye to the affected eye, what is the most likely clinical observation?",
+    options: [
+      "Both pupils constrict normally",
+      "Only the affected pupil dilates",
+      "Both pupils dilate paradoxically",
+      "Neither pupil responds to light"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Both pupils dilate paradoxically"
+  },
+  {
+    id: 93,
+    image: "images/ScreenRecording_07-17-2026 00-18-02_1.mov",
+    question: "A young female presents with a unilaterally dilated right pupil. It shows absent response to direct light but constricts briskly when she focuses on a near object. Instillation of 0.125% dilute pilocarpine causes prompt constriction of this right pupil. What is the most likely diagnosis?",
+    options: [
+      "Third cranial nerve palsy",
+      "Argyll Robertson pupil",
+      "Pharmacological mydriasis",
+      "Adie's tonic pupil"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Adie's tonic pupil"
+  },
+  {
+    id: 94,
+    image: "",
+    question: "A 7-year-old child is being evaluated for amblyopia. To avoid overestimating visual acuity due to the \"crowding phenomenon,\" which of the following charts is the most preferred clinical tool?",
+    options: [
+      "ETDRS chart",
+      "Pelli-Robson chart",
+      "Ishihara chart",
+      "Landolt's C chart"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "ETDRS chart"
+  },
+  {
+    id: 95,
+    image: "images/IMG_9909.jpeg",
+    question: "A 22-year-old male presents with progressive blurring of vision and frequent changes in his astigmatic prescription. On performing distant direct ophthalmoscopy, the ophthalmologist observes an \"oil droplet reflex\" in the pupillary area. This clinical finding is classically associated with which of the following conditions?",
+    options: [
+      "Cataract",
+      "Keratoconus",
+      "Anterior lenticonus",
+      "Retinoblastoma"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Keratoconus"
+  },
+  {
+    id: 96,
+    image: "",
+    question: "According to the National Programme for Control of Blindness (NPCB) in India, what is the specific criteria used alongside a visual acuity of less than 3/60 in the better eye to define blindness?",
+    options: [
+      "Pinhole visual acuity",
+      "Best available correction",
+      "Presenting visual acuity",
+      "Unaided visual acuity"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Presenting visual acuity"
+  },
+  {
+    id: 97,
+    image: "",
+    question: "During cataract surgery, extreme care must be taken during nuclear emulsification to avoid capsular blowout. Which of the following regions represents the anatomically thinnest portion of the crystalline lens capsule?",
+    options: [
+      "Anterior pole",
+      "Equator",
+      "Pre-equatorial region",
+      "Posterior pole"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Posterior pole"
+  },
+  {
+    id: 98,
+    image: "images/IMG_9911.jpeg",
+    question: "A young male with sensorineural deafness and recurrent hematuria presents with progressive visual blurring. Slit-lamp examination is most likely to reveal which of the following specific lens abnormalities?",
+    options: [
+      "Anterior lenticonus",
+      "Posterior lenticonus",
+      "Posterior polar cataract",
+      "Microspherophakia"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Anterior lenticonus"
+  },
+  {
+    id: 99,
+    image: "images/IMG_9912.jpeg",
+    question: "A 16-year-old patient with a history of poorly controlled Type 1 Diabetes Mellitus presents to the ophthalmology outpatient department complaining of rapidly progressive blurring of vision in both eyes. On slit-lamp examination, distinct cortical lens opacities are observed. Which of the following morphological patterns is most classically associated with this specific patient's underlying systemic profile?",
+    options: [
+      "Christmas tree cataract",
+      "Snowflake cataract",
+      "Sunflower cataract",
+      "Rosette cataract"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Snowflake cataract"
+  },
+  {
+    id: 100,
+    image: "",
+    question: "A 65-year-old high myope with an axial length of 27.5 mm is scheduled for cataract extraction. To avoid a post-operative refractive surprise, which of the following IOL power calculation formulas is most appropriate for this patient?",
+    options: [
+      "Hoffer Q formula",
+      "Haigis L formula",
+      "SRK/T formula",
+      "Standard SRK formula"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "SRK/T formula"
+  },
+  {
+    id: 101,
+    image: "",
+    question: "A 5-year-old child is scheduled for cataract surgery. Which of the following extraction techniques is absolutely contraindicated in this patient due to the high risk of severe vitreous loss?",
+    options: [
+      "Phacoemulsification",
+      "Extracapsular Cataract Extraction (ECCE)",
+      "Small Incision Cataract Surgery (SICS)",
+      "Intracapsular Cataract Extraction (ICCE)"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Intracapsular Cataract Extraction (ICCE)"
+  },
+  {
+    id: 102,
+    image: "images/IMG_9915.jpeg",
+    question: "A 75-year-old highly myopic patient with a history of glaucoma undergoes routine intraocular surgery. Suddenly, there is a sudden firming of the globe and prolapse of intraocular contents due to the rupture of posterior ciliary vessels. What is the immediate first step in the management of this dangerous complication?",
+    options: [
+      "Close the surgical incision",
+      "Perform immediate evisceration",
+      "Perform complete enucleation",
+      "Administer intravenous mannitol"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Close the surgical incision"
+  },
+  {
+    id: 103,
+    image: "",
+    question: "An Optical Coherence Tomography (OCT) scan is performed on a healthy 30-year-old. The technician identifies the anatomically thickest region of the normal retina. This localized maximum thickness is primarily attributed to the multi-layered arrangement of which of the following?",
+    options: [
+      "Bipolar cells",
+      "Ganglion cells",
+      "Photoreceptor outer segments",
+      "Nerve fibers"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Ganglion cells"
+  },
+  {
+    id: 104,
+    image: "",
+    question: "A 45-year-old patient undergoes Fundus Fluorescein Angiography (FFA) for the evaluation of unexplained visual loss. On a normal angiogram, the foveal region classically appears dark. Which of the following factors primarily contributes to this physiological hypofluorescence?",
+    options: [
+      "Absence of underlying choroidal vessels",
+      "Dense superficial capillary network",
+      "High concentration of xanthophyll",
+      "Extravascular leakage of dye"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "High concentration of xanthophyll"
+  },
+  {
+    id: 105,
+    image: "images/IMG_9917.jpeg",
+    question: "A 32-year-old pregnant female with severe preeclampsia presents with sudden vision loss. Fundoscopy reveals a convex retinal elevation. The subretinal fluid is observed to shift its position dependently when the patient's head posture is altered. What is the most likely diagnosis?",
+    options: [
+      "Rhegmatogenous retinal detachment",
+      "Tractional retinal detachment",
+      "Posterior vitreous detachment",
+      "Exudative retinal detachment"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Exudative retinal detachment"
+  },
+  {
+    id: 106,
+    image: "images/IMG_9918.jpeg",
+    question: "A patient develops central visual distortion weeks after undergoing cataract surgery. Fundus angiography reveals a classic \"flower petal\" pattern of hyperfluorescence at the macula. This specific morphological pattern is dictated by fluid accumulation in which of the following retinal layers?",
+    options: [
+      "Outer plexiform layer",
+      "Inner plexiform layer",
+      "Inner nuclear layer",
+      "Outer nuclear layer"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Outer plexiform layer"
+  },
+  {
+    id: 107,
+    image: "images/IMG_9919.jpeg",
+    question: "A 40-year-old male presents with sudden central vision distortion. Fundus examination reveals irregular, reddish-brown lines radiating from the optic disc. Imaging confirms these are full-thickness cracks in the elastic tissue of Bruch's membrane. Which of the following systemic conditions is most classically associated with this ocular finding?",
+    options: [
+      "Marfan syndrome",
+      "Pseudoxanthoma elasticum",
+      "Alport syndrome",
+      "Homocystinuria"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Pseudoxanthoma elasticum"
+  },
+  {
+    id: 108,
+    image: "images/IMG_9920.jpeg",
+    question: "A 25-year-old male with a history of progressive night blindness and tunnel vision is diagnosed with Retinitis Pigmentosa. He now complains of significant glare while driving at night due to early cataract formation. Which specific type of cataract is most classically associated with his underlying retinal dystrophy?",
+    options: [
+      "Nuclear sclerosis",
+      "Anterior polar cataract",
+      "Posterior subcapsular cataract",
+      "Snowflake cortical cataract"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Posterior subcapsular cataract"
+  },
+  {
+    id: 109,
+    image: "images/IMG_9921.jpeg",
+    question: "A 55-year-old poorly controlled diabetic patient undergoes a routine fundus examination. The ophthalmologist notes multiple large, fluffy \"cotton wool spots\" on the retina. In which of the following retinal layers are these specific lesions primarily located?",
+    options: [
+      "Outer plexiform layer",
+      "Inner nuclear layer",
+      "Outer nuclear layer",
+      "Nerve fiber layer"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Nerve fiber layer"
+  },
+  {
+    id: 110,
+    image: "",
+    question: "A 60-year-old poorly controlled diabetic patient undergoes a routine fundus examination. The ophthalmologist notes intra-retinal hemorrhages in all 4 quadrants and Intra-Retinal Microvascular Abnormalities (IRMA) in 1 quadrant. Venous beading is completely absent. According to the standard ETDRS criteria, what is the most accurate diagnosis for this patient?",
+    options: [
+      "Very severe NPDR",
+      "Severe NPDR",
+      "Moderate NPDR",
+      "Proliferative diabetic retinopathy"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Very severe NPDR"
+  },
+  {
+    id: 111,
+    image: "images/IMG_9922.jpeg",
+    question: "A 55-year-old hypertensive male undergoes a routine fundus examination. The ophthalmologist observes a prominent \"tapering\" of the retinal vein on both sides of where it is crossed by a thickened, sclerotic arteriole. Which of the following eponymous signs accurately describes this specific vascular finding?",
+    options: [
+      "Salus sign",
+      "Gunn sign",
+      "Bonnet sign",
+      "Siegert sign"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Gunn sign"
+  },
+  {
+    id: 112,
+    image: "images/IMG_9923.jpeg",
+    question: "A 65-year-old hypertensive male presents with sudden, painless loss of vision in his right eye. Fundoscopy reveals widespread flame-shaped hemorrhages and soft exudates across all four retinal quadrants, creating a classic \"blood and thunder\" appearance. What is the most likely anatomical site of the primary vascular occlusion in this patient?",
+    options: [
+      "Arteriovenous crossing",
+      "Supero-temporal venous tributary",
+      "Lamina cribrosa",
+      "Foveal avascular zone"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Lamina cribrosa"
+  },
+  {
+    id: 113,
+    image: "images/IMG_9924.jpeg",
+    question: "A 65-year-old male with a history of atrial fibrillation presents to the emergency room with sudden, painless, profound loss of vision in his right eye. Fundoscopy reveals a diffuse milky-white retina with a prominent central cherry-red spot. What is the immediate first step in the management of this acute ocular emergency?",
+    options: [
+      "Intravenous mannitol",
+      "Anterior chamber paracentesis",
+      "Carbogen inhalation",
+      "Ocular digital massage"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Ocular digital massage"
+  },
+  {
+    id: 114,
+    image: "images/IMG_9925.jpeg",
+    question: "A 15-year-old boy presents with unilateral vision loss. Fundoscopy reveals blurred optic disc margins accompanied by a prominent \"macular star\" exudate pattern. Which of the following is the most common etiology for this specific clinical presentation?",
+    options: [
+      "Cat scratch disease",
+      "Multiple sclerosis",
+      "Post-viral immunization",
+      "Neuromyelitis optica"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Cat scratch disease"
+  },
+  {
+    id: 115,
+    image: "",
+    question: "A 45-year-old patient undergoes temporal lobe surgery for epilepsy management. Post-operatively, perimetry testing reveals a left homonymous superior quadrantanopia (\"pie in the sky\" defect). This specific visual field defect is classically caused by collateral damage to which of the following neural structures?",
+    options: [
+      "Superior optic radiation fibers",
+      "Inferior optic radiation fibers",
+      "Tip of the occipital lobe",
+      "Right optic tract"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Inferior optic radiation fibers"
+  },
+  {
+    id: 116,
+    image: "images/IMG_9927.jpeg",
+    question: "A 50-year-old man presents with right-sided unilateral partial ptosis and miosis. Upon examination, his anisocoria becomes distinctly more pronounced in a dim room. Uniquely, facial sweating on the affected right side remains completely intact. Which of the following is the most likely etiology for this specific presentation?",
+    options: [
+      "Pancoast tumor",
+      "Wallenberg syndrome",
+      "Internal carotid artery aneurysm",
+      "Syringomyelia"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Internal carotid artery aneurysm"
   },
   {
     id: 117,
     image: "",
-    question: "A 7-year-old child, fully immunized against Diphtheria as per the national schedule, is identified as a close contact of a confirmed Diphtheria case. According to standard preventive guidelines, what is the most appropriate management plan for this child?",
+    question: "A 55-year-old male with a family history of primary open-angle glaucoma is found to have an intraocular pressure of 26 mmHg. Automated perimetry is ordered to assess for functional nerve damage. Which of the following is typically the earliest specific visual field defect to appear in this condition?",
     options: [
-      "Erythromycin prophylaxis alone",
-      "Erythromycin and a booster dT dose",
-      "Daily throat swab and Erythromycin",
-      "Full course of Diphtheria vaccine"
+      "Ring scotoma",
+      "Roenne nasal step",
+      "Seidel scotoma",
+      "Paracentral scotoma"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Erythromycin and a booster dT dose"
+    answerIndex: 3,
+    correctAnswerText: "Paracentral scotoma"
   },
   {
     id: 118,
-    image: "",
-    question: "A chronic typhoid carrier is identified during a public health survey. What is the standard duration of antibiotic therapy recommended to eradicate the carrier state?",
+    image: "images/IMG_9970.jpeg",
+    question: "A 6-month-old infant is brought to the ophthalmology clinic with classic symptoms of excessive watering, photophobia, and blepharospasm. Examination under anesthesia confirms the diagnosis of primary congenital glaucoma, revealing significantly elevated intraocular pressure and a densely hazy, edematous cornea. Which of the following is the most appropriate initial surgical intervention for this specific patient?",
     options: [
-      "2 weeks",
-      "4 weeks",
-      "6 weeks",
-      "8 weeks"
+      "Trabeculotomy",
+      "Goniotomy",
+      "Nd:YAG laser iridotomy",
+      "Topical latanoprost therapy"
     ],
-    answerIndex: 2,
-    correctAnswerText: "6 weeks"
+    answerIndex: 0,
+    correctAnswerText: "Trabeculotomy"
   },
   {
     id: 119,
-    image: "",
-    question: "A patient presents with a severe category III bite wound from a stray dog. What is the calculated appropriate dose of Equine Rabies Immunoglobulin (ERIG) for this patient?",
+    image: "images/IMG_9930.jpeg",
+    question: "A 65-year-old poorly controlled diabetic patient presents with a blind, painful eye due to advanced neovascular glaucoma. Intraocular pressure remains highly elevated despite maximum medical therapy. Standard filtering surgery carries a high risk of failure due to conjunctival scarring. Which of the following is the most appropriate surgical intervention?",
     options: [
-      "20 IU/kg",
-      "10 IU/kg",
-      "30 IU/kg",
-      "40 IU/kg"
+      "Trabeculectomy with Mitomycin C",
+      "Aqueous drainage device (Seton) implant",
+      "Nd:YAG laser peripheral iridotomy",
+      "iStent trabecular micro-bypass"
     ],
-    answerIndex: 3,
-    correctAnswerText: "40 IU/kg"
+    answerIndex: 1,
+    correctAnswerText: "Aqueous drainage device (Seton) implant"
   },
   {
     id: 120,
     image: "",
-    question: "A businessman receives the Yellow Fever vaccine (17D strain) prior to international travel. According to current health regulations, when does his International Certificate of Vaccination become officially valid, and what is its maximum duration of validity?",
+    question: "A patient develops a uniformly flat anterior chamber and highly elevated intraocular pressure shortly after undergoing uncomplicated intraocular surgery. The condition paradoxically worsens upon the administration of topical pilocarpine. The underlying pathophysiology is suspected to be the redirection of aqueous humor into the vitreous cavity. What is the most definitive surgical management for this specific condition?",
     options: [
-      "From the 10th day; Life long",
-      "From the 7th day; 10 years",
-      "From the 14th day; Life long",
-      "From the 10th day; 10 years"
+      "Nd:YAG laser peripheral iridotomy",
+      "Anterior chamber paracentesis",
+      "Pars plana vitrectomy",
+      "Trabeculectomy with Mitomycin C"
     ],
-    answerIndex: 0,
-    correctAnswerText: "From the 10th day; Life long"
+    answerIndex: 2,
+    correctAnswerText: "Pars plana vitrectomy"
   },
   {
     id: 121,
     image: "",
-    question: "A medical officer is supervising an outreach immunization session. A healthcare worker is preparing to administer the live attenuated Measles-Rubella (MR) vaccine. Which specific diluent must strictly be utilized to reconstitute this vaccine prior to administration?",
+    question: "A 45-year-old patient presents with traumatic avulsion of the lower eyelid, resulting in restricted downward retraction of the lid on down-gaze. Which of the following structures in the lower eyelid serves as the direct anatomical and functional analogue to the levator palpebrae superioris of the upper eyelid?",
     options: [
-      "Sodium chloride",
-      "Phosphate buffer",
-      "Sterile water",
-      "Ringer's lactate"
+      "Orbicularis oculi",
+      "Orbital septum",
+      "Inferior tarsal muscle",
+      "Capsulopalpebral fascia"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Phosphate buffer"
+    answerIndex: 3,
+    correctAnswerText: "Capsulopalpebral fascia"
   },
   {
     id: 122,
     image: "",
-    question: "A 14-week-old infant is brought to the Primary Health Centre for routine vaccination. The staff prepares to administer the Inactivated Polio Vaccine (IPV). What is the correct standard dose and route for this specific vaccine according to the National Immunization Schedule?",
+    question: "A healthy individual subconsciously blinks approximately 15 to 20 times per minute to maintain a stable precorneal tear film. Which specific anatomical subdivision of the orbicularis oculi muscle is primarily responsible for this spontaneous blinking reflex?",
     options: [
-      "0.5 ml Intramuscular",
-      "0.5 ml Intradermal",
-      "0.1 ml Intradermal",
-      "0.1 ml Subcutaneous"
+      "Pretarsal part",
+      "Preseptal part",
+      "Orbital part",
+      "Muscle of Horner"
     ],
-    answerIndex: 2,
-    correctAnswerText: "0.1 ml Intradermal"
+    answerIndex: 0,
+    correctAnswerText: "Pretarsal part"
   },
   {
     id: 123,
     image: "",
-    question: "A full-term neonate is delivered at a community health centre. The nursing staff prepares to administer the initial round of immunizations as mandated by the National Immunization Schedule (NIS). Which of the following statements represents a correct principle regarding these birth doses?",
+    question: "A 4-year-old child is evaluated for congenital drooping of the right upper eyelid. Clinical examination reveals 4.5 mm of extra corneal coverage by the eyelid. The examiner presses firmly on the child's eyebrow and measures an eyelid excursion of only 3 mm from downgaze to upgaze. Which of the following is the most appropriate surgical intervention for this patient?",
     options: [
-      "The 'zero' doses are officially counted toward the completion of the primary series",
-      "The OPV-0 dose must strictly be administered within 24 hours of birth",
-      "The BCG vaccine is given primarily to prevent adult-type pulmonary tuberculosis",
-      "The Hepatitis B-0 dose must strictly be administered within 24 hours of birth"
+      "Levator palpebrae superioris resection",
+      "Frontalis sling operation",
+      "Fasanella-Servat procedure",
+      "Levator palpebrae superioris plication"
     ],
-    answerIndex: 3,
-    correctAnswerText: "The Hepatitis B-0 dose must strictly be administered within 24 hours of birth"
+    answerIndex: 1,
+    correctAnswerText: "Frontalis sling operation"
   },
   {
     id: 124,
     image: "",
-    question: "A 6-year-old completely unimmunized child is brought to a rural health camp by his parents. The medical officer is planning a catch-up vaccination schedule. Based on the maximum age cutoffs under the National Immunization Schedule (NIS), which of the following vaccines is indicated for this child?",
+    question: "A 50-year-old female presents with a chronic gritty sensation in both eyes. The ophthalmologist wants to evaluate her tear production by measuring exclusively the basal tear secretion. Which specific test modification must be performed to achieve this?",
     options: [
-      "DPT",
-      "Oral Polio Vaccine (OPV)",
-      "Measles-Rubella (MR)",
-      "Japanese Encephalitis (JE)"
+      "Applying a nasal mucosal irritant",
+      "Using a phenol red impregnated thread",
+      "Instilling topical anesthesia before the test",
+      "Evaluating fluorescein break-up time under blue light"
     ],
-    answerIndex: 0,
-    correctAnswerText: "DPT"
+    answerIndex: 2,
+    correctAnswerText: "Instilling topical anesthesia before the test"
   },
   {
     id: 125,
-    image: "images/icelinerefrigerator.mov",
-    question: "This video shows a PHC cold-chain unit storing all vaccines in a top-opening cabinet maintaining +2°C to +8°C, even during power cuts. Which equipment is shown?",
+    image: "",
+    question: "A 30-year-old male with a history of an old, malunited zygomatic fracture presents with prominent facial asymmetry. The ophthalmologist suspects unilateral proptosis of the normal eye. Which of the following instruments is most appropriate for accurately measuring the degree of ocular protrusion in this specific patient?",
     options: [
-      "Deep freezer",
-      "Cold box",
-      "Walk-in cooler",
-      "Ice lined refrigerator"
+      "Hertel exophthalmometer",
+      "Luedde exophthalmometer",
+      "Naffziger exophthalmometer",
+      "McCoy exophthalmometer"
     ],
     answerIndex: 3,
-    correctAnswerText: "Ice lined refrigerator"
+    correctAnswerText: "McCoy exophthalmometer"
   },
   {
     id: 126,
     image: "",
-    question: "During an immunization outreach session, a health worker retrieves a standard conditioned ice pack from the vaccine carrier. This specific ice pack features two depressions or \"holes\" molded onto its surface. Which two vaccines are strictly designed to be kept in these holes during the active session?",
+    question: "A 10-year-old boy with a recent history of ethmoidal sinusitis presents with acute fever and painful eyelid swelling. Clinical examination reveals axial proptosis and markedly restricted ocular motility. According to Chandler's classification, which of the following is the most accurate diagnosis?",
     options: [
-      "Oral Polio Vaccine and Rotavirus",
-      "Hepatitis B and Pentavalent",
-      "Measles-Rubella (MR) and BCG",
-      "Japanese Encephalitis and IPV"
+      "True orbital cellulitis",
+      "Pre-septal cellulitis",
+      "Sub-periosteal abscess",
+      "Cavernous sinus thrombosis"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Measles-Rubella (MR) and BCG"
+    answerIndex: 0,
+    correctAnswerText: "True orbital cellulitis"
   },
   {
     id: 127,
-    image: "",
-    question: "A cold chain failure at a primary health centre accidentally freezes all stored vaccines inside the equipment. According to immunization guidelines, which of the following vaccines remains completely viable after freezing and should NOT be discarded?",
+    image: "images/IMG_9933.jpeg",
+    question: "An 18-month-old child presents with a prominent white pupillary reflex in the right eye. Imaging confirms a large, advanced calcified intraocular mass occupying the majority of the globe, consistent with retinoblastoma. If a destructive surgical approach is required, which of the following procedures is absolutely contraindicated in this patient?",
     options: [
-      "Hepatitis B",
-      "Pentavalent",
-      "DPT",
-      "Oral Polio Vaccine"
+      "Exenteration",
+      "Evisceration",
+      "Enucleation",
+      "External beam radiotherapy"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Oral Polio Vaccine"
+    answerIndex: 1,
+    correctAnswerText: "Evisceration"
   },
   {
     id: 128,
-    image: "",
-    question: "A mother brings her infant to the emergency room, reporting continuous, inconsolable crying for the past 4 hours following his routine morning immunizations. Which specific vaccine component is most likely responsible for this adverse event?",
+    image: "images/IMG_9934.jpeg",
+    question: "A 35-year-old male presents with acute ocular pain, photophobia, and circumcorneal redness. Slit-lamp examination reveals a heavy 3+ \"flare\" in the anterior chamber. This specific sign is due to protein leakage resulting from the breakdown of the blood-aqueous barrier. Which of the following structures represents a primary anatomical component of this tight barrier?",
     options: [
-      "Pertussis",
-      "Hepatitis B",
-      "Measles",
-      "Tetanus toxoid"
+      "Corneal endothelium",
+      "Pigmented ciliary epithelium",
+      "Non-pigmented ciliary epithelium",
+      "Trabecular meshwork"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Pertussis"
+    answerIndex: 2,
+    correctAnswerText: "Non-pigmented ciliary epithelium"
   },
   {
     id: 129,
-    image: "",
-    question: "A 24-year-old primigravida at 8 weeks of gestation presents with high-grade fever and chills. A peripheral blood smear confirms infection with Plasmodium falciparum. According to the national malaria control guidelines, what is the most appropriate treatment for this patient?",
+    image: "images/IMG_9936.jpeg",
+    question: "A 32-year-old female presents with a chief complaint of bilateral painless floaters and gradual blurring of vision. Slit-lamp biomicroscopy reveals cellular aggregates in the anterior vitreous (\"snowballs\") and exudates over the inferior pars plana (\"snow banking\"). What is the most common vision-threatening complication associated with this specific ocular condition?",
     options: [
-      "Artemether-Lumefantrine (ACT-AL)",
-      "Oral Quinine therapy",
-      "Chloroquine and Primaquine",
-      "Artesunate-Sulfadoxine-Pyrimethamine (ACT-SP)"
+      "Posterior subcapsular cataract",
+      "Epiretinal membrane formation",
+      "Tractional retinal detachment",
+      "Cystoid macular edema"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Oral Quinine therapy"
+    answerIndex: 3,
+    correctAnswerText: "Cystoid macular edema"
   },
   {
     id: 130,
-    image: "",
-    question: "A district health officer is tasked with evaluating the success of a newly implemented malaria vector control program. To specifically determine if there is any recent transmission of malaria occurring in the locality, which of the following indices is the most sensitive indicator to measure?",
+    image: "images/IMG_9937.jpeg",
+    question: "A 70-year-old patient develops severe visual blurring, halos, and painful ocular blisters six months after a complicated cataract surgery. Slit-lamp examination reveals classic bullous keratopathy. This condition is primarily triggered by the failure of which of the following physiological mechanisms that normally maintain corneal transparency?",
     options: [
-      "Annual Parasitic Incidence (API)",
-      "Annual Blood Examination Rate (ABER)",
-      "Infant Parasite Rate",
-      "Spleen Rate"
+      "Endothelial Na-K ATPase pump",
+      "Hydrophilic barrier of the corneal epithelium",
+      "Maximal anaerobic glycolysis in the stroma",
+      "Stromal pressure permitting aqueous imbibition"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Infant Parasite Rate"
+    answerIndex: 0,
+    correctAnswerText: "Endothelial Na-K ATPase pump"
   },
   {
     id: 131,
-    image: "",
-    question: "A 15-month-old child residing in a highly endemic district is scheduled to receive the newly introduced Japanese Encephalitis (JE) vaccine (JENVAC strain) under the national program. What is the correct nature and route of administration for this newer vaccine formulation?",
+    image: "images/IMG_9938.jpeg",
+    question: "A 65-year-old patient with advanced Fuchs' endothelial dystrophy presents with progressive corneal decompensation and vision loss. The ophthalmologist plans a targeted corneal transplantation that replaces strictly the diseased posterior layers while preserving the patient's healthy anterior structures. Which of the following procedures is most appropriate for this specific anatomical requirement?",
     options: [
-      "Live attenuated, Subcutaneous",
-      "Killed, Subcutaneous",
-      "Live attenuated, Intramuscular",
-      "Killed, Intramuscular"
+      "Penetrating keratoplasty",
+      "Descemet stripping endothelial keratoplasty",
+      "Anterior lamellar keratoplasty",
+      "Phototherapeutic keratectomy"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Killed, Intramuscular"
+    answerIndex: 1,
+    correctAnswerText: "Descemet stripping endothelial keratoplasty"
   },
   {
     id: 132,
-    image: "",
-    question: "A medical officer is supervising a community Mass Drug Administration (MDA) campaign to interrupt the transmission of Lymphatic Filariasis. The team is distributing the standard triple-drug regimen (DEC + Ivermectin + Albendazole). During the house-to-house drive, which of the following individuals must strictly be excluded from receiving this annual prophylaxis?",
+    image: "images/IMG_9940.jpeg",
+    question: "A 25-year-old contact lens wearer presents with excruciating ocular pain that seems entirely out of proportion to the relatively mild initial clinical signs. He admits to occasionally washing his lenses with tap water. Slit-lamp examination reveals early radial perineuritis and a distinct \"Wessley immune ring\" infiltrate. Which of the following is the most appropriate culture medium for isolating the suspected causative organism?",
     options: [
-      "A 24-year-old pregnant woman",
-      "A 50-year-old male with active lymphedema",
-      "A 3-year-old child attending a local preschool",
-      "A 65-year-old man with controlled hypertension"
+      "Sabouraud dextrose agar",
+      "Blood agar",
+      "Non-nutrient agar with E. coli",
+      "Lowenstein-Jensen medium"
     ],
-    answerIndex: 0,
-    correctAnswerText: "A 24-year-old pregnant woman"
+    answerIndex: 2,
+    correctAnswerText: "Non-nutrient agar with E. coli"
   },
   {
     id: 133,
-    image: "images/IMG_9445.jpeg",
-    question: "A 38-year-old male from an endemic region presents with a 2-month history of irregular fever, progressive weight loss, and massive splenomegaly. A rapid diagnostic kit (RDK) test is positive for the rK39 antigen. What is the current recommended drug of choice (DOC) to initiate treatment for this patient?",
+    image: "images/IMG_9971.jpeg",
+    question: "A 30-year-old male is diagnosed with a branching corneal ulcer showing distinct terminal bulbs on fluorescein staining. He is mistakenly prescribed topical corticosteroids by a primary care physician. Which of the following conditions is the patient at highest risk of rapidly developing?",
     options: [
-      "Oral Miltefosine",
-      "Intravenous Liposomal Amphotericin B",
-      "Intravenous Sodium Stibogluconate",
-      "Oral Pyrethrum"
+      "Interstitial keratitis",
+      "Disciform keratitis",
+      "Salmon patch lesion",
+      "Geographic ulcer"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Intravenous Liposomal Amphotericin B"
+    answerIndex: 3,
+    correctAnswerText: "Geographic ulcer"
   },
   {
     id: 134,
-    image: "",
-    question: "An 8-year-old child presents with sudden onset floppiness of the right lower limb, diagnosed as Acute Flaccid Paralysis (AFP). According to the national surveillance guidelines, which of the  following is the correct protocol for stool sample transport?",
+    image: "images/IMG_9973.jpeg",
+    question: "A 30-year-old male presents with significant visual distortion following the healing of a traumatic corneal ulcer. Slit-lamp examination reveals a faint, superficial corneal scar involving less than one-third of the stromal depth. The underlying iris and anterior chamber details are clearly visible through the lesion. Which of the following is the most appropriate surgical management for this specific grade of opacity?",
     options: [
-      "2 samples collected 48 hours apart",
-      "Collected in a container with a chemical preservative",
-      "Transported via reverse cold chain at +2 to +8°C",
-      "Transported in a blue vaccine carrier"
+      "Phototherapeutic keratectomy",
+      "Anterior lamellar keratoplasty",
+      "Penetrating keratoplasty",
+      "Evisceration"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Transported via reverse cold chain at +2 to +8°C"
+    answerIndex: 0,
+    correctAnswerText: "Phototherapeutic keratectomy"
   },
   {
     id: 135,
-    image: "",
-    question: "An infant is born to an HIV-positive mother. Subsequent postnatal testing confirms that the infant is also HIV-positive. According to national guidelines for the Prevention of Parent to Child Transmission (PPTCT), what is the recommended total duration of breastfeeding for this child?",
+    image: "images/IMG_9944.jpeg",
+    question: "A 55-year-old patient with a history of long-term cardiac medication use presents with asymptomatic, bilateral, whorled pigmentary deposits in the corneal epithelium. Visual acuity remains unaffected, and the findings are noted to be reversible upon medication discontinuation. Which of the following is the most likely medication implicated in this presentation?",
     options: [
-      "Up to 6 months",
-      "Up to 1 year",
-      "Up to 18 months",
-      "Up to 2 years"
+      "Amiodarone",
+      "Chloroquine",
+      "Indomethacin",
+      "Netarsudil"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Up to 2 years"
+    answerIndex: 0,
+    correctAnswerText: "Amiodarone"
   },
   {
     id: 136,
-    image: "",
-    question: "A 45-year-old male newly diagnosed with pulmonary tuberculosis completes the Intensive Phase (IP) of his anti-tubercular therapy. His routine end-of-IP sputum smear examination returns positive. According to the current National Tuberculosis Elimination Programme (NTEP) guidelines, what is the most appropriate next step in his management?",
+    image: "images/IMG_9945.jpeg",
+    question: "A 22-year-old male with a known history of severe vernal keratoconjunctivitis presents with progressively decreasing vision and frequent changes in his astigmatic spectacle prescription. During clinical examination, the ophthalmologist asks the patient to look downwards, which reveals a distinct V-shaped bulging of the lower eyelid margin. Which of the following is the correct eponym for this specific clinical sign?",
     options: [
-      "Start continuation phase and send sputum for DST",
-      "Extend the intensive phase by one additional month",
-      "Immediately switch the patient to an MDR-TB regimen",
-      "Continue intensive phase and repeat smear after 2 weeks"
+      "Vogt striae",
+      "Munson sign",
+      "Rizutti sign",
+      "Fleischer ring"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Start continuation phase and send sputum for DST"
+    answerIndex: 1,
+    correctAnswerText: "Munson sign"
   },
   {
     id: 137,
-    image: "",
-    question: "A 35-year-old male presents with 4 hypopigmented anesthetic skin patches and a demonstrably thickened right ulnar nerve. His slit-skin smear is negative. According to the revised NLEP guidelines (applicable from April 2025), what is the correct classification and corresponding treatment duration for this patient?",
+    image: "images/IMG_9947.jpeg",
+    question: "A 60-year-old female with long-standing, severe rheumatoid arthritis presents for a routine ocular evaluation. She reports absolutely no ocular pain or redness. Slit-lamp examination reveals a completely quiet eye with marked, localized thinning of the anterior sclera, allowing the dark underlying uveal tissue to clearly shine through. Which of the following is the most likely diagnosis?",
     options: [
-      "Paucibacillary (PB); 6 months",
-      "Multibacillary (MB); 12 months",
-      "Paucibacillary (PB); 12 months",
-      "Multibacillary (MB); 6 months"
+      "Posterior scleritis",
+      "Necrotizing scleritis with inflammation",
+      "Scleromalacia perforans",
+      "Intercalary staphyloma"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Multibacillary (MB); 12 months"
+    answerIndex: 2,
+    correctAnswerText: "Scleromalacia perforans"
   },
   {
     id: 138,
-    image: "",
-    question: "In a group of patients presenting to the emergency department with acute chest pain, 20% are confirmed to have a myocardial infarction (MI). Among those with an MI, 80% have an elevated cardiac biomarker. Among those without an MI, 30% incorrectly show an elevated cardiac biomarker. What is the Positive Predictive Value (PPV) of this elevated biomarker in this specific group?",
+    image: "images/IMG_9948.jpeg",
+    question: "A 45-year-old farmer presents with a wing-like fibrovascular growth extending from the nasal conjunctiva onto the cornea, causing significant irregular astigmatism. Surgical removal is planned. Which of the following surgical approaches is considered the most ideal standard of care to minimize recurrence?",
     options: [
-      "1/5",
-      "1/4",
-      "2/5",
-      "3/5"
+      "Simple excision with bare sclera technique",
+      "Excision with primary closure",
+      "Phototherapeutic keratectomy (PTK)",
+      "Excision with conjunctival autograft"
     ],
-    answerIndex: 2,
-    correctAnswerText: "2/5"
+    answerIndex: 3,
+    correctAnswerText: "Excision with conjunctival autograft"
   },
   {
     id: 139,
-    image: "",
-    question: "A medical researcher calculates the mean weight of a study group comprising 20 participants, finding it to be 45.0 kg. During a later data audit, it is discovered that one participant's weight was erroneously recorded as 15.0 kg instead of the true value of 55.0 kg. What is the true, corrected mean weight of the group?",
+    image: "images/IMG_9949.jpeg",
+    question: "A 9-day-old neonate born via normal vaginal delivery presents with bilateral profuse mucopurulent ocular discharge. Based on the precise time of onset, which of the following is the most likely causative organism?",
     options: [
-      "46.5 kg",
-      "49.0 kg",
-      "45.5 kg",
-      "47.0 kg"
+      "Chlamydia trachomatis",
+      "Neisseria gonorrhoeae",
+      "Staphylococcus aureus",
+      "Herpes simplex virus type 2"
     ],
-    answerIndex: 3,
-    correctAnswerText: "47.0 kg"
+    answerIndex: 0,
+    correctAnswerText: "Chlamydia trachomatis"
   },
   {
     id: 140,
     image: "",
-    question: "In a community health survey, the mean fasting blood sugar (FBS) is 100 mg/dL with a Standard Deviation (SD) of 10. The mean serum cholesterol is 200 mg/dL with an SD of 10. Which parameter demonstrates greater relative biological variability?",
+    question: "A 35-year-old factory worker with a past history of an alkali chemical burn presents with a fleshy fold of conjunctiva firmly attached to the peripheral cornea. During slit-lamp examination, the ophthalmologist is successfully able to pass a glass rod underneath the neck of this fibrovascular fold. Which of the following is the most accurate clinical diagnosis?",
     options: [
-      "Fasting blood sugar",
-      "Serum cholesterol",
-      "Both are equally variable",
-      "Cannot be determined"
+      "True pterygium",
+      "Pseudo-pterygium",
+      "Pinguecula",
+      "Limbal dermoid"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Fasting blood sugar"
+    answerIndex: 1,
+    correctAnswerText: "Pseudo-pterygium"
   },
   {
     id: 141,
     image: "",
-    question: "A public health researcher is analyzing the birth weights of 10,000 full-term neonates, which follow a perfect normal distribution. What proportion of this neonatal population will have a birth weight falling strictly between the median value and exactly +2 Standard Deviations (SD) above the median?",
+    question: "A 70-year-old patient notes that he can suddenly read the newspaper without his usual presbyopic reading glasses. This well-known \"second sight\" phenomenon is primarily due to which of the following pathophysiological mechanisms?",
     options: [
-      "0.340",
-      "0.475",
-      "0.680",
-      "0.950"
+      "Curvatural myopia from progressive keratoconus",
+      "Positional myopia from anterior lens dislocation",
+      "Index myopia from progressive nuclear sclerosis",
+      "Axial myopia from buphthalmos globe expansion"
     ],
-    answerIndex: 1,
-    correctAnswerText: "0.475"
+    answerIndex: 2,
+    correctAnswerText: "Index myopia from progressive nuclear sclerosis"
   },
   {
     id: 142,
     image: "",
-    question: "For a clinical study group consisting of N = 400 participants, the 75th percentile would correspond to which of the following positional values in the ordered dataset?",
+    question: "A 12-year-old boy presents to the ophthalmology clinic with recurrent frontal headaches and frequent styes. Cycloplegic refraction reveals an uncorrected refractive error where the theoretical far point lies behind the eye. Because this patient must constantly exert excessive accommodative effort to maintain clear vision, he is most predisposed to developing which of the following conditions?",
     options: [
-      "75th value",
-      "200th value",
-      "300th value",
-      "325th value"
+      "Exophoria",
+      "Alternating exotropia",
+      "Convergence insufficiency",
+      "Esophoria"
     ],
-    answerIndex: 2,
-    correctAnswerText: "300th value"
+    answerIndex: 3,
+    correctAnswerText: "Esophoria"
   },
   {
     id: 143,
     image: "",
-    question: "A public health researcher is evaluating the relationship between the female literacy rate and the under-five mortality rate (U5MR) across multiple states. Which of the following values is most likely to represent the correlation coefficient (r) for this relationship?",
+    question: "Cycloplegic refraction in a young adult reveals that parallel light rays passing through one principal meridian focus exactly on the retina, while rays passing through the other principal meridian focus strictly in front of the retina. Identify the specific type of refractive error.",
     options: [
-      "r = +1.00",
-      "r = -1.00",
-      "r = +0.45",
-      "r = -0.72"
+      "Simple myopic astigmatism",
+      "Compound myopic astigmatism",
+      "Simple hypermetropic astigmatism",
+      "Mixed astigmatism"
     ],
-    answerIndex: 3,
-    correctAnswerText: "r = -0.72"
+    answerIndex: 0,
+    correctAnswerText: "Simple myopic astigmatism"
   },
   {
     id: 144,
     image: "",
-    question: "In a randomized controlled trial comparing two antihypertensive drugs, the researchers determine the probability of committing a Type I error (α) is set at 0.01. What is the probability that the study will correctly fail to reject the null hypothesis when the null hypothesis is actually true?",
+    question: "A 7-year-old boy presents to the ophthalmology clinic for assessment of decreased vision. The ophthalmologist performs objective retinoscopy using the standard cycloplegic agent of choice for his age group. During the procedure, the red reflex is noted to have a \"with movement\". Which type of neutralizing lens should be added, and what is the standard dioptric deduction required for the specific cycloplegic agent used in this patient?",
     options: [
-      "1%",
-      "99%",
-      "5%",
-      "95%"
+      "Minus (-) lens, deduct 0.5 D",
+      "Plus (+) lens, deduct 1.0 D",
+      "Plus (+) lens, deduct 0.5 D",
+      "Minus (-) lens, deduct 1.0 D"
     ],
     answerIndex: 1,
-    correctAnswerText: "99%"
+    correctAnswerText: "Plus (+) lens, deduct 1.0 D"
   },
   {
     id: 145,
     image: "",
-    question: "A new sphygmomanometer is tested for accuracy. Ten successive readings of a standard 120 mmHg blood pressure sample are: 119, 121, 120, 119, 121, 120, 119, 121, 120, 120. How would you characterize this measurement method?",
+    question: "A 25-year-old male with a stable refraction of -5.0 D myopia desires surgical correction. Because he is a competitive mixed martial arts fighter, the surgeon recommends a \"flapless\" small incision lenticule extraction procedure to eliminate any future risk of flap dislocation. Which of the following lasers is exclusively used to perform this specific surgery?",
     options: [
-      "Low validity, low reliability",
-      "Low validity, high reliability",
-      "High validity, low reliability",
-      "High validity, high reliability"
+      "Excimer laser",
+      "Nd:YAG laser",
+      "Femtosecond laser",
+      "Argon laser"
     ],
-    answerIndex: 3,
-    correctAnswerText: "High validity, high reliability"
+    answerIndex: 2,
+    correctAnswerText: "Femtosecond laser"
   },
   {
     id: 146,
     image: "",
-    question: "In a family of 6 members, 1 index case of Chickenpox is identified. Subsequently, 2 other family members develop the disease during the incubation period. What is the Secondary Attack Rate for this family?",
+    question: "During clinical examination of a patient with binocular diplopia, the ophthalmologist attempts to isolate the pure vertical actions of the oblique extraocular muscles. To achieve this, the visual axis must coincide perfectly with the muscle plane of the Superior and Inferior obliques. This specific anatomical alignment occurs strictly when the globe is positioned in:",
     options: [
-      "40%",
-      "33%",
-      "25%",
-      "50%"
+      "23 degrees of abduction",
+      "51 degrees of abduction",
+      "23 degrees of adduction",
+      "51 degrees of adduction"
     ],
-    answerIndex: 0,
-    correctAnswerText: "40%"
+    answerIndex: 3,
+    correctAnswerText: "51 degrees of adduction"
   },
   {
-  id: 147,
-  image: "",
-  question: "A public health researcher intends to investigate a rare cancer suspected to be associated with an environmental exposure that occurred 20 years ago. Which study design is the most appropriate to initially evaluate this association?",
-  options: [
-    "Cross-sectional study",
-    "Case-Control study",
-    "Prospective Cohort study",
-    "Randomized Controlled Trial"
-  ],
-  answerIndex: 1,
-  correctAnswerText: "Case-Control study"
+    id: 147,
+    image: "",
+    question: "A 45-year-old patient complains of vertical diplopia while walking down the stairs. The examiner asks the patient to look down and to the left (levo-depression) to isolate a specific muscle pair. According to Hering's law of equal innervation, which of the following contralateral synergistic (yoke) muscles are being primarily tested in this cardinal gaze?",
+    options: [
+      "Right Superior Oblique and Left Inferior Rectus",
+      "Right Inferior Rectus and Left Superior Oblique",
+      "Right Inferior Oblique and Left Superior Rectus",
+      "Right Superior Rectus and Left Inferior Oblique"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Right Superior Oblique and Left Inferior Rectus"
   },
   {
     id: 148,
     image: "",
-    question: "In 2025, a researcher identifies a cohort of 2,000 factory workers and records their exposure levels to industrial solvents. This same group will be monitored for the development of chronic neurological disorders over the next 15 years, until 2040. Which study design is being utilized?",
+    question: "A 30-year-old patient undergoes an orthoptic evaluation for a manifest squint. When the patient attempts to elevate the right eye, the Right Superior Rectus vigorously contracts. According to Sherrington's Law of reciprocal inhibition, which specific muscles in the ipsilateral eye must simultaneously relax to allow this unimpeded elevation?",
     options: [
-      "Cross-sectional study",
-      "Case-Control study",
-      "Prospective Cohort study",
-      "Retrospective Cohort study"
+      "Right Superior Oblique and Right Inferior Oblique",
+      "Right Inferior Rectus and Right Superior Oblique",
+      "Left Inferior Rectus and Left Superior Oblique",
+      "Right Inferior Rectus and Right Inferior Oblique"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Prospective Cohort study"
+    answerIndex: 1,
+    correctAnswerText: "Right Inferior Rectus and Right Superior Oblique"
   },
   {
     id: 149,
-    image: "",
-    question: "In a family of 7 members, there are 2 parents and 5 children. Among the children, 2 are completely immunized against measles, while the other 3 are totally unimmunized. On June 1st, one of the unimmunized children develops measles. By June 10th, 1 other sibling also develops the disease. What is the Secondary Attack Rate (SAR) for this family?",
+    image: "images/IMG_9950.jpeg",
+    question: "A 10-year-old child with a suspected manifest strabismus is evaluated using a subjective test for binocular vision. He is asked to view an illuminated box containing four lights while wearing a red filter over his right eye and a green filter over his left eye. He reports seeing exactly three green dots and zero red dots. What is the most accurate clinical interpretation of this specific finding?",
     options: [
-      "20%",
-      "25%",
-      "33%",
-      "50%"
+      "Normal binocular fusion",
+      "Left eye suppression",
+      "Right eye suppression",
+      "Uncrossed diplopia"
     ],
-    answerIndex: 3,
-    correctAnswerText: "50%"
+    answerIndex: 2,
+    correctAnswerText: "Right eye suppression"
   },
   {
     id: 150,
-    image: "",
-    question: "In an epidemiological study investigating a new risk factor, a variable can strictly be defined as a \"confounding factor\" only if it meets which of the following criteria?",
+    image: "images/IMG_9951.jpeg",
+    question: "An ophthalmologist is evaluating the depth perception of a 6-year-old child. The child is asked to wear a pair of red-green anaglyph glasses and identify shapes hidden within random dot stereograms on printed plates. Which of the following specific tests for stereopsis is being performed?",
     options: [
-      "Associated with both exposure and disease, and unequally distributed in groups",
-      "Associated only with the exposure, and unequally distributed in groups",
-      "Associated with both exposure and disease, and equally distributed in groups",
-      "Associated only with the disease, and equally distributed in groups"
+      "Titmus Fly test",
+      "Randot test",
+      "Frisby test",
+      "TNO test"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Associated with both exposure and disease, and unequally distributed in groups"
+    answerIndex: 3,
+    correctAnswerText: "TNO test"
   },
   {
     id: 151,
-    image: "",
-    question: "A public health researcher investigates the association between breast cancer incidence and total dietary fat consumption. To do this, they analyze aggregate national health registries and agricultural import data across 15 different countries. Which epidemiological study design is being utilized?",
+    image: "images/IMG_9952.jpeg",
+    question: "A 55-year-old male presents with a localized midbrain infarct. Neurological examination reveals an ipsilateral third cranial nerve palsy, but with the unique finding of marked bilateral ptosis. This specific bilateral manifestation strongly indicates a nuclear lesion involving which of the following anatomical structures?",
     options: [
-      "Cross-sectional study",
-      "Ecological study",
-      "Retrospective cohort",
-      "Case-control study"
+      "Single central nucleus of Levator Palpebrae Superioris",
+      "Bilateral Edinger-Westphal nuclei",
+      "Contralateral Superior Rectus subnucleus",
+      "Decussation at the anterior medullary velum"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Ecological study"
+    answerIndex: 0,
+    correctAnswerText: "Single central nucleus of Levator Palpebrae Superioris"
   },
   {
     id: 152,
     image: "",
-    question: "During an acute outbreak of typhoid in a community of 10,000 residents, exactly 40 confirmed cases are reported. Over the next month, 8 of these patients die from the infection. What is the survival rate for this disease outbreak?",
+    question: "A 45-year-old male presents with sudden-onset vertical diplopia that noticeably worsens when he tries to read a book or walk down a flight of stairs. Clinical examination confirms an isolated Left Superior Oblique palsy. To minimize his diplopia and maintain binocular single vision, the patient will characteristically adopt which of the following compensatory head postures?",
     options: [
-      "20%",
-      "80%",
-      "99.9%",
-      "25%"
+      "Chin up with a Left head tilt",
+      "Chin down with a Right head tilt",
+      "Chin up with a Right head tilt",
+      "Chin down with a Left head tilt"
     ],
     answerIndex: 1,
-    correctAnswerText: "80%"
+    correctAnswerText: "Chin down with a Right head tilt"
   },
   {
     id: 153,
-    image: "",
-    question: "A district health officer is implementing the WHO STEPwise approach (STEPS) for a newly launched Non-Communicable Disease (NCD) surveillance program. The field team is trained on various data collection phases. Which of the following components is strictly NOT a part of this standardized surveillance framework?",
+    image: "images/ScreenRecording_07-17-2026 00-32-23_1.mov",
+    question: "A 35-year-old male undergoes routine vestibular function testing. The examiner instills cold water into the patient's left external auditory canal. What is the expected direction of the fast phase of the induced nystagmus in a normal physiological response?",
     options: [
-      "Verbal assessment",
-      "Physical measurement",
-      "Biological testing",
-      "Therapeutic intervention"
+      "Towards the left side",
+      "Upward direction",
+      "Towards the right side",
+      "Downward direction"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Therapeutic intervention"
+    answerIndex: 2,
+    correctAnswerText: "Towards the right side"
   },
   {
     id: 154,
     image: "",
-    question: "A demographic survey evaluates four different states (W, X, Y, and Z) and reports their Total Fertility Rates (TFR) as 3.2, 2.5, 2.1, and 1.8 respectively. Which of these states has exactly achieved the replacement level fertility?",
+    question: "A 22-year-old male presents with a permanent central scotoma after watching a solar eclipse without protective eyewear. Which specific type of radiation and corresponding ocular pathology is responsible for his irreversible visual loss?",
     options: [
-      "State W",
-      "State X",
-      "State Y",
-      "State Z"
+      "Ultraviolet rays causing photokeratitis",
+      "Ultraviolet rays causing a rosette cataract",
+      "Infrared rays causing Berlin edema",
+      "Infrared rays causing photoretinitis"
     ],
-    answerIndex: 2,
-    correctAnswerText: "State Y"
+    answerIndex: 3,
+    correctAnswerText: "Infrared rays causing photoretinitis"
   },
   {
     id: 155,
-    image: "",
-    question: "A G2P1L1 woman presents for her routine antenatal check-up at 24 weeks of gestation. Her firstborn child is 18 months old, and she had received complete antenatal immunizations during her previous pregnancy. What is the recommended tetanus-diphtheria prophylaxis for her current pregnancy?",
+    image: "images/IMG_9953.jpeg",
+    question: "A 45-year-old carpenter with a history of an untreated penetrating eye injury from a chisel and hammer two years ago presents with gradually diminishing vision. Slit-lamp examination reveals a uniquely hyperpigmented iris and intraocular pressure monitoring confirms secondary open-angle glaucoma in the affected eye. The most likely retained intraocular foreign body is composed of which of the following materials?",
     options: [
-      "Two doses of TT (4 weeks apart)",
-      "Single dose of TT booster",
-      "Two doses of Td (4 weeks apart)",
-      "Single dose of Td booster"
+      "Iron",
+      "Copper",
+      "Glass",
+      "Gold"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Single dose of Td booster"
+    answerIndex: 0,
+    correctAnswerText: "Iron"
   },
   {
     id: 156,
     image: "",
-    question: "A stable preterm neonate (birth weight 1.6 kg) is being managed in a step-down nursery. The pediatrician advises the parents to initiate Kangaroo Mother Care (KMC). According to standard WHO guidelines, which of the following perfectly summarizes the essential core components of KMC?",
+    question: "A 55-year-old male with obstructive sleep apnea and diabetes presents with sudden, moderate vision loss in his right eye, which he noticed immediately upon waking up. He explicitly denies any prior episodes of transient vision loss (amaurosis fugax). Examination reveals an altitudinal visual field defect and a hyperemic optic disc. Which of the following is the primary underlying pathophysiology?",
     options: [
-      "Skin-to-skin contact, Exclusive breastfeeding, Support to mother, Early discharge",
-      "Skin-to-skin contact, Supplemental formula feeding, Support to mother, Late discharge",
-      "Skin-to-skin contact, Routine prophylactic antibiotics, Incubator care, Early discharge",
-      "Skin-to-skin contact, Exclusive breastfeeding, Intermittent radiant warmer use, Late discharge"
+      "Giant cell arteritis",
+      "Nocturnal hypoperfusion of the short posterior ciliary artery",
+      "Retinal photoreceptor degeneration",
+      "Chronic papilloedema"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Skin-to-skin contact, Exclusive breastfeeding, Support to mother, Early discharge"
+    answerIndex: 1,
+    correctAnswerText: "Nocturnal hypoperfusion of the short posterior ciliary artery"
   },
   {
     id: 157,
     image: "",
-    question: "Although human breast milk provides optimal nutrition for growing neonates, it is classically considered a poor source of which of the following trace minerals?",
+    question: "A 28-year-old obese female presents with chronic severe headaches and new-onset horizontal diplopia. Fundus examination reveals bilateral disc edema. MRI of the brain is completely normal, but a lumbar puncture shows significantly elevated opening pressure. Which of the following medications in her recent history is the most likely precipitating factor?",
     options: [
-      "Calcium",
-      "Iron",
-      "Magnesium",
-      "Phosphorus"
+      "Ethambutol",
+      "Amiodarone",
+      "Tetracycline",
+      "Isoniazid"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Iron"
+    answerIndex: 2,
+    correctAnswerText: "Tetracycline"
   },
   {
     id: 158,
-    image: "images/IMG_9447.jpeg",
-    question: "A chronic alcoholic presents with watery diarrhea, confusion, and a sharply demarcated, hyperpigmented, sun-exposed rash around his neck. A diet lacking which of the following essential amino acids most directly contributes to this specific clinical syndrome?",
+    image: "",
+    question: "A 4-month-old infant is brought to the clinic with persistent watering and mild discharge from the left eye since birth. The ophthalmologist suspects a delayed canalization at the distal end of the tear drainage pathway. The membranous obstruction in this condition is most likely located at the valve that opens into which of the following nasal structures?",
     options: [
-      "Tyrosine",
-      "Phenylalanine",
-      "Tryptophan",
-      "Histidine"
+      "Superior meatus",
+      "Middle meatus",
+      "Sphenoethmoidal recess",
+      "Inferior meatus"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Tryptophan"
+    answerIndex: 3,
+    correctAnswerText: "Inferior meatus"
   },
   {
     id: 159,
     image: "",
-    question: "An Indian family relocates to the United States. Within a year, the parents notice their children have completely stopped eating traditional home-cooked meals and now exclusively demand western fast food like burgers and pizzas. In sociological terms, this dietary shift due to contact with a new environment is best described as:",
+    question: "A 40-year-old patient presents with chronic epiphora in the left eye. During diagnostic lacrimal syringing, the ophthalmologist observes that saline instilled into the left canaliculus regurgitates back through the opposite (right) punctum. Which of the following is the most likely anatomical site of obstruction?",
     options: [
-      "Socialization",
-      "Social pathology",
-      "Ethnocentrism",
-      "Acculturation"
+      "Left Canaliculus",
+      "Left Common Canaliculus",
+      "Left Nasolacrimal duct (NLD)",
+      "Lacrimal pump mechanism"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Acculturation"
+    answerIndex: 1,
+    correctAnswerText: "Left Common Canaliculus"
   },
   {
     id: 160,
-    image: "images/IMG_9470.jpeg",
-    question: "The hairy, moth-like vector depicted in the image is classically associated with the transmission of which of the following specific groups of diseases?",
+    image: "images/IMG_9954.jpeg",
+    question: "A 60-year-old female presents with painless blurring of vision that is classically maximal in the morning upon waking up and gradually improves as the day progresses. Slit-lamp examination reveals a \"beaten bronze\" appearance of the posterior cornea. What is the definitive surgical management of choice for her condition?",
     options: [
-      "Visceral leishmaniasis, Cutaneous leishmaniasis, and Chandipura encephalitis",
-      "Kyasanur Forest Disease, Babesiosis, and Lyme disease",
-      "Epidemic typhus, Trench fever, and Relapsing fever",
-      "Japanese encephalitis, Dengue, and Yellow fever"
+      "Phototherapeutic Keratectomy (PTK)",
+      "Anterior Lamellar Keratoplasty (ALK)",
+      "Descemet Stripping Endothelial Keratoplasty (DSEK)",
+      "Snip procedure"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Visceral leishmaniasis, Cutaneous leishmaniasis, and Chandipura encephalitis"
+    answerIndex: 2,
+    correctAnswerText: "Descemet Stripping Endothelial Keratoplasty (DSEK)"
   },
   {
     id: 161,
-    image: "images/mantoux.mov",
-    question: "This video shows a Mantoux site after 72 hours with a large red area but only a small firm swelling. What should be measured and recorded?",
+    image: "images/IMG_9956.jpeg",
+    question: "A neonate presents with persistent inward turning of the lower eyelid margin. Clinical examination reveals an underlying dysgenesis of the lower lid retractors. What is the most appropriate definitive surgical management for this patient?",
     options: [
-      "Induration",
-      "Erythema",
-      "Vesicle",
-      "Ulcer"
+      "Jones procedure",
+      "Weiss procedure",
+      "Anterior lamella repositioning",
+      "Holtz procedure"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Induration"
+    answerIndex: 3,
+    correctAnswerText: "Holtz procedure"
   },
   {
     id: 162,
-    image: "",
-    question: "After dressing an infected surgical wound, a resident needs to discard the heavily blood-soaked cotton gauze and bandage. According to current Biomedical Waste Management rules, which container is appropriate?",
+    image: "images/IMG_9957.jpeg",
+    question: "A 75-year-old male presents with outward turning of his lower eyelid margin causing chronic watering. Clinical examination confirms senile ectropion with generalized horizontal laxity and a significant amount of excess eyelid skin. What is the most appropriate surgical procedure for this specific presentation?",
     options: [
-      "Red bag",
-      "White puncture-proof container",
-      "Yellow bin",
-      "Blue box"
+      "Kuhnt-Szymanowski procedure",
+      "Z-plasty excision",
+      "Pentagon excision",
+      "Lateral tarsorrhaphy"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Yellow bin"
+    answerIndex: 0,
+    correctAnswerText: "Kuhnt-Szymanowski procedure"
   },
   {
     id: 163,
-    image: "",
-    question: "A 62-year-old retired industrial worker presents with severe fatigue, recurrent infections, and pancytopenia. He has a long history of working in a shoe-manufacturing unit with chronic benzene exposure. Which malignancy is classically associated with this occupational exposure?",
+    image: "images/IMG_9958.jpeg",
+    question: "A 30-year-old male presents with restricted ocular motility and chronic discomfort a few months after suffering a severe alkali chemical burn to his right eye. Slit-lamp examination reveals a thick, fibrous scar tissue band firmly fusing the inner surface of his lower eyelid directly to the eyeball. What is the precise clinical term for this pathological adhesion?",
     options: [
-      "Lung cancer",
-      "Bladder cancer",
-      "Mesothelioma",
-      "Leukemia"
+      "Ankyloblepharon",
+      "Symblepharon",
+      "Cryptophthalmos",
+      "Coloboma"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Leukemia"
+    answerIndex: 1,
+    correctAnswerText: "Symblepharon"
   },
   {
     id: 164,
     image: "",
-    question: "In a population survey, a normally distributed dataset of fasting blood glucose levels has a median of 150 mg/dL and a standard deviation of 15 mg/dL. What range will include approximately 68% of observations?",
+    question: "A patient is positioned exactly 60 meters away from a standard Snellen visual acuity chart. At this specific distance, how much total angle does the topmost letter on the chart subtend at the nodal point of the patient's eye?",
     options: [
-      "135 - 165",
-      "120 - 180",
-      "105 - 195",
-      "150 - 165"
+      "60 minutes of arc",
+      "1 minute of arc",
+      "5 minutes of arc",
+      "6 minutes of arc"
     ],
-    answerIndex: 0,
-    correctAnswerText: "135 - 165"
+    answerIndex: 2,
+    correctAnswerText: "5 minutes of arc"
   },
   {
     id: 165,
     image: "",
-    question: "A public health researcher wants to graphically display the frequency distribution of birth weights measured in kilograms among 1,000 newborns. Which graph is most appropriate?",
+    question: "A 25-year-old patient is undergoing a routine neuro-ophthalmological examination. The physician shines a bright penlight exclusively into the patient's right eye to evaluate pupillary reflexes. Which of the following anatomical structures is strictly NOT involved in generating the resulting direct and consensual pupillary responses?",
     options: [
-      "Bar diagram",
-      "Histogram",
-      "Pie chart",
-      "Pictogram"
+      "Ipsilateral optic nerve",
+      "Pretectal nuclei",
+      "Contralateral oculomotor nerve",
+      "Contralateral optic nerve"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Histogram"
+    answerIndex: 3,
+    correctAnswerText: "Contralateral optic nerve"
   },
   {
     id: 166,
-    image: "",
-    question: "A researcher is estimating the mean systolic blood pressure of a local population. If he decides to reduce the allowable error of the estimate by half, what will happen to the required sample size?",
+    image: "images/IMG_9974.jpeg",
+    question: "A diabetic patient presents two days after an uneventful cataract surgery with severe ocular pain, profound redness, and rapidly declining vision. Slit-lamp examination reveals a distinct hypopyon in the anterior chamber and prominent exudates in the vitreous cavity. What is the absolute first step in the management of this patient?",
     options: [
-      "It will become half",
-      "It will become double",
-      "It will become four times larger",
-      "It will remain unchanged"
+      "Intravitreal antibiotics",
+      "Intravitreal steroids",
+      "Intravenous mannitol",
+      "Intravenous antibiotics"
     ],
-    answerIndex: 2,
-    correctAnswerText: "It will become four times larger"
+    answerIndex: 0,
+    correctAnswerText: "Intravitreal antibiotics"
   },
   {
     id: 167,
-    image: "",
-    question: "A randomized controlled trial concludes that a new antidiabetic medication has no significant difference compared with placebo. However, in reality, the new drug is truly effective. Which statistical error has occurred?",
+    image: "images/IMG_9961.jpeg",
+    question: "A 1-year-old child presents with progressive muscle weakness and delayed developmental milestones. Fundus examination reveals a prominent cherry-red spot at the macula. Abdominal examination specifically notes the complete absence of hepatosplenomegaly. Which of the following is the most likely diagnosis?",
     options: [
-      "Alpha error",
-      "Beta error",
-      "Sampling frame error",
-      "Type I error"
+      "Niemann-Pick disease",
+      "Tay-Sachs disease",
+      "Gaucher disease",
+      "Hunter syndrome"
     ],
     answerIndex: 1,
-    correctAnswerText: "Beta error"
+    correctAnswerText: "Tay-Sachs disease"
   },
   {
     id: 168,
     image: "",
-    question: "On World Tuberculosis Day, a group of 5 medical experts sits on a stage in front of a community audience. They discuss TB prevention among themselves, with a moderator coordinating the conversation. Which communication method is being used?",
+    question: "A 45-year-old patient presents with visual disturbances following the resection of a suprasellar tumor. Detailed perimetry reveals an incongruous homonymous hemianopia. Upon careful pupillary examination using a narrow beam of light, the physician notes that light shone directly onto the blind half of the retina produces no pupillary constriction, whereas light shone onto the seeing half produces a normal response. This specific clinical presentation localizes the lesion to which of the following anatomical structures?",
     options: [
-      "Symposium",
-      "Workshop",
-      "Panel discussion",
-      "Role play"
+      "Optic nerve",
+      "Optic radiation",
+      "Optic tract",
+      "Visual cortex"
     ],
     answerIndex: 2,
-    correctAnswerText: "Panel discussion"
+    correctAnswerText: "Optic tract"
   },
   {
     id: 169,
     image: "",
-    question: "A state health department evaluates a newly proposed water sanitation project. To determine its feasibility, both the initial financial investment (inputs) and the resulting health outcomes (benefits) are measured strictly in monetary terms (Rupees). Which of the following economic evaluation techniques is being utilized?",
+    question: "A 55-year-old male is being evaluated for primary open-angle glaucoma. The ophthalmologist measures his intraocular pressure using the gold-standard instrument mounted on a slit lamp, which works by flattening a constant area of the central cornea. Which of the following physical principles forms the basis of this specific measurement technique?",
     options: [
-      "Cost-minimization analysis",
-      "Cost-utility analysis",
-      "Cost-effectiveness analysis",
-      "Cost-benefit analysis"
+      "Snell's law of refraction",
+      "Geometry of a spherical reflecting surface",
+      "Michelson interferometer principle",
+      "Imbert-Fick law"
     ],
     answerIndex: 3,
-    correctAnswerText: "Cost-benefit analysis"
+    correctAnswerText: "Imbert-Fick law"
   },
   {
     id: 170,
-    image: "",
-    question: "A 3-year-old child presents to the rural health clinic with bowing of legs, difficulty in walking, and severe undernutrition. Which of the following national programs primarily deals with providing supplementary nutrition to prevent such deficiencies in this specific age group?",
+    image: "images/IMG_9962.jpeg",
+    question: "A 12-year-old child presents with chronic ocular irritation and a persistent foreign body sensation. Slit-lamp examination reveals a completely normal anterior lid margin, but an abnormal, extra row of eyelashes is seen emerging directly from the meibomian gland orifices on the posterior aspect of the eyelid margin. What is the precise clinical diagnosis?",
     options: [
-      "Mid-Day Meal Scheme",
-      "Integrated Child Development Services",
-      "Rashtriya Bal Swasthya Karyakram",
-      "Janani Suraksha Yojana"
+      "Distichiasis",
+      "Trichiasis",
+      "Tylosis",
+      "Madarosis"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Integrated Child Development Services"
+    answerIndex: 0,
+    correctAnswerText: "Distichiasis"
   },
   {
     id: 171,
     image: "",
-    question: "A warning siren alerts a residential neighborhood of a sudden toxic gas leak from a nearby chemical plant. Evacuation orders have not yet been broadcasted. What is the most appropriate immediate action for a resident to take inside their home?",
+    question: "A 22-year-old patient presents with an unusual, intermittent protrusion of his right eyeball that specifically occurs only when he coughs, bends forward, or strains. Radiologic imaging confirms a vascular anomaly. Which of the following clinical or radiological features is strictly NOT associated with this condition?",
     options: [
-      "Call emergency services to get more information",
-      "Turn on the air conditioner to filter the indoor air",
-      "Close all windows and seal any cracks with tape",
-      "Rush outside immediately to check the extent of the leak"
+      "Presence of phleboliths",
+      "Positive orbital bruit",
+      "Thin-walled orbital veins",
+      "Exophthalmos on Valsalva maneuver"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Close all windows and seal any cracks with tape"
+    answerIndex: 1,
+    correctAnswerText: "Positive orbital bruit"
   },
   {
     id: 172,
-    image: "images/IMG_9449.jpeg",
-    question: "A teenage boy from a fluoride-endemic region of Andhra Pradesh presents to the orthopedics outpatient department with severe genu valgum and marked osteoporosis of the lower limbs. Which of the following dietary staples is classically associated with exacerbating this specific clinical presentation?",
+    image: "images/IMG_9963.jpeg",
+    question: "A 30-year-old male with a history of ankylosing spondylitis presents with a painful, photophobic red eye. Slit-lamp examination reveals a \"headlight in the fog\" appearance due to the presence of flare in the anterior chamber. This specific clinical sign is a direct result of the inflammatory breakdown of which of the following physiological structures?",
     options: [
-      "Polished rice",
-      "Refined wheat",
-      "Finger millet",
-      "Sorghum (Jowar)"
+      "Inner blood-retinal barrier",
+      "Outer blood-retinal barrier",
+      "Blood-aqueous barrier",
+      "Blood-choroid barrier"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Sorghum (Jowar)"
+    answerIndex: 2,
+    correctAnswerText: "Blood-aqueous barrier"
   },
   {
     id: 173,
-    image: "",
-    question: "A 45-year-old male recently declared cured of Hansen's disease attends a community awareness camp. The camp prominently displays a logo featuring a partially affected thumb and a normal forefinger. According to the NLEP emblem, what does this specific component symbolize?",
+    image: "images/IMG_9965.jpeg",
+    question: "A 20-year-old male presents with sudden, painful vision loss in his left eye. Examination reveals a markedly hazy cornea and a V-shaped bulging of the lower eyelid when looking down. Retinoscopy demonstrates a scissoring reflex, and an oil droplet reflex is noted bilaterally. What is the most likely diagnosis for his acute left eye presentation?",
     options: [
-      "The patient can be cured and remain a useful member of society",
-      "The beauty and purity of an uninfected individual",
-      "The continuous hope and optimism for a disease-free future",
-      "The complete elimination of physical deformities"
+      "Pathological myopia",
+      "Keratoglobus",
+      "Uncomplicated keratoconus",
+      "Acute hydrops in keratoconus"
     ],
-    answerIndex: 0,
-    correctAnswerText: "The patient can be cured and remain a useful member of society"
+    answerIndex: 3,
+    correctAnswerText: "Acute hydrops in keratoconus"
   },
   {
     id: 174,
     image: "",
-    question: "A 9-month-old infant is admitted to a government district hospital with severe pneumonia. The parents are highly concerned about the cost of intravenous antibiotics, blood tests, and hospital stay. Under which of the following government initiatives are all treatments, drugs, and diagnostics mandated to be provided completely free of cost for this specific patient?",
+    question: "A 25-year-old patient undergoes complete retinoscopy and subjective refraction in the ophthalmology clinic. The final spectacle prescription is finalized as +1.00 DS / -2.00 DC @ 90°. Based on this prescription, what is the precise clinical classification of this patient's refractive error?",
     options: [
-      "Janani Suraksha Yojana",
-      "Janani Shishu Suraksha Karyakram",
-      "Rashtriya Bal Swasthya Karyakram",
-      "Integrated Child Development Services"
+      "Mixed against-the-rule astigmatism",
+      "Mixed with-the-rule astigmatism",
+      "Compound myopic astigmatism",
+      "Simple hyperopic astigmatism"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Janani Shishu Suraksha Karyakram"
+    answerIndex: 0,
+    correctAnswerText: "Mixed against-the-rule astigmatism"
   },
   {
     id: 175,
     image: "",
-    question: "A public health official is analyzing the national vital statistics of a developing country like India. The latest census data reveals that while the death rate is continuing to decline, the birth rate has also begun to fall, leading to a shrinking demographic gap. Which stage of the demographic cycle does this population represent?",
+    question: "A 4-year-old child presents to the ophthalmology clinic with a noticeable inward deviation of both eyes, which the parents report worsens significantly when the child focuses on near toys. Cycloplegic refraction is planned to assess the underlying refractive status. This specific type of inward ocular deviation is most commonly associated with which of the following uncorrected conditions?",
     options: [
-      "Stage 1 (High stationary)",
-      "Stage 2 (Early expanding)",
-      "Stage 3 (Late expanding)",
-      "Stage 4 (Low stationary)"
+      "Myopia",
+      "Hyperopia",
+      "Presbyopia",
+      "Astigmatism"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Stage 3 (Late expanding)"
+    answerIndex: 1,
+    correctAnswerText: "Hyperopia"
   },
   {
     id: 176,
-    image: "images/vvm.mov",
-    question: "This video shows a health worker inspecting an Oral Polio Vaccine vial before administration. The inner square of the monitor is clearly darker than the outer circle. What is the most appropriate action?",
+    image: "",
+    question: "A 35-year-old stone worker presents to the emergency room with sudden severe pain and blurred vision in his right eye after a chisel slipped and struck his face. Slit-lamp examination reveals a full-thickness corneal laceration. Suspecting an intraocular foreign body, which of the following imaging modalities is absolutely detrimental and strictly contraindicated in this patient?",
     options: [
-      "Discard the vaccine immediately",
-      "Use the vaccine immediately",
-      "Return to the manufacturer",
-      "Store at a lower temperature"
+      "Plain X-ray orbit",
+      "Non-contrast CT orbit",
+      "Magnetic Resonance Imaging (MRI)",
+      "Ultrasound B-scan"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Discard the vaccine immediately"
+    answerIndex: 2,
+    correctAnswerText: "Magnetic Resonance Imaging (MRI)"
   },
   {
     id: 177,
-    image: "",
-    question: "A global health agency is evaluating the overall progress of a developing nation using a composite index. To assess the population's ability to lead a long and healthy life, which of the following specific parameters is utilized in calculating the Human Development Index (HDI)?",
+    image: "images/IMG_9975.jpeg",
+    question: "A 5-year-old child is brought to the OPD with a painless, slow-growing, smooth, and mobile swelling near the lateral aspect of the right eyebrow. Which of the following statements best describes the fundamental pathology of this specific lesion?",
     options: [
-      "Life expectancy at birth",
-      "Life expectancy at age one",
-      "Infant mortality rate",
-      "Basic literacy rate"
+      "Disorganized proliferation of native capillary endothelial cells",
+      "Acquired cystic dilation of the main lacrimal gland ducts",
+      "Congenital entrapment of ectodermal tissue at embryonic suture lines",
+      "Rapid malignant transformation of pluripotent mesenchymal cells"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Life expectancy at birth"
+    answerIndex: 2,
+    correctAnswerText: "Congenital entrapment of ectodermal tissue at embryonic suture lines"
   },
   {
     id: 178,
-    image: "",
-    question: "A factory worker suffers a severe crush injury resulting in the amputation of his right hand. He is now unable to operate his assigned machinery and ultimately loses his job. According to the WHO classification, which of the following specifically represents the \"impairment\" in this scenario?",
+    image: "images/IMG_9967.jpeg",
+    question: "A 7-year-old child with a recent history of severe ethmoid sinusitis presents with high fever, proptosis, and painfully restricted extraocular movements. Radiological imaging confirms a localized purulent collection situated strictly between the periorbita and the medial orbital wall. According to Chandler's classification, what is the specific stage of this patient's condition?",
     options: [
-      "The initial crush injury",
-      "Inability to operate the machinery",
-      "Loss of the anatomical hand",
-      "Subsequent unemployment"
+      "Stage I",
+      "Stage II",
+      "Stage IV",
+      "Stage III"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Loss of the anatomical hand"
+    answerIndex: 3,
+    correctAnswerText: "Stage III"
   },
   {
     id: 179,
-    image: "",
-    question: "A public health researcher is analyzing the systolic blood pressure levels of 5,000 healthy adult volunteers. He notes that the data plots into a perfectly symmetrical, bell-shaped continuous probability curve. To perform advanced comparative statistical modeling, he converts this dataset into a \"standard normal distribution\". What specific mathematical parameters define this standardized curve?",
+    image: "images/IMG_9968.jpeg",
+    question: "A 70-year-old male scheduled for cataract surgery presents with a \"moth-eaten\" pupillary ruff and a distinctive \"bull's eye\" pattern on the anterior lens capsule upon slit-lamp examination. Gonioscopy of this patient's anterior chamber angle is most likely to reveal which of the following classical findings?",
     options: [
-      "Mean of 1 and standard deviation of 0",
-      "Mean equal to variance with a standard deviation of 1",
-      "Mean of 1 and standard deviation of 1",
-      "Mean of 0 and standard deviation of 1"
+      "Blood in Schlemm's canal",
+      "Peripheral anterior synechiae",
+      "Krukenberg spindle",
+      "Sampaolesi's line"
     ],
     answerIndex: 3,
-    correctAnswerText: "Mean of 0 and standard deviation of 1"
+    correctAnswerText: "Sampaolesi's line"
   },
   {
     id: 180,
     image: "",
-    question: "A medical officer plots the frequency of different patient blood groups (A, B, AB, O) using a standard bar chart. Visually, the rectangular bars are separated by distinct gaps. Epidemiologically, what do these specific spaces between the rectangles definitively indicate about the underlying data?",
+    question: "A 24-year-old male with moderate keratoconus is intolerant to rigid gas-permeable contact lenses. He undergoes implantation of PMMA semicircular ring segments into his mid-peripheral cornea. What is the primary mechanism of action of this specific intervention?",
     options: [
-      "The variables represent a continuous set",
-      "The variables are measured on an interval scale",
-      "The total magnitude is divided into subsets",
-      "The data forms discrete categories"
+      "Flattens the central cornea by shortening the arc length of stromal lamellae",
+      "Halts disease progression by creating covalent bonds between collagen fibrils",
+      "Steepens the central cornea to correct hyperopic refractive error",
+      "Replaces the diseased endothelial layer to clear chronic corneal edema"
     ],
-    answerIndex: 3,
-    correctAnswerText: "The data forms discrete categories"
+    answerIndex: 0,
+    correctAnswerText: "Flattens the central cornea by shortening the arc length of stromal lamellae"
   }
-];
+]
