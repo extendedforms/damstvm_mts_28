@@ -1,2343 +1,2344 @@
 // Format: { id, image, question, options[], answerIndex, correctAnswerText }
+
 window.questions = [
   {
     id: 1,
-    image: "",
-    question: "A 10-year-old child presents with a decline in scholastic performance. Psychometric evaluation reveals an IQ score of 42. What is the severity grade of his intellectual disability?",
+    image: "images/IMG_0399.jpeg",
+    question: "A pathologist is evaluating an artery biopsy for arteriosclerosis. Which stain is most appropriate to selectively visualize the elastin fibers in the blood vessel wall, and what color will they appear?",
     options: [
-      "Moderate",
-      "Mild",
-      "Severe",
-      "Profound"
+      "Verhoeff-Van Gieson (VVG) stain; Black",
+      "Masson's Trichrome stain; Blue",
+      "Periodic Acid-Schiff (PAS) stain; Magenta",
+      "Hematoxylin and Eosin (H&E) stain; Pink"
     ],
     answerIndex: 0,
-    correctAnswerText: "Moderate"
+    correctAnswerText: "Verhoeff-Van Gieson (VVG) stain; Black"
   },
   {
     id: 2,
-    image: "",
-    question: "A patient admitted to the psychiatry ward stubbornly refuses to pass urine for the last 24 hours. Upon evaluation, he states that if he urinates, it will cause a massive flood that will destroy the entire world. What is this specific psychopathology called?",
+    image: "images/IMG_0400.jpeg",
+    question: "A 45-year-old man with a blood pressure of 220/120 mmHg presents with acute kidney injury. Renal biopsy reveals concentric hyperplasia of smooth muscle cells in the arterioles. Which of the following features is characteristic of this specific vascular pathology?",
     options: [
-      "Delusion of nihilism",
-      "Delusion of enormity",
-      "Delusion of reference",
-      "Delusion of persecution"
+      "Amorphous pink subendothelial deposition",
+      "Onion skin appearance with fibrinoid necrosis",
+      "Dystrophic calcification of the tunica media",
+      "Absence of luminal narrowing"
     ],
     answerIndex: 1,
-    correctAnswerText: "Delusion of enormity"
+    correctAnswerText: "Onion skin appearance with fibrinoid necrosis"
   },
   {
     id: 3,
-    image: "",
-    question: "A 28-year-old man presents with severe distress due to repetitive, intrusive thoughts that he forgot to lock his house. He knows these are his own senseless thoughts but cannot resist acting on them. While dirt and contamination represent the most common obsession, what is the most common compulsion seen clinically?",
+    image: "images/IMG_0401.jpeg",
+    question: "A 58-year-old male with a 15-year history of poorly controlled benign hypertension passes away due to an acute myocardial infarction. During the autopsy, the pathologist examines his kidneys. Which of the following describes the most likely macroscopic appearance of the kidneys in this patient?",
     options: [
-      "Hand washing",
-      "Mental counting",
-      "Checking",
-      "Ordering and arranging"
+      "Markedly enlarged kidneys with a smooth, pale capsular surface",
+      "Normal-sized kidneys covered with multiple red hemorrhagic spots",
+      "Shrunken kidneys with a leather grain appearance and white granules",
+      "Massively enlarged kidneys with multiple fluid-filled cysts"
     ],
     answerIndex: 2,
-    correctAnswerText: "Checking"
+    correctAnswerText: "Shrunken kidneys with a leather grain appearance and white granules"
   },
   {
     id: 4,
     image: "",
-    question: "A 35-year-old under-trial prisoner is brought for psychiatric evaluation after a recent brawl in his cell. He claims to have sustained a severe head injury. During the interview, when the psychiatrist asks him, \"What is the colour of grass?\", he confidently replies, \"Red.\" When asked, \"How many legs does a cow have?\", he answers, \"Five.\" What is the most appropriate diagnosis?",
+    question: "A 40-year-old male with a strong family history of premature myocardial infarction is found to have significantly elevated levels of Lipoprotein (a). How does this specific lipoprotein primarily increase his risk for atherothrombotic events?",
     options: [
-      "Factitious disorder",
-      "Malingering",
-      "Depressive pseudodementia",
-      "Ganser syndrome"
+      "Direct activation of platelets",
+      "Promoting lipid accumulation in tunica media",
+      "Decreased homocysteine clearance",
+      "Competitive inhibition of plasminogen"
     ],
     answerIndex: 3,
-    correctAnswerText: "Ganser syndrome"
+    correctAnswerText: "Competitive inhibition of plasminogen"
   },
   {
     id: 5,
     image: "",
-    question: "A manic patient presents to the emergency room with extreme cheerfulness, heightened confidence, and continuous pacing around the ward. However, on detailed mental status examination, he does not express any false beliefs about possessing supreme wealth or power. Based on the stages of elevated mood, which of the following best describes his current state?",
+    question: "A 20-year-old male dies in a road traffic accident. Autopsy shows multiple flat, yellow patches measuring less than 1 mm in the aortic intima. What is the primary cellular component of this earliest atherosclerotic lesion?",
     options: [
-      "Elation",
-      "Euphoria",
-      "Exaltation",
-      "Ecstasy"
+      "Macrophages engorged with oxidized LDL",
+      "Dense collagen deposited by TGF-beta",
+      "Concentric hyperplastic smooth muscle cells",
+      "Dystrophic calcium deposits within the media"
     ],
     answerIndex: 0,
-    correctAnswerText: "Elation"
+    correctAnswerText: "Macrophages engorged with oxidized LDL"
   },
   {
     id: 6,
     image: "",
-    question: "A 28-year-old male is evaluated in the psychiatric ward. On examination, the patient keeps his eyes open and visually appears fully awake and alert. However, he exhibits complete mutism and akinesis, showing an absolute inability to initiate any voluntary speech or motor action. Which of the following terms best describes this clinical state?",
+    question: "In the microscopic evaluation of an atherosclerotic plaque, which specific region is predominantly characterized by a high concentration of active inflammatory cells, including T lymphocytes and macrophages?",
     options: [
-      "Twilight state",
-      "Stupor",
-      "Oneiroid state",
-      "Sopor"
+      "Fibrous cap",
+      "Plaque shoulders",
+      "Necrotic core",
+      "Tunica adventitia"
     ],
     answerIndex: 1,
-    correctAnswerText: "Stupor"
+    correctAnswerText: "Plaque shoulders"
   },
   {
     id: 7,
-    image: "images/ScreenRecording_07-16-2026 23-26-48_1.mov",
-    question: "A psychologist is evaluating a 25-year-old male to assess his underlying defense mechanisms and subconscious drives. The patient is shown a series of cards depicting ambiguous interpersonal scenes featuring human faces and is asked to narrate a story about each picture. Which of the following tests is being administered?",
+    image: "",
+    question: "A 65-year-old diabetic male undergoes a comprehensive angiogram to evaluate severe peripheral vascular disease. While widespread atheromatous plaques are noted across multiple vascular beds, one specific set of vessels remains remarkably clear. Which of the following blood vessels is classically spared from atherosclerotic plaque formation?",
     options: [
-      "Minnesota Multiphasic Personality Inventory (MMPI)",
-      "Rorschach Inkblot Test",
-      "Thematic Apperception Test (TAT)",
-      "Wechsler Adult Intelligence Scale (WAIS)"
+      "Abdominal aorta",
+      "Internal carotid artery",
+      "Renal artery",
+      "Popliteal artery"
     ],
     answerIndex: 2,
-    correctAnswerText: "Thematic Apperception Test (TAT)"
+    correctAnswerText: "Renal artery"
   },
   {
     id: 8,
     image: "",
-    question: "A 30-year-old male with a history of social withdrawal presents to the psychiatry OPD complaining of sudden, severe abdominal pain. He firmly believes that this pain is not medical, but rather being actively inflicted upon him by his neighbor using a remote-control device. According to Kurt Schneider, which specific first-rank symptom does this represent?",
+    question: "A 65-year-old male develops a localized, pulsatile mass near the heart a few weeks after suffering a severe transmural myocardial infarction. Imaging confirms a pseudoaneurysm. Which of the following is the defining pathological characteristic of this lesion?",
     options: [
-      "Delusional perception",
-      "Made affect",
-      "Thought insertion",
-      "Somatic passivity"
+      "Dilated segment is covered by intact intima, media, and adventitia",
+      "Pathogenesis involves an underlying fibrillin gene mutation",
+      "Represents a true aneurysm primarily caused by fungal elements",
+      "Tear in all three vessel layers contained by an extra-vascular hematoma"
     ],
     answerIndex: 3,
-    correctAnswerText: "Somatic passivity"
+    correctAnswerText: "Tear in all three vessel layers contained by an extra-vascular hematoma"
   },
   {
     id: 9,
-    image: "",
-    question: "A 17-year-old boy is brought to the psychiatry clinic by his parents. They report a gradual change in his behavior over the last year. He has started isolating himself, frequently giggling for no apparent reason, making odd facial grimaces, and spending hours gazing into the mirror. His speech has become highly disjointed. Which of the following subtypes of schizophrenia best fits this clinical picture?",
+    image: "images/IMG_0402.jpeg",
+    question: "A 60-year-old male with a history of an untreated sexually transmitted infection decades ago presents with marked dilation of the ascending aorta. Gross examination of the vessel intima reveals linear wrinkling. Which of the following is the primary pathogenesis underlying this specific vascular lesion?",
     options: [
-      "Disorganized (Hebephrenic) schizophrenia",
-      "Paranoid schizophrenia",
-      "Catatonic schizophrenia",
-      "Simple schizophrenia"
+      "Obliterative endarteritis of the vasa vasorum",
+      "Macrophage secretion of matrix metalloproteinases",
+      "Mutation in the fibrillin-1 gene causing medial necrosis",
+      "Transmural tear contained by perivascular hematoma"
     ],
     answerIndex: 0,
-    correctAnswerText: "Disorganized (Hebephrenic) schizophrenia"
+    correctAnswerText: "Obliterative endarteritis of the vasa vasorum"
   },
   {
     id: 10,
-    image: "",
-    question: "A 30-year-old man presents to the emergency room after an intentional overdose of amitriptyline. His ECG reveals significantly widened QRS complexes and ventricular arrhythmias. What is the drug of choice for managing this specific cardiac toxicity?",
+    image: "images/IMG_0403.jpeg",
+    question: "A 62-year-old hypertensive male presents to the emergency department with sudden-onset, severe \"tearing\" chest pain radiating to his scapula. Imaging confirms blood tracking within the wall of the ascending aorta. If a biopsy of this vessel wall is stained with Verhoeff-Van Gieson (VVG), which of the following is the classic histological finding?",
     options: [
-      "Lignocaine",
-      "Physostigmine",
-      "Magnesium sulfate",
-      "Sodium bicarbonate"
+      "Obliterative endarteritis of the vasa vasorum",
+      "Cystic medial degeneration of elastin fibers",
+      "Concentric hyperplasia of smooth muscle cells",
+      "Amorphous pink subendothelial deposition"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Sodium bicarbonate"
+    answerIndex: 1,
+    correctAnswerText: "Cystic medial degeneration of elastin fibers"
   },
   {
     id: 11,
     image: "",
-    question: "A 28-year-old male is brought to the psychiatry emergency room by his family. He has been excessively talkative, spending money recklessly, and feels fully energetic despite sleeping only two hours a night. What is the standard minimum duration these symptoms must be present to formally diagnose a manic episode?",
+    question: "A patient with recurrent nasal mucosal ulcerations and rapidly progressive glomerulonephritis tests positive for c-ANCA on immunofluorescence. Which of the following is the specific target antigen for this specific autoantibody?",
     options: [
-      "4 days",
-      "14 days",
-      "7 days",
-      "30 days"
+      "Myeloperoxidase",
+      "Glomerular basement membrane",
+      "Proteinase 3",
+      "Rheumatoid factor"
     ],
     answerIndex: 2,
-    correctAnswerText: "7 days"
+    correctAnswerText: "Proteinase 3"
   },
   {
     id: 12,
     image: "",
-    question: "A 26-year-old pregnant female in her first trimester is brought to the emergency department with severe agitation, decreased need for sleep, and grandiose delusions. She requires immediate pharmacological intervention. Which of the following is the drug of choice for managing this acute manic episode?",
+    question: "A 65-year-old female presents with a new-onset unilateral headache and severe jaw pain while chewing. On examination, her temporal artery is tender and nodular. A temporal artery biopsy is performed. Which of the following histopathological findings is considered pathognomonic for her condition?",
     options: [
-      "Valproate",
-      "Lithium",
-      "Carbamazepine",
-      "Antipsychotics"
+      "Fibrinoid necrosis of the vessel wall",
+      "Obliterative endarteritis of vasa vasorum",
+      "Concentric hyperplasia of smooth muscle cells",
+      "Fragmentation of the internal elastic lamina"
     ],
     answerIndex: 3,
-    correctAnswerText: "Antipsychotics"
+    correctAnswerText: "Fragmentation of the internal elastic lamina"
   },
   {
     id: 13,
     image: "",
-    question: "A 40-year-old female presents with profound, pervasive sadness and anhedonia. A detailed clinical interview reveals absolutely no identifiable preceding stressful life events, such as financial loss, relationship issues, or bereavement. Her psychiatrist suspects a purely biological etiology involving 'trimonoamine depletion'. Which of the following terms best categorizes her condition?",
+    question: "A 45-year-old male with chronic Hepatitis B presents with new-onset severe hypertension and a right wrist drop. A tissue biopsy reveals transmural segmental fibrinoid necrosis of a medium-sized artery. Which of the following is a characteristic feature of this specific vasculitis?",
     options: [
-      "Endogenous depression",
-      "Exogenous depression",
-      "Reactive depression",
-      "Psychological depression"
+      "Sparing of the pulmonary arteries",
+      "Vascular lesions strictly in the same stage of healing",
+      "Strong association with c-ANCA positivity",
+      "Predominant involvement of small capillaries"
     ],
     answerIndex: 0,
-    correctAnswerText: "Endogenous depression"
+    correctAnswerText: "Sparing of the pulmonary arteries"
   },
   {
     id: 14,
-    image: "",
-    question: "A 45-year-old male presents with pervasive low mood, lethargy, and significant weight loss for the past 3 weeks. He reports severe sleep disturbances. If a polysomnography is performed, which of the following characteristic sleep architecture findings is most likely to be seen?",
+    image: "images/IMG_0406.jpeg",
+    question: "A 45-year-old male presents with recurrent severe sinusitis, chronic cough with hemoptysis, and a noticeable collapse of his nasal bridge. Intraoral examination reveals markedly hypertrophic, red, and friable gingiva. A chest radiograph demonstrates multiple bilateral cavitary lesions. If this patient tests positive for c-ANCA, which of the following is considered the classic Drug of Choice (DOC) for his condition?",
     options: [
-      "Increased REM latency",
-      "Decreased REM latency",
-      "Increased deep NREM sleep",
-      "Decreased sleep latency"
+      "High-dose Corticosteroids",
+      "Cyclophosphamide",
+      "Methotrexate",
+      "Plasmapheresis"
     ],
     answerIndex: 1,
-    correctAnswerText: "Decreased REM latency"
+    correctAnswerText: "Cyclophosphamide"
   },
   {
     id: 15,
     image: "",
-    question: "A 22-year-old female presents with low mood, excessive sleep, significant weight gain, carbohydrate cravings, and a sensation of extreme heaviness in her limbs. She is also highly emotionally reactive and sensitive to interpersonal rejection. What is the most likely diagnosis?",
+    question: "A 45-year-old male with a history of adult-onset asthma and marked peripheral eosinophilia rapidly develops fatal heart failure. Which of the following is the most likely pathological finding in his heart, representing the primary cause of death in this syndrome?",
     options: [
-      "Psychotic depression",
-      "Premenstrual dysphoric disorder",
-      "Atypical depression",
-      "Endogenous depression"
+      "Transmural fibrinoid necrosis of coronary arteries",
+      "Obliterative endarteritis of the vasa vasorum",
+      "Eosinophilic infiltration causing Loeffler's endomyocarditis",
+      "Non-caseating granulomas of the aortic valve"
     ],
     answerIndex: 2,
-    correctAnswerText: "Atypical depression"
+    correctAnswerText: "Eosinophilic infiltration causing Loeffler's endomyocarditis"
   },
   {
     id: 16,
-    image: "",
-    question: "A 28-year-old female presents 3 weeks post-delivery with severe agitation and a firm delusional belief that her newborn is evil. She actively expresses thoughts of harming the infant. Along with initiating antipsychotics, what is the most critical immediate management step?",
+    image: "images/IMG_0407.jpeg",
+    question: "A 32-year-old male chain smoker presents with blackish discoloration of his toes and severe pain even at rest. A biopsy of the affected tibial artery is performed. Which of the following is the most characteristic histopathological finding expected in this patient's vessel?",
     options: [
-      "Supportive psychotherapy",
-      "Administer IV Brexanolone",
-      "Reassure that symptoms will resolve in days",
-      "Immediate mother-to-child separation"
+      "Transmural segmental fibrinoid necrosis",
+      "Fragmentation of the internal elastic lamina",
+      "Eosinophilic infiltration of the vessel wall",
+      "Intraluminal thrombus containing neutrophilic microabscesses"
     ],
     answerIndex: 3,
-    correctAnswerText: "Immediate mother-to-child separation"
+    correctAnswerText: "Intraluminal thrombus containing neutrophilic microabscesses"
   },
   {
     id: 17,
     image: "",
-    question: "A 65-year-old divorced male with a history of severe depression and a previous suicide attempt is brought to the emergency department after a neighbor found him intoxicated and writing a detailed suicide note. According to his clinical presentation, which of the following biochemical markers in the cerebrospinal fluid (CSF) is most strongly associated with his current high-risk state?",
+    question: "A 28-year-old male presents with recurrent oral aphthous ulcers occurring more than three times a year, painful genital ulcers, and blurred vision due to anterior uveitis. Genetic testing confirms HLA-B51 positivity. The pathogenesis of this specific syndrome primarily involves antibodies directed against which of the following?",
     options: [
-      "Decreased 5-HIAA",
-      "Increased Homovanillic acid",
-      "Increased 5-HIAA",
-      "Decreased Vanillylmandelic acid"
+      "Alpha-enolase of endothelial cells",
+      "Proteinase 3 antigen of neutrophils",
+      "Myeloperoxidase of neutrophils",
+      "IgA immune complexes"
     ],
     answerIndex: 0,
-    correctAnswerText: "Decreased 5-HIAA"
+    correctAnswerText: "Alpha-enolase of endothelial cells"
   },
   {
     id: 18,
     image: "",
-    question: "A 30-year-old female with severe depression presents in a state of clinical stupor with active suicidal tendencies. The psychiatrist immediately schedules her for Modified Electroconvulsive Therapy (ECT). By which primary molecular mechanism does this therapy act as a rapid neurotransmitter booster?",
+    question: "A 55-year-old male suffers a sudden cardiac arrest and dies 2 hours after the onset of severe crushing chest pain. If a cardiac autopsy is performed, which of the following is the earliest finding expected on Light Microscopy (LM) of the affected myocardium?",
     options: [
-      "Targeting and restructuring cognitive distortions",
-      "Increasing Brain-Derived Neurotrophic Factor (BDNF)",
-      "Selective inhibition of serotonin reuptake",
-      "Triggering trimonoamine depletion in the brain"
+      "Mitochondrial swelling",
+      "Waviness of myocytes",
+      "Brisk interstitial neutrophilic infiltrate",
+      "Coagulative necrosis"
     ],
     answerIndex: 1,
-    correctAnswerText: "Increasing Brain-Derived Neurotrophic Factor (BDNF)"
+    correctAnswerText: "Waviness of myocytes"
   },
   {
     id: 19,
-    image: "",
-    question: "A 35-year-old male, previously diagnosed with Bipolar Disorder but currently off all medications, presents to the psychiatry outpatient department with a 4-week history of severe pervasive sadness, lethargy, and anhedonia. What is the most appropriate pharmacological management strategy for his current clinical phase?",
+    image: "images/IMG_0409.jpeg",
+    question: "A 60-year-old male dies from a catastrophic ventricular free wall rupture exactly 5 days after suffering an acute myocardial infarction. Histological examination of the infarcted myocardium at this specific timeline will most likely show a predominance of which of the following?",
     options: [
-      "Antidepressant alone",
-      "Antipsychotic alone",
-      "Antidepressant + Mood stabilizer",
-      "Mood stabilizer alone"
+      "Dense collagen deposition",
+      "Brisk neutrophilic infiltrate",
+      "Macrophage infiltration",
+      "Granulation tissue"
     ],
     answerIndex: 2,
-    correctAnswerText: "Antidepressant + Mood stabilizer"
+    correctAnswerText: "Macrophage infiltration"
   },
   {
     id: 20,
-    image: "",
-    question: "A 28-year-old male is rushed to the emergency room with sudden, severe palpitations, sweating, and a profound \"feeling of impending doom\". His ECG and cardiac markers are completely normal. These intense, unprovoked paroxysmal episodes have occurred three times this month. What is the most likely psychiatric diagnosis?",
+    image: "images/IMG_0410.jpeg",
+    question: "A 55-year-old male presenting with an acute ST-elevation myocardial infarction (STEMI) receives prompt and successful thrombolytic therapy. However, a subsequent histological evaluation of the reperfused myocardium reveals intensely pink, transverse bands across the myocytes. What is the primary pathophysiological mechanism responsible for this specific finding?",
     options: [
-      "Generalized Anxiety Disorder",
-      "Specific Phobia",
-      "Separation Anxiety Disorder",
-      "Panic Disorder"
+      "Rapid influx of neutrophils into the ischemic zone",
+      "Profound irreversible depletion of intracellular ATP",
+      "Slow apoptotic breakdown of the sarcolemma",
+      "ATP-mediated hypercontraction of calcium-loaded myocytes"
     ],
     answerIndex: 3,
-    correctAnswerText: "Panic Disorder"
+    correctAnswerText: "ATP-mediated hypercontraction of calcium-loaded myocytes"
   },
   {
     id: 21,
-    image: "",
-    question: "A 40-year-old female presents with severe, paralyzing anxiety whenever she has to go to a crowded market, an open ground, or a closed elevator. She has started avoiding these situations entirely. What is the most appropriate diagnosis?",
+    image: "images/IMG_0412.jpeg",
+    question: "A 65-year-old male with long-standing chronic right heart failure develops profound congestive splenomegaly. Microscopic examination of his spleen reveals characteristic pink fibrotic nodules containing prominent calcium deposits. What are these specific structures called?",
     options: [
-      "Agoraphobia",
-      "Social phobia",
-      "Claustrophobia",
-      "Specific phobia"
+      "Gamma Gandy bodies",
+      "Aschoff bodies",
+      "Asteroid bodies",
+      "Schaumann bodies"
     ],
     answerIndex: 0,
-    correctAnswerText: "Agoraphobia"
+    correctAnswerText: "Gamma Gandy bodies"
   },
   {
     id: 22,
-    image: "images/IMG_9897.jpeg",
-    question: "A 19-year-old female is referred to the psychiatry clinic by her dermatologist after presenting with irregular, asymmetric patches of hair loss on her scalp. She confesses to experiencing an escalating tension that is only relieved by pulling out her own hair. A similar urge is noted for picking at her skin. What is the most effective non-pharmacological treatment of choice for her condition?",
+    image: "",
+    question: "A 10-year-old child develops pancarditis and a new heart murmur three weeks after an untreated episode of severe sore throat. The primary pathogenesis of this specific cardiac condition is mediated by which of the following mechanisms?",
     options: [
-      "Systemic desensitization",
-      "Habit reversal therapy",
-      "Flooding",
-      "Aversion therapy"
+      "Direct bacterial invasion of the heart valves",
+      "Molecular mimicry involving Type II hypersensitivity",
+      "Deposition of circulating immune complexes (Type III)",
+      "Granulomatous Type IV hypersensitivity reaction"
     ],
     answerIndex: 1,
-    correctAnswerText: "Habit reversal therapy"
+    correctAnswerText: "Molecular mimicry involving Type II hypersensitivity"
   },
   {
     id: 23,
     image: "",
-    question: "A 35-year-old female presents to the emergency room with severe abdominal pain and recurrent unexplained hypoglycemia. Examination reveals multiple surgical scars on her abdomen. Investigations reveal she has been intentionally injecting herself with insulin. Psychiatric evaluation determines she has no external secondary gain, such as financial compensation or avoiding legal trouble, but simply desires to be hospitalized and cared for by doctors. What is the most appropriate diagnosis?",
+    question: "A 45-year-old female with a childhood history of severe, untreated rheumatic fever presents with progressive dyspnea. Echocardiography reveals a severely stenotic mitral valve with a classic \"fish-mouth\" deformity. If a pathological examination of her heart were performed, which of the following specific findings is most likely to be observed in her left atrium?",
     options: [
-      "Somatization disorder",
-      "Malingering",
-      "Factitious disorder",
-      "Hypochondriasis"
+      "Pathognomonic Aschoff nodules",
+      "Central areas of fibrinoid necrosis",
+      "Subendocardial thickening known as MacCallum plaques",
+      "Activated macrophages with caterpillar chromatin"
     ],
     answerIndex: 2,
-    correctAnswerText: "Factitious disorder"
+    correctAnswerText: "Subendocardial thickening known as MacCallum plaques"
   },
   {
     id: 24,
     image: "",
-    question: "A 28-year-old female with a history of severe childhood psychological trauma is brought to the psychiatrist by her husband. He reports that she frequently acts like a completely different person, adopting a different name, voice, and set of memories. She is found to have two distinct personality states that alternately control her behavior. What is the most appropriate diagnosis?",
+    question: "A 28-year-old female with Systemic Lupus Erythematosus (SLE) presents with a new heart murmur. Echocardiography reveals medium-sized, firm vegetations on the mitral valve. Which of the following is the most characteristic morphological feature of these specific vegetations?",
     options: [
-      "Dissociative fugue",
-      "Dissociative amnesia",
-      "Depersonalization disorder",
-      "Dissociative identity disorder"
+      "Located exclusively along the line of valve closure",
+      "Large, bulky, and highly friable septic masses",
+      "Confined strictly to the upper surface of the cusp",
+      "Present on both the upper and lower surfaces of the cusp"
     ],
     answerIndex: 3,
-    correctAnswerText: "Dissociative identity disorder"
+    correctAnswerText: "Present on both the upper and lower surfaces of the cusp"
   },
   {
     id: 25,
-    image: "images/ScreenRecording_07-16-2026 23-33-30_1.mov",
-    question: "A 70-year-old male is admitted to the ICU following major abdominal surgery. On postoperative day 2, he becomes acutely disoriented and restless. The nursing staff notes that his confusion significantly worsens during the evening hours. He is also observed to be continuously and aimlessly plucking at his bed sheets. What is the specific clinical term for this motor behavior?",
+    image: "images/IMG_0413.jpeg",
+    question: "A 19-year-old athlete collapses and dies suddenly during a football match. Autopsy reveals a significantly enlarged heart with prominent asymmetrical septal hypertrophy and a \"banana-shaped\" ventricular cavity. Which of the following is the most characteristic finding expected on light microscopy of this patient's myocardium?",
     options: [
-      "Carphologia",
-      "Stereotypy",
-      "Echopraxia",
-      "Catalepsy"
+      "Haphazard \"helter-skelter\" myofiber disarray",
+      "Bizarre, hyperchromatic \"ninja star\" nuclei",
+      "Granulomatous inflammation with giant cells",
+      "Calcium-encrusted pink fibrotic nodules"
     ],
     answerIndex: 0,
-    correctAnswerText: "Carphologia"
+    correctAnswerText: "Haphazard \"helter-skelter\" myofiber disarray"
   },
   {
     id: 26,
-    image: "",
-    question: "A 50-year-old chronic alcoholic is brought to the casualty with acute global confusion, an unsteady wide-based gait (ataxia), and horizontal gaze palsy. He is immediately diagnosed with Wernicke's encephalopathy. Which of the following is the most appropriate sequence of emergency pharmacological management?",
+    image: "images/IMG_0414.jpeg",
+    question: "A 60-year-old female presents with acute chest pain and dyspnea shortly after receiving news of her husband's sudden death. Echocardiography reveals characteristic apical ballooning of the left ventricle resembling a Japanese octopus pot. Which of the following is the most likely microscopic finding in this patient's myocardium?",
     options: [
-      "IV Dextrose followed by IV Thiamine",
-      "IV Thiamine followed by IV Dextrose",
-      "Normal Saline followed by IV Haloperidol",
-      "Oral Thiamine followed by IV Dextrose"
+      "Haphazard myofiber disarray",
+      "Contraction band necrosis",
+      "Bizarre hyperchromatic nuclei",
+      "Aschoff nodules with central fibrinoid necrosis"
     ],
     answerIndex: 1,
-    correctAnswerText: "IV Thiamine followed by IV Dextrose"
+    correctAnswerText: "Contraction band necrosis"
   },
   {
     id: 27,
-    image: "",
-    question: "A 22-year-old male is brought to the casualty in an unconscious state with a respiratory rate of 6 breaths/min. On physical examination, he exhibits severe CNS depression and bilateral pinpoint pupils. His friends report he recently injected a substance known locally as \"brown sugar\". Which of the following is the immediate drug of choice for this patient?",
+    image: "images/IMG_0415.jpeg",
+    question: "A 25-year-old male dies of sudden cardiac arrest. Autopsy of the right ventricle shows an alternating red and yellow \"Tabby Cat\" appearance due to extensive fibrofatty replacement. This pathology is primarily caused by a mutation in which of the following genes?",
     options: [
-      "Buprenorphine",
-      "Clonidine",
-      "IV Naloxone",
-      "Methadone"
+      "Titin gene",
+      "Beta-myosin heavy chain gene",
+      "Plakoglobin gene",
+      "Fibrillin-1 gene"
     ],
     answerIndex: 2,
-    correctAnswerText: "IV Naloxone"
+    correctAnswerText: "Plakoglobin gene"
   },
   {
     id: 28,
-    image: "images/ScreenRecording_07-16-2026 23-40-31_1.mov",
-    question: "An 15-year-old girl is brought to the pediatrician by his parents due to sudden, repetitive eye blinking and facial grimacing. Over the last few months, he has also developed involuntary vocalizations, including throat clearing, grunting, and occasionally shouting obscene words in public. Which of the following is the first-line drug of choice for managing this condition?",
+    image: "images/IMG_0420.jpeg",
+    question: "A 22-year-old male with tightly coiled \"wooly\" hair and marked hyperkeratosis of the palms and soles presents with recurrent ventricular arrhythmias. Cardiac imaging reveals extensive fibrofatty replacement of the right ventricle. Which of the following is the most likely diagnosis?",
     options: [
-      "Fluoxetine",
-      "Methylphenidate",
-      "Haloperidol",
-      "Clonidine"
+      "Marfan Syndrome",
+      "Buerger's Disease",
+      "Takotsubo Cardiomyopathy",
+      "Naxos Syndrome"
     ],
     answerIndex: 3,
-    correctAnswerText: "Clonidine"
+    correctAnswerText: "Naxos Syndrome"
   },
   {
     id: 29,
-    image: "images/ScreenRecording_07-16-2026 23-47-40_1.mov",
-    question: "A 2-year-old girl with a history of normal development until 6 months of age presents with a recent loss of acquired speech and purposeful hand skills. On examination, the pediatrician notes an acquired microcephaly and constant, repetitive hand-wringing movements. What is the most likely diagnosis?",
+    image: "",
+    question: "A 78-year-old male presents with signs of severe diastolic heart failure. An endomyocardial biopsy is performed, revealing amorphous pink deposits in the interstitium that stain intensely with Congo red. Which of the following is the specific precursor protein responsible for this patient's cardiac condition?",
     options: [
-      "Rett's syndrome",
-      "Heller's syndrome",
-      "Asperger's syndrome",
-      "Childhood autism"
+      "Wild-type transthyretin",
+      "Mutated transthyretin",
+      "Immunoglobulin light chains",
+      "Serum amyloid A"
     ],
     answerIndex: 0,
-    correctAnswerText: "Rett's syndrome"
+    correctAnswerText: "Wild-type transthyretin"
   },
   {
     id: 30,
-    image: "images/ScreenRecording_07-16-2026 23-51-51_1.mov",
-    question: "A 24-year-old man presents with irresistible daytime sleep attacks. He describes terrifying episodes of being completely unable to move just as he is falling asleep. Furthermore, he often collapses to the floor without losing consciousness whenever he laughs heartily. Which of the following terms strictly defines the pathognomonic symptom he experiences while laughing?",
+    image: "",
+    question: "A 2-year-old child is found to have a primary cardiac tumor located in the left ventricle. Histopathological examination of the biopsy reveals characteristic \"spider cells\" with cytoplasmic extensions radiating from the nucleus to the cell periphery. This specific cardiac tumor is most strongly associated with which of the following?",
     options: [
-      "Hypnagogic hallucination",
-      "Cataplexy",
-      "Sleep paralysis",
-      "Somnambulism"
+      "PRKAR1A gene mutation",
+      "Tuberous Sclerosis Complex",
+      "Carney's Triad",
+      "LAMB syndrome"
     ],
     answerIndex: 1,
-    correctAnswerText: "Cataplexy"
+    correctAnswerText: "Tuberous Sclerosis Complex"
   },
   {
     id: 31,
-    image: "",
-    question: "A 25-year-old female presents with a history of frequent relationship breakups, chronic feelings of inner emptiness, and impulsive self-harm gestures (parasuicide). During therapy, she exhibits extreme mood swings and views her friends and family as strictly \"all good\" or \"all bad.\" What is the most likely diagnosis?",
+    image: "images/IMG_0422.jpeg",
+    question: "A patient with a metastatic gastrointestinal tumor develops severe tricuspid regurgitation. Gross examination of the primary bowel tumor reveals a classic \"collar button\" lesion. Which of the following best explains why this patient's left-sided heart valves are typically spared from damage?",
     options: [
-      "Histrionic personality disorder",
-      "Narcissistic personality disorder",
-      "Borderline personality disorder",
-      "Dissocial personality disorder"
+      "Left-sided valves intrinsically lack serotonin receptors",
+      "Tumor emboli cannot traverse the pulmonary capillary bed",
+      "Serotonin is extensively metabolized by the pulmonary vascular bed",
+      "Rapid renal excretion of 5-HIAA prevents left-sided damage"
     ],
     answerIndex: 2,
-    correctAnswerText: "Borderline personality disorder"
+    correctAnswerText: "Serotonin is extensively metabolized by the pulmonary vascular bed"
   },
   {
     id: 32,
-    image: "",
-    question: "A 30-year-old patient with severe dissociative amnesia following a traumatic event is unable to recall the incident. To resolve the unconscious conflict, the psychiatrist administers intravenous Thiopentone sodium to facilitate the recollection of these repressed memories along with their appropriate emotional response. What is this specific psychoanalytical technique called?",
+    image: "images/IMG_0424.jpeg",
+    question: "An infant presents with a bright red, raised superficial vascular lesion on the face that appeared shortly after birth. Biopsy reveals small, thin capillaries separated by a pink stroma. Which of the following is a characteristic feature of this specific lesion?",
     options: [
-      "Free association",
-      "Parapraxes",
-      "Dream work",
-      "Abreaction"
+      "It is typically found in deep visceral tissues like the liver",
+      "It requires mandatory surgical excision for complete resolution",
+      "It is composed of large, dilated cystic spaces with scant stroma",
+      "It will predictably undergo spontaneous remission over several years"
     ],
     answerIndex: 3,
-    correctAnswerText: "Abreaction"
+    correctAnswerText: "It will predictably undergo spontaneous remission over several years"
   },
   {
     id: 33,
-    image: "",
-    question: "A bank employee is held hostage for three days during a robbery. Following her rescue, she actively defends the bank robbers' motives and expresses deep affection toward them. Which defense mechanism best explains her behavior?",
+    image: "images/IMG_0426.jpeg",
+    question: "A 28-year-old pregnant female presents with a rapidly growing, easily bleeding mass on her gingiva. Biopsy reveals a proliferation of small capillaries arranged in distinct lobules. What is the most accurate pathological term for this specific lesion?",
     options: [
-      "Introjection",
-      "Projection",
-      "Reaction formation",
-      "Displacement"
+      "Lobular capillary hemangioma",
+      "True pyogenic infection",
+      "Granulomatous inflammation",
+      "Cavernous hemangioma"
     ],
     answerIndex: 0,
-    correctAnswerText: "Introjection"
+    correctAnswerText: "Lobular capillary hemangioma"
   },
   {
     id: 34,
-    image: "",
-    question: "A patient with treatment-resistant schizophrenia is started on a new atypical antipsychotic. A few weeks later, he complains of severe nighttime drooling, frequently waking up with a soaked pillow. Which of the following is a key pharmacological characteristic of this specific drug?",
+    image: "images/IMG_0428.jpeg",
+    question: "A 35-year-old female presents with an exquisitely tender, bluish nodule beneath her thumbnail. She reports that the pain is precisely localized and becomes agonizingly severe when she washes her hands in cold water. Histopathological examination of the excised lesion reveals distinct blood vessels surrounded by a collar of uniform, round to oval cells. This tumor most likely originates from which of the following normal anatomical structures?",
     options: [
-      "Highest risk of extrapyramidal movement disorders",
-      "Predominantly blocks D4 rather than D2 receptors",
-      "High risk of causing hyperprolactinemia",
-      "Partial agonist action at dopamine D2 receptors"
+      "Deep dermal nerve endings",
+      "Thermoregulatory bodies",
+      "Modified eccrine sweat glands",
+      "Subcutaneous adipocytes"
     ],
     answerIndex: 1,
-    correctAnswerText: "Predominantly blocks D4 rather than D2 receptors"
+    correctAnswerText: "Thermoregulatory bodies"
   },
   {
     id: 35,
     image: "",
-    question: "A 30-year-old male being treated for major depression expresses a strong desire to quit smoking. He specifically requests a medication that will not cause weight gain or sexual dysfunction, having experienced both issues with previous medications. Which of the following is the most appropriate antidepressant choice for this patient?",
+    question: "A 7-year-old child from Sub-Saharan Africa presents with generalized massive lymphadenopathy but minimal skin lesions. A biopsy of the lymph node reveals spindle cells forming slit-like vascular spaces. Which of the following is the most likely variant of this tumor?",
     options: [
-      "Mirtazapine",
-      "Fluoxetine",
-      "Bupropion",
-      "Trazodone"
+      "Classical type",
+      "Iatrogenic type",
+      "Endemic type",
+      "HIV-associated type"
     ],
     answerIndex: 2,
-    correctAnswerText: "Bupropion"
+    correctAnswerText: "Endemic type"
   },
   {
     id: 36,
-    image: "",
-    question: "A 26-year-old schizophrenia patient presents to the psychiatry OPD. During the mental status examination, the resident notes that the patient experiences severe obsessions, delusions of persecution, and thought insertion. Furthermore, his speech constantly shifts between entirely unrelated topics. Which of these specific symptoms is classified strictly as a formal thought disorder?",
+    image: "images/IMG_0430.jpeg",
+    question: "A patient with untreated lobar pneumonia reaches the 5th to 7th day of illness. Which of the following is the hallmark histological finding during this specific stage?",
     options: [
-      "Obsessions",
-      "Delusions of persecution",
-      "Thought insertion",
-      "Derailment"
+      "Engorged capillaries with bacteria-rich fluid",
+      "Massive infiltration of intact RBCs and neutrophils",
+      "Complete clearance of alveolar exudate by macrophages",
+      "Fibrin-rich exudate with disintegrated RBCs"
     ],
     answerIndex: 3,
-    correctAnswerText: "Derailment"
+    correctAnswerText: "Fibrin-rich exudate with disintegrated RBCs"
   },
   {
     id: 37,
-    image: "",
-    question: "An 18-year-old male is brought to the psychiatry emergency room. When the psychiatrist asks him to describe his current mood, the patient replies, \"My mood is flextitating, I am up and down.\" Which of the following thought disorders is he actively exhibiting?",
+    image: "images/IMG_0433.jpeg",
+    question: "A patient with chronic respiratory symptoms undergoes a lung biopsy that reveals distinct granulomatous inflammation. To differentiate this from Tuberculosis and Sarcoidosis, a detailed microscopic examination is performed. Which of the following specific histological findings definitively points toward Histoplasmosis?",
     options: [
-      "Neologism",
-      "Clang association",
-      "Tangentiality",
-      "Thought blocking"
+      "3-5 um dot-shaped yeasts inside macrophages",
+      "Broad-based budding yeasts in the interstitium",
+      "Large spherules heavily packed with endospores",
+      "Narrow-based budding yeasts with a thick capsule"
     ],
     answerIndex: 0,
-    correctAnswerText: "Neologism"
+    correctAnswerText: "3-5 um dot-shaped yeasts inside macrophages"
   },
   {
     id: 38,
     image: "",
-    question: "A 42-year-old male with schizophrenia is treated with Risperidone 8 mg/day for 6 weeks with no clinical improvement. He is subsequently switched to Haloperidol 20 mg/day for another 6 weeks, but he continues to be severely symptomatic. What is the most appropriate next step in pharmacological management?",
+    question: "Reid index in Chronic Bronchitis is typically:",
     options: [
-      "Add a second typical antipsychotic",
-      "Initiate Clozapine therapy",
-      "Electroconvulsive therapy",
-      "Combine an atypical and typical antipsychotic"
+      "< 0.4",
+      "> 0.5",
+      "= 0.4",
+      "< 0.3"
     ],
     answerIndex: 1,
-    correctAnswerText: "Initiate Clozapine therapy"
+    correctAnswerText: "> 0.5"
   },
   {
     id: 39,
-    image: "images/ScreenRecording_07-16-2026 23-59-28_1.mov",
-    question: "A 45-year-old male being treated for schizophrenia with triflupromazine presents to the clinic with a newly developed resting tremor, cogwheel rigidity, and a slow, shuffling gait. What is the most appropriate pharmacological treatment for this specific adverse effect?",
+    image: "",
+    question: "Alpha-1 antitrypsin deficiency is classically associated with which of the following?",
     options: [
-      "Rasagiline",
-      "Pramipexole",
-      "Trihexyphenidyl",
-      "Levodopa"
+      "Centriacinar emphysema",
+      "Paraseptal emphysema",
+      "Panacinar emphysema",
+      "Irregular emphysema"
     ],
     answerIndex: 2,
-    correctAnswerText: "Trihexyphenidyl"
+    correctAnswerText: "Panacinar emphysema"
   },
   {
     id: 40,
-    image: "",
-    question: "An 85-year-old man presents with a 4-month history of daily crying spells, severe insomnia, significant weight loss, and active suicidal ideation following his son's death. His medical history includes benign prostatic hyperplasia (BPH) and a recent myocardial infarction. Which of the following is the safest and most appropriate pharmacotherapy for this patient?",
+    image: "images/IMG_0435.jpeg",
+    question: "Charcot-Leyden crystals seen in the sputum of an asthmatic patient are primarily composed of which of the following?",
     options: [
-      "Amitriptyline",
-      "Doxepin",
-      "Clonazepam",
-      "Sertraline"
+      "Spiral mucous plugs",
+      "Major basic protein",
+      "Shed epithelial cells",
+      "Galectin-10"
     ],
     answerIndex: 3,
-    correctAnswerText: "Sertraline"
+    correctAnswerText: "Galectin-10"
   },
   {
-  id: 41,
-  image: "",
-  question: "A 60-year-old glaucoma suspect is counseled on lifestyle modifications to prevent ocular pressure spikes. Which of the following physiological states or activities is most likely to decrease his intraocular pressure?",
-  options: [
-    "Sustained aerobic exercise",
-    "Sleeping in a prone position",
-    "Performing the Valsalva maneuver",
-    "Rapidly drinking large volumes of water"
-  ],
-  answerIndex: 0,
-  correctAnswerText: "Sustained aerobic exercise"
+    id: 41,
+    image: "",
+    question: "A 4-year-old child presents with a classic triad of calvarial lytic skull lesions, exophthalmos, and diabetes insipidus. A tissue biopsy shows a proliferation of histiocytes with prominent nuclear grooves in a background of abundant eosinophils. Which of the following is the absolute most specific immunohistochemical marker for this condition, known specifically for staining its pathognomonic electron-microscopic structures?",
+    options: [
+      "CD207 (Langerin)",
+      "CD1a",
+      "S-100",
+      "CD30"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "CD207 (Langerin)"
   },
   {
     id: 42,
     image: "",
-    question: "A 16-year-old female presents with irresistible cravings for food, leading to episodes of eating excessively large amounts. This is strictly followed by self-induced vomiting and the use of over-the-counter appetite suppressants. She currently maintains a normal body weight. What is the most likely diagnosis?",
+    question: "Carbon-laden macrophages seen on light microscopy in a patient with anthracosis are known as:",
     options: [
-      "Anorexia nervosa",
-      "Bulimia nervosa",
-      "Binge eating disorder",
-      "Atypical depression"
+      "Dust cells",
+      "Heart failure cells",
+      "Langhans cells",
+      "Foam cells"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Bulimia nervosa"
+    answerIndex: 0,
+    correctAnswerText: "Dust cells"
   },
   {
     id: 43,
     image: "",
-    question: "A 14-year-old female recounts her history of childhood trauma to her psychiatrist. During the session, the psychiatrist begins to experience strong protective and parental feelings toward the young girl, wishing he could have saved her. Which psychoanalytic term best describes the physician's emotional reaction?",
+    question: "A 45-year-old sandblaster presents with progressive dyspnea. Chest X-ray reveals upper lobe nodules and egg-shell calcification of hilar lymph nodes. Which of the following is the characteristic finding on polarizing microscopy of his lung biopsy?",
     options: [
-      "Transference",
-      "Sublimation",
-      "Countertransference",
-      "Projection"
+      "Ferruginous bodies",
+      "Positively birefringent particles",
+      "Negatively birefringent needles",
+      "Asteroid bodies"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Countertransference"
+    answerIndex: 1,
+    correctAnswerText: "Positively birefringent particles"
   },
   {
     id: 44,
     image: "",
-    question: "A 45-year-old male with bipolar disorder, maintained on long-term lithium, presents with excessive thirst (polydipsia) and frequent urination (polyuria). His serum lithium level is 1.2 mEq/L, and thyroid function tests are normal. What is the most likely cause of his current symptoms?",
+    question: "A 65-year-old retired shipyard worker presents with a solitary lung mass on a routine chest radiograph. He has a history of long-term occupational exposure to asbestos. Which of the following is the most common malignancy associated with this patient's exposure?",
     options: [
-      "Lithium toxicity",
-      "Diabetes insipidus",
-      "Urinary tract infection",
-      "Hyperthyroidism"
+      "Squamous cell carcinoma",
+      "Malignant mesothelioma",
+      "Adenocarcinoma of the lung",
+      "Small cell carcinoma"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Diabetes insipidus"
+    answerIndex: 2,
+    correctAnswerText: "Adenocarcinoma of the lung"
   },
   {
     id: 45,
-    image: "",
-    question: "A patient in the psychiatric ward exhibits an extremely rapid, pressured speech pattern. He frequently jumps from one topic to another based on subtle sound similarities or coincidental connections between words, though his speech remains partially understandable. What is the most likely diagnosis for this thought disorder?",
+    image: "images/IMG_0436.jpeg",
+    question: "A 35-year-old female presents with bilateral hilar lymphadenopathy. Lymph node biopsy shows 'naked' non-caseating granulomas. The pathogenesis of this condition is primarily driven by an exaggerated expansion of which of the following?",
     options: [
-      "Mania",
-      "Depression",
-      "Schizophrenia",
-      "Anxiety"
+      "CD4+ Th2 cells",
+      "CD8+ cytotoxic T cells",
+      "Monoclonal B cells",
+      "CD4+ Th1 cells"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Mania"
+    answerIndex: 3,
+    correctAnswerText: "CD4+ Th1 cells"
   },
   {
     id: 46,
-    image: "",
-    question: "A patient reports that whenever he hears the sound of running water from a tap, he simultaneously hears voices scolding him. When the water is turned off, the voices cease immediately. Which of the following is the most accurate classification for this specific perceptual phenomenon?",
+    image: "images/IMG_0437.jpeg",
+    question: "A biopsy from a patient reveals granulomatous inflammation. Microscopic examination shows extracellular pink, star-shaped inclusions. Which of the following is the most likely diagnosis?",
     options: [
-      "True hallucination",
-      "Functional hallucination",
-      "Reflex hallucination",
-      "Pseudo-hallucination"
+      "Sporotrichosis",
+      "Sarcoidosis",
+      "Asbestosis",
+      "Tuberculosis"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Functional hallucination"
+    answerIndex: 0,
+    correctAnswerText: "Sporotrichosis"
   },
   {
     id: 47,
     image: "",
-    question: "A patient is evaluated for cognitive decline. When asked to subtract 7 repeatedly from 100, the patient becomes visibly confused and is unable to continue past the first step. Which cognitive domain is most likely impaired in this patient?",
+    question: "A 32-year-old female presents with fever, eye pain, and bilateral swelling of the parotid glands. Neurological examination reveals a left-sided lower motor neuron facial nerve palsy. This clinical presentation is classically known as:",
     options: [
-      "Immediate recall",
-      "Recent memory",
-      "Remote memory",
-      "Attention and concentration"
+      "Lofgren syndrome",
+      "Heerfordt syndrome",
+      "Ramsay Hunt syndrome",
+      "Sjogren syndrome"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Attention and concentration"
+    answerIndex: 1,
+    correctAnswerText: "Heerfordt syndrome"
   },
   {
     id: 48,
     image: "",
-    question: "A patient is asked to explain the similarity between an \"apple\" and an \"orange.\" The patient replies, \"Both are round and have a skin.\" What type of thinking is the patient exhibiting?",
+    question: "A 45-year-old pigeon breeder presents with chronic cough and progressive dyspnea. Lung biopsy reveals interstitial fibrosis and non-caseating granulomas. Despite the hypersensitivity nature of this disease, which of the following is characteristically absent in the inflammatory infiltrate?",
     options: [
-      "Abstract thinking",
-      "Concrete thinking",
-      "Procedural memory",
-      "Semantic memory"
+      "CD4+ T cells",
+      "Epithelioid macrophages",
+      "Eosinophils",
+      "Multinucleated giant cells"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Concrete thinking"
+    answerIndex: 2,
+    correctAnswerText: "Eosinophils"
   },
   {
     id: 49,
-    image: "",
-    question: "A patient with a chronic psychiatric condition acknowledges that he has a mental illness, but he does not believe he requires any form of treatment, stating, \"I am fine and can manage this on my own.\" What is the grade of insight exhibited by this patient?",
+    image: "images/IMG_0438.jpeg",
+    question: "A 40-year-old polytrauma patient develops severe hypoxemia unresponsive to oxygen therapy. Lung biopsy demonstrates diffuse alveolar damage with pink hyaline membranes lining the alveolar spaces. Which of the following is a primary cellular component of these membranes?",
     options: [
-      "Grade 1",
-      "Grade 2",
-      "Grade 3",
-      "Grade 4"
+      "Hyperplastic Type II pneumocytes",
+      "Intact Type I pneumocytes",
+      "Proliferating fibroblasts",
+      "Necrotic epithelial cells"
     ],
     answerIndex: 3,
-    correctAnswerText: "Grade 4"
+    correctAnswerText: "Necrotic epithelial cells"
   },
   {
     id: 50,
-    image: "",
-    question: "A 25-year-old male with schizophrenia has recently achieved clinical remission after his first psychotic episode. According to established management guidelines, how long should he continue his maintenance antipsychotic therapy to minimize the risk of relapse?",
+    image: "images/IMG_0439.jpeg",
+    question: "A 40-year-old male presents with progressive dyspnea and expectoration of gelatinous sputum. Lung biopsy reveals alveoli packed with amorphous, PAS-positive pink material. The acquired form of this condition is most commonly caused by autoantibodies directed against which of the following?",
     options: [
-      "3 to 6 months",
-      "1 to 2 years",
-      "5 years",
-      "Lifelong"
+      "Granulocyte-macrophage colony-stimulating factor",
+      "Alpha-1 antitrypsin",
+      "Major basic protein",
+      "Transforming growth factor-beta"
     ],
-    answerIndex: 1,
-    correctAnswerText: "1 to 2 years"
+    answerIndex: 0,
+    correctAnswerText: "Granulocyte-macrophage colony-stimulating factor"
   },
   {
     id: 51,
-    image: "",
-    question: "A patient presents with a chronic, persistent low mood that has lasted for the past 2.5 years, never symptom-free for more than two months. Recently, they have experienced a significant, acute worsening of depressive symptoms. Which of the following is the most accurate diagnostic term for this clinical presentation?",
+    image: "images/IMG_0442.jpeg",
+    question: "A 60-year-old chronic smoker presents with a central lung mass and hypercalcemia. Biopsy reveals malignant cells with keratin pearls. Which immunohistochemical marker is most specific for this diagnosis?",
     options: [
-      "Major Depressive Disorder (MDD)",
-      "Dysthymia",
-      "Double Depression",
-      "Seasonal Affective Disorder"
+      "TTF-1",
+      "p40",
+      "Chromogranin",
+      "Calretinin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Double Depression"
+    answerIndex: 1,
+    correctAnswerText: "p40"
   },
   {
     id: 52,
     image: "",
-    question: "A patient with severe depression, previously incapacitated by extreme lethargy, is now undergoing treatment and shows initial signs of improvement. Specifically, the patient has regained physical energy while still harboring intense suicidal ideation. This clinical scenario places the patient at the highest risk for which of the following?",
+    question: "A 55-year-old male with a 30-pack-year smoking history is diagnosed with a peripheral lung mass. Biopsy confirms adenocarcinoma. Genetic profiling is requested. Which of the following mutations, if present, strongly correlates with his smoking history and predicts a poor prognosis?",
     options: [
-      "Cognitive dysfunction",
-      "Paradoxical suicide",
-      "Somatic syndrome",
-      "Omega sign development"
+      "EGFR",
+      "p53",
+      "KRAS",
+      "ALK-1"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Paradoxical suicide"
+    answerIndex: 2,
+    correctAnswerText: "KRAS"
   },
   {
     id: 53,
-    image: "",
-    question: "A 50-year-old patient with treatment-resistant depression is scheduled for their first session of Electroconvulsive Therapy (ECT). To ensure the procedure is therapeutically effective in relieving psychotic symptoms, what is the minimum required duration for the induced seizure?",
+    image: "images/IMG_0443.jpeg",
+    question: "A 65-year-old heavy smoker presents with proximal muscle weakness and laboratory findings of severe hyponatremia. Lung biopsy reveals small cells with scant cytoplasm and 'salt and pepper' chromatin. Which of the following is a characteristic microscopic finding in this tumor?",
     options: [
-      "15 seconds",
-      "25 seconds",
-      "60 seconds",
-      "180 seconds"
+      "Intercellular bridges",
+      "Mucin-filled glandular spaces",
+      "Long and slender microvilli",
+      "Perivascular basophilic lysed DNA"
     ],
-    answerIndex: 1,
-    correctAnswerText: "25 seconds"
+    answerIndex: 3,
+    correctAnswerText: "Perivascular basophilic lysed DNA"
   },
   {
     id: 54,
-    image: "",
-    question: "A patient presents with a history of recurrent episodes of elevated, expansive mood and increased energy, alternating with periods of low mood and loss of interest. However, the patient has never experienced a formal episode of mania. Based on the clinical spectrum of mood disorders, which diagnosis is most consistent with this presentation?",
+    image: "images/IMG_0445.jpeg",
+    question: "A 72-year-old retired shipyard worker presents with progressive dyspnea and chest pain. Imaging shows a thick, firm, white pleural tumor tissue that completely ensheathes the right lung. Biopsy reveals a pleural malignancy. Which of the following immunohistochemical markers is specifically positive for the malignant nature of this tumor?",
     options: [
-      "Bipolar Affective Disorder-1",
-      "Bipolar Affective Disorder-2",
-      "Cyclothymia",
-      "Major Depressive Disorder"
+      "BAP-1",
+      "Calretinin",
+      "TTF-1",
+      "p40"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Bipolar Affective Disorder-2"
+    answerIndex: 0,
+    correctAnswerText: "BAP-1"
   },
   {
     id: 55,
-    image: "images/IMG_9969.jpeg",
-    question: "A 25-year-old male with severe, repetitive contamination obsessions undergoes neuroimaging. Overactivation of the cortico-striatal-thalamic-cortical (CSTC) loop is identified. Which specific anatomical brain finding is classically associated with this condition?",
+    image: "",
+    question: "A 10-year-old boy presents with cola-colored urine, oliguria, and a blood pressure of 140/90 mmHg. Urine microscopy reveals RBC casts. The primary site of glomerular injury leading to this specific clinical presentation is:",
     options: [
-      "Enlarged lateral ventricles",
-      "Amygdala hypertrophy",
-      "Bilateral caudate atrophy",
-      "Hippocampal sclerosis"
+      "Visceral epithelial cells",
+      "Fenestrated endothelial cells",
+      "Parietal epithelial cells",
+      "Mesangial matrix"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Bilateral caudate atrophy"
+    answerIndex: 1,
+    correctAnswerText: "Fenestrated endothelial cells"
   },
   {
     id: 56,
     image: "",
-    question: "A 30-year-old man survives a severe train accident. Three weeks later, he presents with intense flashbacks, an exaggerated startle response, and severe insomnia. What is the most appropriate diagnosis and its pharmacological drug of choice?",
+    question: "A 6-year-old child presents to the clinic with severe periorbital and pedal edema. Laboratory investigations reveal a 24-hour urine protein excretion of 4.5 gm/day and marked hypoalbuminemia. The primary site of cellular injury in the glomerulus responsible for this condition is the:",
     options: [
-      "Post-Traumatic Stress Disorder; SSRI",
-      "Post-Traumatic Stress Disorder; Benzodiazepine",
-      "Adjustment Disorder; SSRI",
-      "Acute Stress Disorder; Benzodiazepine"
+      "Parietal epithelial cells",
+      "Fenestrated endothelial cells",
+      "Visceral epithelial cells",
+      "Mesangial matrix"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Acute Stress Disorder; Benzodiazepine"
+    answerIndex: 2,
+    correctAnswerText: "Visceral epithelial cells"
   },
   {
     id: 57,
     image: "",
-    question: "A 22-year-old female is brought to the emergency department with generalized abnormal body movements following a severe verbal altercation with her family. Which of the following clinical features most strongly points towards a diagnosis of a pseudoseizure rather than true epilepsy?",
+    question: "A 40-year-old patient with nephrotic syndrome undergoes a renal biopsy. To optimally visualize the structural details of the glomerular basement membrane (GBM) under light microscopy, which of the following is considered the most specific stain?",
     options: [
-      "Out-of-phase limb movements",
-      "Episodes occurring during sleep",
-      "Presence of a lateral tongue bite",
-      "Loss of bowel or bladder control"
+      "Congo red",
+      "Masson's trichrome",
+      "Periodic Acid-Schiff (PAS)",
+      "Silver stain"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Out-of-phase limb movements"
+    answerIndex: 3,
+    correctAnswerText: "Silver stain"
   },
   {
     id: 58,
     image: "",
-    question: "An 80-year-old hospitalized patient develops sudden agitation and confusion. The attending physician is evaluating the patient to differentiate an acute delirium episode from underlying progressive dementia. Based on classic clinical parameters, which of the following is the single best indicator pointing towards a diagnosis of delirium?",
+    question: "A 12-year-old boy presents with painless hematuria and bilateral sensorineural hearing loss. Family history reveals his maternal uncle suffers from end-stage renal disease. Genetic testing is most likely to reveal a mutation in which of the following genes?",
     options: [
-      "Intact remote memory",
-      "Altered sensorium",
-      "Fluctuating symptom severity",
-      "Chronic progressive course"
+      "COL4A3",
+      "COL4A4",
+      "COL1A1",
+      "COL4A5"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Altered sensorium"
+    answerIndex: 3,
+    correctAnswerText: "COL4A5"
   },
   {
     id: 59,
-    image: "",
-    question: "A 35-year-old male with chronic alcohol use reports to his physician that he now needs to drink a gradually increasing amount of liquor each month just to achieve the same desired \"buzz\" he used to get from a few drinks. Which specific phenomenon of substance use disorder is he exhibiting?",
+    image: "images/IMG_0446.jpeg",
+    question: "A 15-year-old boy presents with microscopic hematuria, bilateral anterior lenticonus, and sensorineural hearing loss. What is the characteristic finding on the primary diagnostic modality for his renal condition?",
     options: [
-      "Psychological dependence",
-      "Craving",
-      "Tolerance",
-      "Withdrawal"
+      "Basket weave appearance of the basement membrane",
+      "Subepithelial electron-dense humps",
+      "Uniform thickening of the basement membrane",
+      "Mesangial electron-dense deposits"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Tolerance"
+    answerIndex: 0,
+    correctAnswerText: "Basket weave appearance of the basement membrane"
   },
   {
     id: 60,
-    image: "",
-    question: "A 22-year-old male is brought to the emergency department experiencing a severe, panic-like \"bad trip.\" He bizarrely claims that he is able to \"see sounds and hear colors.\" Which of the following is a true characteristic regarding the dependence profile of the substance he most likely consumed?",
+    image: "images/IMG_0447.jpeg",
+    question: "A 22-year-old female is evaluated for isolated asymptomatic microscopic hematuria. She has a strong family history of hematuria but no family history of renal failure, deafness, or visual problems. Electron microscopy of a renal biopsy reveals uniform thinning of the glomerular basement membrane measuring 180 nm. A mutation involving which of the following collagen chains is most likely responsible?",
     options: [
-      "Causes severe physical withdrawal",
-      "Withdrawal presents with bradycardia",
-      "Produces life-threatening DTs",
-      "Lacks physical withdrawal symptoms"
+      "Alpha-3 chain of Type IV collagen",
+      "Alpha-4 chain of Type IV collagen",
+      "Alpha-5 chain of Type IV collagen",
+      "Alpha-1 chain of Type I collagen"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Lacks physical withdrawal symptoms"
+    answerIndex: 1,
+    correctAnswerText: "Alpha-4 chain of Type IV collagen"
   },
   {
     id: 61,
     image: "",
-    question: "A 50-year-old male with chronic alcohol dependence seeks pharmacological treatment to reduce his cravings and maintain abstinence. His baseline laboratory investigations reveal significantly elevated serum creatinine levels indicating severe renal impairment, while his liver function tests are completely normal. Which of the following anti-craving medications is strictly contraindicated in this patient?",
+    question: "A 5-year-old boy develops severe periorbital edema two weeks after a mild viral illness. Urinalysis shows massive proteinuria. Blood tests reveal iron deficiency anemia that has been completely unresponsive to iron supplementation. Which of the following best explains his refractory anemia?",
     options: [
-      "Acamprosate",
-      "Naltrexone",
-      "Disulfiram",
-      "Buprenorphine"
+      "Hepcidin-induced block of iron absorption",
+      "Occult gastrointestinal bleeding",
+      "Urinary loss of transferrin",
+      "Autoimmune destruction of red blood cells"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Acamprosate"
+    answerIndex: 2,
+    correctAnswerText: "Urinary loss of transferrin"
   },
-{
-  id: 62,
-  image: "",
-  question: "A 28-year-old patient with schizophrenia tells the psychiatrist, \"I don't even need to open my mouth. People around me can already hear what I am thinking because my thoughts are radiating out of my head.\" Which of the following specific thought phenomena is the patient experiencing?",
-  options: [
-    "Thought insertion",
-    "Thought withdrawal",
-    "Thought broadcasting",
-    "Thought echo"
-  ],
-  answerIndex: 2,
-  correctAnswerText: "Thought broadcasting"
-},
+  {
+    id: 62,
+    image: "",
+    question: "A 55-year-old male with a history of colon carcinoma presents with severe pedal edema and massive proteinuria. During his hospital stay, he develops a deep vein thrombosis (DVT). Which of the following is the most likely mechanism for his hypercoagulable state?",
+    options: [
+      "Uncontrolled platelet hyperaggregation",
+      "Overproduction of hepatic clotting factors",
+      "Massive urinary excretion of transferrin",
+      "Urinary loss of Antithrombin III"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Urinary loss of Antithrombin III"
+  },
   {
     id: 63,
     image: "",
-    question: "A 28-year-old male with a history of recurrent incarcerations is evaluated in the psychiatric outpatient department. He exhibits aggressive behavior, a blatant love for breaking rules, and an absolute lack of remorse for his actions. His childhood medical records reveal a previous diagnosis of conduct disorder. Which of the following is the most accurate diagnosis?",
+    question: "A neonate presents with massive proteinuria and severe edema within the first week of life. Genetic analysis reveals a mutation in the NPHS1 gene on chromosome 19. This condition is primarily caused by a deficiency of which critical slit diaphragm protein?",
     options: [
-      "Schizoid personality disorder",
-      "Paranoid personality disorder",
-      "Dissocial personality disorder",
-      "Schizotypal personality disorder"
+      "Nephrin",
+      "Podocin",
+      "Alpha-actinin 4",
+      "TRPC6"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Dissocial personality disorder"
+    answerIndex: 0,
+    correctAnswerText: "Nephrin"
   },
   {
     id: 64,
-    image: "",
-    question: "A biological male regularly wears women's clothing. During psychiatric evaluation, he admits that this behavior is strictly intended to achieve sexual arousal and masturbatory gratification. He identifies as a male and has absolutely no desire for sex reassignment surgery. What is the most appropriate diagnosis?",
+    image: "images/IMG_0448.jpeg",
+    question: "A renal biopsy of a patient with mixed nephritic-nephrotic presentation shows a \"tram-track\" appearance on silver stain. If the patient is diagnosed with MPGN Type II, what is the characteristic finding on electron microscopy?",
     options: [
-      "Transsexualism",
-      "Gender Dysphoria",
-      "Dual Role Transvestism",
-      "Transvestic fetishism"
+      "Subepithelial humps",
+      "Intramembranous ribbon-like deposits",
+      "Subendothelial deposits",
+      "Mesangial deposits"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Transvestic fetishism"
+    answerIndex: 1,
+    correctAnswerText: "Intramembranous ribbon-like deposits"
   },
   {
     id: 65,
-    image: "",
-    question: "A 35-year-old man is evaluated by a psychiatrist and found to be excessively stubborn, rigid, and pathologically frugal. He displays a high need for control and strict orderliness. According to classical psychoanalytic theory, these specific personality traits are most likely the result of fixation and regression at which of the following developmental stages?",
+    image: "images/IMG_0449.jpeg",
+    question: "A 55-year-old patient with a 15-year history of poorly controlled diabetes mellitus undergoes a renal biopsy for nephrotic syndrome. Which of the following is the most characteristic histological lesion found in this condition?",
     options: [
-      "Anal stage",
-      "Oral stage",
-      "Phallic stage",
-      "Latency stage"
+      "Thickening of the basement membrane",
+      "Diffuse glomerulosclerosis",
+      "Nodular glomerulosclerosis",
+      "Armani-Ebstein cells"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Anal stage"
+    answerIndex: 2,
+    correctAnswerText: "Nodular glomerulosclerosis"
   },
   {
     id: 66,
-    image: "",
-    question: "A 35-year-old man, currently asymptomatic and of sound mind, visits a psychiatrist. Having witnessed his father's severe struggles with schizophrenia, he wishes to draft a formal, legal document specifying that he refuses to undergo Electroconvulsive Therapy (ECT) should he ever develop a severe psychotic episode and lose his capacity to make medical decisions. Under the Mental Healthcare Act (MHCA) 2017, what is this specific legal provision called?",
+    image: "images/IMG_0450.jpeg",
+    question: "A 24-year-old female with a malar rash develops acute renal failure and heavy proteinuria. Renal biopsy light microscopy reveals prominent \"wire loop\" lesions in the glomeruli. Which of the following is the characteristic finding on immunofluorescence for this patient's condition?",
     options: [
-      "Nominated representative",
-      "Advance directive",
-      "Supported admission",
-      "Covert treatment"
+      "Linear IgG deposition along the basement membrane",
+      "Granular isolated C3 deposition",
+      "Mesangial IgA and C3 deposition",
+      "Full house effect with multiple immunoglobulins and complements"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Advance directive"
+    answerIndex: 3,
+    correctAnswerText: "Full house effect with multiple immunoglobulins and complements"
   },
   {
     id: 67,
-    image: "",
-    question: "A patient with a severe dissociative disorder is started on a long-term psychotherapeutic intervention. The therapist's primary goal is to bring deep-seated unconscious conflicts into the patient's awareness to achieve overall personality growth and development. Which specific class of psychotherapy is being utilized?",
+    image: "images/IMG_0452.jpeg",
+    question: "A 45-year-old female with a history of recurrent nephrolithiasis presents with worsening renal function. Imaging reveals bilaterally small, asymmetrically scarred kidneys with markedly blunted calyces. Renal biopsy is most likely to show which of the following characteristic microscopic features?",
     options: [
-      "Supportive psychotherapy",
-      "Re-educative psychotherapy",
-      "Reconstructive psychotherapy",
-      "Dialectical behavior therapy"
+      "Thyroidization of tubules",
+      "Nodular glomerulosclerosis",
+      "Fibrinoid necrosis of arterioles",
+      "Crescent formation in Bowman space"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Reconstructive psychotherapy"
+    answerIndex: 0,
+    correctAnswerText: "Thyroidization of tubules"
   },
   {
     id: 68,
-    image: "",
-    question: "A 26-year-old female with Bipolar Affective Disorder, maintained stably on Lithium therapy, presents to the clinic after confirming an early unplanned pregnancy. Which of the following is the most appropriate management strategy for this patient?",
+    image: "images/IMG_0453.jpeg",
+    question: "A 55-year-old female undergoes nephrectomy for a suspected renal tumor. Gross examination reveals the renal parenchyma is extensively replaced by large yellow nodules. Microscopic evaluation demonstrates an abundance of foamy macrophages admixed with lymphocytes. This pathology is most strongly associated with chronic infection by which of the following organisms?",
     options: [
-      "Discontinue all psychiatric medications completely",
-      "Maintain the current dose of Lithium unchanged",
-      "Increase the Lithium dosage immediately",
-      "Replace Lithium with an atypical antipsychotic"
+      "Escherichia coli",
+      "Proteus species",
+      "Mycobacterium tuberculosis",
+      "Schistosoma haematobium"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Replace Lithium with an atypical antipsychotic"
+    answerIndex: 1,
+    correctAnswerText: "Proteus species"
   },
   {
     id: 69,
-    image: "",
-    question: "A patient presents with disorientation, confusion, and impaired consciousness. He describes experiencing panoramic, complex visual hallucinations, reporting that he feels as though he is \"living in a dream world\" alternating between terror and enjoyment. Which state is this?",
+    image: "images/IMG_0455.jpeg",
+    question: "A 22-year-old athlete presents with mild dehydration following a marathon. Urinalysis reveals faintly visible casts with no cellular components. These casts are primarily composed of a specific protein that is secreted by which of the following nephron segments?",
     options: [
-      "Delirium",
-      "Fugue state",
-      "Oneiroid state",
-      "Twilight state"
+      "Proximal convoluted tubule",
+      "Thin descending limb of Loop of Henle",
+      "Thick ascending limb of Loop of Henle",
+      "Collecting duct"
     ],
     answerIndex: 2,
-    correctAnswerText: "Oneiroid state"
+    correctAnswerText: "Thick ascending limb of Loop of Henle"
   },
   {
     id: 70,
-    image: "",
-    question: "A 30-year-old man presents with a firm 2-month belief that his wife is having an affair with his boss. Despite friends providing logical proof to the contrary, he remains entirely unconvinced. His daily functioning is otherwise completely normal, and he exhibits absolutely no thought disorders, hallucinations, or bizarre behavior. What is the most likely diagnosis?",
+    image: "images/IMG_0457.jpeg",
+    question: "A 65-year-old male develops oliguria and a sharply rising serum creatinine three days after experiencing severe prolonged hemorrhagic shock following a motor vehicle accident. Urinalysis reveals numerous pigmented, granular casts. These specific casts are primarily composed of which of the following?",
     options: [
-      "Schizophrenia",
-      "Persistent delusional disorder",
-      "Paranoid personality disorder",
-      "Acute and transient psychosis"
+      "Tamm-Horsfall mucoprotein",
+      "Aggregated dysmorphic red blood cells",
+      "Lipid-laden macrophages",
+      "Necrotic tubular epithelial cells"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Persistent delusional disorder"
+    answerIndex: 3,
+    correctAnswerText: "Necrotic tubular epithelial cells"
   },
   {
     id: 71,
-    image: "",
-    question: "A 45-year-old man with a known history of severe psychotic illness is arrested for assault. While in police custody, he exhibits active paranoid delusions and severely impaired judgment. Before the court can proceed with the legal trial, what is the most immediate medico-legal priority for the consulting psychiatrist?",
+    image: "images/IMG_0459.jpeg",
+    question: "A 60-year-old male with long-standing uncontrolled diabetes presents with end-stage renal disease. Urinalysis demonstrates broad, acellular casts with distinct sharp cracks at their edges. These specific casts are most indicative of which of the following conditions?",
     options: [
-      "Establishing the presence of mens rea",
-      "Applying the McNaughten Rule",
-      "Assessing fitness to stand trial",
-      "Invoking Section 22 of Bharatiya Nyaya Sanhita"
+      "Chronic renal failure",
+      "Renal amyloidosis",
+      "Acute tubular necrosis",
+      "Severe dehydration"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Assessing fitness to stand trial"
+    answerIndex: 0,
+    correctAnswerText: "Chronic renal failure"
   },
   {
     id: 72,
-    image: "",
-    question: "A patient with advanced metastatic breast cancer develops severe respiratory distress. The treating team deems further active treatment medically futile. However, the family demands immediate ICU admission and mechanical ventilation. What is the most appropriate next step?",
+    image: "images/IMG_0461.jpeg",
+    question: "A 6-year-old boy presents with generalized severe edema and massive proteinuria. Urinalysis reveals the presence of specific casts. When these casts are examined under polarized light microscopy, which of the following characteristic appearances is most likely to be seen?",
     options: [
-      "Comply with the family's demands for ICU admission",
-      "Unilaterally refuse the admission without discussion",
-      "Immediately consult the hospital legal and ethics committee",
-      "Conduct a structured family meeting for shared decision-making"
+      "Apple-green birefringence",
+      "Maltese cross appearance",
+      "Distinct multi-lobed nuclei",
+      "Faintly visible outlines"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Conduct a structured family meeting for shared decision-making"
+    answerIndex: 1,
+    correctAnswerText: "Maltese cross appearance"
   },
   {
     id: 73,
-    image: "images/ScreenRecording_07-17-2026 00-07-31_1.mov",
-    question: "A 44-year-old patient on haloperidol therapy for 2 years develops involuntary lip-smacking, chewing movements, and grimacing. Which of the following mechanisms explains this condition?",
+    image: "images/IMG_0463.jpeg",
+    question: "A 35-year-old female with recurrent urinary tract infections presents with flank pain. Imaging reveals a large staghorn calculus filling the renal pelvis. Urinalysis shows highly alkaline urine and distinct \"coffin lid\" shaped crystals. The offending organism promotes this specific stone formation by producing an enzyme that breaks down urea into which of the following?",
     options: [
-      "Dopamine D2 receptor upregulation",
-      "Nigrostriatal dopamine depletion",
-      "Cholinergic receptor hyperactivation",
-      "GABAergic pathway overactivation"
+      "Uric acid",
+      "Citrate",
+      "Ammonia",
+      "Oxalate"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Dopamine D2 receptor upregulation"
+    answerIndex: 2,
+    correctAnswerText: "Ammonia"
   },
   {
     id: 74,
-    image: "",
-    question: "A 30-year-old man is found wandering in a city 500 miles from his home a week after surviving a devastating earthquake. He has absolutely no memory of his name, his past, or how he arrived there, although his general cognition and neurological exams are completely normal. According to DSM-5 criteria, how is this specific presentation currently classified?",
+    image: "images/IMG_0465.jpeg",
+    question: "A 50-year-old chronic alcoholic develops fulminant hepatic failure and hepatic encephalopathy. Urinalysis reveals prominent yellowish-brown spheroids with a distinctive concentric, lamellated appearance. Which of the following specific crystals are most likely present in this patient's urine?",
     options: [
-      "Independent dissociative fugue disorder",
-      "Specifier of dissociative amnesia",
-      "Subtype of post-traumatic stress disorder",
-      "Depersonalization-derealization disorder"
+      "Calcium oxalate",
+      "Triple phosphate",
+      "Cystine",
+      "Leucine"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Specifier of dissociative amnesia"
+    answerIndex: 3,
+    correctAnswerText: "Leucine"
   },
   {
     id: 75,
     image: "",
-    question: "A 25-year-old woman is evaluated in the psychiatric clinic after witnessing a fatal road traffic accident involving her father. For the past two weeks, she has been experiencing intense flashbacks of the accident, severe nightmares, and active avoidance of any vehicles. What is the most likely diagnosis?",
+    question: "A 45-year-old male presents with hypertension and bilateral flank fullness. Imaging reveals bilaterally enlarged kidneys with distorted outlines due to multiple large round cysts over the surface. Genetic testing confirms a mutation in the PKD-1 gene. Which of the following is the most common extra-renal manifestation of this disease?",
     options: [
-      "Post-traumatic stress disorder",
-      "Adjustment disorder",
-      "Acute stress disorder",
-      "Normal bereavement"
+      "Liver cysts",
+      "Berry aneurysms",
+      "Subarachnoid hemorrhage",
+      "Splenic cysts"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Acute stress disorder"
+    answerIndex: 0,
+    correctAnswerText: "Liver cysts"
   },
   {
     id: 76,
     image: "",
-    question: "A 42-year-old manager consistently misses project deadlines due to an excessive preoccupation with minor details and formatting rules. He stubbornly refuses to delegate work unless his subordinates follow his exact methods. When confronted by HR, he defends his behavior, claiming he simply has \"high standards\" and sees absolutely no problem with his rigid approach. Which of the following best describes the nature of his psychiatric condition?",
+    question: "A neonate presents with bilateral abdominal masses and respiratory distress shortly after birth. Ultrasonography reveals bilaterally massively enlarged kidneys with radially arranged cysts and completely smooth renal outlines. Genetic analysis is most likely to reveal a defect in which of the following proteins?",
     options: [
-      "Presence of true intrusive obsessions",
-      "Classified as a Cluster A disorder",
-      "The symptoms are ego-dystonic",
-      "The symptoms are ego-syntonic"
+      "Polycystin-1",
+      "Fibrocystin",
+      "Nephrin",
+      "Alpha-actinin-4"
     ],
-    answerIndex: 3,
-    correctAnswerText: "The symptoms are ego-syntonic"
+    answerIndex: 1,
+    correctAnswerText: "Fibrocystin"
   },
   {
     id: 77,
     image: "",
-    question: "A 35-year-old man looks out his window and hears a bird chirping. Immediately upon hearing this, he develops a firm, unshakable belief that the chirping is a direct message from God instructing him to follow the bird, and that he will be severely harmed if he does not comply. Which of the following psychopathological phenomena is he exhibiting?",
+    question: "A 30-year-old patient presents with profound polyuria and severe salt wasting. Ultrasound evaluation reveals bilaterally shrunken kidneys, but surprisingly, no cysts are visualized. A genetic defect in the MCKD1 gene is identified. This condition is primarily associated with a mutation affecting which of the following proteins?",
     options: [
-      "Delusional perception",
-      "Illusion",
-      "Functional hallucination",
-      "Autochthonous delusion"
+      "Polycystin-1",
+      "Fibrocystin",
+      "Uromodulin",
+      "Nephrin"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Delusional perception"
+    answerIndex: 2,
+    correctAnswerText: "Uromodulin"
   },
   {
     id: 78,
-    image: "",
-    question: "A 35-year-old woman with a 7-month history of excessive, uncontrollable daily worry presents to the outpatient department. She complains of chronic muscle tension, fatigue, and bothersome tingling sensations in her hands and feet. Extensive neurological and medical workups are completely normal. What is the most likely physiological cause of her tingling sensations?",
+    image: "images/IMG_0467.jpeg",
+    question: "A 25-year-old female with a history of recurrent seizures and facial angiofibromas presents with sudden onset flank pain due to a bleeding renal mass. Biopsy of the mass reveals an admixture of thick-walled blood vessels, smooth muscle bundles, and mature adipose tissue. This tumor belongs to a family of lesions that are characteristically positive for which of the following immunohistochemical markers?",
     options: [
-      "Demyelinating peripheral neuropathy",
-      "Autonomic arousal with hyperventilation",
-      "Cervical nerve root compression",
-      "Localized cortical serotonin depletion"
+      "Synaptophysin",
+      "Calretinin",
+      "Cytokeratin",
+      "HMB-45"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Autonomic arousal with hyperventilation"
+    answerIndex: 3,
+    correctAnswerText: "HMB-45"
   },
   {
     id: 79,
-    image: "",
-    question: "A 28-year-old male with severe heroin dependence is enrolled in a deaddiction program and started on maintenance pharmacotherapy. The prescribed medication is administered sublingually and possesses a unique \"ceiling effect,\" making it significantly safer in cases of accidental overdose compared to other agents. Which of the following best describes the pharmacological mechanism of this specific drug?",
+    image: "images/IMG_0469.jpeg",
+    question: "A 40-year-old male with a known history of cerebellar hemangioblastoma presents with painless hematuria. Imaging reveals a unifocal, bright yellow mass at the upper pole of his right kidney. Biopsy demonstrates cells with abundant clear cytoplasm. The pathogenesis of this tumor is most directly linked to a primary genetic defect on which of the following?",
     options: [
-      "Full opioid receptor agonist",
-      "Opioid receptor antagonist",
-      "Partial opioid receptor agonist",
-      "NMDA receptor antagonist"
+      "Chromosome 3p",
+      "Chromosome 7",
+      "Fumarate Hydratase gene",
+      "MET oncogene"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Partial opioid receptor agonist"
+    answerIndex: 0,
+    correctAnswerText: "Chromosome 3p"
   },
   {
     id: 80,
     image: "",
-    question: "A 10-year-old boy diagnosed with ADHD requires pharmacological intervention to improve attention. However, he has a comorbid diagnosis of Tourette's syndrome, and his parents are concerned about the abuse potential of stimulant medications. Which of the following is an appropriate non-stimulant pharmacotherapy for this patient?",
+    question: "A 2-year-old child presents with a painless abdominal mass. Further evaluation reveals ambiguous genitalia and early-onset renal failure. Genetic testing confirms a specific mutation in the WT1 gene. Which of the following syndromes does this classic triad most likely describe?",
     options: [
-      "Atomoxetine",
-      "Reboxetine",
-      "Methylphenidate",
-      "Amphetamine"
+      "WAGR syndrome",
+      "Denys-Drash syndrome",
+      "Beckwith-Wiedemann syndrome",
+      "Li-Fraumeni syndrome"
     ],
     answerIndex: 1,
-    correctAnswerText: "Reboxetine"
+    correctAnswerText: "Denys-Drash syndrome"
   },
   {
     id: 81,
     image: "",
-    question: "A patient presents to the emergency department with severe agitation, hypertension, tachycardia, hyperthermia, and dilated pupils after using an illicit substance. Which of the following best describes the fundamental pharmacological mechanism of this toxicity?",
+    question: "A 3-year-old child presents with an irregular abdominal mass that crosses the midline. His mother reports recent abnormal, chaotic eye and limb movements. On examination, his blood pressure is normal, and abdominal imaging reveals prominent calcifications within the non-encapsulated mass. A biopsy of this lesion is most likely to demonstrate which of the following characteristic microscopic findings?",
     options: [
-      "Serotonin receptor agonist activity",
-      "Direct adrenergic receptor stimulation",
-      "Blockade of monoamine neurotransmitter reuptake",
-      "Competitive GABA receptor inhibition"
+      "Triphasic tumor with epithelial, stromal, and blastemal cells",
+      "True rosettes with a clear, empty central lumen",
+      "Homer Wright pseudorosettes with a central pink lumen",
+      "Perivascular pseudorosettes surrounding a blood vessel"
     ],
     answerIndex: 2,
-    correctAnswerText: "Blockade of monoamine neurotransmitter reuptake"
+    correctAnswerText: "Homer Wright pseudorosettes with a central pink lumen"
   },
   {
     id: 82,
     image: "",
-    question: "A 22-year-old male is evaluated for a history of frequent legal conflicts, persistent deceitful behavior, physical aggression, and a total lack of remorse for his actions. He admits to a similar pattern of behavior starting at age 14, including chronic truancy and vandalism. What is the most likely diagnosis?",
+    question: "A 50-year-old female undergoes a core needle biopsy for a suspicious breast lump. Microscopic examination confirms an invasive carcinoma. Which of the following histological features is the definitive hallmark distinguishing this invasive malignancy from a benign or in-situ lesion?",
     options: [
-      "Antisocial personality disorder",
-      "Borderline personality disorder",
-      "Narcissistic personality disorder",
-      "Histrionic personality disorder"
+      "Intense estrogen receptor positivity",
+      "Amplification of the Her-2-Neu gene",
+      "Proliferation of the inner epithelial layer",
+      "Complete loss of the myoepithelial layer"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Antisocial personality disorder"
+    answerIndex: 3,
+    correctAnswerText: "Complete loss of the myoepithelial layer"
   },
   {
     id: 83,
-    image: "",
-    question: "A 24-year-old female presents with severe distress regarding a minor, perceived facial flaw. She frequently engages in mirror-checking and has consulted multiple plastic surgeons, but remains dissatisfied with the results. What is the most appropriate first-line pharmacological intervention for this patient?",
+    image: "images/IMG_0471.jpeg",
+    question: "A 68-year-old female undergoes a breast biopsy for a slow-growing palpable mass. Histopathology reveals clusters of malignant cells floating in extensive, pale, clear areas. The pathologist diagnoses it as Colloid Carcinoma. Which of the following microscopic features specifically indicates a low-grade variant of this tumor?",
     options: [
-      "Benzodiazepines",
-      "Selective Serotonin Reuptake Inhibitors (SSRIs)",
-      "Atypical Antipsychotics",
-      "Tricyclic Antidepressants (TCAs)"
+      "Abundant mucin pools with sparse tumor cells",
+      "High tumor cellularity with minimal extracellular mucin",
+      "Complete loss of the outer myoepithelial layer",
+      "Prominent thyroidization of the surrounding ducts"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Selective Serotonin Reuptake Inhibitors (SSRIs)"
+    answerIndex: 0,
+    correctAnswerText: "Abundant mucin pools with sparse tumor cells"
   },
   {
     id: 84,
-    image: "images/IMG_9903.jpeg",
-    question: "A patient is diagnosed with inflammation of the middle vascular coat of the eye (Uveitis). Which of the following structures is primarily involved in this layer?",
+    image: "",
+    question: "A 35-year-old female with a known BRCA1 mutation presents with a well-circumscribed breast mass. Core biopsy reveals a high-grade tumor that is negative for ER, PR, and HER2 (Triple Negative). Which of the following is the characteristic histological hallmark of this specific breast cancer subtype?",
     options: [
-      "Sclera",
-      "Retina",
-      "Choroid",
-      "Cornea"
+      "Extensive extracellular mucin pools",
+      "Prominent lymphoplasmacytic infiltrate",
+      "Single-file arrangement of tumor cells",
+      "Tumor emboli within dermal lymphatics"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Choroid"
+    answerIndex: 1,
+    correctAnswerText: "Prominent lymphoplasmacytic infiltrate"
   },
   {
     id: 85,
-    image: "",
-    question: "Which of the following is the predominant type of collagen found in the vitreous humor?",
+    image: "images/IMG_0472.jpeg",
+    question: "A 35-year-old male with a history of surgically corrected cryptorchidism presents with a painless, palpable right testicular mass. Radical orchiectomy is performed. Gross examination reveals a uniform, lobulated, grey-white tumor strictly confined within the tunica albuginea, with no areas of hemorrhage or necrosis. If a Fine Needle Aspiration Cytology (FNAC) had been performed on this mass, which of the following characteristic findings would most likely be seen?",
     options: [
-      "Type I",
-      "Type III",
-      "Type IV",
-      "Type II"
+      "Call-Exner bodies",
+      "Schiller-Duval bodies",
+      "Tigeroid background",
+      "Reinke crystals"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Type II"
+    answerIndex: 2,
+    correctAnswerText: "Tigeroid background"
   },
   {
     id: 86,
-    image: "images/IMG_9904.jpeg",
-    question: "A newborn is evaluated for bilateral microphthalmia. A mutation in which of the following genes is most likely responsible for this developmental anomaly?",
+    image: "images/IMG_0473.jpeg",
+    question: "A 28-year-old male undergoes a radical orchiectomy for a heterogeneous testicular mass. Gross sectioning reveals a cystic tumor containing distinct tufts of hair, sebaceous material, and tooth-like structures. The pathologist diagnoses it as a post-pubertal immature teratoma. The histological grading of this specific tumor is primarily determined by quantifying the amount of which of the following tissues?",
     options: [
-      "PAX-6",
-      "PAX-2",
-      "SOX-2",
-      "SHH"
+      "Mature hyaline cartilage",
+      "Stratified squamous epithelium",
+      "Functional thyroid follicles",
+      "Immature neuroepithelium"
     ],
-    answerIndex: 0,
-    correctAnswerText: "PAX-6"
+    answerIndex: 3,
+    correctAnswerText: "Immature neuroepithelium"
   },
   {
     id: 87,
-    image: "images/IMG_9905.jpeg",
-    question: "An asymptomatic 20-year-old undergoes a routine fundus examination. The ophthalmologist observes a small, benign glial tissue tuft extending from the optic disc into the vitreous cavity. This clinical finding represents the persistence of which of the following embryological structures?",
+    image: "images/IMG_0474.jpeg",
+    question: "A 45-year-old female presents with a solitary, painless neck swelling. Fine Needle Aspiration Cytology (FNAC) of the nodule reveals monotonous sheets of follicular cells arranged in microfollicles. The pathologist reports it as a \"Follicular Neoplasm.\" Which of the following is the absolute required finding on a subsequent excision biopsy to definitively diagnose this lesion as a Follicular Carcinoma rather than a benign Adenoma?",
     options: [
-      "Anterior part of hyaloid vessel",
-      "Posterior part of hyaloid vessel",
-      "Tunica vasculosa lentis",
-      "Entire primary vitreous"
+      "Transmural capsular invasion",
+      "Optically clear nuclei",
+      "Extensive Hurthle cell change",
+      "Thick chewing gum colloid"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Posterior part of hyaloid vessel"
+    answerIndex: 0,
+    correctAnswerText: "Transmural capsular invasion"
   },
   {
     id: 88,
-    image: "images/IMG_9906.jpeg",
-    question: "A 40-year-old female presents with severe, deep eye pain and intense redness. Instillation of topical phenylephrine fails to blanch the engorged vessels on the ocular surface. Inflammation of which of the following vascular layers is most likely responsible for this clinical presentation?",
+    image: "images/IMG_0475.jpeg",
+    question: "A 42-year-old male with a family history of pheochromocytoma presents with a thyroid nodule. Biopsy reveals sheets of cells in an amorphous pink stroma that exhibits apple-green birefringence under polarized light. Despite massively elevated levels of the primary tumor marker, the patient's serum calcium levels remain completely normal. Which of the following best explains the absence of hypocalcemia in this patient?",
     options: [
-      "Conjunctival plexus",
-      "Superficial episcleral plexus",
-      "Deep episcleral plexus",
-      "Major arterial circle"
+      "Rapid renal excretion of the hormone",
+      "The secreted hormone is misfolded and non-functional",
+      "Secondary compensatory hyperparathyroidism",
+      "Ectopic production of parathyroid hormone"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Deep episcleral plexus"
+    answerIndex: 1,
+    correctAnswerText: "The secreted hormone is misfolded and non-functional"
   },
   {
     id: 89,
-    image: "images/IMG_9908.jpeg",
-    question: "A young male presents to the emergency room with restricted upgaze and diplopia after sustaining a direct punch to his right eye. A CT scan reveals a blow-out fracture. Which of the following bones is most likely involved, representing the weakest point of the bony orbit?",
+    image: "images/IMG_0476.jpeg",
+    question: "A 70-year-old male with an indurated prostate on digital rectal examination undergoes a needle biopsy. Histopathology of the peripheral zone confirms adenocarcinoma. The predominant area shows neoplastic cells forming irregular, fused glands with a distinct cribriform architecture. According to the Gleason system, this specific histological appearance corresponds to which pattern?",
     options: [
-      "Frontal bone",
-      "Zygomatic bone",
-      "Ethmoid bone",
-      "Maxillary bone"
+      "Pattern 2",
+      "Pattern 3",
+      "Pattern 4",
+      "Pattern 5"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Maxillary bone"
+    answerIndex: 2,
+    correctAnswerText: "Pattern 4"
   },
   {
     id: 90,
-    image: "",
-    question: "A 65-year-old patient with primary open-angle glaucoma is being evaluated for targeted therapy to improve aqueous outflow. The therapy aims to alter the specific anatomical site that physiologically offers the highest resistance to aqueous drainage. Which of the following structures is the primary target?",
+    image: "images/IMG_0477.jpeg",
+    question: "A 65-year-old male presents with sudden onset seizures and severe headache. MRI reveals a large, irregular frontal lobe mass that crosses the midline through the corpus callosum. A biopsy is performed. Which of the following is the characteristic light microscopy finding of this specific tumor?",
     options: [
-      "Juxtacanalicular trabecular meshwork",
-      "Corneoscleral meshwork",
-      "Uveal meshwork",
-      "Episcleral veins"
+      "Eosinophilic pink rod-shaped inclusions",
+      "True cellular palisading without central necrosis",
+      "Eosinophilic granular structures called Mulberry bodies",
+      "Pseudopalisading cells surrounding serpentine necrosis"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Juxtacanalicular trabecular meshwork"
+    answerIndex: 3,
+    correctAnswerText: "Pseudopalisading cells surrounding serpentine necrosis"
   },
   {
     id: 91,
-    image: "",
-    question: "A 30-year-old male is being evaluated in an ophthalmology clinic. During the examination, a bright light is shone into his eyes to test pupillary reflexes and retinal function. According to Wald's visual cycle, which of the following physiological events primarily occurs at the level of his photoreceptors in response to this light stimulus?",
+    image: "images/IMG_0478.jpeg",
+    question: "A 45-year-old male presents with progressive unilateral sensorineural hearing loss, vertigo, and headache. MRI reveals an enhancing mass at the cerebellopontine angle. Biopsy demonstrates a biphasic tumor with distinct hypercellular areas exhibiting true nuclear palisading. Which of the following characteristic structures is most likely present in these hypercellular regions?",
     options: [
-      "Cellular depolarization",
-      "Cellular hyperpolarization",
-      "Increased glutamate release",
-      "Synthesis of 11-cis-retinal"
+      "Verocay bodies",
+      "Rosenthal fibers",
+      "Homer Wright rosettes",
+      "Serpentine pseudopalisades"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Cellular hyperpolarization"
+    answerIndex: 0,
+    correctAnswerText: "Verocay bodies"
   },
   {
     id: 92,
-    image: "images/ScreenRecording_07-17-2026 00-12-02_1.mov",
-    question: "A young female with suspected unilateral optic neuritis undergoes a swinging flashlight test. When the light is swung from her healthy eye to the affected eye, what is the most likely clinical observation?",
+    image: "images/IMG_0479.jpeg",
+    question: "A 48-year-old male presents with new-onset seizures. Imaging reveals a prominently calcified mass in the frontal lobe. Gross resection yields a chalky-white material. Microscopic examination of the tumor shows sheets of cells with clear perinuclear halos surrounded by a delicate, branching vascular network. Which of the following molecular findings is definitively diagnostic for this specific neoplasm?",
     options: [
-      "Both pupils constrict normally",
-      "Only the affected pupil dilates",
-      "Both pupils dilate paradoxically",
-      "Neither pupil responds to light"
+      "EGFR amplification",
+      "1p/19q codeletion",
+      "BRAF gene fusion",
+      "N-MYC amplification"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Both pupils dilate paradoxically"
+    answerIndex: 1,
+    correctAnswerText: "1p/19q codeletion"
   },
   {
     id: 93,
-    image: "images/ScreenRecording_07-17-2026 00-18-02_1.mov",
-    question: "A young female presents with a unilaterally dilated right pupil. It shows absent response to direct light but constricts briskly when she focuses on a near object. Instillation of 0.125% dilute pilocarpine causes prompt constriction of this right pupil. What is the most likely diagnosis?",
+    image: "images/IMG_0480.jpeg",
+    question: "A 35-year-old male presents with progressive weakness in his lower limbs. MRI of the spine reveals a well-circumscribed intramedullary mass in the lower cervical spinal cord. A biopsy is taken. Which of the following microscopic findings is the classic diagnostic hallmark of this specific tumor?",
     options: [
-      "Third cranial nerve palsy",
-      "Argyll Robertson pupil",
-      "Pharmacological mydriasis",
-      "Adie's tonic pupil"
+      "True cellular palisading without central necrosis",
+      "Homer Wright pseudorosettes with central neuropil",
+      "Perivascular rosettes with a central blood vessel",
+      "Rosenthal fibers with eosinophilic inclusions"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Adie's tonic pupil"
+    answerIndex: 2,
+    correctAnswerText: "Perivascular rosettes with a central blood vessel"
   },
   {
     id: 94,
-    image: "",
-    question: "A 7-year-old child is being evaluated for amblyopia. To avoid overestimating visual acuity due to the \"crowding phenomenon,\" which of the following charts is the most preferred clinical tool?",
+    image: "images/IMG_0481.jpeg",
+    question: "A 32-year-old pregnant female presents with new-onset, severe headaches. MRI reveals a dural-based extra-axial mass with a distinct dural tail sign. A subsequent biopsy of the lesion demonstrates uniform cells arranged in a tight whorled pattern with multiple purple, calcified psammoma bodies. The accelerated growth of this tumor during her current physiological state is most likely mediated by the tumor's expression of receptors for which of the following?",
     options: [
-      "ETDRS chart",
-      "Pelli-Robson chart",
-      "Ishihara chart",
-      "Landolt's C chart"
+      "Estrogen",
+      "Epidermal growth factor",
+      "Human chorionic gonadotropin",
+      "Progesterone"
     ],
-    answerIndex: 0,
-    correctAnswerText: "ETDRS chart"
+    answerIndex: 3,
+    correctAnswerText: "Progesterone"
   },
   {
     id: 95,
-    image: "images/IMG_9909.jpeg",
-    question: "A 22-year-old male presents with progressive blurring of vision and frequent changes in his astigmatic prescription. On performing distant direct ophthalmoscopy, the ophthalmologist observes an \"oil droplet reflex\" in the pupillary area. This clinical finding is classically associated with which of the following conditions?",
+    image: "images/IMG_0482.jpeg",
+    question: "A 6-year-old child presents with ataxia and signs of increased intracranial pressure. MRI confirms a solid midline cerebellar mass. Biopsy shows a densely cellular tumor composed of small, undifferentiated cells with multiple Homer Wright pseudorosettes. This tumor is clinically known for which of the following characteristics?",
     options: [
-      "Cataract",
-      "Keratoconus",
-      "Anterior lenticonus",
-      "Retinoblastoma"
+      "Spreading via cerebrospinal fluid to cause drop metastases",
+      "Exhibiting true rosettes with empty, white central lumens",
+      "Arising primarily from adult glial cells in the frontal lobe",
+      "Being inherently cystic on gross examination"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Keratoconus"
+    answerIndex: 0,
+    correctAnswerText: "Spreading via cerebrospinal fluid to cause drop metastases"
   },
   {
     id: 96,
-    image: "",
-    question: "According to the National Programme for Control of Blindness (NPCB) in India, what is the specific criteria used alongside a visual acuity of less than 3/60 in the better eye to define blindness?",
+    image: "images/IMG_0483.jpeg",
+    question: "A 28-year-old male presents with fever, jaundice, and tender hepatomegaly. Liver biopsy reveals isolated, single hepatocytes displaying intensely dark red, eosinophilic cytoplasm. What is the standard term for this specific histological finding?",
     options: [
-      "Pinhole visual acuity",
-      "Best available correction",
-      "Presenting visual acuity",
-      "Unaided visual acuity"
+      "Ballooning degeneration",
+      "Councilman body",
+      "Spotty necrosis",
+      "Mallory-Denk body"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Presenting visual acuity"
+    answerIndex: 1,
+    correctAnswerText: "Councilman body"
   },
   {
     id: 97,
-    image: "",
-    question: "During cataract surgery, extreme care must be taken during nuclear emulsification to avoid capsular blowout. Which of the following regions represents the anatomically thinnest portion of the crystalline lens capsule?",
+    image: "images/IMG_0484.jpeg",
+    question: "A 50-year-old chronic alcoholic presents with jaundice and hepatomegaly. Liver biopsy reveals macrovesicular steatosis, ballooning degeneration, and irregular, rope-like eosinophilic cytoplasmic inclusions within the hepatocytes. These classic diagnostic inclusions are primarily composed of which of the following?",
     options: [
-      "Anterior pole",
-      "Equator",
-      "Pre-equatorial region",
-      "Posterior pole"
+      "Alpha-1 antitrypsin",
+      "Hepatitis B surface antigen",
+      "Cytokeratin 8 and 18",
+      "Misfolded ceruloplasmin"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Posterior pole"
+    answerIndex: 2,
+    correctAnswerText: "Cytokeratin 8 and 18"
   },
   {
     id: 98,
-    image: "images/IMG_9911.jpeg",
-    question: "A young male with sensorineural deafness and recurrent hematuria presents with progressive visual blurring. Slit-lamp examination is most likely to reveal which of the following specific lens abnormalities?",
+    image: "images/IMG_0487.jpeg",
+    question: "A 22-year-old healthy male presents with a solitary liver mass. His viral hepatitis panel is negative, and serum alpha-fetoprotein (AFP) is within normal limits. Resection reveals a mahogany-brown tumor with a prominent central white stellate scar. Histopathology demonstrates large oncocytes with abundant pink cytoplasm. Which of the following immunohistochemical markers is most characteristically positive in this specific tumor?",
     options: [
-      "Anterior lenticonus",
-      "Posterior lenticonus",
-      "Posterior polar cataract",
-      "Microspherophakia"
+      "Glypican-3",
+      "Hep Par 1",
+      "Arginase 1",
+      "Neurotensin"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Anterior lenticonus"
+    answerIndex: 3,
+    correctAnswerText: "Neurotensin"
   },
   {
     id: 99,
-    image: "images/IMG_9912.jpeg",
-    question: "A 16-year-old patient with a history of poorly controlled Type 1 Diabetes Mellitus presents to the ophthalmology outpatient department complaining of rapidly progressive blurring of vision in both eyes. On slit-lamp examination, distinct cortical lens opacities are observed. Which of the following morphological patterns is most classically associated with this specific patient's underlying systemic profile?",
+    image: "images/IMG_0489.jpeg",
+    question: "A 45-year-old female presents with severe generalized pruritus, fatigue, and jaundice. She reports her stools have recently become pale and clay-colored. Serological testing is strongly positive for Anti-Mitochondrial Antibodies (AMA). If a liver biopsy is performed, which of the following is the defining morphological hallmark most likely to be seen?",
     options: [
-      "Christmas tree cataract",
-      "Snowflake cataract",
-      "Sunflower cataract",
-      "Rosette cataract"
+      "Florid duct lesions with granulomatous destruction",
+      "Concentric onion-skin periductal fibrosis",
+      "Fibrous obliteration leaving a tombstone scar",
+      "Rope-like cytokeratin intermediate filaments"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Snowflake cataract"
+    answerIndex: 0,
+    correctAnswerText: "Florid duct lesions with granulomatous destruction"
   },
   {
     id: 100,
-    image: "",
-    question: "A 65-year-old high myope with an axial length of 27.5 mm is scheduled for cataract extraction. To avoid a post-operative refractive surprise, which of the following IOL power calculation formulas is most appropriate for this patient?",
+    image: "images/IMG_0490.jpeg",
+    question: "A 60-year-old male with a 30-pack-year smoking history presents with bilateral, slow-growing swellings at the angle of his jaw. Excision of the mass is performed, and gross examination reveals cystic spaces filled with a brown, murky fluid. Which of the following is the characteristic microscopic feature of this specific lesion?",
     options: [
-      "Hoffer Q formula",
-      "Haigis L formula",
-      "SRK/T formula",
-      "Standard SRK formula"
+      "Chondromyxoid stroma with epithelial and myoepithelial cells",
+      "Papillary projections of oncocytes over a dense lymphoid stroma",
+      "Perineural invasion by small, dark basaloid cells in a cribriform pattern",
+      "Granulomatous destruction of interlobular salivary ducts"
     ],
-    answerIndex: 2,
-    correctAnswerText: "SRK/T formula"
+    answerIndex: 1,
+    correctAnswerText: "Papillary projections of oncocytes over a dense lymphoid stroma"
   },
   {
     id: 101,
-    image: "",
-    question: "A 5-year-old child is scheduled for cataract surgery. Which of the following extraction techniques is absolutely contraindicated in this patient due to the high risk of severe vitreous loss?",
+    image: "images/IMG_0491.jpeg",
+    question: "A 65-year-old female undergoes a biopsy for a long-standing, painless unilateral mass at the angle of her jaw. Histopathology reveals a mixture of epithelial ducts suspended in a purple chondromyxoid stroma. If this benign tumor is simply enucleated rather than completely excised, local recurrence is highly likely due to which of the following inherent characteristics?",
     options: [
-      "Phacoemulsification",
-      "Extracapsular Cataract Extraction (ECCE)",
-      "Small Incision Cataract Surgery (SICS)",
-      "Intracapsular Cataract Extraction (ICCE)"
+      "Multicentric origin within the parotid gland",
+      "Derivation from two or more germ cell layers",
+      "Microscopic finger-like capsular projections",
+      "Early perineural invasion of the facial nerve"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Intracapsular Cataract Extraction (ICCE)"
+    answerIndex: 2,
+    correctAnswerText: "Microscopic finger-like capsular projections"
   },
   {
     id: 102,
-    image: "images/IMG_9915.jpeg",
-    question: "A 75-year-old highly myopic patient with a history of glaucoma undergoes routine intraocular surgery. Suddenly, there is a sudden firming of the globe and prolapse of intraocular contents due to the rupture of posterior ciliary vessels. What is the immediate first step in the management of this dangerous complication?",
+    image: "images/IMG_0492.jpeg",
+    question: "A 55-year-old male with long-standing GERD undergoes an upper gastrointestinal endoscopy, which reveals a 4 cm segment of red, velvety mucosa extending proximally from the gastroesophageal junction. A biopsy is taken to confirm the presence of intestinal metaplasia. Which of the following special stains is most appropriate to highlight the diagnostic acidic mucin within the characteristic goblet cells?",
     options: [
-      "Close the surgical incision",
-      "Perform immediate evisceration",
-      "Perform complete enucleation",
-      "Administer intravenous mannitol"
+      "Periodic Acid-Schiff (PAS)",
+      "Masson's Trichrome",
+      "Congo Red",
+      "Alcian Blue"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Close the surgical incision"
+    answerIndex: 3,
+    correctAnswerText: "Alcian Blue"
   },
   {
     id: 103,
-    image: "",
-    question: "An Optical Coherence Tomography (OCT) scan is performed on a healthy 30-year-old. The technician identifies the anatomically thickest region of the normal retina. This localized maximum thickness is primarily attributed to the multi-layered arrangement of which of the following?",
+    image: "images/IMG_0493.jpeg",
+    question: "A 10-year-old boy with a known history of cow's milk allergy presents with solid food dysphagia. Endoscopy reveals prominent concentric rings throughout the esophagus, giving it a \"trachealized\" appearance. Biopsy of the mucosa demonstrates an infiltrate of bilobed cells with pink granules. What is the minimum count of these specific cells per high-power field (HPF) required to confirm this diagnosis?",
     options: [
-      "Bipolar cells",
-      "Ganglion cells",
-      "Photoreceptor outer segments",
-      "Nerve fibers"
+      "> 15 per HPF",
+      "> 30 per HPF",
+      "> 50 per HPF",
+      "> 100 per HPF"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Ganglion cells"
+    answerIndex: 0,
+    correctAnswerText: "> 15 per HPF"
   },
   {
     id: 104,
     image: "",
-    question: "A 45-year-old patient undergoes Fundus Fluorescein Angiography (FFA) for the evaluation of unexplained visual loss. On a normal angiogram, the foveal region classically appears dark. Which of the following factors primarily contributes to this physiological hypofluorescence?",
+    question: "A 60-year-old obese male with a long history of chronic gastroesophageal reflux disease (GERD) is undergoing endoscopic surveillance. He is at high risk for developing esophageal adenocarcinoma. Which of the following concurrent conditions would paradoxically provide a protective effect against the development of this specific malignancy?",
     options: [
-      "Absence of underlying choroidal vessels",
-      "Dense superficial capillary network",
-      "High concentration of xanthophyll",
-      "Extravascular leakage of dye"
+      "Systemic sclerosis",
+      "Helicobacter pylori infection",
+      "Achalasia cardia",
+      "Tylosis palmaris"
     ],
-    answerIndex: 2,
-    correctAnswerText: "High concentration of xanthophyll"
+    answerIndex: 1,
+    correctAnswerText: "Helicobacter pylori infection"
   },
   {
     id: 105,
-    image: "images/IMG_9917.jpeg",
-    question: "A 32-year-old pregnant female with severe preeclampsia presents with sudden vision loss. Fundoscopy reveals a convex retinal elevation. The subretinal fluid is observed to shift its position dependently when the patient's head posture is altered. What is the most likely diagnosis?",
+    image: "images/IMG_0494.jpeg",
+    question: "A 52-year-old male presents with a year-long history of chronic diarrhea, migrating polyarthritis, and recent-onset cognitive decline. Small intestine biopsy demonstrates blunted villi with the lamina propria heavily expanded by foamy macrophages. These macrophages are Periodic Acid-Schiff (PAS) positive and resist diastase digestion. Which of the following findings definitively distinguishes this patient's underlying condition from a similar gastrointestinal pathology caused by Mycobacterium avium complex (MAC)?",
     options: [
-      "Rhegmatogenous retinal detachment",
-      "Tractional retinal detachment",
-      "Posterior vitreous detachment",
-      "Exudative retinal detachment"
+      "Presence of PAS-positive pink macrophages",
+      "Accumulation of foamy cells in the lamina propria",
+      "Negative reaction to Ziehl-Neelsen (ZN) stain",
+      "Presentation of chronic malabsorptive diarrhea"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Exudative retinal detachment"
+    answerIndex: 2,
+    correctAnswerText: "Negative reaction to Ziehl-Neelsen (ZN) stain"
   },
   {
     id: 106,
-    image: "images/IMG_9918.jpeg",
-    question: "A patient develops central visual distortion weeks after undergoing cataract surgery. Fundus angiography reveals a classic \"flower petal\" pattern of hyperfluorescence at the macula. This specific morphological pattern is dictated by fluid accumulation in which of the following retinal layers?",
+    image: "images/IMG_0495.jpeg",
+    question: "A 28-year-old female presents with chronic diarrhea, fatigue, and an intensely pruritic papulovesicular rash on her elbows. Laboratory tests reveal iron deficiency anemia. An upper gastrointestinal endoscopy with a biopsy of the D2 segment of the duodenum shows prominent villous flattening and crypt hyperplasia. Which of the following serological markers is the most specific for confirming her diagnosis?",
     options: [
-      "Outer plexiform layer",
-      "Inner plexiform layer",
-      "Inner nuclear layer",
-      "Outer nuclear layer"
+      "Anti-gliadin antibody",
+      "Anti-tissue transglutaminase antibody",
+      "Anti-mitochondrial antibody",
+      "Anti-endomysial antibody"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Outer plexiform layer"
+    answerIndex: 3,
+    correctAnswerText: "Anti-endomysial antibody"
   },
   {
     id: 107,
-    image: "images/IMG_9919.jpeg",
-    question: "A 40-year-old male presents with sudden central vision distortion. Fundus examination reveals irregular, reddish-brown lines radiating from the optic disc. Imaging confirms these are full-thickness cracks in the elastic tissue of Bruch's membrane. Which of the following systemic conditions is most classically associated with this ocular finding?",
+    image: "images/IMG_0496.jpeg",
+    question: "A 28-year-old male presents with chronic diarrhea and right lower quadrant abdominal pain. Colonoscopy reveals discontinuous \"skip lesions\" with a classic cobblestone appearance of the mucosa. Genetic analysis indicates a mutation in the NOD2 gene. Which of the following is the definitive histological hallmark most likely to be seen on biopsy of the affected bowel?",
     options: [
-      "Marfan syndrome",
-      "Pseudoxanthoma elasticum",
-      "Alport syndrome",
-      "Homocystinuria"
+      "Non-caseating granulomas",
+      "Neutrophilic crypt abscesses",
+      "Regenerating pseudopolyps",
+      "Superficial granular erosions"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Pseudoxanthoma elasticum"
+    answerIndex: 0,
+    correctAnswerText: "Non-caseating granulomas"
   },
   {
     id: 108,
-    image: "images/IMG_9920.jpeg",
-    question: "A 25-year-old male with a history of progressive night blindness and tunnel vision is diagnosed with Retinitis Pigmentosa. He now complains of significant glare while driving at night due to early cataract formation. Which specific type of cataract is most classically associated with his underlying retinal dystrophy?",
+    image: "images/IMG_0497.jpeg",
+    question: "A 12-year-old boy presents with colicky abdominal pain and dark brown macules on his lips and buccal mucosa. Endoscopy reveals multiple pedunculated polyps primarily in the jejunum. Biopsy of a polyp demonstrates a characteristic arborizing network of smooth muscle extending into the polyp. Which of the following gene mutations is most likely responsible for this condition?",
     options: [
-      "Nuclear sclerosis",
-      "Anterior polar cataract",
-      "Posterior subcapsular cataract",
-      "Snowflake cortical cataract"
+      "SMAD4",
+      "STK11",
+      "PTEN",
+      "APC"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Posterior subcapsular cataract"
+    answerIndex: 1,
+    correctAnswerText: "STK11"
   },
   {
     id: 109,
-    image: "images/IMG_9921.jpeg",
-    question: "A 55-year-old poorly controlled diabetic patient undergoes a routine fundus examination. The ophthalmologist notes multiple large, fluffy \"cotton wool spots\" on the retina. In which of the following retinal layers are these specific lesions primarily located?",
+    image: "images/IMG_0501.jpeg",
+    question: "A 24-year-old male undergoes a screening colonoscopy that reveals over 150 colonic polyps. Physical examination is notable for multiple epidermal cysts and a bony hard swelling on his jaw (mandibular osteoma). Dental records show a history of supernumerary teeth. Which of the following best describes the mutated gene and its associated syndrome in this patient?",
     options: [
-      "Outer plexiform layer",
-      "Inner nuclear layer",
-      "Outer nuclear layer",
-      "Nerve fiber layer"
+      "MLH1 gene - Lynch Syndrome",
+      "MUTYH gene - MAP Syndrome",
+      "APC gene - Gardner Syndrome",
+      "STK11 gene - Peutz-Jeghers Syndrome"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Nerve fiber layer"
+    answerIndex: 2,
+    correctAnswerText: "APC gene - Gardner Syndrome"
   },
   {
     id: 110,
     image: "",
-    question: "A 60-year-old poorly controlled diabetic patient undergoes a routine fundus examination. The ophthalmologist notes intra-retinal hemorrhages in all 4 quadrants and Intra-Retinal Microvascular Abnormalities (IRMA) in 1 quadrant. Venous beading is completely absent. According to the standard ETDRS criteria, what is the most accurate diagnosis for this patient?",
+    question: "A 45-year-old male with chronic dyspepsia undergoes an upper GI endoscopy. Biopsy of the gastric antrum reveals a dense monoclonal lymphoid infiltrate, diagnosed as Extranodal Marginal Zone Lymphoma (MALToma). Which specific virulence factor of the implicated organism is primarily responsible for recruiting lymphocytes and driving this specific neoplastic transformation?",
     options: [
-      "Very severe NPDR",
-      "Severe NPDR",
-      "Moderate NPDR",
-      "Proliferative diabetic retinopathy"
+      "Lophotrichous flagella",
+      "Urease enzyme",
+      "Bab A adhesin",
+      "Cag A antigen"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Very severe NPDR"
+    answerIndex: 3,
+    correctAnswerText: "Cag A antigen"
   },
   {
     id: 111,
-    image: "images/IMG_9922.jpeg",
-    question: "A 55-year-old hypertensive male undergoes a routine fundus examination. The ophthalmologist observes a prominent \"tapering\" of the retinal vein on both sides of where it is crossed by a thickened, sclerotic arteriole. Which of the following eponymous signs accurately describes this specific vascular finding?",
+    image: "images/IMG_0502.jpeg",
+    question: "A 55-year-old male presents with early satiety and significant weight loss. Endoscopy reveals a rigid, diffusely thickened stomach wall that fails to distend with air insufflation. Biopsy demonstrates poorly cohesive cells with abundant intracellular mucin displacing the nucleus to the periphery. A loss-of-function mutation in which of the following genes is the primary driver of this specific neoplastic morphology?",
     options: [
-      "Salus sign",
-      "Gunn sign",
-      "Bonnet sign",
-      "Siegert sign"
+      "CDH1",
+      "APC",
+      "BAX",
+      "TP53"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Gunn sign"
+    answerIndex: 0,
+    correctAnswerText: "CDH1"
   },
   {
     id: 112,
-    image: "images/IMG_9923.jpeg",
-    question: "A 65-year-old hypertensive male presents with sudden, painless loss of vision in his right eye. Fundoscopy reveals widespread flame-shaped hemorrhages and soft exudates across all four retinal quadrants, creating a classic \"blood and thunder\" appearance. What is the most likely anatomical site of the primary vascular occlusion in this patient?",
+    image: "images/IMG_0503.jpeg",
+    question: "A 65-year-old male presents with episodes of upper gastrointestinal bleeding. Endoscopy reveals a prominent submucosal mass in the stomach. Biopsy demonstrates a proliferation of spindle-shaped cells with distinct paranuclear vacuoles. While this tumor is known to arise from the pacemaker cells of the gut, which of the following represents the most specific immunohistochemical marker for confirming the diagnosis?",
     options: [
-      "Arteriovenous crossing",
-      "Supero-temporal venous tributary",
-      "Lamina cribrosa",
-      "Foveal avascular zone"
+      "CD117 (c-KIT)",
+      "DOG-1",
+      "Synaptophysin",
+      "Desmin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Lamina cribrosa"
+    answerIndex: 1,
+    correctAnswerText: "DOG-1"
   },
   {
     id: 113,
-    image: "images/IMG_9924.jpeg",
-    question: "A 65-year-old male with a history of atrial fibrillation presents to the emergency room with sudden, painless, profound loss of vision in his right eye. Fundoscopy reveals a diffuse milky-white retina with a prominent central cherry-red spot. What is the immediate first step in the management of this acute ocular emergency?",
+    image: "images/IMG_0504.jpeg",
+    question: "A 45-year-old male presents with severe peripheral edema and hypoproteinemia. Endoscopy reveals massively hypertrophied gastric rugae with a distinct \"cerebriform\" appearance. What is the characteristic microscopic finding expected on gastric biopsy for this specific condition?",
     options: [
-      "Intravenous mannitol",
-      "Anterior chamber paracentesis",
-      "Carbogen inhalation",
-      "Ocular digital massage"
+      "Cerebriform atypical mononuclear cells",
+      "Selective hyperplasia of parietal cells",
+      "Corkscrew appearance of hyperplastic glands",
+      "Dense intraepithelial lymphocytosis"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Ocular digital massage"
+    answerIndex: 2,
+    correctAnswerText: "Corkscrew appearance of hyperplastic glands"
   },
   {
     id: 114,
-    image: "images/IMG_9925.jpeg",
-    question: "A 15-year-old boy presents with unilateral vision loss. Fundoscopy reveals blurred optic disc margins accompanied by a prominent \"macular star\" exudate pattern. Which of the following is the most common etiology for this specific clinical presentation?",
+    image: "",
+    question: "A 55-year-old chronic smoker undergoes a bronchoscopic biopsy for evaluation of a chronic cough. The pathology report notes the replacement of the normal ciliated respiratory epithelium by stratified squamous epithelium. Which of the following best describes the underlying cellular mechanism for this specific adaptive change?",
     options: [
-      "Cat scratch disease",
-      "Multiple sclerosis",
-      "Post-viral immunization",
-      "Neuromyelitis optica"
+      "Direct transformation of existing mature cells",
+      "Ubiquitin-mediated proteasomal degradation",
+      "Growth factor-driven cellular DNA replication",
+      "Reprogramming of local tissue stem cells"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Cat scratch disease"
+    answerIndex: 3,
+    correctAnswerText: "Reprogramming of local tissue stem cells"
   },
   {
     id: 115,
     image: "",
-    question: "A 45-year-old patient undergoes temporal lobe surgery for epilepsy management. Post-operatively, perimetry testing reveals a left homonymous superior quadrantanopia (\"pie in the sky\" defect). This specific visual field defect is classically caused by collateral damage to which of the following neural structures?",
+    question: "A 55-year-old male with an acute myocardial infarction undergoes successful coronary angioplasty. Despite restoring blood flow, he develops a paradoxical worsening of myocardial tissue damage. This injury is primarily mediated by a sudden influx of oxygen and calcium into the previously hypoxic tissue. Which of the following is the most potent reactive oxygen species (ROS) responsible for the subsequent lipid peroxidation and cell membrane damage in this patient?",
     options: [
-      "Superior optic radiation fibers",
-      "Inferior optic radiation fibers",
-      "Tip of the occipital lobe",
-      "Right optic tract"
+      "Hydroxyl radical",
+      "Superoxide anion",
+      "Hydrogen peroxide",
+      "Hypochlorous acid"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Inferior optic radiation fibers"
+    answerIndex: 0,
+    correctAnswerText: "Hydroxyl radical"
   },
   {
     id: 116,
-    image: "images/IMG_9927.jpeg",
-    question: "A 50-year-old man presents with right-sided unilateral partial ptosis and miosis. Upon examination, his anisocoria becomes distinctly more pronounced in a dim room. Uniquely, facial sweating on the affected right side remains completely intact. Which of the following is the most likely etiology for this specific presentation?",
+    image: "",
+    question: "A 45-year-old male presents to the emergency department with a severe headache and a blood pressure of 230/130 mmHg. He quickly develops signs of acute kidney injury. A renal biopsy is performed to assess the extent of vascular damage. Which specific pattern of necrosis is most likely to be observed within the walls of the affected renal arterioles?",
     options: [
-      "Pancoast tumor",
-      "Wallenberg syndrome",
-      "Internal carotid artery aneurysm",
-      "Syringomyelia"
+      "Coagulative necrosis",
+      "Fibrinoid necrosis",
+      "Caseous necrosis",
+      "Liquefactive necrosis"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Internal carotid artery aneurysm"
+    answerIndex: 1,
+    correctAnswerText: "Fibrinoid necrosis"
   },
   {
     id: 117,
     image: "",
-    question: "A 55-year-old male with a family history of primary open-angle glaucoma is found to have an intraocular pressure of 26 mmHg. Automated perimetry is ordered to assess for functional nerve damage. Which of the following is typically the earliest specific visual field defect to appear in this condition?",
+    question: "A 45-year-old female with a known history of sarcoidosis undergoes routine imaging that incidentally reveals diffuse calcifications in her lungs and gastric mucosa. Her serum biochemistry panel demonstrates marked hypercalcemia. Which of the following best describes the fundamental characteristic of this specific type of calcification?",
     options: [
-      "Ring scotoma",
-      "Roenne nasal step",
-      "Seidel scotoma",
-      "Paracentral scotoma"
+      "Deposition of calcium strictly within necrotic tissues",
+      "Associated with consistently normal serum calcium levels",
+      "Deposition of calcium within previously healthy tissues",
+      "Formation of characteristic concentric psammoma bodies"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Paracentral scotoma"
+    answerIndex: 2,
+    correctAnswerText: "Deposition of calcium within previously healthy tissues"
   },
   {
     id: 118,
-    image: "images/IMG_9970.jpeg",
-    question: "A 6-month-old infant is brought to the ophthalmology clinic with classic symptoms of excessive watering, photophobia, and blepharospasm. Examination under anesthesia confirms the diagnosis of primary congenital glaucoma, revealing significantly elevated intraocular pressure and a densely hazy, edematous cornea. Which of the following is the most appropriate initial surgical intervention for this specific patient?",
+    image: "",
+    question: "A 30-year-old male presents with a localized bacterial skin infection. During the acute inflammatory response, neutrophils migrate from the vascular lumen into the affected tissue. Which of the following adhesion molecules and corresponding molecular steps is primarily responsible for mediating initial leukocyte rolling along the vascular endothelium?",
     options: [
-      "Trabeculotomy",
-      "Goniotomy",
-      "Nd:YAG laser iridotomy",
-      "Topical latanoprost therapy"
+      "Integrins",
+      "Selectins",
+      "PECAM-1 (CD31)",
+      "Immunoglobulin superfamily"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Trabeculotomy"
+    answerIndex: 1,
+    correctAnswerText: "Selectins"
   },
   {
     id: 119,
-    image: "images/IMG_9930.jpeg",
-    question: "A 65-year-old poorly controlled diabetic patient presents with a blind, painful eye due to advanced neovascular glaucoma. Intraocular pressure remains highly elevated despite maximum medical therapy. Standard filtering surgery carries a high risk of failure due to conjunctival scarring. Which of the following is the most appropriate surgical intervention?",
+    image: "",
+    question: "A 5-year-old boy presents with recurrent bacterial skin infections. Evaluation of his immune system reveals a defect in the oxygen-dependent intracellular killing mechanism of his neutrophils. Within this normal physiological pathway, which of the following enzymes is specifically responsible for generating the most potent bactericidal compound?",
     options: [
-      "Trabeculectomy with Mitomycin C",
-      "Aqueous drainage device (Seton) implant",
-      "Nd:YAG laser peripheral iridotomy",
-      "iStent trabecular micro-bypass"
+      "Superoxide dismutase",
+      "NADPH oxidase",
+      "Myeloperoxidase",
+      "Cathepsin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Aqueous drainage device (Seton) implant"
+    answerIndex: 2,
+    correctAnswerText: "Myeloperoxidase"
   },
   {
     id: 120,
     image: "",
-    question: "A patient develops a uniformly flat anterior chamber and highly elevated intraocular pressure shortly after undergoing uncomplicated intraocular surgery. The condition paradoxically worsens upon the administration of topical pilocarpine. The underlying pathophysiology is suspected to be the redirection of aqueous humor into the vitreous cavity. What is the most definitive surgical management for this specific condition?",
+    question: "A 42-year-old male is admitted to the intensive care unit with severe bacterial pneumonia and sepsis. Laboratory evaluation reveals a markedly elevated total leukocyte count and a strong acute phase reaction. While evaluating his serum protein levels during this active inflammatory state, which of the following proteins will characteristically be present in decreased concentrations?",
     options: [
-      "Nd:YAG laser peripheral iridotomy",
-      "Anterior chamber paracentesis",
-      "Pars plana vitrectomy",
-      "Trabeculectomy with Mitomycin C"
+      "Haptoglobin",
+      "Hepcidin",
+      "Fibrinogen",
+      "Transferrin"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Pars plana vitrectomy"
+    answerIndex: 3,
+    correctAnswerText: "Transferrin"
   },
   {
     id: 121,
     image: "",
-    question: "A 45-year-old patient presents with traumatic avulsion of the lower eyelid, resulting in restricted downward retraction of the lid on down-gaze. Which of the following structures in the lower eyelid serves as the direct anatomical and functional analogue to the levator palpebrae superioris of the upper eyelid?",
+    question: "A 35-year-old patient undergoes an elective inguinal hernia repair. Following the clean surgical incision, a highly orchestrated cascade of healing by primary intention begins. Which of the following cells reaches its peak concentration at the wound site within the first 24 hours?",
     options: [
-      "Orbicularis oculi",
-      "Orbital septum",
-      "Inferior tarsal muscle",
-      "Capsulopalpebral fascia"
+      "Neutrophils",
+      "Macrophages",
+      "Endothelial cells",
+      "Fibroblasts"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Capsulopalpebral fascia"
+    answerIndex: 0,
+    correctAnswerText: "Neutrophils"
   },
   {
     id: 122,
-    image: "",
-    question: "A healthy individual subconsciously blinks approximately 15 to 20 times per minute to maintain a stable precorneal tear film. Which specific anatomical subdivision of the orbicularis oculi muscle is primarily responsible for this spontaneous blinking reflex?",
+    image: "images/IMG_0505.jpeg",
+    question: "A 28-year-old male presents with a thick, raised, and firm scar on his shoulder following a minor scratch that occurred a year ago. The lesion has grown significantly and extends well beyond the original wound margins. If a biopsy of this lesion is performed, which of the following best describes the expected collagen composition and histological arrangement?",
     options: [
-      "Pretarsal part",
-      "Preseptal part",
-      "Orbital part",
-      "Muscle of Horner"
+      "Predominantly Type III; parallel bundles",
+      "Predominantly Type I; haphazard arrangement",
+      "Predominantly Type IV; concentric whorls",
+      "Predominantly Type III; haphazard arrangement"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Pretarsal part"
+    answerIndex: 1,
+    correctAnswerText: "Predominantly Type I; haphazard arrangement"
   },
   {
     id: 123,
     image: "",
-    question: "A 4-year-old child is evaluated for congenital drooping of the right upper eyelid. Clinical examination reveals 4.5 mm of extra corneal coverage by the eyelid. The examiner presses firmly on the child's eyebrow and measures an eyelid excursion of only 3 mm from downgaze to upgaze. Which of the following is the most appropriate surgical intervention for this patient?",
+    question: "A patient is suffering from an active intracellular viral infection. Which of the following mechanisms is primarily utilized by the adaptive immune system's effector cells to directly clear this specific type of infection?",
     options: [
-      "Levator palpebrae superioris resection",
-      "Frontalis sling operation",
-      "Fasanella-Servat procedure",
-      "Levator palpebrae superioris plication"
+      "Secretion of immunoglobulins by plasma cells",
+      "CD4 receptor binding to MHC class II molecules",
+      "Perforin and granzyme release by CD8 cells",
+      "Sensitization of B cells by T-helper lymphocytes"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Frontalis sling operation"
+    answerIndex: 2,
+    correctAnswerText: "Perforin and granzyme release by CD8 cells"
   },
   {
     id: 124,
     image: "",
-    question: "A 50-year-old female presents with a chronic gritty sensation in both eyes. The ophthalmologist wants to evaluate her tear production by measuring exclusively the basal tear secretion. Which specific test modification must be performed to achieve this?",
+    question: "A 30-year-old splenectomized male presents with severe pneumococcal sepsis. For effective clearance by macrophages, this capsulated bacterium must first be coated by host proteins to overcome its antiphagocytic capsule. Which of the following pairs of molecules act as the primary mediators for this specific coating process?",
     options: [
-      "Applying a nasal mucosal irritant",
-      "Using a phenol red impregnated thread",
-      "Instilling topical anesthesia before the test",
-      "Evaluating fluorescein break-up time under blue light"
+      "IgM and Membrane Attack Complex (MAC)",
+      "Perforins and Granzymes",
+      "IgA and C5b",
+      "IgG and C3b"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Instilling topical anesthesia before the test"
+    answerIndex: 3,
+    correctAnswerText: "IgG and C3b"
   },
   {
     id: 125,
     image: "",
-    question: "A 30-year-old male with a history of an old, malunited zygomatic fracture presents with prominent facial asymmetry. The ophthalmologist suspects unilateral proptosis of the normal eye. Which of the following instruments is most appropriate for accurately measuring the degree of ocular protrusion in this specific patient?",
+    question: "A 30-year-old male with a viral respiratory infection is being evaluated for immune response. Viral antigens are being presented to cytotoxic T lymphocytes to trigger infected cell destruction. Which of the following is a characteristic of the major histocompatibility complex (MHC) molecule mediating this specific interaction?",
     options: [
-      "Hertel exophthalmometer",
-      "Luedde exophthalmometer",
-      "Naffziger exophthalmometer",
-      "McCoy exophthalmometer"
+      "It is found on all cell membranes except red blood cells",
+      "It is composed of alpha-1, alpha-2, beta-1, and beta-2 chains",
+      "It primarily restricts the activation of CD4+ helper T cells",
+      "It is strictly expressed by professional antigen-presenting cells"
     ],
-    answerIndex: 3,
-    correctAnswerText: "McCoy exophthalmometer"
+    answerIndex: 0,
+    correctAnswerText: "It is found on all cell membranes except red blood cells"
   },
   {
     id: 126,
     image: "",
-    question: "A 10-year-old boy with a recent history of ethmoidal sinusitis presents with acute fever and painful eyelid swelling. Clinical examination reveals axial proptosis and markedly restricted ocular motility. According to Chandler's classification, which of the following is the most accurate diagnosis?",
+    question: "A 22-year-old male develops severe wheezing and diffuse urticaria 10 minutes after a bee sting. While his initial symptoms are rapidly controlled with epinephrine, he experiences a renewed wave of localized tissue inflammation and respiratory distress a few hours later. Which of the following cell types and its primary mediator are most directly responsible for this specific delayed phase of the reaction?",
     options: [
-      "True orbital cellulitis",
-      "Pre-septal cellulitis",
-      "Sub-periosteal abscess",
-      "Cavernous sinus thrombosis"
+      "Mast cells releasing preformed Histamine",
+      "Eosinophils releasing Major Basic Protein",
+      "Macrophages secreting Interleukin-1",
+      "CD8+ T cells releasing Granzymes"
     ],
-    answerIndex: 0,
-    correctAnswerText: "True orbital cellulitis"
+    answerIndex: 1,
+    correctAnswerText: "Eosinophils releasing Major Basic Protein"
   },
   {
     id: 127,
-    image: "images/IMG_9933.jpeg",
-    question: "An 18-month-old child presents with a prominent white pupillary reflex in the right eye. Imaging confirms a large, advanced calcified intraocular mass occupying the majority of the globe, consistent with retinoblastoma. If a destructive surgical approach is required, which of the following procedures is absolutely contraindicated in this patient?",
+    image: "",
+    question: "A 25-year-old female presents with a malar rash, arthritis, and proteinuria. Her condition is driven by circulating antigen-antibody complexes that deposit in various capillary beds. In contrast to this multi-systemic mechanism, which of the following conditions is primarily mediated by localized \"in situ\" immune complex formation?",
     options: [
-      "Exenteration",
-      "Evisceration",
-      "Enucleation",
-      "External beam radiotherapy"
+      "Serum Sickness",
+      "Polyarteritis Nodosa (PAN)",
+      "Post-streptococcal glomerulonephritis (PSGN)",
+      "Henoch-Schonlein Purpura (HSP)"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Evisceration"
+    answerIndex: 2,
+    correctAnswerText: "Post-streptococcal glomerulonephritis (PSGN)"
   },
   {
     id: 128,
-    image: "images/IMG_9934.jpeg",
-    question: "A 35-year-old male presents with acute ocular pain, photophobia, and circumcorneal redness. Slit-lamp examination reveals a heavy 3+ \"flare\" in the anterior chamber. This specific sign is due to protein leakage resulting from the breakdown of the blood-aqueous barrier. Which of the following structures represents a primary anatomical component of this tight barrier?",
+    image: "",
+    question: "A 45-year-old male with end-stage renal failure successfully receives a kidney transplant from an unrelated living donor. To prevent organ rejection, he is immediately started on a lifelong regimen of immunosuppressive medications. Which of the following terms best describes this specific type of transplantation?",
     options: [
-      "Corneal endothelium",
-      "Pigmented ciliary epithelium",
-      "Non-pigmented ciliary epithelium",
-      "Trabecular meshwork"
+      "Autograft",
+      "Isograft",
+      "Xenograft",
+      "Allograft"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Non-pigmented ciliary epithelium"
+    answerIndex: 3,
+    correctAnswerText: "Allograft"
   },
   {
     id: 129,
-    image: "images/IMG_9936.jpeg",
-    question: "A 32-year-old female presents with a chief complaint of bilateral painless floaters and gradual blurring of vision. Slit-lamp biomicroscopy reveals cellular aggregates in the anterior vitreous (\"snowballs\") and exudates over the inferior pars plana (\"snow banking\"). What is the most common vision-threatening complication associated with this specific ocular condition?",
+    image: "",
+    question: "A 35-year-old male with acute leukemia undergoes an allogeneic hematopoietic stem cell transplant. Four weeks later, he develops severe skin blisters, progressive jaundice, and intractable diarrhea. Biopsy confirms Graft-Versus-Host Disease (GVHD). Which of the following is an absolute prerequisite for the development of this specific pathological process?",
     options: [
-      "Posterior subcapsular cataract",
-      "Epiretinal membrane formation",
-      "Tractional retinal detachment",
-      "Cystoid macular edema"
+      "Immunocompromised state of the host",
+      "Presence of mature B cells in the graft",
+      "Perfect HLA match between donor and recipient",
+      "Absence of donor T lymphocytes in the graft"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Cystoid macular edema"
+    answerIndex: 0,
+    correctAnswerText: "Immunocompromised state of the host"
   },
   {
     id: 130,
-    image: "images/IMG_9937.jpeg",
-    question: "A 70-year-old patient develops severe visual blurring, halos, and painful ocular blisters six months after a complicated cataract surgery. Slit-lamp examination reveals classic bullous keratopathy. This condition is primarily triggered by the failure of which of the following physiological mechanisms that normally maintain corneal transparency?",
+    image: "",
+    question: "A 5-year-old child presents with recurrent severe pyogenic infections, petechial rashes, and partial oculocutaneous albinism. Neurological examination reveals early signs of peripheral neuropathy. Genetic testing confirms an autosomal recessive mutation in the LYST gene. Which of the following is the primary underlying cellular defect in this patient?",
     options: [
-      "Endothelial Na-K ATPase pump",
-      "Hydrophilic barrier of the corneal epithelium",
-      "Maximal anaerobic glycolysis in the stroma",
-      "Stromal pressure permitting aqueous imbibition"
+      "Defective generation of reactive oxygen species",
+      "Defective phagolysosome formation",
+      "Absent CD18 integrin expression",
+      "Defective actin filament assembly"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Endothelial Na-K ATPase pump"
+    answerIndex: 1,
+    correctAnswerText: "Defective phagolysosome formation"
   },
   {
     id: 131,
-    image: "images/IMG_9938.jpeg",
-    question: "A 65-year-old patient with advanced Fuchs' endothelial dystrophy presents with progressive corneal decompensation and vision loss. The ophthalmologist plans a targeted corneal transplantation that replaces strictly the diseased posterior layers while preserving the patient's healthy anterior structures. Which of the following procedures is most appropriate for this specific anatomical requirement?",
+    image: "",
+    question: "A 25-year-old male with a history of recurrent sinopulmonary infections and chronic diarrhea caused by Giardia lamblia requires an emergency blood transfusion following a road traffic accident. Shortly after the transfusion begins, he develops severe, life-threatening anaphylaxis. Laboratory evaluation reveals normal serum levels of IgG and IgM. Which of the following is the most likely underlying primary immunodeficiency in this patient?",
     options: [
-      "Penetrating keratoplasty",
-      "Descemet stripping endothelial keratoplasty",
-      "Anterior lamellar keratoplasty",
-      "Phototherapeutic keratectomy"
+      "Severe Combined Immunodeficiency",
+      "X-linked Agammaglobulinemia",
+      "Isolated IgA deficiency",
+      "Common Variable Immunodeficiency"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Descemet stripping endothelial keratoplasty"
+    answerIndex: 2,
+    correctAnswerText: "Isolated IgA deficiency"
   },
   {
     id: 132,
-    image: "images/IMG_9940.jpeg",
-    question: "A 25-year-old contact lens wearer presents with excruciating ocular pain that seems entirely out of proportion to the relatively mild initial clinical signs. He admits to occasionally washing his lenses with tap water. Slit-lamp examination reveals early radial perineuritis and a distinct \"Wessley immune ring\" infiltrate. Which of the following is the most appropriate culture medium for isolating the suspected causative organism?",
+    image: "",
+    question: "A 6-month-old male infant presents with recurrent, severe viral and fungal infections. Clinical examination reveals remarkably shrunken lymph nodes and absent tonsils. A chest X-ray confirms the absence of a thymic shadow. Which of the following is the most common genetic defect responsible for this patient's underlying condition?",
     options: [
-      "Sabouraud dextrose agar",
-      "Blood agar",
-      "Non-nutrient agar with E. coli",
-      "Lowenstein-Jensen medium"
+      "Adenosine deaminase deficiency",
+      "Defective CD40 ligand expression",
+      "Bruton tyrosine kinase mutation",
+      "Interleukin-2 receptor gamma chain mutation"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Non-nutrient agar with E. coli"
+    answerIndex: 3,
+    correctAnswerText: "Interleukin-2 receptor gamma chain mutation"
   },
   {
     id: 133,
-    image: "images/IMG_9971.jpeg",
-    question: "A 30-year-old male is diagnosed with a branching corneal ulcer showing distinct terminal bulbs on fluorescein staining. He is mistakenly prescribed topical corticosteroids by a primary care physician. Which of the following conditions is the patient at highest risk of rapidly developing?",
+    image: "",
+    question: "A 55-year-old male on long-term hemodialysis for end-stage renal disease develops bilateral tingling, pain, and numbness in his lateral three and a half fingers. Biopsy of the wrist flexor retinaculum reveals Congo red-positive extracellular deposits. Which of the following precursor proteins is most likely responsible for this specific condition?",
     options: [
-      "Interstitial keratitis",
-      "Disciform keratitis",
-      "Salmon patch lesion",
-      "Geographic ulcer"
+      "Beta-2 microglobulin",
+      "Serum amyloid A",
+      "Immunoglobulin light chains",
+      "Transthyretin"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Geographic ulcer"
+    answerIndex: 0,
+    correctAnswerText: "Beta-2 microglobulin"
   },
   {
     id: 134,
-    image: "images/IMG_9973.jpeg",
-    question: "A 30-year-old male presents with significant visual distortion following the healing of a traumatic corneal ulcer. Slit-lamp examination reveals a faint, superficial corneal scar involving less than one-third of the stromal depth. The underlying iris and anterior chamber details are clearly visible through the lesion. Which of the following is the most appropriate surgical management for this specific grade of opacity?",
+    image: "",
+    question: "A normal 46,XX female somatic cell must silence one of its X chromosomes during early embryogenesis to prevent toxic overexpression of X-linked genes. Which of the following specific classes of non-coding molecules primarily mediates the formation of the resulting inactive Barr body?",
     options: [
-      "Phototherapeutic keratectomy",
-      "Anterior lamellar keratoplasty",
-      "Penetrating keratoplasty",
-      "Evisceration"
+      "Micro-RNA (mi-RNA)",
+      "Long Non-coding RNA (LNC-RNA)",
+      "Transposons",
+      "CG island promoters"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Phototherapeutic keratectomy"
+    answerIndex: 1,
+    correctAnswerText: "Long Non-coding RNA (LNC-RNA)"
   },
   {
     id: 135,
-    image: "images/IMG_9944.jpeg",
-    question: "A 55-year-old patient with a history of long-term cardiac medication use presents with asymptomatic, bilateral, whorled pigmentary deposits in the corneal epithelium. Visual acuity remains unaffected, and the findings are noted to be reversible upon medication discontinuation. Which of the following is the most likely medication implicated in this presentation?",
+    image: "",
+    question: "A 6-month-old infant is diagnosed with a severe genetic disorder. DNA sequencing of the affected gene reveals a single base pair substitution that generates a premature stop codon. The resulting protein is completely absent in the patient's cells. Which of the following best classifies this specific type of mutation and its resulting biochemical defect?",
     options: [
-      "Amiodarone",
-      "Chloroquine",
-      "Indomethacin",
-      "Netarsudil"
+      "Missense mutation causing a qualitative abnormality",
+      "Silent mutation causing no functional abnormality",
+      "Nonsense mutation causing a quantitative abnormality",
+      "Intronic mutation causing a gain of function abnormality"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Amiodarone"
+    answerIndex: 2,
+    correctAnswerText: "Nonsense mutation causing a quantitative abnormality"
   },
   {
     id: 136,
-    image: "images/IMG_9945.jpeg",
-    question: "A 22-year-old male with a known history of severe vernal keratoconjunctivitis presents with progressively decreasing vision and frequent changes in his astigmatic spectacle prescription. During clinical examination, the ophthalmologist asks the patient to look downwards, which reveals a distinct V-shaped bulging of the lower eyelid margin. Which of the following is the correct eponym for this specific clinical sign?",
+    image: "",
+    question: "A laboratory technician is setting up a Polymerase Chain Reaction (PCR) assay to detect a single base pair mutation in a patient's DNA sample. After the initial heating phase, the thermal cycler lowers the temperature specifically to 55°C for 45 seconds. Which of the following critical molecular events primarily occurs during this specific temperature step?",
     options: [
-      "Vogt striae",
-      "Munson sign",
-      "Rizutti sign",
-      "Fleischer ring"
+      "Complete separation of the double-stranded DNA helix",
+      "Rapid addition of dNTPs by DNA polymerase",
+      "Breaking of hydrogen bonds between complementary bases",
+      "Binding of oligonucleotide primers to the target sequence"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Munson sign"
+    answerIndex: 3,
+    correctAnswerText: "Binding of oligonucleotide primers to the target sequence"
   },
   {
     id: 137,
-    image: "images/IMG_9947.jpeg",
-    question: "A 60-year-old female with long-standing, severe rheumatoid arthritis presents for a routine ocular evaluation. She reports absolutely no ocular pain or redness. Slit-lamp examination reveals a completely quiet eye with marked, localized thinning of the anterior sclera, allowing the dark underlying uveal tissue to clearly shine through. Which of the following is the most likely diagnosis?",
+    image: "",
+    question: "A 2-year-old girl is diagnosed with a rare metabolic disorder. Both her parents are completely healthy, but they are first cousins. There is no prior history of this disease in the extended family. If they plan for another pregnancy, what is the exact probability that their next child will be clinically affected by this same disease?",
     options: [
-      "Posterior scleritis",
-      "Necrotizing scleritis with inflammation",
-      "Scleromalacia perforans",
-      "Intercalary staphyloma"
+      "25% regardless of the child's sex",
+      "50% only if the child is male",
+      "100% since both parents are carriers",
+      "0% since both parents are asymptomatic"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Scleromalacia perforans"
+    answerIndex: 0,
+    correctAnswerText: "25% regardless of the child's sex"
   },
   {
     id: 138,
-    image: "images/IMG_9948.jpeg",
-    question: "A 45-year-old farmer presents with a wing-like fibrovascular growth extending from the nasal conjunctiva onto the cornea, causing significant irregular astigmatism. Surgical removal is planned. Which of the following surgical approaches is considered the most ideal standard of care to minimize recurrence?",
+    image: "",
+    question: "A surgically resected Meckel's diverticulum from a 2-year-old child with painless lower gastrointestinal bleeding undergoes histological evaluation. The pathologist notes the presence of fully differentiated, histologically normal-appearing gastric mucosal glands within the diverticular wall. Which of the following terms best defines this specific type of anomaly?",
     options: [
-      "Simple excision with bare sclera technique",
-      "Excision with primary closure",
-      "Phototherapeutic keratectomy (PTK)",
-      "Excision with conjunctival autograft"
+      "Hamartoma",
+      "Choristoma",
+      "Teratoma",
+      "Anaplasia"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Excision with conjunctival autograft"
+    answerIndex: 1,
+    correctAnswerText: "Choristoma"
   },
   {
     id: 139,
-    image: "images/IMG_9949.jpeg",
-    question: "A 9-day-old neonate born via normal vaginal delivery presents with bilateral profuse mucopurulent ocular discharge. Based on the precise time of onset, which of the following is the most likely causative organism?",
+    image: "",
+    question: "A 58-year-old male who worked in a PVC pipe manufacturing plant for 30 years presents with right upper quadrant pain and hepatomegaly. A liver biopsy confirms the diagnosis of an aggressive, malignant vascular tumor of the liver. Which of the following occupational chemical exposures is most directly responsible for this specific neoplasm?",
     options: [
-      "Chlamydia trachomatis",
-      "Neisseria gonorrhoeae",
-      "Staphylococcus aureus",
-      "Herpes simplex virus type 2"
+      "Benzene",
+      "Aflatoxin",
+      "Vinyl chloride",
+      "Benzidine"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Chlamydia trachomatis"
+    answerIndex: 2,
+    correctAnswerText: "Vinyl chloride"
   },
   {
     id: 140,
     image: "",
-    question: "A 35-year-old factory worker with a past history of an alkali chemical burn presents with a fleshy fold of conjunctiva firmly attached to the peripheral cornea. During slit-lamp examination, the ophthalmologist is successfully able to pass a glass rod underneath the neck of this fibrovascular fold. Which of the following is the most accurate clinical diagnosis?",
+    question: "A 40-year-old female presents with irregular post-coital bleeding. A cervical biopsy confirms invasive squamous cell carcinoma, and PCR testing detects High-Risk Human Papillomavirus (HPV) type 16. Which of the following best describes the exact molecular mechanism of the viral E6 oncoprotein in driving this malignancy?",
     options: [
-      "True pterygium",
-      "Pseudo-pterygium",
-      "Pinguecula",
-      "Limbal dermoid"
+      "Activation of BCL2 to inhibit apoptosis",
+      "Direct phosphorylation of Rb protein",
+      "Upregulation of Cyclin D expression",
+      "Proteolysis of the p53 tumor suppressor"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Pseudo-pterygium"
+    answerIndex: 3,
+    correctAnswerText: "Proteolysis of the p53 tumor suppressor"
   },
   {
     id: 141,
     image: "",
-    question: "A 70-year-old patient notes that he can suddenly read the newspaper without his usual presbyopic reading glasses. This well-known \"second sight\" phenomenon is primarily due to which of the following pathophysiological mechanisms?",
+    question: "A 60-year-old male is diagnosed with follicular lymphoma. Genetic analysis of the neoplastic cells reveals a specific alteration that allows them to evade programmed cell death despite accumulating massive DNA damage. Which of the following genetic mechanisms best explains this tumor's survival?",
     options: [
-      "Curvatural myopia from progressive keratoconus",
-      "Positional myopia from anterior lens dislocation",
-      "Index myopia from progressive nuclear sclerosis",
-      "Axial myopia from buphthalmos globe expansion"
+      "Gain of function of the anti-apoptotic BCL-2 gene",
+      "Gain of function of the pro-apoptotic BAX gene",
+      "Loss of function of the anti-apoptotic BCL-2 gene",
+      "Loss of function of a regulatory proto-oncogene"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Index myopia from progressive nuclear sclerosis"
+    answerIndex: 0,
+    correctAnswerText: "Gain of function of the anti-apoptotic BCL-2 gene"
   },
   {
     id: 142,
     image: "",
-    question: "A 12-year-old boy presents to the ophthalmology clinic with recurrent frontal headaches and frequent styes. Cycloplegic refraction reveals an uncorrected refractive error where the theoretical far point lies behind the eye. Because this patient must constantly exert excessive accommodative effort to maintain clear vision, he is most predisposed to developing which of the following conditions?",
+    question: "A 50-year-old female undergoes a diagnostic FDG-PET scan for staging of a newly diagnosed lung carcinoma. The scan demonstrates intense radiotracer uptake within the primary tumor mass. Which of the following fundamental biochemical alterations is primarily responsible for this increased glucose avidity in malignant cells?",
     options: [
-      "Exophoria",
-      "Alternating exotropia",
-      "Convergence insufficiency",
-      "Esophoria"
+      "Shift from aerobic glycolysis to oxidative phosphorylation",
+      "Shift from oxidative phosphorylation to aerobic glycolysis",
+      "Decreased expression of cellular glucose transporters",
+      "Upregulation of functional M1 pyruvate kinase activity"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Esophoria"
+    answerIndex: 1,
+    correctAnswerText: "Shift from oxidative phosphorylation to aerobic glycolysis"
   },
   {
     id: 143,
     image: "",
-    question: "Cycloplegic refraction in a young adult reveals that parallel light rays passing through one principal meridian focus exactly on the retina, while rays passing through the other principal meridian focus strictly in front of the retina. Identify the specific type of refractive error.",
+    question: "A 55-year-old male is diagnosed with advanced gastric adenocarcinoma. During surgical staging, tumor cells are found floating freely within the peritoneal cavity, leading to bilateral ovarian metastasis (Krukenberg tumors). Which of the following pathways of metastatic spread is primarily responsible for this specific presentation?",
     options: [
-      "Simple myopic astigmatism",
-      "Compound myopic astigmatism",
-      "Simple hypermetropic astigmatism",
-      "Mixed astigmatism"
+      "Hematogenous spread via capillary networks",
+      "Lymphatic spread to subcapsular lymph node sinuses",
+      "Transcoelomic spread across body cavities",
+      "Drop metastasis via cerebrospinal fluid"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Simple myopic astigmatism"
+    answerIndex: 2,
+    correctAnswerText: "Transcoelomic spread across body cavities"
   },
   {
     id: 144,
     image: "",
-    question: "A 7-year-old boy presents to the ophthalmology clinic for assessment of decreased vision. The ophthalmologist performs objective retinoscopy using the standard cycloplegic agent of choice for his age group. During the procedure, the red reflex is noted to have a \"with movement\". Which type of neutralizing lens should be added, and what is the standard dioptric deduction required for the specific cycloplegic agent used in this patient?",
+    question: "A 55-year-old male presents with recurrent episodes of superficial thrombophlebitis in different regions of his extremities. Workup for an underlying occult visceral malignancy is initiated. Which of the following paraneoplastic manifestations and its classic associated cancer is most accurately matched?",
     options: [
-      "Minus (-) lens, deduct 0.5 D",
-      "Plus (+) lens, deduct 1.0 D",
-      "Plus (+) lens, deduct 0.5 D",
-      "Minus (-) lens, deduct 1.0 D"
+      "Acanthosis nigricans associated with Renal cell carcinoma",
+      "Red cell aplasia associated with Small cell lung carcinoma",
+      "Hypercalcemia associated with Ovarian fibrosarcoma",
+      "Migratory thrombophlebitis associated with Pancreatic carcinoma"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Plus (+) lens, deduct 1.0 D"
+    answerIndex: 3,
+    correctAnswerText: "Migratory thrombophlebitis associated with Pancreatic carcinoma"
   },
   {
     id: 145,
     image: "",
-    question: "A 25-year-old male with a stable refraction of -5.0 D myopia desires surgical correction. Because he is a competitive mixed martial arts fighter, the surgeon recommends a \"flapless\" small incision lenticule extraction procedure to eliminate any future risk of flap dislocation. Which of the following lasers is exclusively used to perform this specific surgery?",
+    question: "A 28-year-old male undergoes an emergency splenectomy following a severe motor vehicle accident. A peripheral blood smear examined three months post-surgery reveals mature erythrocytes containing singular, perfectly round, dark purple inclusions. These specific inclusions represent the retained remnants of which of the following cellular components?",
     options: [
-      "Excimer laser",
-      "Nd:YAG laser",
-      "Femtosecond laser",
-      "Argon laser"
+      "Pyknotic nuclear DNA",
+      "Denatured precipitated hemoglobin",
+      "Aggregated ribosomal RNA",
+      "Excess intracellular iron"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Femtosecond laser"
+    answerIndex: 0,
+    correctAnswerText: "Pyknotic nuclear DNA"
   },
   {
     id: 146,
     image: "",
-    question: "During clinical examination of a patient with binocular diplopia, the ophthalmologist attempts to isolate the pure vertical actions of the oblique extraocular muscles. To achieve this, the visual axis must coincide perfectly with the muscle plane of the Superior and Inferior obliques. This specific anatomical alignment occurs strictly when the globe is positioned in:",
+    question: "A 30-year-old anemic patient has an elevated reticulocyte count. To accurately assess true bone marrow activity, the physician calculates the Reticulocyte Production Index (RPI) rather than relying solely on the Corrected Reticulocyte Count (CRC). What specific physiological variable does the RPI account for that the CRC misses?",
     options: [
-      "23 degrees of abduction",
-      "51 degrees of abduction",
-      "23 degrees of adduction",
-      "51 degrees of adduction"
+      "Decreased total circulating erythrocytes",
+      "Premature marrow release of reticulocytes",
+      "Decreased total patient hemoglobin levels",
+      "Increased splenic macrophage pitting"
     ],
-    answerIndex: 3,
-    correctAnswerText: "51 degrees of adduction"
+    answerIndex: 1,
+    correctAnswerText: "Premature marrow release of reticulocytes"
   },
   {
     id: 147,
-    image: "",
-    question: "A 45-year-old patient complains of vertical diplopia while walking down the stairs. The examiner asks the patient to look down and to the left (levo-depression) to isolate a specific muscle pair. According to Hering's law of equal innervation, which of the following contralateral synergistic (yoke) muscles are being primarily tested in this cardinal gaze?",
+    image: "images/IMG_0507.jpeg",
+    question: "A 45-year-old female with a history of severe menorrhagia presents with chronic fatigue and pallor. A peripheral blood smear shows microcytic hypochromic red blood cells with prominent pencil-shaped forms. Which of the following laboratory parameters is the earliest and most sensitive indicator of her underlying condition during the pre-latent phase?",
     options: [
-      "Right Superior Oblique and Left Inferior Rectus",
-      "Right Inferior Rectus and Left Superior Oblique",
-      "Right Inferior Oblique and Left Superior Rectus",
-      "Right Superior Rectus and Left Inferior Oblique"
+      "Increased Total Iron Binding Capacity",
+      "Decreased transferrin saturation",
+      "Decreased serum ferritin",
+      "Decreased serum iron"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Right Superior Oblique and Left Inferior Rectus"
+    answerIndex: 2,
+    correctAnswerText: "Decreased serum ferritin"
   },
   {
     id: 148,
     image: "",
-    question: "A 30-year-old patient undergoes an orthoptic evaluation for a manifest squint. When the patient attempts to elevate the right eye, the Right Superior Rectus vigorously contracts. According to Sherrington's Law of reciprocal inhibition, which specific muscles in the ipsilateral eye must simultaneously relax to allow this unimpeded elevation?",
+    question: "A 52-year-old female with long-standing, poorly controlled rheumatoid arthritis presents with progressive fatigue. Laboratory investigations reveal a hemoglobin of 10.2 g/dL, decreased serum iron, decreased total iron-binding capacity (TIBC), and an elevated serum ferritin level. Which of the following specific acute phase reactants is primarily responsible for restricting iron availability in this patient?",
     options: [
-      "Right Superior Oblique and Right Inferior Oblique",
-      "Right Inferior Rectus and Right Superior Oblique",
-      "Left Inferior Rectus and Left Superior Oblique",
-      "Right Inferior Rectus and Right Inferior Oblique"
+      "Erythropoietin",
+      "Transferrin",
+      "Tumor necrosis factor",
+      "Hepcidin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Right Inferior Rectus and Right Superior Oblique"
+    answerIndex: 3,
+    correctAnswerText: "Hepcidin"
   },
   {
     id: 149,
-    image: "images/IMG_9950.jpeg",
-    question: "A 10-year-old child with a suspected manifest strabismus is evaluated using a subjective test for binocular vision. He is asked to view an illuminated box containing four lights while wearing a red filter over his right eye and a green filter over his left eye. He reports seeing exactly three green dots and zero red dots. What is the most accurate clinical interpretation of this specific finding?",
+    image: "images/IMG_0508.jpeg",
+    question: "A 50-year-old male on long-term multi-drug therapy for tuberculosis develops progressive fatigue. Blood work shows a microcytic hypochromic anemia. A bone marrow aspirate stained with Prussian blue reveals nucleated red cell precursors surrounded by a distinct ring of blue granules. Which of the following is the primary underlying pathogenic defect in this condition?",
     options: [
-      "Normal binocular fusion",
-      "Left eye suppression",
-      "Right eye suppression",
-      "Uncrossed diplopia"
+      "Defective porphyrin synthesis",
+      "Impaired globin chain production",
+      "Mutation in iron transport proteins",
+      "Defective nuclear DNA maturation"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Right eye suppression"
+    answerIndex: 0,
+    correctAnswerText: "Defective porphyrin synthesis"
   },
   {
     id: 150,
-    image: "images/IMG_9951.jpeg",
-    question: "An ophthalmologist is evaluating the depth perception of a 6-year-old child. The child is asked to wear a pair of red-green anaglyph glasses and identify shapes hidden within random dot stereograms on printed plates. Which of the following specific tests for stereopsis is being performed?",
+    image: "",
+    question: "A 25-year-old pregnant female with a poor diet develops progressive fatigue. Laboratory investigations reveal a macrocytic anemia with an MCV of 110 fL. The physician suspects a deficiency of a specific vitamin whose hepatic stores are known to deplete rapidly within 3 to 4 months. Which of the following is the primary site of absorption for this deficient vitamin?",
     options: [
-      "Titmus Fly test",
-      "Randot test",
-      "Frisby test",
-      "TNO test"
+      "Terminal ileum",
+      "Jejunum",
+      "Duodenum",
+      "Stomach"
     ],
-    answerIndex: 3,
-    correctAnswerText: "TNO test"
+    answerIndex: 1,
+    correctAnswerText: "Jejunum"
   },
   {
     id: 151,
-    image: "images/IMG_9952.jpeg",
-    question: "A 55-year-old male presents with a localized midbrain infarct. Neurological examination reveals an ipsilateral third cranial nerve palsy, but with the unique finding of marked bilateral ptosis. This specific bilateral manifestation strongly indicates a nuclear lesion involving which of the following anatomical structures?",
+    image: "",
+    question: "A 22-year-old female presents with a one-month history of severe fatigue, recurrent mucosal infections, and easy bruising. Complete blood count reveals profound pancytopenia. Bone marrow aspiration yields a \"dry tap,\" and a subsequent biopsy shows a cellularity of less than 10% with extensive fat replacement. Despite severe systemic bone marrow failure, she lacks a specific clinical finding because her body fundamentally fails to mount compensatory extramedullary hematopoiesis. Which of the following is this characteristically absent finding?",
     options: [
-      "Single central nucleus of Levator Palpebrae Superioris",
-      "Bilateral Edinger-Westphal nuclei",
-      "Contralateral Superior Rectus subnucleus",
-      "Decussation at the anterior medullary velum"
+      "Petechiae and purpura",
+      "Exertional dyspnea",
+      "Hepatosplenomegaly",
+      "High output cardiac murmur"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Single central nucleus of Levator Palpebrae Superioris"
+    answerIndex: 2,
+    correctAnswerText: "Hepatosplenomegaly"
   },
   {
     id: 152,
     image: "",
-    question: "A 45-year-old male presents with sudden-onset vertical diplopia that noticeably worsens when he tries to read a book or walk down a flight of stairs. Clinical examination confirms an isolated Left Superior Oblique palsy. To minimize his diplopia and maintain binocular single vision, the patient will characteristically adopt which of the following compensatory head postures?",
+    question: "A 6-year-old child presents with sudden onset of fatigue and dark urine after prolonged exposure to cold weather. He is ultimately diagnosed with Paroxysmal Cold Hemoglobinuria (PCH). Which of the following best describes the specific autoantibody mediating this condition?",
     options: [
-      "Chin up with a Left head tilt",
-      "Chin down with a Right head tilt",
-      "Chin up with a Right head tilt",
-      "Chin down with a Left head tilt"
+      "IgM antibody that induces direct RBC agglutination",
+      "IgG antibody that is maximally active at 37°C",
+      "IgM antibody that selectively targets extravascular macrophages",
+      "IgG antibody that cannot induce in-vitro agglutination"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Chin down with a Right head tilt"
+    answerIndex: 3,
+    correctAnswerText: "IgG antibody that cannot induce in-vitro agglutination"
   },
   {
     id: 153,
-    image: "images/ScreenRecording_07-17-2026 00-32-23_1.mov",
-    question: "A 35-year-old male undergoes routine vestibular function testing. The examiner instills cold water into the patient's left external auditory canal. What is the expected direction of the fast phase of the induced nystagmus in a normal physiological response?",
+    image: "",
+    question: "A 30-year-old man presents with episodic dark urine in the morning and a recent episode of hepatic vein thrombosis. Flow cytometry of his peripheral blood reveals an absence of CD55 and CD59 on the surface of his erythrocytes. Which of the following is the fundamental underlying pathogenic mechanism of this condition?",
     options: [
-      "Towards the left side",
-      "Upward direction",
-      "Towards the right side",
-      "Downward direction"
+      "Acquired PIGA gene mutation in stem cells",
+      "Inherited defect in red cell membrane spectrin",
+      "Autoantibody production against RBC antigens",
+      "Point mutation in the beta-globin chain"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Towards the right side"
+    answerIndex: 0,
+    correctAnswerText: "Acquired PIGA gene mutation in stem cells"
   },
   {
     id: 154,
-    image: "",
-    question: "A 22-year-old male presents with a permanent central scotoma after watching a solar eclipse without protective eyewear. Which specific type of radiation and corresponding ocular pathology is responsible for his irreversible visual loss?",
+    image: "images/IMG_0509.jpeg",
+    question: "A 7-year-old child presents with pallor, scleral icterus, and palpable splenomegaly. A family history of childhood gallstones and splenectomy is noted in the father. A peripheral blood smear shows numerous small, dense erythrocytes completely lacking central pallor. Which of the following specific red blood cell indices is characteristically elevated in this patient's condition?",
     options: [
-      "Ultraviolet rays causing photokeratitis",
-      "Ultraviolet rays causing a rosette cataract",
-      "Infrared rays causing Berlin edema",
-      "Infrared rays causing photoretinitis"
+      "Mean Corpuscular Volume (MCV)",
+      "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+      "Mean Corpuscular Hemoglobin (MCH)",
+      "Total Erythrocyte Count"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Infrared rays causing photoretinitis"
+    answerIndex: 1,
+    correctAnswerText: "Mean Corpuscular Hemoglobin Concentration (MCHC)"
   },
   {
     id: 155,
-    image: "images/IMG_9953.jpeg",
-    question: "A 45-year-old carpenter with a history of an untreated penetrating eye injury from a chisel and hammer two years ago presents with gradually diminishing vision. Slit-lamp examination reveals a uniquely hyperpigmented iris and intraocular pressure monitoring confirms secondary open-angle glaucoma in the affected eye. The most likely retained intraocular foreign body is composed of which of the following materials?",
+    image: "images/IMG_0510.jpeg",
+    question: "A 25-year-old male develops acute jaundice and dark urine three days after starting primaquine therapy. A routine peripheral blood smear reveals numerous 'bite cells'. Which of the following specific stains is strictly required to directly visualize the underlying denatured hemoglobin precipitates causing these abnormal cell shapes?",
     options: [
-      "Iron",
-      "Copper",
-      "Glass",
-      "Gold"
+      "Perl's Prussian blue stain",
+      "Routine Romanowsky stain",
+      "Supravital stain",
+      "Periodic acid-Schiff stain"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Iron"
+    answerIndex: 2,
+    correctAnswerText: "Supravital stain"
   },
   {
     id: 156,
     image: "",
-    question: "A 55-year-old male with obstructive sleep apnea and diabetes presents with sudden, moderate vision loss in his right eye, which he noticed immediately upon waking up. He explicitly denies any prior episodes of transient vision loss (amaurosis fugax). Examination reveals an altitudinal visual field defect and a hyperemic optic disc. Which of the following is the primary underlying pathophysiology?",
+    question: "A 2-month-old infant, born to parents with sickle cell trait, presents for a routine check-up. The infant is completely asymptomatic, and a peripheral blood smear shows no abnormal red blood cell shapes. Which of the following is the primary reason for the absence of clinical manifestations and sickling at this specific age?",
     options: [
-      "Giant cell arteritis",
-      "Nocturnal hypoperfusion of the short posterior ciliary artery",
-      "Retinal photoreceptor degeneration",
-      "Chronic papilloedema"
+      "Complete absence of mutated beta-globin chains in the marrow",
+      "Neonatal red blood cells are structurally immune to hypoxic stress",
+      "High levels of circulating maternal IgG antibodies preventing red cell lysis",
+      "High levels of fetal hemoglobin acting as a potent polymerization inhibitor"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Nocturnal hypoperfusion of the short posterior ciliary artery"
+    answerIndex: 3,
+    correctAnswerText: "High levels of fetal hemoglobin acting as a potent polymerization inhibitor"
   },
   {
     id: 157,
-    image: "",
-    question: "A 28-year-old obese female presents with chronic severe headaches and new-onset horizontal diplopia. Fundus examination reveals bilateral disc edema. MRI of the brain is completely normal, but a lumbar puncture shows significantly elevated opening pressure. Which of the following medications in her recent history is the most likely precipitating factor?",
+    image: "images/IMG_0511.jpeg",
+    question: "An 8-month-old infant presents with severe anemia, marked hepatosplenomegaly, and frontal bossing. A peripheral blood smear shows microcytic hypochromic red cells, teardrop cells, and target cells. Despite the profound anemia and massive erythroid hyperplasia, the infant's reticulocyte count is paradoxically low. Which of the following is the primary mechanism responsible for this specific finding?",
     options: [
-      "Ethambutol",
-      "Amiodarone",
-      "Tetracycline",
-      "Isoniazid"
+      "Apoptosis of erythroid precursors within the bone marrow",
+      "Autoimmune destruction of circulating mature red blood cells",
+      "Suppression of renal erythropoietin production",
+      "Massive splenic sequestration of newly formed reticulocytes"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Tetracycline"
+    answerIndex: 0,
+    correctAnswerText: "Apoptosis of erythroid precursors within the bone marrow"
   },
   {
     id: 158,
     image: "",
-    question: "A 4-month-old infant is brought to the clinic with persistent watering and mild discharge from the left eye since birth. The ophthalmologist suspects a delayed canalization at the distal end of the tear drainage pathway. The membranous obstruction in this condition is most likely located at the valve that opens into which of the following nasal structures?",
+    question: "A 35-year-old male with a known history of severe Hemophilia A presents to the emergency department with a spontaneous massive hemarthrosis of the right knee. If a Thromboelastography (TEG) is performed to assess his global hemostasis, which of the following specific parameters will be most prominently prolonged?",
     options: [
-      "Superior meatus",
-      "Middle meatus",
-      "Sphenoethmoidal recess",
-      "Inferior meatus"
+      "Maximum Amplitude (MA)",
+      "Reaction time (R)",
+      "Alpha angle",
+      "Lysis at 30 minutes (Ly30)"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Inferior meatus"
+    answerIndex: 1,
+    correctAnswerText: "Reaction time (R)"
   },
   {
     id: 159,
     image: "",
-    question: "A 40-year-old patient presents with chronic epiphora in the left eye. During diagnostic lacrimal syringing, the ophthalmologist observes that saline instilled into the left canaliculus regurgitates back through the opposite (right) punctum. Which of the following is the most likely anatomical site of obstruction?",
+    question: "A 50-year-old male, immobilized for two weeks following major orthopedic surgery, develops a swollen, tense, and painful right calf. Doppler ultrasound confirms an extensive deep vein thrombosis. Which of the following is the most accurate characteristic regarding the primary pathogenesis and management of this specific type of thrombus?",
     options: [
-      "Left Canaliculus",
-      "Left Common Canaliculus",
-      "Left Nasolacrimal duct (NLD)",
-      "Lacrimal pump mechanism"
+      "It forms primarily due to high-velocity turbulence causing direct endothelial injury",
+      "It is a compact \"white thrombus\" predominantly composed of aggregated platelets",
+      "It is a large \"red thrombus\" formed mainly due to stasis and RBC margination",
+      "The ideal primary pharmacological prophylaxis is an antiplatelet agent like Aspirin"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Left Common Canaliculus"
+    answerIndex: 2,
+    correctAnswerText: "It is a large \"red thrombus\" formed mainly due to stasis and RBC margination"
   },
   {
     id: 160,
-    image: "images/IMG_9954.jpeg",
-    question: "A 60-year-old female presents with painless blurring of vision that is classically maximal in the morning upon waking up and gradually improves as the day progresses. Slit-lamp examination reveals a \"beaten bronze\" appearance of the posterior cornea. What is the definitive surgical management of choice for her condition?",
+    image: "",
+    question: "A 35-year-old female presents with recurrent petechiae, purpura, and severe menorrhagia. Her coagulation profile is normal, but her bleeding time is prolonged. Complete blood count reveals severe thrombocytopenia. Further analysis indicates an immature platelet fraction (IPF) of strictly 2%. Which of the following represents the primary pathogenesis and corresponding bone marrow finding in this patient?",
     options: [
-      "Phototherapeutic Keratectomy (PTK)",
-      "Anterior Lamellar Keratoplasty (ALK)",
-      "Descemet Stripping Endothelial Keratoplasty (DSEK)",
-      "Snip procedure"
+      "Increased peripheral destruction with increased megakaryocytes",
+      "Increased peripheral destruction with decreased megakaryocytes",
+      "Decreased bone marrow production with low thrombopoietin",
+      "Decreased bone marrow production with decreased megakaryocytes"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Descemet Stripping Endothelial Keratoplasty (DSEK)"
+    answerIndex: 3,
+    correctAnswerText: "Decreased bone marrow production with decreased megakaryocytes"
   },
   {
     id: 161,
-    image: "images/IMG_9956.jpeg",
-    question: "A neonate presents with persistent inward turning of the lower eyelid margin. Clinical examination reveals an underlying dysgenesis of the lower lid retractors. What is the most appropriate definitive surgical management for this patient?",
+    image: "",
+    question: "A 5-year-old boy presents with a sudden onset of widespread petechiae and purpura. His mother reports he had a mild viral upper respiratory tract infection two weeks ago. Complete blood count reveals severe isolated thrombocytopenia. Physical examination shows no palpable hepatosplenomegaly. What is the most appropriate initial management for this child?",
     options: [
-      "Jones procedure",
-      "Weiss procedure",
-      "Anterior lamella repositioning",
-      "Holtz procedure"
+      "Reassurance and clinical observation",
+      "Prophylactic platelet transfusion",
+      "Intravenous Immunoglobulin (IVIg)",
+      "Immediate surgical splenectomy"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Holtz procedure"
+    answerIndex: 0,
+    correctAnswerText: "Reassurance and clinical observation"
   },
   {
     id: 162,
-    image: "images/IMG_9957.jpeg",
-    question: "A 75-year-old male presents with outward turning of his lower eyelid margin causing chronic watering. Clinical examination confirms senile ectropion with generalized horizontal laxity and a significant amount of excess eyelid skin. What is the most appropriate surgical procedure for this specific presentation?",
+    image: "",
+    question: "A 32-year-old female presents with fever, altered sensorium, and widespread petechiae. Peripheral smear reveals severely decreased platelets and numerous fragmented red blood cells (schistocytes). She is diagnosed with an acquired deficiency of a specific plasma metalloprotease. What is the normal physiological function of this deficient enzyme in a healthy individual?",
     options: [
-      "Kuhnt-Szymanowski procedure",
-      "Z-plasty excision",
-      "Pentagon excision",
-      "Lateral tarsorrhaphy"
+      "Cleaving circulating fibrinogen into insoluble fibrin",
+      "Degrading ultra-large von Willebrand factor multimers",
+      "Activating plasminogen to dissolve existing clots",
+      "Inhibiting platelet surface glycoprotein IIb/IIIa"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Kuhnt-Szymanowski procedure"
+    answerIndex: 1,
+    correctAnswerText: "Degrading ultra-large von Willebrand factor multimers"
   },
   {
     id: 163,
-    image: "images/IMG_9958.jpeg",
-    question: "A 30-year-old male presents with restricted ocular motility and chronic discomfort a few months after suffering a severe alkali chemical burn to his right eye. Slit-lamp examination reveals a thick, fibrous scar tissue band firmly fusing the inner surface of his lower eyelid directly to the eyeball. What is the precise clinical term for this pathological adhesion?",
+    image: "",
+    question: "A 55-year-old male admitted for deep vein thrombosis is started on therapeutic anticoagulation. On day 6 of admission, his platelet count drops by 50%, and he develops a new acute pulmonary embolism. What is the fundamental pathogenesis driving this severe and paradoxical clinical presentation?",
     options: [
-      "Ankyloblepharon",
-      "Symblepharon",
-      "Cryptophthalmos",
-      "Coloboma"
+      "Toxic suppression of bone marrow megakaryocytes",
+      "Direct non-immune platelet aggregation by the drug",
+      "IgG antibodies against the Heparin-Platelet Factor 4 complex",
+      "IgM-mediated complement lysis of peripheral platelets"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Symblepharon"
+    answerIndex: 2,
+    correctAnswerText: "IgG antibodies against the Heparin-Platelet Factor 4 complex"
   },
   {
     id: 164,
     image: "",
-    question: "A patient is positioned exactly 60 meters away from a standard Snellen visual acuity chart. At this specific distance, how much total angle does the topmost letter on the chart subtend at the nodal point of the patient's eye?",
+    question: "A 4-day-old neonate, delivered at home without any prophylactic medications, is brought to the emergency department with continuous oozing from the umbilical cord stump. Initial coagulation studies reveal an isolated prolongation of Prothrombin Time (PT) while the Activated Partial Thromboplastin Time (APTT) remains strictly normal. This specific initial laboratory presentation is primarily due to the rapid plasma depletion of which of the following coagulation factors?",
     options: [
-      "60 minutes of arc",
-      "1 minute of arc",
-      "5 minutes of arc",
-      "6 minutes of arc"
+      "Factor II",
+      "Factor IX",
+      "Factor X",
+      "Factor VII"
     ],
-    answerIndex: 2,
-    correctAnswerText: "5 minutes of arc"
+    answerIndex: 3,
+    correctAnswerText: "Factor VII"
   },
   {
     id: 165,
     image: "",
-    question: "A 25-year-old patient is undergoing a routine neuro-ophthalmological examination. The physician shines a bright penlight exclusively into the patient's right eye to evaluate pupillary reflexes. Which of the following anatomical structures is strictly NOT involved in generating the resulting direct and consensual pupillary responses?",
+    question: "A 28-year-old female undergoes routine pre-operative screening before an elective cholecystectomy. Her laboratory results reveal a markedly prolonged Activated Partial Thromboplastin Time (APTT) with a normal Prothrombin Time (PT) and normal platelet count. She has absolutely no history of mucosal or deep bleeding, but her medical records indicate a previous episode of deep vein thrombosis (DVT). Which of the following is the most likely diagnosis?",
     options: [
-      "Ipsilateral optic nerve",
-      "Pretectal nuclei",
-      "Contralateral oculomotor nerve",
-      "Contralateral optic nerve"
+      "Factor XII deficiency",
+      "Factor VIII deficiency",
+      "Type I von Willebrand disease",
+      "Vitamin K deficiency"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Contralateral optic nerve"
+    answerIndex: 0,
+    correctAnswerText: "Factor XII deficiency"
   },
   {
     id: 166,
-    image: "images/IMG_9974.jpeg",
-    question: "A diabetic patient presents two days after an uneventful cataract surgery with severe ocular pain, profound redness, and rapidly declining vision. Slit-lamp examination reveals a distinct hypopyon in the anterior chamber and prominent exudates in the vitreous cavity. What is the absolute first step in the management of this patient?",
+    image: "",
+    question: "A 45-year-old patient admitted with severe sepsis develops sudden, widespread bleeding from multiple intravenous puncture sites. A coagulation profile is ordered to confirm the diagnosis of a consumptive coagulopathy. Which of the following laboratory parameters is the most sensitive and specific marker for this condition?",
     options: [
-      "Intravitreal antibiotics",
-      "Intravitreal steroids",
-      "Intravenous mannitol",
-      "Intravenous antibiotics"
+      "Decreased fibrinogen levels",
+      "Elevated D-Dimer levels",
+      "Prolonged Prothrombin Time (PT)",
+      "Decreased platelet count"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Intravitreal antibiotics"
+    answerIndex: 1,
+    correctAnswerText: "Elevated D-Dimer levels"
   },
   {
     id: 167,
-    image: "images/IMG_9961.jpeg",
-    question: "A 1-year-old child presents with progressive muscle weakness and delayed developmental milestones. Fundus examination reveals a prominent cherry-red spot at the macula. Abdominal examination specifically notes the complete absence of hepatosplenomegaly. Which of the following is the most likely diagnosis?",
+    image: "",
+    question: "A 45-year-old male presents with pancytopenia and hepatosplenomegaly. A bone marrow aspirate is hypercellular, packed with large neoplastic cells approximately 3 to 4 times the size of a normal red blood cell. These cells prominently display abundant and densely granular cytoplasm. Based strictly on these fundamental morphological features, what is the most likely origin of these cells?",
     options: [
-      "Niemann-Pick disease",
-      "Tay-Sachs disease",
-      "Gaucher disease",
-      "Hunter syndrome"
+      "Mature peripheral lymphocytes",
+      "Immature lymphoid precursors",
+      "Immature myeloid precursors",
+      "Mature peripheral neutrophils"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Tay-Sachs disease"
+    answerIndex: 2,
+    correctAnswerText: "Immature myeloid precursors"
   },
   {
     id: 168,
     image: "",
-    question: "A 45-year-old patient presents with visual disturbances following the resection of a suprasellar tumor. Detailed perimetry reveals an incongruous homonymous hemianopia. Upon careful pupillary examination using a narrow beam of light, the physician notes that light shone directly onto the blind half of the retina produces no pupillary constriction, whereas light shone onto the seeing half produces a normal response. This specific clinical presentation localizes the lesion to which of the following anatomical structures?",
+    question: "A 60-year-old male with a long-standing history of chronic scaly skin patches develops intense generalized erythroderma. A peripheral blood smear is ordered which reveals atypical lymphocytes with highly folded, brain-like \"cerebriform\" nuclei. Which of the following is the most accurate diagnosis for this specific disseminated phase?",
     options: [
-      "Optic nerve",
-      "Optic radiation",
-      "Optic tract",
-      "Visual cortex"
+      "Diffuse Large B-cell Lymphoma",
+      "Follicular Lymphoma",
+      "Mycosis Fungoides",
+      "Sezary Syndrome"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Optic tract"
+    answerIndex: 3,
+    correctAnswerText: "Sezary Syndrome"
   },
   {
     id: 169,
-    image: "",
-    question: "A 55-year-old male is being evaluated for primary open-angle glaucoma. The ophthalmologist measures his intraocular pressure using the gold-standard instrument mounted on a slit lamp, which works by flattening a constant area of the central cornea. Which of the following physical principles forms the basis of this specific measurement technique?",
+    image: "images/IMG_0512.jpeg",
+    question: "A 16-year-old boy presents with a rapidly expanding abdominal mass localized to the ileocecal region. A tissue biopsy is performed, and histopathological examination reveals a classic \"starry sky\" pattern. In this specific histological appearance, what do the \"stars\" strictly represent?",
     options: [
-      "Snell's law of refraction",
-      "Geometry of a spherical reflecting surface",
-      "Michelson interferometer principle",
-      "Imbert-Fick law"
+      "Macrophages engulfing cellular debris",
+      "Neoplastic B-cell lymphoid blasts",
+      "Perinuclear lipid vacuoles",
+      "Epstein-Barr viral inclusions"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Imbert-Fick law"
+    answerIndex: 0,
+    correctAnswerText: "Macrophages engulfing cellular debris"
   },
   {
     id: 170,
-    image: "images/IMG_9962.jpeg",
-    question: "A 12-year-old child presents with chronic ocular irritation and a persistent foreign body sensation. Slit-lamp examination reveals a completely normal anterior lid margin, but an abnormal, extra row of eyelashes is seen emerging directly from the meibomian gland orifices on the posterior aspect of the eyelid margin. What is the precise clinical diagnosis?",
+    image: "images/IMG_0513.jpeg",
+    question: "A 65-year-old asymptomatic male is incidentally found to have marked absolute lymphocytosis on a routine check-up. A peripheral blood smear shows numerous mature lymphocytes and frequent 'smudge cells'. To confirm the diagnosis, flow cytometry is performed. Along with CD20 and CD23, these specific neoplastic cells will classically show aberrant positivity for which of the following markers?",
     options: [
-      "Distichiasis",
-      "Trichiasis",
-      "Tylosis",
-      "Madarosis"
+      "CD10",
+      "CD5",
+      "CD3",
+      "CD15"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Distichiasis"
+    answerIndex: 1,
+    correctAnswerText: "CD5"
   },
   {
     id: 171,
-    image: "",
-    question: "A 22-year-old patient presents with an unusual, intermittent protrusion of his right eyeball that specifically occurs only when he coughs, bends forward, or strains. Radiologic imaging confirms a vascular anomaly. Which of the following clinical or radiological features is strictly NOT associated with this condition?",
+    image: "images/IMG_0514.jpeg",
+    question: "A 62-year-old male presents with fatigue, recurrent atypical mycobacterial infections, and massive splenomegaly. Physical examination is notable for a strict absence of palpable lymphadenopathy. A peripheral blood smear shows atypical mononuclear cells with fine, irregular cytoplasmic projections. Bone marrow aspiration yields a 'dry tap'. Which of the following is the most accurate characteristic regarding this patient's specific condition?",
     options: [
-      "Presence of phleboliths",
-      "Positive orbital bruit",
-      "Thin-walled orbital veins",
-      "Exophthalmos on Valsalva maneuver"
+      "The disease predominantly infiltrates and expands the splenic white pulp",
+      "The initial drug of choice for severe neutropenia is Cladribine",
+      "Bone marrow biopsy reveals fibrosis with a 'fried egg' appearance",
+      "The neoplastic cells are classically negative for the TRAP stain"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Positive orbital bruit"
+    answerIndex: 2,
+    correctAnswerText: "Bone marrow biopsy reveals fibrosis with a 'fried egg' appearance"
   },
   {
     id: 172,
-    image: "images/IMG_9963.jpeg",
-    question: "A 30-year-old male with a history of ankylosing spondylitis presents with a painful, photophobic red eye. Slit-lamp examination reveals a \"headlight in the fog\" appearance due to the presence of flare in the anterior chamber. This specific clinical sign is a direct result of the inflammatory breakdown of which of the following physiological structures?",
+    image: "",
+    question: "A 5-year-old child is diagnosed with B-cell Acute Lymphoblastic Leukaemia (B-ALL). Bone marrow flow cytometry reveals precursor blasts that are strongly positive for CD10, CD19, CD22, and TdT. During risk stratification, which of the following specific findings would independently classify this patient into a strictly high-risk, poor prognostic category?",
     options: [
-      "Inner blood-retinal barrier",
-      "Outer blood-retinal barrier",
-      "Blood-aqueous barrier",
-      "Blood-choroid barrier"
+      "Total Leukocyte Count (TLC) of 30,000/cu mm",
+      "Rapid clearance of peripheral blasts following Prednisone therapy",
+      "Age of disease onset at exactly 5 years",
+      "Presence of extramedullary leukaemic infiltration in the testes"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Blood-aqueous barrier"
+    answerIndex: 3,
+    correctAnswerText: "Presence of extramedullary leukaemic infiltration in the testes"
   },
   {
     id: 173,
-    image: "images/IMG_9965.jpeg",
-    question: "A 20-year-old male presents with sudden, painful vision loss in his left eye. Examination reveals a markedly hazy cornea and a V-shaped bulging of the lower eyelid when looking down. Retinoscopy demonstrates a scissoring reflex, and an oil droplet reflex is noted bilaterally. What is the most likely diagnosis for his acute left eye presentation?",
+    image: "",
+    question: "A 68-year-old male undergoes routine screening and is completely asymptomatic. Laboratory investigations reveal an isolated serum M-protein spike of 2.1 g/dL. A subsequent bone marrow biopsy demonstrates 6% monoclonal plasma cells. His serum calcium, renal function, hemoglobin, and skeletal survey are entirely within normal limits. Based on these strict criteria, what is the most definitive diagnosis?",
     options: [
-      "Pathological myopia",
-      "Keratoglobus",
-      "Uncomplicated keratoconus",
-      "Acute hydrops in keratoconus"
+      "Monoclonal Gammopathy of Undetermined Significance (MGUS)",
+      "Smoldering Multiple Myeloma",
+      "Active Multiple Myeloma",
+      "Plasma Cell Leukaemia"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Acute hydrops in keratoconus"
+    answerIndex: 0,
+    correctAnswerText: "Monoclonal Gammopathy of Undetermined Significance (MGUS)"
   },
   {
     id: 174,
     image: "",
-    question: "A 25-year-old patient undergoes complete retinoscopy and subjective refraction in the ophthalmology clinic. The final spectacle prescription is finalized as +1.00 DS / -2.00 DC @ 90°. Based on this prescription, what is the precise clinical classification of this patient's refractive error?",
+    question: "A 68-year-old male presents with progressive fatigue, mucosal bleeding, and recurrent upper respiratory tract infections. Physical examination reveals marked pallor but strictly no palpable hepatosplenomegaly. Peripheral smear shows pancytopenia. A bone marrow aspirate is mildly hypercellular with 14% blasts and numerous ring sideroblasts. Which of the following cytogenetic abnormalities in this specific condition is associated with a favorable prognosis and targeted response to Lenalidomide?",
     options: [
-      "Mixed against-the-rule astigmatism",
-      "Mixed with-the-rule astigmatism",
-      "Compound myopic astigmatism",
-      "Simple hyperopic astigmatism"
+      "Monosomy 7",
+      "5q deletion",
+      "t(9;22) translocation",
+      "t(15;17) translocation"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Mixed against-the-rule astigmatism"
+    answerIndex: 1,
+    correctAnswerText: "5q deletion"
   },
   {
     id: 175,
-    image: "",
-    question: "A 4-year-old child presents to the ophthalmology clinic with a noticeable inward deviation of both eyes, which the parents report worsens significantly when the child focuses on near toys. Cycloplegic refraction is planned to assess the underlying refractive status. This specific type of inward ocular deviation is most commonly associated with which of the following uncorrected conditions?",
+    image: "images/IMG_0515.jpeg",
+    question: "A 2-year-old child with Down syndrome presents with sudden onset pancytopenia and hepatosplenomegaly. A bone marrow aspirate is performed, revealing numerous large blast cells characterized by prominent peripheral \"membrane blebs\". Which of the following is the most likely diagnosis?",
     options: [
-      "Myopia",
-      "Hyperopia",
-      "Presbyopia",
-      "Astigmatism"
+      "Acute Lymphoblastic Leukemia (ALL)",
+      "Acute Promyelocytic Leukemia (AML M3)",
+      "Acute Megakaryoblastic Leukemia (AML M7)",
+      "Acute Monocytic Leukemia (AML M5)"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Hyperopia"
+    answerIndex: 2,
+    correctAnswerText: "Acute Megakaryoblastic Leukemia (AML M7)"
   },
   {
     id: 176,
     image: "",
-    question: "A 35-year-old stone worker presents to the emergency room with sudden severe pain and blurred vision in his right eye after a chisel slipped and struck his face. Slit-lamp examination reveals a full-thickness corneal laceration. Suspecting an intraocular foreign body, which of the following imaging modalities is absolutely detrimental and strictly contraindicated in this patient?",
+    question: "A 50-year-old male presents with fatigue, massive splenomegaly, and persistent pruritus. Complete blood count reveals a markedly elevated total leukocyte count with a \"shift to left\" showing circulating bands, metamyelocytes, myelocytes, and basophilia. Cytogenetic analysis confirms the classic Philadelphia chromosome. Which of the following is the precise genetic abnormality defining this translocation?",
     options: [
-      "Plain X-ray orbit",
-      "Non-contrast CT orbit",
-      "Magnetic Resonance Imaging (MRI)",
-      "Ultrasound B-scan"
+      "t(9;22) forming the BCR-ABL1 fusion gene",
+      "t(15;17) forming the PML-RARA fusion gene",
+      "t(8;14) forming the MYC-IGH fusion gene",
+      "t(1;19) forming the E2A-PBX1 fusion gene"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Magnetic Resonance Imaging (MRI)"
+    answerIndex: 0,
+    correctAnswerText: "t(9;22) forming the BCR-ABL1 fusion gene"
   },
   {
     id: 177,
-    image: "images/IMG_9975.jpeg",
-    question: "A 5-year-old child is brought to the OPD with a painless, slow-growing, smooth, and mobile swelling near the lateral aspect of the right eyebrow. Which of the following statements best describes the fundamental pathology of this specific lesion?",
+    image: "",
+    question: "A 62-year-old male presents with facial plethora, persistent headache, and intense pruritus after taking a hot shower. Abdominal examination reveals a palpable spleen. Laboratory investigations show a massively elevated Hemoglobin of 18.5 g/dL and Hematocrit of 56%. To definitively confirm a primary neoplastic etiology rather than a reactive condition, which of the following combined laboratory profiles is most expected?",
     options: [
-      "Disorganized proliferation of native capillary endothelial cells",
-      "Acquired cystic dilation of the main lacrimal gland ducts",
-      "Congenital entrapment of ectodermal tissue at embryonic suture lines",
-      "Rapid malignant transformation of pluripotent mesenchymal cells"
+      "Elevated serum Erythropoietin (EPO) and absent JAK2 mutation",
+      "Decreased serum Erythropoietin (EPO) and positive JAK2 mutation",
+      "Decreased serum Erythropoietin (EPO) and absent JAK2 mutation",
+      "Elevated serum Erythropoietin (EPO) and positive JAK2 mutation"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Congenital entrapment of ectodermal tissue at embryonic suture lines"
+    answerIndex: 1,
+    correctAnswerText: "Decreased serum Erythropoietin (EPO) and positive JAK2 mutation"
   },
   {
     id: 178,
-    image: "images/IMG_9967.jpeg",
-    question: "A 7-year-old child with a recent history of severe ethmoid sinusitis presents with high fever, proptosis, and painfully restricted extraocular movements. Radiological imaging confirms a localized purulent collection situated strictly between the periorbita and the medial orbital wall. According to Chandler's classification, what is the specific stage of this patient's condition?",
+    image: "",
+    question: "A trauma patient with severe bleeding and documented afibrinogenemia requires targeted blood component therapy. The blood bank immediately issues units of Cryoprecipitate. Based on standard blood bank protocols, which of the following strictly applies to this specific component?",
     options: [
-      "Stage I",
-      "Stage II",
-      "Stage IV",
-      "Stage III"
+      "It contains a comprehensive mix of all coagulation factors",
+      "It has a large standard volume of 150 ml per unit",
+      "It requires absolutely no pre-transfusion ABO testing",
+      "It is routinely stored at a temperature of 2 to 6 degrees Celsius"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Stage III"
+    answerIndex: 2,
+    correctAnswerText: "It requires absolutely no pre-transfusion ABO testing"
   },
   {
     id: 179,
-    image: "images/IMG_9968.jpeg",
-    question: "A 70-year-old male scheduled for cataract surgery presents with a \"moth-eaten\" pupillary ruff and a distinctive \"bull's eye\" pattern on the anterior lens capsule upon slit-lamp examination. Gonioscopy of this patient's anterior chamber angle is most likely to reveal which of the following classical findings?",
+    image: "",
+    question: "A 30-year-old female with known severe IgA deficiency requires a blood transfusion for symptomatic anemia. To specifically prevent a life-threatening anaphylactic reaction, which modified blood product must be administered to this patient?",
     options: [
-      "Blood in Schlemm's canal",
-      "Peripheral anterior synechiae",
-      "Krukenberg spindle",
-      "Sampaolesi's line"
+      "Irradiated red blood cells",
+      "Leukocyte-depleted red blood cells",
+      "Fresh blood (< 7 days old)",
+      "Saline-washed red blood cells"
     ],
     answerIndex: 3,
-    correctAnswerText: "Sampaolesi's line"
+    correctAnswerText: "Saline-washed red blood cells"
   },
   {
     id: 180,
     image: "",
-    question: "A 24-year-old male with moderate keratoconus is intolerant to rigid gas-permeable contact lenses. He undergoes implantation of PMMA semicircular ring segments into his mid-peripheral cornea. What is the primary mechanism of action of this specific intervention?",
+    question: "A 45-year-old male develops severe dyspnea and bilateral crepitations 2 hours after receiving a blood transfusion. His oxygen saturation drops to 88%. His blood pressure is 90/60 mmHg and serum BNP levels are strictly within normal limits. What is the fundamental pathogenesis of this specific complication?",
     options: [
-      "Flattens the central cornea by shortening the arc length of stromal lamellae",
-      "Halts disease progression by creating covalent bonds between collagen fibrils",
-      "Steepens the central cornea to correct hyperopic refractive error",
-      "Replaces the diseased endothelial layer to clear chronic corneal edema"
+      "Anti-HLA antibodies in donor plasma killing pulmonary endothelium",
+      "Acute volume overload causing cardiogenic pulmonary edema",
+      "Recipient IgE reacting to donor plasma allergens",
+      "Massive cytokine release from stored donor leukocytes"
     ],
     answerIndex: 0,
-    correctAnswerText: "Flattens the central cornea by shortening the arc length of stromal lamellae"
-  }
-]
+    correctAnswerText: "Anti-HLA antibodies in donor plasma killing pulmonary endothelium"
+  },
+];
