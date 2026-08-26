@@ -1,1867 +1,1294 @@
 // Format: { id, image, question, options[], answerIndex, correctAnswerText }
-
 window.questions = [
   {
     id: 1,
     image: "",
-    question: "A 55-year-old heart failure patient on a dual neprilysin and ACE inhibitor develops severe, life-threatening angioedema. Accumulation of which substance is primarily responsible for this adverse effect?",
+    question: "A 35-year-old woman presents with severe fatigue, weight loss, and intense salt craving. Examination reveals marked mucosal hyperpigmentation and a blood pressure of 86/54 mmHg. Lab evaluation shows significant hyponatremia and hyperkalemia. Which of the following is the most expected acid-base disturbance in this patient?",
     options: [
-      "Bradykinin",
-      "Angiotensin II",
-      "Aldosterone",
-      "Renin"
+      "Metabolic acidosis",
+      "Metabolic alkalosis",
+      "Respiratory acidosis",
+      "Respiratory alkalosis"
     ],
     answerIndex: 0,
-    correctAnswerText: "Bradykinin"
+    correctAnswerText: "Metabolic acidosis"
   },
   {
     id: 2,
     image: "",
-    question: "A patient using inhaled corticosteroids for asthma develops patchy white lesions on the tongue and buccal mucosa. He is prescribed a topical imidazole. Which of the following describes the mechanism of action of this prescribed drug?",
+    question: "A 50-year-old intubated patient is diagnosed with severe ARDS, having a PaO2/FiO2 ratio of 85 mmHg. Which of the following ventilator strategies is most recommended for this patient?",
     options: [
-      "Inhibits squalene epoxidase",
-      "Inhibits 14-alpha demethylase",
-      "Binds to ergosterol forming pores",
-      "Inhibits cell wall glucan synthesis"
+      "High PEEP and high tidal volume",
+      "High PEEP and low tidal volume",
+      "Low PEEP and low tidal volume",
+      "Low PEEP and high tidal volume"
     ],
     answerIndex: 1,
-    correctAnswerText: "Inhibits 14-alpha demethylase"
+    correctAnswerText: "High PEEP and low tidal volume"
   },
   {
     id: 3,
     image: "",
-    question: "A 28-year-old P2L2 develops severe atonic postpartum haemorrhage. Upon reviewing her medical history, you note she has a long-standing history of severe bronchial asthma. Which of the following uterotonic agents is strictly contraindicated in this patient?",
+    question: "A 45-year-old male presents with a progressive increase in his shoe size, widening of spaces between his incisors, and increased sweating. Examination reveals coarse facial features and frontal bossing. Which of the following is the confirmatory test for his suspected condition?",
     options: [
-      "Oxytocin",
-      "Methylergometrine",
-      "Carboprost",
-      "Misoprostol"
+      "Random serum Growth Hormone",
+      "Serum IGF-1 level",
+      "Oral glucose tolerance test",
+      "Overnight dexamethasone suppression"
     ],
     answerIndex: 2,
-    correctAnswerText: "Carboprost"
+    correctAnswerText: "Oral glucose tolerance test"
   },
   {
     id: 4,
-    image: "images/IMG_1379.jpeg",
-    question: "A patient on long-term therapy for atrial fibrillation develops progressive dyspnea due to pulmonary fibrosis, along with a distinct purplish skin discoloration. Which of the following is true regarding the offending drug?",
+    image: "",
+    question: "A 65-year-old male is brought to the emergency department with shallow breathing and altered sensorium. Arterial blood gas analysis on room air reveals a pH of 7.20, PaCO2 of 66 mmHg, HCO3 of 26 mEq/L, and PaO2 of 44 mmHg. Which of the following is the most likely acid-base disturbance?",
     options: [
-      "Decreases plasma levels of warfarin",
-      "Enhances CYP3A4 enzyme activity",
-      "Causes irreversible corneal deposits",
-      "Prolongs the QT interval"
+      "Metabolic acidosis",
+      "Metabolic alkalosis",
+      "Chronic respiratory acidosis",
+      "Acute respiratory acidosis"
     ],
     answerIndex: 3,
-    correctAnswerText: "Prolongs the QT interval"
+    correctAnswerText: "Acute respiratory acidosis"
   },
   {
     id: 5,
     image: "",
-    question: "A patient presents to the emergency room with severe tinnitus, hyperventilation, and hyperthermia after an intentional drug overdose. Arterial blood gas analysis reveals a mixed acid-base disorder. Which of the following is the specific agent used to alkalinize the urine and enhance the excretion of this toxin?",
+    question: "A 30-year-old male with a history of asthma continues to experience daytime symptoms four days a week and nocturnal awakenings three times a month despite the regular use of salbutamol and ipratropium inhalers. Which of the following is the most appropriate next step in his management?",
     options: [
-      "Sodium bicarbonate",
-      "Ammonium chloride",
-      "N-acetylcysteine",
-      "Fomepizole"
+      "Add an inhaled corticosteroid and a long-acting beta-agonist",
+      "Start oral theophylline maintenance therapy",
+      "Switch to a leukotriene receptor antagonist alone",
+      "Prescribe daily oral corticosteroids"
     ],
     answerIndex: 0,
-    correctAnswerText: "Sodium bicarbonate"
+    correctAnswerText: "Add an inhaled corticosteroid and a long-acting beta-agonist"
   },
   {
     id: 6,
     image: "",
-    question: "A hypertensive patient abruptly stops his medication and presents to the emergency room with a severe headache, dizziness, and a blood pressure of 210/120 mmHg. He was on a centrally acting sympatholytic agent. Which of the following receptor changes primarily explains this acute crisis?",
+    question: "A 26-year-old pregnant woman is evaluated in the clinic after her roommate was hospitalized with Neisseria meningitidis meningitis. She requires chemoprophylaxis to eradicate nasopharyngeal carriage. Which of the following is the preferred agent for this patient?",
     options: [
-      "Upregulation of beta-2 receptors",
-      "Upregulation of alpha-1 receptors",
-      "Downregulation of alpha-2 receptors",
-      "Downregulation of beta-1 receptors"
+      "Oral Rifampicin",
+      "Intramuscular Ceftriaxone",
+      "Oral Ciprofloxacin",
+      "Oral Azithromycin"
     ],
     answerIndex: 1,
-    correctAnswerText: "Upregulation of alpha-1 receptors"
+    correctAnswerText: "Intramuscular Ceftriaxone"
   },
   {
     id: 7,
     image: "",
-    question: "A 45-year-old female patient develops severe bruising and petechiae following her third cycle of chemotherapy. Laboratory investigations reveal a profound drop in her platelet count. Which of the following agents is specifically approved to stimulate megakaryocyte production in this condition?",
+    question: "A 72-year-old male presents with acute onset of severe pain, swelling, and restricted movement in his right knee. A radiograph of the knee reveals linear calcification of the articular cartilage. Synovial fluid aspiration is performed. Which of the following crystal characteristics under polarized light microscopy confirms his most likely diagnosis?",
     options: [
-      "Filgrastim",
-      "Aldesleukin",
-      "Oprelvekin",
-      "Epoetin alfa"
+      "Needle-shaped, strongly negatively birefringent",
+      "Rhomboid-shaped, strongly negatively birefringent",
+      "Rhomboid-shaped, weakly positively birefringent",
+      "Needle-shaped, weakly positively birefringent"
     ],
     answerIndex: 2,
-    correctAnswerText: "Oprelvekin"
+    correctAnswerText: "Rhomboid-shaped, weakly positively birefringent"
   },
   {
     id: 8,
     image: "",
-    question: "A 58-year-old hypertensive patient is started on a specific angiotensin II receptor blocker (ARB). Upon reviewing the drug's pharmacological profile, you note that unlike other medications in its class, this specific agent also mildly inhibits platelet aggregation by blocking thromboxane A2 receptors. Which of the following drugs was prescribed?",
+    question: "A 42-year-old female presents with progressive thickening of the skin extending proximal to her elbows and knees, along with involvement of her trunk. Laboratory evaluation is positive for Anti-Scl-70 (anti-topoisomerase I) antibodies. Based on her specific autoantibody profile, this patient is at the highest risk for developing which of the following specific organ complications?",
     options: [
-      "Telmisartan",
-      "Valsartan",
-      "Candesartan",
-      "Losartan"
+      "CREST syndrome",
+      "Gastric antral vascular ectasia (GAVE)",
+      "Isolated pulmonary arterial hypertension",
+      "Interstitial lung disease"
     ],
     answerIndex: 3,
-    correctAnswerText: "Losartan"
+    correctAnswerText: "Interstitial lung disease"
   },
   {
     id: 9,
     image: "",
-    question: "A patient receiving digoxin develops severe nausea and vomiting. His serum digoxin concentration is checked and found to be 4 ng/mL. The upper limit of the therapeutic range is 1 ng/mL. If the plasma half-life of digoxin is 40 hours in this patient, what is the minimum time required before the drug can be safely restarted?",
+    question: "A 65-year-old man with a history of severe orthopnea undergoes a transbronchial lung biopsy. Histopathology reveals thickened interalveolar septa and numerous alveolar macrophages containing abundant golden-brown granular pigment. Which of the following is the most likely underlying cause for these specific histologic findings?",
     options: [
-      "80 hours",
-      "120 hours",
-      "40 hours",
-      "160 hours"
+      "Left-sided heart failure",
+      "Right-sided heart failure",
+      "Primary pulmonary hypertension",
+      "Idiopathic pulmonary fibrosis"
     ],
     answerIndex: 0,
-    correctAnswerText: "80 hours"
+    correctAnswerText: "Left-sided heart failure"
   },
   {
     id: 10,
     image: "",
-    question: "A farmer is brought to the emergency room with pinpoint pupils, excessive salivation, and generalized muscle fasciculations. He is aggressively treated with intravenous pralidoxime and a specific muscarinic antagonist. Several hours later, he develops a sudden high fever and completely dry skin. Which of the following is the most likely cause of this new presentation?",
+    question: "A 45-year-old male presents with altered sensorium. Laboratory investigations reveal Na+ 130 mEq/L and Cl- 84 mEq/L. Arterial blood gas analysis on room air shows pH 7.20, PaCO2 44 mmHg, and HCO3- 16 mEq/L. Which of the following is the most complete diagnosis of his acid-base status?",
     options: [
-      "Pralidoxime toxicity",
-      "Atropine toxicity",
-      "Organophosphate redistribution",
-      "Nicotinic receptor overstimulation"
+      "Isolated high anion gap metabolic acidosis",
+      "High anion gap metabolic acidosis with respiratory acidosis",
+      "Normal anion gap metabolic acidosis with respiratory acidosis",
+      "High anion gap metabolic acidosis with respiratory alkalosis"
     ],
     answerIndex: 1,
-    correctAnswerText: "Atropine toxicity"
+    correctAnswerText: "High anion gap metabolic acidosis with respiratory acidosis"
   },
   {
     id: 11,
     image: "",
-    question: "A 60-year-old man receives intravenous tissue plasminogen activator (tPA) for an acute ischemic stroke. This drug works by converting plasminogen into active plasmin to degrade the fibrin clot. Which of the following endogenous molecules is responsible for directly inhibiting this newly formed plasmin to prevent excessive systemic bleeding?",
+    question: "A 45-year-old female with a history of rheumatic fever presents with severe palpitations and orthopnea. Examination reveals an irregularly irregular pulse and an elevated jugular venous pressure with an absent 'a' wave. Auscultation at the apex reveals a mid-diastolic rumble. Which of the following classic auscultatory features of her valvular lesion is definitively lost due to her current rhythm disturbance?",
     options: [
-      "Plasminogen activator inhibitor-1",
-      "Urokinase",
-      "Alpha-2-antiplasmin",
-      "Thrombin"
+      "Loud S1",
+      "Opening snap",
+      "Pre-systolic accentuation",
+      "Tapping apex beat"
     ],
     answerIndex: 2,
-    correctAnswerText: "Alpha-2-antiplasmin"
+    correctAnswerText: "Pre-systolic accentuation"
   },
   {
     id: 12,
     image: "",
-    question: "A patient undergoing his first aggressive hemodialysis session acutely develops a severe headache, restlessness, and muscle cramps. This presentation is suspected to be driven by a rapid fluid shift into the intracellular compartment. Which of the following agents is specifically indicated to reverse this fluid shift by increasing extracellular osmolality?",
+    question: "A 42-year-old female presents with bilateral hand pain, swelling of the MCP and PIP joints, and morning stiffness lasting over two hours. Her anti-CCP antibodies are strongly positive. If a radiograph of her hands is taken at the very onset of the disease, which of the following is the earliest expected radiographic finding?",
     options: [
-      "Furosemide",
-      "Acetazolamide",
-      "Spironolactone",
-      "Mannitol"
+      "Marginal bone erosions",
+      "Uniform joint space narrowing",
+      "Osteophyte formation",
+      "Periarticular osteopenia"
     ],
     answerIndex: 3,
-    correctAnswerText: "Mannitol"
+    correctAnswerText: "Periarticular osteopenia"
   },
   {
     id: 13,
-    image: "images/IMG_1478.jpeg",
-    question: "A child from consumes an unknown thorny fruit and presents with delirium, flushed skin, dilated pupils, and urinary retention. Which of the following is the specific antidote of choice for this condition?",
+    image: "",
+    question: "A 65-year-old male with a history of atrial fibrillation is brought to the emergency department with sudden onset right-sided weakness and aphasia that started 2 hours ago. To determine his eligibility for standard thrombolytic therapy, which of the following is the most appropriate immediate next step?",
     options: [
-      "Physostigmine",
-      "Neostigmine",
-      "Pyridostigmine",
-      "Edrophonium"
+      "Non-contrast computed tomography (CT) of the head",
+      "Magnetic resonance imaging (MRI) of the brain with contrast",
+      "Immediate administration of chewable aspirin",
+      "Initiation of an intravenous heparin infusion"
     ],
     answerIndex: 0,
-    correctAnswerText: "Physostigmine"
+    correctAnswerText: "Non-contrast computed tomography (CT) of the head"
   },
   {
     id: 14,
     image: "",
-    question: "A schizophrenia patient is initiated on clozapine due to treatment resistance. He subsequently develops marked weight gain and new-onset hyperglycemia. Blockade of which specific receptor primarily mediates this adverse effect?",
+    question: "A 34-year-old male is newly diagnosed with HIV and miliary tuberculosis. His CD4 count is 45 cells/mm3. To prevent a potentially life-threatening complication, which of the following is the most appropriate sequence for initiating his pharmacological therapy?",
     options: [
-      "Dopamine D2",
-      "Serotonin 5-HT2C",
-      "Serotonin 5-HT2A",
-      "Muscarinic M1"
+      "Start ART immediately, followed by ATT in 2 weeks",
+      "Start ATT immediately, followed by ART in 2 weeks",
+      "Start both ATT and ART simultaneously today",
+      "Start ART and ATT together after 2 weeks of observation"
     ],
     answerIndex: 1,
-    correctAnswerText: "Serotonin 5-HT2C"
+    correctAnswerText: "Start ATT immediately, followed by ART in 2 weeks"
   },
   {
     id: 15,
     image: "",
-    question: "A 65-year-old patient is scheduled for an elective coronary artery bypass graft (CABG). Which of the following antimicrobial agents is the absolute drug of choice for surgical prophylaxis prior to the incision?",
+    question: "A 58-year-old male with a 15-year history of diabetes mellitus presents with a burning sensation and numbness starting in his toes that has gradually progressed up to his mid-calves. Neurological examination is planned. Which of the following is considered a hallmark clinical sign of his most likely condition?",
     options: [
-      "Azithromycin",
-      "Penicillin",
-      "Cefazolin",
-      "Doxycycline"
+      "Exaggerated knee jerk reflex",
+      "Loss of biceps reflex",
+      "Loss of ankle reflex",
+      "Extensor plantar response"
     ],
     answerIndex: 2,
-    correctAnswerText: "Cefazolin"
+    correctAnswerText: "Loss of ankle reflex"
   },
   {
     id: 16,
     image: "",
-    question: "A 12-year-old boy is found to have blood pressure consistently above the 95th percentile. The medical officer explains to the parents that his blood pressure percentile is highly likely to remain in this upper range as he grows into adulthood. Which epidemiological term best describes this persistence of rank order?",
+    question: "A 25-year-old male with Type 1 Diabetes is receiving intravenous fluid resuscitation and a continuous regular insulin infusion for Diabetic Ketoacidosis. His blood glucose has now decreased to 210 mg/dL. Which of the following is the definitive physiological endpoint to discontinue his intravenous insulin infusion?",
     options: [
-      "Regression to the mean",
-      "Iceberg phenomenon",
-      "Rule of halves",
-      "Tracking of blood pressure"
+      "Blood glucose falls below 200 mg/dL",
+      "Patient regains normal sensorium",
+      "Serum potassium stabilizes at 4.5 mEq/L",
+      "Closure of the serum anion gap"
     ],
     answerIndex: 3,
-    correctAnswerText: "Tracking of blood pressure"
+    correctAnswerText: "Closure of the serum anion gap"
   },
   {
     id: 17,
     image: "",
-    question: "While coordinating the public health statistics, you review a case of a 30-year-old male who died suddenly in a road traffic accident. Assuming the standard regional life expectancy is 75 years, which of the following specific epidemiological indices best quantifies the 45 years of life this individual was deprived of?",
+    question: "A 55-year-old male presents with sudden-onset dyspnea, pleuritic chest pain, and hemoptysis 5 days after undergoing a total hip replacement. His vitals reveal a heart rate of 115/min and a stable blood pressure of 124/82 mmHg. Which of the following is the gold standard imaging modality to confirm his suspected diagnosis?",
     options: [
-      "Years of potential life lost",
-      "Disability-adjusted life years",
-      "Quality-adjusted life years",
-      "Sullivan's index"
+      "CT Pulmonary Angiography (CTPA)",
+      "Non-contrast Chest X-ray",
+      "Ventilation-Perfusion (V/Q) Scan",
+      "Plasma D-dimer assay"
     ],
     answerIndex: 0,
-    correctAnswerText: "Years of potential life lost"
+    correctAnswerText: "CT Pulmonary Angiography (CTPA)"
   },
   {
     id: 18,
-    image: "images/IMG_1479.jpeg",
-    question: "During an outbreak, several individuals from a drought-affected region present with progressive muscular stiffness in their lower limbs, with some requiring a stick for ambulation. The condition is traced to a diet heavily reliant on a specific pulse containing Beta-oxalyl amino alanine (BOAA). Which of the following is the recommended prophylactic intervention for the at-risk population still in the latent stage?",
+    image: "",
+    question: "A 45-year-old chronic alcoholic presents to the emergency department with severe symptomatic hyponatremia (serum Na+ 108 mEq/L). He is treated aggressively with 3% hypertonic saline. Three days later, he develops progressive dysarthria, dysphagia, and quadriparesis. Which of the following is the most appropriate next diagnostic step to confirm his suspected condition?",
     options: [
-      "Vitamin B12 1000 mcg per day",
-      "Vitamin C 500-1000 mg per day",
-      "Vitamin A 200,000 IU every 6 months",
-      "Vitamin E 400 IU per day"
+      "Non-contrast CT scan of the brain",
+      "MRI of the brain",
+      "Lumbar puncture for CSF analysis",
+      "Electroencephalography (EEG)"
     ],
     answerIndex: 1,
-    correctAnswerText: "Vitamin C 500-1000 mg per day"
+    correctAnswerText: "MRI of the brain"
   },
   {
     id: 19,
     image: "",
-    question: "A researcher uses 1990 occupational records to divide factory workers into aniline dye-exposed and unexposed groups. He then evaluates their current medical records to determine the incidence of bladder cancer in both groups today. Which of the following best describes this study design?",
+    question: "An 8-year-old boy with chronic kidney disease presents with diffuse bone pain and growth retardation. Radiographs reveal metaphyseal widening and a \"rugger jersey\" spine. Laboratory evaluation shows hypocalcemia and significantly elevated parathyroid hormone (PTH) levels. Which of the following is the primary mechanism responsible for his reduced calcitriol synthesis?",
     options: [
-      "Case-control study",
-      "Prospective cohort study",
-      "Retrospective cohort study",
-      "Cross-sectional study"
+      "Decreased hepatic 25-hydroxylase activity",
+      "Primary destruction of parathyroid glands",
+      "Suppression of 1-alpha-hydroxylase by FGF-23",
+      "Increased intestinal absorption of phosphate"
     ],
     answerIndex: 2,
-    correctAnswerText: "Retrospective cohort study"
+    correctAnswerText: "Suppression of 1-alpha-hydroxylase by FGF-23"
   },
   {
     id: 20,
     image: "",
-    question: "A pregnant woman in a rural village is identified as having a severe risk of Vitamin A deficiency due to a poor diet. Which of the following grassroots-level workers is primarily responsible for conducting home visits to counsel her on nutrition and mobilizing her to access the local health center?",
+    question: "A 54-year-old female with a history of a mechanical mitral valve replacement presents with palpitations. Her ECG confirms atrial fibrillation. She requires long-term anticoagulation for stroke prevention. Which of the following agents is the most appropriate and strictly indicated choice for this patient?",
     options: [
-      "Anganwadi Worker",
-      "Medical Officer",
-      "Auxiliary Nurse Midwife",
-      "Accredited Social Health Activist"
+      "Apixaban",
+      "Dabigatran",
+      "Rivaroxaban",
+      "Warfarin"
     ],
     answerIndex: 3,
-    correctAnswerText: "Accredited Social Health Activist"
+    correctAnswerText: "Warfarin"
   },
   {
     id: 21,
     image: "",
-    question: "A 28-year-old female presents to the primary health centre complaining of foul-smelling vaginal discharge and intense vulvar itching. The medical officer decides to treat her empirically for vaginitis using the national syndromic management guidelines. Which of the following colour-coded STD kits should be dispensed to this patient?",
+    question: "A 28-year-old male is brought to the emergency department after sustaining a stab wound to the anterior abdomen. On examination, his blood pressure is 85/50 mmHg, heart rate is 125/min, and his abdomen is rigid with diffuse rebound tenderness. Which of the following is the most appropriate next step in management?",
     options: [
-      "Green kit",
-      "Red kit",
-      "Yellow kit",
-      "Grey kit"
+      "Emergency exploratory laparotomy",
+      "Diagnostic laparoscopy",
+      "Focused Assessment with Sonography for Trauma (FAST)",
+      "Contrast-enhanced CT of the abdomen"
     ],
     answerIndex: 0,
-    correctAnswerText: "Green kit"
+    correctAnswerText: "Emergency exploratory laparotomy"
   },
   {
     id: 22,
     image: "",
-    question: "A 10-year-old boy presents to the primary health center for his routine school-age immunization checkup. According to the National Immunization Schedule, which of the following vaccines is specifically indicated to be administered at this age to prevent waning childhood immunity?",
+    question: "A 60-year-old obese female with long-standing varicose veins presents with severe induration of her lower left leg. On examination, the skin over the affected area is chronically inflamed, fibrosed, and feels exceptionally tight and \"woody,\" leading to early Achilles tendon contracture. According to the CEAP classification, how is this specific clinical finding categorized?",
     options: [
-      "DPT vaccine",
-      "Td vaccine",
-      "Pentavalent vaccine",
-      "PCV booster"
+      "Class C4a",
+      "Class C4b",
+      "Class C5",
+      "Class C6"
     ],
     answerIndex: 1,
-    correctAnswerText: "Td vaccine"
+    correctAnswerText: "Class C4b"
   },
   {
     id: 23,
     image: "",
-    question: "A premier medical institute, AIIMS New Delhi, was established with financial assistance under a multilateral intergovernmental initiative known as the Colombo Plan. Which specific non-regional member country provided this crucial funding?",
+    question: "A 40-year-old male presents with a purulent discharge from the perianal region. On clinical examination, a single external fistulous opening is noted in the anterior half of the perianal region, located 4.5 cm away from the anal verge. Based on Goodsall's rule, where is the internal opening most likely located?",
     options: [
-      "United Kingdom",
-      "United States of America",
-      "New Zealand",
-      "Canada"
+      "Anterior midline",
+      "Radially straight into the nearest crypt",
+      "Posterior midline",
+      "Contralateral posterior crypt"
     ],
     answerIndex: 2,
-    correctAnswerText: "New Zealand"
+    correctAnswerText: "Posterior midline"
   },
   {
     id: 24,
     image: "",
-    question: "A 35-year-old farmer sustains a deeply contaminated, soil-crusted puncture wound from a rusty nail. He has no medical records and states he has never received any tetanus vaccinations in his lifetime. According to the standard tetanus management protocol, what is the most appropriate prophylaxis for this patient?",
+    question: "A surgical resident is closing a high-tension fascial wound. To prevent the first throw from slipping before the second throw is placed, she performs a double-wrap throw followed by a single-wrap throw in the reversed direction. Which of the following specific knots is she creating?",
     options: [
-      "Wound care + TT single dose",
-      "Wound care + TT complete course",
-      "Wound care + TT single dose + Human Tetanus Immunoglobulin",
-      "Wound care + TT complete course + Human Tetanus Immunoglobulin"
+      "Square knot",
+      "Granny knot",
+      "Slip knot",
+      "Surgeon's knot"
     ],
     answerIndex: 3,
-    correctAnswerText: "Wound care + TT complete course + Human Tetanus Immunoglobulin"
+    correctAnswerText: "Surgeon's knot"
   },
   {
     id: 25,
-    image: "images/IMG_1382.jpeg",
-    question: "A health inspector is assigned to collect a water sample from a village handpump to assess its physical properties and chemical mineral content. Which of the following specific containers should be utilized for collecting this sample?",
+    image: "",
+    question: "A surgeon is closing a high-tension abdominal fascial wound in a patient with delayed healing. The surgeon requires a suture that provides prolonged wound support but will eventually be broken down by the body. He selects Polydiaxanone (PDS). Which of the following best describes the physical structure and biological classification of this suture material?",
     options: [
-      "Winchester Quart bottle",
-      "Neutral glass bottle",
-      "McCartney bottle",
-      "Universal container"
+      "Absorbable monofilament",
+      "Absorbable braided multifilament",
+      "Non-absorbable monofilament",
+      "Non-absorbable braided multifilament"
     ],
     answerIndex: 0,
-    correctAnswerText: "Winchester Quart bottle"
+    correctAnswerText: "Absorbable monofilament"
   },
   {
     id: 26,
-    image: "images/IMG_1487.jpeg",
-    question: "A 6-year-old boy develops a sudden fever followed by a pleomorphic, vesicular rash on his trunk. The school authorities inquire about when he can safely return. According to standard control measures for this specific infection, what is the recommended period of isolation?",
+    image: "",
+    question: "A 28-year-old male sustains a severe closed head injury in a high-speed motor vehicle collision. He remains persistently comatose despite an initially normal non-contrast CT head. He subsequently succumbs to his injuries. Autopsy reveals multiple petechial hemorrhages in the splenium of the corpus callosum. Histopathological examination shows characteristic axonal retraction balls. Which of the following immunohistochemical stains is most appropriate to highlight these specific microscopic lesions?",
     options: [
-      "Until the fever completely subsides",
-      "For 6 days after the onset of the rash",
-      "For 14 days from the time of exposure",
-      "Until all scabs have completely fallen off"
+      "Glial fibrillary acidic protein (GFAP)",
+      "Amyloid precursor protein (APP)",
+      "Hyperphosphorylated Tau",
+      "Synaptophysin"
     ],
     answerIndex: 1,
-    correctAnswerText: "For 6 days after the onset of the rash"
+    correctAnswerText: "Amyloid precursor protein (APP)"
   },
   {
     id: 27,
-    image: "images/IMG_1480.jpeg",
-    question: "A 45-year-old male presents with a chronic cough and weight loss. His initial sputum smear microscopy is negative for acid-fast bacilli. However, his chest X-ray reveals apical infiltrates highly suggestive of tuberculosis. According to the current National Tuberculosis Elimination Programme (NTEP) guidelines, which of the following is the most appropriate next step in his evaluation?",
+    image: "",
+    question: "A 45-year-old female develops severe abdominal pain and fever 3 days after a laparoscopic cholecystectomy. Imaging reveals a significant bile collection in the gallbladder fossa. Further evaluation demonstrates an active bile leak originating from a transected right sectoral bile duct that has no communication with the main biliary tree. According to the Strasberg classification, which of the following is the correct type for this injury?",
     options: [
-      "Sputum culture on LJ medium",
-      "Line Probe Assay (LPA)",
-      "CBNAAT",
-      "Tuberculin Skin Test"
+      "Type A",
+      "Type B",
+      "Type C",
+      "Type D"
     ],
     answerIndex: 2,
-    correctAnswerText: "CBNAAT"
+    correctAnswerText: "Type C"
   },
   {
     id: 28,
     image: "",
-    question: "A public health official is evaluating the underlying socio-economic conditions and the effectiveness of primary healthcare delivery across various rural districts. Which of the following indices is considered the most sensitive and universally accepted indicator of the overall health status of an entire population?",
+    question: "A 68-year-old man presents with progressive yellowing of his eyes, generalized pruritus, and a 10 kg weight loss over the past two months. On physical examination, a soft, palpable, and non-tender globular mass is felt in the right subcostal region. According to Courvoisier's law, this specific physical finding in the presence of jaundice most strongly points toward which of the following?",
     options: [
-      "Crude Death Rate",
-      "Maternal Mortality Ratio",
-      "Under-five Mortality Rate",
-      "Infant Mortality Rate"
+      "Acute calculous cholecystitis",
+      "Choledocholithiasis",
+      "Hepatocellular carcinoma",
+      "Carcinoma of the pancreatic head"
     ],
     answerIndex: 3,
-    correctAnswerText: "Infant Mortality Rate"
+    correctAnswerText: "Carcinoma of the pancreatic head"
   },
   {
     id: 29,
     image: "",
-    question: "A community health physician is designing a population-level dietary guideline for adult males. He sets the specific daily nutritional target at a level calculated to safely meet the requirements of 97-98% of healthy individuals in this group. Which of the following reference values is he utilizing?",
+    question: "A 35-year-old woman develops perioral numbness and carpopedal spasm 4 days after undergoing a total thyroidectomy. Which of the following is the most frequent complication responsible for her clinical presentation?",
     options: [
-      "Recommended Daily Allowance",
-      "Estimated Average Requirement",
-      "Tolerable Upper Intake Level",
-      "Adequate Intake"
+      "Hypoparathyroidism",
+      "Superior laryngeal nerve injury",
+      "Recurrent laryngeal nerve injury",
+      "Postoperative neck hematoma"
     ],
     answerIndex: 0,
-    correctAnswerText: "Recommended Daily Allowance"
+    correctAnswerText: "Hypoparathyroidism"
   },
   {
     id: 30,
-    image: "images/IMG_1386.jpeg",
-    question: "A stroke patient develops a right superior homonymous quadrantanopia and new-onset auditory hallucinations. Which of the following is the most likely anatomical site of the lesion?",
+    image: "",
+    question: "A 35-year-old male is brought to the emergency room with deep circumferential full-thickness burns to his right lower extremity. Doppler assessment reveals absent pedal pulses and a compartment pressure of 40 mmHg. An emergency escharotomy is planned. To prevent iatrogenic nerve injury on the lateral aspect of the leg, the incision must be carefully placed in which of the following locations?",
     options: [
-      "Left parietal lobe",
-      "Left temporal lobe",
-      "Optic chiasma",
-      "Left optic tract"
+      "Posterior to the fibular head",
+      "Anterior to the fibular head",
+      "Directly over the patella",
+      "Through the popliteal fossa"
     ],
     answerIndex: 1,
-    correctAnswerText: "Left temporal lobe"
+    correctAnswerText: "Anterior to the fibular head"
   },
   {
     id: 31,
-    image: "images/IMG_1387.jpeg",
-    question: "A 65-year-old diabetic female complains of a painless, progressive loss of vision that worsens significantly in bright sunlight but noticeably improves in dim lighting. Slit-lamp examination reveals a saucer-shaped opacity precisely located in the central part of the posterior cortex. Which specific morphological type of cataract is described in this patient?",
+    image: "",
+    question: "A 7-year-old boy presents with progressive difficulty in retracting his foreskin and straining during micturition. The parents report noticeable ballooning of the prepuce when he voids. Examination reveals a whitish, densely scarred, and indurated preputial ring. If left untreated, which of the following is the most significant long-term complication of this specific disease process?",
     options: [
-      "Cuneiform cortical cataract",
-      "Morgagnian hypermature cataract",
-      "Cupuliform cortical cataract",
-      "Sclerotic hypermature cataract"
+      "Squamous cell carcinoma of the prostate",
+      "Congenital vesicoureteral reflux",
+      "Penile urethral stricture",
+      "Bilateral testicular atrophy"
     ],
     answerIndex: 2,
-    correctAnswerText: "Cupuliform cortical cataract"
+    correctAnswerText: "Penile urethral stricture"
   },
   {
     id: 32,
-    image: "images/IMG_1389.jpeg",
-    question: "A 4-year-old child is brought to the clinic with a firm, yellowish nodule at the corneoscleral junction that has been present since birth. Slit-lamp examination reveals fine hair protruding directly from the surface of the lesion. Which of the following is the most likely diagnosis?",
+    image: "",
+    question: "A newborn is evaluated in the nursery for multiple congenital anomalies. Examination reveals an amputated right index finger, a deep constriction ring around the left ankle, and an asymmetric facial cleft. The mother had a regular, uncomplicated pregnancy. Which of the following is the most likely underlying mechanism for this specific combination of anomalies?",
     options: [
-      "Pterygium",
-      "Pinguecula",
-      "Limbal squamous cell carcinoma",
-      "Dermoid cyst"
+      "Genetic mutation of the Sonic Hedgehog (SHH) gene",
+      "Intrauterine vascular accident due to cocaine exposure",
+      "Failure of programmed cell death in the apical ectodermal ridge",
+      "Constriction by fibrous tissue bands from early amnion rupture"
     ],
     answerIndex: 3,
-    correctAnswerText: "Dermoid cyst"
+    correctAnswerText: "Constriction by fibrous tissue bands from early amnion rupture"
   },
   {
     id: 33,
-    image: "images/IMG_1481.jpeg",
-    question: "A 20-year-old male presents with a new-onset resting tremor, dysarthria, and elevated liver enzymes. Slit-lamp examination reveals a brownish-yellow golden ring at the peripheral corneal margin. Which specific corneal layer strictly harbours these pathological deposits?",
+    image: "",
+    question: "A 26-year-old female with a regular 28-day menstrual cycle undergoes hormonal evaluation on day 23 to confirm ovulation. Which of the following best describes her expected physiological hormonal milieu and its primary regulatory effect at this specific time?",
     options: [
-      "Descemet's membrane",
-      "Bowman's layer",
-      "Corneal stroma",
-      "Corneal epithelium"
+      "High progesterone and estrogen suppressing GnRH release",
+      "Peak estradiol levels triggering a massive LH surge",
+      "Rising FSH levels recruiting a new follicular cohort",
+      "Falling progesterone initiating endometrial shedding"
     ],
     answerIndex: 0,
-    correctAnswerText: "Descemet's membrane"
+    correctAnswerText: "High progesterone and estrogen suppressing GnRH release"
   },
   {
     id: 34,
     image: "",
-    question: "A 45-year-old female presents with severe dry eyes. The ophthalmologist wants to evaluate the bulbar conjunctiva for dead and degenerated epithelial cells. Which of the following is the most preferred and well-tolerated dye for this specific purpose?",
+    question: "A primigravida has just delivered a healthy term infant. The obstetrician proceeds with the active management of the third stage of labor and performs Controlled Cord Traction (CCT). What is the primary anatomical purpose of applying suprapubic counter-traction during this maneuver?",
     options: [
-      "Fluorescein sodium",
-      "Lissamine green",
-      "Rose bengal",
-      "Indocyanine green"
+      "To accelerate placental separation",
+      "To prevent uterine inversion",
+      "To prevent umbilical cord avulsion",
+      "To immediately stimulate uterine contractions"
     ],
     answerIndex: 1,
-    correctAnswerText: "Lissamine green"
+    correctAnswerText: "To prevent uterine inversion"
   },
   {
     id: 35,
     image: "",
-    question: "A 24-year-old patient complains of chronically distorted vision. Topographical evaluation reveals regular astigmatism where the two principal meridians are located at exactly 45 degrees and 135 degrees. Which of the following best classifies this specific refractive error?",
+    question: "A 32-year-old female presents with secondary amenorrhea, primary infertility, and severe hot flushes for the past 8 months. Her serum FSH level is found to be 48 IU/L on two separate occasions. While counseling her regarding her diagnosis, you order a specific biochemical test to evaluate her remaining follicular pool. Which of the following is the single best biochemical marker for assessing this patient's ovarian reserve?",
     options: [
-      "Irregular astigmatism",
-      "Bioblique astigmatism",
-      "Oblique astigmatism",
-      "Simple myopic astigmatism"
+      "Serum Follicle-Stimulating Hormone",
+      "Serum Estradiol",
+      "Anti-Mullerian Hormone",
+      "Serum Inhibin B"
     ],
     answerIndex: 2,
-    correctAnswerText: "Oblique astigmatism"
+    correctAnswerText: "Anti-Mullerian Hormone"
   },
   {
     id: 36,
     image: "",
-    question: "A neonate presents with severe photophobia, watering of eyes, and blepharospasm. Examination reveals bilateral ocular enlargement that has been present since birth. Which of the following specific corneal findings is classically associated with this condition?",
+    question: "A 32-year-old G2P1 at 38 weeks gestation experiences spontaneous rupture of membranes in the labor ward. On immediate vaginal examination, a pulsating umbilical cord is palpated in the vaginal canal. The cervix is 4 cm dilated and the fetal heart rate drops to 90 bpm. Which of the following interventions is strictly contraindicated in the immediate management of this patient?",
     options: [
-      "Fleischer ring",
-      "Kayser-Fleischer ring",
-      "Arcus juvenilis",
-      "Haab's striae"
+      "Placing the mother in a knee-chest position",
+      "Instilling 500 mL of normal saline into the urinary bladder",
+      "Manually elevating the fetal presenting part through the vagina",
+      "Manually replacing the prolapsed umbilical cord above the presenting part"
     ],
     answerIndex: 3,
-    correctAnswerText: "Haab's striae"
+    correctAnswerText: "Manually replacing the prolapsed umbilical cord above the presenting part"
   },
   {
     id: 37,
     image: "",
-    question: "A 68-year-old male, who has worn convex lenses for reading for the past twenty years, happily reports to the clinic that he no longer needs his glasses to read the newspaper. However, he complains that his distance vision has recently become blurry. Which of the following is the fundamental mechanism responsible for this specific refractive shift?",
+    question: "A 32-year-old G2P1 undergoing a Trial of Labor After Cesarean (TOLAC) suddenly develops profound hypotension and shock. Her previously regular uterine contractions abruptly cease, and fetal parts are now felt very superficially in the abdomen. Which of the following pelvic examination findings is most specific to her current condition when compared to an impending event?",
     options: [
-      "Increase in the refractive index of the crystalline lens",
-      "Increase in the anteroposterior length of the eyeball",
-      "Anterior displacement of the crystalline lens",
-      "Increased curvature of the anterior cornea"
+      "Loss of the fetal head station",
+      "Presence of maternal tachycardia",
+      "Suprapubic tenderness on palpation",
+      "Detection of fetal bradycardia"
     ],
     answerIndex: 0,
-    correctAnswerText: "Increase in the refractive index of the crystalline lens"
+    correctAnswerText: "Loss of the fetal head station"
   },
   {
     id: 38,
     image: "",
-    question: "A 28-year-old female, 4 days postpartum, presents with frequent crying spells, irritability, and insomnia. She has normal infant bonding and denies any suicidal ideation or hallucinations. What is the most appropriate management for this patient?",
+    question: "A 26-year-old primigravida undergoes a right mediolateral episiotomy to facilitate a vacuum-assisted vaginal delivery. During the anatomical repair of the perineum, the obstetrician identifies and approximates several muscle layers. Which of the following muscles is anatomically spared (not cut) during this specific incision?",
     options: [
-      "Immediate hospitalization",
-      "Reassurance and supportive care",
-      "Initiation of antidepressants",
-      "Electroconvulsive therapy"
+      "Bulbospongiosus",
+      "Ischiocavernosus",
+      "Superficial transverse perineal",
+      "Pubococcygeus"
     ],
     answerIndex: 1,
-    correctAnswerText: "Reassurance and supportive care"
+    correctAnswerText: "Ischiocavernosus"
   },
   {
     id: 39,
     image: "",
-    question: "A 28-year-old male presents with severe interpersonal distress because he consistently ejaculates within one minute of vaginal penetration. He wishes to avoid medications and requests behavioral therapy. The therapist advises his partner to manually stimulate him and then firmly apply pressure to the coronal ridge of the glans prior to impending ejaculation. Which specific technique is described, and who introduced it?",
+    question: "A 24-year-old woman with 8 weeks of amenorrhea undergoes a routine pelvic examination. The examining obstetrician detects an asymmetrical, palpable softening and localized enlargement of the uterus on one lateral half. Which of the following eponymous signs is being elicited?",
     options: [
-      "Stop-Start technique by Masters and Johnson",
-      "Stop-Start technique by Semans",
-      "Squeeze technique by Masters and Johnson",
-      "Squeeze technique by Semans"
+      "Goodell's sign",
+      "Hegar's sign",
+      "Piskacek's sign",
+      "Palmer's sign"
     ],
     answerIndex: 2,
-    correctAnswerText: "Squeeze technique by Masters and Johnson"
+    correctAnswerText: "Piskacek's sign"
   },
   {
     id: 40,
     image: "",
-    question: "A 25-year-old female presents with recurrent, sudden episodes of intense palpitations, dyspnea, and a profound sense of impending doom. These episodes peak within minutes, last for about 20 to 30 minutes, and resolve completely. She reports having these attacks for the past two months and has developed a persistent fear of having another episode. What is the most appropriate first-line long-term pharmacological treatment for her condition?",
+    question: "A 52-year-old female is recently diagnosed with squamous cell carcinoma of the cervix. During her routine staging workup, an abdominal ultrasound reveals unilateral hydronephrosis secondary to ureteral compression by the tumor mass. According to the FIGO staging system, this specific radiological finding automatically assigns her to which of the following stages?",
     options: [
-      "Lorazepam",
-      "Haloperidol",
-      "Propranolol",
-      "Selective Serotonin Reuptake Inhibitors"
+      "Stage IIB",
+      "Stage IIIA",
+      "Stage IIIC",
+      "Stage IIIB"
     ],
     answerIndex: 3,
-    correctAnswerText: "Selective Serotonin Reuptake Inhibitors"
+    correctAnswerText: "Stage IIIB"
   },
   {
     id: 41,
-    image: "images/ScreenRecording_08-07-2026 05-18-10_1.mov",
-    question: "A 50-year-old chronic alcoholic is brought to the emergency department presenting with an acute onset of global confusion, an unsteady broad-based gait, and bilateral lateral rectus palsy with painful eye movements. What is the most likely clinical diagnosis?",
+    image: "",
+    question: "A 58-year-old postmenopausal woman presents with progressive abdominal distension. Ultrasound reveals a 10 cm bilateral complex ovarian mass with papillary excrescences and irregular septations. She has significant ascites and her CA-125 is highly elevated. Which of the following genetic mutations is most strongly associated with her most likely diagnosis?",
     options: [
-      "Wernicke's encephalopathy",
-      "Korsakoff syndrome",
-      "Delirium tremens",
-      "Hepatic encephalopathy"
+      "TP53",
+      "KRAS",
+      "PTEN",
+      "FOXL2"
     ],
     answerIndex: 0,
-    correctAnswerText: "Wernicke's encephalopathy"
+    correctAnswerText: "TP53"
   },
   {
     id: 42,
-    image: "images/IMG_1392.jpeg",
-    question: "A 15-year-old boy presents with chronic fatigue, jaundice, and a palpable spleen. His peripheral blood smear reveals dense, dark-staining red blood cells lacking a central zone of pallor. His father has a similar history of hemolytic anemia and underwent a cholecystectomy at a young age. Which specific membrane protein mutation classically characterizes this autosomal dominant condition?",
+    image: "",
+    question: "A 28-year-old G2P2 experiences severe vaginal bleeding immediately after a normal vaginal delivery. On abdominal examination, the uterus is palpated as soft and boggy. Despite bimanual uterine massage and the administration of IV Oxytocin, Tranexamic acid, and intramuscular Carboprost, the heavy bleeding persists after 30 minutes. The patient is currently in the labor room and her vitals remain stable. What is the most appropriate next step in management?",
     options: [
-      "Spectrin",
-      "Ankyrin",
-      "Band 3",
-      "Band 4.2"
+      "Application of B-Lynch compression sutures",
+      "Insertion of an intrauterine balloon tamponade",
+      "Uterine artery embolization",
+      "Bilateral uterine artery ligation"
     ],
     answerIndex: 1,
-    correctAnswerText: "Ankyrin"
+    correctAnswerText: "Insertion of an intrauterine balloon tamponade"
   },
   {
     id: 43,
-    image: "images/IMG_1393.jpeg",
-    question: "A 7-year-old boy from a non-endemic region presents with severe abdominal pain and a rapidly enlarging mass. Tissue biopsy reveals a \"starry sky\" appearance and a t(8;14) translocation involving the MYC gene. Which of the following is the most characteristic anatomical site of involvement for this specific epidemiological subtype?",
+    image: "",
+    question: "A 32-year-old G2P1 is in the second stage of labor. Following the delivery of the fetal head, the head tightly retracts against the maternal perineum. Routine downward traction fails to deliver the anterior shoulder. Help is called, and an episiotomy is given. Which of the following is the most appropriate first-line physical maneuver to relieve this complication?",
     options: [
-      "Jaw and facial bones",
-      "Peripheral lymph nodes",
-      "Ileocaecal region",
-      "Central nervous system"
+      "Application of fundal pressure",
+      "Reinsertion of the fetal head into the vagina",
+      "Sharp hyperflexion of the maternal thighs",
+      "Positioning the mother on all fours"
     ],
     answerIndex: 2,
-    correctAnswerText: "Ileocaecal region"
+    correctAnswerText: "Sharp hyperflexion of the maternal thighs"
   },
   {
     id: 44,
     image: "",
-    question: "An 8-year-old boy presents with new-onset hypertension, periorbital edema, and cola-colored urine two weeks after recovering from a severe sore throat. If a renal biopsy were performed, which of the following findings would be most characteristically observed on electron microscopy?",
+    question: "A 65-year-old multiparous woman presents with a persistent dragging sensation in her pelvis and a mass protruding from her vagina. Pelvic examination confirms significant descent of the uterus into the vaginal canal. Weakening or traumatic disruption of which of the following structures is primarily responsible for this loss of apical support?",
     options: [
-      "Subendothelial immune complex deposits",
-      "Intramembranous dense deposits",
-      "Diffuse effacement of podocyte foot processes",
-      "Subepithelial electron-dense humps"
+      "Round ligament",
+      "Broad ligament",
+      "Pubocervical fascia",
+      "Mackenrodt's ligament"
     ],
     answerIndex: 3,
-    correctAnswerText: "Subepithelial electron-dense humps"
+    correctAnswerText: "Mackenrodt's ligament"
   },
   {
     id: 45,
-    image: "images/IMG_1394.jpeg",
-    question: "A 65-year-old man presents with frothy urine and severe pitting pedal edema. A renal biopsy reveals thickened glomerular basement membranes with a classic \"spike and dome\" pattern on Gomori methenamine silver stain. Detection of which of the following autoantibodies is most highly specific for the primary form of this condition?",
+    image: "",
+    question: "A 28-year-old primigravida is undergoing an assisted vaginal breech delivery. After the delivery of the fetal trunk, the shoulders become impacted and scapular winging is prominently observed. The obstetrician grasps the fetal pelvis with thumbs along the sacrum and rotates the trunk 180 degrees. Which of the following maneuvers is being performed?",
     options: [
-      "Anti-phospholipase A2 receptor",
-      "Anti-glomerular basement membrane",
-      "Anti-neutrophil cytoplasmic antibody",
-      "Anti-double-stranded DNA"
+      "Lovset maneuver",
+      "Pinard maneuver",
+      "Mauriceau-Smellie-Veit maneuver",
+      "Burns-Marshall maneuver"
     ],
     answerIndex: 0,
-    correctAnswerText: "Anti-phospholipase A2 receptor"
+    correctAnswerText: "Lovset maneuver"
   },
   {
     id: 46,
-    image: "images/IMG_1395.jpeg",
-    question: "A 6-year-old child presents with a high-grade fever, extreme fatigue, and new-onset signs of left ventricular dysfunction. An endomyocardial biopsy is performed. Microscopic examination predominantly reveals interstitial lymphocytic infiltration with focal areas of myocyte necrosis. Which of the following is the most likely etiology of this patient's cardiac condition?",
+    image: "",
+    question: "A 62-year-old woman, whose last menstrual period was 12 years ago, presents to the clinic complaining of a recent episode of blood-stained vaginal discharge. She has a known history of hypertension for which she is on medication. Her vitals are stable. Which of the following is the most appropriate initial investigation to evaluate her symptom?",
     options: [
-      "Genetic mutation of sarcomere proteins",
-      "Enteroviral infection",
-      "Autoimmune granulomatous inflammation",
-      "Deposition of misfolded proteins"
+      "Outpatient endometrial biopsy",
+      "Transvaginal ultrasound (TVS)",
+      "Colposcopy-directed cervical biopsy",
+      "Magnetic resonance imaging (MRI) of the pelvis"
     ],
     answerIndex: 1,
-    correctAnswerText: "Enteroviral infection"
+    correctAnswerText: "Transvaginal ultrasound (TVS)"
   },
   {
     id: 47,
     image: "",
-    question: "A 65-year-old heavy smoker presents with chronic cough, weight loss, and lethargy. Investigations reveal severe hypercalcemia and a centrally located lung mass near the right hilum. Biopsy of this mass is most likely to reveal which of the following histopathological features?",
+    question: "A 38-year-old obese woman with a known history of Polycystic Ovary Syndrome (PCOS) presents with prolonged, heavy vaginal bleeding for the past 3 weeks. A transvaginal ultrasound reveals an endometrial thickness of 14 mm. Which of the following is the gold standard first-line diagnostic step in her management?",
     options: [
-      "Glandular formation with mucin vacuoles",
-      "Small blue cells with scant cytoplasm",
-      "Intercellular bridges and keratin pearls",
-      "Neuroendocrine rosettes with salt-and-pepper chromatin"
+      "Insertion of a Levonorgestrel IUD",
+      "Initiation of high-dose oral contraceptive pills",
+      "Endometrial biopsy",
+      "Total abdominal hysterectomy"
     ],
     answerIndex: 2,
-    correctAnswerText: "Intercellular bridges and keratin pearls"
+    correctAnswerText: "Endometrial biopsy"
   },
   {
     id: 48,
     image: "",
-    question: "A 10-year-old boy presents with a massive, spontaneous hemarthrosis of the right knee. He has no history of petechiae or mucosal bleeding. Laboratory investigations reveal a normal Bleeding Time, normal Prothrombin Time, but a significantly elevated APTT. Which of the following variants of this condition is uniquely transmitted in an autosomal recessive pattern and typically presents with much milder bleeding episodes?",
+    question: "A 62-year-old nulliparous woman with a BMI of 34 and a history of type 2 diabetes presents with two recent episodes of postmenopausal bleeding. Following an initial workup, she undergoes a total hysterectomy. The gross pathological evaluation of the uterus reveals a large, irregular, friable, and hemorrhagic mass projecting into and filling the endometrial cavity. Based on her clinical risk factors and gross findings, the most likely histological subtype of her tumor is strictly associated with which of the following genetic abnormalities?",
     options: [
-      "Haemophilia A",
-      "Classic von Willebrand disease",
-      "Haemophilia B",
-      "Haemophilia C"
+      "BRCA1 mutation",
+      "KRAS amplification",
+      "TP53 mutation",
+      "PTEN mutation"
     ],
     answerIndex: 3,
-    correctAnswerText: "Haemophilia C"
+    correctAnswerText: "PTEN mutation"
   },
   {
     id: 49,
     image: "",
-    question: "A 72-year-old asymptomatic male is found to have a total leukocyte count of 65,000/mm3 on routine screening. A peripheral blood smear reveals predominantly mature lymphocytes and numerous smudge cells. Which of the following surface marker profiles on flow cytometry is most characteristic for confirming this diagnosis?",
+    question: "A 25-year-old primigravida with an unsure last menstrual period presents for her first antenatal ultrasound. The scan reveals a live intrauterine fetus with an estimated gestational age of approximately 10 weeks. Which of the following ultrasonographic parameters is the single most accurate for confirming her expected date of delivery at this current stage?",
     options: [
-      "CD5+, CD19+, CD20+, CD23+",
-      "CD5+, CD19+, CD20+, CD23-",
-      "CD10+, CD19+, TdT+",
-      "CD11c+, CD25+, CD103+"
+      "Crown-Rump Length",
+      "Biparietal Diameter",
+      "Abdominal Circumference",
+      "Femur Length"
     ],
     answerIndex: 0,
-    correctAnswerText: "CD5+, CD19+, CD20+, CD23+"
+    correctAnswerText: "Crown-Rump Length"
   },
   {
     id: 50,
-    image: "images/IMG_1396.jpeg",
-    question: "A 35-year-old male presents with severe epistaxis, diffuse petechiae, and laboratory parameters confirming disseminated intravascular coagulation (DIC). A peripheral blood smear reveals numerous abnormal promyelocytes containing multiple needle-like cytoplasmic inclusions arranged in a crisscross pattern. Which of the following chromosomal translocations is the absolute hallmark of this condition?",
+    image: "",
+    question: "A 44-year-old woman presents with severe secondary dysmenorrhea and heavy menstrual bleeding. Pelvic examination reveals a uniformly enlarged, tender, and \"boggy\" uterus. A sagittal T2-weighted pelvic MRI is performed. Which of the following radiological findings is most characteristic of her underlying pathology?",
     options: [
-      "t(8;21)",
-      "t(15;17)",
-      "inv(16)",
-      "t(9;22)"
+      "Well-circumscribed, discrete hypointense myometrial mass",
+      "Diffusely thickened junctional zone with small hyperintense foci",
+      "Bilateral complex cystic masses in the adnexa",
+      "Focal deep invasion of the endometrial-myometrial interface"
     ],
     answerIndex: 1,
-    correctAnswerText: "t(15;17)"
+    correctAnswerText: "Diffusely thickened junctional zone with small hyperintense foci"
   },
   {
     id: 51,
     image: "",
-    question: "A 60-year-old retired cement factory worker presents with progressive dyspnea. A CT scan of the chest reveals a massive unilateral pleural effusion with extensive nodular pleural thickening. Surprisingly, there is absolutely no mediastinal shift to the contralateral side. A pleural biopsy is taken. Which of the following immunohistochemical markers is most specific for confirming this patient's diagnosis?",
+    question: "A 26-year-old pregnant woman develops mild flu-like symptoms and lymphadenopathy in her second trimester. Serological testing reveals positive IgM and IgG for Toxoplasma gondii, indicating an acute maternal infection. A subsequent amniocentesis PCR is positive, confirming that the fetus is also infected. Which of the following is the definitive drug regimen of choice for this patient?",
     options: [
-      "Thyroid transcription factor-1",
-      "Chromogranin A",
-      "Calretinin",
-      "Synaptophysin"
+      "Monotherapy with oral Spiramycin",
+      "Intravenous Acyclovir",
+      "Pyrimethamine, sulfadiazine, and folinic acid",
+      "Valacyclovir and hyperimmune globulin"
     ],
     answerIndex: 2,
-    correctAnswerText: "Calretinin"
+    correctAnswerText: "Pyrimethamine, sulfadiazine, and folinic acid"
   },
   {
     id: 52,
     image: "",
-    question: "A 70-year-old male with renal failure develops acute dyspnea, severe hypoxia, and sudden systolic hypertension during a rapid blood transfusion. Chest radiography shows bilateral pulmonary infiltrates and fissure thickening. Laboratory workup reveals significantly elevated brain natriuretic peptide (BNP) levels. What is the most likely diagnosis?",
+    question: "A 15-month-old boy is brought to the emergency department after experiencing a 4-minute generalized tonic-clonic seizure during a febrile illness. He recovers fully and is back to his baseline playful state. Which of the following statements regarding the evaluation and management of his condition is most accurate?",
     options: [
-      "Transfusion-related acute lung injury",
-      "Transfusion-associated circulatory overload",
-      "Transfusion-related immunomodulation",
-      "Acute hemolytic transfusion reaction"
+      "Long-term continuous antiepileptic therapy is indicated",
+      "Complex febrile seizure is diagnosed due to the high temperature",
+      "Regular antipyretic therapy will prevent future seizure recurrence",
+      "Underlying iron deficiency is a recognized risk factor"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Transfusion-associated circulatory overload"
+    answerIndex: 3,
+    correctAnswerText: "Underlying iron deficiency is a recognized risk factor"
   },
   {
     id: 53,
     image: "",
-    question: "A geneticist is analyzing data from a large population-based registry of congenital monogenic diseases. When categorizing these classic Mendelian disorders by their specific inheritance patterns, which of the following represents the statistically expected approximate proportion of X-linked disorders?",
+    question: "A 7-year-old child presents with a high-grade fever and productive cough. A chest radiograph reveals a homogeneous air-space opacity in the right upper lobe with visible air-filled bronchi surrounded by the opacity. Which of the following radiographic features most reliably differentiates this specific pathological process from atelectasis?",
     options: [
-      "65%",
-      "25%",
-      "5%",
-      "Less than 1%"
+      "Preserved lung volume with no significant collapse",
+      "Significant ipsilateral mediastinal shift",
+      "Complete obliteration of the costophrenic angle",
+      "Diffuse reticulonodular interstitial shadowing"
     ],
-    answerIndex: 2,
-    correctAnswerText: "5%"
+    answerIndex: 0,
+    correctAnswerText: "Preserved lung volume with no significant collapse"
   },
   {
     id: 54,
     image: "",
-    question: "A 45-year-old woman recently diagnosed with cervical cancer brings her 14-year-old daughter to the clinic for counseling. The mother is highly anxious about her daughter's future risk and requests the most effective primary preventive strategy. You strongly recommend the HPV vaccine. Which of the following specific viral components does this vaccine directly target to confer immunity?",
+    question: "A pregnant woman is diagnosed with HIV at 36 weeks of gestation and is immediately started on Antiretroviral Therapy (ART). She delivers a term infant 2 weeks later. Her viral load just before delivery was 1,500 copies/mL. According to current NACO/WHO guidelines, what is the most appropriate postnatal antiretroviral prophylaxis regimen for this newborn?",
     options: [
-      "E6 and E7 oncoproteins",
-      "E1 and E2 replication proteins",
-      "Double-stranded viral DNA genome",
-      "L1 major capsid protein"
+      "Monotherapy with Nevirapine for 6 weeks",
+      "Dual prophylaxis with Nevirapine and Zidovudine for 12 weeks",
+      "Triple therapy with Tenofovir, Lamivudine, and Efavirenz for 12 weeks",
+      "Monotherapy with Zidovudine for 6 weeks"
     ],
-    answerIndex: 3,
-    correctAnswerText: "L1 major capsid protein"
+    answerIndex: 1,
+    correctAnswerText: "Dual prophylaxis with Nevirapine and Zidovudine for 12 weeks"
   },
   {
     id: 55,
     image: "",
-    question: "A 48-year-old female presents with recurrent post-coital bleeding. Pelvic examination reveals a friable cervical growth. On rectovaginal examination, there is distinct nodularity and induration extending into the left parametrium, but it does not reach the lateral pelvic wall. What is the most appropriate standard of care for this patient?",
+    question: "A 4-week-old infant is brought to the pediatrician for evaluation of prolonged jaundice, severe constipation, and a hoarse cry. Physical examination reveals a large protruding tongue and an umbilical hernia. Laboratory tests confirm low T4 and elevated TSH levels. Neck ultrasound visualizes an anatomically normal thyroid gland in the correct position. However, a subsequent radioactive iodine (I-123) scintigraphy shows profoundly decreased tracer uptake in the neck. Which of the following is the most likely specific etiology for this infant's condition?",
     options: [
-      "Concurrent chemoradiation therapy",
-      "Radical hysterectomy with pelvic lymphadenectomy",
-      "Simple hysterectomy with bilateral salpingo-oophorectomy",
-      "Palliative chemotherapy"
+      "Complete thyroid agenesis",
+      "Thyroid peroxidase enzyme deficiency",
+      "Defect in the iodide transporter",
+      "Sublingual ectopic thyroid"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Concurrent chemoradiation therapy"
+    answerIndex: 2,
+    correctAnswerText: "Defect in the iodide transporter"
   },
   {
     id: 56,
-    image: "images/IMG_1399.jpeg",
-    question: "A 24-year-old female with a history of multiple sexual partners presents with purulent cervical discharge, intermenstrual bleeding, and severe lower abdominal pain. A cervical swab reveals intracellular Gram-negative diplococci. If this specific pathogen infects a male, which of the following is a recognized severe chronic complication?",
+    image: "",
+    question: "A 4-month-old boy is admitted to the pediatric ward with failure to thrive, persistent oral candidiasis, and severe recurrent respiratory infections. Physical examination is notable for completely absent tonsils and hypoplastic lymph nodes. A flow cytometry panel is ordered, which reveals profoundly decreased absolute T-cell and NK-cell counts, but a strictly normal absolute B-cell count. Which of the following is the most likely underlying genetic defect in this patient?",
     options: [
-      "Painless hard chancre",
-      "Water-can perineum",
-      "Condyloma acuminata",
-      "Granuloma inguinale"
+      "Adenosine deaminase (ADA) enzyme deficiency",
+      "Defective CD40 ligand (CD154) expression",
+      "Mutation in the Bruton tyrosine kinase (BTK) gene",
+      "Mutation in the common gamma-chain (IL2RG) receptor"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Water-can perineum"
+    answerIndex: 3,
+    correctAnswerText: "Mutation in the common gamma-chain (IL2RG) receptor"
   },
   {
     id: 57,
     image: "",
-    question: "A 14-year-old girl is brought for evaluation of primary amenorrhea and recurrent, cyclical lower abdominal pain for the last 6 months. Physical examination reveals a central suprapubic mass. Local genital inspection shows a tense, bluish membrane bulging at the introitus. What is the definitive management for this patient's condition?",
+    question: "During fetal development, a specific venous structure undergoes regression, leaving the contralateral vessel to persist and eventually form the ligamentum teres hepatis after birth. Which of the following embryonic structures regresses during normal development?",
     options: [
-      "Hormonal suppression therapy",
-      "Simple aspiration of the retained blood",
-      "Cruciate incision of the bulging membrane",
-      "Vaginal dilation therapy"
+      "Right umbilical vein",
+      "Right vitelline vein",
+      "Left vitelline vein",
+      "Common cardinal vein"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Cruciate incision of the bulging membrane"
+    answerIndex: 0,
+    correctAnswerText: "Right umbilical vein"
   },
   {
     id: 58,
     image: "",
-    question: "A 16-year-old phenotypic female presents with primary amenorrhea. Examination reveals well-developed breasts but absent axillary and pubic hair. Ultrasound shows an absent uterus and bilateral inguinal masses. Her karyotype is 46,XY. What is the primary pathophysiological mechanism underlying this condition?",
+    question: "A 3-year-old boy is rushed to the emergency department by his parents after choking on a peanut. While being triaged, the child suddenly becomes completely unresponsive and apneic. What is the most appropriate immediate next step in management?",
     options: [
-      "Mutation in the luteinizing hormone receptor",
-      "Complete absence of one sex chromosome",
-      "Chronic anovulation with hyperandrogenism",
-      "Nonfunctional peripheral androgen receptors"
+      "Perform alternating 5 back blows and 5 chest thrusts",
+      "Initiate CPR starting with chest compressions",
+      "Perform abdominal thrusts (Heimlich maneuver)",
+      "Attempt immediate endotracheal intubation"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Nonfunctional peripheral androgen receptors"
+    answerIndex: 1,
+    correctAnswerText: "Initiate CPR starting with chest compressions"
   },
   {
     id: 59,
     image: "",
-    question: "A 45-year-old woman returns to the emergency department with acute peritonitis five days after an uncomplicated total laparoscopic hysterectomy. Emergency laparotomy reveals an area of delayed bowel necrosis. Which inherent disadvantage of the initial surgical approach most likely led to this unrecognized complication?",
+    question: "A 55-year-old male with end-stage renal disease is undergoing an elective surgical procedure. An intermediate-acting non-depolarizing muscle relaxant is administered to facilitate intubation. Minutes later, the patient develops diffuse erythema, flushing, and a transient drop in blood pressure. The administered drug is known to undergo spontaneous degradation in the plasma. Which of the following drugs shares this exact metabolic pathway but specifically lacks these cardiovascular side effects?",
     options: [
-      "Absence of tactile feedback during thermal energy use",
-      "Substantially increased intraoperative blood loss",
-      "Higher risk of superficial surgical site infections",
-      "Markedly increased immediate postoperative pain"
+      "Rocuronium",
+      "Mivacurium",
+      "Cisatracurium",
+      "Pancuronium"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Absence of tactile feedback during thermal energy use"
+    answerIndex: 2,
+    correctAnswerText: "Cisatracurium"
   },
   {
     id: 60,
     image: "",
-    question: "A 35-year-old woman is undergoing a hysteroscopic myomectomy for submucosal fibroids using monopolar electrosurgery and 1.5% glycine as the distension medium. During the procedure, the automated fluid management system alerts the surgeon to a fluid deficit of 2000 mL. The patient suddenly develops acute respiratory distress and hypoxia. What is the most immediate life-threatening complication occurring in this patient?",
+    question: "A 22-year-old male undergoing general anesthesia with sevoflurane and succinylcholine suddenly develops generalized muscle rigidity, tachycardia, and a rapid rise in end-tidal CO2. His core body temperature sharply increases shortly after. Which of the following is the definitive gold standard diagnostic test to confirm his underlying susceptibility to this condition?",
     options: [
-      "Anaphylactic shock",
-      "Pulmonary edema",
-      "Acute renal failure",
-      "Carbon dioxide embolism"
+      "Genetic screening for dihydropyridine receptor mutations",
+      "Measurement of peak serum creatine kinase levels",
+      "Resting muscle biopsy for dystrophin analysis",
+      "Caffeine-halothane contracture test"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Pulmonary edema"
+    answerIndex: 3,
+    correctAnswerText: "Caffeine-halothane contracture test"
   },
   {
     id: 61,
     image: "",
-    question: "A 26-year-old healthy female and her 28-year-old husband present to the clinic anxious about their inability to conceive. They have been having regular, unprotected intercourse for the past 6 months. Neither partner has any known medical conditions, previous surgeries, or history of pelvic infections. What is the most appropriate next step in management?",
+    question: "A 10-year-old child is brought to the dermatology clinic with an off-white macule on the trunk. The mother states the patch has been present since birth. It has irregular, feathered margins, and its shape has remained completely stable without spreading. The skin texture and sensation over the affected area are completely normal. Which of the following is the most likely diagnosis?",
     options: [
-      "Advise a baseline semen analysis for the husband",
-      "Schedule a hysterosalpingography to check tubal patency",
-      "Reassure the couple and advise follow-up after 6 months",
-      "Check serum AMH and early follicular FSH levels"
+      "Nevus depigmentosus",
+      "Vitiligo",
+      "Tuberculoid leprosy",
+      "Pityriasis alba"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Reassure the couple and advise follow-up after 6 months"
+    answerIndex: 0,
+    correctAnswerText: "Nevus depigmentosus"
   },
   {
     id: 62,
     image: "",
-    question: "A 30-year-old female undergoing ovulation induction with human menopausal gonadotropin (hMG) presents to the emergency department with progressive abdominal distension, shortness of breath, and decreased urine output. Laboratory investigations reveal marked hemoconcentration. Pelvic ultrasound reveals massive bilateral ovarian enlargement. Which of the following is the most characteristic sonographic finding expected in this patient's ovaries?",
+    question: "A 12-year-old boy from a low-socioeconomic background presents with a progressive eruption of multiple plugged keratotic papules over his extensor extremities, clinically diagnosed as phrynoderma. Given the most likely underlying nutritional etiology, which of the following is the most crucial next step in his clinical evaluation to prevent a severe, irreversible complication?",
     options: [
-      "Unilocular anechoic cyst with a thin wall",
-      "Multiple small peripheral cysts forming a string of pearls",
-      "Homogeneous cysts with low-level ground-glass echoes",
-      "Multiple large cysts arranged in a spoke-wheel pattern"
+      "Audiometry to screen for sensorineural hearing loss",
+      "Visual acuity and active ophthalmic assessment",
+      "Echocardiography to evaluate for high-output cardiac failure",
+      "Nerve conduction studies to assess for peripheral neuropathy"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Multiple large cysts arranged in a spoke-wheel pattern"
+    answerIndex: 1,
+    correctAnswerText: "Visual acuity and active ophthalmic assessment"
   },
   {
     id: 63,
     image: "",
-    question: "A 23-year-old primigravida presents for her first antenatal booking visit at 7 weeks of gestation. Her routine blood investigations reveal a hemoglobin level of 9.0 g/dL. What is the most appropriate next step in the pharmacological management of this patient?",
+    question: "A 45-year-old male presents with a progressive, reddish-brown plaque on his face. A routine chest X-ray reveals incidental right apical calcifications. A clinical diagnosis of Lupus vulgaris is suspected. Given the inherently paucibacillary nature of this specific skin lesion, which of the following is the most rapid and specific definitive diagnostic modality utilizing targets such as IS6110?",
     options: [
-      "Start therapeutic oral iron and folic acid at 8 to 10 weeks",
-      "Delay prophylactic iron supplementation until 16 weeks",
-      "Administer an intravenous iron sucrose infusion immediately",
-      "Transfuse one unit of packed red blood cells"
+      "Mantoux tuberculin skin test",
+      "Routine acid-fast bacillus (AFB) cytological smear",
+      "Polymerase chain reaction (PCR) of the tissue",
+      "Histopathological demonstration of granulomas"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Start therapeutic oral iron and folic acid at 8 to 10 weeks"
+    answerIndex: 2,
+    correctAnswerText: "Polymerase chain reaction (PCR) of the tissue"
   },
   {
     id: 64,
     image: "",
-    question: "A woman presents to the antenatal clinic for the first booking visit of her current pregnancy. Her detailed obstetric history reveals that she had one previous delivery at 36 weeks of gestation, which resulted in live, healthy twins. Based on this history, what is her correct Gravida (G) and Parity (P) score?",
+    question: "A 24-year-old male presents with a 6-month history of chronic lower back pain and morning stiffness that improves with physical activity. He also reports a recent episode of acute anterior uveitis. Plain radiographs of his lumbosacral spine appear entirely normal. Which of the following is the most useful investigation to establish an early diagnosis of his suspected condition?",
     options: [
-      "G2 P2",
-      "G2 P1",
-      "G1 P1",
-      "G1 P2"
+      "Plain radiograph of the sacroiliac joints",
+      "CT scan of the lumbar spine",
+      "HLA-B27 genetic typing",
+      "MRI of the sacroiliac joints"
     ],
-    answerIndex: 1,
-    correctAnswerText: "G2 P1"
+    answerIndex: 3,
+    correctAnswerText: "MRI of the sacroiliac joints"
   },
   {
     id: 65,
     image: "",
-    question: "A 32-year-old G3P2L2 with two previous uncomplicated vaginal deliveries presents for a routine check-up at 36 weeks of gestation. Ultrasound confirms a transverse lie, an upper segment placenta, and adequate amniotic fluid. What is the most appropriate next step in the management of this patient?",
+    question: "A 17-year-old female gymnast presents with chronic lower back pain that exacerbates during spinal extension maneuvers. An oblique radiograph of her lumbar spine reveals a classic \"Scottie dog with a collar\" sign. Which of the following is the exact anatomical nature of her condition?",
     options: [
-      "Schedule an immediate elective cesarean section",
-      "Advise strict bed rest and review at 39 weeks",
-      "Perform an external cephalic version",
-      "Attempt an internal podalic version"
+      "Defect in the pars interarticularis",
+      "Forward displacement of the vertebra",
+      "Stress fracture of the vertebral pedicle",
+      "Subluxation of the inferior articular facet"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Perform an external cephalic version"
+    answerIndex: 0,
+    correctAnswerText: "Defect in the pars interarticularis"
   },
   {
     id: 66,
     image: "",
-    question: "A 28-year-old normotensive, non-diabetic female at 36 weeks gestation presents with excessive abdominal distension. Examination reveals a symphysis-fundal height of 41 cm, a tense abdomen, and fetal parts that are very difficult to palpate. Ultrasound confirms an Amniotic Fluid Index (AFI) of 32 cm. Which of the following is a recognized placental etiology for this specific condition?",
+    question: "A 28-year-old male develops severe, bursting leg pain 6 hours after a closed tibial fracture. The pain is disproportionate to the injury and unresponsive to opioid analgesics. Passive stretching of his toes severely exacerbates the pain. Which of the following statements regarding the management or evaluation of this patient's condition is most accurate?",
     options: [
-      "Circumvallate placenta",
-      "Placenta accreta",
-      "Battledore placenta",
-      "Chorioangioma"
+      "Elevate the affected limb above the level of the heart to reduce swelling",
+      "Immediate fasciotomy is indicated if the differential pressure is < 30 mmHg",
+      "Diagnosis is effectively ruled out if distal arterial pulses remain palpable",
+      "Bivalving the plaster cast is sufficient initial conservative management"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Chorioangioma"
+    answerIndex: 1,
+    correctAnswerText: "Immediate fasciotomy is indicated if the differential pressure is < 30 mmHg"
   },
   {
     id: 67,
     image: "",
-    question: "A 26-year-old hemodynamically stable woman is diagnosed with an unruptured ectopic pregnancy. Transvaginal ultrasound reveals a left adnexal mass measuring 3.5 cm with absolutely no fetal cardiac activity. Her serum beta-hCG level is 2,800 IU/L. What is the most appropriate first-line management for this patient?",
+    question: "A 28-year-old male develops sudden breathlessness, confusion, and hypoxia 48 hours after sustaining a closed femoral shaft fracture in a road traffic accident. Which of the following clinical findings best differentiates his most likely condition from Acute Respiratory Distress Syndrome (ARDS)?",
     options: [
-      "Single-dose intramuscular methotrexate",
-      "Expectant management with serial beta-hCG",
-      "Laparoscopic linear salpingostomy",
-      "Laparoscopic salpingectomy"
+      "Bilateral diffuse pulmonary infiltrates on chest X-ray",
+      "Severe hypoxemia refractory to oxygen therapy",
+      "Petechiae over the trunk, axillae, and conjunctiva",
+      "Elevated core body temperature and tachycardia"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Single-dose intramuscular methotrexate"
+    answerIndex: 2,
+    correctAnswerText: "Petechiae over the trunk, axillae, and conjunctiva"
   },
   {
     id: 68,
     image: "",
-    question: "A 37-week pregnant woman develops severe dizziness, nausea, and a blood pressure of 80/50 mmHg while lying flat on her back during a routine check-up. Turning her to the left lateral position promptly resolves her symptoms. Which of the following is the primary hemodynamic cause of her initial presentation?",
+    question: "A 62-year-old man presents with deep, aching thigh pain that worsens at rest. Laboratory investigations reveal an isolated elevation of serum alkaline phosphatase (ALP) with normal calcium and phosphate levels. A radiograph of his femur reveals a characteristic \"flame-shaped\" radiolucency. Which of the following best describes the predominant cellular activity during this specific radiographic phase?",
     options: [
-      "Reduced systemic vascular resistance",
-      "Decreased cardiac preload",
-      "Vagal nerve hyperstimulation",
-      "Acute left ventricular failure"
+      "Diffuse osteoblastic new bone formation",
+      "Simultaneous osteoblastic and osteoclastic activity",
+      "Deposition of lamellar bone in a mosaic pattern",
+      "Intense bone resorption by large osteoclasts"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Decreased cardiac preload"
+    answerIndex: 3,
+    correctAnswerText: "Intense bone resorption by large osteoclasts"
   },
   {
     id: 69,
     image: "",
-    question: "A patient in active labor has a partogram revealing that cervical dilation has crossed the alert line despite ongoing oxytocin augmentation. Clinical examination reveals 2+ fetal skull moulding, thick meconium-stained liquor, and a sudden fall in the fetal heart rate. These findings strongly suggest cephalopelvic disproportion (CPD). What is the most appropriate next step in management?",
+    question: "A 35-year-old man with a known history of schizophrenia is arrested for a violent assault. While in custody, he exhibits severe paranoid delusions and profoundly impaired judgment, claiming the victim was an alien imposter. What is the most appropriate immediate next step in his legal management?",
     options: [
-      "Increase the dose of the oxytocin infusion",
-      "Attempt an instrumental vaginal delivery",
-      "Perform an emergency Cesarean section",
-      "Administer tocolytics and observe for 2 hours"
+      "Arrange a psychiatric consultation to assess fitness to stand trial",
+      "Apply the McNaughten rule for immediate exemption from responsibility",
+      "Proceed with the trial assuming mens rea is intrinsically absent",
+      "Invoke the Durham rule as the act was a product of mental disease"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Perform an emergency Cesarean section"
+    answerIndex: 0,
+    correctAnswerText: "Arrange a psychiatric consultation to assess fitness to stand trial"
   },
   {
     id: 70,
     image: "",
-    question: "A 26-year-old woman presents to the clinic with acute, severe vulvar pain that drastically worsens when she sits or walks. Physical examination reveals a 4 cm, highly tender, fluctuant, and erythematous swelling located at the 4 o'clock position of the labia majora. What is the most appropriate initial management for this patient?",
+    question: "A 65-year-old woman with end-stage metastatic breast cancer is rapidly deteriorating. Her family demands immediate ICU admission and mechanical ventilation. The oncology team determines these interventions are medically futile, will not improve survival, and will only increase her suffering. They decline the family's request. Which fundamental ethical principle primarily justifies the team's decision to withhold this treatment?",
     options: [
-      "Prescription of broad-spectrum oral antibiotics only",
-      "Immediate complete surgical excision of the gland",
-      "Simple needle aspiration of the fluctuant mass",
-      "Incision and drainage with Word catheter placement"
+      "Autonomy",
+      "Non-maleficence",
+      "Justice",
+      "Beneficence"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Incision and drainage with Word catheter placement"
+    answerIndex: 1,
+    correctAnswerText: "Non-maleficence"
   },
   {
     id: 71,
-    image: "images/ScreenRecording_08-07-2026 05-28-52_1.mov",
-    question: "A 45-year-old cancer patient receiving high-dose metoclopramide for chemotherapy-induced vomiting acutely develops a stiff neck, severe facial grimacing, and upward deviation of the eyes. Which of the following is the primary pathophysiological mechanism responsible for this acute presentation?",
+    image: "",
+    question: "A 45-year-old male with schizophrenia has been maintained on haloperidol for the past 3 years. He now presents to the clinic with newly developed, involuntary lip smacking, chewing motions, and tongue protrusion. Which of the following is the most likely underlying pathophysiological mechanism for his current presentation?",
     options: [
-      "Antagonism of central dopamine D2 receptors",
-      "Activation of peripheral 5-HT3 receptors",
-      "Inhibition of central acetylcholinesterase",
-      "Blockade of vestibular H1 histamine receptors"
+      "Decreased presynaptic dopamine synthesis",
+      "Acute blockade of nigrostriatal dopamine receptors",
+      "Upregulation of postsynaptic dopamine receptors",
+      "Degeneration of striatal cholinergic interneurons"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Antagonism of central dopamine D2 receptors"
+    answerIndex: 2,
+    correctAnswerText: "Upregulation of postsynaptic dopamine receptors"
   },
   {
     id: 72,
     image: "",
-    question: "A 42-year-old obese male on a prescribed weight-loss medication presents to the clinic complaining of greasy, foul-smelling stools that are difficult to flush. He also reports recent onset of easy bruisability. Laboratory investigations reveal a significantly prolonged prothrombin time. Activation of which of the following specific clotting factors is most directly impaired in this patient?",
+    question: "A 35-year-old man is found wandering in a railway station 500 miles from his home a week after surviving a devastating earthquake. He is physically healthy and can converse normally, but he has absolutely no recollection of his name, his past life, or how he arrived at the station. According to the current DSM-5 criteria, how is this specific psychiatric presentation classified?",
     options: [
-      "Factor VIII",
-      "Factor VII",
-      "Factor V",
-      "Factor XI"
+      "Depersonalization/derealization disorder",
+      "Acute stress disorder",
+      "An independent and distinct primary disorder",
+      "A specific specifier of dissociative amnesia"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Factor VII"
+    answerIndex: 3,
+    correctAnswerText: "A specific specifier of dissociative amnesia"
   },
   {
     id: 73,
     image: "",
-    question: "A 55-year-old patient with diabetic ketoacidosis presents with acute facial swelling and a black necrotic eschar on the hard palate. Tissue biopsy reveals broad, aseptate hyphae branching at right angles with extensive blood vessel invasion. The first-line intravenous drug initiated for this specific infection exerts its fungicidal effect via which of the following mechanisms?",
+    question: "A 28-year-old woman presents to the clinic complaining of severe hypervigilance, recurrent nightmares, and distressing flashbacks. She reports these symptoms began exactly two weeks ago, shortly after she survived a severe motor vehicle collision. She currently refuses to ride in any vehicles. What is the most likely psychiatric diagnosis?",
     options: [
-      "Inhibition of fungal squalene epoxidase",
-      "Blockade of beta-(1,3)-D-glucan synthase",
-      "Binding to ergosterol to form membrane pores",
-      "Inhibition of lanosterol 14-alpha-demethylase"
+      "Acute stress disorder",
+      "Post-traumatic stress disorder",
+      "Adjustment disorder",
+      "Generalized anxiety disorder"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Binding to ergosterol to form membrane pores"
+    answerIndex: 0,
+    correctAnswerText: "Acute stress disorder"
   },
   {
     id: 74,
     image: "",
-    question: "A 62-year-old male with chronic obstructive pulmonary disease is started on oral theophylline therapy. During his follow-up visit, he reports a significant increase in his daily urine output. Which of the following specific pharmacological actions of the drug is primarily responsible for this clinical finding?",
+    question: "A 35-year-old manager is referred for counseling by his wife. She complains he is overly rigid, hoards worn-out household items, and frequently misses work deadlines because he constantly revises reports to make them \"perfect.\" During the interview, he states, \"I don't see why she is upset; my way is simply the right way to do things.\" Which of the following is the most likely diagnosis?",
     options: [
-      "Inhibition of phosphodiesterase type 4",
-      "Enhancement of histone deacetylation",
-      "Inhibition of nuclear factor-kappa B",
-      "Antagonism of adenosine A1 receptors"
+      "Obsessive-Compulsive Disorder",
+      "Obsessive-Compulsive Personality Disorder",
+      "Narcissistic Personality Disorder",
+      "Schizoid Personality Disorder"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Antagonism of adenosine A1 receptors"
+    answerIndex: 1,
+    correctAnswerText: "Obsessive-Compulsive Personality Disorder"
   },
   {
     id: 75,
     image: "",
-    question: "A 58-year-old male with Type 2 Diabetes Mellitus, well-controlled on oral metformin, is admitted for an elective contrast-enhanced CT scan of the abdomen. His baseline renal function is normal. What is the most appropriate peri-procedural management regarding his antidiabetic medication?",
+    question: "A 32-year-old man hears a real bird chirping outside his window and immediately becomes convinced that this specific sound is a direct message from God instructing him to follow the bird to prevent his own death. Which of the following best describes this specific psychopathological phenomenon?",
     options: [
-      "Withhold prior to the scan and restart after 48 hours",
-      "Continue at half the dose on the day of the procedure",
-      "Switch to oral sulfonylureas 48 hours post-scan",
-      "Administer intravenous bicarbonate and continue normal dosing"
+      "Sudden delusional idea",
+      "Visual hallucination",
+      "Delusional perception",
+      "Delusion of reference"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Withhold prior to the scan and restart after 48 hours"
+    answerIndex: 2,
+    correctAnswerText: "Delusional perception"
   },
   {
     id: 76,
-    image: "images/IMG_1485.jpeg",
-    question: "A 65-year-old male recently started on an oral anticoagulant for atrial fibrillation develops intensely painful, dark purple, necrotic patches on his abdomen and thighs on the fifth day of therapy. An underlying congenital deficiency of which of the following natural factors most likely predisposed him to this acute complication?",
+    image: "",
+    question: "A 45-year-old male presents with a long-standing history of progressive dysphagia to both solids and liquids, along with unintentional weight loss. He also reports recurrent episodes of chronic cough and respiratory infections. A barium swallow reveals a massively dilated esophagus with a smooth, tapered narrowing at the gastroesophageal junction. Which of the following is the most likely finding on the gold standard diagnostic investigation for this patient's condition?",
     options: [
-      "Antithrombin III",
-      "Protein C",
-      "Factor VIII",
-      "Plasminogen"
+      "Decreased resting lower esophageal sphincter pressure",
+      "High-amplitude peristaltic contractions with normal LES relaxation",
+      "Premature simultaneous contractions with normal lower esophageal sphincter tone",
+      "Incomplete lower esophageal sphincter relaxation with absent peristalsis"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Protein C"
+    answerIndex: 3,
+    correctAnswerText: "Incomplete lower esophageal sphincter relaxation with absent peristalsis"
   },
   {
     id: 77,
     image: "",
-    question: "A 60-year-old male treated with a broad-spectrum antibiotic for a urinary tract infection presents with sudden, severe bilateral heel pain and Achilles tendon discomfort. Which of the following is the primary cellular enzyme targeted by this class of drugs?",
+    question: "A 58-year-old male presents with right-sided flank pain and gross hematuria. A contrast-enhanced CT (CECT) scan confirms a solid, enhancing mass in the right kidney with suspected extension into the right renal vein. To precisely delineate the cephalad extent of this tumor thrombus into the inferior vena cava prior to surgical resection, which of the following is the most appropriate imaging modality?",
     options: [
-      "Bacterial RNA polymerase",
-      "DNA gyrase and topoisomerase IV",
-      "Fungal lanosterol 14-alpha-demethylase",
-      "Ribosomal 30S subunit"
+      "Magnetic Resonance Imaging (MRI)",
+      "Positron Emission Tomography (PET) scan",
+      "Non-contrast CT scan",
+      "Renal angiography"
     ],
-    answerIndex: 1,
-    correctAnswerText: "DNA gyrase and topoisomerase IV"
+    answerIndex: 0,
+    correctAnswerText: "Magnetic Resonance Imaging (MRI)"
   },
   {
     id: 78,
-    image: "images/IMG_1401.jpeg",
-    question: "A 70-year-old male with chronic heart failure presents to the emergency department with new-onset delirium, visual disturbances, and palpitations. His ECG demonstrates a pathognomonic \"Salvador Dali\" sagging ST segment. Which of the following is the primary direct cellular mechanism of the drug responsible for this patient's presentation?",
+    image: "",
+    question: "A newborn presents with severe respiratory distress immediately after birth. Physical examination reveals a scaphoid abdomen and absent breath sounds on the left side. A chest X-ray shows multiple cystic, air-filled structures in the left hemithorax with a rightward mediastinal shift. Which of the following is the most important prognostic factor determining the survival of this infant?",
     options: [
-      "Stimulation of the Na+/Ca2+ exchanger",
-      "Activation of myocardial beta-1 receptors",
-      "Inhibition of the Na+/K+ ATPase pump",
-      "Blockade of the fast inward sodium channels"
+      "Size of the diaphragmatic defect",
+      "Degree of associated lung hypoplasia",
+      "Presence of an intrathoracic liver",
+      "Timing of early surgical intervention"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Inhibition of the Na+/K+ ATPase pump"
+    answerIndex: 1,
+    correctAnswerText: "Degree of associated lung hypoplasia"
   },
   {
     id: 79,
-    image: "images/IMG_1402.jpeg",
-    question: "A 45-year-old male with acute kidney injury presents to the emergency department with profound muscle weakness. His ECG reveals tall, peaked T waves, and his serum potassium level is markedly elevated at 7.2 mEq/L. As part of his immediate medical management, he is administered a high-dose nebulized beta-2 adrenergic agonist. By which of the following primary cellular mechanisms does this specific therapy rapidly lower his serum potassium levels?",
+    image: "",
+    question: "A 45-year-old male residing in a high-altitude region presents with a slow-growing, pulsatile swelling in the lateral aspect of his neck. On examination, a distinct bruit is auscultated over the mass. The swelling can be freely moved horizontally from side to side, but vertical movement is entirely restricted. Given the most likely diagnosis, which of the following is absolutely contraindicated in the evaluation of this patient?",
     options: [
-      "Antagonism of mineralocorticoid receptors in the collecting duct",
-      "Blockade of the apical renal potassium secretory channels",
-      "Inhibition of the ubiquitous Na+/K+ ATPase pump",
-      "Stimulation of the ubiquitous Na+/K+ ATPase pump"
+      "Magnetic Resonance Imaging (MRI) of the neck",
+      "Computed Tomography (CT) Angiography",
+      "Fine-needle aspiration cytology (FNAC)",
+      "Genetic screening for SDH gene mutations"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Stimulation of the ubiquitous Na+/K+ ATPase pump"
+    answerIndex: 2,
+    correctAnswerText: "Fine-needle aspiration cytology (FNAC)"
   },
   {
     id: 80,
     image: "",
-    question: "A 42-year-old male with acromegaly has persistently elevated serum IGF-1 levels after an incomplete transsphenoidal surgical resection of a pituitary macroadenoma. He is started on the standard first-line medical therapy. Which of the following best describes the primary mechanism of action of the most appropriate drug for this patient?",
+    question: "A 32-year-old male presents with recurrent right flank pain. Ultrasound reveals a dilated right renal pelvis and calyces with a normal-caliber ureter, raising clinical suspicion for a ureteropelvic junction (UPJ) obstruction. If traditional Intravenous Pyelography (IVP) is performed, which of the following represents the primary clinical utility of this specific investigation?",
     options: [
-      "Activation of somatostatin receptors",
-      "Blockade of peripheral growth hormone receptors",
-      "Stimulation of central dopamine D2 receptors",
-      "Competitive antagonism of growth hormone releasing hormone"
+      "It eliminates the risk of contrast-induced nephropathy in patients with renal failure",
+      "It provides superior soft-tissue resolution of the renal parenchyma without ionizing radiation",
+      "It is the modern gold-standard initial imaging modality, having entirely replaced CT urography",
+      "It provides simultaneous assessment of both the anatomical structure and functional drainage of the urinary tract"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Activation of somatostatin receptors"
+    answerIndex: 3,
+    correctAnswerText: "It provides simultaneous assessment of both the anatomical structure and functional drainage of the urinary tract"
   },
   {
     id: 81,
     image: "",
-    question: "A 48-year-old male with acromegaly fails to achieve biochemical control with maximum tolerated doses of somatostatin analogues. His endocrinologist initiates therapy with a daily subcutaneous injection of a drug that directly blocks the growth hormone (GH) receptor. Alongside tracking serum IGF-1 levels for drug efficacy, which of the following laboratory parameters must be strictly monitored for safety during this specific therapy?",
+    question: "A 32-year-old pregnant female at 32 weeks gestation presents to the neurology clinic with a 3-week history of new-onset, progressively worsening headaches. A contrast-enhanced MRI of the brain reveals a well-circumscribed, extra-axial mass with a broad dural base and a prominent \"dural tail\" sign. There is visible thickening of the adjacent cranial vault. Which of the following best explains the recent symptomatic enlargement of this tumor?",
     options: [
-      "Serum cortisol levels",
-      "Liver function tests",
-      "Visual field perimetry",
-      "Renal function tests"
+      "Expression of progesterone receptors by the tumor cells",
+      "Spontaneous intratumoral hemorrhage causing sudden expansion",
+      "Decreased absorption of CSF at the arachnoid granulations",
+      "Increased arterial supply from the internal carotid to the tumor core"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Liver function tests"
+    answerIndex: 0,
+    correctAnswerText: "Expression of progesterone receptors by the tumor cells"
   },
   {
     id: 82,
     image: "",
-    question: "A 45-year-old chronic alcoholic, recently started on a multi-drug regimen for active pulmonary tuberculosis, presents with bilateral tingling, burning, and numbness in his feet. The drug most likely responsible for his current symptoms acts primarily by inhibiting which of the following specific enzymes?",
+    question: "A 6-year-old boy is brought to the orthopedics outpatient department by his parents with a history of a painless limp for the past month. He occasionally complains of mild knee discomfort. A plain radiograph of the pelvis reveals fragmentation, flattening, and sclerosis of the right femoral head. What is the primary underlying pathology of this condition?",
     options: [
-      "Arabinosyl transferase",
-      "DNA-dependent RNA polymerase",
-      "Pyridoxal kinase",
-      "Mycolic acid synthase"
+      "Displacement of the proximal femoral epiphysis",
+      "Idiopathic avascular necrosis of the femoral head",
+      "Acute pyogenic infection of the joint space",
+      "Transient post-viral synovial inflammation"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Pyridoxal kinase"
+    answerIndex: 1,
+    correctAnswerText: "Idiopathic avascular necrosis of the femoral head"
   },
   {
     id: 83,
     image: "",
-    question: "A 35-year-old female receives targeted local injections for the management of severe, refractory axillary hyperhidrosis. While she experiences excellent resolution of her sweating, she presents two weeks later complaining of mild, localized muscle weakness in the surrounding area. The therapeutic agent utilized in this patient exerts its clinical effect by directly cleaving which of the following targets?",
+    question: "A 32-year-old man presents with loss of facial sensation over the lower jaw, weakness of muscles of mastication, and absent jaw jerk after a lesion at the skull base. Which foramen is most likely involved?",
     options: [
-      "Presynaptic voltage-gated calcium channels",
-      "Postsynaptic nicotinic acetylcholine receptors",
-      "Synaptic cleft acetylcholinesterase",
-      "Presynaptic SNARE proteins"
+      "Foramen rotundum",
+      "Superior orbital fissure",
+      "Foramen spinosum",
+      "Foramen ovale"
     ],
     answerIndex: 3,
-    correctAnswerText: "Presynaptic SNARE proteins"
+    correctAnswerText: "Foramen ovale"
   },
   {
     id: 84,
     image: "",
-    question: "A 50-year-old male with familial hypercholesterolemia has persistently elevated LDL cholesterol despite maximal statin therapy. He is prescribed a new medication administered via subcutaneous injection every two weeks. What is the primary cellular mechanism of this newly added drug?",
+    question: "A 24-year-old man presents with recurrent sinusitis. Endoscopy shows blockage in the hiatus semilunaris of the middle meatus. As a result, drainage from the frontal sinus, anterior ethmoidal air cells, and maxillary sinus is impaired. Which meatus is involved?",
     options: [
-      "Prevention of LDL receptor degradation",
-      "Inhibition of hepatic HMG-CoA reductase",
-      "Blockade of intestinal cholesterol absorption",
-      "Activation of lipoprotein lipase in adipocytes"
+      "Sphenoethmoidal recess",
+      "Superior meatus",
+      "Inferior meatus",
+      "Middle meatus"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Prevention of LDL receptor degradation"
+    answerIndex: 3,
+    correctAnswerText: "Middle meatus"
   },
   {
     id: 85,
     image: "",
-    question: "A 68-year-old male presents to the neurology clinic with a resting tremor in his right hand, generalized slowness of movement, and a noticeably reduced facial expression (masked facies). He is diagnosed with early-stage Parkinson's disease. His physician prescribes a medication specifically chosen to block the central breakdown of dopamine, thereby prolonging its action in the striatum. Which of the following best describes the mechanism of action of this drug?",
+    question: "A mandibular fracture near the neck of mandible causes injury to a branch arising from the 1st part of maxillary artery, producing an epidural hematoma after rupture inside the cranial cavity. Which artery is involved?",
     options: [
-      "Inhibition of catechol-O-methyltransferase",
-      "Selective inhibition of monoamine oxidase type B",
-      "Direct agonism of central dopamine receptors",
-      "Inhibition of peripheral DOPA decarboxylase"
+      "Deep auricular artery",
+      "Accessory meningeal artery",
+      "Middle meningeal artery",
+      "Inferior alveolar artery"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Selective inhibition of monoamine oxidase type B"
+    answerIndex: 2,
+    correctAnswerText: "Middle meningeal artery"
   },
   {
     id: 86,
     image: "",
-    question: "A 24-year-old female is brought to the emergency department 14 hours after intentionally ingesting a massive amount of over-the-counter antipyretic tablets. She currently complains of severe nausea, vomiting, and right upper quadrant abdominal pain. The specific intravenous antidote indicated for this patient prevents permanent hepatic damage through which of the following primary cellular mechanisms?",
+    question: "A 40-year-old man is asked to hold a sheet of paper between his fingers and also between the thumb and index finger. He cannot adduct or abduct the fingers, and he shows weak thumb adduction due to paralysis of interossei and adductor pollicis. Which nerve is injured?",
     options: [
-      "Direct inhibition of the hepatic CYP2E1 enzyme pathway",
-      "Binding and chelation of the parent drug in the bloodstream",
-      "Replenishment of hepatic glutathione stores to inactivate toxic metabolites",
-      "Conjugation of the drug via enhanced systemic glucuronidation"
+      "Ulnar nerve",
+      "Median nerve",
+      "Radial nerve",
+      "Axillary nerve"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Replenishment of hepatic glutathione stores to inactivate toxic metabolites"
+    answerIndex: 0,
+    correctAnswerText: "Ulnar nerve"
   },
   {
     id: 87,
     image: "",
-    question: "A 28-year-old male is brought to the emergency department completely unrousable. Vital signs reveal a severe bradycardia and a respiratory rate of only 6 breaths per minute. Physical examination is notable for bilateral pinpoint pupils and muscle flaccidity. Which of the following is the most appropriate initial pharmacological agent to immediately administer for life-saving reversal?",
+    question: "A 46,XY infant has female-type external genitalia, but imaging shows presence of epididymis, vas deferens, and seminal vesicles. Which factor was most likely absent during development?",
     options: [
-      "Intravenous Flumazenil",
-      "Sublingual Buprenorphine",
-      "Oral Naltrexone",
-      "Intravenous Naloxone"
+      "Testosterone",
+      "Müllerian inhibiting substance",
+      "SRY gene",
+      "Dihydrotestosterone (DHT)"
     ],
     answerIndex: 3,
-    correctAnswerText: "Intravenous Naloxone"
+    correctAnswerText: "Dihydrotestosterone (DHT)"
   },
   {
     id: 88,
     image: "",
-    question: "A 25-year-old female presents to the emergency room with delirium, dilated pupils, and extremely dry mucous membranes following an intentional drug ingestion. Her ECG reveals a significantly widened QRS complex of 130 msec. Intravenous sodium bicarbonate is immediately administered. What is the primary therapeutic mechanism of this specific intervention?",
+    question: "During hysterectomy, the surgeon carefully ligates the uterine artery while avoiding injury to the structure passing just below it. Which relation is classically described here?",
     options: [
-      "Counteracts myocardial fast sodium channel blockade",
-      "Competitively antagonizes central muscarinic receptors",
-      "Enhances renal elimination of the toxic drug metabolites",
-      "Directly stimulates myocardial beta-1 adrenergic receptors"
+      "Uterine artery passes below the ureter",
+      "Ovarian artery passes below the ureter",
+      "Ureter passes below the uterine artery",
+      "Uterine tube passes below the uterine artery"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Counteracts myocardial fast sodium channel blockade"
+    answerIndex: 2,
+    correctAnswerText: "Ureter passes below the uterine artery"
   },
   {
     id: 89,
     image: "",
-    question: "A 30-year-old female presents with an acute, severe, throbbing unilateral headache accompanied by intense photophobia and nausea. She reports experiencing these debilitating episodes approximately twice a year. Which of the following is the most appropriate acute abortive therapy that acts specifically as a selective 5-HT1B/1D receptor agonist?",
+    question: "A hepatobiliary surgeon plans a segmental liver resection for a lesion located in the caudate lobe, which is known to have independent bilateral vascular supply and behaves as a separate functional unit. Which Couinaud segment is this?",
     options: [
-      "Propranolol",
-      "Sumatriptan",
-      "Topiramate",
-      "Flunarizine"
+      "Segment II",
+      "Segment IVb",
+      "Segment I",
+      "Segment VI"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Sumatriptan"
+    answerIndex: 2,
+    correctAnswerText: "Segment I"
   },
   {
     id: 90,
-    image: "images/IMG_1482.jpeg",
-    question: "A 10-month-old infant with three hypopigmented ash-leaf spots presents with sudden, forceful truncal flexion spasms occurring in clusters. EEG displays a chaotic background of irregular, multifocal spikes. What is the preferred first-line pharmacological treatment for this patient?",
+    image: "",
+    question: "A 35-year-old man undergoes surgery for varicocele. The surgeon isolates the spermatic cord within the inguinal canal. Which of the following is a normal content of the spermatic cord?",
     options: [
-      "Intravenous Diazepam",
-      "Adrenocorticotropic hormone (ACTH)",
-      "Vigabatrin",
-      "Oral Prednisolone"
+      "Ilioinguinal nerve as a cord content",
+      "Round ligament of uterus",
+      "Ureter",
+      "Pampiniform plexus of veins"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Vigabatrin"
+    answerIndex: 3,
+    correctAnswerText: "Pampiniform plexus of veins"
   },
   {
     id: 91,
     image: "",
-    question: "A new targeted therapy for a chronic debilitating disease is being evaluated by a national health committee. Studies demonstrate that the intervention provides an additional life expectancy of 15 years. The health-related quality of life during these additional years is estimated to have a utility value of 0.8. Which of the following is the correct Quality-Adjusted Life Years (QALY) gained by using this new therapy?",
+    question: "A pathology resident examines an islet of Langerhans and notes that the centrally placed cells, which form the majority of the islet, secrete a hormone important in lowering blood glucose. These cells are:",
     options: [
-      "10 QALYs",
-      "15 QALYs",
-      "15.8 QALYs",
-      "12 QALYs"
+      "Alpha cells",
+      "Beta cells",
+      "Delta cells",
+      "Acinar cells"
     ],
-    answerIndex: 3,
-    correctAnswerText: "12 QALYs"
+    answerIndex: 1,
+    correctAnswerText: "Beta cells"
   },
   {
     id: 92,
     image: "",
-    question: "A 25-year-old pregnant woman residing in an urban slum of Madhya Pradesh has a successful institutional delivery at a government hospital. She was motivated and accompanied by the local ASHA worker. Under the Janani Suraksha Yojana (JSY), what is the correct financial entitlement for the mother and the ASHA worker, respectively?",
+    question: "A patient is advised to take a non-digestible carbohydrate supplement that promotes growth of beneficial gut bacteria. The compound is a fructosan, contains fructose units, and is also used clinically for glomerular filtration rate calculation because it is freely filtered and not reabsorbed. Which of the following carbohydrates is being described?",
     options: [
-      "Mother: ₹1000, ASHA: ₹400",
-      "Mother: ₹1400, ASHA: ₹600",
-      "Mother: ₹700, ASHA: ₹600",
-      "Mother: ₹600, ASHA: ₹400"
+      "Starch",
+      "Inulin",
+      "Dextran",
+      "Chitin"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Mother: ₹1000, ASHA: ₹400"
+    answerIndex: 1,
+    correctAnswerText: "Inulin"
   },
   {
     id: 93,
     image: "",
-    question: "A Medical Officer at a Primary Health Centre located in a highly active seismic zone is reviewing the facility's disaster management protocols. Which of the following activities specifically represents a 'Response' measure rather than a proactive 'Preparedness' step in the disaster management cycle?",
+    question: "A child with suspected glycogen metabolism disorder is evaluated biochemically. The examiner explains that during glycogen synthesis, glucose residues are added mainly through α-1,4 glycosidic bonds, while branch points are created by transferring a small chain of glucose residues to form α-1,6 linkages. Which of the following enzymes is responsible for formation of α-1,6 branch points in glycogen?",
     options: [
-      "Securing essential medical supplies and emergency funds",
-      "Following radio instructions from higher officials during the event",
-      "Conducting periodic community earthquake evacuation drills",
-      "Utilizing loudspeakers for public safety awareness campaigns"
+      "Glycogen phosphorylase",
+      "Glycogen synthase",
+      "Glucose-6-phosphatase",
+      "Branching enzyme"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Following radio instructions from higher officials during the event"
+    answerIndex: 3,
+    correctAnswerText: "Branching enzyme"
   },
   {
     id: 94,
     image: "",
-    question: "A public health officer in a rabies-endemic district is drafting a policy to sustainably reduce human rabies cases. Which of the following is the most cost-effective and practical long-term strategy to address the root cause of transmission in this resource-limited setting?",
+    question: "A 6-year-old child presents with progressive neurological deterioration, hepatomegaly, renal dysfunction, and accumulation of very long-chain fatty acids. The physician explains that oxidation of very long-chain fatty acids normally occurs in peroxisomes, and a defect in this organelle can cause a cerebro-hepato-renal syndrome. Which of the following disorders is classically associated with defective peroxisomal oxidation of very long-chain fatty acids?",
     options: [
-      "Universal pre-exposure human vaccination",
-      "Indiscriminate mass culling of stray dogs",
-      "Mass canine vaccination and population control",
-      "Expanding access to post-exposure immunoglobulins"
+      "Refsum disease",
+      "Zellweger syndrome",
+      "MCAD deficiency",
+      "Carnitine deficiency"
     ],
-    answerIndex: 2,
-    correctAnswerText: "Mass canine vaccination and population control"
+    answerIndex: 1,
+    correctAnswerText: "Zellweger syndrome"
   },
   {
     id: 95,
     image: "",
-    question: "A public health team is deploying the WHO STEP framework to monitor risk factors for chronic diseases in a semi-urban population. They are systematically collecting data on body mass index, daily tobacco use, and baseline depression scores. Which of the following components is explicitly excluded from this standardized framework?",
+    question: "A patient’s fasting lipid profile is being interpreted. The examiner explains that lipoproteins differ in lipid and protein content. One lipoprotein is synthesized in the intestine, has the highest lipid content, lowest protein content, largest diameter, and remains near the origin during electrophoresis. Which of the following lipoproteins best fits this description?",
     options: [
-      "Physical assessment",
-      "Behavioral assessment",
-      "Psychological assessment",
-      "Therapeutic assessment"
+      "HDL",
+      "LDL",
+      "VLDL",
+      "Chylomicron"
     ],
     answerIndex: 3,
-    correctAnswerText: "Therapeutic assessment"
+    correctAnswerText: "Chylomicron"
   },
   {
     id: 96,
     image: "",
-    question: "A 45-year-old male diagnosed with pulmonary tuberculosis successfully finishes his prescribed 6-month antitubercular regimen. His medical records document that his sputum smear results were negative both at the end of the intensive phase and at the end of the continuation phase. According to the World Health Organization (WHO) guidelines, what is the official classification of this patient's treatment outcome?",
+    question: "A child presents with darkening of urine on standing and later develops black pigmentation of cartilage with arthritis-like symptoms. Biochemical evaluation shows accumulation of homogentisic acid, which gets oxidized to benzoquinone acetate. Which of the following enzyme deficiencies is responsible for this condition?",
     options: [
-      "Cured",
-      "Treatment completed",
-      "Treatment failed",
-      "Lost to follow-up"
+      "Phenylalanine hydroxylase",
+      "Tyrosinase",
+      "Homogentisate oxidase",
+      "Fumarylacetoacetate hydrolase"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Cured"
+    answerIndex: 2,
+    correctAnswerText: "Homogentisate oxidase"
   },
   {
     id: 97,
     image: "",
-    question: "A medical researcher conducts a large prospective cohort study evaluating a new dietary intervention for the prevention of type 2 diabetes mellitus. Upon final data analysis, the calculated Risk Ratio (RR) for developing diabetes in the intervention group compared to the control group is reported as 0.84. Which of the following is the most accurate interpretation of this specific epidemiological finding?",
+    question: "A patient is given a drug that competes with the natural substrate for the active site of an enzyme. On Lineweaver–Burk plot, the slope increases, the x-intercept shifts towards zero, but the y-intercept remains unchanged. Which of the following changes is most likely produced by this inhibitor?",
     options: [
-      "The dietary intervention increases the risk of developing diabetes by 16%.",
-      "The dietary intervention demonstrates a protective effect, reducing the risk by 16%.",
-      "The statistical value is extremely close to the null, indicating absolutely no clinical effect.",
-      "The data provided is fundamentally insufficient to establish any form of association."
+      "Decreased Km with decreased Vmax",
+      "Same Km with decreased Vmax",
+      "Decreased Km with same Vmax",
+      "Increased Km with same Vmax"
     ],
-    answerIndex: 1,
-    correctAnswerText: "The dietary intervention demonstrates a protective effect, reducing the risk by 16%."
+    answerIndex: 3,
+    correctAnswerText: "Increased Km with same Vmax"
   },
   {
     id: 98,
     image: "",
-    question: "A government health committee is planning to establish a new Urban Community Health Center (UCHC) in a standard, non-metropolitan city to act as a referral center for 4 to 5 local Primary Health Centers. According to the national guidelines, what is the target population coverage and designated bed strength for this specific facility?",
+    question: "A child presents with difficulty seeing in dim light. Biochemical evaluation shows defective regeneration of the visual pigment in photoreceptors. In the normal visual cycle, light converts the retinal component of rhodopsin into which of the following forms?",
     options: [
-      "5 lakh population; 100 beds",
-      "1.2 lakh population; 30 beds",
-      "2.5 lakh population; 30 to 50 beds",
-      "50,000 population; 10 beds"
+      "All-trans-retinal",
+      "11-cis-retinal",
+      "Retinoic acid",
+      "Retinol"
     ],
-    answerIndex: 2,
-    correctAnswerText: "2.5 lakh population; 30 to 50 beds"
+    answerIndex: 0,
+    correctAnswerText: "All-trans-retinal"
   },
   {
     id: 99,
     image: "",
-    question: "A scrub nurse is clearing the surgical trolley after a cardiac procedure. She needs to safely discard a broken glass drug ampoule and an extracted metallic pacemaker. According to the standard biomedical waste management guidelines, which of the following is the correct color-coded container for the disposal of these specific items?",
+    question: "A neonate is suspected to have a latent viral infection. A molecular test is performed using target DNA, primers, nucleotides, and a heat-stable DNA polymerase obtained from Thermus aquaticus. The amplified DNA is later analyzed using a blotting method. Which of the following correctly matches the blotting technique with the molecule detected?",
     options: [
-      "Yellow non-chlorinated plastic bag",
-      "Red non-chlorinated plastic bag",
-      "White translucent puncture-proof container",
-      "Blue puncture-proof cardboard box"
+      "Northern blot — Protein",
+      "Western blot — DNA",
+      "Southern blot — DNA",
+      "Southwestern blot — RNA"
     ],
-    answerIndex: 3,
-    correctAnswerText: "Blue puncture-proof cardboard box"
+    answerIndex: 2,
+    correctAnswerText: "Southern blot — DNA"
   },
   {
     id: 100,
-    image: "",
-    question: "A medical officer is training rural health workers on child survival strategies based on a historic public health campaign launched by a New York-based international agency. Which of the following interventions is specifically represented by the letter 'O' in this agency's famous \"GOBI-FFF\" initiative?",
-    options: [
-      "Oral rehydration therapy",
-      "Observation of developmental milestones",
-      "Outpatient pediatric care",
-      "Opportunistic infection control"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Oral rehydration therapy"
-  },
-  {
-    id: 101,
-    image: "",
-    question: "A case-control study is investigating if cytotoxic waste in the local water supply is associated with Acute Lymphoblastic Leukemia (ALL) in children. Cases are selected from a specific hospital's oncology ward. To minimize selection bias, which of the following is the most ideal control group?",
-    options: [
-      "Children diagnosed with other types of cancers in the same ward",
-      "Children attending the same hospital's general OPD without ALL",
-      "Healthy siblings of the cases living in the exact same household",
-      "Healthy children selected randomly from a distant, unaffected city"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Children attending the same hospital's general OPD without ALL"
-  },
-  {
-    id: 102,
-    image: "",
-    question: "A health worker is preparing for a morning immunization session and wishes to utilize an opened multi-dose vaccine vial from the previous day. According to the national Open Vial Policy (OVP), which of the following represents a strict mandatory condition for the safe reuse of this vial?",
-    options: [
-      "The vial was preserved overnight at freezing temperatures below 0°C",
-      "The expiry date has passed but the Vaccine Vial Monitor is completely light",
-      "The vial was continuously maintained at +2°C to +8°C with intact asepsis",
-      "The Vaccine Vial Monitor color has matched the inner reference square"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "The vial was continuously maintained at +2°C to +8°C with intact asepsis"
-  },
-  {
-    id: 103,
-    image: "images/IMG_1441.jpeg",
-    question: "A 72-year-old Scandinavian male presents with decreased vision and elevated intraocular pressure in his right eye. Slit-lamp biomicroscopy reveals a characteristic bull's-eye pattern with a central disc, a clear intermediate zone, and a peripheral granular zone of greyish-white flaky material on the anterior lens capsule. Which of the following conditions is most strongly associated with these specific ocular findings?",
-    options: [
-      "Primary open-angle glaucoma",
-      "Secondary open-angle glaucoma",
-      "Neovascular glaucoma",
-      "Primary angle-closure glaucoma"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Secondary open-angle glaucoma"
-  },
-  {
-    id: 104,
-    image: "",
-    question: "A 55-year-old diabetic patient presents for a routine evaluation. Despite a preserved visual acuity of 6/9, fundus examination reveals active neovascularization at the optic disc and preretinal hemorrhages. What is the most appropriate definitive management for this patient?",
-    options: [
-      "Pars plana vitrectomy",
-      "Observation with strict glycemic control",
-      "Pan-retinal photocoagulation",
-      "Intravitreal triamcinolone injection"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Pan-retinal photocoagulation"
-  },
-  {
-    id: 105,
-    image: "images/IMG_1442.jpeg",
-    question: "A 65-year-old female with a 15-year history of severe seropositive rheumatoid arthritis presents with a completely painless, bluish patch on her right eye. Slit-lamp examination reveals severe focal scleral thinning with the dark underlying uveal tissue clearly visible beneath. The underlying pathogenesis of this specific severe ocular complication is primarily driven by which of the following immunological mechanisms?",
-    options: [
-      "Direct localized bacterial invasion of the scleral stroma",
-      "Type IV delayed cell-mediated hypersensitivity reaction",
-      "Type II cytotoxic antibody-mediated tissue destruction",
-      "Type III immune-complex mediated obliterative vasculitis"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Type III immune-complex mediated obliterative vasculitis"
-  },
-  {
-    id: 106,
-    image: "",
-    question: "A 32-year-old male presents with new-onset photophobia, blurred vision, and difficulty reading (loss of accommodation) in his left eye. Eight weeks ago, he sustained a severe penetrating trauma to his right eye, which currently remains red and irritable. Fundus examination of the left eye reveals deep yellowish granulomatous lesions between Bruch's membrane and the retinal pigment epithelium. Which of the following is the primary pathophysiological mechanism driving the disease process in the left eye?",
-    options: [
-      "T-cell-mediated autoimmune hypersensitivity",
-      "Direct contiguous bacterial tracking via the optic chiasm",
-      "Type III immune-complex mediated obliterative vasculitis",
-      "Ischemic necrosis secondary to sympathetic nerve overactivity"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "T-cell-mediated autoimmune hypersensitivity"
-  },
-  {
-    id: 107,
-    image: "images/IMG_1443.jpeg",
-    question: "A 22-year-old male presents with frequent changes in his spectacle prescription, complaining of progressive blurring of vision and glare. Ocular examination reveals a distinct V-shaped bulging of the lower eyelid when the patient looks downwards. Which of the following is the most sensitive investigation to detect the earliest subclinical stage of this specific condition?",
-    options: [
-      "Slit-lamp biomicroscopy",
-      "Corneal topography",
-      "Ultrasound pachymetry",
-      "Direct ophthalmoscopy"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Corneal topography"
-  },
-  {
-    id: 108,
-    image: "images/IMG_1472.jpeg",
-    question: "An 8-month-old infant presents with progressive cognitive regression, loss of previously acquired motor milestones, and an exaggerated startle reflex to loud noises. Ophthalmoscopy reveals a prominent, distinct \"cherry-red spot\" on the macula of both eyes. Abdominal examination is unremarkable with no palpable organomegaly. Which of the following specific biochemical defects is responsible for this condition?",
-    options: [
-      "Sphingomyelinase deficiency",
-      "Beta-galactosidase deficiency",
-      "Hexosaminidase A deficiency",
-      "Arylsulfatase A deficiency"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Hexosaminidase A deficiency"
-  },
-  {
-    id: 109,
-    image: "",
-    question: "A 22-year-old female presents with bilateral painless parotid swelling and distinct calluses on the dorsum of her right hand. Her BMI is calculated at 24 kg/m2. Laboratory evaluation reveals marked hypokalemia and metabolic alkalosis. To formally establish her primary psychiatric diagnosis, her recurrent episodes of uncontrolled eating and compensatory behaviors must occur at a minimum frequency of:",
-    options: [
-      "Twice a week for 6 months",
-      "Twice a week for 3 months",
-      "Once a month for 6 months",
-      "Once a week for 3 months"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Once a week for 3 months"
-  },
-  {
-    id: 110,
-    image: "",
-    question: "Researchers studying cellular senescence in cultured fibroblasts from a 75-year-old patient observe a progressive loss of protective chromosome ends. According to the telomerase theory, which of the following is the correct statement regarding this cellular aging process?",
-    options: [
-      "Decreased telomere length is directly associated with cellular aging",
-      "Telomerase activity progressively increases in normal somatic cells",
-      "Telomerase functions as a DNA-dependent RNA polymerase enzyme",
-      "Increased telomere length triggers genomic instability and cell death"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Decreased telomere length is directly associated with cellular aging"
-  },
-  {
-    id: 111,
-    image: "",
-    question: "A 2-year-old child presents with severe growth delay, jaundice, frontal bossing, and massive hepatosplenomegaly. Peripheral smear shows microcytic hypochromic red blood cells with numerous target cells. Hemoglobin electrophoresis reveals 90% HbF, 5% HbA2, and completely absent HbA. Which of the following genetic defects is most likely responsible for this specific presentation?",
-    options: [
-      "HBA gene deletion on chromosome 16",
-      "Homozygous HBB gene mutation on chromosome 11",
-      "Heterozygous HBB gene mutation on chromosome 11",
-      "Missense point mutation in the beta-globin chain"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Homozygous HBB gene mutation on chromosome 11"
-  },
-  {
-    id: 112,
-    image: "",
-    question: "A 60-year-old man undergoes an 18F-FDG PET scan for lung cancer staging. The intense radiotracer accumulation in the tumor relies on the Warburg effect. What is the primary biological purpose of this specific metabolic reprogramming in neoplastic cells?",
-    options: [
-      "Maximizing total ATP generation",
-      "Enhancing oxidative phosphorylation",
-      "Supplying intermediates for cell growth",
-      "Producing lactate only during hypoxia"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Supplying intermediates for cell growth"
-  },
-  {
-    id: 113,
-    image: "images/IMG_1473.jpeg",
-    question: "A 45-year-old male with a mechanical prosthetic aortic valve presents with fatigue, dark urine, and jaundice. A peripheral blood smear reveals numerous fragmented red blood cells (schistocytes). According to the standard classification of hemolytic anemias, which of the following conditions shares the exact same primary site of red blood cell destruction as seen in this patient?",
-    options: [
-      "Hereditary spherocytosis",
-      "Warm autoimmune hemolytic anemia",
-      "Sickle cell disease",
-      "Paroxysmal nocturnal hemoglobinuria"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Paroxysmal nocturnal hemoglobinuria"
-  },
-  {
-    id: 114,
-    image: "",
-    question: "A researcher is studying extracellular web-like structures released by activated immune cells in a blood sample from a patient with severe sepsis. These structures successfully trap circulating bacteria but are also noted to act as potent autoantigens in Systemic Lupus Erythematosus. Which of the following forms the central structural backbone of these specific traps?",
-    options: [
-      "Decondensed nuclear chromatin",
-      "Extruded mitochondrial DNA",
-      "Polymerized actin filaments",
-      "Insoluble fibrin strands"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Decondensed nuclear chromatin"
-  },
-  {
-    id: 115,
-    image: "images/IMG_1474.jpeg",
-    question: "A 55-year-old renal transplant recipient presents with refractory lower urinary tract symptoms. Cystoscopy reveals multiple raised, yellow-white plaques localized to the bladder trigone. Microscopic examination of the biopsy demonstrates dense infiltrates of large foamy macrophages containing laminated, targetoid inclusions. Which of the following is the most frequent causative organism responsible for this specific condition?",
-    options: [
-      "Staphylococcus saprophyticus",
-      "Escherichia coli",
-      "Mycobacterium tuberculosis",
-      "Schistosoma haematobium"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Escherichia coli"
-  },
-  {
-    id: 116,
-    image: "",
-    question: "A healthy 50-year-old male enrolls in a clinical longevity trial where his standard daily caloric intake is strictly reduced by 25%. Over time, researchers note a significant improvement in his cellular DNA repair mechanisms and insulin sensitivity. This well-documented dietary intervention extends lifespan primarily by inducing which of the following combined molecular changes?",
-    options: [
-      "Increased IGF-1 signaling and increased cellular apoptosis",
-      "Inhibition of NAD+-dependent deacetylases and increased metabolism",
-      "Decreased IGF-1 signaling and increased sirtuin activity",
-      "Upregulation of anabolic pathways and decreased DNA repair"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Decreased IGF-1 signaling and increased sirtuin activity"
-  },
-  {
-    id: 117,
-    image: "",
-    question: "A 65-year-old male succumbs to acute respiratory distress syndrome (ARDS) following a 10-day intensive care admission for severe COVID-19. A post-mortem histological examination of the lung tissue is performed. Which of the following is the most likely hallmark morphological finding observed lining the alveolar spaces?",
-    options: [
-      "Extensive neutrophilic lobar consolidation",
-      "Caseating granulomatous inflammation",
-      "Proliferation of atypical squamous cells",
-      "Thick layer of fibrin forming hyaline membranes"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Thick layer of fibrin forming hyaline membranes"
-  },
-  {
-    id: 118,
-    image: "images/IMG_1475.jpeg",
-    question: "A 45-year-old man presents with a history of chronic blood loss from hemorrhoids. Laboratory evaluation reveals a hemoglobin of 9 g/dL and an MCV of 60 fL. Peripheral blood smear shows microcytic hypochromic red cells with marked anisopoikilocytosis and target cells. Which of the following is the most reliable initial non-invasive investigation to establish the diagnosis?",
-    options: [
-      "Serum ferritin levels",
-      "Hemoglobin electrophoresis",
-      "Bone marrow aspiration",
-      "Serum transferrin saturation"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Serum ferritin levels"
-  },
-  {
-    id: 119,
-    image: "images/IMG_1484.jpeg",
-    question: "A 52-year-old male presents with fatigue, unexplained weight loss, and a chronic dragging sensation in his left abdomen. Physical examination reveals massive splenomegaly. A peripheral blood smear demonstrates an increased number of mature neutrophils along with metamyelocytes and myelocytes. Fluorescence in situ hybridization (FISH) detects a specific gene fusion. Which of the following is the primary mechanism of the targeted drug of choice for this patient's condition?",
-    options: [
-      "Monoclonal antibody binding to CD20 receptors",
-      "Inhibition of abnormal tyrosine kinase activity",
-      "Reversible competitive inhibition of dihydrofolate reductase",
-      "Alkylation of DNA causing cross-linking and strand breaks"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Inhibition of abnormal tyrosine kinase activity"
-  },
-  {
-    id: 120,
-    image: "",
-    question: "A 36-year-old multigravida at 37 weeks gestation presents with severe right upper quadrant pain, nausea, and a blood pressure of 150/100 mmHg. Laboratory investigations reveal a platelet count of 70,000/mm3, markedly elevated AST and ALT, and a high serum LDH. What is the definitive management for this patient's condition?",
-    options: [
-      "Intravenous magnesium sulfate infusion",
-      "Strict blood pressure control with labetalol",
-      "Immediate termination of pregnancy",
-      "Administration of intramuscular corticosteroids"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Immediate termination of pregnancy"
-  },
-  {
-    id: 121,
-    image: "",
-    question: "A 26-year-old primigravida at 28 weeks gestation presents for a routine evaluation. Clinical examination reveals a marked fundal height lag. Obstetric ultrasound is performed and demonstrates a Single Deepest Vertical Pocket (SDVP) of 1.5 cm. Which of the following fetal anomalies is the most likely primary cause of this specific finding?",
-    options: [
-      "Esophageal atresia",
-      "Duodenal atresia",
-      "Anencephaly",
-      "Renal agenesis"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Renal agenesis"
-  },
-  {
-    id: 122,
-    image: "",
-    question: "A 32-year-old preeclamptic woman on a continuous magnesium sulfate infusion develops oliguria and a respiratory rate of 10/min. Clinical examination reveals completely absent patellar reflexes. After immediately stopping the infusion, what is the specific pharmacological antidote of choice?",
-    options: [
-      "Intravenous calcium gluconate",
-      "Intravenous furosemide",
-      "Intravenous sodium bicarbonate",
-      "Intravenous potassium chloride"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Intravenous calcium gluconate"
-  },
-  {
-    id: 123,
-    image: "",
-    question: "A 28-year-old woman is being discharged following a successful surgical repair of a vesicovaginal fistula. To prevent the breakdown of the repair and minimize the risk of recurrence, what is the most appropriate counseling regarding the resumption of sexual intercourse and future pregnancy, respectively?",
-    options: [
-      "Abstinence for 6 weeks; avoid pregnancy for 6 months",
-      "Abstinence for 3 months; avoid pregnancy for 1 year",
-      "Abstinence for 6 months; avoid pregnancy for 2 years",
-      "Abstinence for 1 month; avoid pregnancy for 3 months"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Abstinence for 3 months; avoid pregnancy for 1 year"
-  },
-  {
-    id: 124,
-    image: "",
-    question: "A 30-year-old primigravida presents at 34 weeks gestation with severe hypertension (160/110 mmHg) and 3+ proteinuria. A uterine artery Doppler reveals a persistent diastolic notch, indicating high-resistance blood flow. The primary pathophysiological defect initiating this specific condition is the failure of which of the following processes?",
-    options: [
-      "The first wave of endovascular trophoblast invasion",
-      "The extensive decidualization of the maternal endometrium",
-      "The second wave of trophoblast invasion into the myometrium",
-      "The systemic release of pro-angiogenic vascular factors"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "The second wave of trophoblast invasion into the myometrium"
-  },
-  {
-    id: 125,
-    image: "",
-    question: "A 28-year-old woman presents to the emergency room with heavy vaginal bleeding 14 days after an uncomplicated normal vaginal delivery. Her vital signs show a blood pressure of 110/70 mmHg and a heart rate of 90 beats/min. Upon examination, the uterus is well-contracted. What is the most common cause of this specific temporal pattern of hemorrhage?",
-    options: [
-      "Uterine atony",
-      "Genital tract lacerations",
-      "Inherited coagulopathy",
-      "Retained placental tissue"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Retained placental tissue"
-  },
-  {
-    id: 126,
-    image: "",
-    question: "A 30-year-old woman suddenly collapses with severe dyspnea and cyanosis 15 minutes after delivering a healthy term infant. She rapidly develops profuse bleeding from the vagina and her intravenous puncture sites. Which of the following is the primary pathophysiological mechanism driving this catastrophic event?",
-    options: [
-      "Systemic anaphylactoid reaction to fetal debris",
-      "Acute massive pulmonary thromboembolism",
-      "Severe hypovolemia due to massive uterine atony",
-      "Cardiogenic shock from coronary artery vasospasm"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Systemic anaphylactoid reaction to fetal debris"
-  },
-  {
-    id: 127,
-    image: "",
-    question: "A primigravida is in the second stage of labor for 2 hours with strong, regular contractions but no fetal descent. Vaginal examination reveals the fetal head at station 0 in a right occipitotransverse (ROT) position, with 2+ caput and 2+ molding. What is the most appropriate next step in management?",
-    options: [
-      "Application of midpelvic forceps",
-      "Lower segment cesarean section",
-      "Vacuum-assisted vaginal delivery",
-      "Expectant management for one more hour"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Lower segment cesarean section"
-  },
-  {
-    id: 128,
-    image: "",
-    question: "A healthy 24-year-old primigravida presents for a routine antenatal check-up at exactly 12 weeks of gestation. She is currently maintaining her standard pre-pregnancy diet and asks how she should modify her daily caloric intake moving forward to optimally support fetal growth. What is the most appropriate dietary advice for this patient?",
-    options: [
-      "Maintain her current pre-pregnancy caloric intake",
-      "Increase her daily intake by 150 kcal/day",
-      "Increase her daily intake by 300 kcal/day",
-      "Increase her daily intake by 500 kcal/day"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Increase her daily intake by 300 kcal/day"
-  },
-  {
-    id: 129,
-    image: "",
-    question: "A 26-year-old primigravida at 22 weeks gestation presents with painless cervical dilation and bulging fetal membranes. Which of the following is an absolute contraindication for performing an emergency cervical cerclage in this patient?",
-    options: [
-      "History of prior mid-trimester losses",
-      "Cervical dilation measuring 3 cm",
-      "Presence of ruptured membranes",
-      "Short cervical length of 20 mm on ultrasound"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Presence of ruptured membranes"
-  },
-  {
-    id: 130,
-    image: "",
-    question: "A 32-year-old G2P1 presents at 35 weeks gestation requesting a vaginal birth after cesarean (VBAC) for her current pregnancy. Reviewing her past operative notes is crucial. Which of the following prior surgical histories represents an absolute contraindication to attempting a Trial of Labor After Cesarean (TOLAC)?",
-    options: [
-      "Previous delivery via a single lower segment transverse cesarean",
-      "Previous removal of a small pedunculated subserosal fibroid",
-      "Previous successful vaginal delivery prior to her first cesarean",
-      "Previous classical vertical uterine incision"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Previous classical vertical uterine incision"
-  },
-  {
-    id: 131,
-    image: "",
-    question: "A hemodynamically stable 26-year-old woman presents with mild lower abdominal pain and a positive urine pregnancy test. Transvaginal ultrasound reveals an empty uterus and no visible adnexal masses. Her quantitative serum beta-hCG level is reported as 1400 mIU/mL. What is the most appropriate next step in the management of this patient?",
-    options: [
-      "Repeat serum beta-hCG after 48 hours",
-      "Administer intramuscular methotrexate",
-      "Perform an emergency diagnostic laparoscopy",
-      "Schedule a dilation and curettage"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Repeat serum beta-hCG after 48 hours"
-  },
-  {
-    id: 132,
-    image: "",
-    question: "A 16-year-old girl presents to the clinic reporting significant difficulty inserting tampons and severe pain upon attempting initial intercourse. Pelvic examination reveals a distinct fibrous band of tissue that completely divides the vaginal introitus into two smaller, lateral openings. What is the most appropriate management for this patient's specific condition?",
-    options: [
-      "Cruciate incision and drainage",
-      "Surgical excision of the fibrous band",
-      "Reassurance and observation only",
-      "Needle aspiration of the vaginal vault"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Surgical excision of the fibrous band"
-  },
-  {
-    id: 133,
-    image: "",
-    question: "A 28-year-old female presents to the outpatient clinic requesting a Copper Intrauterine Contraceptive Device (IUCD) for long-term birth control. Upon reviewing her medical records, the physician declines the insertion, citing an incredibly high risk of uterine perforation due to her recent medical history. Which of the following conditions represents this absolute contraindication?",
-    options: [
-      "Past history of ectopic pregnancy",
-      "Severe primary dysmenorrhea",
-      "Gestational trophoblastic disease",
-      "Nulliparity in a young woman"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Gestational trophoblastic disease"
-  },
-  {
-    id: 134,
-    image: "",
-    question: "A 28-year-old female presents to the infertility clinic with a history of three consecutive first-trimester miscarriages. A hysterosalpingogram (HSG) reveals two distinct endometrial cavities with a sharp intercornual angle of 60 degrees. To further evaluate, a 3D ultrasound is performed which demonstrates a completely normal, convex external uterine fundal contour. Which of the following is the primary embryological defect responsible for this patient's specific anomaly?",
-    options: [
-      "Complete non-fusion of the paramesonephric ducts",
-      "Unilateral agenesis of a paramesonephric duct",
-      "Incomplete fusion of the paramesonephric ducts",
-      "Failure of resorption of the midline septum"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Failure of resorption of the midline septum"
-  },
-  {
-    id: 135,
-    image: "",
-    question: "A 25-year-old primigravida presents to the labor ward with regular, painful uterine contractions. Vaginal examination reveals that her cervix is completely effaced and exactly 5 cm dilated. Which of the following best describes her current labor status?",
-    options: [
-      "Entering the active phase of the first stage",
-      "Still in the latent phase of the first stage",
-      "Entering the early phase of the second stage",
-      "Approaching the active phase of the second stage"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Entering the active phase of the first stage"
-  },
-  {
-    id: 136,
-    image: "",
-    question: "A 28-year-old primigravida experiences obstructed labor. Vaginal examination reveals the fetal head is firmly arrested deep in the true pelvis at the exact anatomical level of the ischial spines. This specific level corresponds to which of the following obstetric planes?",
-    options: [
-      "Plane of greatest pelvic dimensions",
-      "Plane of least pelvic dimensions",
-      "Anatomical conjugate of the inlet",
-      "Obstetric conjugate of the inlet"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Plane of least pelvic dimensions"
-  },
-  {
-    id: 137,
-    image: "",
-    question: "A 26-year-old woman is evaluated during her routine postnatal ward rounds. Abdominal palpation reveals the uterine fundus situated exactly two finger breadths (approximately 2 cm) below the umbilicus. What is the most likely chronological timeline of this specific physical finding?",
-    options: [
-      "Immediately after delivery",
-      "One week postpartum",
-      "Postpartum day 2",
-      "Two weeks postpartum"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Postpartum day 2"
-  },
-  {
-    id: 138,
-    image: "",
-    question: "A 26-year-old primigravida in active labor is diagnosed with a Right Occipito-Posterior (ROP) fetal position on vaginal examination. Clinical assessment reveals a highly favorable gynecoid pelvis, and she is experiencing strong, regular uterine contractions. What is the most likely final outcome of this specific presentation?",
-    options: [
-      "Deep transverse arrest in the midpelvis",
-      "Mandatory instrumental vaginal delivery",
-      "Need for an emergency cesarean section",
-      "Spontaneous anterior rotation and vaginal delivery"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Spontaneous anterior rotation and vaginal delivery"
-  },
-  {
-    id: 139,
-    image: "",
-    question: "A 32-year-old G3P2 at 34 weeks gestation presents to the emergency department with a sudden episode of painless, bright red vaginal bleeding. A transvaginal ultrasound is performed and reveals that the leading edge of the placenta is exactly 1.5 cm away from the internal cervical os, but it does not cover it. According to the revised modern classification guidelines, what is the most accurate diagnosis?",
-    options: [
-      "Low-lying placenta",
-      "Marginal placenta previa",
-      "Partial placenta previa",
-      "True placenta previa"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Low-lying placenta"
-  },
-  {
-    id: 140,
-    image: "",
-    question: "A 28-year-old female, who is 18 months postpartum and still occasionally breastfeeding, presents with irregular, heavy menstrual bleeding. She desires a reliable, non-invasive method of contraception. Which of the following is the most appropriate contraceptive prescription to simultaneously manage her bleeding symptoms?",
-    options: [
-      "Progestin-only pill",
-      "Ethinylestradiol 30 mcg + Levonorgestrel 0.15 mg",
-      "Copper Intrauterine Device",
-      "Centchroman"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Ethinylestradiol 30 mcg + Levonorgestrel 0.15 mg"
-  },
-  {
-    id: 141,
-    image: "",
-    question: "A 32-year-old male presents with primary infertility. Semen analysis reveals complete azoospermia. Physical examination demonstrates normal-sized testes and normal secondary sexual characteristics. A testicular biopsy confirms Sertoli cell-only syndrome. Which of the following hormonal profiles is most expected in this patient?",
-    options: [
-      "Elevated LH and low testosterone",
-      "Decreased FSH and low testosterone",
-      "Elevated FSH and normal testosterone",
-      "Decreased LH and normal testosterone"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Elevated FSH and normal testosterone"
-  },
-  {
-    id: 142,
-    image: "",
-    question: "A 24-year-old female at 6 weeks gestation presents to the clinic requesting a medical abortion. She is prescribed the standard two-drug pharmacological regimen. She takes the first medication orally in the clinic on Day 1 and is instructed to take the second medication 48 hours later. What is the primary mechanism of action of the first medication administered?",
-    options: [
-      "Prostaglandin E1 receptor agonism",
-      "Competitive inhibition of dihydrofolate reductase",
-      "Direct stimulation of uterine oxytocin receptors",
-      "Progesterone receptor antagonism"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Progesterone receptor antagonism"
-  },
-  {
-    id: 143,
-    image: "",
-    question: "A 46, XY fetus is undergoing normal sexual development during the first trimester of pregnancy. Before the fetal pituitary gland is mature enough to begin secreting its own hormones, which of the following provides the primary stimulus for the fetal Leydig cells to produce testosterone?",
-    options: [
-      "Placental human chorionic gonadotropin",
-      "Anti-Mullerian hormone from Sertoli cells",
-      "Fetal follicle-stimulating hormone",
-      "Dihydrotestosterone from the urogenital sinus"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Placental human chorionic gonadotropin"
-  },
-  {
-    id: 144,
     image: "",
     question: "A heart failure patient stabilized on digoxin is treated for a new arrhythmia. He shortly develops nausea, vomiting, and visual halos indicative of digoxin toxicity. The newly added drug caused this by inhibiting the MDR-1 efflux pump, directly interfering with digoxin's renal excretion. Which of the following drugs was most likely added?",
     options: [
@@ -1874,72 +1301,85 @@ window.questions = [
     correctAnswerText: "Quinidine"
   },
   {
-    id: 145,
+    id: 101,
     image: "",
-    question: "A 10-year-old boy is brought to the emergency department with severe acute delirium, hyperthermia, dry flushed skin, and widely dilated pupils after accidentally ingesting Datura seeds. Which of the following lipid-soluble agents is the specific drug of choice to reverse both his central and peripheral symptoms?",
+    question: "A 60-year-old male with small cell lung cancer presents with proximal muscle weakness that paradoxically improves with repetitive exercise. He is diagnosed with a paraneoplastic syndrome mediated by autoantibodies against presynaptic calcium channels. Which of the following drugs is used to specifically treat his condition by blocking potassium channels to prolong action potentials?",
     options: [
-      "Physostigmine",
-      "Neostigmine",
-      "Pyridostigmine",
-      "Edrophonium"
+      "Hemicholinium",
+      "Vesamicol",
+      "Dalfamipridine",
+      "Botulinum toxin"
     ],
-    answerIndex: 0,
-    correctAnswerText: "Physostigmine"
+    answerIndex: 2,
+    correctAnswerText: "Dalfamipridine"
   },
   {
-    id: 146,
+    id: 102,
     image: "",
-    question: "A 65-year-old male with chronic heart failure is prescribed a disease-modifying drug. This specific agent blunts the neurohumoral cascade by directly inhibiting the sympathetic release of renin from the juxtaglomerular (JG) cells in the kidney. Which of the following drugs acts via this precise mechanism?",
+    question: "A 62-year-old male with a history of stable angina is currently maintained on daily isosorbide mononitrate. He visits his physician seeking pharmacological treatment for recent-onset erectile dysfunction. Which of the following drugs is strictly contraindicated in this patient due to the risk of life-threatening, synergistic hypotension?",
     options: [
-      "Aliskiren",
-      "Metoprolol",
-      "Ramipril",
-      "Spironolactone"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Metoprolol"
-  },
-  {
-    id: 147,
-    image: "",
-    question: "A 58-year-old male with dyslipidemia requires high-intensity statin therapy. He has a known history of severe myalgia when taking other statins and is very concerned about recurrence. Which of the following statins would be most appropriate for this patient, given its favorable profile of low myopathy risk and minimal hepatic metabolism-related drug interactions?",
-    options: [
-      "Atorvastatin",
-      "Pravastatin",
-      "Lovastatin",
-      "Fluvastatin"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Pravastatin"
-  },
-  {
-    id: 148,
-    image: "",
-    question: "A 10-year-old patient with mixed seizure disorder (myoclonic, tonic, and atonic seizures) requires broad-spectrum antiepileptic therapy. Given his seizure profile, which of the following is the drug of choice, and what is its primary metabolic mechanism?",
-    options: [
-      "Valproate; Microsomal enzyme inhibitor",
-      "Phenytoin; Microsomal enzyme inducer",
-      "Carbamazepine; Microsomal enzyme inducer",
-      "Topiramate; Carbonic anhydrase inhibitor"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Valproate; Microsomal enzyme inhibitor"
-  },
-  {
-    id: 149,
-    image: "",
-    question: "A 65-year-old postmenopausal woman on long-term alendronate therapy for osteoporosis presents with severe jaw pain and tooth loosening. Which of the following serious adverse effects is she most likely experiencing?",
-    options: [
-      "Uveitis",
-      "Hypocalcemia",
-      "Renal impairment",
-      "Osteonecrosis of the jaw"
+      "Finasteride",
+      "Tamsulosin",
+      "Alprostadil",
+      "Sildenafil"
     ],
     answerIndex: 3,
-    correctAnswerText: "Osteonecrosis of the jaw"
+    correctAnswerText: "Sildenafil"
   },
   {
-    id: 150,
+    id: 103,
+    image: "",
+    question: "A 50-year-old male is scheduled for urgent coronary artery bypass graft (CABG) surgery. Which of the following parenteral anticoagulants is the drug of choice to maintain anticoagulation during the procedure, primarily due to its ability to inhibit both factor IIa and factor Xa by activating Antithrombin III?",
+    options: [
+      "Heparin",
+      "Enoxaparin",
+      "Fondaparinux",
+      "Idraparinux"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Heparin"
+  },
+  {
+    id: 104,
+    image: "",
+    question: "A 30-year-old female patient on long-term anticonvulsant therapy presents with gingival enlargement, hirsutism, and mild megaloblastic anemia. Which of the following drugs is most likely responsible for this constellation of adverse effects?",
+    options: [
+      "Phenytoin",
+      "Carbamazepine",
+      "Valproate",
+      "Ethosuximide"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Phenytoin"
+  },
+  {
+    id: 105,
+    image: "",
+    question: "A 40-year-old man is brought to the emergency department with severe high-anion gap metabolic acidosis and profound blurring of vision after consuming illicit, homemade liquor. Which of the following is the specific antidote of choice to halt the progression of his ocular damage?",
+    options: [
+      "Naloxone",
+      "Flumazenil",
+      "Fomepizole",
+      "N-acetylcysteine"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Fomepizole"
+  },
+  {
+    id: 106,
+    image: "",
+    question: "A 26-year-old female presents at 8 weeks of gestation with weight loss, tremors, and a suppressed TSH. She is diagnosed with Graves' disease. To avoid teratogenic risks such as aplastic cutis and choanal atresia, which of the following is the safest antithyroid medication for her at this current stage?",
+    options: [
+      "Propylthiouracil (PTU)",
+      "Methimazole",
+      "Lugol's Iodine",
+      "Potassium Perchlorate"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Propylthiouracil (PTU)"
+  },
+  {
+    id: 107,
     image: "",
     question: "A 65-year-old intubated patient in the intensive care unit develops ventilator-associated pneumonia. Sputum cultures yield heavy growth of both Pseudomonas aeruginosa and Klebsiella pneumoniae. Which of the following extended-spectrum penicillins is the most appropriate choice due to its specific coverage profile for both organisms?",
     options: [
@@ -1952,345 +1392,85 @@ window.questions = [
     correctAnswerText: "Piperacillin"
   },
   {
-    id: 151,
+    id: 108,
     image: "",
-    question: "A patient undergoing allogeneic hematopoietic stem cell transplantation is at high risk for cytomegalovirus (CMV) reactivation. Which of the following agents is specifically indicated for primary prophylaxis against CMV in this transplant setting?",
+    question: "A 14-year-old male with cystic fibrosis is being evaluated for targeted molecular therapy. To address the underlying pathophysiology by directly activating the defective chloride channels, which of the following agents should be prescribed?",
     options: [
-      "Ganciclovir",
-      "Valganciclovir",
-      "Letermovir",
-      "Maribavir"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Letermovir"
-  },
-  {
-    id: 152,
-    image: "",
-    question: "An epidemiologist is investigating a severe cholera outbreak in a rural district. To convince the local, predominantly illiterate villagers to avoid a specific contaminated well, he decides to visually present the geographical clustering of the affected cases. Which of the following diagrams is most appropriate for this purpose?",
-    options: [
-      "Pictogram",
-      "Venn diagram",
-      "Spot map",
-      "Tree diagram"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Spot map"
-  },
-  {
-    id: 153,
-    image: "",
-    question: "A global health report reveals that nations with higher per capita meat consumption have higher national rates of colon cancer. Reading this, a medical student concludes that a specific strict vegetarian patient migrating from one of those high-meat consuming countries must also be at an increased risk of colon cancer. Which epidemiological concept represents the logical error made by the student?",
-    options: [
-      "Confounding bias",
-      "Selection bias",
-      "Recall bias",
-      "Ecological fallacy"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Ecological fallacy"
-  },
-  {
-    id: 154,
-    image: "",
-    question: "A 10-year-old boy is evaluated at a pediatric clinic and is found to have a blood pressure consistently in the 95th percentile for his age and height. The pediatrician counsels the parents that without lifestyle interventions, the child is highly likely to remain hypertensive throughout his adulthood. Which epidemiological concept best describes this predictable trajectory?",
-    options: [
-      "Rule of Halves",
-      "Tracking Phenomenon",
-      "Iceberg Phenomenon",
-      "Lead-time bias"
+      "Tobramycin",
+      "Ivacaftor",
+      "Dornase alfa",
+      "N-acetylcysteine"
     ],
     answerIndex: 1,
-    correctAnswerText: "Tracking Phenomenon"
+    correctAnswerText: "Ivacaftor"
   },
   {
-    id: 155,
+    id: 109,
     image: "",
-    question: "An environmental scientist is analyzing the atmospheric composition to determine the primary contributors to the greenhouse effect causing global warming. Which of the following is identified as the greenhouse gas present in the highest concentration in the atmosphere that contributes to the greenhouse effect?",
+    question: "A 65-year-old patient with a history of chronic heart failure is diagnosed with pulmonary blastomycosis. Which of the following antifungal agents is strictly contraindicated in this patient due to its potent negative inotropic effect and risk of exacerbating heart failure?",
     options: [
-      "Water vapors",
-      "Carbon dioxide",
-      "Ozone",
-      "Chlorofluorocarbons (CFC)"
+      "Itraconazole",
+      "Fluconazole",
+      "Voriconazole",
+      "Posaconazole"
     ],
     answerIndex: 0,
-    correctAnswerText: "Water vapors"
+    correctAnswerText: "Itraconazole"
   },
   {
-    id: 156,
+    id: 110,
     image: "",
-    question: "A medical relief team establishes a health camp for local victims displaced by a severe cyclone. While planning the emergency immunization schedule, which of the following vaccines is routinely not recommended for the victims?",
+    question: "Which of the following anti-herpetic agents relies on viral thymidine kinase for its initial phosphorylation and subsequent activation?",
     options: [
-      "Measles",
-      "Rotavirus",
-      "Cholera",
-      "Chickenpox"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Cholera"
-  },
-  {
-    id: 157,
-    image: "",
-    question: "Under the Anemia Mukt Bharat strategy, which prophylactic Iron and Folic Acid (IFA) preparation is strictly indicated for a 7-year-old school-going child?",
-    options: [
-      "Pink tablet (45 mg Iron + 400 mcg FA)",
-      "Blue tablet (60 mg Iron + 500 mcg FA)",
-      "Red tablet (60 mg Iron + 500 mcg FA)",
-      "Liquid drops (20 mg Iron + 100 mcg FA)"
+      "Acyclovir",
+      "Docosanol",
+      "Famciclovir",
+      "Foscarnet"
     ],
     answerIndex: 0,
-    correctAnswerText: "Pink tablet (45 mg Iron + 400 mcg FA)"
+    correctAnswerText: "Acyclovir"
   },
   {
-    id: 158,
+    id: 111,
     image: "",
-    question: "A medical officer is supervising an outreach immunization session. A healthcare worker is preparing to administer the live attenuated Measles-Rubella (MR) vaccine. Which specific diluent must strictly be utilized to reconstitute this vaccine prior to administration?",
+    question: "A patient is diagnosed with Wilson's disease and requires a chelating agent for copper reduction. However, the clinician is concerned about the patient developing drug-induced lupus. Which of the following agents is the most likely cause of this adverse effect?",
     options: [
-      "Sodium chloride",
-      "Phosphate buffer",
-      "Sterile water",
-      "Ringer's lactate"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Phosphate buffer"
-  },
-  {
-    id: 159,
-    image: "",
-    question: "A cold chain failure at a primary health centre accidentally freezes all stored vaccines inside the equipment. According to immunization guidelines, which of the following vaccines remains completely viable after freezing and should NOT be discarded?",
-    options: [
-      "Hepatitis B",
-      "Pentavalent",
-      "DPT",
-      "Oral Polio Vaccine"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Oral Polio Vaccine"
-  },
-  {
-    id: 160,
-    image: "",
-    question: "In a community health survey, the mean fasting blood sugar (FBS) is 100 mg/dL with a Standard Deviation (SD) of 10. The mean serum cholesterol is 200 mg/dL with an SD of 10. Which parameter demonstrates greater relative biological variability?",
-    options: [
-      "Fasting blood sugar",
-      "Serum cholesterol",
-      "Both are equally variable",
-      "Cannot be determined"
+      "D-Penicillamine",
+      "Trientine",
+      "Zinc sulphate",
+      "Potassium sulfide"
     ],
     answerIndex: 0,
-    correctAnswerText: "Fasting blood sugar"
+    correctAnswerText: "D-Penicillamine"
   },
   {
-    id: 161,
+    id: 112,
     image: "",
-    question: "A public health researcher intends to investigate a rare cancer suspected to be associated with an environmental exposure that occurred 20 years ago. Which study design is the most appropriate to initially evaluate this association?",
+    question: "A 65-year-old diabetic male undergoes a comprehensive angiogram to evaluate severe peripheral vascular disease. While widespread atheromatous plaques are noted across multiple vascular beds, one specific set of vessels remains remarkably clear. Which of the following blood vessels is classically spared from atherosclerotic plaque formation?",
     options: [
-      "Cross-sectional study",
-      "Case-Control study",
-      "Prospective Cohort study",
-      "Randomized Controlled Trial"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Case-Control study"
-  },
-  {
-    id: 162,
-    image: "",
-    question: "On World Tuberculosis Day, a group of 5 medical experts sits on a stage in front of a community audience. Instead of delivering prepared lectures, they engage in an informal, unscripted conversation among themselves about the challenges of MDR-TB, guided by a chairman who occasionally involves the audience. This method of health communication is strictly defined as a:",
-    options: [
-      "Symposium",
-      "Focus Group Discussion (FGD)",
-      "Panel discussion",
-      "Workshop"
+      "Abdominal aorta",
+      "Internal carotid artery",
+      "Renal artery",
+      "Popliteal artery"
     ],
     answerIndex: 2,
-    correctAnswerText: "Panel discussion"
+    correctAnswerText: "Renal artery"
   },
   {
-    id: 163,
+    id: 113,
     image: "",
-    question: "A factory worker suffers a severe crush injury resulting in the amputation of his right hand. He is now unable to operate his assigned machinery and ultimately loses his job. According to the WHO classification, which of the following specifically represents the \"impairment\" in this scenario?",
+    question: "Alpha-1 antitrypsin deficiency is classically associated with which of the following?",
     options: [
-      "The initial crush injury",
-      "Inability to operate the machinery",
-      "Loss of the anatomical hand",
-      "Subsequent unemployment"
+      "Centriacinar emphysema",
+      "Paraseptal emphysema",
+      "Panacinar emphysema",
+      "Irregular emphysema"
     ],
     answerIndex: 2,
-    correctAnswerText: "Loss of the anatomical hand"
+    correctAnswerText: "Panacinar emphysema"
   },
   {
-    id: 164,
-    image: "",
-    question: "A 28-year-old male is evaluated in the psychiatric ward. On examination, the patient keeps his eyes open and visually appears fully awake and alert. However, he exhibits complete mutism and akinesis, showing an absolute inability to initiate any voluntary speech or motor action. Which of the following terms best describes this clinical state?",
-    options: [
-      "Twilight state",
-      "Stupor",
-      "Oneiroid state",
-      "Sopor"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Stupor"
-  },
-  {
-    id: 165,
-    image: "",
-    question: "A 40-year-old female presents with profound, pervasive sadness and anhedonia. A detailed clinical interview reveals absolutely no identifiable preceding stressful life events, such as financial loss, relationship issues, or bereavement. Her psychiatrist suspects a purely biological etiology involving 'trimonoamine depletion'. Which of the following terms best categorizes her condition?",
-    options: [
-      "Endogenous depression",
-      "Exogenous depression",
-      "Reactive depression",
-      "Psychological depression"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Endogenous depression"
-  },
-  {
-    id: 166,
-    image: "",
-    question: "A bank employee is held hostage for three days during a robbery. Following her rescue, she actively defends the bank robbers' motives and expresses deep affection toward them. Which defense mechanism best explains her behavior?",
-    options: [
-      "Introjection",
-      "Projection",
-      "Reaction formation",
-      "Displacement"
-    ],
-    answerIndex: 0,
-    correctAnswerText: "Introjection"
-  },
-  {
-    id: 167,
-    image: "",
-    question: "An 85-year-old man presents with a 4-month history of daily crying spells, severe insomnia, significant weight loss, and active suicidal ideation following his son's death. His medical history includes benign prostatic hyperplasia (BPH) and a recent myocardial infarction. Which of the following is the safest and most appropriate pharmacotherapy for this patient?",
-    options: [
-      "Amitriptyline",
-      "Doxepin",
-      "Clonazepam",
-      "Sertraline"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Sertraline"
-  },
-  {
-    id: 168,
-    image: "",
-    question: "An 80-year-old hospitalized patient develops sudden agitation and confusion. The attending physician is evaluating the patient to differentiate an acute delirium episode from underlying progressive dementia. Based on classic clinical parameters, which of the following is the single best indicator pointing towards a diagnosis of delirium?",
-    options: [
-      "Intact remote memory",
-      "Altered sensorium",
-      "Fluctuating symptom severity",
-      "Chronic progressive course"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Altered sensorium"
-  },
-  {
-    id: 169,
-    image: "",
-    question: "A 25-year-old woman is evaluated in the psychiatric clinic after witnessing a fatal road traffic accident involving her father. For the past two weeks, she has been experiencing intense flashbacks of the accident, severe nightmares, and active avoidance of any vehicles. What is the most likely diagnosis?",
-    options: [
-      "Post-traumatic stress disorder",
-      "Adjustment disorder",
-      "Acute stress disorder",
-      "Normal bereavement"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Acute stress disorder"
-  },
-  {
-    id: 170,
-    image: "",
-    question: "A 5-year-old child is scheduled for cataract surgery. Which of the following extraction techniques is absolutely contraindicated in this patient due to the high risk of severe vitreous loss?",
-    options: [
-      "Phacoemulsification",
-      "Extracapsular Cataract Extraction (ECCE)",
-      "Small Incision Cataract Surgery (SICS)",
-      "Intracapsular Cataract Extraction (ICCE)"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Intracapsular Cataract Extraction (ICCE)"
-  },
-  {
-    id: 171,
-    image: "",
-    question: "A patient develops a uniformly flat anterior chamber and highly elevated intraocular pressure shortly after undergoing uncomplicated intraocular surgery. The condition paradoxically worsens upon the administration of topical pilocarpine. The underlying pathophysiology is suspected to be the redirection of aqueous humor into the vitreous cavity. What is the most definitive surgical management for this specific condition?",
-    options: [
-      "Nd:YAG laser peripheral iridotomy",
-      "Anterior chamber paracentesis",
-      "Pars plana vitrectomy",
-      "Trabeculectomy with Mitomycin C"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Pars plana vitrectomy"
-  },
-  {
-    id: 172,
-    image: "",
-    question: "A 35-year-old factory worker with a past history of an alkali chemical burn presents with a fleshy fold of conjunctiva firmly attached to the peripheral cornea. During slit-lamp examination, the ophthalmologist is successfully able to pass a glass rod underneath the neck of this fibrovascular fold. Which of the following is the most accurate clinical diagnosis?",
-    options: [
-      "True pterygium",
-      "Pseudo-pterygium",
-      "Pinguecula",
-      "Limbal dermoid"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Pseudo-pterygium"
-  },
-  {
-    id: 173,
-    image: "",
-    question: "A 4-month-old infant is brought to the clinic with persistent watering and mild discharge from the left eye since birth. The ophthalmologist suspects a delayed canalization at the distal end of the tear drainage pathway. The membranous obstruction in this condition is most likely located at the valve that opens into which of the following nasal structures?",
-    options: [
-      "Superior meatus",
-      "Middle meatus",
-      "Sphenoethmoidal recess",
-      "Inferior meatus"
-    ],
-    answerIndex: 3,
-    correctAnswerText: "Inferior meatus"
-  },
-  {
-    id: 174,
-    image: "",
-    question: "A 4-year-old child presents to the ophthalmology clinic with a noticeable inward deviation of both eyes, which the parents report worsens significantly when the child focuses on near toys. Cycloplegic refraction is planned to assess the underlying refractive status. This specific type of inward ocular deviation is most commonly associated with which of the following uncorrected conditions?",
-    options: [
-      "Myopia",
-      "Hyperopia",
-      "Presbyopia",
-      "Astigmatism"
-    ],
-    answerIndex: 1,
-    correctAnswerText: "Hyperopia"
-  },
-  {
-    id: 175,
-    image: "",
-    question: "A 45-year-old male with a history of adult-onset asthma and marked peripheral eosinophilia rapidly develops fatal heart failure. Which of the following is the most likely pathological finding in his heart, representing the primary cause of death in this syndrome?",
-    options: [
-      "Transmural fibrinoid necrosis of coronary arteries",
-      "Obliterative endarteritis of the vasa vasorum",
-      "Eosinophilic infiltration causing Loeffler's endomyocarditis",
-      "Non-caseating granulomas of the aortic valve"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Eosinophilic infiltration causing Loeffler's endomyocarditis"
-  },
-  {
-    id: 176,
-    image: "",
-    question: "A 7-year-old child from Sub-Saharan Africa presents with generalized massive lymphadenopathy but minimal skin lesions. A biopsy of the lymph node reveals spindle cells forming slit-like vascular spaces. Which of the following is the most likely variant of this tumor?",
-    options: [
-      "Classical type",
-      "Iatrogenic type",
-      "Endemic type",
-      "HIV-associated type"
-    ],
-    answerIndex: 2,
-    correctAnswerText: "Endemic type"
-  },
-  {
-    id: 177,
+    id: 114,
     image: "",
     question: "Carbon-laden macrophages seen on light microscopy in a patient with anthracosis are known as:",
     options: [
@@ -2303,20 +1483,33 @@ window.questions = [
     correctAnswerText: "Dust cells"
   },
   {
-    id: 178,
+    id: 115,
     image: "",
-    question: "A neonate presents with bilateral abdominal masses and respiratory distress shortly after birth. Ultrasonography reveals bilaterally massively enlarged kidneys with radially arranged cysts and completely smooth renal outlines. Genetic analysis is most likely to reveal a defect in which of the following proteins?",
+    question: "A 45-year-old pigeon breeder presents with chronic cough and progressive dyspnea. Lung biopsy reveals interstitial fibrosis and non-caseating granulomas. Despite the hypersensitivity nature of this disease, which of the following is characteristically absent in the inflammatory infiltrate?",
     options: [
-      "Polycystin-1",
-      "Fibrocystin",
-      "Nephrin",
-      "Alpha-actinin-4"
+      "CD4+ T cells",
+      "Epithelioid macrophages",
+      "Eosinophils",
+      "Multinucleated giant cells"
     ],
-    answerIndex: 1,
-    correctAnswerText: "Fibrocystin"
+    answerIndex: 2,
+    correctAnswerText: "Eosinophils"
   },
   {
-    id: 179,
+    id: 116,
+    image: "",
+    question: "A 45-year-old male presents with hypertension and bilateral flank fullness. Imaging reveals bilaterally enlarged kidneys with distorted outlines due to multiple large round cysts over the surface. Genetic testing confirms a mutation in the PKD-1 gene. Which of the following is the most common extra-renal manifestation of this disease?",
+    options: [
+      "Liver cysts",
+      "Berry aneurysms",
+      "Subarachnoid hemorrhage",
+      "Splenic cysts"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Liver cysts"
+  },
+  {
+    id: 117,
     image: "",
     question: "A 45-year-old male with chronic dyspepsia undergoes an upper GI endoscopy. Biopsy of the gastric antrum reveals a dense monoclonal lymphoid infiltrate, diagnosed as Extranodal Marginal Zone Lymphoma (MALToma). Which specific virulence factor of the implicated organism is primarily responsible for recruiting lymphocytes and driving this specific neoplastic transformation?",
     options: [
@@ -2329,18 +1522,827 @@ window.questions = [
     correctAnswerText: "Cag A antigen"
   },
   {
-    id: 180,
+    id: 118,
     image: "",
-    question: "A 5-year-old boy presents with recurrent bacterial skin infections. Evaluation of his immune system reveals a defect in the oxygen-dependent intracellular killing mechanism of his neutrophils. Within this normal physiological pathway, which of the following enzymes is specifically responsible for generating the most potent bactericidal compound?",
+    question: "A 45-year-old male presents to the emergency department with a severe headache and a blood pressure of 230/130 mmHg. He quickly develops signs of acute kidney injury. A renal biopsy is performed to assess the extent of vascular damage. Which specific pattern of necrosis is most likely to be observed within the walls of the affected renal arterioles?",
     options: [
-      "Superoxide dismutase",
-      "NADPH oxidase",
-      "Myeloperoxidase",
-      "Cathepsin"
+      "Coagulative necrosis",
+      "Fibrinoid necrosis",
+      "Caseous necrosis",
+      "Liquefactive necrosis"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Fibrinoid necrosis"
+  },
+  {
+    id: 119,
+    image: "",
+    question: "A 35-year-old patient undergoes an elective inguinal hernia repair. Following the clean surgical incision, a highly orchestrated cascade of healing by primary intention begins. Which of the following cells reaches its peak concentration at the wound site within the first 24 hours?",
+    options: [
+      "Neutrophils",
+      "Macrophages",
+      "Endothelial cells",
+      "Fibroblasts"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Neutrophils"
+  },
+  {
+    id: 120,
+    image: "",
+    question: "A 25-year-old female presents with a malar rash, arthritis, and proteinuria. Her condition is driven by circulating antigen-antibody complexes that deposit in various capillary beds. In contrast to this multi-systemic mechanism, which of the following conditions is primarily mediated by localized \"in situ\" immune complex formation?",
+    options: [
+      "Serum Sickness",
+      "Polyarteritis Nodosa (PAN)",
+      "Post-streptococcal glomerulonephritis (PSGN)",
+      "Henoch-Schonlein Purpura (HSP)"
     ],
     answerIndex: 2,
-    correctAnswerText: "Myeloperoxidase"
-
+    correctAnswerText: "Post-streptococcal glomerulonephritis (PSGN)"
   },
+  {
+    id: 121,
+    image: "",
+    question: "A surgically resected Meckel's diverticulum from a 2-year-old child with painless lower gastrointestinal bleeding undergoes histological evaluation. The pathologist notes the presence of fully differentiated, histologically normal-appearing gastric mucosal glands within the diverticular wall. Which of the following terms best defines this specific type of anomaly?",
+    options: [
+      "Hamartoma",
+      "Choristoma",
+      "Teratoma",
+      "Anaplasia"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Choristoma"
+  },
+  {
+    id: 122,
+    image: "",
+    question: "A 52-year-old female with long-standing, poorly controlled rheumatoid arthritis presents with progressive fatigue. Laboratory investigations reveal a hemoglobin of 10.2 g/dL, decreased serum iron, decreased total iron-binding capacity (TIBC), and an elevated serum ferritin level. Which of the following specific acute phase reactants is primarily responsible for restricting iron availability in this patient?",
+    options: [
+      "Erythropoietin",
+      "Transferrin",
+      "Tumor necrosis factor",
+      "Hepcidin"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Hepcidin"
+  },
+  {
+    id: 123,
+    image: "",
+    question: "A 4-day-old neonate, delivered at home without any prophylactic medications, is brought to the emergency department with continuous oozing from the umbilical cord stump. Initial coagulation studies reveal an isolated prolongation of Prothrombin Time (PT) while the Activated Partial Thromboplastin Time (APTT) remains strictly normal. This specific initial laboratory presentation is primarily due to the rapid plasma depletion of which of the following coagulation factors?",
+    options: [
+      "Factor II",
+      "Factor IX",
+      "Factor X",
+      "Factor VII"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Factor VII"
+  },
+  {
+    id: 124,
+    image: "",
+    question: "A woman dies under suspicious circumstances within a few years of marriage, and dowry death is suspected. The investigating officer asks for the legally appropriate type of inquest to be conducted. Which of the following authorities should conduct the inquest in this case?",
+    options: [
+      "Executive Magistrate",
+      "Police officer",
+      "Coroner",
+      "Medical examiner"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Executive Magistrate"
+  },
+  {
+    id: 125,
+    image: "",
+    question: "A dead body is examined after death. The eyelids were left open, and the exposed sclera shows a dark triangular discoloration due to drying and deposition of debris, resembling a pterygium. Which of the following postmortem eye changes is described?",
+    options: [
+      "Kevorkian sign",
+      "Corneal haziness",
+      "Tache noire",
+      "Rise in vitreous potassium"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Tache noire"
+  },
+  {
+    id: 126,
+    image: "",
+    question: "A dead body is found suspended by a ligature around the neck. The ligature mark is oblique, incomplete, and placed high up in the neck. There is dribbling of saliva from the angle of mouth. Which of the following is the most characteristic sign of hanging?",
+    options: [
+      "Cyanosis of face",
+      "Petechial hemorrhages",
+      "Protrusion of tongue",
+      "Ligature mark"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Ligature mark"
+  },
+  {
+    id: 127,
+    image: "",
+    question: "A young woman is brought with burns around the mouth after an acid attack. The forensic expert explains that acids and alkalis produce different types of tissue necrosis. Which of the following is the typical type of necrosis produced by acids?",
+    options: [
+      "Liquefaction necrosis",
+      "Coagulation necrosis",
+      "Caseous necrosis",
+      "Fat necrosis"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Coagulation necrosis"
+  },
+  {
+    id: 128,
+    image: "",
+    question: "A 2-year-old child is repeatedly brought to the emergency department with multiple bruises of different colours, inconsistent history from the caregivers, and X-ray showing multiple rib fractures arranged like a string of beads. The child is also found to have features resembling infantile whiplash injury. Which of the following is the most likely diagnosis?",
+    options: [
+      "Osteogenesis imperfecta",
+      "Battered baby syndrome",
+      "Rickets",
+      "Accidental fall injury"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Battered baby syndrome"
+  },
+  {
+    id: 129,
+    image: "",
+    question: "A medical witness gives a statement in court after taking oath. Later, it is proved that the witness knowingly gave false evidence under oath. What is this offence called?",
+    options: [
+      "Contempt of court",
+      "Hostile witness",
+      "Perjury",
+      "Subpoena"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Perjury"
+  },
+  {
+    id: 130,
+    image: "",
+    question: "A microbiology student is studying bacterial appendages used for locomotion. The teacher explains that this structure is important for bacterial motility, antigenic identification, and classification based on arrangement such as monotrichous, lophotrichous, amphitrichous, and peritrichous. Which of the following is the main protein composition of this bacterial structure?",
+    options: [
+      "Pilin",
+      "Flagellin",
+      "Peptidoglycan",
+      "Lipopolysaccharide"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Flagellin"
+  },
+  {
+    id: 131,
+    image: "",
+    question: "A microbiology student is studying bacterial gene transfer. The teacher explains that in one mechanism, genetic material is transferred from a donor bacterium to a recipient bacterium by direct cell-to-cell contact through a sex pilus. This mechanism can transfer plasmids responsible for fertility, drug resistance, toxin production, and virulence. Which of the following mechanisms of bacterial gene transfer is described here?",
+    options: [
+      "Conjugation",
+      "Transformation",
+      "Generalized transduction",
+      "Specialized transduction"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Conjugation"
+  },
+  {
+    id: 132,
+    image: "",
+    question: "A microbiology student performs a biochemical test on an unknown gram-negative bacillus. On adding Kovac’s oxidase reagent, the colony rapidly develops a purple colour. The teacher explains that organisms like Pseudomonas, Vibrio, Neisseria, Campylobacter jejuni, Helicobacter pylori, Bordetella, Brucella, and Legionella are positive for this test. Which of the following biochemical tests is being described?",
+    options: [
+      "Catalase test",
+      "Indole test",
+      "Oxidase test",
+      "Urease test"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Oxidase test"
+  },
+  {
+    id: 133,
+    image: "",
+    question: "A 46-year-old woman presents with persistent dryness of eyes and mouth. She also complains of difficulty swallowing dry food and recurrent dental caries. Examination shows parotid enlargement. Autoantibody-mediated damage is directed mainly against exocrine glands, especially salivary glands, and may also involve liver, kidney, and thyroid. Which of the following autoimmune diseases is most likely associated with this pattern of self-antigen involvement?",
+    options: [
+      "Systemic lupus erythematosus",
+      "Multiple sclerosis",
+      "Scleroderma",
+      "Sjogren’s syndrome"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Sjogren’s syndrome"
+  },
+  {
+    id: 134,
+    image: "",
+    question: "A 5-year-old child presents with fever, cough, pleuritic chest pain, and rust-colored sputum. Sputum Gram stain shows lanceolate diplococci arranged in pairs. Culture on blood agar shows alpha-hemolytic draughtsman colonies. When type-specific antiserum is added to the organism, the capsule appears swollen and more prominent. Which of the following tests is being described?",
+    options: [
+      "Nagler reaction",
+      "Elek gel precipitation test",
+      "Quellung reaction",
+      "Satellitism test"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Quellung reaction"
+  },
+  {
+    id: 135,
+    image: "",
+    question: "A 19-year-old student presents with fever for 7 days, headache, malaise, coated tongue, relative bradycardia, and faint erythematous macules on the trunk. The fever shows a gradual step-ladder rise. Blood culture is sent during the first week of illness and shows a motile, non-lactose fermenting gram-negative bacillus producing H₂S. Which of the following specimens is most useful for culture in the third week of this illness?",
+    options: [
+      "Stool culture",
+      "Blood culture",
+      "Urine culture",
+      "Widal test only"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Stool culture"
+  },
+  {
+    id: 136,
+    image: "",
+    question: "A 21-year-old man presents with multiple hypopigmented scaly macules over the upper trunk. The lesions become more prominent after sun exposure. Direct microscopy from skin scrapings shows short curved hyphae with clusters of yeast cells giving a “spaghetti and meatball” appearance. The organism is lipophilic and culture requires overlay with olive oil. Which of the following is the most likely etiological agent?",
+    options: [
+      "Malassezia furfur",
+      "Trichophyton rubrum",
+      "Hortaea werneckii",
+      "Piedraia hortae"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Malassezia furfur"
+  },
+  {
+    id: 137,
+    image: "",
+    question: "A 6-year-old child is brought with fever, altered sensorium, hydrophobia, and aerophobia after a stray dog bite. Postmortem examination of brain tissue shows eosinophilic intracytoplasmic inclusion bodies in neurons, especially in hippocampal and Purkinje cells. Which of the following inclusion bodies is most likely seen in this condition?",
+    options: [
+      "Negri bodies",
+      "Cowdry type A bodies",
+      "Cowdry type B bodies",
+      "Guarnieri bodies"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Negri bodies"
+  },
+  {
+    id: 138,
+    image: "",
+    question: "A 42-year-old man presents with fever, right upper quadrant pain, and tender hepatomegaly. He gives a history of intermittent dysentery with stool containing blood and mucus a few weeks earlier. Imaging shows a solitary liver abscess. On aspiration, thick brownish material resembling anchovy sauce is obtained. Which of the following is the most likely causative agent?",
+    options: [
+      "Entamoeba histolytica",
+      "Acanthamoeba castellanii",
+      "Giardia lamblia",
+      "Balantidium coli"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Entamoeba histolytica"
+  },
+  {
+    id: 139,
+    image: "",
+    question: "A hospital infection control team finds that human anatomical waste, blood-soaked dressings, discarded linen contaminated with body fluids, expired cytotoxic drugs, and microbiology laboratory waste are being mixed with general waste. The team decides to segregate these wastes into the correct BMW color category as per biomedical waste management rules. Which of the following is the most appropriate color category for disposal of these wastes?",
+    options: [
+      "Red category",
+      "White category",
+      "Yellow category",
+      "Blue category"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Yellow category"
+  },
+  {
+    id: 140,
+    image: "",
+    question: "A 32-year-old man has long-standing watery rhinorrhea and nasal obstruction, especially triggered by cold air and strong smells. Allergy testing is negative. Examination shows congested nasal mucosa without infection. Medical therapy fails. The surgeon plans a procedure through the region lying behind the maxillary sinus to interrupt parasympathetic supply responsible for excessive vasodilatation. Which structure is targeted in the treatment of this condition?",
+    options: [
+      "Internal maxillary artery",
+      "Nasolacrimal duct",
+      "Vidian nerve",
+      "Anterior ethmoidal nerve"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Vidian nerve"
+  },
+  {
+    id: 141,
+    image: "",
+    question: "A patient undergoing middle ear surgery develops sharp pain when the inner surface of the tympanic membrane is manipulated. The surgeon explains that this surface is supplied by the same cranial nerve whose branch also contributes to the tympanic plexus. Which nerve is most likely responsible?",
+    options: [
+      "Auriculotemporal nerve",
+      "Tympanic branch of glossopharyngeal nerve",
+      "Auricular branch of vagus nerve",
+      "Chorda tympani nerve"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Tympanic branch of glossopharyngeal nerve"
+  },
+  {
+    id: 142,
+    image: "",
+    question: "A 19-year-old patient undergoes surgery for unsafe chronic otitis media. During follow-up, recurrent disease is suspected despite apparently adequate clearance of the middle ear. The surgeon explains that one narrow hidden recess of the tympanic cavity is notoriously difficult to visualize and clear, making it a common site for residual or recurrent cholesteatoma. Which site is most likely responsible?",
+    options: [
+      "Sinus tympani",
+      "Hypotympanum",
+      "Protympanum",
+      "Epitympanum"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Sinus tympani"
+  },
+  {
+    id: 143,
+    image: "",
+    question: "A 52-year-old man presents with painless unilateral neck swelling, recurrent epistaxis, and unilateral blocked ear sensation. Otoscopy shows features of serous otitis media due to Eustachian tube obstruction. He later develops ipsilateral facial pain and palatal weakness. EBV association is suspected. Which site is most commonly involved by the primary lesion?",
+    options: [
+      "Pyriform fossa",
+      "Posterior commissure",
+      "Fossa of Rosenmuller",
+      "Vallecula"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Fossa of Rosenmuller"
+  },
+  {
+    id: 144,
+    image: "",
+    question: "A patient undergoing temporal bone dissection is shown a cut section of the cochlea. The examiner points to the apical region and asks for the structure through which two perilymph-filled chambers communicate with each other. The same structure is absent at the basal turn and is located at the apex of the cochlear spiral. Which structure is being referred to?",
+    options: [
+      "Reissner’s membrane",
+      "Modiolus",
+      "Helicotrema",
+      "Basilar membrane"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Helicotrema"
+  },
+  {
+    id: 145,
+    image: "",
+    question: "A patient with suspected neuromuscular weakness undergoes impedance audiometry. The tympanogram does not show a single smooth peak. Instead, it shows two distinct compliance peaks separated by a central dip, giving a characteristic double-peaked pattern. The examiner asks which condition is classically associated with this tracing. Which of the following is the most appropriate association?",
+    options: [
+      "Myopathy",
+      "Otosclerosis",
+      "Secretory otitis media",
+      "Ossicular fixation"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Myopathy"
+  },
+  {
+    id: 146,
+    image: "",
+    question: "A 9-year-old child develops sudden severe vertigo with nausea and imbalance for the last 2 days. The mother gives a history of upper respiratory tract infection one week earlier. There is no hearing loss, no tinnitus, no ear discharge, and no focal neurological deficit. Symptoms gradually improve with supportive treatment. What is the most likely diagnosis?",
+    options: [
+      "Meniere’s disease",
+      "Labyrinthitis",
+      "Benign paroxysmal positional vertigo",
+      "Vestibular neuronitis"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Vestibular neuronitis"
+  },
+  {
+    id: 147,
+    image: "",
+    question: "A 10-year-old child with recurrent tonsillitis is planned for tonsillectomy. After induction of anesthesia, the surgeon asks the assistant to position the child so that the tonsillar bed becomes better exposed by extension of the neck. Which position is classically used during tonsillectomy?",
+    options: [
+      "Rose position",
+      "Trendelenburg position",
+      "Fowler position",
+      "Lithotomy position"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Rose position"
+  },
+  {
+    id: 148,
+    image: "",
+    question: "During cataract surgery, extreme care must be taken during nuclear emulsification to avoid capsular blowout. Which of the following regions represents the anatomically thinnest portion of the crystalline lens capsule?",
+    options: [
+      "Anterior pole",
+      "Equator",
+      "Pre-equatorial region",
+      "Poster pole"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Posterior pole"
+  },
+  {
+    id: 149,
+    image: "",
+    question: "A 45-year-old patient undergoes temporal lobe surgery for epilepsy management. Post-operatively, perimetry testing reveals a left homonymous superior quadrantanopia (\"pie in the sky\" defect). This specific visual field defect is classically caused by collateral damage to which of the following neural structures?",
+    options: [
+      "Superior optic radiation fibers",
+      "Infer optic radiation fibers",
+      "Tip of the occipital lobe",
+      "Right optic tract"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Inferior optic radiation fibers"
+  },
+  {
+    id: 150,
+    image: "",
+    question: "A 35-year-old factory worker with a past history of an alkali chemical burn presents with a fleshy fold of conjunctiva firmly attached to the peripheral cornea. During slit-lamp examination, the ophthalmologist is successfully able to pass a glass rod underneath the neck of this fibrovascular fold. Which of the following is the most accurate clinical diagnosis?",
+    options: [
+      "True pterygium",
+      "Pseudo-pterygium",
+      "Pinguecula",
+      "Limbal dermoid"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Pseudo-pterygium"
+  },
+  {
+    id: 151,
+    image: "",
+    question: "A 12-year-old boy presents to the ophthalmology clinic with recurrent frontal headaches and frequent styes. Cycloplegic refraction reveals an uncorrected refractive error where the theoretical far point lies behind the eye. Because this patient must constantly exert excessive accommodative effort to maintain clear vision, he is most predisposed to developing which of the following conditions?",
+    options: [
+      "Exophoria",
+      "Alternating exotropia",
+      "Convergence insufficiency",
+      "Esophoria"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Esophoria"
+  },
+  {
+    id: 152,
+    image: "",
+    question: "A 4-month-old infant is brought to the clinic with persistent watering and mild discharge from the left eye since birth. The ophthalmologist suspects a delayed canalization at the distal end of the tear drainage pathway. The membranous obstruction in this condition is most likely located at the valve that opens into which of the following nasal structures?",
+    options: [
+      "Superior meatus",
+      "Middle meatus",
+      "Sphenoethmoidal recess",
+      "Inferior meatus"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Inferior meatus"
+  },
+  {
+    id: 153,
+    image: "",
+    question: "A 25-year-old patient is undergoing a routine neuro-ophthalmological examination. The physician shines a bright penlight exclusively into the patient's right eye to evaluate pupillary reflexes. Which of the following anatomical structures is strictly NOT involved in generating the resulting direct and consensual pupillary responses?",
+    options: [
+      "Ipsilateral optic nerve",
+      "Pretectal nuclei",
+      "Contralateral oculomotor nerve",
+      "Contralateral optic nerve"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Contralateral optic nerve"
+  },
+  {
+    id: 154,
+    image: "",
+    question: "A 45-year-old patient presents with visual disturbances following the resection of a suprasellar tumor. Detailed perimetry reveals an incongruous homonymous hemianopia. Upon careful pupillary examination using a narrow beam of light, the physician notes that light shone directly onto the blind half of the retina produces no pupillary constriction, whereas light shone onto the seeing half produces a normal response. This specific clinical presentation localizes the lesion to which of the following anatomical structures?",
+    options: [
+      "Optic nerve",
+      "Optic radiation",
+      "Optic tract",
+      "Visual cortex"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Optic tract"
+  },
+  {
+    id: 155,
+    image: "",
+    question: "A 35-year-old stone worker presents to the emergency room with sudden severe pain and blurred vision in his right eye after a chisel slipped and struck his face. Slit-lamp examination reveals a full-thickness corneal laceration. Suspecting an intraocular foreign body, which of the following imaging modalities is absolutely detrimental and strictly contraindicated in this patient?",
+    options: [
+      "Plain X-ray orbit",
+      "Non-contrast CT orbit",
+      "Magnetic Resonance Imaging (MRI)",
+      "Ultrasound B-scan"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Magnetic Resonance Imaging (MRI)"
+  },
+  {
+    id: 156,
+    image: "",
+    question: "A child has recurrent respiratory infections due to defective ciliary movement. Electron microscopy shows abnormal motile cilia. Which of the following proteins is most directly responsible for the sliding movement of microtubules in cilia and also functions as a motor protein moving cargo toward the minus end of microtubules inside cells?",
+    options: [
+      "Kinesin",
+      "Dynein",
+      "Myosin",
+      "Claudin"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Dynein"
+  },
+  {
+    id: 157,
+    image: "",
+    question: "In day-to-day potassium homeostasis, the final regulation of potassium excretion occurs mainly in the distal nephron. Which of the following renal cells is primarily responsible for potassium secretion under the influence of aldosterone?",
+    options: [
+      "Principal cells",
+      "Type A intercalated cells",
+      "Podocytes",
+      "Proximal convoluted tubular cells"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Principal cells"
+  },
+  {
+    id: 158,
+    image: "",
+    question: "A man with infertility evaluation has normal testicular volume but low sperm motility. Semen analysis reveals normal sperm count and normal fructose content. Which of the following events normally occurs in the female reproductive tract and enables sperm to fertilize the ovum?",
+    options: [
+      "Capacitation",
+      "Spermiation",
+      "Conversion of testosterone to dihydrotestosterone",
+      "Secretion of androgen-binding protein"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Capacitation"
+  },
+  {
+    id: 159,
+    image: "",
+    question: "A child with growth failure is found to have isolated deficiency of a pituitary hormone that normally increases amino acid uptake, promotes protein synthesis, mobilizes fat for energy use, decreases glucose utilization, and stimulates the liver to produce insulin-like growth factor 1. Which of the following hormones is most likely deficient?",
+    options: [
+      "Adrenocorticotropic hormone",
+      "Growth hormone",
+      "Oxytocin",
+      "Vasopressin"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Growth hormone"
+  },
+  {
+    id: 160,
+    image: "",
+    question: "A patient eats a large meal, causing distension of the stomach. Soon afterward, peristaltic activity increases in the ileum, helping propel intestinal contents toward the cecum. Which of the following reflexes best explains this response?",
+    options: [
+      "Enterogastric reflex",
+      "Gastroileal reflex",
+      "Colonoileal reflex",
+      "Renointestinal reflex"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Gastroileal reflex"
+  },
+  {
+    id: 161,
+    image: "",
+    question: "A healthy adult is undergoing cardiac catheterization. At the beginning of ventricular systole, both the 
 
+
+atrioventricular and semilunar valves are 
+closed, ventricular pressure rises rapidly, p
+and ventricular volume remains constant. Which phase of the cardiac cycle is this?",
+    options: [
+      "Rapid ventricular filling",
+      "Isovolumetric contraction",
+      "Rapid ejection",
+      "Isovolumetric relaxation"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Isovolumetric contraction"
+  },
+  {
+    id: 162,
+    image: "",
+    question: "A patient with adrenal insufficiency develops salt wasting and volume depletion. Which of the following hormones normally acts on the distal nephron to increase epithelial sodium channel activity and sodium-potassium adenosine triphosphatase activity, thereby increasing sodium reabsorption?",
+    options: [
+      "Atrial natriuretic peptide",
+      "Aldosterone",
+      "Angiotensin II",
+      "Norepinephrine"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Aldosterone"
+  },
+  {
+    id: 163,
+    image: "",
+    question: "A young woman develops recurrent episodes of optic neuritis, sensory symptoms, and weakness. Magnetic resonance imaging shows multiple central nervous system demyelinating plaques. Which of the following cells are primarily responsible for forming myelin in the central nervous system and are therefore the main cells affected in this disorder?",
+    options: [
+      "Schwann cells",
+      "Oligodendrocytes",
+      "Astrocytes",
+      "Microglia"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Oligodendrocytes"
+  },
+  {
+    id: 164,
+    image: "",
+    question: "A 40-year-old man complains of a rough sensation over the dorsum of his tongue after recovering from a febrile illness. On examination, the anterior two-thirds of the tongue shows numerous slender, conical projections that are keratinized and mechanical in function, but they are not involved in taste perception. Which of the following papillae is being described?",
+    options: [
+      "Fungiform papillae",
+      "Foliate papillae",
+      "Filiform papillae",
+      "Circumvallate papillae"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Filiform papillae"
+  },
+  {
+    id: 165,
+    image: "",
+    question: "A 45-year-old man undergoes a novel screening test for a severe disease, and the result comes back normal. However, a subsequent biopsy, which is the gold standard, confirms the presence of the disease. What does the initial screening test result represent, and why is it considered the most dangerous outcome?",
+    options: [
+      "False Positive",
+      "False Negative",
+      "True Negative",
+      "True Positive"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "False Negative"
+  },
+  {
+    id: 166,
+    image: "",
+    question: "A researcher is plotting the hemoglobin levels (measured in g/dL) of 500 pregnant women attending an antenatal clinic. Which graphical representation is the most appropriate for displaying this specific dataset?",
+    options: [
+      "Simple bar diagram",
+      "Spot map",
+      "Histogram",
+      "Scatter diagram"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Histogram"
+  },
+  {
+    id: 167,
+    image: "",
+    question: "A medical researcher is studying the prevalence of a specific adverse drug reaction in a busy outpatient department. The clinic registers 500 patients daily, and the researcher needs a sample of 50. He randomly selects the 7th patient of the morning, and thereafter systematically selects every 10th patient who registers (17th, 27th, 37th, etc.). Which sampling technique is being utilized in this study?",
+    options: [
+      "Simple random sampling",
+      "Stratified random sampling",
+      "Cluster random sampling",
+      "Systematic random sampling"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Systematic random sampling"
+  },
+  {
+    id: 168,
+    image: "",
+    question: "A public health researcher investigates the correlation between the per capita trans-fat consumption and the incidence of coronary artery disease across 40 different countries worldwide. In this specific epidemiological study, what is the fundamental unit of observation?",
+    options: [
+      "Entire populations",
+      "Individual patients",
+      "High-risk communities",
+      "Matched patient cohorts"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Entire populations"
+  },
+  {
+    id: 169,
+    image: "",
+    question: "An occupational physician uses a factory's 10-year-old employment logs to group past workers into those exposed and unexposed to a specific industrial solvent. He then reviews their subsequent medical records up to the present day to determine the incidence of peripheral neuropathy in both groups. By the time this study begins, both the exposure and the disease have already occurred. Which study design is this?",
+    options: [
+      "Retrospective cohort study",
+      "Case-control study",
+      "Ambispective cohort study",
+      "Prospective cohort study"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Retrospective cohort study"
+  },
+  {
+    id: 170,
+    image: "",
+    question: "A 40-year-old normotensive, apparently healthy male visits a clinic for a routine wellness check. The physician counsels him to actively restrict his daily dietary salt intake to prevent the future onset of hypertension. According to the epidemiological levels of prevention, how is this specific intervention classified?",
+    options: [
+      "Primordial prevention",
+      "Primary prevention",
+      "Secondary prevention",
+      "Tertiary prevention"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Primary prevention"
+  },
+  {
+    id: 171,
+    image: "",
+    question: "A public health team is implementing a community-based de-fluoridation program in a region with high fluoride levels in the groundwater. Which of the following is the standard, widely used domestic de-fluoridation method that involves the sequential addition of lime and alum?",
+    options: [
+      "Nalgonda technique",
+      "Reverse osmosis",
+      "Ion exchange method",
+      "Bone charcoal method"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Nalgonda technique"
+  },
+  {
+    id: 172,
+    image: "",
+    question: "A cultural anthropologist is studying the social dynamics in a region where individuals from two distinct cultural backgrounds have begun to extensively share customs and habits due to frequent intermarriage and shared educational environments. This phenomenon is best defined as:",
+    options: [
+      "Acculturation",
+      "Custom",
+      "Opinion",
+      "Belief"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Acculturation"
+  },
+  {
+    id: 173,
+    image: "",
+    question: "A medical college organizes an event where four renowned cardiologists present their individual research findings on heart failure to an audience of postgraduate students. Each expert speaks one after the other in a predefined order. They do not interact or debate with one another during their presentations. Which communication method is being utilized?",
+    options: [
+      "Focused Group Discussion",
+      "Panel Discussion",
+      "Symposium",
+      "Workshop"
+    ],
+    answerIndex: 2,
+    correctAnswerText: "Symposium"
+  },
+  {
+    id: 174,
+    image: "",
+    question: "Under the Anemia Mukt Bharat strategy, which prophylactic Iron and Folic Acid (IFA) preparation is strictly indicated for a 7-year-old school-going child?",
+    options: [
+      "Pink tablet (45 mg Iron + 400 mcg FA)",
+      "Blue tablet (60 mg Iron + 500 mcg FA)",
+      "Red tablet (60 mg Iron + 500 mcg FA)",
+      "Liquid drops (20 mg Iron + 100 mcg FA)"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Pink tablet (45 mg Iron + 400 mcg FA)"
+  },
+  {
+    id: 175,
+    image: "",
+    question: "A district health officer observes a constant, year-round presence of measles in a specific community. The disease exclusively affects the pediatric age group, while adults are entirely spared. This pattern of disease occurrence is best classified as:",
+    options: [
+      "Holoendemic",
+      "Hyperendemic",
+      "Epidemic",
+      "Pandemic"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "Holoendemic"
+  },
+  {
+    id: 176,
+    image: "",
+    question: "A 6-year-old completely unimmunized child is brought to a rural health camp by his parents. The medical officer is planning a catch-up vaccination schedule. Based on the maximum age cutoffs under the National Immunization Schedule (NIS), which of the following vaccines is indicated for this child?",
+    options: [
+      "DPT",
+      "Oral Polio Vaccine (OPV)",
+      "Measles-Rubella (MR)",
+      "Japanese Encephalitis (JE)"
+    ],
+    answerIndex: 0,
+    correctAnswerText: "DPT"
+  },
+  {
+    id: 177,
+    image: "",
+    question: "A public health researcher intends to investigate a rare cancer suspected to be associated with an environmental exposure that occurred 20 years ago. Which study design is the most appropriate to initially evaluate this association?",
+    options: [
+      "Cross-sectional study",
+      "Case-Control study",
+      "Prospective Cohort study",
+      "Randomized Controlled Trial"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Case-Control study"
+  },
+  {
+    id: 178,
+    image: "",
+    question: "Although human breast milk provides optimal nutrition for growing neonates, it is classically considered a poor source of which of the following trace minerals?",
+    options: [
+      "Calcium",
+      "Iron",
+      "Magnesium",
+      "Phosphorus"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Iron"
+  },
+  {
+    id: 179,
+    image: "",
+    question: "A 62-year-old retired industrial worker presents with severe fatigue, recurrent infections, and pancytopenia. His occupational history reveals a 20-year history of handling benzene-based solvents in a manufacturing plant. Based on his specific occupational exposure, he is at the highest risk of developing which of the following malignancies?",
+    options: [
+      "Hepatic angiosarcoma",
+      "Lung carcinoma",
+      "Transitional cell carcinoma of bladder",
+      "Leukemia"
+    ],
+    answerIndex: 3,
+    correctAnswerText: "Leukemia"
+  },
+  {
+    id: 180,
+    image: "",
+    question: "A 3-year-old child presents to the rural health clinic with bowing of legs, difficulty in walking, and severe undernutrition. Which of the following national programs primarily deals with providing supplementary nutrition to prevent such deficiencies in this specific age group?",
+    options: [
+      "Mid-Day Meal Scheme",
+      "Integrated Child Development Services",
+      "Rashtriya Bal Swasthya Karyakram",
+      "Janani Suraksha Yojana"
+    ],
+    answerIndex: 1,
+    correctAnswerText: "Integrated Child Development Services"
+   }
 ];
