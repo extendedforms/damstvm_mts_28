@@ -275,7 +275,7 @@ window.questions = [
   },
   {
     id: 22,
-    image: "",
+    image: "images/IMG_2224.jpeg",
     question: "A 60-year-old obese female with long-standing varicose veins presents with severe induration of her lower left leg. On examination, the skin over the affected area is chronically inflamed, fibrosed, and feels exceptionally tight and \"woody,\" leading to early Achilles tendon contracture. According to the CEAP classification, how is this specific clinical finding categorized?",
     options: [
       "Class C4a",
@@ -301,7 +301,7 @@ window.questions = [
   },
   {
     id: 24,
-    image: "",
+    image: "images/IMG_2225.jpeg",
     question: "A surgical resident is closing a high-tension fascial wound. To prevent the first throw from slipping before the second throw is placed, she performs a double-wrap throw followed by a single-wrap throw in the reversed direction. Which of the following specific knots is she creating?",
     options: [
       "Square knot",
@@ -366,7 +366,7 @@ window.questions = [
   },
   {
     id: 29,
-    image: "",
+    image: "images/IMG_2239.jpeg",
     question: "A 35-year-old woman develops perioral numbness and carpopedal spasm 4 days after undergoing a total thyroidectomy. Which of the following is the most frequent complication responsible for her clinical presentation?",
     options: [
       "Hypoparathyroidism",
@@ -392,7 +392,7 @@ window.questions = [
   },
   {
     id: 31,
-    image: "",
+    image: "images/IMG_2227.jpeg",
     question: "A 7-year-old boy presents with progressive difficulty in retracting his foreskin and straining during micturition. The parents report noticeable ballooning of the prepuce when he voids. Examination reveals a whitish, densely scarred, and indurated preputial ring. If left untreated, which of the following is the most significant long-term complication of this specific disease process?",
     options: [
       "Squamous cell carcinoma of the prostate",
@@ -405,7 +405,7 @@ window.questions = [
   },
   {
     id: 32,
-    image: "",
+    image: "images/IMG_2240.jpeg",
     question: "A newborn is evaluated in the nursery for multiple congenital anomalies. Examination reveals an amputated right index finger, a deep constriction ring around the left ankle, and an asymmetric facial cleft. The mother had a regular, uncomplicated pregnancy. Which of the following is the most likely underlying mechanism for this specific combination of anomalies?",
     options: [
       "Genetic mutation of the Sonic Hedgehog (SHH) gene",
@@ -431,7 +431,7 @@ window.questions = [
   },
   {
     id: 34,
-    image: "",
+    image: "images/IMG_2241.jpeg",
     question: "A primigravida has just delivered a healthy term infant. The obstetrician proceeds with the active management of the third stage of labor and performs Controlled Cord Traction (CCT). What is the primary anatomical purpose of applying suprapubic counter-traction during this maneuver?",
     options: [
       "To accelerate placental separation",
@@ -522,7 +522,7 @@ window.questions = [
   },
   {
     id: 41,
-    image: "",
+    image: "images/IMG_2231.jpeg",
     question: "A 58-year-old postmenopausal woman presents with progressive abdominal distension. Ultrasound reveals a 10 cm bilateral complex ovarian mass with papillary excrescences and irregular septations. She has significant ascites and her CA-125 is highly elevated. Which of the following genetic mutations is most strongly associated with her most likely diagnosis?",
     options: [
       "TP53",
@@ -561,7 +561,7 @@ window.questions = [
   },
   {
     id: 44,
-    image: "",
+    image: "images/IMG_2232.jpeg",
     question: "A 65-year-old multiparous woman presents with a persistent dragging sensation in her pelvis and a mass protruding from her vagina. Pelvic examination confirms significant descent of the uterus into the vaginal canal. Weakening or traumatic disruption of which of the following structures is primarily responsible for this loss of apical support?",
     options: [
       "Round ligament",
@@ -574,7 +574,7 @@ window.questions = [
   },
   {
     id: 45,
-    image: "",
+    image: "images/IMG_2234.jpeg",
     question: "A 28-year-old primigravida is undergoing an assisted vaginal breech delivery. After the delivery of the fetal trunk, the shoulders become impacted and scapular winging is prominently observed. The obstetrician grasps the fetal pelvis with thumbs along the sacrum and rotates the trunk 180 degrees. Which of the following maneuvers is being performed?",
     options: [
       "Lovset maneuver",
@@ -613,7 +613,7 @@ window.questions = [
   },
   {
     id: 48,
-    image: "",
+    image: "images/IMG_2233.jpeg",
     question: "A 62-year-old nulliparous woman with a BMI of 34 and a history of type 2 diabetes presents with two recent episodes of postmenopausal bleeding. Following an initial workup, she undergoes a total hysterectomy. The gross pathological evaluation of the uterus reveals a large, irregular, friable, and hemorrhagic mass projecting into and filling the endometrial cavity. Based on her clinical risk factors and gross findings, the most likely histological subtype of her tumor is strictly associated with which of the following genetic abnormalities?",
     options: [
       "BRCA1 mutation",
@@ -639,7 +639,7 @@ window.questions = [
   },
   {
     id: 50,
-    image: "",
+    image: "images/IMG_2235.jpeg",
     question: "A 44-year-old woman presents with severe secondary dysmenorrhea and heavy menstrual bleeding. Pelvic examination reveals a uniformly enlarged, tender, and \"boggy\" uterus. A sagittal T2-weighted pelvic MRI is performed. Which of the following radiological findings is most characteristic of her underlying pathology?",
     options: [
       "Well-circumscribed, discrete hypointense myometrial mass",
@@ -678,7 +678,7 @@ window.questions = [
   },
   {
     id: 53,
-    image: "",
+    image: "images/IMG_2236.jpeg",
     question: "A 7-year-old child presents with a high-grade fever and productive cough. A chest radiograph reveals a homogeneous air-space opacity in the right upper lobe with visible air-filled bronchi surrounded by the opacity. Which of the following radiographic features most reliably differentiates this specific pathological process from atelectasis?",
     options: [
       "Preserved lung volume with no significant collapse",
@@ -795,7 +795,7 @@ window.questions = [
   },
   {
     id: 62,
-    image: "",
+    image: "images/IMG_2237.jpeg",
     question: "A 12-year-old boy from a low-socioeconomic background presents with a progressive eruption of multiple plugged keratotic papules over his extensor extremities, clinically diagnosed as phrynoderma. Given the most likely underlying nutritional etiology, which of the following is the most crucial next step in his clinical evaluation to prevent a severe, irreversible complication?",
     options: [
       "Audiometry to screen for sensorineural hearing loss",
