@@ -2083,12 +2083,7 @@ window.questions = [
   {
     id: 161,
     image: "",
-    question: "A healthy adult is undergoing cardiac catheterization. At the beginning of ventricular systole, both the 
-
-
-atrioventricular and semilunar valves are 
-closed, ventricular pressure rises rapidly, p
-and ventricular volume remains constant. Which phase of the cardiac cycle is this?",
+    question: "A healthy adult is undergoing cardiac catheterization. At the beginning of ventricular systole, both the atrioventricular and semilunar valves are closed, ventricular pressure rises rapidly, and ventricular volume remains constant. Which phase of the cardiac cycle is this?",
     options: [
       "Rapid ventricular filling",
       "Isovolumetric contraction",
